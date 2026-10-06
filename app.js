@@ -99,7 +99,7 @@ function rebuildIngredientIndex(){
 }
 async function loadRecipeDB(){
  try{
-  const res=await fetch("data/recipes.json?v=0.2.1",{cache:"no-store"});
+  const res=await fetch("data/recipes.json?v=0.2.2",{cache:"no-store"});
   const data=await res.json(); DB_RECIPES=data.recipes||[];
  }catch(err){console.warn("Recipe DB unavailable; using bundled fallback.",err)}
 }
@@ -300,14 +300,41 @@ function updateRecipeAllergens(r){
  const info=recipeAllergenSummary(r),status=document.createElement("p"),note=document.createElement("p");status.className="allergy-status";
  const names=info.contains.map(x=>lang==="ko"?x:(ALLERGEN_NAMES_EN[x]||x));status.textContent=names.length?tr("⚠ Included ingredient allergens: ","⚠ 포함된 재료의 알레르기 성분: ")+names.join(" · "):tr("Allergen information needs checking","알레르기 정보 확인 필요");
  note.textContent=tr("Based on the current recipe ingredients and amounts. Removing an ingredient does not rule out cross-contact. Product labels and additional ingredients still need checking.","현재 레시피의 재료와 입력한 양을 기준으로 표시합니다. 재료를 빼도 혼입 가능성이 없어지는 것은 아닙니다. 사용 제품의 표시사항과 추가 재료를 확인하세요.");box.append(status,note);
+ if(r.id==="dakbokkeumtang_reference"){const p=document.createElement("p");p.textContent=tr("Additional check: verify the allergen labels of your gochujang and soy sauce. Other versions of this dish may use different ingredients.","추가 확인: 사용하는 고추장·간장 제품의 알레르기 표시를 확인하세요. 다른 조리법이나 업소의 닭볶음탕은 재료가 다를 수 있습니다.");box.append(p)}
  if(info.unchecked.length){const p=document.createElement("p");p.textContent=tr("No connected allergen data: ","알레르기 자료 미연결 재료: ")+info.unchecked.join(", ");box.append(p)}appendAllergenGuide(box);
+}
+function setFoodAdviceMode(mode){
+ const tips=mode==="tips",dish=mode==="dish";
+ $("foodAdviceIcon").textContent=tips?"🥜":"⚠️";
+ $("foodAdviceLabel").textContent=tips?tr("INGREDIENT TIPS","재료 참고정보"):tr("ALLERGY","알레르기 정보");
+ $("foodAdviceTitle").textContent=tips?tr("Eating and choosing tips","먹을 때 참고할 점"):dish?tr("Allergens and ingredients","알레르기·재료 확인"):tr("Allergy information","알레르기 정보");
+ $("foodAdviceNote").textContent=tips?tr("Amount examples are calculations, not a recommended serving. Check individual food allergies separately.","먹는 양 예시는 계산 참고용이며 권장량이 아닙니다. 개인별 식품 알레르기는 별도로 확인하세요."):tr("For safety, check product labels and individual medical advice.","안전을 위해 제품 표시사항과 개인별 의료 조언을 함께 확인하세요.");
+ $("foodAdviceCard").classList.toggle("ingredient-tips-card",tips);
+}
+function appendFoodAdvice(host,title,text){const section=document.createElement("div"),h=document.createElement("h4"),p=document.createElement("p");section.className="food-advice-item";h.textContent=title;p.textContent=text;section.append(h,p);host.append(section)}
+function renderPeanutTips(db){
+ const host=$("allergyContent"),kcal=db?.nutrition_per_100g?.kcal;host.innerHTML="";setFoodAdviceMode("tips");
+ appendFoodAdvice(host,tr("Compare the same preparation","조리 상태를 맞춰 고르기"),tr("These values are for dried peanuts. Roasted, salted or coated peanuts and peanut butter are separate foods; choose the matching record.","현재 값은 말린 땅콩 기준입니다. 볶은 땅콩·소금첨가 땅콩·코팅 땅콩·땅콩버터는 해당 항목을 따로 선택하세요."));
+ appendFoodAdvice(host,tr("Amount examples","먹는 양으로 계산해 보기"),Number.isFinite(kcal)?tr(`20g: ${Math.round(kcal*0.2)} kcal · 30g: ${Math.round(kcal*0.3)} kcal. Enter your actual edible amount in the calculator.`,`20g은 ${Math.round(kcal*0.2)}kcal, 30g은 ${Math.round(kcal*0.3)}kcal입니다. 실제 먹는 땅콩의 무게를 계산기에 입력하세요.`):tr("Verified energy is not connected yet. No amount estimate is shown.","검증된 열량이 아직 연결되지 않아 먹는 양별 예상값은 표시하지 않습니다."));
+ appendFoodAdvice(host,tr("When choosing a product","제품으로 먹을 때 확인하기"),tr("For peanut snacks, sauces or peanut butter, compare the product's sugar, sodium and allergen labeling. Ingredient nutrition is not the finished product's nutrition.","땅콩과자·땅콩소스·땅콩버터는 제품별 당류·나트륨·알레르기 표시를 확인하세요. 기본 땅콩의 영양값을 완성 제품의 값으로 사용하지 마세요."));
+}
+function isDakbokkeumtang(db){return /닭볶음탕|닭도리탕/.test(db?.names?.ko||"")&&db?.verification_status!=="product_label"}
+function renderDakFoodAdvice(){
+ const host=$("allergyContent");host.innerHTML="";setFoodAdviceMode("dish");
+ appendFoodAdvice(host,tr("Check the recipe you actually use","실제 조리법을 기준으로 확인"),tr("The reference recipe uses chicken, potato, onion, carrot, gochujang, soy sauce and garlic. Its chicken ingredient is an allergen source. This does not establish every restaurant or product's ingredients.","아래 참고 레시피는 닭고기·감자·양파·당근·고추장·간장·마늘을 사용합니다. 이 예시의 닭고기는 알레르기 유발 식품에 해당합니다. 모든 업소·제품의 원재료가 같다는 뜻은 아닙니다."));
+ appendFoodAdvice(host,tr("Check seasoning labels","양념에서 추가로 확인"),tr("Check the allergen labels on the gochujang and soy sauce you use. Their complete allergen composition has not been verified here.","사용하는 고추장·간장의 알레르기 표시를 따로 확인하세요. 이곳에서는 해당 양념 제품의 전체 알레르기 원료를 아직 확인하지 않았습니다."));
+ const recipe=DB_RECIPES.find(x=>x.id==="dakbokkeumtang_reference");if(recipe){const button=document.createElement("button");button.type="button";button.className="advice-recipe-button";button.textContent=tr("View reference recipe and ingredients →","참고 레시피·재료 확인 →");button.onclick=()=>{lastRecipeTrigger=button;returnTarget="result";renderDBRecipe(recipe)};host.append(button)}
+ appendAllergenGuide(host);
 }
 function renderAllergy(key){
  const host=$("allergyContent"),db=getIngredient(key),info=ingredientAllergenInfo(key);
+ if(db?.id==="peanut_dried"){renderPeanutTips(db);return}
+ if(isDakbokkeumtang(db)){renderDakFoodAdvice();return}
+ setFoodAdviceMode("allergy");
  if(info?.contains?.length){
   host.innerHTML="";const status=document.createElement("p"),note=document.createElement("p"),link=document.createElement("a");
   const names=info.contains.map(x=>lang==="ko"?x:(ALLERGEN_NAMES_EN[x]||x)).join(" · ");
-  status.className="allergy-status";status.textContent=tr("⚠ Food allergen: ","⚠ 알레르기 유발 성분: ")+names;
+  status.className="allergy-status";status.textContent=tr("⚠ Food allergen: ","⚠ 알레르기 유발 식품·원료: ")+names;
   note.textContent=tr("This ingredient contains an allergen listed by MFDS. Other allergens and shared-facility notices depend on the packaged product; check its label.","이 재료는 식약처가 안내하는 알레르기 유발 성분에 해당하거나 이를 포함합니다. 다른 알레르기 원료와 같은 제조시설 안내는 개별 제품 표시를 확인하세요.");
   link.href=info.source_url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=tr("MFDS allergen information ↗","식약처 알레르기 정보 출처 ↗");host.append(status,note,link);appendAllergenGuide(host);return;
  }
@@ -370,6 +397,7 @@ function renderDishCards(list,target){
  });
 }
 function renderRecipe(d,scroll=true){
+ const pilot=d.id==="dak"&&DB_RECIPES.find(x=>x.id==="dakbokkeumtang_reference");if(pilot){renderDBRecipe(pilot,scroll);return}
  currentDish=d;["recipeNutritionLive","recipeNutritionNotice","recipeAllergens"].forEach(id=>$(id)?.classList.add("hidden"));$("recipe").classList.remove("hidden");$("recipeName").textContent=tr(d.name,d.nameKo);$("recipeMeta").textContent=tr("Approx. ","약 ")+d.time;
  $("recipeIngredients").innerHTML=(lang==="ko"?d.ingKo:d.ing).map(x=>"<li>"+x+"</li>").join("");
  $("recipeSteps").innerHTML=(lang==="ko"?d.stepsKo:d.steps).map(x=>"<li>"+x+"</li>").join("");
@@ -461,7 +489,7 @@ function countrySearch(q){
  matches.forEach(([en,m])=>{const d=document.createElement("div");d.className="country-result";d.tabIndex=0;d.setAttribute("role","button");d.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();d.click()}});d.innerHTML='<span>'+m[0]+'</span><b>'+tr(en,m[1])+'</b><small>'+tr("Open →","보기 →")+'</small>';d.onclick=()=>openCountry(en,"All");host.appendChild(d)})
 }
 $("countrySearchForm").addEventListener("submit",e=>{e.preventDefault();countrySearch($("countrySearchInput").value)});
-const RECIPE_LABELS_KO={egg_whole:"달걀",bacon:"베이컨",basil:"바질",beef_ground:"다진 소고기",beef_rib:"소갈비",bell_pepper:"피망",black_pepper:"후추",bread_white:"식빵",butter:"버터",canola_oil:"카놀라유",chili_powder_kr:"고춧가루",cumin:"커민",doenjang:"된장",fish_cake:"어묵",garaetteok:"가래떡",ginger:"생강",gochujang:"고추장",green_chili:"풋고추",heavy_cream:"생크림",kimchi:"김치",lime:"라임",olive_oil:"올리브유",parmesan:"파르메산 치즈",pasta_dry:"건조 파스타",pork_loin:"돼지 등심",radish:"무",rice_vinegar:"쌀식초",sesame_oil:"참기름",soy_sauce_kr:"간장",soybean_sprout:"콩나물",spinach:"시금치",tapioca:"타피오카",tortilla_wheat:"밀 토르티야",udon:"우동면",wheat_flour:"밀가루",white_sugar:"설탕",zucchini:"주키니"};
+const RECIPE_LABELS_KO={chicken:"닭고기",egg_whole:"달걀",bacon:"베이컨",basil:"바질",beef_ground:"다진 소고기",beef_rib:"소갈비",bell_pepper:"피망",black_pepper:"후추",bread_white:"식빵",butter:"버터",canola_oil:"카놀라유",chili_powder_kr:"고춧가루",cumin:"커민",doenjang:"된장",fish_cake:"어묵",garaetteok:"가래떡",ginger:"생강",gochujang:"고추장",green_chili:"풋고추",heavy_cream:"생크림",kimchi:"김치",lime:"라임",olive_oil:"올리브유",parmesan:"파르메산 치즈",pasta_dry:"건조 파스타",pork_loin:"돼지 등심",radish:"무",rice_vinegar:"쌀식초",sesame_oil:"참기름",soy_sauce_kr:"간장",soybean_sprout:"콩나물",spinach:"시금치",tapioca:"타피오카",tortilla_wheat:"밀 토르티야",udon:"우동면",wheat_flour:"밀가루",white_sugar:"설탕",zucchini:"주키니"};
 function dbIngredientName(id){
  const x=getIngredient(id); if(x)return ingredientDisplayName(x);
  return lang==="ko"?(RECIPE_LABELS_KO[id]||id.replaceAll("_"," ")):id.replaceAll("_"," ");
@@ -504,7 +532,7 @@ function updateDBRecipeNutrition(){
 function renderDBRecipe(r,scroll=true){
  currentDish=r;$("recipe").classList.remove("hidden");
  $("recipeName").textContent=lang==="ko"?r.names.ko:r.names.en;
- $("recipeMeta").textContent=tr(r.country+" · "+r.region+" · "+r.servings+" servings",r.country+" · "+r.region+" · "+r.servings+"인분 · 표준 레시피 기준");
+ $("recipeMeta").textContent=tr(r.country+" · "+r.region+" · "+r.servings+" servings",r.country+" · "+r.region+" · "+r.servings+"인분 · "+(r.example_recipe?"참고용 기본 예시":"표준 레시피 기준"));
  $("recipeIngredients").innerHTML=r.ingredients.map((x,i)=>'<li data-ri="'+i+'"><span>'+dbIngredientName(x.ingredient_id)+'</span> <input class="recipe-amount" data-i="'+i+'" aria-label="'+dbIngredientName(x.ingredient_id)+' '+tr("amount (","섭취량 (")+x.unit+")"+'" type="number" min="0" max="10000" step="1" inputmode="decimal" value="'+x.amount+'" style="width:78px"> '+x.unit+' <button type="button" class="recipe-remove" data-i="'+i+'">'+tr("Remove","빼기")+'</button></li>').join("");
  $("recipeSteps").innerHTML=(lang==="ko"?r.steps.ko:r.steps.en).map(x=>"<li>"+x+"</li>").join("");
  let note=document.getElementById("recipeNutritionNotice");
