@@ -9,6 +9,7 @@ Object.assign(BASIC_INGREDIENT_NAMES,{"milk": "우유", "egg_whole": "달걀", "
 let DB_RECIPES=[];
 let bulkLoadState="loading";
 let FOOD_DETAILS={};
+let FOOD_ADVICE_BATCH={};
 async function loadFoodDetails(){
  try{
  const records=await Promise.all(Array.from({length:10},async(_,i)=>{
@@ -128,6 +129,7 @@ async function loadBulkNutritionDB(){
    }else txt=new TextDecoder().decode(u8);
    return JSON.parse(txt);
   };
+  try{const advice=await fetch("data/food-advice-batch-1.json?v=20261007",{cache:"no-store"});if(advice.ok){const data=await advice.json();if(data.record_count===5000&&Object.keys(data.records||{}).length===5000)FOOD_ADVICE_BATCH=data.records}}catch(err){console.warn("Food advice batch unavailable; keeping existing guidance",err)}
   const settled=await Promise.allSettled(urls.map(loadGzipJson)),sets=settled.filter(x=>x.status==="fulfilled").map(x=>x.value),failed=settled.filter(x=>x.status==="rejected");
   DB_BULK=[];
   sets.forEach(data=>{const cols=data.columns||[];DB_BULK.push(...(data.rows||[]).map(r=>bulkToIngredient(r,cols)))});
@@ -330,7 +332,7 @@ function renderBasicFoodTips(db){
  appendFoodAdvice(host,tr("Calculate the edible amount","먹는 부분의 무게로 계산"),isMass&&Number.isFinite(kcal)?tr(`50g: ${Math.round(kcal*0.5)} kcal · 100g: ${Math.round(kcal)} kcal. Remove discarded parts before weighing; these are calculation examples, not serving recommendations.`,`50g은 ${Math.round(kcal*0.5)}kcal, 100g은 ${Math.round(kcal)}kcal입니다. 껍질·씨·뼈 등 먹지 않는 부분을 제외한 무게를 입력하세요. 예시 무게는 권장 섭취량이 아닙니다.`):tr("Use the amount and unit shown in the calculator. Unconnected nutrient values remain blank.","계산기에 표시된 기준 단위와 섭취량을 확인하세요. 아직 연결되지 않은 영양값은 빈칸으로 표시됩니다."));
  appendFoodAdvice(host,tr("When prepared with other ingredients","양념하거나 제품으로 먹을 때"),tr("Added sugar, salt, oil and sauces change nutrition. Choose the matching product or calculate its recipe; check allergen labeling for the actual ingredients.","설탕·소금·기름·소스를 더하면 영양값이 달라집니다. 가공 제품은 해당 제품을 고르고, 요리는 사용한 재료로 계산하세요. 알레르기는 실제 제품 표시와 조리 재료를 확인하세요."));
 }
-function isDakbokkeumtang(db){return /닭볶음탕|닭도리탕/.test(db?.names?.ko||"")&&db?.verification_status!=="product_label"}
+function isDakbokkeumtang(db){return /^(닭볶음탕|닭도리탕)$/.test(db?.names?.ko||"")&&db?.verification_status!=="product_label"&&db?.sources?.[0]?.data_type!=="가공식품"}
 function renderDakFoodAdvice(){
  const host=$("allergyContent");host.innerHTML="";setFoodAdviceMode("dish");
  appendFoodAdvice(host,tr("Check the recipe you actually use","실제 조리법을 기준으로 확인"),tr("The reference recipe uses chicken, potato, onion, carrot, gochujang, soy sauce and garlic. Its chicken ingredient is an allergen source. This does not establish every restaurant or product's ingredients.","아래 참고 레시피는 닭고기·감자·양파·당근·고추장·간장·마늘을 사용합니다. 이 예시의 닭고기는 알레르기 유발 식품에 해당합니다. 모든 업소·제품의 원재료가 같다는 뜻은 아닙니다."));
@@ -338,11 +340,24 @@ function renderDakFoodAdvice(){
  const recipe=DB_RECIPES.find(x=>x.id==="dakbokkeumtang_reference");if(recipe){const button=document.createElement("button");button.type="button";button.className="advice-recipe-button";button.textContent=tr("View reference recipe and ingredients →","참고 레시피·재료 확인 →");button.onclick=()=>{lastRecipeTrigger=button;returnTarget="result";renderDBRecipe(recipe)};host.append(button)}
  appendAllergenGuide(host);
 }
+function reviewedFoodAdvice(db){
+ const src=db?.sources?.[0],record=FOOD_ADVICE_BATCH[src?.food_code];
+ return record&&record.name===db.names.ko&&record.type===src.data_type&&record.basis===src.basis?record:null;
+}
+function renderReviewedFoodAdvice(db,record){
+ const host=$("allergyContent"),product=record.type==="가공식품";host.innerHTML="";setFoodAdviceMode("dish");
+ $("foodAdviceTitle").textContent=product?tr("Product label and allergens","제품 표시·알레르기 확인"):tr("Allergens and ingredients","알레르기·재료 확인");
+ appendFoodAdvice(host,tr("Confirmed in the source","자료에서 확인된 내용"),tr(`The official source classifies this record as ${product?"processed food":"a dish"}. Nutrition uses ${record.basis}; allergen composition is not included.`,`공식 자료에서 ‘${record.type}’으로 분류된 항목입니다. 영양정보는 ${record.basis} 기준이며, 이 자료에는 원재료별 알레르기 정보가 포함되어 있지 않습니다.`));
+ appendFoodAdvice(host,product?tr("Check the exact package","실제 제품 포장에서 확인"):tr("Check the actual recipe","실제 조리 재료로 확인"),product?tr("Match the manufacturer, product name and package size. Check its ingredients, allergen declaration and shared-facility notice; similarly named products may differ.","제조업체·제품명·포장 용량을 맞춘 뒤 원재료명, 알레르기 표시, 같은 제조시설 안내를 확인하세요. 이름이 비슷해도 제품별 원료는 다를 수 있습니다."):tr("Ingredients and sauces vary by recipe and restaurant. Ask about the actual ingredients and allergen or cross-contact information; the dish name does not establish its composition.","조리법·업소에 따라 재료와 양념이 달라집니다. 실제 사용한 재료·소스와 알레르기·혼입 안내를 확인하세요. 음식 이름만으로 포함 원료를 확정하지 않습니다."));
+ appendFoodAdvice(host,tr("Verification status","알레르기 확인 상태"),tr("Allergen composition has not been verified. Missing information does not mean allergy-free.","원재료별 알레르기 정보는 아직 확인되지 않았습니다. 정보가 없다는 뜻과 알레르기가 없다는 뜻은 다릅니다."));
+ appendAllergenGuide(host);
+}
 function renderAllergy(key){
  const host=$("allergyContent"),db=getIngredient(key),info=ingredientAllergenInfo(key);
  if(db?.id==="peanut_dried"){renderPeanutTips(db);return}
  if(isBasicFoodAdvice(db)){renderBasicFoodTips(db);return}
  if(isDakbokkeumtang(db)){renderDakFoodAdvice();return}
+ const reviewed=reviewedFoodAdvice(db);if(reviewed){renderReviewedFoodAdvice(db,reviewed);return}
  setFoodAdviceMode("allergy");
  if(info?.contains?.length){
   host.innerHTML="";const status=document.createElement("p"),note=document.createElement("p"),link=document.createElement("a");

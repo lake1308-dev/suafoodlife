@@ -1,0 +1,246 @@
+{
+  "record_count": 5000,
+  "source_record_count": 50000,
+  "selection": "First 2500 eligible records per official food type, sorted by food code",
+  "checks": [
+    "Unique food codes",
+    "Exact source names and food types",
+    "100g/100ml basis preserved",
+    "Nutrition unchanged",
+    "No allergens inferred"
+  ],
+  "inputs": [
+    {
+      "path": "data/nutrition-bulk-1000.json.gz",
+      "sha256": "705be315d4f4c968b184f22244ee4649792ad25208b4088170390b56acaf18a0"
+    },
+    {
+      "path": "data/nutrition-bulk-10001-11000.json.gz",
+      "sha256": "7bbebd8883d46e515b069e7d1038e98980c87dba7618687b13d01a56669f6b13"
+    },
+    {
+      "path": "data/nutrition-bulk-1001-2000-p1.json.gz",
+      "sha256": "99435f52c77cf9e2c5895d27d3797413e2dd5c56c289d9fc2b59a6ae8fec4412"
+    },
+    {
+      "path": "data/nutrition-bulk-1001-2000-p2.json.gz",
+      "sha256": "3b035bcabc54c7c97bb9726d28b33daf234caeef1e49be6298cf9fc07b6be34d"
+    },
+    {
+      "path": "data/nutrition-bulk-1001-2000-p3.json.gz",
+      "sha256": "01ae74a9dc3a27583ed5630cde5f255bb278f6ef18dde6e46f5e9665181e81ae"
+    },
+    {
+      "path": "data/nutrition-bulk-1001-2000-p4.json.gz",
+      "sha256": "46c3c132f867e2e02cc1beb6cb340fb2f381ce49e18e369a163b6d6f18164e48"
+    },
+    {
+      "path": "data/nutrition-bulk-1001-2000-p5.json.gz",
+      "sha256": "0bf912698202a6ce03e576c455822d9a95f11aba47714969648f14581d67cfc2"
+    },
+    {
+      "path": "data/nutrition-bulk-11001-12000.json.gz",
+      "sha256": "b217006ccc8a4cc4c850a4c2208aa72a1a82fe403bd87ef02ac67fb5a96dc9b4"
+    },
+    {
+      "path": "data/nutrition-bulk-12001-13000.json.gz",
+      "sha256": "888e65ec4653e6a4eaaa3ef30dfa7562b716f660d990de8dc39022a2edf131fa"
+    },
+    {
+      "path": "data/nutrition-bulk-13001-14000.json.gz",
+      "sha256": "c5cbad4265ab1214baa95ce3eca52194836d09d064afbc58079e4960e2bfa4c6"
+    },
+    {
+      "path": "data/nutrition-bulk-14001-15000.json.gz",
+      "sha256": "ff5314110dbc499296fd8145d8b19600dd3626d7013e58be619a5dbe2b90dfd5"
+    },
+    {
+      "path": "data/nutrition-bulk-15001-16000.json.gz",
+      "sha256": "e93a8de8918463862a004779212d5c786018db8273c475b5c7135bd6d1a0efd1"
+    },
+    {
+      "path": "data/nutrition-bulk-16001-17000.json.gz",
+      "sha256": "6ad32217179840dc4ac2016eeb311bc15caa04b7a81e765585e18edc1d4a312b"
+    },
+    {
+      "path": "data/nutrition-bulk-17001-18000.json.gz",
+      "sha256": "243311855e22525adaa84d6eb6f433c470fdb1257ead09cd42bb913d32eb64ba"
+    },
+    {
+      "path": "data/nutrition-bulk-18001-19000.json.gz",
+      "sha256": "0d4ea8e2a1de653d74ed0bb17268499363ff4507f16e3de5d8b4d3466655794e"
+    },
+    {
+      "path": "data/nutrition-bulk-19001-20000.json.gz",
+      "sha256": "16faa68e67f7898e1b18d1b390d6e505064b94f756a9168890722fd0c6ea4ead"
+    },
+    {
+      "path": "data/nutrition-bulk-20001-21000.json.gz",
+      "sha256": "acac6f22149f36a86f8d0adaed34ec39553ff7bf3e5270b351fccbeac8bbff43"
+    },
+    {
+      "path": "data/nutrition-bulk-2001-3000-p1.json.gz",
+      "sha256": "d3e8adb1180279ba68ea618472a5b487a7671896b9452d365e7d1a3526a1bacc"
+    },
+    {
+      "path": "data/nutrition-bulk-2001-3000-p2.json.gz",
+      "sha256": "d32787c302c20352470db0691352d7526890a94ae0a275070d904907c2f8a4dd"
+    },
+    {
+      "path": "data/nutrition-bulk-2001-3000-p3.json.gz",
+      "sha256": "d0ebca38679b0b01e3c4d3e8f4a821bd204c953322946bfa8d21bd0f63e6e48e"
+    },
+    {
+      "path": "data/nutrition-bulk-2001-3000-p4.json.gz",
+      "sha256": "0a03a617850ba364a285035e837a8fe48ed1cd0ac9c9dbe40d14a0fb7198f1f9"
+    },
+    {
+      "path": "data/nutrition-bulk-2001-3000-p5.json.gz",
+      "sha256": "da41e2f6e1a3c3f05e4e194c6c909ad44a6770245740f0ed0718f04dd511be06"
+    },
+    {
+      "path": "data/nutrition-bulk-21001-22000.json.gz",
+      "sha256": "e0ff5153160a1c8a886a16b556282d89403565ff743edc5965914264083fb68b"
+    },
+    {
+      "path": "data/nutrition-bulk-22001-23000.json.gz",
+      "sha256": "dfaf969020888a7f366c6880887fe88cc408de49a1d3dc7736eb4d022276ef82"
+    },
+    {
+      "path": "data/nutrition-bulk-23001-24000.json.gz",
+      "sha256": "c97e2fd1551964fe8a6bcf769324d5fba235985b185d4fc15847e327629b8f2c"
+    },
+    {
+      "path": "data/nutrition-bulk-24001-25000.json.gz",
+      "sha256": "1c5f6e6c1b428be453b396f7e31b305828f1d647093f117df7195a68fb08820d"
+    },
+    {
+      "path": "data/nutrition-bulk-25001-26000.json.gz",
+      "sha256": "caa37f5f82355edda2a704ea6c96152dba6624c0e0c9520c67d92dba33703093"
+    },
+    {
+      "path": "data/nutrition-bulk-26001-27000.json.gz",
+      "sha256": "3e9ad3164569ff99fddd902af005445d7a635708f928dfa5c8512c3070750108"
+    },
+    {
+      "path": "data/nutrition-bulk-27001-28000.json.gz",
+      "sha256": "3239bb144810be5bd7725ab2cf88eaad29c85994e7b67a039afed13480ee80f3"
+    },
+    {
+      "path": "data/nutrition-bulk-28001-29000.json.gz",
+      "sha256": "e490db93d0323fc74f1f78f0ca027d36e609e4d70b0d969413079fcf38c34456"
+    },
+    {
+      "path": "data/nutrition-bulk-29001-30000.json.gz",
+      "sha256": "de91d486b0ecda025322259db247b8523a0e73c0ad7d4150e41f216f1aaee9d0"
+    },
+    {
+      "path": "data/nutrition-bulk-30001-31000.json.gz",
+      "sha256": "dd60fc410aeda43eb1c0f8b15e8db1d86f93d9d611039fa5c2504d536d6263a4"
+    },
+    {
+      "path": "data/nutrition-bulk-3001-4000.json.gz",
+      "sha256": "2443a01acb687e0973324625aaaad01e9cb34653eca207bee0b7676ed0f73e9a"
+    },
+    {
+      "path": "data/nutrition-bulk-31001-32000.json.gz",
+      "sha256": "b8034227e3fbc4a2840ba0bea55e50799374f0852b7e421863ae8307e69ad207"
+    },
+    {
+      "path": "data/nutrition-bulk-32001-33000.json.gz",
+      "sha256": "a31390a674219ab530eee6d1f2767e06ba956192fd44e6193ecdba46ae748459"
+    },
+    {
+      "path": "data/nutrition-bulk-33001-34000.json.gz",
+      "sha256": "5326347e4a1673125501bdc335e76d7a4f78d639b79c56eaab1c4e897c4d009c"
+    },
+    {
+      "path": "data/nutrition-bulk-34001-35000.json.gz",
+      "sha256": "9645ebfa3c9c6afa86f064091340779212dfdb81f45ccb4322413d20aeb87b33"
+    },
+    {
+      "path": "data/nutrition-bulk-35001-36000.json.gz",
+      "sha256": "2fdf2267206dcd0172557595abaa38e48c4537519eea343f07d2a720256d1e26"
+    },
+    {
+      "path": "data/nutrition-bulk-36001-37000.json.gz",
+      "sha256": "1b65f4f7ba0c75d1aab49ed4361f45e0ba970fc9229e8472c0743dae9047cf49"
+    },
+    {
+      "path": "data/nutrition-bulk-37001-38000.json.gz",
+      "sha256": "34402ab2a7533e050f8b7047809db6b5619a65a0bcdfbde96c3948b0521f4739"
+    },
+    {
+      "path": "data/nutrition-bulk-38001-39000.json.gz",
+      "sha256": "f32c7465c1776b6b472a2e4bcee678ffc51254786a8c4be5c250b3dd82d910a4"
+    },
+    {
+      "path": "data/nutrition-bulk-39001-40000.json.gz",
+      "sha256": "c1ae615d19445b657602358c7082a3a783b77eda68185f2dfeb2714bf1c1cf62"
+    },
+    {
+      "path": "data/nutrition-bulk-40001-41000.json.gz",
+      "sha256": "a3fb9576aafdcf2a4e6614aa7cd94e82e544c29980173351760667d15ff307d5"
+    },
+    {
+      "path": "data/nutrition-bulk-4001-5000.json.gz",
+      "sha256": "f3c4ae88bad78ee16c45b2dd9e749dad0ff2b7aeb45a0a27d7caf351120ccb75"
+    },
+    {
+      "path": "data/nutrition-bulk-41001-42000.json.gz",
+      "sha256": "c7bf2f410e4d24cfcf41483ee1e3c3ed3d90bbfc0fe2e4343c6cc0b0939ca21c"
+    },
+    {
+      "path": "data/nutrition-bulk-42001-43000.json.gz",
+      "sha256": "3fdd27984930cd5a7a553ab879efaabf7579bc6c357ff73ceb41fbc1f6129217"
+    },
+    {
+      "path": "data/nutrition-bulk-43001-44000.json.gz",
+      "sha256": "af48e07c70c4ce6d8195979697eee9d5e8efd8963a1dd93f5f765be1d79a14f8"
+    },
+    {
+      "path": "data/nutrition-bulk-44001-45000.json.gz",
+      "sha256": "cdb4a532023c6cb2d2093c3d8b55b112099ae47598589f2f8c4e5de5f128f63b"
+    },
+    {
+      "path": "data/nutrition-bulk-45001-46000.json.gz",
+      "sha256": "00cc6c634c046c2584fe5cb93966bd798ffa9e172e7a318e6d8ef9cc832b105e"
+    },
+    {
+      "path": "data/nutrition-bulk-46001-47000.json.gz",
+      "sha256": "817c25c440c5f61754827553a995e88229f605e8485ab4a4bcc4f3ba6e71effe"
+    },
+    {
+      "path": "data/nutrition-bulk-47001-48000.json.gz",
+      "sha256": "f0545e6731b10c3b43e9cf3936e9bed98c01dba06f709353a5a9b195146c5f0c"
+    },
+    {
+      "path": "data/nutrition-bulk-48001-49000.json.gz",
+      "sha256": "79944944fac12d06bf8494454cce03ad66f536c2249f567017cb49f1b22f405b"
+    },
+    {
+      "path": "data/nutrition-bulk-49001-50000.json.gz",
+      "sha256": "9e50101a81d12fa11fd7934380b6d6fcf35d8a5b5ccaac708d079af30ec91cb3"
+    },
+    {
+      "path": "data/nutrition-bulk-5001-6000.json.gz",
+      "sha256": "33ce92bad9040f4f3ff28f96f4bbe633e629c838cba1bcba48a5d94f61712736"
+    },
+    {
+      "path": "data/nutrition-bulk-6001-7000.json.gz",
+      "sha256": "55d69a141e563e41671d311211f3db3973a8b05facc5254c53fc0479d265fc08"
+    },
+    {
+      "path": "data/nutrition-bulk-7001-8000.json.gz",
+      "sha256": "c2426a538c731ddb3b5626ce4ab5e22cbe626b92413621bf7427d02767837e5a"
+    },
+    {
+      "path": "data/nutrition-bulk-8001-9000.json.gz",
+      "sha256": "cdd75f8081b9fd20b7ca5cb9502b40b1160ca76c077b5231186ddf5b10f056f5"
+    },
+    {
+      "path": "data/nutrition-bulk-9001-10000.json.gz",
+      "sha256": "b49396849c23970faa2c1842cf24f9ec0eac5489e81ab31e2144733ae0533639"
+    }
+  ]
+}
