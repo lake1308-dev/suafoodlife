@@ -298,14 +298,14 @@ function recipeAllergenSummary(r){
 function updateRecipeAllergens(r){
  let box=$("recipeAllergens");if(!box){box=document.createElement("div");box.id="recipeAllergens";box.className="allergy-content";$("recipeIngredients").after(box)}box.classList.remove("hidden");box.innerHTML="";
  const info=recipeAllergenSummary(r),status=document.createElement("p"),note=document.createElement("p");status.className="allergy-status";
- const names=info.contains.map(x=>lang==="ko"?x:(ALLERGEN_NAMES_EN[x]||x));status.textContent=names.length?tr("⚠ Included ingredient allergens: ","⚠ 포함된 재료의 알레르기 성분: ")+names.join(" · "):tr("Allergen information needs checking","알레르기 정보 확인 필요");
+ const names=info.contains.map(x=>lang==="ko"?x:(ALLERGEN_NAMES_EN[x]||x));status.textContent=names.length?tr("⚠ Included ingredient allergens: ","⚠ 포함된 재료의 알레르기 유발 식품·원료: ")+names.join(" · "):tr("Allergen information needs checking","알레르기 정보 확인 필요");
  note.textContent=tr("Based on the current recipe ingredients and amounts. Removing an ingredient does not rule out cross-contact. Product labels and additional ingredients still need checking.","현재 레시피의 재료와 입력한 양을 기준으로 표시합니다. 재료를 빼도 혼입 가능성이 없어지는 것은 아닙니다. 사용 제품의 표시사항과 추가 재료를 확인하세요.");box.append(status,note);
  if(r.id==="dakbokkeumtang_reference"){const p=document.createElement("p");p.textContent=tr("Additional check: verify the allergen labels of your gochujang and soy sauce. Other versions of this dish may use different ingredients.","추가 확인: 사용하는 고추장·간장 제품의 알레르기 표시를 확인하세요. 다른 조리법이나 업소의 닭볶음탕은 재료가 다를 수 있습니다.");box.append(p)}
  if(info.unchecked.length){const p=document.createElement("p");p.textContent=tr("No connected allergen data: ","알레르기 자료 미연결 재료: ")+info.unchecked.join(", ");box.append(p)}appendAllergenGuide(box);
 }
 function setFoodAdviceMode(mode){
  const tips=mode==="tips",dish=mode==="dish";
- $("foodAdviceIcon").textContent=tips?"🥜":"⚠️";
+ $("foodAdviceIcon").textContent=tips?"🌿":"⚠️";
  $("foodAdviceLabel").textContent=tips?tr("INGREDIENT TIPS","재료 참고정보"):tr("ALLERGY","알레르기 정보");
  $("foodAdviceTitle").textContent=tips?tr("Eating and choosing tips","먹을 때 참고할 점"):dish?tr("Allergens and ingredients","알레르기·재료 확인"):tr("Allergy information","알레르기 정보");
  $("foodAdviceNote").textContent=tips?tr("Amount examples are calculations, not a recommended serving. Check individual food allergies separately.","먹는 양 예시는 계산 참고용이며 권장량이 아닙니다. 개인별 식품 알레르기는 별도로 확인하세요."):tr("For safety, check product labels and individual medical advice.","안전을 위해 제품 표시사항과 개인별 의료 조언을 함께 확인하세요.");
@@ -318,6 +318,18 @@ function renderPeanutTips(db){
  appendFoodAdvice(host,tr("Amount examples","먹는 양으로 계산해 보기"),Number.isFinite(kcal)?tr(`20g: ${Math.round(kcal*0.2)} kcal · 30g: ${Math.round(kcal*0.3)} kcal. Enter your actual edible amount in the calculator.`,`20g은 ${Math.round(kcal*0.2)}kcal, 30g은 ${Math.round(kcal*0.3)}kcal입니다. 실제 먹는 땅콩의 무게를 계산기에 입력하세요.`):tr("Verified energy is not connected yet. No amount estimate is shown.","검증된 열량이 아직 연결되지 않아 먹는 양별 예상값은 표시하지 않습니다."));
  appendFoodAdvice(host,tr("When choosing a product","제품으로 먹을 때 확인하기"),tr("For peanut snacks, sauces or peanut butter, compare the product's sugar, sodium and allergen labeling. Ingredient nutrition is not the finished product's nutrition.","땅콩과자·땅콩소스·땅콩버터는 제품별 당류·나트륨·알레르기 표시를 확인하세요. 기본 땅콩의 영양값을 완성 제품의 값으로 사용하지 마세요."));
 }
+function isBasicFoodAdvice(db){
+ return !!db&&db.verification_status!=="product_label"&&(db.category==="basic_ingredient"||Object.hasOwn(BASIC_INGREDIENT_NAMES,db.id)||["vegetable","fruit"].includes(db.category));
+}
+function renderBasicFoodTips(db){
+ const host=$("allergyContent"),source=db.sources?.[0]||{},kcal=db.nutrition_per_100g?.kcal;
+ host.innerHTML="";setFoodAdviceMode("tips");
+ const original=source.source_food_name||db.names.ko;
+ appendFoodAdvice(host,tr("Match the selected food","선택한 재료의 상태 확인"),tr(`Selected record: ${original}. Match variety and preparation such as raw, dried or cooked to the food you eat.`, `현재 선택한 자료는 ‘${original}’입니다. 생것·말린 것·삶은 것 등 조리 상태와 품종을 실제 먹는 재료에 맞춰 선택하세요.`));
+ const basis=source.basis||"100g",isMass=!/ml/i.test(basis);
+ appendFoodAdvice(host,tr("Calculate the edible amount","먹는 부분의 무게로 계산"),isMass&&Number.isFinite(kcal)?tr(`50g: ${Math.round(kcal*0.5)} kcal · 100g: ${Math.round(kcal)} kcal. Remove discarded parts before weighing; these are calculation examples, not serving recommendations.`,`50g은 ${Math.round(kcal*0.5)}kcal, 100g은 ${Math.round(kcal)}kcal입니다. 껍질·씨·뼈 등 먹지 않는 부분을 제외한 무게를 입력하세요. 예시 무게는 권장 섭취량이 아닙니다.`):tr("Use the amount and unit shown in the calculator. Unconnected nutrient values remain blank.","계산기에 표시된 기준 단위와 섭취량을 확인하세요. 아직 연결되지 않은 영양값은 빈칸으로 표시됩니다."));
+ appendFoodAdvice(host,tr("When prepared with other ingredients","양념하거나 제품으로 먹을 때"),tr("Added sugar, salt, oil and sauces change nutrition. Choose the matching product or calculate its recipe; check allergen labeling for the actual ingredients.","설탕·소금·기름·소스를 더하면 영양값이 달라집니다. 가공 제품은 해당 제품을 고르고, 요리는 사용한 재료로 계산하세요. 알레르기는 실제 제품 표시와 조리 재료를 확인하세요."));
+}
 function isDakbokkeumtang(db){return /닭볶음탕|닭도리탕/.test(db?.names?.ko||"")&&db?.verification_status!=="product_label"}
 function renderDakFoodAdvice(){
  const host=$("allergyContent");host.innerHTML="";setFoodAdviceMode("dish");
@@ -329,6 +341,7 @@ function renderDakFoodAdvice(){
 function renderAllergy(key){
  const host=$("allergyContent"),db=getIngredient(key),info=ingredientAllergenInfo(key);
  if(db?.id==="peanut_dried"){renderPeanutTips(db);return}
+ if(isBasicFoodAdvice(db)){renderBasicFoodTips(db);return}
  if(isDakbokkeumtang(db)){renderDakFoodAdvice();return}
  setFoodAdviceMode("allergy");
  if(info?.contains?.length){
