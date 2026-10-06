@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "policy": {
+    "basis": "per 100 g unless otherwise stated",
+    "rule": "Only reviewed source-linked values belong in this file. Do not infer missing nutrients.",
+    "primary_source": "K-FIND / Korean government food nutrient database"
+  },
+  "records": [
+    {
+      "ingredient_id": "eggplant_raw",
+      "source_key": "K_FIND",
+      "source_record_id": "R106-003000001-0000",
+      "source_food_name": "가지, 생것",
+      "preparation": "raw",
+      "basis_g": 100,
+      "nutrients": {
+        "energy_kcal": 19.0,
+        "protein_g": 1.13,
+        "carbohydrate_g": 4.36,
+        "fat_g": 0.03,
+        "sugars_g": 2.32,
+        "fiber_g": 2.70,
+        "sodium_mg": 0.0
+      },
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R106-003000001-0000",
+      "verified_on": "2026-09-17",
+      "status": "verified"
+    },
+    {
+      "ingredient_id": "tofu",
+      "source_key": "K_FIND",
+      "source_record_id": "P106-000000100-0001",
+      "source_food_name": "두부",
+      "preparation": "generic",
+      "basis_g": 100,
+      "nutrients": {
+        "energy_kcal": 97.0,
+        "protein_g": 9.62,
+        "carbohydrate_g": 3.75,
+        "fat_g": 4.63,
+        "sugars_g": 0.0,
+        "fiber_g": 2.90,
+        "sodium_mg": 1.0,
+        "saturated_fat_g": 0.70,
+        "cholesterol_mg": 0.0
+      },
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=P106-000000100-0001&searchMonthCd=AVG&searchRegionCd=ZZ",
+      "verified_on": "2026-09-17",
+      "status": "verified"
+    }
+  ]
+}

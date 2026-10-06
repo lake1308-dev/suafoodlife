@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "purpose": "Schema for privacy-minimized failed-search aggregation when a writable backend is connected.",
+  "privacy": {
+    "store_user_identifier": false,
+    "store_ip": false,
+    "store_raw_user_agent": false,
+    "fields": [
+      "normalized_query",
+      "language",
+      "count",
+      "first_seen",
+      "last_seen"
+    ]
+  },
+  "normalization": [
+    "trim whitespace",
+    "lowercase Latin text",
+    "collapse repeated spaces",
+    "aggregate exact normalized terms before review"
+  ],
+  "review_workflow": [
+    "rank by count",
+    "merge aliases/synonyms",
+    "map to existing ingredient when possible",
+    "create canonical ingredient only when needed",
+    "verify nutrition/allergen data separately"
+  ],
+  "backend_status": "not_connected",
+  "note": "GitHub Pages is static. Do not pretend failed searches are being recorded until a writable backend is configured."
+}

@@ -1,0 +1,315 @@
+{
+  "version": "2.0.0",
+  "purpose": "Regression cases for Food & Life food and ingredient search across the 50,000-record official food database and verified ingredient layer.",
+  "rules": {
+    "placeholder_visible": false,
+    "unverified_nutrition_visible": false,
+    "match_order": [
+      "canonical_exact",
+      "alias_exact",
+      "canonical_prefix",
+      "alias_prefix",
+      "contains"
+    ],
+    "ambiguous_terms_require_review": true
+  },
+  "cases": [
+    {
+      "query": "계란",
+      "expected": "egg_whole"
+    },
+    {
+      "query": "달걀",
+      "expected": "egg_whole"
+    },
+    {
+      "query": "닭가슴살",
+      "expected": "chicken_breast_raw"
+    },
+    {
+      "query": "닭똥집",
+      "expected": "chicken_gizzard_raw"
+    },
+    {
+      "query": "닭모래집",
+      "expected": "chicken_gizzard_raw"
+    },
+    {
+      "query": "삼겹살",
+      "expected": "pork_belly_raw"
+    },
+    {
+      "query": "오겹살",
+      "expected": "pork_belly_raw"
+    },
+    {
+      "query": "돼지목살",
+      "expected": "pork_shoulder_raw"
+    },
+    {
+      "query": "꽃등심",
+      "expected": "beef_ribeye_raw"
+    },
+    {
+      "query": "양지",
+      "expected": "beef_brisket_raw"
+    },
+    {
+      "query": "대파",
+      "expected": "green_onion_raw"
+    },
+    {
+      "query": "파",
+      "expected": "green_onion_raw"
+    },
+    {
+      "query": "무우",
+      "expected": "radish_korean_raw"
+    },
+    {
+      "query": "숙주",
+      "expected": "mung_bean_sprout_raw"
+    },
+    {
+      "query": "깻잎",
+      "expected": "perilla_leaf_raw"
+    },
+    {
+      "query": "새송이",
+      "expected": "king_oyster_mushroom_raw"
+    },
+    {
+      "query": "팽이",
+      "expected": "enoki_raw"
+    },
+    {
+      "query": "표고",
+      "expected": "shiitake_raw"
+    },
+    {
+      "query": "고추가루",
+      "expected": "gochugaru"
+    },
+    {
+      "query": "고춧가루",
+      "expected": "gochugaru"
+    },
+    {
+      "query": "현미밥",
+      "expected": "brown_rice_cooked"
+    },
+    {
+      "query": "떡볶이 떡",
+      "expected": "rice_cake_tteokbokki"
+    },
+    {
+      "query": "당면",
+      "expected": "glass_noodle"
+    },
+    {
+      "query": "모짜렐라",
+      "expected": "mozzarella"
+    },
+    {
+      "query": "휘핑크림",
+      "expected": "heavy_cream"
+    },
+    {
+      "query": "감귤",
+      "expected": "mandarin_raw"
+    },
+    {
+      "query": "제주귤",
+      "expected": "mandarin_raw"
+    },
+    {
+      "query": "후춧가루",
+      "expected": "black_pepper"
+    },
+    {
+      "query": "카레가루",
+      "expected": "curry_powder"
+    },
+    {
+      "query": "굴소스",
+      "expected": "oyster_sauce"
+    },
+    {
+      "query": "chicken breast",
+      "expected": "chicken_breast_raw"
+    },
+    {
+      "query": "pork belly",
+      "expected": "pork_belly_raw"
+    },
+    {
+      "query": "korean radish",
+      "expected": "radish_korean_raw"
+    },
+    {
+      "query": "mung bean sprouts",
+      "expected": "mung_bean_sprout_raw"
+    },
+    {
+      "query": "perilla leaves",
+      "expected": "perilla_leaf_raw"
+    },
+    {
+      "query": "king oyster mushroom",
+      "expected": "king_oyster_mushroom_raw"
+    },
+    {
+      "query": "gochugaru",
+      "expected": "gochugaru"
+    },
+    {
+      "query": "tteokbokki rice cake",
+      "expected": "rice_cake_tteokbokki"
+    },
+    {
+      "query": "glass noodles",
+      "expected": "glass_noodle"
+    },
+    {
+      "query": "mozzarella",
+      "expected": "mozzarella"
+    }
+  ],
+  "ambiguous_review_queue": [
+    {
+      "term": "닭고기",
+      "reason": "generic meat vs breast/thigh/wing variants"
+    },
+    {
+      "term": "돼지고기",
+      "reason": "generic meat vs cut-specific variants"
+    },
+    {
+      "term": "소고기",
+      "reason": "generic meat vs cut-specific variants"
+    },
+    {
+      "term": "조개",
+      "reason": "generic shellfish vs clam species"
+    },
+    {
+      "term": "치즈",
+      "reason": "generic dairy vs cheese varieties"
+    },
+    {
+      "term": "호박",
+      "reason": "Korean zucchini, pumpkin and squash variants"
+    },
+    {
+      "term": "파",
+      "reason": "green onion, scallion and chive variants"
+    },
+    {
+      "term": "고추",
+      "reason": "green, Cheongyang and global chili varieties"
+    }
+  ],
+  "service_cases": [
+    {
+      "query": "곱창",
+      "expect": "relevant_partial_results",
+      "avoid": [
+        "곱창김"
+      ]
+    },
+    {
+      "query": "삼겹살",
+      "expect": "relevant_food_or_verified_ingredient"
+    },
+    {
+      "query": "김치찌개",
+      "expect": "relevant_food_results"
+    },
+    {
+      "query": "된장찌개",
+      "expect": "relevant_food_results"
+    },
+    {
+      "query": "순두부찌개",
+      "expect": "relevant_food_results"
+    },
+    {
+      "query": "라면",
+      "expect": "relevant_food_results"
+    },
+    {
+      "query": "콜라",
+      "expect": "cola_before_broad_carbonated_drinks",
+      "avoid": [
+        "콜라겐"
+      ]
+    },
+    {
+      "query": "사이다",
+      "expect": "cider_soda_before_broad_carbonated_drinks",
+      "avoid": [
+        "사이다비니거"
+      ]
+    },
+    {
+      "query": "아메리카노",
+      "expect": "relevant_food_results"
+    },
+    {
+      "query": "돈까스",
+      "expect": "same_intent_as_돈가스"
+    },
+    {
+      "query": "돈가스",
+      "expect": "same_intent_as_돈까스"
+    },
+    {
+      "query": "카레",
+      "expect": "same_intent_as_커리"
+    },
+    {
+      "query": "커리",
+      "expect": "same_intent_as_카레"
+    },
+    {
+      "query": "초밥",
+      "expect": "same_intent_as_스시"
+    },
+    {
+      "query": "스시",
+      "expect": "same_intent_as_초밥"
+    },
+    {
+      "query": "순대국",
+      "expect": "same_intent_as_순댓국"
+    },
+    {
+      "query": "순댓국",
+      "expect": "same_intent_as_순대국"
+    },
+    {
+      "query": "닭도리탕",
+      "expect": "same_intent_as_닭볶음탕"
+    },
+    {
+      "query": "닭볶음탕",
+      "expect": "same_intent_as_닭도리탕"
+    },
+    {
+      "query": "제육",
+      "expect": "제육_or_제육볶음_before_related_돼지고기볶음"
+    },
+    {
+      "query": "삽겹살",
+      "expect": "typo_recovery_toward_삼겹살"
+    }
+  ],
+  "release_checks": [
+    "no literal \\\\n artifacts in app.js or style.css",
+    "50,000 official food records load path retained",
+    "100g and 100ml basis remain distinct",
+    "missing nutrients render as — rather than 0",
+    "autocomplete supports keyboard selection",
+    "official bulk foods do not infer allergen data"
+  ]
+}

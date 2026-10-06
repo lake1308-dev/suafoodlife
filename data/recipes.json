@@ -1,0 +1,883 @@
+{
+  "version": "0.2.1",
+  "purpose": "Editable standard recipes whose nutrition can be recalculated from ingredient records.",
+  "nutrition_notice": {
+    "ko": "표준 레시피 기준 예상 영양정보이며 재료·제품·조리법·1인분 양에 따라 달라질 수 있습니다.",
+    "en": "Estimated nutrition based on the standard recipe; values vary by ingredients, products, cooking method and serving size."
+  },
+  "schema": {
+    "recipe": [
+      "id",
+      "names",
+      "country",
+      "region",
+      "category",
+      "servings",
+      "ingredients",
+      "steps",
+      "tags",
+      "nutrition_status"
+    ],
+    "ingredient_line": [
+      "ingredient_id",
+      "amount",
+      "unit",
+      "optional",
+      "note"
+    ]
+  },
+  "calculation_rules": [
+    "Calculate each ingredient from its verified nutrient record and entered amount.",
+    "Sum recipe nutrients, then divide by servings for per-serving values.",
+    "Recalculate after ingredient quantity changes, additions or removals.",
+    "Do not invent nutrition for ingredients without a verified source; mark the recipe nutrition incomplete.",
+    "Recipe-level allergen display is the union of ingredient allergen data, with product-specific caveats for processed foods."
+  ],
+  "recipes": [
+    {
+      "id": "tteokbokki",
+      "names": {
+        "ko": "떡볶이",
+        "en": "Tteokbokki"
+      },
+      "country": "Korea",
+      "region": "Seoul/Gyeonggi",
+      "category": "stir_simmer",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "garaetteok",
+          "amount": 400,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "fish_cake",
+          "amount": 120,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "gochujang",
+          "amount": 40,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "chili_powder_kr",
+          "amount": 10,
+          "unit": "g",
+          "optional": true
+        },
+        {
+          "ingredient_id": "white_sugar",
+          "amount": 20,
+          "unit": "g",
+          "optional": true
+        },
+        {
+          "ingredient_id": "green_onion_raw",
+          "amount": 30,
+          "unit": "g",
+          "optional": true
+        }
+      ],
+      "steps": {
+        "ko": [
+          "떡을 준비하고 양념을 푼 육수를 끓입니다.",
+          "떡과 어묵을 넣고 원하는 농도가 될 때까지 끓입니다.",
+          "대파를 넣고 마무리합니다."
+        ],
+        "en": [
+          "Prepare the rice cakes and bring the seasoned broth to a simmer.",
+          "Add rice cakes and fish cake; simmer to the desired consistency.",
+          "Finish with green onion."
+        ]
+      },
+      "tags": [
+        "spicy",
+        "street_food"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "doenjang_jjigae",
+      "names": {
+        "ko": "된장찌개",
+        "en": "Doenjang jjigae"
+      },
+      "country": "Korea",
+      "region": "All",
+      "category": "stew",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "doenjang",
+          "amount": 45,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "tofu",
+          "amount": 150,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "zucchini",
+          "amount": 80,
+          "unit": "g",
+          "optional": true
+        },
+        {
+          "ingredient_id": "onion_raw",
+          "amount": 60,
+          "unit": "g",
+          "optional": true
+        },
+        {
+          "ingredient_id": "green_chili",
+          "amount": 15,
+          "unit": "g",
+          "optional": true
+        },
+        {
+          "ingredient_id": "green_onion_raw",
+          "amount": 20,
+          "unit": "g",
+          "optional": true
+        },
+        {
+          "ingredient_id": "garlic_raw",
+          "amount": 8,
+          "unit": "g",
+          "optional": true
+        }
+      ],
+      "steps": {
+        "ko": [
+          "물을 끓이고 된장을 풀어줍니다.",
+          "채소와 두부를 넣고 익힙니다.",
+          "마늘·고추·대파를 넣고 한소끔 끓입니다."
+        ],
+        "en": [
+          "Bring water to a simmer and dissolve the doenjang.",
+          "Add vegetables and tofu and cook until tender.",
+          "Add garlic, chili and green onion and finish simmering."
+        ]
+      },
+      "tags": [
+        "stew",
+        "home_cooking"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "donkatsu",
+      "names": {
+        "ko": "돈까스",
+        "en": "Korean pork cutlet"
+      },
+      "country": "Korea",
+      "region": "All",
+      "category": "fried",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "pork_loin",
+          "amount": 300,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "wheat_flour",
+          "amount": 40,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "egg_whole",
+          "amount": 60,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "bread_white",
+          "amount": 80,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "canola_oil",
+          "amount": 30,
+          "unit": "g",
+          "optional": false
+        }
+      ],
+      "steps": {
+        "ko": [
+          "돼지고기를 얇게 펴고 밑간합니다.",
+          "밀가루·달걀·빵가루 순으로 입힙니다.",
+          "기름에 바삭하게 익힙니다."
+        ],
+        "en": [
+          "Flatten and season the pork.",
+          "Coat with flour, egg and breadcrumbs.",
+          "Fry until crisp and cooked through."
+        ]
+      },
+      "tags": [
+        "fried",
+        "cutlet"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "udon_basic",
+      "names": {
+        "ko": "우동",
+        "en": "Udon noodle soup"
+      },
+      "country": "Japan",
+      "region": "Kansai",
+      "category": "noodle_soup",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "udon",
+          "amount": 400,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "soy_sauce_kr",
+          "amount": 30,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "green_onion_raw",
+          "amount": 30,
+          "unit": "g",
+          "optional": true
+        },
+        {
+          "ingredient_id": "fish_cake",
+          "amount": 80,
+          "unit": "g",
+          "optional": true
+        }
+      ],
+      "steps": {
+        "ko": [
+          "국물을 끓여 간을 맞춥니다.",
+          "우동면을 넣어 데웁니다.",
+          "어묵과 대파를 올려 마무리합니다."
+        ],
+        "en": [
+          "Bring the broth to a simmer and season it.",
+          "Heat the udon noodles in the broth.",
+          "Finish with fish cake and green onion."
+        ]
+      },
+      "tags": [
+        "noodle",
+        "soup"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "spaghetti_tomato",
+      "names": {
+        "ko": "토마토 스파게티",
+        "en": "Tomato spaghetti"
+      },
+      "country": "Italy",
+      "region": "South Italy",
+      "category": "pasta",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "pasta_dry",
+          "amount": 180,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "tomato_raw",
+          "amount": 300,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 20,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "garlic_raw",
+          "amount": 10,
+          "unit": "g",
+          "optional": true
+        },
+        {
+          "ingredient_id": "onion_raw",
+          "amount": 80,
+          "unit": "g",
+          "optional": true
+        },
+        {
+          "ingredient_id": "basil",
+          "amount": 5,
+          "unit": "g",
+          "optional": true
+        }
+      ],
+      "steps": {
+        "ko": [
+          "파스타를 삶습니다.",
+          "올리브유에 마늘과 양파를 익히고 토마토를 넣어 소스를 만듭니다.",
+          "파스타와 소스를 섞고 바질로 마무리합니다."
+        ],
+        "en": [
+          "Cook the pasta.",
+          "Cook garlic and onion in olive oil, then add tomato to make the sauce.",
+          "Toss with pasta and finish with basil."
+        ]
+      },
+      "tags": [
+        "pasta",
+        "tomato"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "galbitang",
+      "names": {
+        "ko": "갈비탕",
+        "en": "Galbitang"
+      },
+      "country": "Korea",
+      "region": "Seoul/Gyeonggi",
+      "category": "soup",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "beef_rib",
+          "amount": 500,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "radish",
+          "amount": 180,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "garlic_raw",
+          "amount": 12,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "green_onion_raw",
+          "amount": 30,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "soy_sauce_kr",
+          "amount": 15,
+          "unit": "g",
+          "optional": false
+        }
+      ],
+      "steps": {
+        "ko": [
+          "갈비의 핏물을 빼고 데칩니다.",
+          "갈비를 충분히 끓여 육수를 냅니다.",
+          "무와 양념을 넣고 익힌 뒤 대파로 마무리합니다."
+        ],
+        "en": [
+          "Soak and blanch the ribs.",
+          "Simmer the ribs until the broth is rich.",
+          "Add radish and seasoning, then finish with green onion."
+        ]
+      },
+      "tags": [
+        "soup",
+        "beef"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "tangsuyuk",
+      "names": {
+        "ko": "탕수육",
+        "en": "Tangsuyuk"
+      },
+      "country": "Korea",
+      "region": "Seoul/Gyeonggi",
+      "category": "fried",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "pork_tenderloin_raw",
+          "amount": 300,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "tapioca",
+          "amount": 80,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "canola_oil",
+          "amount": 30,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "onion_raw",
+          "amount": 60,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "carrot_root_raw",
+          "amount": 40,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "white_sugar",
+          "amount": 35,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "rice_vinegar",
+          "amount": 35,
+          "unit": "g",
+          "optional": false
+        }
+      ],
+      "steps": {
+        "ko": [
+          "돼지고기에 전분옷을 입힙니다.",
+          "고기를 바삭하게 튀깁니다.",
+          "새콤달콤한 소스를 끓여 곁들입니다."
+        ],
+        "en": [
+          "Coat the pork with starch batter.",
+          "Fry until crisp.",
+          "Cook the sweet-and-sour sauce and serve together."
+        ]
+      },
+      "tags": [
+        "fried",
+        "sweet_sour"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "kimchi_jjigae",
+      "names": {
+        "ko": "김치찌개",
+        "en": "Kimchi jjigae"
+      },
+      "country": "Korea",
+      "region": "All",
+      "category": "stew",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "kimchi",
+          "amount": 250,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "pork_shoulder_raw",
+          "amount": 150,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "tofu",
+          "amount": 120,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "green_onion_raw",
+          "amount": 25,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "garlic_raw",
+          "amount": 8,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "chili_powder_kr",
+          "amount": 8,
+          "unit": "g",
+          "optional": false
+        }
+      ],
+      "steps": {
+        "ko": [
+          "김치와 돼지고기를 볶습니다.",
+          "물을 넣고 충분히 끓입니다.",
+          "두부와 양념을 넣고 마무리합니다."
+        ],
+        "en": [
+          "Cook kimchi with pork.",
+          "Add water and simmer well.",
+          "Add tofu and seasonings to finish."
+        ]
+      },
+      "tags": [
+        "stew",
+        "spicy"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "bibimbap",
+      "names": {
+        "ko": "비빔밥",
+        "en": "Bibimbap"
+      },
+      "country": "Korea",
+      "region": "Jeolla",
+      "category": "rice",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "cooked_white_rice",
+          "amount": 210,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "spinach",
+          "amount": 50,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "carrot_root_raw",
+          "amount": 40,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "soybean_sprout",
+          "amount": 60,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "egg_whole",
+          "amount": 50,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "gochujang",
+          "amount": 25,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "sesame_oil",
+          "amount": 8,
+          "unit": "g",
+          "optional": false
+        }
+      ],
+      "steps": {
+        "ko": [
+          "밥을 그릇에 담습니다.",
+          "준비한 나물과 달걀을 올립니다.",
+          "고추장과 참기름을 넣고 비벼 먹습니다."
+        ],
+        "en": [
+          "Place rice in a bowl.",
+          "Arrange vegetables and egg on top.",
+          "Add gochujang and sesame oil and mix."
+        ]
+      },
+      "tags": [
+        "rice",
+        "mixed"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "carbonara",
+      "names": {
+        "ko": "카르보나라",
+        "en": "Carbonara"
+      },
+      "country": "Italy",
+      "region": "Central Italy",
+      "category": "pasta",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "pasta_dry",
+          "amount": 180,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "egg_whole",
+          "amount": 100,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "parmesan",
+          "amount": 50,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "bacon",
+          "amount": 80,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 2,
+          "unit": "g",
+          "optional": false
+        }
+      ],
+      "steps": {
+        "ko": [
+          "파스타를 삶습니다.",
+          "베이컨을 익히고 달걀과 치즈를 섞습니다.",
+          "불을 조절하며 파스타와 소스를 섞습니다."
+        ],
+        "en": [
+          "Cook the pasta.",
+          "Cook the bacon and combine egg with cheese.",
+          "Toss pasta with the mixture off direct heat."
+        ]
+      },
+      "tags": [
+        "pasta",
+        "creamy"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "butter_chicken_db",
+      "names": {
+        "ko": "버터치킨",
+        "en": "Butter Chicken"
+      },
+      "country": "India",
+      "region": "North India",
+      "category": "curry",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "chicken_breast_raw",
+          "amount": 400,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 30,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "tomato_raw",
+          "amount": 250,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "heavy_cream",
+          "amount": 80,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "garlic_raw",
+          "amount": 10,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "ginger",
+          "amount": 10,
+          "unit": "g",
+          "optional": false
+        }
+      ],
+      "steps": {
+        "ko": [
+          "닭을 양념해 익힙니다.",
+          "버터에 마늘과 생강을 볶고 토마토를 넣습니다.",
+          "닭과 생크림을 넣고 부드럽게 끓입니다."
+        ],
+        "en": [
+          "Season and cook the chicken.",
+          "Cook garlic and ginger in butter, then add tomato.",
+          "Add chicken and cream and simmer gently."
+        ]
+      },
+      "tags": [
+        "curry",
+        "chicken"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "mapo_tofu_db",
+      "names": {
+        "ko": "마파두부",
+        "en": "Mapo Tofu"
+      },
+      "country": "China",
+      "region": "Sichuan",
+      "category": "stir_fry",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "tofu",
+          "amount": 400,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "beef_ground",
+          "amount": 120,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "garlic_raw",
+          "amount": 10,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "green_onion_raw",
+          "amount": 25,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "chili_powder_kr",
+          "amount": 5,
+          "unit": "g",
+          "optional": false
+        }
+      ],
+      "steps": {
+        "ko": [
+          "다진 고기와 향신채를 볶습니다.",
+          "양념과 두부를 넣습니다.",
+          "두부가 부서지지 않게 끓여 마무리합니다."
+        ],
+        "en": [
+          "Cook ground meat with aromatics.",
+          "Add seasoning and tofu.",
+          "Simmer gently to finish."
+        ]
+      },
+      "tags": [
+        "spicy",
+        "tofu"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    },
+    {
+      "id": "chicken_fajitas_db",
+      "names": {
+        "ko": "치킨 파히타",
+        "en": "Chicken Fajitas"
+      },
+      "country": "USA",
+      "region": "Southwest",
+      "category": "stir_fry",
+      "servings": 2,
+      "ingredients": [
+        {
+          "ingredient_id": "chicken_breast_raw",
+          "amount": 350,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "bell_pepper",
+          "amount": 180,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "onion_raw",
+          "amount": 100,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "tortilla_wheat",
+          "amount": 160,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "lime",
+          "amount": 30,
+          "unit": "g",
+          "optional": false
+        },
+        {
+          "ingredient_id": "cumin",
+          "amount": 4,
+          "unit": "g",
+          "optional": false
+        }
+      ],
+      "steps": {
+        "ko": [
+          "닭과 채소를 길게 썹니다.",
+          "닭을 향신료와 함께 익힙니다.",
+          "채소를 볶아 토르티야와 함께 냅니다."
+        ],
+        "en": [
+          "Slice chicken and vegetables.",
+          "Cook chicken with spices.",
+          "Sauté vegetables and serve with tortillas."
+        ]
+      },
+      "tags": [
+        "chicken",
+        "tex_mex"
+      ],
+      "nutrition_status": "incomplete_until_verified_ingredients"
+    }
+  ],
+  "progress": {
+    "recipe_records": 13,
+    "target_phase1": 50,
+    "editable_nutrition_ready": true
+  }
+}

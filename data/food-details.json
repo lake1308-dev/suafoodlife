@@ -1,0 +1,430 @@
+{
+  "version": "0.1.0",
+  "source": "전국통합식품영양성분정보표준데이터-20261004.xls",
+  "records": {
+    "D303-148390800-0001": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "D303-148392000-0001": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "D303-148392600-0001": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "D303-148440000-0001": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "D303-148450000-0001": {
+      "manufacturer": null,
+      "declared_weight": "750g"
+    },
+    "D403-148470000-0001": {
+      "manufacturer": null,
+      "declared_weight": "700ml"
+    },
+    "D303-148470000-0001": {
+      "manufacturer": null,
+      "declared_weight": "600g"
+    },
+    "D403-148570000-0001": {
+      "manufacturer": null,
+      "declared_weight": "700ml"
+    },
+    "D103-148000000-0001": {
+      "manufacturer": null,
+      "declared_weight": "550g"
+    },
+    "D603-148000000-0001": {
+      "manufacturer": null,
+      "declared_weight": "226.60ml"
+    },
+    "D403-148000000-0001": {
+      "manufacturer": null,
+      "declared_weight": "590ml"
+    },
+    "D503-148000000-0001": {
+      "manufacturer": null,
+      "declared_weight": "226.60ml"
+    },
+    "D703-148000000-0001": {
+      "manufacturer": null,
+      "declared_weight": "590ml"
+    },
+    "D303-148000000-0001": {
+      "manufacturer": "GS 리테일 심플리쿡",
+      "declared_weight": "1284g"
+    },
+    "D303-148020000-0001": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "D403-148050000-0001": {
+      "manufacturer": null,
+      "declared_weight": "760ml"
+    },
+    "D303-148050000-0001": {
+      "manufacturer": null,
+      "declared_weight": "650g"
+    },
+    "D103-148090000-0001": {
+      "manufacturer": null,
+      "declared_weight": "550g"
+    },
+    "D403-148090000-0001": {
+      "manufacturer": null,
+      "declared_weight": "642ml"
+    },
+    "D703-148090000-0001": {
+      "manufacturer": null,
+      "declared_weight": "642ml"
+    },
+    "D103-148130000-0001": {
+      "manufacturer": null,
+      "declared_weight": "550g"
+    },
+    "D303-148130000-0001": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "D403-148130000-0001": {
+      "manufacturer": null,
+      "declared_weight": "690ml"
+    },
+    "D303-148140000-0001": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "D403-148530000-0001": {
+      "manufacturer": null,
+      "declared_weight": "700ml"
+    },
+    "D303-148170000-0001": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "D403-148540000-0001": {
+      "manufacturer": null,
+      "declared_weight": "700ml"
+    },
+    "D303-148290000-0001": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "D703-148550000-0001": {
+      "manufacturer": null,
+      "declared_weight": "928.60ml"
+    },
+    "D303-148390000-0001": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "P108-003000400-0576": {
+      "manufacturer": null,
+      "declared_weight": "110g"
+    },
+    "P108-003000400-0330": {
+      "manufacturer": null,
+      "declared_weight": "95g"
+    },
+    "P108-003000400-0841": {
+      "manufacturer": null,
+      "declared_weight": "118g"
+    },
+    "P108-001000100-0114": {
+      "manufacturer": null,
+      "declared_weight": "3000g"
+    },
+    "P108-003000400-0842": {
+      "manufacturer": null,
+      "declared_weight": "118g"
+    },
+    "P108-003000400-1022": {
+      "manufacturer": null,
+      "declared_weight": "110g"
+    },
+    "P108-003000400-0704": {
+      "manufacturer": null,
+      "declared_weight": null
+    },
+    "P108-009000400-0095": {
+      "manufacturer": null,
+      "declared_weight": "119g"
+    },
+    "P108-003000400-0476": {
+      "manufacturer": null,
+      "declared_weight": "119g"
+    },
+    "P108-009000400-0137": {
+      "manufacturer": null,
+      "declared_weight": "119g"
+    },
+    "P123-204020400-0028": {
+      "manufacturer": null,
+      "declared_weight": "240g"
+    },
+    "P108-003000400-0840": {
+      "manufacturer": null,
+      "declared_weight": "118g"
+    },
+    "P108-003000300-0092": {
+      "manufacturer": null,
+      "declared_weight": null
+    },
+    "P108-003000300-0090": {
+      "manufacturer": null,
+      "declared_weight": null
+    },
+    "P108-003000300-0091": {
+      "manufacturer": null,
+      "declared_weight": null
+    },
+    "P123-204020300-0942": {
+      "manufacturer": null,
+      "declared_weight": "97g"
+    },
+    "P101-106000100-1990": {
+      "manufacturer": null,
+      "declared_weight": "400g"
+    },
+    "P123-204020300-0939": {
+      "manufacturer": null,
+      "declared_weight": "97g"
+    },
+    "P123-204020300-0940": {
+      "manufacturer": null,
+      "declared_weight": "97g"
+    },
+    "P123-204020300-0941": {
+      "manufacturer": null,
+      "declared_weight": "97g"
+    },
+    "P108-003000400-0328": {
+      "manufacturer": null,
+      "declared_weight": "75g"
+    },
+    "P108-003000400-1011": {
+      "manufacturer": null,
+      "declared_weight": "108g"
+    },
+    "P108-003000400-0327": {
+      "manufacturer": null,
+      "declared_weight": "105g"
+    },
+    "P108-003000400-0380": {
+      "manufacturer": null,
+      "declared_weight": "110g"
+    },
+    "P101-203000200-1107": {
+      "manufacturer": null,
+      "declared_weight": "25g"
+    },
+    "P108-003000400-0875": {
+      "manufacturer": null,
+      "declared_weight": "125g"
+    },
+    "P108-003000400-0413": {
+      "manufacturer": null,
+      "declared_weight": "105g"
+    },
+    "P108-003000400-0324": {
+      "manufacturer": null,
+      "declared_weight": "112g"
+    },
+    "P108-003000400-0325": {
+      "manufacturer": null,
+      "declared_weight": "66g"
+    },
+    "P123-204020300-0938": {
+      "manufacturer": null,
+      "declared_weight": "740g"
+    },
+    "P108-003000400-0475": {
+      "manufacturer": null,
+      "declared_weight": "113g"
+    },
+    "P108-003000400-0323": {
+      "manufacturer": null,
+      "declared_weight": "105g"
+    },
+    "P123-201020300-2891": {
+      "manufacturer": null,
+      "declared_weight": "110g"
+    },
+    "P123-207020300-1153": {
+      "manufacturer": null,
+      "declared_weight": "110g"
+    },
+    "P123-201020300-2892": {
+      "manufacturer": null,
+      "declared_weight": "110g"
+    },
+    "P123-204020300-1153": {
+      "manufacturer": null,
+      "declared_weight": "140g"
+    },
+    "P123-207020300-3336": {
+      "manufacturer": null,
+      "declared_weight": "150g"
+    },
+    "P123-305020300-0616": {
+      "manufacturer": null,
+      "declared_weight": "170g"
+    },
+    "P123-204020300-1154": {
+      "manufacturer": null,
+      "declared_weight": "160g"
+    },
+    "P123-305020300-0617": {
+      "manufacturer": null,
+      "declared_weight": "170g"
+    },
+    "P123-201020300-4457": {
+      "manufacturer": null,
+      "declared_weight": "110g"
+    },
+    "P108-003000200-0009": {
+      "manufacturer": null,
+      "declared_weight": "171g"
+    },
+    "P108-003000200-0010": {
+      "manufacturer": null,
+      "declared_weight": "171g"
+    },
+    "P108-002000200-0184": {
+      "manufacturer": null,
+      "declared_weight": "171g"
+    },
+    "P108-002000200-0185": {
+      "manufacturer": null,
+      "declared_weight": "171g"
+    },
+    "P108-002000200-0192": {
+      "manufacturer": null,
+      "declared_weight": "171g"
+    },
+    "P108-002000200-0193": {
+      "manufacturer": null,
+      "declared_weight": "171g"
+    },
+    "P108-003000200-0007": {
+      "manufacturer": null,
+      "declared_weight": "171g"
+    },
+    "P108-003000200-0008": {
+      "manufacturer": null,
+      "declared_weight": "171g"
+    },
+    "P108-003000100-0014": {
+      "manufacturer": null,
+      "declared_weight": "1200g"
+    },
+    "P108-003000400-0320": {
+      "manufacturer": null,
+      "declared_weight": "110g"
+    },
+    "P108-003000400-0321": {
+      "manufacturer": null,
+      "declared_weight": "110g"
+    },
+    "P123-203020300-0143": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "P117-100010100-1269": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "P123-201020300-5921": {
+      "manufacturer": null,
+      "declared_weight": "100g"
+    },
+    "P108-009000400-0179": {
+      "manufacturer": null,
+      "declared_weight": "140g"
+    },
+    "P108-009000400-0180": {
+      "manufacturer": null,
+      "declared_weight": "140g"
+    },
+    "P108-009000400-0181": {
+      "manufacturer": null,
+      "declared_weight": "140g"
+    },
+    "P108-009000400-0182": {
+      "manufacturer": null,
+      "declared_weight": "140g"
+    },
+    "P108-005000200-0006": {
+      "manufacturer": null,
+      "declared_weight": "1150g"
+    },
+    "P108-003000400-0319": {
+      "manufacturer": null,
+      "declared_weight": "120g"
+    },
+    "P113-201020400-0056": {
+      "manufacturer": null,
+      "declared_weight": "3000g"
+    },
+    "P113-201020400-0057": {
+      "manufacturer": null,
+      "declared_weight": "3000g"
+    },
+    "P113-201020400-0058": {
+      "manufacturer": null,
+      "declared_weight": "3000g"
+    },
+    "P108-003000400-0808": {
+      "manufacturer": null,
+      "declared_weight": "70g"
+    },
+    "P108-003000300-0085": {
+      "manufacturer": null,
+      "declared_weight": "107g"
+    },
+    "P108-003000400-0956": {
+      "manufacturer": null,
+      "declared_weight": "195g"
+    },
+    "P108-003000400-0317": {
+      "manufacturer": null,
+      "declared_weight": "332g"
+    },
+    "P108-003000400-0797": {
+      "manufacturer": null,
+      "declared_weight": "328g"
+    },
+    "P110-500050000-0538": {
+      "manufacturer": null,
+      "declared_weight": "600g"
+    },
+    "P123-204020300-1380": {
+      "manufacturer": null,
+      "declared_weight": "65g"
+    },
+    "P123-204020300-1024": {
+      "manufacturer": null,
+      "declared_weight": "65g"
+    },
+    "P108-003000400-0954": {
+      "manufacturer": null,
+      "declared_weight": "320g"
+    },
+    "P108-003000400-0955": {
+      "manufacturer": null,
+      "declared_weight": "80g"
+    },
+    "P108-003000400-0952": {
+      "manufacturer": null,
+      "declared_weight": "336g"
+    },
+    "P108-003000400-0953": {
+      "manufacturer": null,
+      "declared_weight": "84g"
+    }
+  }
+}

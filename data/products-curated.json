@@ -1,0 +1,133 @@
+{
+  "version": "0.1.1",
+  "products": [
+    {
+      "id": "chilsung_cider_250ml",
+      "names": {
+        "ko": "칠성사이다 250ml 캔",
+        "en": "Chilsung Cider 250ml can"
+      },
+      "aliases": {
+        "ko": [
+          "칠성사이다",
+          "칠성사이다"
+        ],
+        "en": []
+      },
+      "category": "packaged_drink",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 44,
+        "carbs_g": 11.2,
+        "sugars_g": 10.8,
+        "sodium_mg": 2.4,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "cholesterol_mg": null
+      },
+      "sources": [
+        {
+          "source": "코스트코 코리아 제품 표시정보",
+          "source_url": "https://www.costco.co.kr/Foods/Beverages/SoftConcentrated-Drinks/Chilsung-Cider-250ml-x-30-Milkis-250ml-x-30/p/620743",
+          "basis": "100ml",
+          "label_basis": "250ml",
+          "package_amount": 250,
+          "package_unit": "ml",
+          "manufacturer": "롯데칠성음료(주)",
+          "declared_weight": "250ml",
+          "reference_date": "2026-10-05",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "chilsung_cider_zero_250ml",
+      "names": {
+        "ko": "칠성사이다 제로 250ml 캔",
+        "en": "Chilsung Cider Zero 250ml can"
+      },
+      "aliases": {
+        "ko": [
+          "칠성사이다 제로",
+          "칠성사이다제로"
+        ],
+        "en": []
+      },
+      "category": "packaged_drink",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 0,
+        "carbs_g": 1.6,
+        "sugars_g": 0,
+        "sodium_mg": 2.4,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sat_fat_g": 0,
+        "cholesterol_mg": 0
+      },
+      "sources": [
+        {
+          "source": "코스트코 코리아 제품 표시정보",
+          "source_url": "https://www.costco.co.kr/Foods/Beverages/SoftConcentrated-Drinks/Chilsung-Cider-Zero-250ml-x-30cans-x-2/p/642471",
+          "basis": "100ml",
+          "label_basis": "250ml",
+          "package_amount": 250,
+          "package_unit": "ml",
+          "manufacturer": "롯데칠성음료(주)",
+          "declared_weight": "250ml",
+          "reference_date": "2026-10-05",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "peanut_dried",
+      "names": {
+        "ko": "땅콩, 말린것",
+        "en": "Peanut, dried"
+      },
+      "aliases": {
+        "ko": [
+          "땅콩",
+          "말린 땅콩"
+        ],
+        "en": [
+          "peanut",
+          "peanuts",
+          "dried peanut"
+        ]
+      },
+      "category": "nut",
+      "verification_status": "verified",
+      "nutrition_per_100g": {
+        "kcal": 520,
+        "protein_g": 25.74,
+        "carbs_g": 18.36,
+        "fat_g": 42.57,
+        "sat_fat_g": 8.04,
+        "sugars_g": 4.4,
+        "fiber_g": 13.4,
+        "sodium_mg": 5,
+        "cholesterol_mg": 0
+      },
+      "allergen_info": {
+        "contains": [
+          "땅콩"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-05"
+      },
+      "sources": [
+        {
+          "source": "K-FIND · 국립식량과학원",
+          "source_record_id": "R105-007000002-0000",
+          "source_food_name": "땅콩, 말린것",
+          "basis": "100g",
+          "reference_date": "2026-10-05",
+          "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?dbGrpCm=R&searchTextPre=&searchTextListStr=&sortOrder=DESC&sortFieldCnt=1&searchProcCode=&searchLogType=&searchSubOrderby=&searchDetailMode=all&searchGroup=&searchCrtMth=&searchMaker=&searchSource=&searchClass=&searchQc=&searchHcln=&searchReduct=&searchText=%EB%95%85%EC%BD%A9&searchNotText=&searchOper=AND&searchGroupText=&searchMakerText=&searchOrderby=CAL&searchPageCnt=20&pagenum=1&totalListCnt=19&pageblock=10&pagesize=20&searchFoodCd=R105-007000002-0000&searchRegionCd=ZZ&searchMonthCd=AVG"
+        }
+      ]
+    }
+  ]
+}

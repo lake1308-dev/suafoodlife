@@ -1,0 +1,56 @@
+{
+  "version": "0.3.0",
+  "purpose": "Keep canonical ingredient identity separate from official nutrient records and preparation states.",
+  "source_priority": ["K_FIND", "USDA_FDC"],
+  "fields": ["ingredient_id","source_id","source_record_id","source_food_name","country","preparation_state","edible_state","basis_amount","basis_unit","retrieved_at","verification_status","review_notes"],
+  "rules": [
+    "A canonical ingredient may map to multiple official records.",
+    "Raw, boiled, grilled, roasted, dried and other states are never silently merged.",
+    "Website default must select an explicit representative record and display its basis.",
+    "If K-FIND and USDA differ, retain both source records; do not average them automatically.",
+    "Numeric nutrition values are publishable only when an official source record is attached.",
+    "Ambiguous matches remain pending_review instead of receiving estimated values."
+  ],
+  "production_gate": {
+    "required": ["official source match","basis amount","preparation state review"],
+    "unverified_behavior": "Display verification pending; never invent nutrient values."
+  },
+  "records": [
+    {
+      "ingredient_id": "eggplant",
+      "source_id": "K_FIND",
+      "source_record_id": "R106-003000001-0000",
+      "source_food_name": "가지, 생것",
+      "country": "KR",
+      "preparation_state": "raw",
+      "edible_state": "edible_portion",
+      "basis_amount": 100,
+      "basis_unit": "g",
+      "retrieved_at": "2026-09-16",
+      "verification_status": "verified",
+      "review_notes": "K-FIND detail page explicitly reports 100g basis; energy 19 kcal, carbohydrate 4.36g, sugars 2.32g, fat 0.03g, protein 1.13g, fiber 2.70g, sodium 0mg."
+    }
+  ],
+  "verification_queue": [
+    {"ingredient_id":"chicken_breast_raw","query_ko":"닭고기 가슴 생것","status":"pending_review"},
+    {"ingredient_id":"egg_whole","query_ko":"달걀","status":"pending_review"},
+    {"ingredient_id":"tofu","query_ko":"두부","status":"pending_review"},
+    {"ingredient_id":"rice_cooked","query_ko":"쌀밥","status":"pending_review"},
+    {"ingredient_id":"milk_cow","query_ko":"우유","status":"pending_review"},
+    {"ingredient_id":"pork_belly_raw","query_ko":"돼지고기 삼겹살 생것","status":"pending_review"},
+    {"ingredient_id":"beef_sirloin_raw","query_ko":"소고기 한우 등심 생것","status":"pending_review"},
+    {"ingredient_id":"mackerel_raw","query_ko":"고등어 생것","status":"pending_review"},
+    {"ingredient_id":"salmon","query_ko":"연어 생것","status":"pending_review"},
+    {"ingredient_id":"shrimp","query_ko":"새우 생것","status":"pending_review"},
+    {"ingredient_id":"potato","query_ko":"감자 생것","status":"pending_review"},
+    {"ingredient_id":"sweetpotato","query_ko":"고구마 생것","status":"pending_review"},
+    {"ingredient_id":"onion","query_ko":"양파 생것","status":"pending_review"},
+    {"ingredient_id":"garlic","query_ko":"마늘 생것","status":"pending_review"},
+    {"ingredient_id":"carrot","query_ko":"당근 생것","status":"pending_review"},
+    {"ingredient_id":"tomato","query_ko":"토마토 생것","status":"pending_review"},
+    {"ingredient_id":"napa_cabbage_raw","query_ko":"배추 생것","status":"pending_review"},
+    {"ingredient_id":"zucchini_raw","query_ko":"애호박 생것","status":"pending_review"},
+    {"ingredient_id":"green_onion_raw","query_ko":"대파 생것","status":"pending_review"},
+    {"ingredient_id":"cucumber_raw","query_ko":"오이 생것","status":"pending_review"}
+  ]
+}

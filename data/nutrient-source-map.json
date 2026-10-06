@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "purpose": "Source-linked nutrient matching manifest for Food & Life. Numeric values are never guessed.",
+  "primary_source": {
+    "name": "K-FIND / MFDS Food Nutrient Database",
+    "service_id": "I2791",
+    "api_base": "https://openapi.foodsafetykorea.go.kr/api/{key}/I2791/{type}/{start}/{end}",
+    "verified_fields": ["food_code", "food_name", "reference_amount", "energy_kcal", "carbohydrate_g", "protein_g", "fat_g", "sugars_g", "sodium_mg", "cholesterol_mg", "saturated_fat_g"],
+    "match_rules": [
+      "canonical or alias name must match semantically",
+      "raw/cooked/preparation state must agree",
+      "species and meat cut must agree when specified",
+      "store source record id and source food name",
+      "reject ambiguous first-result matching",
+      "never display a numeric nutrient value without provenance"
+    ]
+  },
+  "priority_queue": [
+    {"ingredient_id":"chicken_breast_raw","query_terms":["닭고기 가슴 생것","닭가슴살 생것"],"required_state":"raw","status":"ready_for_source_match"},
+    {"ingredient_id":"egg_whole","query_terms":["달걀 생것","계란 생것"],"required_state":"raw_or_whole","status":"ready_for_source_match"},
+    {"ingredient_id":"rice_cooked","query_terms":["멥쌀 백미 밥","쌀밥"],"required_state":"cooked","status":"ready_for_source_match"},
+    {"ingredient_id":"milk_cow","query_terms":["우유"],"required_state":"plain","status":"ready_for_source_match"},
+    {"ingredient_id":"beef_sirloin","query_terms":["소고기 한우 등심 생것","소고기 등심 생것"],"required_state":"raw","status":"ready_for_source_match"},
+    {"ingredient_id":"pork_loin","query_terms":["돼지고기 등심 생것"],"required_state":"raw","status":"ready_for_source_match"},
+    {"ingredient_id":"chicken_thigh","query_terms":["닭고기 넓적다리 생것","닭다리살 생것"],"required_state":"raw","status":"ready_for_source_match"},
+    {"ingredient_id":"salmon","query_terms":["연어 생것"],"required_state":"raw","status":"ready_for_source_match"},
+    {"ingredient_id":"mackerel","query_terms":["고등어 생것"],"required_state":"raw","status":"ready_for_source_match"},
+    {"ingredient_id":"tofu","query_terms":["두부"],"required_state":"plain","status":"ready_for_source_match"}
+  ],
+  "fallback_source": {
+    "name": "USDA FoodData Central",
+    "use_when": "No appropriate K-FIND record exists for a global ingredient",
+    "rule": "Keep source provenance and do not silently mix preparation states."
+  },
+  "ui_policy": {
+    "verified": "Show nutrient values and source label.",
+    "pending": "Show 영양정보 확인 중 instead of fabricated numbers.",
+    "ambiguous": "Ask user to choose raw/cooked or a specific variety/cut."
+  }
+}

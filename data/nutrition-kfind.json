@@ -1,0 +1,543 @@
+{
+  "version": "0.1.16",
+  "source": {
+    "name": "K-FIND 식품영양성분 데이터베이스",
+    "publisher": "식품의약품안전처",
+    "basis": "100g",
+    "verified_on": "2026-10-04"
+  },
+  "records": [
+    {
+      "ingredient_id": "eggplant_raw",
+      "source_food_code": "R106-003000001-0000",
+      "source_food_name": "가지, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 19,
+        "protein_g": 1.13,
+        "carbs_g": 4.36,
+        "fat_g": 0.03,
+        "sat_fat_g": null,
+        "sugars_g": 2.32,
+        "fiber_g": 2.7,
+        "sodium_mg": 0,
+        "cholesterol_mg": null
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R106-003000001-0000"
+    },
+    {
+      "ingredient_id": "broccoli_raw",
+      "source_food_code": "R106-092000001-0000",
+      "source_food_name": "브로콜리, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 28,
+        "protein_g": 3.56,
+        "carbs_g": 4.72,
+        "fat_g": 0.29,
+        "sat_fat_g": 0.08,
+        "sugars_g": 1.47,
+        "fiber_g": 2.8,
+        "sodium_mg": 4,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R106-092000001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "chicken_breast_raw",
+      "source_food_code": "R109-008000401-0000",
+      "source_food_name": "닭고기, 가슴, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 106,
+        "protein_g": 22.97,
+        "carbs_g": 0,
+        "fat_g": 0.97,
+        "sat_fat_g": 0.37,
+        "sugars_g": 0,
+        "fiber_g": 0,
+        "sodium_mg": 45,
+        "cholesterol_mg": 56.11
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R109-008000401-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "cooked_white_rice",
+      "source_food_code": "D301-022000000-0001",
+      "source_food_name": "쌀밥",
+      "preparation": "cooked",
+      "nutrition_per_100g": {
+        "kcal": 166,
+        "protein_g": 3.36,
+        "carbs_g": 37.33,
+        "fat_g": 0.32,
+        "sat_fat_g": 0.1,
+        "sugars_g": 0.02,
+        "fiber_g": 0.1,
+        "sodium_mg": 0,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=D301-022000000-0001&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "pork_belly_raw",
+      "source_food_code": "R109-014006601-0000",
+      "source_food_name": "돼지고기, 삼겹살, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 372,
+        "protein_g": 13.9,
+        "carbs_g": 0,
+        "fat_g": 33.31,
+        "sat_fat_g": 13.27,
+        "sugars_g": 0,
+        "fiber_g": 0,
+        "sodium_mg": 56,
+        "cholesterol_mg": 69.73
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R109-014006601-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "beef_hanwoo_round_grade1_raw",
+      "source_food_code": "R109-027066201-0000",
+      "source_food_name": "소고기, 한우(1등급), 우둔, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 162,
+        "protein_g": 23,
+        "carbs_g": 0,
+        "fat_g": 6.92,
+        "sat_fat_g": 2.88,
+        "sugars_g": 0,
+        "fiber_g": 0,
+        "sodium_mg": 50,
+        "cholesterol_mg": 57.09
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R109-027066201-0000"
+    },
+    {
+      "ingredient_id": "pork_tenderloin_raw",
+      "source_food_code": "R109-014008701-0000",
+      "source_food_name": "돼지고기, 안심, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 123,
+        "protein_g": 22.21,
+        "carbs_g": 0,
+        "fat_g": 3.15,
+        "sat_fat_g": 1.17,
+        "sugars_g": 0,
+        "fiber_g": 0,
+        "sodium_mg": 46,
+        "cholesterol_mg": 67.85
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R109-014008701-0000"
+    },
+    {
+      "ingredient_id": "banana_raw",
+      "source_food_code": "R108-037000001-0000",
+      "source_food_name": "바나나, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 77,
+        "protein_g": 1.11,
+        "carbs_g": 20,
+        "fat_g": 0.2,
+        "sat_fat_g": 0.05,
+        "sugars_g": 14.18,
+        "fiber_g": 2.2,
+        "sodium_mg": 0,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R108-037000001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "potato_sumi_raw",
+      "source_food_code": "R102-001140001-0000",
+      "source_food_name": "감자, 수미, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 70,
+        "protein_g": 1.93,
+        "carbs_g": 16.07,
+        "fat_g": 0.03,
+        "sat_fat_g": 0.02,
+        "sugars_g": 0,
+        "fiber_g": 1.7,
+        "sodium_mg": 1,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R102-001140001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "tomato_raw",
+      "source_food_code": "R106-186000001-0000",
+      "source_food_name": "토마토, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 19,
+        "protein_g": 0.77,
+        "carbs_g": 4.27,
+        "fat_g": 0.19,
+        "sat_fat_g": 0.03,
+        "sugars_g": 2.68,
+        "fiber_g": 1,
+        "sodium_mg": 2,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R106-186000001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "onion_raw",
+      "source_food_code": "R106-132000001-0000",
+      "source_food_name": "양파, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 29,
+        "protein_g": 0.96,
+        "carbs_g": 6.52,
+        "fat_g": 0.17,
+        "sat_fat_g": 0.01,
+        "sugars_g": 4.71,
+        "fiber_g": 1.6,
+        "sodium_mg": 2,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R106-132000001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "apple_raw",
+      "source_food_code": "R108-050000001-0000",
+      "source_food_name": "사과, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 52,
+        "protein_g": 0.26,
+        "carbs_g": 13.96,
+        "fat_g": 0.07,
+        "sat_fat_g": 0.01,
+        "sugars_g": 10.62,
+        "fiber_g": 1.8,
+        "sodium_mg": 0,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R108-050000001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "carrot_root_raw",
+      "source_food_code": "R106-041007601-0000",
+      "source_food_name": "당근, 뿌리, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 33,
+        "protein_g": 0.78,
+        "carbs_g": 7.65,
+        "fat_g": 0.18,
+        "sat_fat_g": 0.03,
+        "sugars_g": 4.49,
+        "fiber_g": 2.9,
+        "sodium_mg": 25,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R106-041007601-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "garlic_raw",
+      "source_food_code": "R106-053002201-0000",
+      "source_food_name": "마늘, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 128,
+        "protein_g": 7.45,
+        "carbs_g": 26.42,
+        "fat_g": 0.16,
+        "sat_fat_g": 0.06,
+        "sugars_g": 0.23,
+        "fiber_g": 3.8,
+        "sodium_mg": 3,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R106-053002201-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "pork_shoulder_raw",
+      "source_food_code": "R109-014009301-0000",
+      "source_food_name": "돼지고기, 앞다리(앞다리살), 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 161,
+        "protein_g": 20.56,
+        "carbs_g": 0,
+        "fat_g": 7.92,
+        "sat_fat_g": 2.86,
+        "sugars_g": 0,
+        "fiber_g": 0,
+        "sodium_mg": 50,
+        "cholesterol_mg": 60.85
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R109-014009301-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "lettuce_butterhead_green_raw",
+      "source_food_code": "R106-101193601-0000",
+      "source_food_name": "상추, 반결구, 버터헤드, 녹색, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 11,
+        "protein_g": 1.05,
+        "carbs_g": 2.09,
+        "fat_g": 0.18,
+        "sat_fat_g": 0.03,
+        "sugars_g": 1.07,
+        "fiber_g": 0.9,
+        "sodium_mg": 4,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R106-101193601-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "beef_hanwoo_brisket_grade1_raw",
+      "source_food_code": "R109-027065901-0000",
+      "source_food_name": "소고기, 한우(1등급), 양지(차돌박이), 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 408,
+        "protein_g": 16.45,
+        "carbs_g": 0,
+        "fat_g": 35.94,
+        "sat_fat_g": 12.18,
+        "sugars_g": 0,
+        "fiber_g": 0,
+        "sodium_mg": 66,
+        "cholesterol_mg": 90.45
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R109-027065901-0000"
+    },
+    {
+      "ingredient_id": "chestnut_raw",
+      "source_food_code": "R105-014000001-0000",
+      "source_food_name": "밤, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 153,
+        "protein_g": 3.16,
+        "carbs_g": 33.46,
+        "fat_g": 0.74,
+        "sat_fat_g": 0.12,
+        "sugars_g": 6.3,
+        "fiber_g": 6,
+        "sodium_mg": 1,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R105-014000001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "pomegranate_raw",
+      "source_food_code": "R108-059000001-0000",
+      "source_food_name": "석류, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 77,
+        "protein_g": 0.29,
+        "carbs_g": 20.71,
+        "fat_g": 0.2,
+        "sat_fat_g": 0.05,
+        "sugars_g": 9.94,
+        "fiber_g": 5.8,
+        "sodium_mg": 1,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R108-059000001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "sweet_potato_steamed",
+      "source_food_code": "D107-128180000-0001",
+      "source_food_name": "고구마_찐고구마",
+      "preparation": "steamed",
+      "nutrition_per_100g": {
+        "kcal": 139,
+        "protein_g": 1.67,
+        "carbs_g": 32.47,
+        "fat_g": 0.24,
+        "sat_fat_g": 0.05,
+        "sugars_g": 16.32,
+        "fiber_g": 2.9,
+        "sodium_mg": 10,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=D107-128180000-0001"
+    },
+    {
+      "ingredient_id": "cabbage_raw",
+      "source_food_code": "R106-129000001-0000",
+      "source_food_name": "양배추, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 29,
+        "protein_g": 1.36,
+        "carbs_g": 6.98,
+        "fat_g": 0.12,
+        "sat_fat_g": 0.03,
+        "sugars_g": 4.4,
+        "fiber_g": 2.5,
+        "sodium_mg": 9,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R106-129000001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "peach_white_raw",
+      "source_food_code": "R108-043020001-0000",
+      "source_food_name": "복숭아, 백도, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 49,
+        "protein_g": 0.59,
+        "carbs_g": 13.1,
+        "fat_g": 0.04,
+        "sat_fat_g": 0.02,
+        "sugars_g": 9.45,
+        "fiber_g": 2.6,
+        "sodium_mg": 0,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R108-043020001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "korean_melon_seed_removed_raw",
+      "source_food_code": "R108-086004101-0000",
+      "source_food_name": "참외, 생것, 씨 제거",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 40,
+        "protein_g": 0.59,
+        "carbs_g": 10.49,
+        "fat_g": 0.04,
+        "sat_fat_g": 0.01,
+        "sugars_g": 8.82,
+        "fiber_g": 1.1,
+        "sodium_mg": 2,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R108-086004101-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "strawberry_cultivated_raw",
+      "source_food_code": "R108-019010001-0000",
+      "source_food_name": "딸기, 개량종, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 33,
+        "protein_g": 0.75,
+        "carbs_g": 8.15,
+        "fat_g": 0.14,
+        "sat_fat_g": 0.02,
+        "sugars_g": 6.14,
+        "fiber_g": 1.5,
+        "sodium_mg": 1,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R108-019010001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "pineapple_raw",
+      "source_food_code": "R108-092000001-0000",
+      "source_food_name": "파인애플, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 53,
+        "protein_g": 0.48,
+        "carbs_g": 14.05,
+        "fat_g": 0.06,
+        "sat_fat_g": 0.01,
+        "sugars_g": 10.92,
+        "fiber_g": 1.3,
+        "sodium_mg": 0,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R108-092000001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "sweet_potato_raw",
+      "source_food_code": "R102-006000001-0000",
+      "source_food_name": "고구마, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 147,
+        "protein_g": 1.09,
+        "carbs_g": 35.52,
+        "fat_g": 0.15,
+        "sat_fat_g": 0.06,
+        "sugars_g": 9.83,
+        "fiber_g": 2.4,
+        "sodium_mg": 8,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R102-006000001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "green_onion_raw",
+      "source_food_code": "R106-191040001-0000",
+      "source_food_name": "파, 대파, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 23,
+        "protein_g": 1.78,
+        "carbs_g": 4.8,
+        "fat_g": 0.15,
+        "sat_fat_g": 0.07,
+        "sugars_g": 2.63,
+        "fiber_g": 1.6,
+        "sodium_mg": 0,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R106-191040001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    },
+    {
+      "ingredient_id": "kabocha_squash_raw",
+      "source_food_code": "R106-198040001-0000",
+      "source_food_name": "호박, 단호박, 생것",
+      "preparation": "raw",
+      "nutrition_per_100g": {
+        "kcal": 57,
+        "protein_g": 1.19,
+        "carbs_g": 13.63,
+        "fat_g": 0.65,
+        "sat_fat_g": 0.12,
+        "sugars_g": 4.74,
+        "fiber_g": 5,
+        "sodium_mg": 0,
+        "cholesterol_mg": 0
+      },
+      "verification_status": "verified",
+      "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?searchFoodCd=R106-198040001-0000&searchMonthCd=AVG&searchRegionCd=ZZ"
+    }
+  ]
+}

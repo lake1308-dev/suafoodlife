@@ -1,0 +1,306 @@
+{
+  "version": "1.2.1",
+  "source_policy": {
+    "nutrition": [
+      "K-FIND (MFDS, Korea)",
+      "USDA FoodData Central (US)"
+    ],
+    "note": "Verified numeric values only; unmatched foods remain pending."
+  },
+  "ingredients": [
+    {
+      "id": "eggplant_raw",
+      "names": {
+        "ko": "가지, 생것",
+        "en": "Eggplant, raw"
+      },
+      "aliases": {
+        "ko": [
+          "가지"
+        ],
+        "en": [
+          "eggplant",
+          "aubergine"
+        ]
+      },
+      "category": "vegetable",
+      "nutrition_per_100g": {
+        "kcal": 19,
+        "protein_g": 1.13,
+        "carbs_g": 4.36,
+        "fat_g": 0.03,
+        "sat_fat_g": null,
+        "sugars_g": 2.32,
+        "fiber_g": 2.7,
+        "sodium_mg": 0,
+        "cholesterol_mg": null
+      },
+      "sources": [
+        {
+          "source_key": "K-FIND",
+          "source_record_id": "R106-003000001-0000",
+          "source_food_name": "가지, 생것",
+          "basis_g": 100,
+          "verified_on": "2026-09-17"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "asparagus_raw",
+      "names": {
+        "ko": "아스파라거스, 생것",
+        "en": "Asparagus, raw"
+      },
+      "aliases": {
+        "ko": [
+          "아스파라거스"
+        ],
+        "en": [
+          "asparagus"
+        ]
+      },
+      "category": "vegetable",
+      "nutrition_per_100g": {
+        "kcal": 17,
+        "protein_g": 2.02,
+        "carbs_g": 2.53,
+        "fat_g": 0.34,
+        "sat_fat_g": null,
+        "sugars_g": 1.35,
+        "fiber_g": 1.7,
+        "sodium_mg": 3,
+        "cholesterol_mg": null
+      },
+      "sources": [
+        {
+          "source_key": "K-FIND",
+          "source_record_id": "R106-122000001-0000",
+          "source_food_name": "아스파라거스, 생것",
+          "basis_g": 100,
+          "verified_on": "2026-09-17"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "carrot_raw",
+      "names": {
+        "ko": "당근, 뿌리, 생것",
+        "en": "Carrot, raw"
+      },
+      "aliases": {
+        "ko": [
+          "당근"
+        ],
+        "en": [
+          "carrot"
+        ]
+      },
+      "category": "vegetable",
+      "nutrition_per_100g": {
+        "kcal": 33,
+        "protein_g": 0.78,
+        "carbs_g": 7.65,
+        "fat_g": 0.18,
+        "sat_fat_g": null,
+        "sugars_g": 4.49,
+        "fiber_g": 2.9,
+        "sodium_mg": 25,
+        "cholesterol_mg": null
+      },
+      "sources": [
+        {
+          "source_key": "K-FIND",
+          "source_record_id": "R106-041007601-0000",
+          "source_food_name": "당근, 뿌리, 생것",
+          "basis_g": 100,
+          "verified_on": "2026-09-17"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "pomegranate_raw",
+      "names": {
+        "ko": "석류, 생것",
+        "en": "Pomegranate, raw"
+      },
+      "aliases": {
+        "ko": [
+          "석류"
+        ],
+        "en": [
+          "pomegranate"
+        ]
+      },
+      "category": "fruit",
+      "nutrition_per_100g": {
+        "kcal": 77,
+        "protein_g": 0.29,
+        "carbs_g": 20.71,
+        "fat_g": 0.2,
+        "sat_fat_g": null,
+        "sugars_g": 9.94,
+        "fiber_g": 5.8,
+        "sodium_mg": 1,
+        "cholesterol_mg": null
+      },
+      "sources": [
+        {
+          "source_key": "K-FIND",
+          "source_record_id": "R108-059000001-0000",
+          "source_food_name": "석류, 생것",
+          "basis_g": 100,
+          "verified_on": "2026-09-17"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "peach_white_raw",
+      "names": {
+        "ko": "복숭아, 백도, 생것",
+        "en": "White peach, raw"
+      },
+      "aliases": {
+        "ko": [
+          "백도",
+          "복숭아"
+        ],
+        "en": [
+          "white peach",
+          "peach"
+        ]
+      },
+      "category": "fruit",
+      "nutrition_per_100g": {
+        "kcal": 49,
+        "protein_g": 0.59,
+        "carbs_g": 13.1,
+        "fat_g": 0.04,
+        "sat_fat_g": null,
+        "sugars_g": 9.45,
+        "fiber_g": 2.6,
+        "sodium_mg": 0,
+        "cholesterol_mg": null
+      },
+      "sources": [
+        {
+          "source_key": "K-FIND",
+          "source_record_id": "R108-043020001-0000",
+          "source_food_name": "복숭아, 백도, 생것",
+          "basis_g": 100,
+          "verified_on": "2026-09-17"
+        }
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "nutrition_records_note": "This file is now the verified starter set for source-linked nutrition. The previous large catalog should be restored/merged before production expansion; do not treat this starter set as the full catalog.",
+  "progress": {
+    "next_priority": "Begin source-linked K-FIND matching on high-frequency ingredients using A/B/C/X review tiers."
+  },
+  "nutrient_source_manifest": {
+    "updated_on": "2026-09-18",
+    "primary": {
+      "key": "K_FIND",
+      "name": "K-FIND 식품영양성분 데이터베이스",
+      "scope": [
+        "raw ingredients",
+        "prepared foods",
+        "processed foods"
+      ],
+      "basis_preference": "100 g when source supports it"
+    },
+    "secondary": {
+      "key": "USDA_FDC",
+      "name": "USDA FoodData Central",
+      "scope": [
+        "global ingredients unresolved by K-FIND"
+      ]
+    },
+    "display_nutrients": [
+      "energy_kcal",
+      "protein_g",
+      "carbohydrate_g",
+      "fat_g",
+      "sugars_g",
+      "sodium_mg",
+      "saturated_fat_g",
+      "cholesterol_mg"
+    ],
+    "provenance_required": true
+  },
+  "nutrient_match_queue": {
+    "status": "ready",
+    "tiers": [
+      {
+        "tier": 1,
+        "description": "Korean everyday staples and common proteins",
+        "examples": [
+          "chicken_breast_skinless_raw",
+          "pork_belly_raw",
+          "beef_sirloin_raw",
+          "mackerel_raw",
+          "eggplant_raw",
+          "radish_korean_raw",
+          "napa_cabbage_raw",
+          "brown_rice_cooked"
+        ]
+      },
+      {
+        "tier": 2,
+        "description": "Common global produce, grains, dairy and sauces"
+      },
+      {
+        "tier": 3,
+        "description": "Specialty regional ingredients and unresolved global foods"
+      }
+    ],
+    "acceptance": [
+      "canonical/alias name reviewed",
+      "preparation state agrees",
+      "source id stored",
+      "basis stored",
+      "verification date stored"
+    ]
+  },
+  "quality_control": {
+    "nutrient_match_workflow": {
+      "version": "1.0",
+      "source": "K-FIND",
+      "match_tiers": [
+        {
+          "tier": "A",
+          "rule": "canonical name and preparation exact match",
+          "action": "auto_accept"
+        },
+        {
+          "tier": "B",
+          "rule": "official synonym and preparation match",
+          "action": "review_then_accept"
+        },
+        {
+          "tier": "C",
+          "rule": "generic name or multiple candidates",
+          "action": "manual_review"
+        },
+        {
+          "tier": "X",
+          "rule": "preparation mismatch or ambiguous species/cut",
+          "action": "reject"
+        }
+      ],
+      "required_provenance": [
+        "source_key",
+        "source_record_id",
+        "source_food_name",
+        "basis_amount",
+        "basis_unit",
+        "verified_on"
+      ],
+      "display_rule": "Do not present unverified nutrient numbers as official."
+    }
+  }
+}
