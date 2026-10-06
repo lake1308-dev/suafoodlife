@@ -58,3 +58,35 @@ Path('data/rda-basic-1000.json.gz').write_bytes(gzip.compress(json.dumps(meta,en
 Path('data/rda-import-review.json').write_text(json.dumps({k:v for k,v in meta.items() if k!='ingredients'}|{'contains_count':sum(bool(x['allergen_info']['contains']) for x in batch),'not_listed_count':sum(x['allergen_info']['status']=='not_listed' for x in batch),'unverified_count':sum(x['allergen_info']['status']=='unverified' for x in batch),'selected_representatives':chosen},ensure_ascii=False,indent=2)+'\n')
 print('Verified representatives:',[(x['names']['ko'],x['sources'][0]['source_food_name'],x['nutrition_per_100g']['kcal']) for x in curated['ingredients']])
 print('Batch:',len(batch),'contains',sum(bool(x['allergen_info']['contains']) for x in batch))
+
+# Second 1,000: distinct domestic-analysis records; prefer plain prepared ingredients.
+# A processed-food name alone cannot establish its complete allergen composition.
+plain_states={'생것','말린것','삶은것','데친것','찐것','구운것','구운것(팬)','구운것(오븐)','볶은것','가루','밥','죽','미음','불린것','삶아서 말린것','말린것(자연건조)','동결건조','냉동','껍질 포함','껍질과 씨 포함','씨 포함'}
+reviewed_roots={x['names']['ko'].split(',')[0] for x in batch if x['allergen_info']['status']!='unverified'}
+added_terms=('양념','조미','첨가','소금','튀긴','통조림','젓갈','염장','염절임','가당','가공','훈제','소스','샐러드','장조림','혼합')
+def plain_identity(idx):
+ name=str(byindex[idx][1][3]);parts=[p.strip() for p in name.split(',')]
+ return parts[0] in reviewed_roots and parts[-1] in plain_states and not any(t in name for t in added_terms)
+candidates=[]
+for idx,(_,r) in byindex.items():
+ if idx in selected or not str(r[4]).startswith(('농진청','수(','식약')):continue
+ if any(t in str(r[3]) for t in ('미국산','중국산','일본산','호주산')):continue
+ if any(number(r[fields[k]]) is None for k in ('kcal','protein_g','fat_g','carbs_g')):continue
+ candidates.append(idx)
+candidates.sort(key=lambda idx:(not plain_identity(idx),idx))
+selected2=candidates[:1000];assert len(selected2)==1000 and not set(selected)&set(selected2)
+batch2=[]
+for idx in selected2:
+ x=make(idx)
+ if not plain_identity(idx):
+  x['category']='official_food'
+  x['sources'][0]['data_type']='공식 식품 자료 · 가식부 100g'
+  x['allergen_info']={'contains':[],'status':'unverified','basis':'composition_not_verified'}
+ batch2.append(x)
+meta2={k:v for k,v in meta.items() if k not in {'ingredients','curated_id_by_record'}}
+meta2.update(version='0.1.0',batch_number=2,curated_id_by_record={},ingredients=batch2,
+ allergen_policy='Only reviewed plain ingredient identities are classified. Processed or mixed records remain unverified; no complete product allergen composition is inferred.')
+Path('data/rda-foods-1001-2000.json.gz').write_bytes(gzip.compress(json.dumps(meta2,ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
+counts=collections.Counter(x['allergen_info']['status'] for x in batch2)
+Path('data/rda-import-review-2.json').write_text(json.dumps({k:v for k,v in meta2.items() if k!='ingredients'}|{'allergen_status_counts':dict(counts),'previous_batch_overlap':0},ensure_ascii=False,indent=2)+'\n')
+print('Second batch:',len(batch2),'allergen statuses:',dict(counts))

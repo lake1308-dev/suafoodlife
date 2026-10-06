@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "source_version": "RDA DB 10.4 (2026)",
+  "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+  "license": "공공누리 제1유형 · 출처표시 (annual Excel DB)",
+  "original_sha256": "271cc431f2991b3c0c049ec6e05fb59a040319e984ab71468184530de61dec50",
+  "record_count": 1000,
+  "allergen_policy": "Only reviewed plain ingredient identities are classified. Processed or mixed records remain unverified; no complete product allergen composition is inferred.",
+  "batch_number": 2,
+  "curated_id_by_record": {},
+  "allergen_status_counts": {
+    "not_listed": 418,
+    "contains": 138,
+    "unverified": 444
+  },
+  "previous_batch_overlap": 0
+}

@@ -154,13 +154,14 @@ async function loadIngredientDB(){
   }else console.warn("K-FIND nutrition DB unavailable; keeping base ingredient DB.",kfindRes.status);
   try{const pr=await fetch("data/products-curated.json?v=0.1.1",{cache:"no-store"});if(pr.ok){const pd=await pr.json();(pd.products||[]).forEach(x=>byId.set(x.id,x));}}catch(err){console.warn("Curated products unavailable",err)}
   try{const res=await fetch("data/allergen-ingredients.json?v=0.2.0",{cache:"no-store"});if(res.ok){const data=await res.json();(data.ingredients||[]).forEach(x=>{const existing=byId.get(x.id);byId.set(x.id,{...existing,...x})})}}catch(err){console.warn("Basic allergen ingredients unavailable",err)}
-  try{
-   const res=await fetch("data/rda-basic-1000.json.gz?v=20261006",{cache:"no-store"});if(!res.ok)throw new Error("RDA DB "+res.status);
+  const rdaBatches=["data/rda-basic-1000.json.gz?v=20261006","data/rda-foods-1001-2000.json.gz?v=20261006"];
+  for(const url of rdaBatches){try{
+   const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw new Error("RDA DB "+res.status);
    const buf=new Uint8Array(await res.arrayBuffer());
    const text=buf[0]===0x1f&&buf[1]===0x8b?await new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"))).text():new TextDecoder().decode(buf);
    const data=JSON.parse(text);if(data.ingredients?.length!==1000)throw new Error("Incomplete RDA ingredient batch");
    data.ingredients.forEach(x=>{const id=data.curated_id_by_record?.[x.id]||x.id,existing=byId.get(id);byId.set(id,existing?{...x,...existing,nutrition_per_100g:x.nutrition_per_100g,sources:x.sources,allergen_info:x.allergen_info}:{...x,id})});
-  }catch(err){console.warn("RDA ingredient batch unavailable; keeping connected representative ingredients.",err)}
+  }catch(err){console.warn("RDA batch unavailable; keeping other connected records.",url,err)}}
   DB_INGREDIENTS=[...byId.values()];rebuildIngredientIndex();
   Object.entries(BASIC_INGREDIENT_NAMES).forEach(([id,name])=>{if(byId.has(id))DB_ALIAS.set(normalize(name),id)});
  }catch(err){console.warn("Ingredient DB unavailable; using bundled fallback.",err)}
@@ -245,7 +246,7 @@ function applyLang(){
  document.documentElement.lang=lang;
  document.querySelectorAll("[data-en]").forEach(el=>{if(!el.classList.contains("coverage"))el.textContent=el.dataset[lang]});
  document.querySelectorAll(".quick button").forEach(b=>{const labels={chicken:["닭고기","Chicken"],egg:["달걀","Egg"],tofu:["두부","Tofu"],rice:["밥","Rice"],tomato:["토마토","Tomato"],salmon:["연어","Salmon"]};const pair=labels[b.dataset.query];if(pair)b.textContent=pair[lang==="ko"?0:1]});
- const cov=$("coverageCount");if(cov){const p=cov.closest(".coverage"),count=DB_BULK.length,status=bulkLoadState==="loading"?tr("loading","불러오는 중"):bulkLoadState==="partial"?tr("partially loaded","일부 로드"):bulkLoadState==="failed"?tr("load failed","로드 실패"):tr("loaded","로드 완료");if(p)p.innerHTML=lang==="ko"?`국내 공식 자료 기반: <span id="coverageCount">${count.toLocaleString("ko-KR")}</span>건 · ${status} · 농촌진흥청 재료 ${DB_INGREDIENTS.filter(x=>x.sources?.[0]?.workbook_sheet).length.toLocaleString("ko-KR")}건`:`Korean official food database: <span id="coverageCount">${count.toLocaleString("en-US")}</span> records · ${status} · RDA ingredients: ${DB_INGREDIENTS.filter(x=>x.sources?.[0]?.workbook_sheet).length.toLocaleString("en-US")}`;}
+ const cov=$("coverageCount");if(cov){const p=cov.closest(".coverage"),count=DB_BULK.length,status=bulkLoadState==="loading"?tr("loading","불러오는 중"):bulkLoadState==="partial"?tr("partially loaded","일부 로드"):bulkLoadState==="failed"?tr("load failed","로드 실패"):tr("loaded","로드 완료");if(p)p.innerHTML=lang==="ko"?`국내 공식 자료 기반: <span id="coverageCount">${count.toLocaleString("ko-KR")}</span>건 · ${status} · 농촌진흥청 식품·재료 ${DB_INGREDIENTS.filter(x=>x.sources?.[0]?.workbook_sheet).length.toLocaleString("ko-KR")}건`:`Korean official food database: <span id="coverageCount">${count.toLocaleString("en-US")}</span> records · ${status} · RDA foods and ingredients: ${DB_INGREDIENTS.filter(x=>x.sources?.[0]?.workbook_sheet).length.toLocaleString("en-US")}`;}
  $("langBtn").textContent=lang==="ko"?"English":"한국어";
  $("ingredientInput").placeholder=lang==="ko"?"음식명·제품명·업체명으로 검색":"Search food, product or manufacturer";
  $("recipeSearchInput").placeholder=lang==="ko"?"닭볶음탕, 한국요리, 매운 요리...":"Chicken curry, Korean, spicy...";
@@ -314,6 +315,11 @@ function renderAllergy(key){
   host.innerHTML="";const status=document.createElement("p"),note=document.createElement("p");status.className="allergy-status";
   status.textContent=tr("Not among the listed ingredient allergens","재료명 기준 국내 표시 대상 목록에 해당하지 않음");
   note.textContent=tr("This is an identity comparison for an unseasoned ingredient, not an allergy-free guarantee. Other foods can cause allergies; processing, added ingredients and cross-contact need separate checks.","양념하지 않은 단일 재료의 이름을 표시 대상 목록과 대조한 결과입니다. 알레르기가 없다는 뜻은 아닙니다. 다른 식품도 알레르기를 일으킬 수 있으며 가공·첨가 원료·혼입 가능성은 별도로 확인해야 합니다.");host.append(status,note);appendAllergenGuide(host);return;
+ }
+ if(info?.basis==="composition_not_verified"){
+  host.innerHTML="";const status=document.createElement("p"),note=document.createElement("p");status.className="allergy-status";
+  status.textContent=tr("Allergen composition being verified","원재료별 알레르기 정보 확인 중");
+  note.textContent=tr("Nutrition is connected, but the food name does not establish all ingredients or cross-contact. Check the specific product label or recipe. This does not mean allergy-free.","영양정보는 연결됐지만 식품명만으로 모든 원재료와 혼입 가능성을 확정할 수 없습니다. 실제 제품의 표시사항이나 조리법을 확인하세요. 알레르기가 없다는 뜻은 아닙니다.");host.append(status,note);appendAllergenGuide(host);return;
  }
  if(db?.verification_status==="official_bulk"){
   host.innerHTML="";const status=document.createElement("p"),note=document.createElement("p");status.className="allergy-status";status.textContent=tr("Allergen data not included in this nutrition dataset","이 영양성분 데이터에는 알레르기 정보가 포함되어 있지 않습니다");note.textContent=tr("This does not mean allergy-free. For packaged foods, check the label; dish ingredients vary by recipe and restaurant.","알레르기가 없다는 뜻은 아닙니다. 가공식품은 제품 표시사항을, 조리음식은 조리법·업소별 원재료를 확인하세요.");host.append(status,note);appendAllergenGuide(host);return;
