@@ -156,12 +156,12 @@ async function loadIngredientDB(){
   }else console.warn("K-FIND nutrition DB unavailable; keeping base ingredient DB.",kfindRes.status);
   try{const pr=await fetch("data/products-curated.json?v=0.1.1",{cache:"no-store"});if(pr.ok){const pd=await pr.json();(pd.products||[]).forEach(x=>byId.set(x.id,x));}}catch(err){console.warn("Curated products unavailable",err)}
   try{const res=await fetch("data/allergen-ingredients.json?v=0.2.0",{cache:"no-store"});if(res.ok){const data=await res.json();(data.ingredients||[]).forEach(x=>{const existing=byId.get(x.id);byId.set(x.id,{...existing,...x})})}}catch(err){console.warn("Basic allergen ingredients unavailable",err)}
-  const rdaBatches=["data/rda-basic-1000.json.gz?v=20261006","data/rda-foods-1001-2000.json.gz?v=20261006"];
-  for(const url of rdaBatches){try{
+  const rdaBatches=[{url:"data/rda-basic-1000.json.gz?v=20261006",count:1000},{url:"data/rda-foods-1001-2000.json.gz?v=20261006",count:1000},...Array.from({length:10},(_,i)=>({url:`data/rda-foods-2001-2500-p${i+1}.json.gz?v=20261007`,count:50}))];
+  for(const {url,count} of rdaBatches){try{
    const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw new Error("RDA DB "+res.status);
    const buf=new Uint8Array(await res.arrayBuffer());
    const text=buf[0]===0x1f&&buf[1]===0x8b?await new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"))).text():new TextDecoder().decode(buf);
-   const data=JSON.parse(text);if(data.ingredients?.length!==1000)throw new Error("Incomplete RDA ingredient batch");
+   const data=JSON.parse(text);if(data.record_count!==count||data.ingredients?.length!==count)throw new Error("Incomplete RDA ingredient batch");
    data.ingredients.forEach(x=>{const id=data.curated_id_by_record?.[x.id]||x.id,existing=byId.get(id);byId.set(id,existing?{...x,...existing,nutrition_per_100g:x.nutrition_per_100g,sources:x.sources,allergen_info:x.allergen_info}:{...x,id})});
   }catch(err){console.warn("RDA batch unavailable; keeping other connected records.",url,err)}}
   DB_INGREDIENTS=[...byId.values()];rebuildIngredientIndex();
