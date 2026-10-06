@@ -61,7 +61,7 @@ const I={
 };
 
 const EXTRA={
- chicken:{sat:1.0,sugar:0,sodium:74,chol:85,allergy:["none","Chicken is not one of the common major food allergens.","닭고기는 일반적인 주요 식품 알레르겐에 해당하지 않습니다."]},
+ chicken:{sat:1.0,sugar:0,sodium:74,chol:85,allergy:["none","Chicken is an allergen listed in Korean labeling requirements.","닭고기는 국내 알레르기 표시 대상입니다."]},
  egg:{sat:3.1,sugar:0.4,sodium:142,chol:372,allergy:["major","Egg","달걀","Egg is a major food allergen.","달걀은 주요 식품 알레르겐입니다."]},
  tofu:{sat:0.7,sugar:0.6,sodium:7,chol:0,allergy:["major","Soy","대두","Tofu is made from soybeans.","두부는 대두로 만들어집니다."]},
  rice:{sat:0.1,sugar:0.1,sodium:1,chol:0,allergy:["none","Rice is not one of the common major food allergens.","쌀은 일반적인 주요 식품 알레르겐에 해당하지 않습니다."]},
@@ -270,9 +270,27 @@ function updateNutrition(){
  document.querySelectorAll(".amount-presets button").forEach(b=>b.classList.toggle("active",Number(b.dataset.grams)===currentAmount));
 }
 const ALLERGEN_SOURCE_URL="https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412";
-const INGREDIENT_ALLERGENS={peanut_dried:"땅콩",tomato_raw:"토마토",peach_white_raw:"복숭아",chicken_breast_raw:"닭고기",pork_belly_raw:"돼지고기",pork_tenderloin_raw:"돼지고기",pork_shoulder_raw:"돼지고기",beef_hanwoo_round_grade1_raw:"쇠고기",beef_hanwoo_brisket_grade1_raw:"쇠고기",chicken:"닭고기",egg:"알류",tofu:"대두",beef:"쇠고기",pork:"돼지고기",shrimp:"새우"};
-const ALLERGEN_NAMES_EN={땅콩:"Peanut",토마토:"Tomato",복숭아:"Peach",닭고기:"Chicken",돼지고기:"Pork",쇠고기:"Beef",알류:"Egg",대두:"Soybean",새우:"Shrimp"};
-function ingredientAllergenInfo(key){const db=getIngredient(key),label=INGREDIENT_ALLERGENS[db?.id||canonicalIngredientId(key)];return db?.allergen_info||(label?{contains:[label],source_url:ALLERGEN_SOURCE_URL}:null)}
+const INGREDIENT_ALLERGENS={"peanut_dried": "땅콩", "tomato_raw": "토마토", "peach_white_raw": "복숭아", "chicken_breast_raw": "닭고기", "pork_belly_raw": "돼지고기", "pork_tenderloin_raw": "돼지고기", "pork_shoulder_raw": "돼지고기", "beef_hanwoo_round_grade1_raw": "쇠고기", "beef_hanwoo_brisket_grade1_raw": "쇠고기", "chicken": "닭고기", "egg": "알류", "egg_whole": "알류", "tofu": "대두", "beef": "쇠고기", "pork": "돼지고기", "shrimp": "새우", "milk": "우유", "cheese": "우유", "flour": "밀", "wheat_flour": "밀", "pork_loin": "돼지고기", "beef_rib": "쇠고기", "beef_ground": "쇠고기", "soybean_sprout": "대두", "butter": "우유", "heavy_cream": "우유", "parmesan": "우유"};
+const ALLERGEN_NAMES_EN={"땅콩": "Peanut", "토마토": "Tomato", "복숭아": "Peach", "닭고기": "Chicken", "돼지고기": "Pork", "쇠고기": "Beef", "알류": "Egg", "대두": "Soybean", "새우": "Shrimp", "우유": "Milk", "밀": "Wheat"};
+function ingredientAllergenInfo(key){const db=getIngredient(key),label=INGREDIENT_ALLERGENS[db?.id||canonicalIngredientId(key)];return db?.allergen_info||(label?{contains:[label],source_url:ALLERGEN_SOURCE_URL,reviewed_on:"2026-10-06",basis:"ingredient_identity"}:null)}
+function appendAllergenGuide(host){
+ const details=document.createElement("details"),summary=document.createElement("summary"),p=document.createElement("p"),a=document.createElement("a");
+ summary.textContent=tr("Korean allergen labeling guide","국내 알레르기 표시 기준 보기");
+ p.textContent=tr("Labeling covers eggs (poultry), milk, buckwheat, peanut, soybean, wheat, pine nut, walnut, crab, shrimp, squid, mackerel, shellfish (including oyster, abalone and mussel), peach, tomato, chicken, pork, beef and sulfites (at least 10 mg/kg sulfur dioxide in the final product). Foods outside this list can also cause allergies. Contained ingredients and shared-facility notices are different; check both on the product label.","국내 표시 대상은 알류(가금류), 우유, 메밀, 땅콩, 대두, 밀, 잣, 호두, 게, 새우, 오징어, 고등어, 조개류(굴·전복·홍합 포함), 복숭아, 토마토, 닭고기, 돼지고기, 쇠고기, 아황산류입니다. 아황산류는 최종제품의 이산화황이 10mg/kg 이상일 때 해당합니다. 목록 밖의 식품도 알레르기를 일으킬 수 있습니다. 함유 성분과 같은 제조시설의 혼입 가능성은 다른 정보이므로 제품 표시에서 각각 확인하세요.");
+ a.href=ALLERGEN_SOURCE_URL;a.target="_blank";a.rel="noopener noreferrer";a.textContent=tr("MFDS source ↗","식약처 안내 출처 ↗");details.append(summary,p,a);host.append(details);
+}
+function recipeAllergenSummary(r){
+ const contains=new Set(),unchecked=[];
+ r.ingredients.forEach((x,i)=>{const el=document.querySelector('.recipe-amount[data-i="'+i+'"]');if(Number(el?.value??x.amount)<=0)return;const info=ingredientAllergenInfo(x.ingredient_id);if(info?.contains?.length)info.contains.forEach(v=>contains.add(v));else unchecked.push(dbIngredientName(x.ingredient_id))});
+ return {contains:[...contains],unchecked};
+}
+function updateRecipeAllergens(r){
+ let box=$("recipeAllergens");if(!box){box=document.createElement("div");box.id="recipeAllergens";box.className="allergy-content";$("recipeIngredients").after(box)}box.classList.remove("hidden");box.innerHTML="";
+ const info=recipeAllergenSummary(r),status=document.createElement("p"),note=document.createElement("p");status.className="allergy-status";
+ const names=info.contains.map(x=>lang==="ko"?x:(ALLERGEN_NAMES_EN[x]||x));status.textContent=names.length?tr("⚠ Included ingredient allergens: ","⚠ 포함된 재료의 알레르기 성분: ")+names.join(" · "):tr("Allergen information needs checking","알레르기 정보 확인 필요");
+ note.textContent=tr("Based on the current recipe ingredients and amounts. Removing an ingredient does not rule out cross-contact. Product labels and additional ingredients still need checking.","현재 레시피의 재료와 입력한 양을 기준으로 표시합니다. 재료를 빼도 혼입 가능성이 없어지는 것은 아닙니다. 사용 제품의 표시사항과 추가 재료를 확인하세요.");box.append(status,note);
+ if(info.unchecked.length){const p=document.createElement("p");p.textContent=tr("No connected allergen data: ","알레르기 자료 미연결 재료: ")+info.unchecked.join(", ");box.append(p)}appendAllergenGuide(box);
+}
 function renderAllergy(key){
  const host=$("allergyContent"),db=getIngredient(key),info=ingredientAllergenInfo(key);
  if(info){
@@ -280,12 +298,12 @@ function renderAllergy(key){
   const names=info.contains.map(x=>lang==="ko"?x:(ALLERGEN_NAMES_EN[x]||x)).join(" · ");
   status.className="allergy-status";status.textContent=tr("⚠ Food allergen: ","⚠ 알레르기 유발 성분: ")+names;
   note.textContent=tr("This ingredient contains an allergen listed by MFDS. Other allergens and shared-facility notices depend on the packaged product; check its label.","이 재료는 식약처가 안내하는 알레르기 유발 성분에 해당하거나 이를 포함합니다. 다른 알레르기 원료와 같은 제조시설 안내는 개별 제품 표시를 확인하세요.");
-  link.href=info.source_url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=tr("MFDS allergen information ↗","식약처 알레르기 정보 출처 ↗");host.append(status,note,link);return;
+  link.href=info.source_url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=tr("MFDS allergen information ↗","식약처 알레르기 정보 출처 ↗");host.append(status,note,link);appendAllergenGuide(host);return;
  }
  if(db?.verification_status==="official_bulk"){
-  host.innerHTML="";const status=document.createElement("p"),note=document.createElement("p");status.className="allergy-status";status.textContent=tr("Allergen data not included in this nutrition dataset","이 영양성분 데이터에는 알레르기 정보가 포함되어 있지 않습니다");note.textContent=tr("This does not mean allergy-free. For packaged foods, check the label; dish ingredients vary by recipe and restaurant.","알레르기가 없다는 뜻은 아닙니다. 가공식품은 제품 표시사항을, 조리음식은 조리법·업소별 원재료를 확인하세요.");host.append(status,note);return;
+  host.innerHTML="";const status=document.createElement("p"),note=document.createElement("p");status.className="allergy-status";status.textContent=tr("Allergen data not included in this nutrition dataset","이 영양성분 데이터에는 알레르기 정보가 포함되어 있지 않습니다");note.textContent=tr("This does not mean allergy-free. For packaged foods, check the label; dish ingredients vary by recipe and restaurant.","알레르기가 없다는 뜻은 아닙니다. 가공식품은 제품 표시사항을, 조리음식은 조리법·업소별 원재료를 확인하세요.");host.append(status,note);appendAllergenGuide(host);return;
  }
- host.innerHTML='<p class="allergy-status">'+tr("Information being verified","정보 확인 중")+'</p><p>'+tr("No verified allergen information is connected yet. This does not mean allergy-free.","아직 확인된 알레르기 정보가 연결되지 않았습니다. 알레르기가 없다는 뜻은 아닙니다.")+'</p>';
+ host.innerHTML='<p class="allergy-status">'+tr("Information being verified","정보 확인 중")+'</p><p>'+tr("No verified allergen information is connected yet. This does not mean allergy-free.","아직 확인된 알레르기 정보가 연결되지 않았습니다. 알레르기가 없다는 뜻은 아닙니다.")+'</p>';appendAllergenGuide(host);
 }
 
 function renderIngredient(key,scroll=true,preserveAmount=false){
@@ -330,7 +348,7 @@ function renderDishCards(list,target){
  });
 }
 function renderRecipe(d,scroll=true){
- currentDish=d;["recipeNutritionLive","recipeNutritionNotice"].forEach(id=>$(id)?.classList.add("hidden"));$("recipe").classList.remove("hidden");$("recipeName").textContent=tr(d.name,d.nameKo);$("recipeMeta").textContent=tr("Approx. ","약 ")+d.time;
+ currentDish=d;["recipeNutritionLive","recipeNutritionNotice","recipeAllergens"].forEach(id=>$(id)?.classList.add("hidden"));$("recipe").classList.remove("hidden");$("recipeName").textContent=tr(d.name,d.nameKo);$("recipeMeta").textContent=tr("Approx. ","약 ")+d.time;
  $("recipeIngredients").innerHTML=(lang==="ko"?d.ingKo:d.ing).map(x=>"<li>"+x+"</li>").join("");
  $("recipeSteps").innerHTML=(lang==="ko"?d.stepsKo:d.steps).map(x=>"<li>"+x+"</li>").join("");
  if(scroll)$("recipe").scrollIntoView({behavior:"smooth",block:"start"});
@@ -450,6 +468,7 @@ function calculateDBRecipeNutrition(r){
 }
 function updateDBRecipeNutrition(){
  const r=currentDish;if(!r||!r.ingredients)return;
+ updateRecipeAllergens(r);
  const out=calculateDBRecipeNutrition(r), servings=Math.max(1,Number(r.servings)||1), t=out.totals;
  const box=document.getElementById("recipeNutritionLive");if(!box)return;
  const fmt=(v,u)=>v==null?"—":Math.round(v*10)/10+u, partial=out.verified&&!out.complete;
