@@ -12,8 +12,8 @@ let FOOD_DETAILS={};
 let FOOD_ADVICE_BATCH={};
 async function loadFoodDetails(){
  try{
- const records=await Promise.all(Array.from({length:10},async(_,i)=>{
-  const res=await fetch(`data/food-details-${i+1}.json.gz?v=0.2.0`,{cache:"no-store"});if(!res.ok)throw new Error("Food details unavailable");
+ const records=await Promise.all(Array.from({length:12},async(_,i)=>{
+  const res=await fetch(`data/food-details-${i+1}.json.gz?v=20261007`,{cache:"no-store"});if(!res.ok)throw new Error("Food details unavailable");
   const stream=new Blob([await res.arrayBuffer()]).stream().pipeThrough(new DecompressionStream("gzip"));
   return (await new Response(stream).json()).records||{};
  }));FOOD_DETAILS=Object.assign({},...records);
@@ -119,7 +119,8 @@ async function loadBulkNutritionDB(){
    ...Array.from({length:5},(_,i)=>`data/nutrition-bulk-2001-3000-p${i+1}.json.gz?v=20261004`),
    ...Array.from({length:17},(_,i)=>{const start=3001+i*1000,end=4000+i*1000;return `data/nutrition-bulk-${start}-${end}.json.gz?v=20261004`;}),
    ...Array.from({length:10},(_,i)=>{const start=20001+i*1000,end=21000+i*1000;return `data/nutrition-bulk-${start}-${end}.json.gz?v=20261004`;}),
-   ...Array.from({length:20},(_,i)=>{const start=30001+i*1000,end=31000+i*1000;return `data/nutrition-bulk-${start}-${end}.json.gz?v=20261004`;})];
+   ...Array.from({length:20},(_,i)=>{const start=30001+i*1000,end=31000+i*1000;return `data/nutrition-bulk-${start}-${end}.json.gz?v=20261004`;}),
+   ...Array.from({length:10},(_,i)=>{const start=50001+i*1000,end=51000+i*1000;return `data/nutrition-bulk-${start}-${end}.json.gz?v=20261007`;})];
   const loadGzipJson=async url=>{
    const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw new Error("bulk DB "+res.status+" "+url);
    const buf=await res.arrayBuffer(),u8=new Uint8Array(buf);let txt;
