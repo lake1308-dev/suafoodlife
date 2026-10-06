@@ -1,0 +1,392 @@
+{
+  "version": "0.1.0",
+  "policy": "Basic ingredient identity only; no nutrient values or package-label claims. No generic bean mapping.",
+  "ingredients": [
+    {
+      "id": "milk",
+      "names": {
+        "ko": "우유",
+        "en": "Milk"
+      },
+      "aliases": {
+        "ko": [
+          "흰우유"
+        ],
+        "en": [
+          "milk"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "우유"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "egg_whole",
+      "names": {
+        "ko": "달걀",
+        "en": "Egg"
+      },
+      "aliases": {
+        "ko": [
+          "계란"
+        ],
+        "en": [
+          "egg"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "알류"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "walnut_raw",
+      "names": {
+        "ko": "호두",
+        "en": "Walnut"
+      },
+      "aliases": {
+        "ko": [],
+        "en": [
+          "walnut"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "호두"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "pine_nut_raw",
+      "names": {
+        "ko": "잣",
+        "en": "Pine nut"
+      },
+      "aliases": {
+        "ko": [],
+        "en": [
+          "pine nut"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "잣"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "buckwheat_grain",
+      "names": {
+        "ko": "메밀",
+        "en": "Buckwheat"
+      },
+      "aliases": {
+        "ko": [],
+        "en": [
+          "buckwheat"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "메밀"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "soybean_raw",
+      "names": {
+        "ko": "대두",
+        "en": "Soybean"
+      },
+      "aliases": {
+        "ko": [
+          "메주콩",
+          "노란콩"
+        ],
+        "en": [
+          "soybean"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "대두"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "wheat_grain",
+      "names": {
+        "ko": "밀",
+        "en": "Wheat"
+      },
+      "aliases": {
+        "ko": [],
+        "en": [
+          "wheat"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "밀"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "wheat_flour",
+      "names": {
+        "ko": "밀가루",
+        "en": "Wheat flour"
+      },
+      "aliases": {
+        "ko": [
+          "소맥분"
+        ],
+        "en": [
+          "wheat flour"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "밀"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "crab_raw",
+      "names": {
+        "ko": "게",
+        "en": "Crab"
+      },
+      "aliases": {
+        "ko": [],
+        "en": [
+          "crab"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "게"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "shrimp",
+      "names": {
+        "ko": "새우",
+        "en": "Shrimp"
+      },
+      "aliases": {
+        "ko": [],
+        "en": [
+          "shrimp"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "새우"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "squid_raw",
+      "names": {
+        "ko": "오징어",
+        "en": "Squid"
+      },
+      "aliases": {
+        "ko": [],
+        "en": [
+          "squid"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "오징어"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "mackerel_raw",
+      "names": {
+        "ko": "고등어",
+        "en": "Mackerel"
+      },
+      "aliases": {
+        "ko": [],
+        "en": [
+          "mackerel"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "고등어"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "oyster_raw",
+      "names": {
+        "ko": "굴",
+        "en": "Oyster"
+      },
+      "aliases": {
+        "ko": [
+          "석화"
+        ],
+        "en": [
+          "oyster"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "조개류"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "abalone_raw",
+      "names": {
+        "ko": "전복",
+        "en": "Abalone"
+      },
+      "aliases": {
+        "ko": [],
+        "en": [
+          "abalone"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "조개류"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    },
+    {
+      "id": "mussel_raw",
+      "names": {
+        "ko": "홍합",
+        "en": "Mussel"
+      },
+      "aliases": {
+        "ko": [],
+        "en": [
+          "mussel"
+        ]
+      },
+      "category": "basic_ingredient",
+      "verification_status": "allergen_identity",
+      "nutrition_per_100g": {},
+      "sources": [],
+      "allergen_info": {
+        "contains": [
+          "조개류"
+        ],
+        "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "checked_on": "2026-10-06",
+        "basis": "ingredient_identity"
+      }
+    }
+  ]
+}
