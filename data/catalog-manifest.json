@@ -1,6 +1,6 @@
 {
-  "version": "2026-09-29",
-  "record_count": 274732,
+  "version": "2026-10-07-registration-complete",
+  "record_count": 337780,
   "chunks": [
     {
       "path": "data/catalog-20260929-1.json.gz",
@@ -276,6 +276,71 @@
       "path": "data/catalog-20260929-55.json.gz",
       "record_count": 4732,
       "sha256": "b90855ef688cb7b101e8008800936508248da21c1e92289e2cdaf9b1da9c0df8"
+    },
+    {
+      "path": "data/catalog-imported-20260929-1.json.gz",
+      "record_count": 5000,
+      "sha256": "9bf6c2ddf3df5c034635cd0532c134f33a644ca91b1759d434a909901136966e"
+    },
+    {
+      "path": "data/catalog-imported-20260929-2.json.gz",
+      "record_count": 5000,
+      "sha256": "f7e55384e749707f1bdd7a797c5deaa0f1e7f226a963e82fbc11c6e9ebef6473"
+    },
+    {
+      "path": "data/catalog-imported-20260929-3.json.gz",
+      "record_count": 5000,
+      "sha256": "70c5de2331cb323b1eb276446f18fa8eb57f219f29051c9465036f62db25fe8a"
+    },
+    {
+      "path": "data/catalog-imported-20260929-4.json.gz",
+      "record_count": 5000,
+      "sha256": "06628e6f23b786c865781fbdfde6f211347421620f9d7c76b6b97a807220fb74"
+    },
+    {
+      "path": "data/catalog-imported-20260929-5.json.gz",
+      "record_count": 5000,
+      "sha256": "a7293d1946ac3466a3f3c49bd0915b50cf2086fb4e299442eb0f3a959f1410a9"
+    },
+    {
+      "path": "data/catalog-imported-20260929-6.json.gz",
+      "record_count": 5000,
+      "sha256": "8f818a8618635cdf217fd2a1473b339841dbe5408e35be8894363297de860da1"
+    },
+    {
+      "path": "data/catalog-imported-20260929-7.json.gz",
+      "record_count": 5000,
+      "sha256": "cd1d8f8771bc4d8f2255d65ae871f906a326b35f31ce235aa94845633c889eec"
+    },
+    {
+      "path": "data/catalog-imported-20260929-8.json.gz",
+      "record_count": 5000,
+      "sha256": "1df5aae5ecf955ecb0c2ce809ac0699956fd2f2e99db97d1d10e0e00cd4cf6fc"
+    },
+    {
+      "path": "data/catalog-imported-20260929-9.json.gz",
+      "record_count": 5000,
+      "sha256": "adf66cb981baa860e402ec025363631e48db7bd18226aff72ec66989c8a4e296"
+    },
+    {
+      "path": "data/catalog-imported-20260929-10.json.gz",
+      "record_count": 5000,
+      "sha256": "33c9c8eb3fc441dad52db93d61fde4bbc196b490476f25d55981aeb8a5b15166"
+    },
+    {
+      "path": "data/catalog-imported-20260929-11.json.gz",
+      "record_count": 5000,
+      "sha256": "3f637f82c0aa7fcf348ab5ee944c11d9d6b00cf90d672c5fec41f06b09ff8d42"
+    },
+    {
+      "path": "data/catalog-imported-20260929-12.json.gz",
+      "record_count": 5000,
+      "sha256": "722e6276b62b7d0df8a6175c618abdcf421a50bbf381949ef98107cbcfbb502a"
+    },
+    {
+      "path": "data/catalog-imported-20260929-13.json.gz",
+      "record_count": 3048,
+      "sha256": "98ff915bc8caab3b23000adc7b63cb80d2a8168ed3c86a324f8746e5b6dffbca"
     }
   ]
 }

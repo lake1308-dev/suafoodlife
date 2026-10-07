@@ -111,12 +111,12 @@ function bulkToIngredient(row,cols){
  return {id,names:{ko:x.name,en:x.name},aliases:{ko:[],en:[]},category:"official_food",verification_status:"official_bulk",
   nutrition_per_100g:{kcal:x.kcal,protein_g:x.protein_g,fat_g:x.fat_g,carbs_g:x.carbs_g,sugars_g:x.sugars_g,fiber_g:x.fiber_g,sodium_mg:x.sodium_mg,cholesterol_mg:x.cholesterol_mg,sat_fat_g:x.sat_fat_g},
   _normalizedName:normalize(x.name),_compactName:compactSearch(x.name),_compactVendor:compactSearch(x.manufacturer||""),
-  sources:[{manufacturer:x.manufacturer,declared_weight:x.declared_weight,food_code:x.code,food_name:x.name,source:x.source,reference_date:x.reference_date,basis:x.basis,data_type:x.type}]};
+  sources:[{import_flag:x.import_flag,manufacturer:x.manufacturer,declared_weight:x.declared_weight,food_code:x.code,food_name:x.name,source:x.source,reference_date:x.reference_date,basis:x.basis,data_type:x.type}]};
 }
 async function loadBulkNutritionDB(){
  DB_BULK=[];DB_BULK_BY_NAME=new Map();DB_BULK_BY_ID=new Map();
  try{
-  const res=await fetch("data/catalog-manifest.json?v=20261007-full",{cache:"no-store"});if(!res.ok)throw new Error("catalog manifest unavailable");
+  const res=await fetch("data/catalog-manifest.json?v=20261007-complete",{cache:"no-store"});if(!res.ok)throw new Error("catalog manifest unavailable");
   const manifest=await res.json();if(!Array.isArray(manifest.chunks)||!manifest.record_count)throw new Error("invalid catalogue manifest");
   try{const advice=await fetch("data/food-advice-batch-1.json?v=20261007",{cache:"no-store"});if(advice.ok){const data=await advice.json();if(data.record_count===5000&&Object.keys(data.records||{}).length===5000)FOOD_ADVICE_BATCH=data.records}}catch(err){console.warn("Food advice unavailable",err)}
   let next=0;const failures=[];
@@ -124,7 +124,7 @@ async function loadBulkNutritionDB(){
    while(next<manifest.chunks.length){
     const chunk=manifest.chunks[next++];
     try{
-     const response=await fetch(chunk.path+"?v=20261007-full",{cache:"no-store"});if(!response.ok)throw new Error("catalogue chunk "+response.status);
+     const response=await fetch(chunk.path+"?v=20261007-complete",{cache:"no-store"});if(!response.ok)throw new Error("catalogue chunk "+response.status);
      const buf=await response.arrayBuffer(),bytes=new Uint8Array(buf);
      const text=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).text():new TextDecoder().decode(bytes);
      const data=JSON.parse(text);if(data.record_count!==chunk.record_count||data.rows?.length!==chunk.record_count)throw new Error("catalogue count mismatch");
@@ -155,7 +155,7 @@ async function loadIngredientDB(){
   }else console.warn("K-FIND nutrition DB unavailable; keeping base ingredient DB.",kfindRes.status);
   try{const pr=await fetch("data/products-curated.json?v=0.1.1",{cache:"no-store"});if(pr.ok){const pd=await pr.json();(pd.products||[]).forEach(x=>byId.set(x.id,x));}}catch(err){console.warn("Curated products unavailable",err)}
   try{const res=await fetch("data/allergen-ingredients.json?v=0.2.0",{cache:"no-store"});if(res.ok){const data=await res.json();(data.ingredients||[]).forEach(x=>{const existing=byId.get(x.id);byId.set(x.id,{...existing,...x})})}}catch(err){console.warn("Basic allergen ingredients unavailable",err)}
-  const rdaBatches=[{url:"data/rda-basic-1000.json.gz?v=20261006",count:1000},{url:"data/rda-foods-1001-2000.json.gz?v=20261006",count:1000},...Array.from({length:10},(_,i)=>({url:`data/rda-foods-2001-2500-p${i+1}.json.gz?v=20261007`,count:50}))];
+  const rdaBatches=[{url:"data/rda-basic-1000.json.gz?v=20261006",count:1000},{url:"data/rda-foods-1001-2000.json.gz?v=20261006",count:1000},...Array.from({length:10},(_,i)=>({url:`data/rda-foods-2001-2500-p${i+1}.json.gz?v=20261007`,count:50})),{url:"data/rda-foods-remaining-811.json.gz?v=20261007-complete",count:811}];
   for(const {url,count} of rdaBatches){try{
    const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw new Error("RDA DB "+res.status);
    const buf=new Uint8Array(await res.arrayBuffer());
@@ -281,6 +281,11 @@ function updateNutrition(){
  $("sugars").textContent=dn.sugars_g!=null?val(dn.sugars_g,"g"):(x.sugar==null?"—":round1(x.sugar*factor)+"g");
  $("sodium").textContent=dn.sodium_mg!=null?Math.round(dn.sodium_mg*factor)+"mg":(x.sodium==null?"—":Math.round(x.sodium*factor)+"mg");
  $("cholesterol").textContent=dn.cholesterol_mg!=null?Math.round(dn.cholesterol_mg*factor)+"mg":(x.chol==null?"—":Math.round(x.chol*factor)+"mg");
+ const availability=$("nutritionAvailability");if(availability){
+  const labels=[["kcal","열량","Calories"],["protein_g","단백질","Protein"],["carbs_g","탄수화물","Carbs"],["fat_g","지방","Fat"],["sat_fat_g","포화지방","Saturated fat"],["sugars_g","당류","Sugars"],["sodium_mg","나트륨","Sodium"],["cholesterol_mg","콜레스테롤","Cholesterol"]];
+  const missing=labels.filter(([key])=>n[key]==null).map(([,ko,en])=>tr(en,ko));
+  availability.textContent=missing.length?tr("Values unavailable in the connected source: ","연결된 자료에서 확인되지 않은 값: ")+missing.join(", ")+tr(". — is not zero. Available values remain usable; package labels can be checked for missing product values.",". —는 0이 아닙니다. 있는 값은 그대로 이용할 수 있으며, 제품은 포장 영양표시로 추가 확인할 수 있습니다."):tr("All eight displayed nutrition values are available. Values scale with your entered amount.","표시하는 영양정보 8개가 모두 연결되어 있습니다. 입력한 섭취량에 맞춰 계산됩니다.");
+ }
  document.querySelectorAll(".amount-presets button").forEach(b=>b.classList.toggle("active",Number(b.dataset.grams)===currentAmount));
 }
 const ALLERGEN_SOURCE_URL="https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412";
@@ -411,7 +416,7 @@ function renderFoodSource(key){
  const host=$("foodSource");if(!host)return;const db=getIngredient(key),src=db?.sources?.[0];host.innerHTML="";
  if(!src){host.classList.add("hidden");return}host.classList.remove("hidden");
  const detail=src.manufacturer!==undefined?src:FOOD_DETAILS[src.food_code]||src;
- const rows=[[tr("Original food name","원본 식품명"),src.source_food_name||src.food_name],[tr("Manufacturer","제조·판매업체"),detail.manufacturer],[tr("Declared product weight","원본 식품중량"),detail.declared_weight],[tr("Data type","식품 유형"),src.data_type],[tr("Calculation basis","계산 기준"),src.basis],[tr("Label basis","원본 표시 기준"),src.label_basis],[tr("Checked date","확인·기준일"),src.reference_date],[tr("Food code","식품코드"),src.food_code||src.source_record_id],[tr("Analysis source","분석 자료"),src.analysis_source],[tr("Source","출처"),src.source_key||src.source]].filter(x=>x[1]);
+ const rows=[[tr("Original food name","원본 식품명"),src.source_food_name||src.food_name],[tr("Manufacturer","제조·판매업체"),detail.manufacturer],[tr("Declared product weight","원본 식품중량"),detail.declared_weight],[tr("Data type","식품 유형"),src.data_type],[tr("Import status","수입 여부"),src.import_flag==="Y"?tr("Imported product (official Korean dataset)","수입제품 · 국내 공식 DB 수록"):null],[tr("Calculation basis","계산 기준"),src.basis],[tr("Label basis","원본 표시 기준"),src.label_basis],[tr("Checked date","확인·기준일"),src.reference_date],[tr("Food code","식품코드"),src.food_code||src.source_record_id],[tr("Analysis source","분석 자료"),src.analysis_source],[tr("Source","출처"),src.source_key||src.source]].filter(x=>x[1]);
  rows.forEach(([label,value])=>{const row=document.createElement("div"),l=document.createElement("span"),v=document.createElement("strong");l.textContent=label;v.textContent=value;row.append(l,v);host.appendChild(row)});
  const sourceUrl=src.source_url||(/^https?:\/\//.test(src.source||"")?src.source:null);
  if(sourceUrl){const link=document.createElement("a");link.href=sourceUrl;link.target="_blank";link.rel="noopener noreferrer";link.textContent=db.verification_status==="product_label"?tr("View source product information ↗","제품 표시정보 출처 보기 ↗"):tr("View nutrition data source ↗","영양정보 출처 보기 ↗");host.appendChild(link)}

@@ -1,0 +1,28 @@
+{
+  "imported_products_added": 63048,
+  "rda_foods_added": 811,
+  "rda_source_rows_held": 55,
+  "catalog_count": 337780,
+  "rda_count": 3311,
+  "combined_count": 341091,
+  "original_sources": {
+    "products": "04f8fb4e82220a911aa4d583539da1b412138a430d76482a1e7a80f7b930dd93",
+    "rda": "271cc431f2991b3c0c049ec6e05fb59a040319e984ab71468184530de61dec50"
+  },
+  "new_products_complete_display": 63015,
+  "new_rda_complete_display": 302,
+  "allergy_values_inferred": 0,
+  "policy": "Append exact-code official source records, mark imported products, preserve original units and missing nutrition, hold 55 RDA records with incomplete core nutrition.",
+  "complete_display_records": 329859,
+  "partial_display_records": 11232,
+  "missing_value_policy": "Unavailable fields remain null and display as a dash, never zero. Preserve available fields. Exclude incomplete nutrients from full recipe totals. Hold 55 unregistered RDA rows with incomplete core nutrition.",
+  "validation": {
+    "all_chunk_hashes": true,
+    "unique_catalog_codes": 337780,
+    "actual_loader_rda_count": 3311,
+    "missing_values_not_zero": true,
+    "partial_load_records_retained": true,
+    "original_ml_basis_preserved": true,
+    "basic_search_priority_preserved": true
+  }
+}
