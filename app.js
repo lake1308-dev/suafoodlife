@@ -10,6 +10,7 @@ let DB_RECIPES=[];
 let bulkLoadState="loading";
 let FOOD_DETAILS={};
 let FOOD_ADVICE_BATCH={};
+const SOURCE_REVIEW_FLAGS=new Set(["P109-401040100-2363","P109-401040100-2365","P109-401040100-2366"]);
 async function loadFoodDetails(){
  try{
  const records=await Promise.all(Array.from({length:12},async(_,i)=>{
@@ -107,16 +108,17 @@ async function loadRecipeDB(){
 function bulkToIngredient(row,cols){
  const x=Object.fromEntries(cols.map((k,i)=>[k,row[i]]));
  const id="bulk:"+x.code;
+ const basisReview=SOURCE_REVIEW_FLAGS.has(x.code);if(basisReview)["kcal","protein_g","fat_g","carbs_g","sugars_g","fiber_g","sodium_mg","cholesterol_mg","sat_fat_g"].forEach(k=>x[k]=null);
  ["kcal","protein_g","fat_g","carbs_g","sugars_g","fiber_g","sodium_mg","cholesterol_mg","sat_fat_g"].forEach(k=>{x[k]=x[k]==null||String(x[k]).trim()===""?null:Number(x[k]);if(!Number.isFinite(x[k]))x[k]=null});
  return {id,names:{ko:x.name,en:x.name},aliases:{ko:[],en:[]},category:"official_food",verification_status:"official_bulk",
   nutrition_per_100g:{kcal:x.kcal,protein_g:x.protein_g,fat_g:x.fat_g,carbs_g:x.carbs_g,sugars_g:x.sugars_g,fiber_g:x.fiber_g,sodium_mg:x.sodium_mg,cholesterol_mg:x.cholesterol_mg,sat_fat_g:x.sat_fat_g},
   _normalizedName:normalize(x.name),_compactName:compactSearch(x.name),_compactVendor:compactSearch(x.manufacturer||""),
-  sources:[{import_flag:x.import_flag,manufacturer:x.manufacturer,declared_weight:x.declared_weight,food_code:x.code,food_name:x.name,source:x.source,reference_date:x.reference_date,basis:x.basis,data_type:x.type}]};
+  sources:[{review_status:basisReview?"basis_conflict":null,import_flag:x.import_flag,manufacturer:x.manufacturer,declared_weight:x.declared_weight,food_code:x.code,food_name:x.name,source:x.source,reference_date:x.reference_date,basis:x.basis,data_type:x.type}]};
 }
 async function loadBulkNutritionDB(){
  DB_BULK=[];DB_BULK_BY_NAME=new Map();DB_BULK_BY_ID=new Map();
  try{
-  const res=await fetch("data/catalog-manifest.json?v=20261007-complete",{cache:"no-store"});if(!res.ok)throw new Error("catalog manifest unavailable");
+  const res=await fetch("data/catalog-manifest.json?v=20261007-quality",{cache:"no-store"});if(!res.ok)throw new Error("catalog manifest unavailable");
   const manifest=await res.json();if(!Array.isArray(manifest.chunks)||!manifest.record_count)throw new Error("invalid catalogue manifest");
   try{const advice=await fetch("data/food-advice-batch-1.json?v=20261007",{cache:"no-store"});if(advice.ok){const data=await advice.json();if(data.record_count===5000&&Object.keys(data.records||{}).length===5000)FOOD_ADVICE_BATCH=data.records}}catch(err){console.warn("Food advice unavailable",err)}
   let next=0;const failures=[];
@@ -124,7 +126,7 @@ async function loadBulkNutritionDB(){
    while(next<manifest.chunks.length){
     const chunk=manifest.chunks[next++];
     try{
-     const response=await fetch(chunk.path+"?v=20261007-complete",{cache:"no-store"});if(!response.ok)throw new Error("catalogue chunk "+response.status);
+     const response=await fetch(chunk.path+"?v=20261007-quality",{cache:"no-store"});if(!response.ok)throw new Error("catalogue chunk "+response.status);
      const buf=await response.arrayBuffer(),bytes=new Uint8Array(buf);
      const text=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).text():new TextDecoder().decode(bytes);
      const data=JSON.parse(text);if(data.record_count!==chunk.record_count||data.rows?.length!==chunk.record_count)throw new Error("catalogue count mismatch");
@@ -153,9 +155,9 @@ async function loadIngredientDB(){
     byId.set(id,{id,names:{ko:r.source_food_name,en:r.source_food_name},aliases:{ko:[],en:[]},category:"verified_food",nutrition_per_100g:r.nutrition_per_100g,verification_status:"verified",sources:[{source_key:"K-FIND",source_record_id:r.source_food_code,source_food_name:r.source_food_name,basis:"100g",source:r.source_url}]})
    })
   }else console.warn("K-FIND nutrition DB unavailable; keeping base ingredient DB.",kfindRes.status);
-  try{const pr=await fetch("data/products-curated.json?v=0.1.1",{cache:"no-store"});if(pr.ok){const pd=await pr.json();(pd.products||[]).forEach(x=>byId.set(x.id,x));}}catch(err){console.warn("Curated products unavailable",err)}
+  try{const pr=await fetch("data/products-curated.json?v=0.1.2",{cache:"no-store"});if(pr.ok){const pd=await pr.json();(pd.products||[]).forEach(x=>byId.set(x.id,x));}}catch(err){console.warn("Curated products unavailable",err)}
   try{const res=await fetch("data/allergen-ingredients.json?v=0.2.0",{cache:"no-store"});if(res.ok){const data=await res.json();(data.ingredients||[]).forEach(x=>{const existing=byId.get(x.id);byId.set(x.id,{...existing,...x})})}}catch(err){console.warn("Basic allergen ingredients unavailable",err)}
-  const rdaBatches=[{url:"data/rda-basic-1000.json.gz?v=20261006",count:1000},{url:"data/rda-foods-1001-2000.json.gz?v=20261006",count:1000},...Array.from({length:10},(_,i)=>({url:`data/rda-foods-2001-2500-p${i+1}.json.gz?v=20261007`,count:50})),{url:"data/rda-foods-remaining-811.json.gz?v=20261007-complete",count:811}];
+  const rdaBatches=[{url:"data/rda-basic-1000.json.gz?v=20261006",count:1000},{url:"data/rda-foods-1001-2000.json.gz?v=20261006",count:1000},...Array.from({length:10},(_,i)=>({url:`data/rda-foods-2001-2500-p${i+1}.json.gz?v=20261007`,count:50})),{url:"data/rda-foods-remaining-811.json.gz?v=20261007-quality",count:811}];
   for(const {url,count} of rdaBatches){try{
    const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw new Error("RDA DB "+res.status);
    const buf=new Uint8Array(await res.arrayBuffer());
@@ -204,6 +206,7 @@ function searchIngredients(raw,limit=20){
   const vendor=x.sources?.[0]?.manufacturer??FOOD_DETAILS[x.sources?.[0]?.food_code]?.manufacturer;
   if(vendor){const name=x._compactName||compactSearch(x.names.ko),maker=x._compactVendor||compactSearch(vendor),tokens=query.tokens;if(tokens.length&&tokens.every(t=>name.includes(t)||maker.includes(t)))score=8;}
  }
+ if(query.pc!=="라면"&&query.pc.endsWith("라면")&&(x.sources?.[0]?.data_type==="음식"||/(볶음밥|김밥|주먹밥|리소토)/.test(x.names.ko)))score+=4;
  if(score<Infinity)scored.push({id:x.id,name:x.names.ko,score});
 });
  DB_INGREDIENTS.forEach(x=>{const names=[BASIC_INGREDIENT_NAMES[x.id],x.names?.ko,x.names?.en,...(x.aliases?.ko||[]),...(x.aliases?.en||[])].filter(Boolean);let score=Math.min(...names.map(n=>scoreFoodName(n,terms,undefined,undefined,query)));if(BASIC_INGREDIENT_NAMES[x.id]&&normalize(BASIC_INGREDIENT_NAMES[x.id])===terms[0])score=-50;if(score<Infinity)scored.push({id:x.id,name:ingredientDisplayName(x),score})});
@@ -405,6 +408,7 @@ function renderIngredient(key,scroll=true,preserveAmount=false){
  if(db?.verification_status==="product_label")$("ingredientNote").textContent=tr("Product label information from the retailer. Converted from the stated 250ml can to 100ml; check your package for formulation changes.","판매처 제품 표시정보를 바탕으로 250ml 캔 영양값을 100ml로 환산했습니다. 제품 변경 여부는 실제 포장 표시를 확인하세요.");
  if(key==="peanut_dried")$("ingredientNote").textContent=tr("Dried peanuts, edible portion per 100g. Roasted, salted and coated products have different values.","말린 땅콩의 먹는 부분 100g 기준입니다. 볶음·소금첨가·코팅 제품은 영양값이 다릅니다.");
  if(db?.sources?.[0]?.workbook_sheet)$("ingredientNote").textContent=tr("Edible portion per 100g. Source preparation/variety: ","껍질·뼈 등 먹지 않는 부분을 제외한 100g 기준입니다. 원본 조리 상태·품종: ")+db.sources[0].source_food_name;
+ if(db?.sources?.[0]?.review_status==="basis_conflict")$("ingredientNote").textContent=tr("The source calculation basis differs substantially from the manufacturer retail label. Nutrition calculation is on hold while the basis is reviewed.","원본 DB의 계산 기준과 본사직영 판매처 표시값에 큰 차이가 있어 기준을 재확인 중입니다. 확인 전까지 이 기록의 영양 계산을 보류합니다.");
  renderFoodSource(key);
  $("amountInput").removeAttribute("aria-invalid");$("amountError").textContent="";
  $("amountInput").value=currentAmount; updateNutrition(); renderAllergy(key);
@@ -416,7 +420,7 @@ function renderFoodSource(key){
  const host=$("foodSource");if(!host)return;const db=getIngredient(key),src=db?.sources?.[0];host.innerHTML="";
  if(!src){host.classList.add("hidden");return}host.classList.remove("hidden");
  const detail=src.manufacturer!==undefined?src:FOOD_DETAILS[src.food_code]||src;
- const rows=[[tr("Original food name","원본 식품명"),src.source_food_name||src.food_name],[tr("Manufacturer","제조·판매업체"),detail.manufacturer],[tr("Declared product weight","원본 식품중량"),detail.declared_weight],[tr("Data type","식품 유형"),src.data_type],[tr("Import status","수입 여부"),src.import_flag==="Y"?tr("Imported product (official Korean dataset)","수입제품 · 국내 공식 DB 수록"):null],[tr("Calculation basis","계산 기준"),src.basis],[tr("Label basis","원본 표시 기준"),src.label_basis],[tr("Checked date","확인·기준일"),src.reference_date],[tr("Food code","식품코드"),src.food_code||src.source_record_id],[tr("Analysis source","분석 자료"),src.analysis_source],[tr("Source","출처"),src.source_key||src.source]].filter(x=>x[1]);
+ const rows=[[tr("Original food name","원본 식품명"),src.source_food_name||src.food_name],[tr("Manufacturer","제조·판매업체"),detail.manufacturer],[tr("Declared product weight","원본 식품중량"),detail.declared_weight],[tr("Data type","식품 유형"),src.data_type],[tr("Import status","수입 여부"),src.import_flag==="Y"?tr("Imported product (official Korean dataset)","수입제품 · 국내 공식 DB 수록"):null],[tr("Review status","검토 상태"),src.review_status==="basis_conflict"?tr("Calculation basis under review","계산 기준 재확인 중"):null],[tr("Calculation basis","계산 기준"),src.basis],[tr("Label basis","원본 표시 기준"),src.label_basis],[tr("Checked date","확인·기준일"),src.reference_date],[tr("Food code","식품코드"),src.food_code||src.source_record_id],[tr("Analysis source","분석 자료"),src.analysis_source],[tr("Source","출처"),src.source_key||src.source]].filter(x=>x[1]);
  rows.forEach(([label,value])=>{const row=document.createElement("div"),l=document.createElement("span"),v=document.createElement("strong");l.textContent=label;v.textContent=value;row.append(l,v);host.appendChild(row)});
  const sourceUrl=src.source_url||(/^https?:\/\//.test(src.source||"")?src.source:null);
  if(sourceUrl){const link=document.createElement("a");link.href=sourceUrl;link.target="_blank";link.rel="noopener noreferrer";link.textContent=db.verification_status==="product_label"?tr("View source product information ↗","제품 표시정보 출처 보기 ↗"):tr("View nutrition data source ↗","영양정보 출처 보기 ↗");host.appendChild(link)}

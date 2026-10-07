@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "products": [
     {
       "id": "chilsung_cider_250ml",
@@ -21,12 +21,25 @@
         "carbs_g": 11.2,
         "sugars_g": 10.8,
         "sodium_mg": 2.4,
-        "protein_g": null,
-        "fat_g": null,
-        "sat_fat_g": null,
-        "cholesterol_mg": null
+        "protein_g": 0,
+        "fat_g": 0,
+        "sat_fat_g": 0,
+        "cholesterol_mg": 0
       },
       "sources": [
+        {
+          "source": "롯데칠성음료 본사직영 · GS SHOP 제품 표시정보",
+          "source_url": "https://m.gsshop.com/prd/prd.gs?bnclick=prd-ttab_prdTtabV_apiBytedance-relatedEx&dseq=0&iid=K8LyuByufUfkN&ispre=Y&mseq=404757&prdid=1036740046&rank=18&svcid=pc",
+          "basis": "100ml",
+          "label_basis": "250ml",
+          "package_amount": 250,
+          "package_unit": "ml",
+          "manufacturer": "롯데칠성음료(주)",
+          "declared_weight": "250ml",
+          "reference_date": "2026-10-07",
+          "data_type": "제품 표시정보",
+          "source_section": "용량별 영양성분 표의 250ml 캔 행"
+        },
         {
           "source": "코스트코 코리아 제품 표시정보",
           "source_url": "https://www.costco.co.kr/Foods/Beverages/SoftConcentrated-Drinks/Chilsung-Cider-250ml-x-30-Milkis-250ml-x-30/p/620743",

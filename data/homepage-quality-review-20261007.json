@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-07",
+  "scope": "Desktop homepage, actual catalogue and ingredient loaders, priority nutrition and next-step plan",
+  "primary_ingredient_ids": [
+    "peanut_dried",
+    "apple_raw",
+    "strawberry_cultivated_raw",
+    "garlic_raw",
+    "cooked_white_rice",
+    "chicken_breast_raw",
+    "milk",
+    "egg_whole",
+    "pine_nut_raw"
+  ],
+  "supplements": [
+    {
+      "id": "chilsung_cider_250ml",
+      "fields": [
+        "protein_g",
+        "fat_g",
+        "sat_fat_g",
+        "cholesterol_mg"
+      ],
+      "values": 0,
+      "basis": "250ml label scaled to 100ml",
+      "source": "GS SHOP · 롯데칠성음료본사직영",
+      "source_url": "https://m.gsshop.com/prd/prd.gs?bnclick=prd-ttab_prdTtabV_apiBytedance-relatedEx&dseq=0&iid=K8LyuByufUfkN&ispre=Y&mseq=404757&prdid=1036740046&rank=18&svcid=pc",
+      "source_section": "250ml can row",
+      "corroboration": "Existing energy, carbohydrate, sugars and sodium match Costco label."
+    }
+  ],
+  "source_basis_holds": [
+    {
+      "code": "P109-401040100-2363",
+      "reason": "K-FCDB 215 kcal per 100ml conflicts substantially with the manufacturer retail table for a 500ml PET. Original source values retained; calculated display unavailable pending review."
+    },
+    {
+      "code": "P109-401040100-2365",
+      "reason": "K-FCDB 215 kcal per 100ml conflicts substantially with the manufacturer retail table for a 500ml PET. Original source values retained; calculated display unavailable pending review."
+    },
+    {
+      "code": "P109-401040100-2366",
+      "reason": "K-FCDB 215 kcal per 100ml conflicts substantially with the manufacturer retail table for a 500ml PET. Original source values retained; calculated display unavailable pending review."
+    }
+  ],
+  "search_fix": "Branded ramen queries prioritize ramen products over prepared rice dishes; exact preparation queries remain available.",
+  "remaining_gaps": "No estimated or borrowed nutrient values added. Restaurant-specific gaps and 55 held RDA rows still need exact-source documentation.",
+  "next_steps": {
+    "allergens": "Pilot 10 exact packaged products with manufacturer/label evidence; separate ingredients containing allergens from shared-facility warnings, preserve unknown status.",
+    "recipes": "Then 5 reference Korean recipes with measured ingredients, raw/cooked basis, servings, and per-nutrient completeness; no full totals for missing nutrients."
+  }
+}

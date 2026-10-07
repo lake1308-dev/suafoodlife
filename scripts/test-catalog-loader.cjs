@@ -4,6 +4,7 @@ const app=fs.readFileSync('app.js','utf8');
 const manifest=JSON.parse(fs.readFileSync('data/catalog-manifest.json'));
 const prefix=`let lang='ko',DB_BULK=[],DB_BULK_BY_NAME,DB_BULK_BY_ID,FOOD_ADVICE_BATCH={},FOOD_DETAILS={},bulkLoadState='loading';
 const DB_INGREDIENTS=[{id:'peanut_dried',names:{ko:'땅콩, 말린것',en:'Peanut'},sources:[{}],nutrition_per_100g:{kcal:520}}];
+const SOURCE_REVIEW_FLAGS=new Set(["P109-401040100-2363","P109-401040100-2365","P109-401040100-2366"]);
 const BASIC_INGREDIENT_NAMES={peanut_dried:'땅콩'};
 const normalize=s=>s.trim().toLowerCase().replace(/\\s+/g,' ');
 const $=()=>null;
@@ -30,6 +31,10 @@ async function run(failPath){
   const before=performance.now();const hits=vm.runInContext(`searchIngredients(${JSON.stringify(q)})`,context);assert(hits.length,q+' not found');console.log(q,hits.length,Math.round(performance.now()-before)+'ms',hits[0].name);
  }
  const unit=vm.runInContext("DB_BULK.find(x=>x.names.ko==='투지팜비트야채생즙')",context);assert.equal(unit.sources[0].basis,'100ml');assert.equal(unit.nutrition_per_100g.kcal,39);
+ assert.equal(vm.runInContext("getIngredient(searchIngredients('진라면')[0].id).sources[0].data_type",context),'가공식품');
+ assert(!vm.runInContext("searchIngredients('진라면')[0].name",context).includes("볶음밥"));
+ assert.equal(vm.runInContext("getIngredient('bulk:P109-401040100-2363').nutrition_per_100g.kcal",context),null);
+ assert.equal(vm.runInContext("getIngredient('bulk:P109-401040100-2363').sources[0].review_status",context),'basis_conflict');
  console.log('PASS',state.count,'unique catalogue records; core ingredient priority; brand/vendor search; original 100ml basis; concurrency',peak);
 }
 (async()=>{await run();await run(manifest.chunks[0].path);console.log('PASS partial load keeps remaining records searchable')})().catch(err=>{console.error(err);process.exitCode=1});
