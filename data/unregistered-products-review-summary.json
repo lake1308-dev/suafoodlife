@@ -1,0 +1,16 @@
+{
+  "source_filename": "20260929_가공식품DB_323197건.xlsx",
+  "source_sha256": "04f8fb4e82220a911aa4d583539da1b412138a430d76482a1e7a80f7b930dd93",
+  "counts": {
+    "source_rows": 323197,
+    "already_registered": 260149,
+    "unregistered": 63048,
+    "hold_imported_product_scope": 63048
+  },
+  "source_import_flags": {
+    "N": 252295,
+    "Y": 70902
+  },
+  "policy": "Exact code match; retain all existing items. Reprocess eligible N rows. Hold imported products for domestic-market scope review; foreign manufacture alone is not grounds for permanent exclusion. Hold uncertain identity, units, or energy for source validation. Do not delete or invent nutrition.",
+  "permanent_exclusions": 0
+}

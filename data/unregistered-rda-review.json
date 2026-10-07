@@ -1,0 +1,6208 @@
+{
+  "source_filename": "식품성분표(10개정판).xlsx",
+  "source_sha256": "271cc431f2991b3c0c049ec6e05fb59a040319e984ab71468184530de61dec50",
+  "counts": {
+    "source_rows": 3366,
+    "already_registered": 2500,
+    "reprocess": 811,
+    "hold_source_validation": 55
+  },
+  "permanent_exclusions": 0,
+  "policy": "Recommend remaining exact-code RDA records with valid original core nutrition for a subsequent import. Do not infer allergens or collapse different preparations by name.",
+  "records": [
+    {
+      "source_row": 29,
+      "code": "A008000A030a",
+      "name": "멥쌀, 백미, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 85,
+      "code": "A012000A039a",
+      "name": "멥쌀, 백미, 미음",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 90,
+      "code": "A008000A050a",
+      "name": "멥쌀, 칠분도미, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 91,
+      "code": "A013000A059a",
+      "name": "멥쌀, 칠분도미, 밥",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 92,
+      "code": "A0150010009a",
+      "name": "멥쌀, 칠분도미, 죽",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g",
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 93,
+      "code": "A012000A059a",
+      "name": "멥쌀, 칠분도미, 미음",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g",
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 94,
+      "code": "A008000A060a",
+      "name": "멥쌀, 현미, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 136,
+      "code": "A015000A069a",
+      "name": "멥쌀, 현미, 죽",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g",
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 137,
+      "code": "A012000A069a",
+      "name": "멥쌀, 현미, 미음",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g",
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 244,
+      "code": "A0210010009a",
+      "name": "빵, 건포도빵",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 247,
+      "code": "A0210240009a",
+      "name": "빵, 난",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 252,
+      "code": "A0210050159a",
+      "name": "빵, 롤빵, 소프트",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 253,
+      "code": "A0210050149a",
+      "name": "빵, 롤빵, 하드",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 256,
+      "code": "A0210070369a",
+      "name": "빵, 머핀, 우유",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 271,
+      "code": "A0210130009a",
+      "name": "빵, 옥수수빵",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 272,
+      "code": "A0210250009a",
+      "name": "빵, 와플",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 274,
+      "code": "A0210250229a",
+      "name": "빵, 와플, 잼",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g",
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 275,
+      "code": "A0210250239a",
+      "name": "빵, 와플, 커스터드 크림",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g",
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 276,
+      "code": "A0210140009a",
+      "name": "빵, 잼빵",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g",
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 288,
+      "code": "A0210210449a",
+      "name": "빵, 페이스트리, 과일",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 289,
+      "code": "A0210210439a",
+      "name": "빵, 페이스트리, 치즈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 290,
+      "code": "A0210260009a",
+      "name": "빵, 피칸파이",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 293,
+      "code": "A0230010009a",
+      "name": "케이크, 과일(후르츠)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 297,
+      "code": "A0230080009a",
+      "name": "케이크, 엔젤푸드 케이크",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 387,
+      "code": "A030000025Ra",
+      "name": "옥수수, 통조림, 크림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 460,
+      "code": "B0010180000a",
+      "name": "감자, 자색, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 461,
+      "code": "B0010180009e",
+      "name": "감자, 자색, 찐것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 466,
+      "code": "B0020010009f",
+      "name": "감자 과자, 감자칩, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 469,
+      "code": "B0030010009j",
+      "name": "감자 튀김, 해시브라운, 튀긴것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 470,
+      "code": "B0050000009a",
+      "name": "감자, 으깬감자",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 471,
+      "code": "B0040000009a",
+      "name": "감자 샐러드",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 480,
+      "code": "B0060110000a",
+      "name": "고구마, 진홍미, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 491,
+      "code": "B0070020001a",
+      "name": "당면, 고구마, 감자, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 496,
+      "code": "B0090000005a",
+      "name": "곤약(구약나물), 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 508,
+      "code": "B018000B090a",
+      "name": "야콘, 뿌리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 509,
+      "code": "B018000B099b",
+      "name": "야콘, 뿌리, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 513,
+      "code": "B0140030005a",
+      "name": "전분, 밀, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 514,
+      "code": "B0140040005a",
+      "name": "전분, 쌀, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 517,
+      "code": "B0140090005a",
+      "name": "전분, 칡뿌리, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 527,
+      "code": "C0010000009a",
+      "name": "과당",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 528,
+      "code": "C0020030009a",
+      "name": "껌, 무설탕",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 529,
+      "code": "C0020010009a",
+      "name": "껌, 추잉 껌",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 530,
+      "code": "C0020020009a",
+      "name": "껌, 풍선껌",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 536,
+      "code": "C0040010009a",
+      "name": "당밀, 가공당",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 547,
+      "code": "C0110000005a",
+      "name": "설탕, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 551,
+      "code": "C0110030009a",
+      "name": "설탕, 빙설탕",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 554,
+      "code": "C0120010009a",
+      "name": "시럽, 단풍나무",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 561,
+      "code": "C0140010005a",
+      "name": "젤라틴, 디저트용, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 568,
+      "code": "C0170020009a",
+      "name": "초콜릿, 다크 초콜릿",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 569,
+      "code": "C0170030009a",
+      "name": "초콜릿, 땅콩 초콜릿",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 570,
+      "code": "C0170050009a",
+      "name": "초콜릿, 밀크 아몬드 초콜릿",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 572,
+      "code": "C0170080009a",
+      "name": "초콜릿, 스위트 초콜릿",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 579,
+      "code": "C0190000009a",
+      "name": "포도당",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 590,
+      "code": "D0040000001a",
+      "name": "녹두 국수, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 605,
+      "code": "D0120040001a",
+      "name": "대두, 노란색, 미국산, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 606,
+      "code": "D0120060001a",
+      "name": "대두, 노란색, 중국산, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 609,
+      "code": "D0150010008a",
+      "name": "두부, 동두부, 동결건조",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 637,
+      "code": "D0070000001a",
+      "name": "리마콩, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 638,
+      "code": "D0070000009b",
+      "name": "리마콩, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 649,
+      "code": "D008000000Ra",
+      "name": "완두, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 652,
+      "code": "D0100000000a",
+      "name": "잠두, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 653,
+      "code": "D0100000009b",
+      "name": "잠두, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 670,
+      "code": "E0010000001a",
+      "name": "개암, 헤이즐넛, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 671,
+      "code": "E0010000009n",
+      "name": "개암, 헤이즐넛, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 676,
+      "code": "E0030000001a",
+      "name": "도토리, 국수, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 686,
+      "code": "E0070000009b",
+      "name": "땅콩, 삶은것, 소금첨가",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 691,
+      "code": "E0110000000a",
+      "name": "마름, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 692,
+      "code": "E012000000Dn",
+      "name": "마카다미아, 조미, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 694,
+      "code": "E0390000009f",
+      "name": "목화씨, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 707,
+      "code": "E0170000001a",
+      "name": "브라질너트, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 708,
+      "code": "E017000000Dn",
+      "name": "브라질너트, 조미, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 709,
+      "code": "E0180000001a",
+      "name": "삼씨(대마씨), 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 711,
+      "code": "E019000000Dn",
+      "name": "수박씨, 조미, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 712,
+      "code": "E037000B179n",
+      "name": "아마씨, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 716,
+      "code": "E0210000580a",
+      "name": "연씨, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 729,
+      "code": "E0280000009a",
+      "name": "참깨죽",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 730,
+      "code": "E038000B171a",
+      "name": "치아씨, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 731,
+      "code": "E029000000Da",
+      "name": "캐슈너트, 조미, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 732,
+      "code": "E0300000001a",
+      "name": "코코넛, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 733,
+      "code": "E0300000009n",
+      "name": "코코넛, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 734,
+      "code": "E0300000609a",
+      "name": "코코넛, 코코넛밀크",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 735,
+      "code": "E0310000619a",
+      "name": "코코넛수",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 736,
+      "code": "E0320000001a",
+      "name": "피스타치오, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 739,
+      "code": "E0330000001a",
+      "name": "피칸, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 740,
+      "code": "E033000000Dn",
+      "name": "피칸, 조미, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 742,
+      "code": "E0340000009n",
+      "name": "해바라기씨, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 743,
+      "code": "E034000000Dn",
+      "name": "해바라기씨, 조미, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 745,
+      "code": "E0350000009n",
+      "name": "호두, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 747,
+      "code": "E036001000Dn",
+      "name": "호박씨, 조미, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 753,
+      "code": "F003000000Ia",
+      "name": "가지, 염절임",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 834,
+      "code": "F0260000000a",
+      "name": "국화꽃, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 835,
+      "code": "F0260000009c",
+      "name": "국화꽃, 데친것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 836,
+      "code": "F0260000001a",
+      "name": "국화꽃, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 893,
+      "code": "F0460000000a",
+      "name": "동아, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 894,
+      "code": "F0460000009c",
+      "name": "동아, 데친것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 917,
+      "code": "F0520000009c",
+      "name": "리크, 데친것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 965,
+      "code": "F0760000000a",
+      "name": "물쑥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 966,
+      "code": "F0760000009c",
+      "name": "물쑥, 데친것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 977,
+      "code": "F0790000000a",
+      "name": "바젤라, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 978,
+      "code": "F0790000009c",
+      "name": "바젤라, 데친것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 983,
+      "code": "F0820000001a",
+      "name": "박고지, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 996,
+      "code": "F0870000009c",
+      "name": "배추, 데친것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 1057,
+      "code": "F096000B09Ra",
+      "name": "비트 피클, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1098,
+      "code": "F104000000Ja",
+      "name": "생강 피클",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1109,
+      "code": "F110000B090a",
+      "name": "쇠귀나물, 뿌리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1110,
+      "code": "F110000B099c",
+      "name": "쇠귀나물, 뿌리, 데친것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1156,
+      "code": "F2340000000a",
+      "name": "아티초크, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1157,
+      "code": "F2340000000b",
+      "name": "아티초크, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1158,
+      "code": "F2340000007a",
+      "name": "아티초크, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1159,
+      "code": "F2340000007b",
+      "name": "아티초크, 냉동, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1160,
+      "code": "F1260000590a",
+      "name": "알로에, 과육, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 1183,
+      "code": "F1330000007a",
+      "name": "양파링, 튀김옷, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1184,
+      "code": "F1330000009k",
+      "name": "양파링, 튀긴것(튀김옷)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1201,
+      "code": "F145000B100a",
+      "name": "염교(락교), 뿌리줄기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1212,
+      "code": "F1510000000a",
+      "name": "오크라, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1213,
+      "code": "F1510000009c",
+      "name": "오크라, 데친것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1227,
+      "code": "F157004B150a",
+      "name": "유채, 잎줄기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1228,
+      "code": "F157004B159c",
+      "name": "유채, 잎줄기, 데친것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1235,
+      "code": "F1640000000a",
+      "name": "제비쑥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1273,
+      "code": "F178000B090a",
+      "name": "치커리, 뿌리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1282,
+      "code": "F1810000009c",
+      "name": "콜라비, 데친것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 1288,
+      "code": "F185000B169c",
+      "name": "토란대, 줄기, 데친것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 1305,
+      "code": "F186000000Ra",
+      "name": "토마토, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1307,
+      "code": "F189000000Ra",
+      "name": "토마토, 통조림, 퓌레",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1335,
+      "code": "F233000000Ra",
+      "name": "할라페뇨, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1394,
+      "code": "G0090000000a",
+      "name": "밤버섯, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1407,
+      "code": "G0150000000a",
+      "name": "싸리버섯, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1473,
+      "code": "H0070000000a",
+      "name": "구아바, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1474,
+      "code": "H0080000729a",
+      "name": "구아바, 넥타, 과육 20%",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1475,
+      "code": "H0090000739a",
+      "name": "구아바 주스, 과즙 음료(10%)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1476,
+      "code": "H1170000000a",
+      "name": "구스베리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1503,
+      "code": "H0180000000a",
+      "name": "두리안, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1512,
+      "code": "H0220000000a",
+      "name": "라임, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1513,
+      "code": "H0230000759a",
+      "name": "라임 주스, 천연과즙",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1514,
+      "code": "H023000000Qa",
+      "name": "라임 주스, 캔",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1515,
+      "code": "H1150000000a",
+      "name": "라즈베리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1516,
+      "code": "H1150000007a",
+      "name": "라즈베리, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1521,
+      "code": "H0260000000a",
+      "name": "롱안, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1522,
+      "code": "H0260000001a",
+      "name": "롱안, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1523,
+      "code": "H0270000000a",
+      "name": "리치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1531,
+      "code": "H1160000000a",
+      "name": "망고스틴, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1538,
+      "code": "H031000000Ia",
+      "name": "매실 절임, 염절임, 고형물",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1550,
+      "code": "H036000000Ra",
+      "name": "무화과, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1563,
+      "code": "H0970000759a",
+      "name": "백향과(패션프루트) 주스, 천연과즙",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1564,
+      "code": "H0970000849a",
+      "name": "백향과(패션프루트) 주스, 황색과육",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1565,
+      "code": "H0970000879a",
+      "name": "백향과(패션프루트) 주스, 자색과육",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1583,
+      "code": "H1180000000a",
+      "name": "블랙커런트, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1588,
+      "code": "H047000000Ra",
+      "name": "블루베리, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1590,
+      "code": "H049000000Ra",
+      "name": "비파, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1601,
+      "code": "H053000000Qa",
+      "name": "사과 음료",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1602,
+      "code": "H0530000749a",
+      "name": "사과 주스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1603,
+      "code": "H1370000009a",
+      "name": "사과 착즙",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1609,
+      "code": "H056000000Ra",
+      "name": "살구, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1610,
+      "code": "H0580000009a",
+      "name": "살구, 잼",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1616,
+      "code": "H1380000009a",
+      "name": "수박 착즙, 적육질",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1621,
+      "code": "H0640000000a",
+      "name": "아보카도, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1622,
+      "code": "H0650010000a",
+      "name": "아세로라, 감미종, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1623,
+      "code": "H1240000739a",
+      "name": "아세로라 주스, 과즙 음료(10%)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1625,
+      "code": "H0670000000a",
+      "name": "엘더베리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1630,
+      "code": "H0710000009a",
+      "name": "오렌지 마멀레이드",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1631,
+      "code": "H072000000Qa",
+      "name": "오렌지 음료, 캔",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1632,
+      "code": "H0720000009a",
+      "name": "오렌지 주스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1633,
+      "code": "H1310000009a",
+      "name": "오렌지 착즙",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1634,
+      "code": "H1220000000a",
+      "name": "오렴자(카람볼라), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1637,
+      "code": "H073000000Na",
+      "name": "오미자, 추출",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1638,
+      "code": "H074000000Ha",
+      "name": "오미자청",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1639,
+      "code": "H076000C059a",
+      "name": "올리브 절임, 미숙, 초록색",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1640,
+      "code": "H0760000799a",
+      "name": "올리브 절임, 완숙, 검은색",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1648,
+      "code": "H0820010000a",
+      "name": "자두, 대석, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 1651,
+      "code": "H0820000001a",
+      "name": "자두, 말린것, 프룬",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1653,
+      "code": "H1320000009a",
+      "name": "자몽 주스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1654,
+      "code": "H1330000009a",
+      "name": "자몽 착즙",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1655,
+      "code": "H1210000000a",
+      "name": "잭프루트, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1656,
+      "code": "H121000E01Ra",
+      "name": "잭프루트, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1657,
+      "code": "H086000B200a",
+      "name": "참외, 생것, 씨 제거",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1658,
+      "code": "H086000B040a",
+      "name": "참외, 생것, 씨 포함",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1659,
+      "code": "H1390000009a",
+      "name": "참외 착즙",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1661,
+      "code": "H112000251Ra",
+      "name": "체리, 통조림, 고형물, 빨간색",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1662,
+      "code": "H112001251Ra",
+      "name": "체리, 통조림, 고형물, 검은색",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1663,
+      "code": "H0880000000a",
+      "name": "크랜베리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1664,
+      "code": "H0880000001a",
+      "name": "크랜베리, 말린것, 가당",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1665,
+      "code": "H0880000009a",
+      "name": "크랜베리 주스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1666,
+      "code": "H0890000869a",
+      "name": "크랜베리 주스, 칵테일",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1669,
+      "code": "H1090002449a",
+      "name": "키위 주스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1674,
+      "code": "H092000251Ra",
+      "name": "파인애플, 통조림, 고형물",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1675,
+      "code": "H092000252Ra",
+      "name": "파인애플, 통조림, 액즙",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1676,
+      "code": "H0930000009a",
+      "name": "파인애플, 넥타",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1677,
+      "code": "H0940000749a",
+      "name": "파인애플 주스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1678,
+      "code": "H1400000009a",
+      "name": "파인애플 착즙",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1708,
+      "code": "H0980000001a",
+      "name": "포도, 건포도",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1709,
+      "code": "H0990000009a",
+      "name": "포도, 넥타",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1710,
+      "code": "H1010000009a",
+      "name": "포도, 잼",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1711,
+      "code": "H098000000Ra",
+      "name": "포도, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1712,
+      "code": "H1280000009a",
+      "name": "포도 음료",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1713,
+      "code": "H1020000009a",
+      "name": "포도 주스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1714,
+      "code": "H1410000009a",
+      "name": "포도 착즙",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1715,
+      "code": "H141000C059a",
+      "name": "포도 착즙, 초록색",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1716,
+      "code": "H1060000759a",
+      "name": "포도즙",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1718,
+      "code": "H103000000Ra",
+      "name": "프루트샐러드, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1719,
+      "code": "H104000000Ra",
+      "name": "프루트칵테일, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1720,
+      "code": "H105000000Ra",
+      "name": "프루트펀치, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1721,
+      "code": "I003000D150a",
+      "name": "거위고기, 살코기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1722,
+      "code": "I003000D159f",
+      "name": "거위고기, 살코기, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1723,
+      "code": "I004000D330a",
+      "name": "거위 부산물, 간, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1724,
+      "code": "I0050000000a",
+      "name": "고래고기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1731,
+      "code": "I008000D159k",
+      "name": "닭고기, 살코기, 튀긴것(튀김옷)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1740,
+      "code": "I008000D059k",
+      "name": "닭고기, 날개, 튀긴것(튀김옷)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1744,
+      "code": "I008000D069k",
+      "name": "닭고기, 다리(넓적다리), 튀긴것(튀김옷)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1748,
+      "code": "I008000F089k",
+      "name": "닭고기, 다리(아랫다리), 튀긴것(튀김옷)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1750,
+      "code": "I008000D129k",
+      "name": "닭고기, 목, 튀긴것(튀김옷)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1756,
+      "code": "I008004B059a",
+      "name": "닭고기, 토종, 껍질",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1757,
+      "code": "I008004D019a",
+      "name": "닭고기, 토종, 가슴",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1758,
+      "code": "I008004D059a",
+      "name": "닭고기, 토종, 날개",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1759,
+      "code": "I008004D089a",
+      "name": "닭고기, 토종, 다리",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1772,
+      "code": "I0100000009a",
+      "name": "닭뼈 육수",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 1779,
+      "code": "I014000D150a",
+      "name": "돼지고기, 살코기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1824,
+      "code": "I015000D330a",
+      "name": "돼지 부산물, 간, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1826,
+      "code": "I015000D380a",
+      "name": "돼지 부산물, 대장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1827,
+      "code": "I015000D389b",
+      "name": "돼지 부산물, 대장, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1828,
+      "code": "I015000D390a",
+      "name": "돼지 부산물, 맹장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1830,
+      "code": "I015000D420a",
+      "name": "돼지 부산물, 비장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1831,
+      "code": "I015000D450a",
+      "name": "돼지 부산물, 소창(곱창), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1833,
+      "code": "I015000D460a",
+      "name": "돼지 부산물, 신장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1834,
+      "code": "I015000D469b",
+      "name": "돼지 부산물, 신장, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1835,
+      "code": "I015000D470a",
+      "name": "돼지 부산물, 심장(염통), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1837,
+      "code": "I015000D490a",
+      "name": "돼지 부산물, 위(오소리감투), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1839,
+      "code": "I015000D500a",
+      "name": "돼지 부산물, 자궁, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1840,
+      "code": "I015000D510a",
+      "name": "돼지 부산물, 족발, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1841,
+      "code": "I015000D519b",
+      "name": "돼지 부산물, 족발, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1843,
+      "code": "I015000D530a",
+      "name": "돼지 부산물, 직장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1844,
+      "code": "I015000D550a",
+      "name": "돼지 부산물, 췌장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1845,
+      "code": "I015000D570a",
+      "name": "돼지 부산물, 허파, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1850,
+      "code": "I0160000001a",
+      "name": "소시지, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1851,
+      "code": "I0160010009a",
+      "name": "소시지, 리용소시지",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1852,
+      "code": "I0160020009a",
+      "name": "소시지, 볼로냐소시지",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1854,
+      "code": "I0160040009a",
+      "name": "소시지, 이탈리안소시지",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1873,
+      "code": "I0180000007j",
+      "name": "포크커틀릿, 냉동, 튀긴것(빵가루)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1874,
+      "code": "I0450000000a",
+      "name": "말고기, 살코기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1875,
+      "code": "I0230000000a",
+      "name": "메추리고기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1876,
+      "code": "I0240000000a",
+      "name": "멧돼지고기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1878,
+      "code": "I027001D039i",
+      "name": "소고기, 수입산, 갈비, 구운것(오븐)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1879,
+      "code": "I027001D130a",
+      "name": "소고기, 수입산, 목심(목심살), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1880,
+      "code": "I027001D139b",
+      "name": "소고기, 수입산, 목심(목심살), 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1881,
+      "code": "I027001D149d",
+      "name": "소고기, 수입산, 사태, 끓인것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1882,
+      "code": "I027001D179h",
+      "name": "소고기, 수입산, 설도, 구운것(석쇠)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1883,
+      "code": "I027001D209f",
+      "name": "소고기, 수입산, 안심(안심살), 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1892,
+      "code": "I027004D150a",
+      "name": "소고기, 한우(1++등급), 살코기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1937,
+      "code": "I027007D150a",
+      "name": "소고기, 한우(1+등급), 살코기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 1982,
+      "code": "I027006D150a",
+      "name": "소고기, 한우(1등급), 살코기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2027,
+      "code": "I027008D150a",
+      "name": "소고기, 한우(2등급), 살코기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2082,
+      "code": "I028000D330a",
+      "name": "소 부산물, 간, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2083,
+      "code": "I028000D339b",
+      "name": "소 부산물, 간, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2084,
+      "code": "I028000D339g",
+      "name": "소 부산물, 간, 구운것(팬)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2085,
+      "code": "I028000D340a",
+      "name": "소 부산물, 골, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2086,
+      "code": "I028000D360a",
+      "name": "소 부산물, 꼬리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2087,
+      "code": "I028000D440a",
+      "name": "소 부산물, 선지(피), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2088,
+      "code": "I028000D450a",
+      "name": "소 부산물, 소장(곱창), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2089,
+      "code": "I028000D460a",
+      "name": "소 부산물, 신장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2090,
+      "code": "I028000D469b",
+      "name": "소 부산물, 신장, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2091,
+      "code": "I028000D470a",
+      "name": "소 부산물, 심장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2092,
+      "code": "I028000D479b",
+      "name": "소 부산물, 심장, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2093,
+      "code": "I028000D480a",
+      "name": "소 부산물, 양(위), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2094,
+      "code": "I028000D489b",
+      "name": "소 부산물, 양(위), 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2095,
+      "code": "I028000D540a",
+      "name": "소 부산물, 천엽, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2096,
+      "code": "I028000D570a",
+      "name": "소 부산물, 허파, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2097,
+      "code": "I028000D579b",
+      "name": "소 부산물, 허파, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2098,
+      "code": "I028000D580a",
+      "name": "소 부산물, 혀, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2099,
+      "code": "I0320000009a",
+      "name": "소고기, 육포",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2100,
+      "code": "I0290000009n",
+      "name": "소불고기, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2101,
+      "code": "I0300000009a",
+      "name": "양지국물",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2102,
+      "code": "I0310001079a",
+      "name": "우족국물, 중량3배물",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2103,
+      "code": "I0330000009a",
+      "name": "잡뼈국물",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2104,
+      "code": "I034001D030a",
+      "name": "송아지고기, 수입산, 갈비, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2105,
+      "code": "I034001D039b",
+      "name": "송아지고기, 수입산, 갈비, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2106,
+      "code": "I034001D039f",
+      "name": "송아지고기, 수입산, 갈비, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2107,
+      "code": "I034001D110a",
+      "name": "송아지고기, 수입산, 등심, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2108,
+      "code": "I034001D119b",
+      "name": "송아지고기, 수입산, 등심, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2109,
+      "code": "I034001D119f",
+      "name": "송아지고기, 수입산, 등심, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2110,
+      "code": "I034001D150a",
+      "name": "송아지고기, 수입산, 살코기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2111,
+      "code": "I034001D159b",
+      "name": "송아지고기, 수입산, 살코기, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2112,
+      "code": "I034001D230a",
+      "name": "송아지고기, 수입산, 어깨, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2113,
+      "code": "I034001D239b",
+      "name": "송아지고기, 수입산, 어깨, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2114,
+      "code": "I034001D239f",
+      "name": "송아지고기, 수입산, 어깨, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2115,
+      "code": "I034001D320a",
+      "name": "송아지고기, 수입산, 채끝(채끝살), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2116,
+      "code": "I034001D329b",
+      "name": "송아지고기, 수입산, 채끝(채끝살), 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2117,
+      "code": "I034001D329i",
+      "name": "송아지고기, 수입산, 채끝(채끝살), 구운것(오븐)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2118,
+      "code": "I035001D330a",
+      "name": "송아지 부산물, 수입산, 간, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2119,
+      "code": "I035001D339b",
+      "name": "송아지 부산물, 수입산, 간, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2120,
+      "code": "I035001D340a",
+      "name": "송아지 부산물, 수입산, 골, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2121,
+      "code": "I035001D349b",
+      "name": "송아지 부산물, 수입산, 골, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2122,
+      "code": "I035001D460a",
+      "name": "송아지 부산물, 수입산, 신장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2123,
+      "code": "I035001D469b",
+      "name": "송아지 부산물, 수입산, 신장, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2124,
+      "code": "I035001D470a",
+      "name": "송아지 부산물, 수입산, 심장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2125,
+      "code": "I035001D479b",
+      "name": "송아지 부산물, 수입산, 심장, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2126,
+      "code": "I035001D570a",
+      "name": "송아지 부산물, 수입산, 허파, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2127,
+      "code": "I035001D579b",
+      "name": "송아지 부산물, 수입산, 허파, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2128,
+      "code": "I035001D580a",
+      "name": "송아지 부산물, 수입산, 혀, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2129,
+      "code": "I035001D589b",
+      "name": "송아지 부산물, 수입산, 혀, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2130,
+      "code": "I036001D080a",
+      "name": "양고기, 수입산, 다리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2131,
+      "code": "I037001D030a",
+      "name": "어린양고기, 수입산, 갈비, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2132,
+      "code": "I037001D039i",
+      "name": "어린양고기, 수입산, 갈비, 구운것(오븐)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2133,
+      "code": "I037001D080a",
+      "name": "어린양고기, 수입산, 다리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2134,
+      "code": "I037001D089i",
+      "name": "어린양고기, 수입산, 다리, 구운것(오븐)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2135,
+      "code": "I037001D150a",
+      "name": "어린양고기, 수입산, 살코기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2136,
+      "code": "I037001D230a",
+      "name": "어린양고기, 수입산, 어깨, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2137,
+      "code": "I037001D239b",
+      "name": "어린양고기, 수입산, 어깨, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2138,
+      "code": "I037001D239i",
+      "name": "어린양고기, 수입산, 어깨, 구운것(오븐)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2139,
+      "code": "I038001D330a",
+      "name": "어린양 부산물, 수입산, 간, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2140,
+      "code": "I038001D339b",
+      "name": "어린양 부산물, 수입산, 간, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2141,
+      "code": "I0390000000a",
+      "name": "염소고기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2142,
+      "code": "I0390000009b",
+      "name": "염소고기, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2143,
+      "code": "I0390010000a",
+      "name": "염소고기, 수입산, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2144,
+      "code": "I040000D150a",
+      "name": "오리고기, 살코기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2145,
+      "code": "I040000B030a",
+      "name": "오리고기, 생것, 껍질 포함",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2146,
+      "code": "I040000B039b",
+      "name": "오리고기, 삶은것, 껍질 포함",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2147,
+      "code": "I040000B039g",
+      "name": "오리고기, 구운것(팬), 껍질 포함",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2148,
+      "code": "I040000000Ga",
+      "name": "오리고기, 조미훈제",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2149,
+      "code": "I040000000Gg",
+      "name": "오리고기, 조미훈제, 구운것(팬)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2150,
+      "code": "I0410010000a",
+      "name": "자라고기, 수입산, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2151,
+      "code": "I0430010000a",
+      "name": "칠면조고기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2152,
+      "code": "I0430010009f",
+      "name": "칠면조고기, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2153,
+      "code": "I0440020000a",
+      "name": "토끼고기, 집토끼, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2154,
+      "code": "I0440020009d",
+      "name": "토끼고기, 집토끼, 끓인것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2155,
+      "code": "I044000D150a",
+      "name": "토끼고기, 살코기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2156,
+      "code": "I044000D159b",
+      "name": "토끼고기, 살코기, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2167,
+      "code": "J0030000005a",
+      "name": "달걀, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2168,
+      "code": "J0030001085a",
+      "name": "달걀, 난백, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2172,
+      "code": "J0050000009s",
+      "name": "달걀, 수란, 중탕",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2173,
+      "code": "J0060000009n",
+      "name": "달걀, 스크램블드에그",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2190,
+      "code": "J0110000000a",
+      "name": "오리알, 청둥오리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2198,
+      "code": "K007000000Ba",
+      "name": "가오리, 조미하여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2219,
+      "code": "K0140000009b",
+      "name": "게르치, 삶은것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2223,
+      "code": "K0150000009b",
+      "name": "고등어, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2224,
+      "code": "K0150000009f",
+      "name": "고등어, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2225,
+      "code": "K0150000004a",
+      "name": "고등어, 반건조",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2229,
+      "code": "K0160000000a",
+      "name": "괴도라치, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2233,
+      "code": "K0190000003a",
+      "name": "까나리, 삶아서 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2239,
+      "code": "K0230000009f",
+      "name": "꽁치, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2246,
+      "code": "K024000000Ka",
+      "name": "날치, 염장",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2252,
+      "code": "K0300000000a",
+      "name": "노랑촉수, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2261,
+      "code": "K0330000009f",
+      "name": "농어, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2274,
+      "code": "K0390010940a",
+      "name": "다랑어, 참다랑어, 붉은살, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2275,
+      "code": "K039001D310a",
+      "name": "다랑어, 참다랑어, 지방육, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2276,
+      "code": "K0390010009f",
+      "name": "다랑어, 참다랑어, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2278,
+      "code": "K0400000009a",
+      "name": "참다랑어 샐러드",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2285,
+      "code": "K0440000009f",
+      "name": "대구, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2304,
+      "code": "K0530000000a",
+      "name": "도치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2324,
+      "code": "K0550190009b",
+      "name": "돔, 옥돔, 삶은것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2325,
+      "code": "K0550190009f",
+      "name": "돔, 옥돔, 구운것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2330,
+      "code": "K0550220009b",
+      "name": "돔, 참돔, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2331,
+      "code": "K0550220009f",
+      "name": "돔, 참돔, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2340,
+      "code": "K0590000009b",
+      "name": "둑중개, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2341,
+      "code": "K0590000009p",
+      "name": "둑중개, 조린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2343,
+      "code": "K0610000000a",
+      "name": "등가시치, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2344,
+      "code": "K0620000000a",
+      "name": "만새기, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2363,
+      "code": "K0700000009f",
+      "name": "명태, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2381,
+      "code": "K0770000009b",
+      "name": "미꾸리, 삶은것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2384,
+      "code": "K0790000009f",
+      "name": "민어, 구운것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2385,
+      "code": "K0790000009k",
+      "name": "민어, 튀긴것(빵가루)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2387,
+      "code": "K080000D59Ka",
+      "name": "민어, 알, 염장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2390,
+      "code": "K0820000001a",
+      "name": "박대, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2393,
+      "code": "K0830000009f",
+      "name": "방어, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2395,
+      "code": "K0830011130a",
+      "name": "방어, 양식, 어린것, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2404,
+      "code": "K0880000000a",
+      "name": "베도라치, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2427,
+      "code": "K0960000009f",
+      "name": "볼락, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2448,
+      "code": "K1030010000i",
+      "name": "빙어, 바다빙어, 구운것(오븐)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2453,
+      "code": "K1070000009f",
+      "name": "삼치, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2456,
+      "code": "K108000000Ia",
+      "name": "삼치, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2463,
+      "code": "K1090070000a",
+      "name": "상어, 모조리상어, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2465,
+      "code": "K1090090000a",
+      "name": "상어, 악상어, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2466,
+      "code": "K1090100000a",
+      "name": "상어, 은상어, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2468,
+      "code": "K1090120000a",
+      "name": "상어, 흉상어, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2471,
+      "code": "K1120000000a",
+      "name": "새다래, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2472,
+      "code": "K1140000000a",
+      "name": "샛멸, 생것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2480,
+      "code": "K117000000Ka",
+      "name": "송어, 염장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2481,
+      "code": "K119000000Ia",
+      "name": "송어, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2482,
+      "code": "K117000000Ra",
+      "name": "송어, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2484,
+      "code": "K1170010009f",
+      "name": "송어, 무지개송어, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2487,
+      "code": "K1200000009f",
+      "name": "숭어, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2488,
+      "code": "K121000D59Aa",
+      "name": "숭어, 알, 소금에 절여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2500,
+      "code": "K1320000000a",
+      "name": "애꼬치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2501,
+      "code": "K1320000009f",
+      "name": "애꼬치, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2509,
+      "code": "K8000000009j",
+      "name": "어묵",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2510,
+      "code": "K8010000009a",
+      "name": "어묵 국물",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2511,
+      "code": "K8000001379a",
+      "name": "어묵, 게맛살 첨가",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2512,
+      "code": "K8000000009f",
+      "name": "어묵, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2513,
+      "code": "K8000000009e",
+      "name": "어묵, 찐어묵",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2514,
+      "code": "K8020000009a",
+      "name": "어묵국",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2515,
+      "code": "K8030000009a",
+      "name": "어육소시지",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2519,
+      "code": "K1370001240a",
+      "name": "연어, 생것, 소금첨가",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2520,
+      "code": "K1370001249f",
+      "name": "연어, 구운것, 소금첨가",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2521,
+      "code": "K137000000Fa",
+      "name": "연어, 훈제",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2522,
+      "code": "K137000000Ra",
+      "name": "연어, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2523,
+      "code": "K137000251Ra",
+      "name": "연어, 통조림, 고형물",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2525,
+      "code": "K138000D59Ka",
+      "name": "연어, 알, 염장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2527,
+      "code": "K1370020000a",
+      "name": "연어, 홍연어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2528,
+      "code": "K1370020009f",
+      "name": "연어, 홍연어, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2529,
+      "code": "K137002000Fa",
+      "name": "연어, 홍연어, 훈제",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2534,
+      "code": "K1440000009f",
+      "name": "은어, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2535,
+      "code": "K145000D370a",
+      "name": "은어, 내장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2536,
+      "code": "K145000D379f",
+      "name": "은어, 내장, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2537,
+      "code": "K1440010000a",
+      "name": "은어, 양식, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2538,
+      "code": "K1440010009f",
+      "name": "은어, 양식, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2539,
+      "code": "K145001D370a",
+      "name": "은어, 양식, 내장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2540,
+      "code": "K145001D379f",
+      "name": "은어, 양식, 내장, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2541,
+      "code": "K146001000Ia",
+      "name": "은어, 내장, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2544,
+      "code": "K1480000004a",
+      "name": "임연수어, 반건조",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2545,
+      "code": "K148000000Ka",
+      "name": "임연수어, 염장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2546,
+      "code": "K1490000000a",
+      "name": "잉어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2547,
+      "code": "K1490000009b",
+      "name": "잉어, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2548,
+      "code": "K150000D370a",
+      "name": "잉어, 내장, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2549,
+      "code": "K1510000000a",
+      "name": "장갱이, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2550,
+      "code": "K1520000000a",
+      "name": "장문볼락, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2551,
+      "code": "K1520000009f",
+      "name": "장문볼락, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2552,
+      "code": "K1530010000a",
+      "name": "장어, 갯장어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2553,
+      "code": "K1530020000a",
+      "name": "장어, 먹장어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2554,
+      "code": "K1530040000a",
+      "name": "장어, 뱀장어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2555,
+      "code": "K1530040009f",
+      "name": "장어, 뱀장어, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2556,
+      "code": "K153004000Df",
+      "name": "장어, 뱀장어, 조미, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2557,
+      "code": "K154001D330a",
+      "name": "장어, 뱀장어, 간, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2558,
+      "code": "K1530050000a",
+      "name": "장어, 붕장어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2559,
+      "code": "K1530050007a",
+      "name": "장어, 붕장어, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2560,
+      "code": "K154002D439j",
+      "name": "장어, 붕장어, 뼈, 튀긴것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2561,
+      "code": "K1530060000a",
+      "name": "장어, 칠성장어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2562,
+      "code": "K1530060001a",
+      "name": "장어, 칠성장어, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2563,
+      "code": "K1530001279f",
+      "name": "장어, 양념, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2564,
+      "code": "K1550000000a",
+      "name": "전갱이, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2565,
+      "code": "K1550000009b",
+      "name": "전갱이, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2566,
+      "code": "K1550000009f",
+      "name": "전갱이, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2567,
+      "code": "K1550000007a",
+      "name": "전갱이, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2568,
+      "code": "K155000000Aa",
+      "name": "전갱이, 소금에 절여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2569,
+      "code": "K155000000Ea",
+      "name": "전갱이, 조미반건조",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2570,
+      "code": "K155000000Ef",
+      "name": "전갱이, 조미반건조, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2571,
+      "code": "K155000000Ta",
+      "name": "전갱이, 통조림, 조미",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2572,
+      "code": "K1560000007a",
+      "name": "전갱이 튀김, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2573,
+      "code": "K1550001130a",
+      "name": "전갱이, 어린것, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2574,
+      "code": "K1550010000a",
+      "name": "전갱이, 갈전갱이, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2575,
+      "code": "K1550020000a",
+      "name": "전갱이, 줄전갱이, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2576,
+      "code": "K1570000000a",
+      "name": "전어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2577,
+      "code": "K159000000Ia",
+      "name": "전어, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2578,
+      "code": "K1600000000a",
+      "name": "점감펭, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2579,
+      "code": "K1880000000a",
+      "name": "점줄우럭, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2580,
+      "code": "K1880000000i",
+      "name": "점줄우럭, 구운것(오븐)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2581,
+      "code": "K1610000000a",
+      "name": "정어리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2582,
+      "code": "K1610000009b",
+      "name": "정어리, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2583,
+      "code": "K1610000009f",
+      "name": "정어리, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2584,
+      "code": "K1610000001a",
+      "name": "정어리, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2585,
+      "code": "K1610000003a",
+      "name": "정어리, 삶아서 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2586,
+      "code": "K161000000Aa",
+      "name": "정어리, 소금에 절여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2587,
+      "code": "K161000000Ka",
+      "name": "정어리, 염장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2588,
+      "code": "K161000000Ra",
+      "name": "정어리, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2589,
+      "code": "K161000000Sa",
+      "name": "정어리, 통조림, 유지",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2590,
+      "code": "K161000000Ta",
+      "name": "정어리, 통조림, 조미",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2591,
+      "code": "K1620000000a",
+      "name": "조기(참조기), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2592,
+      "code": "K162000129Aa",
+      "name": "조기(참조기), 굴비, 소금에 절여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2593,
+      "code": "K163000000Ia",
+      "name": "조기(참조기), 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2594,
+      "code": "K1640000000a",
+      "name": "준치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2595,
+      "code": "K1640010000a",
+      "name": "준치, 강준치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2596,
+      "code": "K1650000000a",
+      "name": "쥐치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2597,
+      "code": "K165000D561a",
+      "name": "쥐치, 포, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2598,
+      "code": "K165000D567a",
+      "name": "쥐치, 포, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2599,
+      "code": "K165000D56Ba",
+      "name": "쥐치, 포, 조미하여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2600,
+      "code": "K1650010000a",
+      "name": "쥐치, 말쥐치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2601,
+      "code": "K165001000Ba",
+      "name": "쥐치, 말쥐치, 조미하여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2602,
+      "code": "K1660000000a",
+      "name": "참마자, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2603,
+      "code": "K1670000000a",
+      "name": "청새치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2604,
+      "code": "K1680000000a",
+      "name": "청어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2605,
+      "code": "K1680000001a",
+      "name": "청어, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2606,
+      "code": "K1680000003a",
+      "name": "청어, 삶아서 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2607,
+      "code": "K168000000Ka",
+      "name": "청어, 염장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2608,
+      "code": "K168000000Fa",
+      "name": "청어, 훈제",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2609,
+      "code": "K169000D590a",
+      "name": "청어, 알, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2610,
+      "code": "K169000D591a",
+      "name": "청어, 알, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2611,
+      "code": "K169000D59Ka",
+      "name": "청어, 알, 염장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2612,
+      "code": "K1700000000a",
+      "name": "초어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2613,
+      "code": "K1710000000a",
+      "name": "통치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2614,
+      "code": "K1720000000a",
+      "name": "투라치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2615,
+      "code": "K1730000000a",
+      "name": "틸라피아, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2616,
+      "code": "K1740000000a",
+      "name": "푸렁통구멍, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2617,
+      "code": "K1750000000a",
+      "name": "풀반지, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2618,
+      "code": "K1760000000a",
+      "name": "피라미, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2619,
+      "code": "K1770000000a",
+      "name": "학공치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2620,
+      "code": "K177000000Ba",
+      "name": "학공치, 조미하여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2621,
+      "code": "K1780000000a",
+      "name": "향어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2622,
+      "code": "K1790000000a",
+      "name": "홍감펭, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2623,
+      "code": "K1800000000a",
+      "name": "홍어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2624,
+      "code": "K1810000000a",
+      "name": "홍치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2625,
+      "code": "K1820000000a",
+      "name": "황매퉁이, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2626,
+      "code": "K1830000000a",
+      "name": "황새치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2627,
+      "code": "K1830000009f",
+      "name": "황새치, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2628,
+      "code": "K184000000Ia",
+      "name": "황새치, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2629,
+      "code": "K1850000000a",
+      "name": "황어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2630,
+      "code": "K1860010000a",
+      "name": "횟대, 빨간횟대, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2631,
+      "code": "K1870000000a",
+      "name": "히메치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2632,
+      "code": "K4000000000a",
+      "name": "가리비, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2633,
+      "code": "K4000000009b",
+      "name": "가리비, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2634,
+      "code": "K4000000009j",
+      "name": "가리비, 튀긴것(빵가루)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2635,
+      "code": "K4000000001a",
+      "name": "가리비, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2636,
+      "code": "K400000000Ra",
+      "name": "가리비, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2637,
+      "code": "K4000001300a",
+      "name": "가리비, 관자, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2638,
+      "code": "K4000001303a",
+      "name": "가리비, 관자, 삶아서 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2639,
+      "code": "K4000001307a",
+      "name": "가리비, 관자, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2640,
+      "code": "K4000010000a",
+      "name": "가리비, 국자가리비, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2641,
+      "code": "K4000020000a",
+      "name": "가리비, 비단가리비, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2642,
+      "code": "K4000040000a",
+      "name": "가리비, 큰가리비, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2643,
+      "code": "K4020000000a",
+      "name": "각시수랑, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2644,
+      "code": "K4030010000a",
+      "name": "고둥, 갈색고리돼지고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2645,
+      "code": "K4030020000a",
+      "name": "고둥, 갈색띠매물고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2646,
+      "code": "K4030030000a",
+      "name": "고둥, 관절매물고둥(보라골뱅이), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2647,
+      "code": "K4030040000a",
+      "name": "고둥, 긴고둥(긴뿔고둥), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2648,
+      "code": "K4030050000a",
+      "name": "고둥, 나팔고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2649,
+      "code": "K4030060000a",
+      "name": "고둥, 두드럭고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2650,
+      "code": "K4030070000a",
+      "name": "고둥, 매끈이고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2651,
+      "code": "K4030080000a",
+      "name": "고둥, 물레고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2652,
+      "code": "K4030090000a",
+      "name": "고둥, 민허리돼지고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2653,
+      "code": "K4030100000a",
+      "name": "고둥, 보말고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2654,
+      "code": "K4030100009b",
+      "name": "고둥, 보말고둥, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2655,
+      "code": "K4030110000a",
+      "name": "고둥, 비단고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2656,
+      "code": "K4030120000a",
+      "name": "고둥, 세고리물레고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2657,
+      "code": "K4030130000a",
+      "name": "고둥, 위고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2658,
+      "code": "K4030140000a",
+      "name": "고둥, 조각매물고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2659,
+      "code": "K4030150000a",
+      "name": "고둥, 콩깍지고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2660,
+      "code": "K4030160000a",
+      "name": "고둥, 털탑고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2661,
+      "code": "K4030170000a",
+      "name": "고둥, 피뿔고둥, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2664,
+      "code": "K4040020009b",
+      "name": "굴, 참굴, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2666,
+      "code": "K405001000Ia",
+      "name": "굴, 참굴, 양념젓갈(어리굴젓)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2669,
+      "code": "K4040000009k",
+      "name": "굴, 튀긴것(튀김옷)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2670,
+      "code": "K404000000Ra",
+      "name": "굴, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2671,
+      "code": "K404000000Ua",
+      "name": "굴, 통조림, 훈제",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2672,
+      "code": "K4060000000a",
+      "name": "꼬막, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2673,
+      "code": "K4060010000a",
+      "name": "꼬막, 새꼬막, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2674,
+      "code": "K4070000000a",
+      "name": "다슬기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2675,
+      "code": "K4070010000a",
+      "name": "다슬기, 곳체다슬기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2676,
+      "code": "K4070020000a",
+      "name": "다슬기, 띠구슬다슬기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2677,
+      "code": "K4070030000a",
+      "name": "다슬기, 염주알다슬기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2678,
+      "code": "K4070040000a",
+      "name": "다슬기, 좀주름다슬기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2679,
+      "code": "K4070060000a",
+      "name": "다슬기, 주름다슬기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2680,
+      "code": "K4070050000a",
+      "name": "다슬기, 참다슬기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2683,
+      "code": "K4080020009f",
+      "name": "담치, 진주담치, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2687,
+      "code": "K427000000Ra",
+      "name": "담치, 참담치(홍합), 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2688,
+      "code": "K4090000000a",
+      "name": "대수리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2689,
+      "code": "K4100010000a",
+      "name": "대합, 북방대합, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2690,
+      "code": "K4110000000a",
+      "name": "동죽, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2691,
+      "code": "K4120010000a",
+      "name": "맛, 붉은맛(큰죽합), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2692,
+      "code": "K4130000000a",
+      "name": "바지락, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2693,
+      "code": "K4130010000a",
+      "name": "바지락, 양식, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2694,
+      "code": "K4130000001a",
+      "name": "바지락, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2695,
+      "code": "K4130000009r",
+      "name": "바지락, 장조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2696,
+      "code": "K413000000Ra",
+      "name": "바지락, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2697,
+      "code": "K413000000Ta",
+      "name": "바지락, 통조림, 조미",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2698,
+      "code": "K414000000Ia",
+      "name": "바지락, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2700,
+      "code": "K4150000009b",
+      "name": "백합, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2701,
+      "code": "K4150000009f",
+      "name": "백합, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2702,
+      "code": "K415000000Ta",
+      "name": "백합, 통조림, 조미",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2704,
+      "code": "K4160000000a",
+      "name": "소라, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2705,
+      "code": "K416000000Ra",
+      "name": "소라, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2706,
+      "code": "K4170000000a",
+      "name": "수랑, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2707,
+      "code": "K4180000000a",
+      "name": "오분자기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2708,
+      "code": "K4190010000a",
+      "name": "우렁이, 논우렁이, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2709,
+      "code": "K4190030000a",
+      "name": "우렁이, 왕우렁, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2710,
+      "code": "K4190040000a",
+      "name": "우렁이, 큰구슬우렁이(골뱅이), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2711,
+      "code": "K419004251Ra",
+      "name": "우렁이, 큰구슬우렁이(골뱅이), 통조림, 고형물",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2712,
+      "code": "K4200010009a",
+      "name": "큰우슬우렁이(골뱅이) 무침",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2713,
+      "code": "K4190050000a",
+      "name": "우렁이, 큰논우렁이, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2714,
+      "code": "K4210000000a",
+      "name": "재첩, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2720,
+      "code": "K4220000009j",
+      "name": "전복, 튀긴것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2721,
+      "code": "K422000000Rb",
+      "name": "전복, 통조림, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2722,
+      "code": "K422000000Ta",
+      "name": "전복, 통조림, 조미",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2723,
+      "code": "K424000000Ia",
+      "name": "전복, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2724,
+      "code": "K4250010000a",
+      "name": "조개, 가무락조개, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2725,
+      "code": "K4250020000a",
+      "name": "조개, 개량조개(명주조개), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2726,
+      "code": "K4250020001a",
+      "name": "조개, 개량조개(명주조개), 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2727,
+      "code": "K4250030000a",
+      "name": "조개, 개조개, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2728,
+      "code": "K4250040000a",
+      "name": "조개, 떡조개, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2729,
+      "code": "K4250050000a",
+      "name": "조개, 맛조개, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2730,
+      "code": "K4250050001a",
+      "name": "조개, 맛조개, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2731,
+      "code": "K4250070000a",
+      "name": "조개, 살조개, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2732,
+      "code": "K4250080000a",
+      "name": "조개, 새조개, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2733,
+      "code": "K4250080001a",
+      "name": "조개, 새조개, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2734,
+      "code": "K425008000Ba",
+      "name": "조개, 새조개, 조미하여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2735,
+      "code": "K4250090000a",
+      "name": "조개, 왕우럭조개, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2736,
+      "code": "K4250100000a",
+      "name": "조개, 우럭, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2737,
+      "code": "K4250110000a",
+      "name": "조개, 접시조개(비단조개), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2738,
+      "code": "K4250130000a",
+      "name": "조개, 진주조개, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2739,
+      "code": "K4250140000a",
+      "name": "조개, 키조개, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2740,
+      "code": "K4250141310a",
+      "name": "조개, 키조개, 패주, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2741,
+      "code": "K4250141320a",
+      "name": "조개, 키조개, 근육, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2742,
+      "code": "K4250150000a",
+      "name": "조개, 펄조개, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2743,
+      "code": "K4250160000a",
+      "name": "조개, 피조개, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2744,
+      "code": "K425016000Ta",
+      "name": "조개, 피조개, 통조림, 조미",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2745,
+      "code": "K4250170000a",
+      "name": "조개, 피조개, 양식, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2746,
+      "code": "K425000000Ia",
+      "name": "조개, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2747,
+      "code": "K6000010000a",
+      "name": "가재, 갯가재, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2748,
+      "code": "K6000010009b",
+      "name": "가재, 갯가재, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2749,
+      "code": "K6000020000a",
+      "name": "가재, 바닷가재, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2750,
+      "code": "K6000020009e",
+      "name": "가재, 바닷가재, 찐것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2751,
+      "code": "K6010000000a",
+      "name": "개불, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2753,
+      "code": "K6020010009e",
+      "name": "게, 꽃게, 찐것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2756,
+      "code": "K604001000Ia",
+      "name": "게, 닭게, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2758,
+      "code": "K6020030009b",
+      "name": "게, 대게, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2760,
+      "code": "K602003000Ra",
+      "name": "게, 대게, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2765,
+      "code": "K6020070009b",
+      "name": "게, 왕게, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2768,
+      "code": "K6030000009a",
+      "name": "게맛살, 어육함량이 낮은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2769,
+      "code": "K6030000009c",
+      "name": "게맛살, 어육함량이 낮은것, 데친것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2770,
+      "code": "K6030010009a",
+      "name": "게맛살, 어육함량이 높은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2771,
+      "code": "K6050000000a",
+      "name": "군소, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2772,
+      "code": "K6050010000a",
+      "name": "군소, 풍선군소, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2773,
+      "code": "K6060010000a",
+      "name": "꼴뚜기, 불똥꼴뚜기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2774,
+      "code": "K6060010009b",
+      "name": "꼴뚜기, 불똥꼴뚜기, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2775,
+      "code": "K6060010009p",
+      "name": "꼴뚜기, 불똥꼴뚜기, 조린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2776,
+      "code": "K606001000Ga",
+      "name": "꼴뚜기, 불똥꼴뚜기, 조미훈제",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2777,
+      "code": "K6060000000a",
+      "name": "꼴뚜기, 참꼴뚜기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2778,
+      "code": "K6060000003a",
+      "name": "꼴뚜기, 참꼴뚜기, 삶아서 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2779,
+      "code": "K6060020000a",
+      "name": "꼴뚜기, 창꼴뚜기, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2780,
+      "code": "K607000000Ia",
+      "name": "꼴뚜기, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2781,
+      "code": "K607000127Ia",
+      "name": "꼴뚜기, 양념젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2782,
+      "code": "K6080000000a",
+      "name": "낙지, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2783,
+      "code": "K6080010000a",
+      "name": "낙지, 세발낙지, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2784,
+      "code": "K806000127Ia",
+      "name": "낙지, 양념젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2785,
+      "code": "K6100000000a",
+      "name": "멍게(우렁쉥이), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2786,
+      "code": "K6100030000a",
+      "name": "멍게, 양식, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2787,
+      "code": "K807000127Ia",
+      "name": "멍게, 양념젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2788,
+      "code": "K6100010000a",
+      "name": "멍게, 끈멍게, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2789,
+      "code": "K6100020000a",
+      "name": "멍게, 붉은멍게, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2790,
+      "code": "K6110000000a",
+      "name": "문어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2791,
+      "code": "K6110000009b",
+      "name": "문어, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2792,
+      "code": "K6110010000a",
+      "name": "문어, 대문어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2793,
+      "code": "K6110000001a",
+      "name": "문어, 대문어, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2794,
+      "code": "K6110030000a",
+      "name": "문어, 참문어, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2795,
+      "code": "K6120000000a",
+      "name": "미더덕, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2796,
+      "code": "K6120010000a",
+      "name": "미더덕, 주름미더덕, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2802,
+      "code": "K6130050009e",
+      "name": "새우, 꽃새우, 찐것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2803,
+      "code": "K6130050009k",
+      "name": "새우, 꽃새우, 튀긴것(빵가루)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2805,
+      "code": "K6130050009r",
+      "name": "새우, 꽃새우, 장조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2808,
+      "code": "K6130070001a",
+      "name": "새우, 대하, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2811,
+      "code": "K6130110009b",
+      "name": "새우, 보리새우, 삶은것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2815,
+      "code": "K613013000Ba",
+      "name": "새우, 중하, 조미하여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2816,
+      "code": "K613013000Ra",
+      "name": "새우, 중하, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2817,
+      "code": "K617003000Ia",
+      "name": "새우, 중하, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2819,
+      "code": "K6130140009p",
+      "name": "새우, 젓새우, 조린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2820,
+      "code": "K617006000Ia",
+      "name": "새우, 젓새우, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2828,
+      "code": "K6140000001n",
+      "name": "새우 볶음, 말린것, 볶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2829,
+      "code": "K6160000007a",
+      "name": "새우 튀김용, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2830,
+      "code": "K6160000009a",
+      "name": "새우 튀김용, 튀긴것(빵가루)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2831,
+      "code": "K617004000Ia",
+      "name": "새우, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2832,
+      "code": "K617007000Ia",
+      "name": "새우, 젓갈, 추젓",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2833,
+      "code": "K617001136Ia",
+      "name": "새우, 젓갈, 토굴대때기젓",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2834,
+      "code": "K617002136Ia",
+      "name": "새우, 젓갈, 토굴동백하젓",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2835,
+      "code": "K617009136Ia",
+      "name": "새우, 젓갈, 토굴오젓",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2836,
+      "code": "K617005136Ia",
+      "name": "새우, 젓갈, 토굴육젓",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2837,
+      "code": "K617007136Ia",
+      "name": "새우, 젓갈, 토굴추젓",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2838,
+      "code": "K6180000000a",
+      "name": "성게, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2839,
+      "code": "K620000000Ia",
+      "name": "성게, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2840,
+      "code": "K620002000Ia",
+      "name": "성게, 알, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2841,
+      "code": "K6180010000a",
+      "name": "성게, 보라성게, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2842,
+      "code": "K619001D599a",
+      "name": "성게, 보라성게, 알, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2843,
+      "code": "K620001000Ia",
+      "name": "성게, 보라성게, 알, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2844,
+      "code": "K618000000Ra",
+      "name": "성게, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2846,
+      "code": "K6230000009f",
+      "name": "오징어, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2847,
+      "code": "K6230000009j",
+      "name": "오징어, 튀긴것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2850,
+      "code": "K623000000Df",
+      "name": "오징어, 조미, 구운것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2851,
+      "code": "K623000000Ga",
+      "name": "오징어, 조미훈제",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2852,
+      "code": "K623000F06Ba",
+      "name": "오징어, 채, 조미하여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2853,
+      "code": "K623000D56Ba",
+      "name": "오징어, 포, 조미하여 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2859,
+      "code": "K627000127Ia",
+      "name": "오징어, 양념젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2860,
+      "code": "K627001000Ia",
+      "name": "오징어, 내장, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2861,
+      "code": "K6240000009j",
+      "name": "오징어 튀김",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2862,
+      "code": "K6280000009n",
+      "name": "오징어채 볶음",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2863,
+      "code": "K6290000000a",
+      "name": "주꾸미, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2864,
+      "code": "K6300000000a",
+      "name": "크릴, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2865,
+      "code": "K6300000009b",
+      "name": "크릴, 삶은것",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 2866,
+      "code": "K6320000009a",
+      "name": "크릴 페이스트",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2867,
+      "code": "K6330000000a",
+      "name": "한치, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2868,
+      "code": "K6340000000a",
+      "name": "해삼, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2869,
+      "code": "K6340000001a",
+      "name": "해삼, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2870,
+      "code": "K634000000Ka",
+      "name": "해삼, 염장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2871,
+      "code": "K635000000Ia",
+      "name": "해삼, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2872,
+      "code": "K635001000Ia",
+      "name": "해삼, 내장, 젓갈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2873,
+      "code": "K6360000000a",
+      "name": "해파리, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2883,
+      "code": "L0030100001a",
+      "name": "김, 초밥김, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2895,
+      "code": "L0120000001a",
+      "name": "모자반, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2905,
+      "code": "L013000B16Lb",
+      "name": "미역, 줄기, 염장 후 탈염, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2921,
+      "code": "L0270000001a",
+      "name": "파래, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2927,
+      "code": "M0010000009a",
+      "name": "모유",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2936,
+      "code": "M0050000009a",
+      "name": "아이스밀크",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2942,
+      "code": "M0060002089a",
+      "name": "아이스크림, 유지방 8%",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2967,
+      "code": "M0100110009a",
+      "name": "치즈, 고다",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2968,
+      "code": "M0100100009a",
+      "name": "치즈, 카망베르",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2969,
+      "code": "M0100130009a",
+      "name": "치즈, 리코타",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2972,
+      "code": "M0100090009a",
+      "name": "치즈, 브리",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2973,
+      "code": "M0100120009a",
+      "name": "치즈, 브릭",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2974,
+      "code": "M0100080009a",
+      "name": "치즈, 블루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2976,
+      "code": "M0100050009a",
+      "name": "치즈, 카테지",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2977,
+      "code": "M0100060009a",
+      "name": "치즈, 크림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2978,
+      "code": "M0100070009a",
+      "name": "치즈, 파르메산(파마산)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2980,
+      "code": "M0120021489a",
+      "name": "커피크리머, 액상, 식물성지방",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2981,
+      "code": "M0120021499a",
+      "name": "커피크리머, 액상, 유지방",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2983,
+      "code": "M0130050009a",
+      "name": "크림, 휘핑, 동물성",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2984,
+      "code": "M0130060009a",
+      "name": "크림, 휘핑, 식물성",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2986,
+      "code": "N0010000009a",
+      "name": "닭기름",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2990,
+      "code": "N0050040009a",
+      "name": "땅콩 버터, 청크",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2991,
+      "code": "N0050050009a",
+      "name": "땅콩 버터, 크림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2992,
+      "code": "N0040000009a",
+      "name": "땅콩기름",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2994,
+      "code": "N0070000009a",
+      "name": "면실유",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 2998,
+      "code": "N0110000009a",
+      "name": "쇠기름",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3001,
+      "code": "N0280000009a",
+      "name": "아마씨유",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3002,
+      "code": "N0300000009a",
+      "name": "아몬드유",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3004,
+      "code": "N0150000009a",
+      "name": "연어기름",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3008,
+      "code": "N0190000009a",
+      "name": "잇꽃씨기름",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3016,
+      "code": "N0250000009a",
+      "name": "혼합식물성유",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3020,
+      "code": "O0030000005a",
+      "name": "계피차, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3021,
+      "code": "O0040000001a",
+      "name": "구기자차, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3036,
+      "code": "O011000000Na",
+      "name": "도라지차",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 3059,
+      "code": "O036000000Na",
+      "name": "카모마일차",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3061,
+      "code": "O027001157Pa",
+      "name": "커피, 에스프레소",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3062,
+      "code": "O027000157Na",
+      "name": "커피, 원두",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 3063,
+      "code": "O027002155Qa",
+      "name": "커피, 캔",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3064,
+      "code": "O0270021565a",
+      "name": "커피, 커피가루, 디카페인",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3065,
+      "code": "O0270021585a",
+      "name": "커피, 커피가루, 인스턴트",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3066,
+      "code": "O027002158Pa",
+      "name": "커피, 커피가루, 물에 탄것(중량 1g)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3067,
+      "code": "O0270022625a",
+      "name": "커피, 커피가루, 설탕, 인스턴트",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3068,
+      "code": "O027002262Pa",
+      "name": "커피, 커피가루, 설탕, 물에 탄것(중량 2.7g)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3069,
+      "code": "O0270021555a",
+      "name": "커피, 커피가루, 설탕, 크림, 인스턴트",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3070,
+      "code": "O027002155Pa",
+      "name": "커피, 커피가루, 설탕, 크림, 물에 탄것(중량 12g)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3071,
+      "code": "O0270022795a",
+      "name": "카페라테, 가루, 인스턴트",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3072,
+      "code": "O027002279Pa",
+      "name": "카페라테, 가루, 물에 탄것(중량 14.2g)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3073,
+      "code": "O0290000005a",
+      "name": "코코아, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3074,
+      "code": "O0290010005a",
+      "name": "코코아, 밀크코코아, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3075,
+      "code": "O029001000Pa",
+      "name": "코코아, 밀크코코아, 가루, 물에 탄것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3076,
+      "code": "O0330000009a",
+      "name": "헛개 음료",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3077,
+      "code": "O0310000005a",
+      "name": "홍삼차, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3078,
+      "code": "O0310010009a",
+      "name": "홍삼 음료",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3079,
+      "code": "O032000000Na",
+      "name": "홍차",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3080,
+      "code": "O0320010005a",
+      "name": "홍차, 레몬, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3081,
+      "code": "O032001000Na",
+      "name": "홍차, 레몬",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 3082,
+      "code": "O0320020005a",
+      "name": "홍차, 복숭아, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3083,
+      "code": "O032002000Qa",
+      "name": "홍차, 복숭아, 캔",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3084,
+      "code": "O032003000Qa",
+      "name": "홍차, 밀크티, 캔",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3090,
+      "code": "P0050001389a",
+      "name": "셰이크, 딸기맛",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3091,
+      "code": "P0050001399a",
+      "name": "셰이크, 바닐라맛",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3092,
+      "code": "P0050001409a",
+      "name": "셰이크, 초콜릿맛",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3108,
+      "code": "P0090040009a",
+      "name": "탄산 음료, 소다수",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3111,
+      "code": "P0090060009a",
+      "name": "탄산 음료, 저칼로리콜라",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3112,
+      "code": "P0090070009a",
+      "name": "탄산 음료, 진저에일",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3121,
+      "code": "P0100000009a",
+      "name": "토닉워터",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3122,
+      "code": "Q0050000009a",
+      "name": "발효주, 과실주, 매실주",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 3124,
+      "code": "Q0090001689a",
+      "name": "발효주, 과실주, 샴페인, 알코올 6%",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3125,
+      "code": "Q0160050009a",
+      "name": "발효주, 과실주, 포도주, 백포도주, 무스카데",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3126,
+      "code": "Q0160040009a",
+      "name": "발효주, 과실주, 포도주, 백포도주, 샤르도네",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3127,
+      "code": "Q0160060009a",
+      "name": "발효주, 과실주, 포도주, 백포도주, 쇼비뇽블랑",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3131,
+      "code": "Q0060031619a",
+      "name": "발효주, 맥주, 흑맥주, 알코올 4.2%",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 3138,
+      "code": "Q0020000009a",
+      "name": "증류주, 드라이진",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 3139,
+      "code": "Q0030000009a",
+      "name": "증류주, 럼",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 3140,
+      "code": "Q0070001639a",
+      "name": "증류주, 보드카, 알코올 40%",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 3141,
+      "code": "Q0080001659a",
+      "name": "증류주, 브랜디, 알코올 43%",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3155,
+      "code": "R004000000Ra",
+      "name": "고기 소스, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3179,
+      "code": "R0650000000a",
+      "name": "레몬그라스(시트로넬라), 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3180,
+      "code": "R0460000001a",
+      "name": "로즈메리, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3193,
+      "code": "R0690000009a",
+      "name": "발사믹 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3195,
+      "code": "R0660000001a",
+      "name": "사프란",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3196,
+      "code": "R0170000005a",
+      "name": "산초, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3197,
+      "code": "R0180020009a",
+      "name": "샐러드 드레싱, 사우전드아일랜드",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3198,
+      "code": "R0180060009a",
+      "name": "샐러드 드레싱, 오리엔탈",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3199,
+      "code": "R0180040009a",
+      "name": "샐러드 드레싱, 이탈리안",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3200,
+      "code": "R0180070009a",
+      "name": "샐러드 드레싱, 코울슬로",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3201,
+      "code": "R0180050009a",
+      "name": "샐러드 드레싱, 프렌치",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3202,
+      "code": "R0190000009a",
+      "name": "생강 페이스트",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3204,
+      "code": "R0200012819a",
+      "name": "소금, 가공염, 맛소금",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3205,
+      "code": "R0200011869a",
+      "name": "소금, 가공염, 죽염",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3206,
+      "code": "R0200012429a",
+      "name": "소금, 가공염, 퉁퉁마디(함초)",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3207,
+      "code": "R0200020009a",
+      "name": "소금, 정제염",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3208,
+      "code": "R0200030009a",
+      "name": "소금, 천일염",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3209,
+      "code": "R0200032439a",
+      "name": "소금, 천일염, 가는소금",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3210,
+      "code": "R0200031859a",
+      "name": "소금, 천일염, 굵은소금",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3211,
+      "code": "R0200050009a",
+      "name": "소금, 구운소금",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3212,
+      "code": "R0200031879a",
+      "name": "소금, 천일염, 소금꽃",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3213,
+      "code": "R0200031889a",
+      "name": "소금, 천일염, 토판염",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3214,
+      "code": "R0200041879a",
+      "name": "소금, 프랑스, 소금꽃",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3215,
+      "code": "R0200041889a",
+      "name": "소금, 프랑스, 토판염",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3216,
+      "code": "R0040010009a",
+      "name": "소불고기 양념",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3217,
+      "code": "R0700000009a",
+      "name": "수끼 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3218,
+      "code": "R0700010009a",
+      "name": "수끼 소스, 된장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3219,
+      "code": "R0700020009a",
+      "name": "수끼 소스, 토마토",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3220,
+      "code": "R0760000009a",
+      "name": "스리라차 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3221,
+      "code": "R021001000Va",
+      "name": "스파게티 소스, 크림, 병조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3222,
+      "code": "R021000000Va",
+      "name": "스파게티 소스, 토마토, 병조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3223,
+      "code": "R0220010009a",
+      "name": "식초, 감식초",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3224,
+      "code": "R0220090009a",
+      "name": "식초, 발사믹",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3225,
+      "code": "R0220020009a",
+      "name": "식초, 배식초",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3226,
+      "code": "R0220030009a",
+      "name": "식초, 사과식초",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3227,
+      "code": "R0220040009a",
+      "name": "식초, 쌀식초",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3228,
+      "code": "R0220060009a",
+      "name": "식초, 양조",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3229,
+      "code": "R0220070009a",
+      "name": "식초, 포도식초",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 3230,
+      "code": "R0220080009a",
+      "name": "식초, 현미식초",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3231,
+      "code": "R0230000009a",
+      "name": "쌈장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3232,
+      "code": "R0240000009a",
+      "name": "양념닭 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3234,
+      "code": "R0310002895a",
+      "name": "양파시즈닝",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3235,
+      "code": "R0610000001a",
+      "name": "오레가노, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3236,
+      "code": "R0250000005a",
+      "name": "올스파이스, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3237,
+      "code": "R0770000009a",
+      "name": "우동 건더기 스프",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3238,
+      "code": "R0770000009b",
+      "name": "우동 건더기 스프, 삶은것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3239,
+      "code": "R0260000009a",
+      "name": "우스터 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3240,
+      "code": "R078000B105a",
+      "name": "울금, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3241,
+      "code": "R048000B141a",
+      "name": "월계수, 잎, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3242,
+      "code": "R0270000009a",
+      "name": "육두구, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3243,
+      "code": "R0290000005a",
+      "name": "정향, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3244,
+      "code": "R0310001895a",
+      "name": "조미료, 멸치맛, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3245,
+      "code": "R0310002905a",
+      "name": "조미료, 사골맛, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3246,
+      "code": "R0310001905a",
+      "name": "조미료, 쇠고기맛, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3247,
+      "code": "R0310002915a",
+      "name": "조미료, 조개맛, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3248,
+      "code": "R0310002825a",
+      "name": "조미료, 화학조미료, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3249,
+      "code": "R0310010009a",
+      "name": "조미료, 액상",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3250,
+      "code": "R0280000005a",
+      "name": "짜장 소스, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3251,
+      "code": "R028000000Wa",
+      "name": "짜장 소스, 레토르트",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3252,
+      "code": "R0580000009a",
+      "name": "짜장 소스, 춘장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3253,
+      "code": "R0320000009a",
+      "name": "청국장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3254,
+      "code": "R0320000005a",
+      "name": "청국장, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3255,
+      "code": "R0320002419a",
+      "name": "청국장, 찌개용",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3256,
+      "code": "R0060000009a",
+      "name": "초고추장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3257,
+      "code": "R0310002155a",
+      "name": "치즈시즈닝",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3258,
+      "code": "R0790000005a",
+      "name": "치킨 스톡, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3259,
+      "code": "R0790010009a",
+      "name": "치킨 스톡, 액상",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3260,
+      "code": "R0620000009a",
+      "name": "칠리 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3261,
+      "code": "R0620002699a",
+      "name": "칠리 소스, 단맛",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3262,
+      "code": "R0330000005a",
+      "name": "칠리, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3263,
+      "code": "R0340000005a",
+      "name": "카레 소스, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3264,
+      "code": "R034000000Wa",
+      "name": "카레 소스, 레토르트",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3265,
+      "code": "R0600000001a",
+      "name": "타라곤, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3266,
+      "code": "R0360000005a",
+      "name": "타임, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3267,
+      "code": "R0800000009a",
+      "name": "탕수육 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3268,
+      "code": "R0370000009a",
+      "name": "템페",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3269,
+      "code": "R0380000009a",
+      "name": "토마토 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3270,
+      "code": "R0380010009a",
+      "name": "토마토 케첩",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3271,
+      "code": "R0570000001a",
+      "name": "파슬리, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3272,
+      "code": "R0390000005a",
+      "name": "파프리카, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3273,
+      "code": "R0810000009a",
+      "name": "팟타이 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3274,
+      "code": "R0590000000a",
+      "name": "페퍼민트, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3275,
+      "code": "R0110000009a",
+      "name": "포크커틀릿 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3276,
+      "code": "R0820000005a",
+      "name": "하이라이스, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3277,
+      "code": "R0400000009a",
+      "name": "핫 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3278,
+      "code": "R0830000009a",
+      "name": "해선장",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3279,
+      "code": "R0710000009a",
+      "name": "허니머스타드 소스",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3280,
+      "code": "R0410010005a",
+      "name": "후추, 검은색, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3281,
+      "code": "R0410020005a",
+      "name": "후추, 흰색, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3307,
+      "code": "S0290000007a",
+      "name": "미트볼, 냉동",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g",
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 3310,
+      "code": "S0370020009a",
+      "name": "샌드위치, 닭고기",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3311,
+      "code": "S0370030009a",
+      "name": "샌드위치, 생선",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3312,
+      "code": "S0370040009a",
+      "name": "샌드위치, 소고기",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3314,
+      "code": "S044000000Wa",
+      "name": "스튜, 레토르트",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "protein_g",
+        "fat_g",
+        "carbs_g"
+      ]
+    },
+    {
+      "source_row": 3315,
+      "code": "S0450010007a",
+      "name": "스파게티, 미트소스 스파게티, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3328,
+      "code": "S0710010007a",
+      "name": "크로켓, 감자 크로켓, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3329,
+      "code": "S0710020007a",
+      "name": "크로켓, 채소 크로켓, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3330,
+      "code": "S0710030007a",
+      "name": "크로켓, 크림 크로켓, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3331,
+      "code": "S0760110007t",
+      "name": "피자, 불고기 피자, 냉동, 전자레인지 조리",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3332,
+      "code": "S0760090007t",
+      "name": "피자, 콤비네이션 피자, 냉동, 전자레인지 조리",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3333,
+      "code": "S0780000007a",
+      "name": "핫도그, 냉동",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3334,
+      "code": "S0800000009a",
+      "name": "햄버거, 소고기패티",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3335,
+      "code": "S0800020009a",
+      "name": "햄버거, 소고기패티, 토마토, 양상추, 양파",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3343,
+      "code": "T0300000005a",
+      "name": "단백질 보충제, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3344,
+      "code": "T0300002325a",
+      "name": "단백질 보충제, 저지방, 가루",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3345,
+      "code": "T005000000Ra",
+      "name": "달팽이, 통조림",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3346,
+      "code": "T0050000000a",
+      "name": "달팽이, 생것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3353,
+      "code": "T015000000Na",
+      "name": "솔잎, 추출",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 3355,
+      "code": "T0170001949a",
+      "name": "수세미, 수액",
+      "decision": "hold_source_validation",
+      "missing_core_fields": [
+        "fat_g"
+      ]
+    },
+    {
+      "source_row": 3364,
+      "code": "T0250010009a",
+      "name": "팽창제, 베이킹파우더",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    },
+    {
+      "source_row": 3365,
+      "code": "T0250030001a",
+      "name": "팽창제, 효모, 말린것",
+      "decision": "reprocess",
+      "missing_core_fields": []
+    }
+  ]
+}
