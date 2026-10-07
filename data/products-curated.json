@@ -411,7 +411,7 @@
           "source": "서울우유 공식 제품정보",
           "source_url": "https://www.seoulmilk.co.kr/enterprise/product/product_view.sm?nmNo=10000000000587&page=1&subname=P0",
           "basis": "100ml",
-          "label_basis": "1000ml",
+          "label_basis": "100ml",
           "package_amount": 1000,
           "package_unit": "ml",
           "manufacturer": "서울우유협동조합",
