@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-07",
+  "products": [
+    "chilsung_cider_250ml",
+    "shin_ramyun_120g_label",
+    "jin_ramyun_spicy_120g_label",
+    "samyang_ramyun_120g_label",
+    "seoul_milk_na100_1l_label"
+  ],
+  "recipes": [
+    "dakbokkeumtang_reference",
+    "doenjang_jjigae",
+    "kimchi_jjigae",
+    "bibimbap",
+    "egg_fried_rice_reference"
+  ],
+  "product_contains_label_confirmed": 3,
+  "product_identity_confirmed": 1,
+  "product_contains_unverified": 1,
+  "cross_contact_confirmed": 4,
+  "recipe_scope": "Author reference recipes; ingredient identity and unresolved product labels shown separately",
+  "remaining": [
+    "Jin Ramyun original spicy bag nutrition label",
+    "Shin Ramyun cholesterol ambiguous source",
+    "Seoul Milk complete ingredients and facility label",
+    "Chilsung contained allergen declaration",
+    "Recipe seasoning labels and incomplete nutrition"
+  ]
+}

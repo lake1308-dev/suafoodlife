@@ -101,7 +101,7 @@ function rebuildIngredientIndex(){
 }
 async function loadRecipeDB(){
  try{
-  const res=await fetch("data/recipes.json?v=0.2.2",{cache:"no-store"});
+  const res=await fetch("data/recipes.json?v=0.2.3",{cache:"no-store"});
   const data=await res.json(); DB_RECIPES=data.recipes||[];
  }catch(err){console.warn("Recipe DB unavailable; using bundled fallback.",err)}
 }
@@ -155,7 +155,7 @@ async function loadIngredientDB(){
     byId.set(id,{id,names:{ko:r.source_food_name,en:r.source_food_name},aliases:{ko:[],en:[]},category:"verified_food",nutrition_per_100g:r.nutrition_per_100g,verification_status:"verified",sources:[{source_key:"K-FIND",source_record_id:r.source_food_code,source_food_name:r.source_food_name,basis:"100g",source:r.source_url}]})
    })
   }else console.warn("K-FIND nutrition DB unavailable; keeping base ingredient DB.",kfindRes.status);
-  try{const pr=await fetch("data/products-curated.json?v=0.1.2",{cache:"no-store"});if(pr.ok){const pd=await pr.json();(pd.products||[]).forEach(x=>byId.set(x.id,x));}}catch(err){console.warn("Curated products unavailable",err)}
+  try{const pr=await fetch("data/products-curated.json?v=0.1.3",{cache:"no-store"});if(pr.ok){const pd=await pr.json();(pd.products||[]).forEach(x=>byId.set(x.id,x));}}catch(err){console.warn("Curated products unavailable",err)}
   try{const res=await fetch("data/allergen-ingredients.json?v=0.2.0",{cache:"no-store"});if(res.ok){const data=await res.json();(data.ingredients||[]).forEach(x=>{const existing=byId.get(x.id);byId.set(x.id,{...existing,...x})})}}catch(err){console.warn("Basic allergen ingredients unavailable",err)}
   const rdaBatches=[{url:"data/rda-basic-1000.json.gz?v=20261006",count:1000},{url:"data/rda-foods-1001-2000.json.gz?v=20261006",count:1000},...Array.from({length:10},(_,i)=>({url:`data/rda-foods-2001-2500-p${i+1}.json.gz?v=20261007`,count:50})),{url:"data/rda-foods-remaining-811.json.gz?v=20261007-quality",count:811}];
   for(const {url,count} of rdaBatches){try{
@@ -295,7 +295,7 @@ const ALLERGEN_SOURCE_URL="https://www.foodsafetykorea.go.kr/portal/board/boardD
 const INGREDIENT_ALLERGENS={"peanut_dried": "땅콩", "tomato_raw": "토마토", "peach_white_raw": "복숭아", "chicken_breast_raw": "닭고기", "pork_belly_raw": "돼지고기", "pork_tenderloin_raw": "돼지고기", "pork_shoulder_raw": "돼지고기", "beef_hanwoo_round_grade1_raw": "쇠고기", "beef_hanwoo_brisket_grade1_raw": "쇠고기", "chicken": "닭고기", "egg": "알류", "egg_whole": "알류", "tofu": "대두", "beef": "쇠고기", "pork": "돼지고기", "shrimp": "새우", "milk": "우유", "cheese": "우유", "flour": "밀", "wheat_flour": "밀", "pork_loin": "돼지고기", "beef_rib": "쇠고기", "beef_ground": "쇠고기", "soybean_sprout": "대두", "butter": "우유", "heavy_cream": "우유", "parmesan": "우유"};
 const ALLERGEN_NAMES_EN={"땅콩": "Peanut", "토마토": "Tomato", "복숭아": "Peach", "닭고기": "Chicken", "돼지고기": "Pork", "쇠고기": "Beef", "알류": "Egg", "대두": "Soybean", "새우": "Shrimp", "우유": "Milk", "밀": "Wheat", "호두":"Walnut", "잣":"Pine nut", "메밀":"Buckwheat", "게":"Crab", "오징어":"Squid", "고등어":"Mackerel", "조개류":"Shellfish"};
 const BASIC_ALLERGEN_INFO={"milk": {"contains": ["우유"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "egg_whole": {"contains": ["알류"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "walnut_raw": {"contains": ["호두"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "pine_nut_raw": {"contains": ["잣"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "buckwheat_grain": {"contains": ["메밀"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "soybean_raw": {"contains": ["대두"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "wheat_grain": {"contains": ["밀"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "wheat_flour": {"contains": ["밀"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "crab_raw": {"contains": ["게"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "shrimp": {"contains": ["새우"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "squid_raw": {"contains": ["오징어"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "mackerel_raw": {"contains": ["고등어"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "oyster_raw": {"contains": ["조개류"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "abalone_raw": {"contains": ["조개류"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}, "mussel_raw": {"contains": ["조개류"], "source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412", "checked_on": "2026-10-06", "basis": "ingredient_identity"}};
-function ingredientAllergenInfo(key){const db=getIngredient(key),label=INGREDIENT_ALLERGENS[db?.id||canonicalIngredientId(key)];const starter=BASIC_ALLERGEN_INFO[canonicalIngredientId(key)];return db?.allergen_info||starter||(label?{contains:[label],source_url:ALLERGEN_SOURCE_URL,reviewed_on:"2026-10-06",basis:"ingredient_identity"}:null)}
+function ingredientAllergenInfo(key){const db=getIngredient(key),label=INGREDIENT_ALLERGENS[db?.id||canonicalIngredientId(key)];const starter=BASIC_ALLERGEN_INFO[canonicalIngredientId(key)];return (db?.allergen_info?.basis==="product_label_review"?db.allergen_info:null)||starter||(label?{contains:[label],source_url:ALLERGEN_SOURCE_URL,reviewed_on:"2026-10-06",basis:"ingredient_identity"}:db?.allergen_info||null)}
 function appendAllergenGuide(host){
  const details=document.createElement("details"),summary=document.createElement("summary"),p=document.createElement("p"),a=document.createElement("a");
  summary.textContent=tr("Korean allergen labeling guide","국내 알레르기 표시 기준 보기");
@@ -304,7 +304,7 @@ function appendAllergenGuide(host){
 }
 function recipeAllergenSummary(r){
  const contains=new Set(),unchecked=[];
- r.ingredients.forEach((x,i)=>{const el=document.querySelector('.recipe-amount[data-i="'+i+'"]');if(Number(el?.value??x.amount)<=0)return;const info=ingredientAllergenInfo(x.ingredient_id);if(info?.contains?.length)info.contains.forEach(v=>contains.add(v));else if(info?.status!=="not_listed")unchecked.push(dbIngredientName(x.ingredient_id))});
+ r.ingredients.forEach((x,i)=>{const el=document.querySelector('.recipe-amount[data-i="'+i+'"]');if(Number(el?.value??x.amount)<=0)return;const info=ingredientAllergenInfo(x.ingredient_id);if(info?.contains?.length)info.contains.forEach(v=>contains.add(v));if((!info?.contains?.length&&info?.status!=="not_listed")||["tofu","soybean_sprout"].includes(x.ingredient_id))unchecked.push(dbIngredientName(x.ingredient_id))});
  return {contains:[...contains],unchecked};
 }
 function updateRecipeAllergens(r){
@@ -312,6 +312,7 @@ function updateRecipeAllergens(r){
  const info=recipeAllergenSummary(r),status=document.createElement("p"),note=document.createElement("p");status.className="allergy-status";
  const names=info.contains.map(x=>lang==="ko"?x:(ALLERGEN_NAMES_EN[x]||x));status.textContent=names.length?tr("⚠ Included ingredient allergens: ","⚠ 포함된 재료의 알레르기 유발 식품·원료: ")+names.join(" · "):tr("Allergen information needs checking","알레르기 정보 확인 필요");
  note.textContent=tr("Based on the current recipe ingredients and amounts. Removing an ingredient does not rule out cross-contact. Product labels and additional ingredients still need checking.","현재 레시피의 재료와 입력한 양을 기준으로 표시합니다. 재료를 빼도 혼입 가능성이 없어지는 것은 아닙니다. 사용 제품의 표시사항과 추가 재료를 확인하세요.");box.append(status,note);
+ if(r.allergen_review_note){const p=document.createElement("p");p.textContent=r.allergen_review_note;box.append(p)}
  if(r.id==="dakbokkeumtang_reference"){const p=document.createElement("p");p.textContent=tr("Additional check: verify the allergen labels of your gochujang and soy sauce. Other versions of this dish may use different ingredients.","추가 확인: 사용하는 고추장·간장 제품의 알레르기 표시를 확인하세요. 다른 조리법이나 업소의 닭볶음탕은 재료가 다를 수 있습니다.");box.append(p)}
  if(info.unchecked.length){const p=document.createElement("p");p.textContent=tr("No connected allergen data: ","알레르기 자료 미연결 재료: ")+info.unchecked.join(", ");box.append(p)}appendAllergenGuide(box);
 }
@@ -362,8 +363,19 @@ function renderReviewedFoodAdvice(db,record){
  appendFoodAdvice(host,tr("Verification status","알레르기 확인 상태"),tr("Allergen composition has not been verified. Missing information does not mean allergy-free.","원재료별 알레르기 정보는 아직 확인되지 않았습니다. 정보가 없다는 뜻과 알레르기가 없다는 뜻은 다릅니다."));
  appendAllergenGuide(host);
 }
+function renderProductAllergenReview(db,info){
+ const host=$("allergyContent");host.innerHTML="";setFoodAdviceMode("dish");
+ appendFoodAdvice(host,tr("Exact product reviewed","확인한 제품"),db.names.ko+" · "+info.checked_on);
+ const names=info.contains.map(x=>lang==="ko"?x:(ALLERGEN_NAMES_EN[x]||x));
+ appendFoodAdvice(host,tr("Contained allergens","함유 원료"),names.length?names.join(" · ")+(info.contains_status==="ingredient_identity"?tr(" (product identity; full label not verified)"," (제품 유형으로 확인 · 전체 표시 추가 확인)"):""):tr("Not verified; missing information does not mean allergy-free.","함유 정보 미확인 · 정보가 없다는 뜻과 알레르기가 없다는 뜻은 다릅니다."));
+ appendFoodAdvice(host,info.cross_contact_kind==="possible_cross_contact"?tr("Possible cross-contact notice","혼입 가능성 안내"):tr("Shared manufacturing facility","같은 제조시설 안내"),info.cross_contact.length?info.cross_contact.map(x=>lang==="ko"?x:(ALLERGEN_NAMES_EN[x]||x)).join(" · ")+tr(" — separate from contained ingredients."," · 함유 원료와 별도 정보입니다."):tr("Not verified. Check the package.","미확인 · 실제 포장을 확인하세요."));
+ if(info.review_note)appendFoodAdvice(host,tr("Review status","추가 확인 사항"),info.review_note);
+ appendFoodAdvice(host,tr("Match the package","실제 포장과 대조하기"),tr("Applies only to this product and size, not cups, other flavors or export versions. Labels may change.","이 제품·용량에 한해 연결한 정보입니다. 컵·다른 맛·해외용 제품에는 적용하지 않습니다. 실제 포장의 최신 표시를 확인하세요."));
+ const link=document.createElement("a");link.href=info.source_url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=tr("Product information source ↗","제품 표시정보 출처 ↗");host.append(link);appendAllergenGuide(host);
+}
 function renderAllergy(key){
  const host=$("allergyContent"),db=getIngredient(key),info=ingredientAllergenInfo(key);
+ if(info?.basis==="product_label_review"){renderProductAllergenReview(db,info);return}
  if(db?.id==="peanut_dried"){renderPeanutTips(db);return}
  if(isBasicFoodAdvice(db)){renderBasicFoodTips(db);return}
  if(isDakbokkeumtang(db)){renderDakFoodAdvice();return}

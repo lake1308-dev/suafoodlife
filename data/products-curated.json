@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "products": [
     {
       "id": "chilsung_cider_250ml",
@@ -52,7 +52,29 @@
           "reference_date": "2026-10-05",
           "data_type": "제품 표시정보"
         }
-      ]
+      ],
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [],
+        "contains_status": "unverified",
+        "cross_contact": [
+          "우유",
+          "메밀",
+          "땅콩",
+          "대두",
+          "밀",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://m.gsshop.com/prd/prd.gs?bnclick=prd-ttab_prdTtabV_apiBytedance-relatedEx&dseq=0&iid=K8LyuByufUfkN&ispre=Y&mseq=404757&prdid=1036740046&rank=18&svcid=pc",
+        "checked_on": "2026-10-07",
+        "review_note": "제조시설 안내를 확인했습니다. 함유 알레르기 표시의 부재만으로 알레르기가 없다고 판단하지 않습니다."
+      }
     },
     {
       "id": "chilsung_cider_zero_250ml",
@@ -139,6 +161,263 @@
           "basis": "100g",
           "reference_date": "2026-10-05",
           "source_url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/detail.do?dbGrpCm=R&searchTextPre=&searchTextListStr=&sortOrder=DESC&sortFieldCnt=1&searchProcCode=&searchLogType=&searchSubOrderby=&searchDetailMode=all&searchGroup=&searchCrtMth=&searchMaker=&searchSource=&searchClass=&searchQc=&searchHcln=&searchReduct=&searchText=%EB%95%85%EC%BD%A9&searchNotText=&searchOper=AND&searchGroupText=&searchMakerText=&searchOrderby=CAL&searchPageCnt=20&pagenum=1&totalListCnt=19&pageblock=10&pagesize=20&searchFoodCd=R105-007000002-0000&searchRegionCd=ZZ&searchMonthCd=AVG"
+        }
+      ]
+    },
+    {
+      "id": "shin_ramyun_120g_label",
+      "names": {
+        "ko": "신라면 120g 봉지",
+        "en": "Shin Ramyun 120g bag"
+      },
+      "aliases": {
+        "ko": [
+          "신라면120g봉지"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 416.6666666666667,
+        "protein_g": 8.333333333333334,
+        "carbs_g": 65.83333333333334,
+        "fat_g": 13.333333333333334,
+        "sat_fat_g": 7.5,
+        "sugars_g": 3.3333333333333335,
+        "sodium_mg": 1491.6666666666667,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "밀",
+          "대두",
+          "돼지고기",
+          "알류",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "우유",
+          "메밀",
+          "땅콩",
+          "고등어",
+          "게",
+          "새우",
+          "토마토",
+          "호두",
+          "닭고기",
+          "오징어",
+          "잣",
+          "조개류(굴·전복·홍합)"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Nongshim-Shin-Ramyun-120g-x-30/p/524497",
+        "checked_on": "2026-10-07",
+        "review_note": "콜레스테롤은 판매처의 “0mg 미만” 표기가 부정확하여 수치 연결을 보류했습니다."
+      },
+      "sources": [
+        {
+          "source": "판매처 제품 표시정보",
+          "source_url": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Nongshim-Shin-Ramyun-120g-x-30/p/524497",
+          "basis": "100g",
+          "label_basis": "120g",
+          "package_amount": 120,
+          "package_unit": "g",
+          "manufacturer": "농심",
+          "declared_weight": "120g",
+          "reference_date": "2026-10-07",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "jin_ramyun_spicy_120g_label",
+      "names": {
+        "ko": "진라면 매운맛 120g 봉지",
+        "en": "Jin Ramyun spicy 120g bag"
+      },
+      "aliases": {
+        "ko": [
+          "진라면매운맛120g봉지"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "밀",
+          "대두",
+          "알류",
+          "쇠고기",
+          "돼지고기",
+          "닭고기",
+          "조개류(굴·홍합)"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "우유",
+          "메밀",
+          "토마토",
+          "오징어",
+          "새우",
+          "게",
+          "고등어",
+          "땅콩"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "possible_cross_contact",
+        "source_url": "https://www.kurly.com/goods/5061306",
+        "checked_on": "2026-10-07",
+        "review_note": "해당 봉지 제품의 영양성분 표는 아직 연결하지 않았습니다. 진라면 플러스·용기 제품의 값은 사용하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "판매처 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5061306",
+          "basis": "100g",
+          "label_basis": "120g",
+          "package_amount": 120,
+          "package_unit": "g",
+          "manufacturer": "오뚜기",
+          "declared_weight": "120g",
+          "reference_date": "2026-10-07",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "samyang_ramyun_120g_label",
+      "names": {
+        "ko": "삼양라면 120g 봉지",
+        "en": "Samyang Ramyun 120g bag"
+      },
+      "aliases": {
+        "ko": [
+          "삼양라면120g봉지"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 429.1666666666667,
+        "protein_g": 8.333333333333334,
+        "carbs_g": 69.16666666666667,
+        "fat_g": 13.333333333333334,
+        "sat_fat_g": 6.666666666666667,
+        "sugars_g": 3.3333333333333335,
+        "sodium_mg": 1516.6666666666667,
+        "cholesterol_mg": 0.0
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "돼지고기",
+          "닭고기",
+          "쇠고기",
+          "조개류(바지락·모시조개)"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "메밀",
+          "땅콩",
+          "고등어",
+          "게",
+          "새우",
+          "토마토",
+          "호두",
+          "오징어",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Samyang-Ramyun-120g-x-20/p/635148",
+        "checked_on": "2026-10-07",
+        "review_note": ""
+      },
+      "sources": [
+        {
+          "source": "판매처 제품 표시정보",
+          "source_url": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Samyang-Ramyun-120g-x-20/p/635148",
+          "basis": "100g",
+          "label_basis": "120g",
+          "package_amount": 120,
+          "package_unit": "g",
+          "manufacturer": "삼양식품",
+          "declared_weight": "120g",
+          "reference_date": "2026-10-07",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "seoul_milk_na100_1l_label",
+      "names": {
+        "ko": "서울우유 나100% 1L",
+        "en": "Seoul Milk Na100 1L"
+      },
+      "aliases": {
+        "ko": [
+          "서울우유나100%1L"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 70,
+        "protein_g": 3,
+        "carbs_g": 5,
+        "fat_g": 4,
+        "sat_fat_g": 2.5,
+        "sugars_g": 5,
+        "sodium_mg": 50,
+        "cholesterol_mg": 15
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유"
+        ],
+        "contains_status": "ingredient_identity",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.seoulmilk.co.kr/enterprise/product/product_view.sm?nmNo=10000000000587&page=1&subname=P0",
+        "checked_on": "2026-10-07",
+        "review_note": "공식 제품 유형이 우유인 것으로 확인했습니다. 전체 원재료 표시와 제조시설 안내는 추가 확인이 필요합니다."
+      },
+      "sources": [
+        {
+          "source": "서울우유 공식 제품정보",
+          "source_url": "https://www.seoulmilk.co.kr/enterprise/product/product_view.sm?nmNo=10000000000587&page=1&subname=P0",
+          "basis": "100ml",
+          "label_basis": "1000ml",
+          "package_amount": 1000,
+          "package_unit": "ml",
+          "manufacturer": "서울우유협동조합",
+          "declared_weight": "1000ml",
+          "reference_date": "2026-10-07",
+          "data_type": "제품 표시정보"
         }
       ]
     }
