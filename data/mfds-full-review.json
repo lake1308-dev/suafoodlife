@@ -1,0 +1,59 @@
+{
+  "source_filename": "20260929_가공식품DB_323197건.xlsx",
+  "source_sha256": "04f8fb4e82220a911aa4d583539da1b412138a430d76482a1e7a80f7b930dd93",
+  "source_records": 323197,
+  "existing_source_matches": 37563,
+  "filled_nutrient_cells": 1,
+  "revised_nutrient_cells": 262,
+  "updated_existing_records": 27563,
+  "excluded_import_or_unknown": 70902,
+  "added_records": 214732,
+  "updated_basis_records": 1,
+  "result_catalog_count": 274732,
+  "rda_connected_count": 2500,
+  "source_verified_unique_records": 252295,
+  "source_verified_nutrient_cells": 2270655,
+  "retained_existing_not_matched": 22437,
+  "complete_core_records": 264915,
+  "missing_nutrient_cells": {
+    "kcal": 0,
+    "protein_g": 15,
+    "fat_g": 9736,
+    "carbs_g": 9391,
+    "sugars_g": 90,
+    "fiber_g": 263794,
+    "sodium_mg": 104,
+    "cholesterol_mg": 9812,
+    "sat_fat_g": 411
+  },
+  "records_with_missing_display_fields": 10030,
+  "allergy_changes": 0,
+  "policy": "Keep existing catalogue; reconcile matching codes with current official values and original units. Add non-imported (N) processed foods with valid code, name, 100g/100ml basis and energy. Missing nutrients remain null. Identical duplicate codes collapse; conflicting codes block import.",
+  "independent_verification": {
+    "records": 252295,
+    "nutrient_cells": 2270655,
+    "unit_and_identity_match": true,
+    "unique_catalog_codes": 274732
+  },
+  "connected_total": 277232,
+  "display_nutrition_fields": [
+    "kcal",
+    "protein_g",
+    "fat_g",
+    "carbs_g",
+    "sugars_g",
+    "sodium_mg",
+    "cholesterol_mg",
+    "sat_fat_g"
+  ],
+  "rda_records_with_missing_display_fields": 660,
+  "total_records_with_missing_display_fields": 10690,
+  "loader_tests": {
+    "unique_ids": true,
+    "basic_ingredient_priority": true,
+    "brand_and_manufacturer_search": true,
+    "original_ml_basis": true,
+    "partial_load_retention": true,
+    "concurrent_chunk_load_limit": 4
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "version": "2026-09-29",
+  "record_count": 274732,
+  "chunks": [
+    {
+      "path": "data/catalog-20260929-1.json.gz",
+      "record_count": 5000,
+      "sha256": "a8ab7381dc25d5dc7c843214675e63012df0b13bf3ca9528eca0269253d9077c"
+    },
+    {
+      "path": "data/catalog-20260929-2.json.gz",
+      "record_count": 5000,
+      "sha256": "a764edaff645fc3fbb417c7db05467ce9163a317a49db9cf1707b58931be92c6"
+    },
+    {
+      "path": "data/catalog-20260929-3.json.gz",
+      "record_count": 5000,
+      "sha256": "08e8ed95272e724a0418bcb1b1f83aa90bad26ac0eb94e7a5c65ee2f6259bd64"
+    },
+    {
+      "path": "data/catalog-20260929-4.json.gz",
+      "record_count": 5000,
+      "sha256": "a21b3310333b5bfd0014c68ae2a32e5fa0f7dc65e386b1ce606fc56011501266"
+    },
+    {
+      "path": "data/catalog-20260929-5.json.gz",
+      "record_count": 5000,
+      "sha256": "f604f0428d86aa78d7a321441dd278e1e65d38e6bcca83695c3338b028406e12"
+    },
+    {
+      "path": "data/catalog-20260929-6.json.gz",
+      "record_count": 5000,
+      "sha256": "f7e69853437095a8e8475aed23ba6e5dc29917cdec34654b88380abb4df87114"
+    },
+    {
+      "path": "data/catalog-20260929-7.json.gz",
+      "record_count": 5000,
+      "sha256": "38efc9ca849056b78b87960ea2e6b35072a1ca6aafc28abb1fb6e90a1ce811c4"
+    },
+    {
+      "path": "data/catalog-20260929-8.json.gz",
+      "record_count": 5000,
+      "sha256": "505b8837754acfc15aecd413c077eb926814fb4f4d2c394d0ce3a5b013435432"
+    },
+    {
+      "path": "data/catalog-20260929-9.json.gz",
+      "record_count": 5000,
+      "sha256": "02309de6be94098ce02b1de00523b571fafd0196be802be3195499b7f80254f4"
+    },
+    {
+      "path": "data/catalog-20260929-10.json.gz",
+      "record_count": 5000,
+      "sha256": "5f881ddd0ee6ae876de940d4458039cbf4554e1d2d56b5be1c7a9842edf2955d"
+    },
+    {
+      "path": "data/catalog-20260929-11.json.gz",
+      "record_count": 5000,
+      "sha256": "c0fda50427ed7d0e51fccdfad5e4e5f99e73141d1e3300b0a97e0c6a7902d3ff"
+    },
+    {
+      "path": "data/catalog-20260929-12.json.gz",
+      "record_count": 5000,
+      "sha256": "51e0447f7344ca890f501e2a72ee87463f668975a8ff5555f37d6336be711eab"
+    },
+    {
+      "path": "data/catalog-20260929-13.json.gz",
+      "record_count": 5000,
+      "sha256": "068617a061cc1989e198766ffdc4b4927a65840d5114817de8999c0b719899cc"
+    },
+    {
+      "path": "data/catalog-20260929-14.json.gz",
+      "record_count": 5000,
+      "sha256": "8542d6416c975410900c2bbdb99f1c161a89fa3e2a59c2dfd26b931aac7a1553"
+    },
+    {
+      "path": "data/catalog-20260929-15.json.gz",
+      "record_count": 5000,
+      "sha256": "a43299ab71ec00b7aeaa259aff92eb2b17646465ef6b7b1c328fd940c9959c93"
+    },
+    {
+      "path": "data/catalog-20260929-16.json.gz",
+      "record_count": 5000,
+      "sha256": "7db45c70a0415d213a64f7df469240d9e5f99d9a74a3b5a9ddebe95d8f26308e"
+    },
+    {
+      "path": "data/catalog-20260929-17.json.gz",
+      "record_count": 5000,
+      "sha256": "1e90025e20b084d3a030dee24a97a7583278a42db5293263b3da97138ff87e35"
+    },
+    {
+      "path": "data/catalog-20260929-18.json.gz",
+      "record_count": 5000,
+      "sha256": "69b3a890140da730d9cc1005e7dd1ee59c5a9ce675116f23a74a2b12cc50f943"
+    },
+    {
+      "path": "data/catalog-20260929-19.json.gz",
+      "record_count": 5000,
+      "sha256": "be171a193667b6396acb1bd7d8f93cec6af25fab3c8626c8bd650c7fff53dadc"
+    },
+    {
+      "path": "data/catalog-20260929-20.json.gz",
+      "record_count": 5000,
+      "sha256": "31c0d1cd2d471a5a76990cefdff331eb9655fc2ba9f720bb3426730dcda9c278"
+    },
+    {
+      "path": "data/catalog-20260929-21.json.gz",
+      "record_count": 5000,
+      "sha256": "d1272f2c8eb5070f9419f2f8e2f59438c39797f6659327c02f6b749e8d7ff838"
+    },
+    {
+      "path": "data/catalog-20260929-22.json.gz",
+      "record_count": 5000,
+      "sha256": "70ab65747c267e3d21685b53ddc94069eaadc681af831117da44fdace6621920"
+    },
+    {
+      "path": "data/catalog-20260929-23.json.gz",
+      "record_count": 5000,
+      "sha256": "3a9c6f902b57f163a283c68acde1b5147b333b61560e2160c8dccaa8d5626511"
+    },
+    {
+      "path": "data/catalog-20260929-24.json.gz",
+      "record_count": 5000,
+      "sha256": "71f83acb82d9538e2a6bda3ca1bb4720208c75322b5fcade41bb36a6c9d3c402"
+    },
+    {
+      "path": "data/catalog-20260929-25.json.gz",
+      "record_count": 5000,
+      "sha256": "f2763ecea01f8d9e4d70f7e41b4dabb241feb01ccd4817d70fd2947142ffc3d8"
+    },
+    {
+      "path": "data/catalog-20260929-26.json.gz",
+      "record_count": 5000,
+      "sha256": "03225c9bfcd1a7d334c550edbfb2e73756ae6b946325104c2749094dcd1421f6"
+    },
+    {
+      "path": "data/catalog-20260929-27.json.gz",
+      "record_count": 5000,
+      "sha256": "d55cc2ee55dfe4ec9d51a49525182ab595a6937083e1efe9d2acb8da06e6d540"
+    },
+    {
+      "path": "data/catalog-20260929-28.json.gz",
+      "record_count": 5000,
+      "sha256": "fee087d301858fb227a806fe6dbbfb85ce1a449f8edef20c9b64a844953d3c72"
+    },
+    {
+      "path": "data/catalog-20260929-29.json.gz",
+      "record_count": 5000,
+      "sha256": "94fdbb7fa4dc36bf8605457a573022463cf52ee23da990d5151714f5acf68f04"
+    },
+    {
+      "path": "data/catalog-20260929-30.json.gz",
+      "record_count": 5000,
+      "sha256": "a431b759bd84dee2187e49cd9b738402825daf003b2980bd2d3f9c3c287b9aa4"
+    },
+    {
+      "path": "data/catalog-20260929-31.json.gz",
+      "record_count": 5000,
+      "sha256": "ec23d7ffcda1a7dba065b04a3d70da914eb8ef23ea5ad77a05732aa707d84601"
+    },
+    {
+      "path": "data/catalog-20260929-32.json.gz",
+      "record_count": 5000,
+      "sha256": "444267613bc445060821c8d456ab9a77adb3b8ef1bc9cad4a320165163ddc117"
+    },
+    {
+      "path": "data/catalog-20260929-33.json.gz",
+      "record_count": 5000,
+      "sha256": "4b7df102422df201c53c71e25781dac4aa069ae2e977dac1a04efecca5e43283"
+    },
+    {
+      "path": "data/catalog-20260929-34.json.gz",
+      "record_count": 5000,
+      "sha256": "b7941f0aad1b9a40bc35323346fc15094b2f43f735309213663f11740271f5fe"
+    },
+    {
+      "path": "data/catalog-20260929-35.json.gz",
+      "record_count": 5000,
+      "sha256": "f8dc900509283147a562d5014f249753b68755fc33616785afa60d492e248131"
+    },
+    {
+      "path": "data/catalog-20260929-36.json.gz",
+      "record_count": 5000,
+      "sha256": "aed4ac87876e7c4f0c05591fce11fbe95d8f9ed81ac9e115f4c8ce10e3506bab"
+    },
+    {
+      "path": "data/catalog-20260929-37.json.gz",
+      "record_count": 5000,
+      "sha256": "cc610b98e02eb1dada7cb75c150f5f903886e9351678743453bf9c0738aeb947"
+    },
+    {
+      "path": "data/catalog-20260929-38.json.gz",
+      "record_count": 5000,
+      "sha256": "e470dd7c02317d5e52f6d23858284558a4307f197841709d311bd4848131a58f"
+    },
+    {
+      "path": "data/catalog-20260929-39.json.gz",
+      "record_count": 5000,
+      "sha256": "46432741909cb1ad8f8d89863d4ac89de7ea8184cb7d984d3d4c27a591351124"
+    },
+    {
+      "path": "data/catalog-20260929-40.json.gz",
+      "record_count": 5000,
+      "sha256": "e0917c0f89bbab637feb7697ffe15a9c2fe16af6fe8abb3cac5929294f01ad71"
+    },
+    {
+      "path": "data/catalog-20260929-41.json.gz",
+      "record_count": 5000,
+      "sha256": "15de2ac9cfff3d3736595605b2b384f88baf89ab5ca9c136b179e4edb61f2886"
+    },
+    {
+      "path": "data/catalog-20260929-42.json.gz",
+      "record_count": 5000,
+      "sha256": "730ce34e9f38c8a3111d3aa2f643823eca99198d3f4a26eaea230fc0c101cd9a"
+    },
+    {
+      "path": "data/catalog-20260929-43.json.gz",
+      "record_count": 5000,
+      "sha256": "7fb4cd52f02488345d0901ff7522762669f9b21c513a2438bf86641eda7f5851"
+    },
+    {
+      "path": "data/catalog-20260929-44.json.gz",
+      "record_count": 5000,
+      "sha256": "0f352ff6dee43f4e133d5eb5369e2c25bb3f9f128d9b4f0ee2253d95b16c583e"
+    },
+    {
+      "path": "data/catalog-20260929-45.json.gz",
+      "record_count": 5000,
+      "sha256": "ff699a09b5b341ea2bf866ddfef6cd9844f98171677cfd365eb750e4f9b0537e"
+    },
+    {
+      "path": "data/catalog-20260929-46.json.gz",
+      "record_count": 5000,
+      "sha256": "b980f71fdd29a1ad379608bdcdc664da995bea18fde64a40c0bac8ad03a4a85f"
+    },
+    {
+      "path": "data/catalog-20260929-47.json.gz",
+      "record_count": 5000,
+      "sha256": "ac3b0677dba1dad0cd77ac4cb6ab2803909e333e3c12510cf673a12f034dfba2"
+    },
+    {
+      "path": "data/catalog-20260929-48.json.gz",
+      "record_count": 5000,
+      "sha256": "d3564d242285448136504bb8977b155315aad5d952680bed7e81be025391c1d1"
+    },
+    {
+      "path": "data/catalog-20260929-49.json.gz",
+      "record_count": 5000,
+      "sha256": "790fcb90a71e1c1421c4943491b26545f066ad6566be0330b1e1dbd4eddbe36a"
+    },
+    {
+      "path": "data/catalog-20260929-50.json.gz",
+      "record_count": 5000,
+      "sha256": "4b8be9f537c3f87718162195848934e55dcfe18e5144687e6a119091f163580e"
+    },
+    {
+      "path": "data/catalog-20260929-51.json.gz",
+      "record_count": 5000,
+      "sha256": "f3329fdc4ec62ed9a7acedd9688fd4f5beedf418e8f9c92f7fc898783d3bf2a5"
+    },
+    {
+      "path": "data/catalog-20260929-52.json.gz",
+      "record_count": 5000,
+      "sha256": "0bb845216586d82f3c14fb410efd390683de18ac29c2d00ee73067dc67b5edf8"
+    },
+    {
+      "path": "data/catalog-20260929-53.json.gz",
+      "record_count": 5000,
+      "sha256": "78d49b63d3122bfa6e2a4f358895e5c7590b641c5cb9ad6e37ebbb830d0d331b"
+    },
+    {
+      "path": "data/catalog-20260929-54.json.gz",
+      "record_count": 5000,
+      "sha256": "4c093563169500e624183af66f6f2126543146c8b09b834dd87481aa0c675802"
+    },
+    {
+      "path": "data/catalog-20260929-55.json.gz",
+      "record_count": 4732,
+      "sha256": "b90855ef688cb7b101e8008800936508248da21c1e92289e2cdaf9b1da9c0df8"
+    }
+  ]
+}

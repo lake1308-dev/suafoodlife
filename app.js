@@ -20,7 +20,7 @@ async function loadFoodDetails(){
  }catch(err){console.warn("Full food details unavailable; using starter details",err);try{const res=await fetch("data/food-details.json?v=0.1.0",{cache:"no-store"});if(res.ok)FOOD_DETAILS=(await res.json()).records||{}}catch{}}
 
 }
-function foodSearchIdentity(x){const s=x.sources?.[0]||{};return JSON.stringify([normalize(x.names.ko),s.basis||"100g",s.data_type||x.category,FOOD_DETAILS[s.food_code]||null,x.nutrition_per_100g])}
+function foodSearchIdentity(x){const s=x.sources?.[0]||{};return JSON.stringify([normalize(x.names.ko),s.basis||"100g",s.data_type||x.category,{manufacturer:s.manufacturer??FOOD_DETAILS[s.food_code]?.manufacturer,declared_weight:s.declared_weight??FOOD_DETAILS[s.food_code]?.declared_weight},x.nutrition_per_100g])}
 const SMALL_SERVING_CATEGORIES=new Set(["spice","seasoning","sweetener","oil"]);
 const VERIFIED_RECIPE_IDS={egg:"egg_whole",flour:"wheat_flour",tomato:"tomato_raw",onion:"onion_raw",garlic:"garlic_raw",minced_garlic:"garlic_raw",carrot:"carrot_root_raw",green_onion:"green_onion_raw",pork_tenderloin:"pork_tenderloin_raw",pork_shoulder:"pork_shoulder_raw",rice_cooked:"cooked_white_rice"};
 function canonicalIngredientId(id){return VERIFIED_RECIPE_IDS[id]||id}
@@ -110,37 +110,35 @@ function bulkToIngredient(row,cols){
  ["kcal","protein_g","fat_g","carbs_g","sugars_g","fiber_g","sodium_mg","cholesterol_mg","sat_fat_g"].forEach(k=>{x[k]=x[k]==null||String(x[k]).trim()===""?null:Number(x[k]);if(!Number.isFinite(x[k]))x[k]=null});
  return {id,names:{ko:x.name,en:x.name},aliases:{ko:[],en:[]},category:"official_food",verification_status:"official_bulk",
   nutrition_per_100g:{kcal:x.kcal,protein_g:x.protein_g,fat_g:x.fat_g,carbs_g:x.carbs_g,sugars_g:x.sugars_g,fiber_g:x.fiber_g,sodium_mg:x.sodium_mg,cholesterol_mg:x.cholesterol_mg,sat_fat_g:x.sat_fat_g},
-  sources:[{food_code:x.code,food_name:x.name,source:x.source,reference_date:x.reference_date,basis:x.basis,data_type:x.type}]};
+  _normalizedName:normalize(x.name),_compactName:compactSearch(x.name),_compactVendor:compactSearch(x.manufacturer||""),
+  sources:[{manufacturer:x.manufacturer,declared_weight:x.declared_weight,food_code:x.code,food_name:x.name,source:x.source,reference_date:x.reference_date,basis:x.basis,data_type:x.type}]};
 }
 async function loadBulkNutritionDB(){
+ DB_BULK=[];DB_BULK_BY_NAME=new Map();DB_BULK_BY_ID=new Map();
  try{
-  const urls=["data/nutrition-bulk-1000.json.gz?v=20261004",
-   ...Array.from({length:5},(_,i)=>`data/nutrition-bulk-1001-2000-p${i+1}.json.gz?v=20261004`),
-   ...Array.from({length:5},(_,i)=>`data/nutrition-bulk-2001-3000-p${i+1}.json.gz?v=20261004`),
-   ...Array.from({length:17},(_,i)=>{const start=3001+i*1000,end=4000+i*1000;return `data/nutrition-bulk-${start}-${end}.json.gz?v=20261004`;}),
-   ...Array.from({length:10},(_,i)=>{const start=20001+i*1000,end=21000+i*1000;return `data/nutrition-bulk-${start}-${end}.json.gz?v=20261004`;}),
-   ...Array.from({length:20},(_,i)=>{const start=30001+i*1000,end=31000+i*1000;return `data/nutrition-bulk-${start}-${end}.json.gz?v=20261004`;}),
-   ...Array.from({length:10},(_,i)=>{const start=50001+i*1000,end=51000+i*1000;return `data/nutrition-bulk-${start}-${end}.json.gz?v=20261007`;})];
-  const loadGzipJson=async url=>{
-   const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw new Error("bulk DB "+res.status+" "+url);
-   const buf=await res.arrayBuffer(),u8=new Uint8Array(buf);let txt;
-   if(u8[0]===0x1f&&u8[1]===0x8b){
-    if(typeof DecompressionStream==="undefined")throw new Error("gzip decompression unsupported");
-    txt=await new Response(new Blob([u8]).stream().pipeThrough(new DecompressionStream("gzip"))).text();
-   }else txt=new TextDecoder().decode(u8);
-   return JSON.parse(txt);
+  const res=await fetch("data/catalog-manifest.json?v=20261007-full",{cache:"no-store"});if(!res.ok)throw new Error("catalog manifest unavailable");
+  const manifest=await res.json();if(!Array.isArray(manifest.chunks)||!manifest.record_count)throw new Error("invalid catalogue manifest");
+  try{const advice=await fetch("data/food-advice-batch-1.json?v=20261007",{cache:"no-store"});if(advice.ok){const data=await advice.json();if(data.record_count===5000&&Object.keys(data.records||{}).length===5000)FOOD_ADVICE_BATCH=data.records}}catch(err){console.warn("Food advice unavailable",err)}
+  let next=0;const failures=[];
+  const worker=async()=>{
+   while(next<manifest.chunks.length){
+    const chunk=manifest.chunks[next++];
+    try{
+     const response=await fetch(chunk.path+"?v=20261007-full",{cache:"no-store"});if(!response.ok)throw new Error("catalogue chunk "+response.status);
+     const buf=await response.arrayBuffer(),bytes=new Uint8Array(buf);
+     const text=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).text():new TextDecoder().decode(bytes);
+     const data=JSON.parse(text);if(data.record_count!==chunk.record_count||data.rows?.length!==chunk.record_count)throw new Error("catalogue count mismatch");
+     const items=data.rows.map(row=>bulkToIngredient(row,data.columns));
+     for(const item of items){if(DB_BULK_BY_ID.has(item.id))throw new Error("duplicate catalogue ID");DB_BULK_BY_ID.set(item.id,item);DB_BULK_BY_NAME.set(item._normalizedName,item.id);DB_BULK.push(item)}
+     const count=$("coverageCount");if(count)count.textContent=DB_BULK.length.toLocaleString(lang==="ko"?"ko-KR":"en-US");
+    }catch(err){failures.push({path:chunk.path,message:err.message})}
+   }
   };
-  try{const advice=await fetch("data/food-advice-batch-1.json?v=20261007",{cache:"no-store"});if(advice.ok){const data=await advice.json();if(data.record_count===5000&&Object.keys(data.records||{}).length===5000)FOOD_ADVICE_BATCH=data.records}}catch(err){console.warn("Food advice batch unavailable; keeping existing guidance",err)}
-  const settled=await Promise.allSettled(urls.map(loadGzipJson)),sets=settled.filter(x=>x.status==="fulfilled").map(x=>x.value),failed=settled.filter(x=>x.status==="rejected");
-  DB_BULK=[];
-  sets.forEach(data=>{const cols=data.columns||[];DB_BULK.push(...(data.rows||[]).map(r=>bulkToIngredient(r,cols)))});
-  DB_BULK_BY_NAME=new Map();DB_BULK_BY_ID=new Map();
-  DB_BULK.forEach(x=>{DB_BULK_BY_ID.set(x.id,x);DB_BULK_BY_NAME.set(normalize(x.names.ko),x.id)});
-  const c=$("coverageCount");if(c)c.textContent=DB_BULK.length;
-  bulkLoadState=failed.length?"partial":"ready";
-  if(failed.length)console.warn("Some bulk nutrition chunks failed; keeping loaded records.",failed.length,failed.map(x=>x.reason?.message||String(x.reason)));
-  if(!sets.length)throw new Error("all bulk nutrition chunks failed");
- }catch(err){bulkLoadState="failed";console.warn("Bulk nutrition DB unavailable; keeping verified starter DB.",err)}
+  await Promise.all(Array.from({length:4},worker));
+  bulkLoadState=failures.length||DB_BULK.length!==manifest.record_count?"partial":"ready";
+  if(failures.length)console.warn("Some catalogue chunks failed; loaded records remain available",failures);
+  if(!DB_BULK.length)throw new Error("no catalogue records loaded");
+ }catch(err){bulkLoadState=DB_BULK.length?"partial":"failed";console.warn("Catalogue loading failed; starter ingredients remain available",err)}
 }
 async function loadIngredientDB(){
  try{
@@ -188,34 +186,37 @@ function searchTerms(raw){
  const q=normalize(raw),terms=[q,...(SEARCH_SYNONYMS.get(q)||[]),...(SEARCH_RELATED[q]||[])];return [...new Set(terms.filter(Boolean))];
 }
 const SEARCH_FALSE_POSITIVES={"곱창":["곱창김"],"콜라":["콜라겐"],"사이다":["사이다비니거","사이다 비니거"]};
-function scoreFoodName(name,terms){
- const n=normalize(name),nc=compactSearch(n);let score=Infinity;
- for(let ti=0;ti<terms.length;ti++){const q=terms[ti],qc=compactSearch(q),penalty=ti===0?0:(SEARCH_RELATED[terms[0]]||[]).includes(q)?6:2;if(n===q||nc===qc)score=Math.min(score,penalty);else if(n.startsWith(q)||nc.startsWith(qc))score=Math.min(score,1+penalty);else if(n.includes(q)||nc.includes(qc))score=Math.min(score,2+penalty)}
- const primary=terms[0],bad=SEARCH_FALSE_POSITIVES[primary]||[];if(bad.some(x=>n.includes(normalize(x))))score+=20;
- const pc=compactSearch(primary);if(score<Infinity){if(n===primary||nc===pc)score-=6;else if(n.startsWith(primary+"_")||n.startsWith(primary+" ")||nc.startsWith(pc))score-=3;else if(n.includes("_"+primary)||n.includes(" "+primary))score-=1}
+function prepareFoodSearch(terms){
+ const primary=terms[0];return {primary,pc:compactSearch(primary),bad:(SEARCH_FALSE_POSITIVES[primary]||[]).map(normalize),plans:terms.map((q,ti)=>({q,qc:compactSearch(q),penalty:ti===0?0:(SEARCH_RELATED[primary]||[]).includes(q)?6:2})),tokens:primary.split(/\s+/).map(compactSearch).filter(Boolean)};
+}
+function scoreFoodName(name,terms,cachedName,cachedCompact,prepared){
+ const n=cachedName??normalize(name),nc=cachedCompact??compactSearch(n),query=prepared||prepareFoodSearch(terms);let score=Infinity;
+ for(const {q,qc,penalty} of query.plans){if(n===q||nc===qc)score=Math.min(score,penalty);else if(n.startsWith(q)||nc.startsWith(qc))score=Math.min(score,1+penalty);else if(n.includes(q)||nc.includes(qc))score=Math.min(score,2+penalty)}
+ if(query.bad.some(x=>n.includes(x)))score+=20;
+ const {primary,pc}=query;if(score<Infinity){if(n===primary||nc===pc)score-=6;else if(n.startsWith(primary+"_")||n.startsWith(primary+" ")||nc.startsWith(pc))score-=3;else if(n.includes("_"+primary)||n.includes(" "+primary))score-=1}
  return score;
 }
 function searchIngredients(raw,limit=20){
- const terms=searchTerms(raw);if(!terms[0])return [];const scored=[];
+ const terms=searchTerms(raw);if(!terms[0])return [];const scored=[],query=prepareFoodSearch(terms);
  DB_BULK.forEach(x=>{
- let score=scoreFoodName(x.names.ko,terms);
+ let score=scoreFoodName(x.names.ko,terms,x._normalizedName,x._compactName,query);
  if(!Number.isFinite(score)){
-  const vendor=FOOD_DETAILS[x.sources?.[0]?.food_code]?.manufacturer;
-  if(vendor){const name=compactSearch(x.names.ko),maker=compactSearch(vendor),tokens=terms[0].split(/\s+/).map(compactSearch).filter(Boolean);if(tokens.length&&tokens.every(t=>name.includes(t)||maker.includes(t)))score=8;}
+  const vendor=x.sources?.[0]?.manufacturer??FOOD_DETAILS[x.sources?.[0]?.food_code]?.manufacturer;
+  if(vendor){const name=x._compactName||compactSearch(x.names.ko),maker=x._compactVendor||compactSearch(vendor),tokens=query.tokens;if(tokens.length&&tokens.every(t=>name.includes(t)||maker.includes(t)))score=8;}
  }
  if(score<Infinity)scored.push({id:x.id,name:x.names.ko,score});
 });
- DB_INGREDIENTS.forEach(x=>{const names=[BASIC_INGREDIENT_NAMES[x.id],x.names?.ko,x.names?.en,...(x.aliases?.ko||[]),...(x.aliases?.en||[])].filter(Boolean);let score=Math.min(...names.map(n=>scoreFoodName(n,terms)));if(BASIC_INGREDIENT_NAMES[x.id]&&normalize(BASIC_INGREDIENT_NAMES[x.id])===terms[0])score=-50;if(score<Infinity)scored.push({id:x.id,name:ingredientDisplayName(x),score})});
+ DB_INGREDIENTS.forEach(x=>{const names=[BASIC_INGREDIENT_NAMES[x.id],x.names?.ko,x.names?.en,...(x.aliases?.ko||[]),...(x.aliases?.en||[])].filter(Boolean);let score=Math.min(...names.map(n=>scoreFoodName(n,terms,undefined,undefined,query)));if(BASIC_INGREDIENT_NAMES[x.id]&&normalize(BASIC_INGREDIENT_NAMES[x.id])===terms[0])score=-50;if(score<Infinity)scored.push({id:x.id,name:ingredientDisplayName(x),score})});
  if(!scored.length&&compactSearch(terms[0]).length>=3){
   const q=compactSearch(terms[0]),max=q.length<=4?1:2;
-  DB_BULK.forEach(x=>{const n=compactSearch(x.names.ko);if(n.length>=q.length-2&&n.length<=q.length+4){const head=n.slice(0,Math.min(n.length,q.length+1)),d=editDistance(q,head,max);if(d<=max)scored.push({id:x.id,name:x.names.ko,score:10+d})}});
+  DB_BULK.forEach(x=>{const n=x._compactName||compactSearch(x.names.ko);if(n.length>=q.length-2&&n.length<=q.length+4){const head=n.slice(0,Math.min(n.length,q.length+1)),d=editDistance(q,head,max);if(d<=max)scored.push({id:x.id,name:x.names.ko,score:10+d})}});
  }
- const seen=new Set();return scored.sort((a,b)=>a.score-b.score||a.name.length-b.name.length||a.name.localeCompare(b.name,"ko")).filter(x=>{const item=getIngredient(x.id),key=item?foodSearchIdentity(item):x.id;if(seen.has(key))return false;seen.add(key);return true}).slice(0,limit);
+ const seen=new Set(),results=[];scored.sort((a,b)=>a.score-b.score||a.name.length-b.name.length||a.name.localeCompare(b.name,"ko"));for(const x of scored){const item=getIngredient(x.id),key=item?foodSearchIdentity(item):x.id;if(seen.has(key))continue;seen.add(key);results.push(x);if(results.length>=limit)break}return results;
 }
 function findIngredientExact(raw){
  const q=normalize(raw);const dbid=DB_ALIAS.get(q);if(dbid)return dbid;
- const exact=DB_BULK.filter(x=>normalize(x.names.ko)===q);if(exact.length){if(new Set(exact.map(foodSearchIdentity)).size>1)return null;return exact[0].id}
- for(const alt of SEARCH_SYNONYMS.get(q)||[]){const a=DB_ALIAS.get(alt);if(a)return a;const matches=DB_BULK.filter(x=>normalize(x.names.ko)===alt);if(matches.length&&new Set(matches.map(foodSearchIdentity)).size===1)return matches[0].id}
+ const exact=DB_BULK.filter(x=>(x._normalizedName??normalize(x.names.ko))===q);if(exact.length){if(new Set(exact.map(foodSearchIdentity)).size>1)return null;return exact[0].id}
+ for(const alt of SEARCH_SYNONYMS.get(q)||[]){const a=DB_ALIAS.get(alt);if(a)return a;const matches=DB_BULK.filter(x=>(x._normalizedName??normalize(x.names.ko))===alt);if(matches.length&&new Set(matches.map(foodSearchIdentity)).size===1)return matches[0].id}
  for(const [k,v] of Object.entries(I))if(v[6].some(a=>normalize(a)===q))return k;return null;
 }
 function findIngredient(raw){return findIngredientExact(raw)||searchIngredients(raw,1)[0]?.id||null}
@@ -226,7 +227,7 @@ function closeIngredientSuggestions(){
 function renderIngredientSuggestions(raw){
  const host=$("ingredientSuggestions");if(!host)return;const q=normalize(raw);if(!q){host.innerHTML="";closeIngredientSuggestions();return}
  const list=searchIngredients(raw,12);host.innerHTML="";host.setAttribute("role","listbox");
- list.forEach(x=>{const item=getIngredient(x.id),src=item?.sources?.[0],b=document.createElement("button"),left=document.createElement("span"),title=document.createElement("strong"),meta=document.createElement("small"),right=document.createElement("small");b.type="button";b.className="ingredient-suggestion";b.id="food-option-"+x.id;b.setAttribute("role","option");b.setAttribute("aria-selected","false");left.className="ingredient-suggestion-main";title.textContent=x.name;meta.className="ingredient-suggestion-meta";const detail=FOOD_DETAILS[src?.food_code]||src||{};const type=src?.data_type==="음식"?tr("General dish · varies by preparation","일반 음식 · 조리법별 차이"):src?.data_type||(item?.verification_status==="pending"?tr("Nutrition verification pending","영양정보 확인 중"):tr("Basic ingredient","기본 재료"));const kcal=item?.nutrition_per_100g?.kcal;const status=item?.verification_status==="allergen_identity"?tr("Allergen identity checked · nutrition pending","알레르기 재료 확인 · 영양값 확인 중"):item?.verification_status==="product_label"?tr("Retailer label source","판매처 표시정보"):item?.verification_status==="verified"?tr("Official source checked","공식 출처 확인"):item?.verification_status==="official_bulk"?tr("Official nutrition dataset","공식 영양성분 자료"):tr("Nutrition verification pending","영양정보 확인 중");meta.textContent=[type,status,detail.manufacturer,detail.declared_weight].filter((v,i,a)=>v&&a.indexOf(v)===i).join(" · ")+(kcal!=null?` · ${Math.round(kcal)} kcal / ${src?.basis||"100g"}`:"");right.className="ingredient-suggestion-basis";right.textContent=src?.basis||"100g";left.append(title,meta);b.append(left,right);b.onclick=()=>{$("ingredientInput").value=x.name;closeIngredientSuggestions();renderIngredient(x.id)};host.appendChild(b)});
+ list.forEach(x=>{const item=getIngredient(x.id),src=item?.sources?.[0],b=document.createElement("button"),left=document.createElement("span"),title=document.createElement("strong"),meta=document.createElement("small"),right=document.createElement("small");b.type="button";b.className="ingredient-suggestion";b.id="food-option-"+x.id;b.setAttribute("role","option");b.setAttribute("aria-selected","false");left.className="ingredient-suggestion-main";title.textContent=x.name;meta.className="ingredient-suggestion-meta";const detail=src?.manufacturer!==undefined?src:FOOD_DETAILS[src?.food_code]||src||{};const type=src?.data_type==="음식"?tr("General dish · varies by preparation","일반 음식 · 조리법별 차이"):src?.data_type||(item?.verification_status==="pending"?tr("Nutrition verification pending","영양정보 확인 중"):tr("Basic ingredient","기본 재료"));const kcal=item?.nutrition_per_100g?.kcal;const status=item?.verification_status==="allergen_identity"?tr("Allergen identity checked · nutrition pending","알레르기 재료 확인 · 영양값 확인 중"):item?.verification_status==="product_label"?tr("Retailer label source","판매처 표시정보"):item?.verification_status==="verified"?tr("Official source checked","공식 출처 확인"):item?.verification_status==="official_bulk"?tr("Official nutrition dataset","공식 영양성분 자료"):tr("Nutrition verification pending","영양정보 확인 중");meta.textContent=[type,status,detail.manufacturer,detail.declared_weight].filter((v,i,a)=>v&&a.indexOf(v)===i).join(" · ")+(kcal!=null?` · ${Math.round(kcal)} kcal / ${src?.basis||"100g"}`:"");right.className="ingredient-suggestion-basis";right.textContent=src?.basis||"100g";left.append(title,meta);b.append(left,right);b.onclick=()=>{$("ingredientInput").value=x.name;closeIngredientSuggestions();renderIngredient(x.id)};host.appendChild(b)});
  suggestionIndex=-1;host.classList.toggle("show",list.length>0);$("ingredientInput").setAttribute("aria-expanded",list.length?"true":"false");$("ingredientInput").removeAttribute("aria-activedescendant");
 }
 function moveSuggestion(delta){const host=$("ingredientSuggestions"),items=[...host.querySelectorAll(".ingredient-suggestion")];if(!items.length)return;suggestionIndex=suggestionIndex<0?(delta<0?items.length-1:0):(suggestionIndex+delta+items.length)%items.length;items.forEach((x,i)=>{const active=i===suggestionIndex;x.classList.toggle("active",active);x.setAttribute("aria-selected",active?"true":"false")});$("ingredientInput").setAttribute("aria-activedescendant",items[suggestionIndex].id);items[suggestionIndex].scrollIntoView({block:"nearest"})}
@@ -409,7 +410,7 @@ function renderIngredient(key,scroll=true,preserveAmount=false){
 function renderFoodSource(key){
  const host=$("foodSource");if(!host)return;const db=getIngredient(key),src=db?.sources?.[0];host.innerHTML="";
  if(!src){host.classList.add("hidden");return}host.classList.remove("hidden");
- const detail=FOOD_DETAILS[src.food_code]||src;
+ const detail=src.manufacturer!==undefined?src:FOOD_DETAILS[src.food_code]||src;
  const rows=[[tr("Original food name","원본 식품명"),src.source_food_name||src.food_name],[tr("Manufacturer","제조·판매업체"),detail.manufacturer],[tr("Declared product weight","원본 식품중량"),detail.declared_weight],[tr("Data type","식품 유형"),src.data_type],[tr("Calculation basis","계산 기준"),src.basis],[tr("Label basis","원본 표시 기준"),src.label_basis],[tr("Checked date","확인·기준일"),src.reference_date],[tr("Food code","식품코드"),src.food_code||src.source_record_id],[tr("Analysis source","분석 자료"),src.analysis_source],[tr("Source","출처"),src.source_key||src.source]].filter(x=>x[1]);
  rows.forEach(([label,value])=>{const row=document.createElement("div"),l=document.createElement("span"),v=document.createElement("strong");l.textContent=label;v.textContent=value;row.append(l,v);host.appendChild(row)});
  const sourceUrl=src.source_url||(/^https?:\/\//.test(src.source||"")?src.source:null);
@@ -600,7 +601,7 @@ function refreshPendingSearch(){
 }
 loadIngredientDB().then(()=>{
  refreshPendingSearch();
- return Promise.all([loadBulkNutritionDB().then(refreshPendingSearch),loadRecipeDB(),loadFoodDetails().then(refreshPendingSearch)]);
+ return Promise.all([loadBulkNutritionDB().then(refreshPendingSearch),loadRecipeDB()]);
 }).then(()=>{renderCountryCards();applyLang();refreshPendingSearch()});
 
 function recipesForIngredient(id){
