@@ -1,0 +1,14 @@
+{
+  "reviewed_on": "2026-10-08",
+  "service": "C002",
+  "official_documentation_url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=C002",
+  "documented_fields": ["LCNS_NO", "BSSH_NM", "PRDLST_REPORT_NO", "PRMS_DT", "PRDLST_NM", "PRDLST_DCNM", "RAWMTRL_NM", "RAWMTRL_ORDNO", "CHNG_DT", "ETQTY_XPORT_PRDLST_YN"],
+  "provides_product_raw_materials": true,
+  "provides_explicit_allergen_declaration_field": false,
+  "provides_cross_contact_field": false,
+  "authenticated_access_required_for_bulk": true,
+  "bulk_access_available_in_this_project": false,
+  "new_verified_allergen_declarations": 0,
+  "status": "offline_import_prepared_bulk_source_access_and_product_label_verification_pending",
+  "limitations": ["Multiple source rows may refer to one product.", "Nutrition-source codes are not manufacturing-report numbers.", "Product names alone do not establish an exact product match.", "Compound ingredients may hide subingredients.", "Ingredient-list completeness cannot be inferred from a partial page.", "Absence of an allergen term is not proof of absence.", "Reference recipes do not describe all commercial versions of a dish."]
+}
