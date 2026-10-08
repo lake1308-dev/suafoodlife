@@ -8,15 +8,19 @@ do not prove a complete composition. No API key is required or stored here.
 import argparse
 import csv
 import json
+import gzip
+import io
 from pathlib import Path
 
 SOURCE_URL = 'https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=C002'
 
 
 def load_rows(path):
-    text = path.read_text(encoding='utf-8-sig')
-    if path.suffix.lower() == '.csv':
-        return list(csv.DictReader(text.splitlines()))
+    opener = gzip.open if path.suffix.lower() == '.gz' else open
+    with opener(path, 'rt', encoding='utf-8-sig', newline='') as stream:
+        text = stream.read()
+    if path.name.lower().endswith(('.csv', '.csv.gz')):
+        return list(csv.DictReader(io.StringIO(text)))
     data = json.loads(text)
     if isinstance(data, list):
         return data

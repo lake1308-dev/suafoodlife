@@ -1,0 +1,203 @@
+{
+  "source_file": "C002.csv.gz",
+  "checked_on": "2026-10-08",
+  "compressed_bytes": 59964301,
+  "sha256": "067b0777f9c6ba2950ca58641c7a74841aeba079c935a76819337e5a28d839de",
+  "counts": {
+    "rows": 1078601,
+    "domestic_or_both_rows": 1016267,
+    "missing_required_rows": 131
+  },
+  "distinct_report_numbers": 1078601,
+  "top_food_types_by_source_row": [
+    [
+      "소스",
+      148023
+    ],
+    [
+      "기타가공품",
+      77531
+    ],
+    [
+      "빵류",
+      58233
+    ],
+    [
+      "커피",
+      49933
+    ],
+    [
+      "향료",
+      48068
+    ],
+    [
+      "복합조미식품",
+      46079
+    ],
+    [
+      "혼합제제",
+      42389
+    ],
+    [
+      "즉석조리식품",
+      41620
+    ],
+    [
+      "기타 수산물가공품",
+      34720
+    ],
+    [
+      "액상차",
+      30810
+    ],
+    [
+      "침출차",
+      28778
+    ],
+    [
+      "과자",
+      28230
+    ],
+    [
+      "곡류가공품",
+      26967
+    ],
+    [
+      "떡류",
+      26937
+    ],
+    [
+      "과.채가공품",
+      26150
+    ]
+  ],
+  "examples": [
+    {
+      "LCNS_NO": "19840221010",
+      "BSSH_NM": "롯데칠성음료(주)",
+      "PRDLST_REPORT_NO": "1984022101084",
+      "PRMS_DT": "20240830",
+      "PRDLST_NM": "LOTTE칠성사이다",
+      "PRDLST_DCNM": "탄산음료",
+      "RAWMTRL_NM": "백설탕, 구연산, 향료, 향료, 이산화탄소, 정제수",
+      "RAWMTRL_ORDNO": "1,2,3,4,5,6",
+      "CHNG_DT": "20260701",
+      "ETQTY_XPORT_PRDLST_YN": "O"
+    },
+    {
+      "LCNS_NO": "19910338087",
+      "BSSH_NM": "(주)세우",
+      "PRDLST_REPORT_NO": "199103380871534",
+      "PRMS_DT": "20260508",
+      "PRDLST_NM": "NSU신라면로제큰사발면혼합분",
+      "PRDLST_DCNM": "복합조미식품",
+      "RAWMTRL_NM": "복합조미식품, 복합조미식품, 글리세린지방산에스테르, 글리신, 복합조미식품",
+      "RAWMTRL_ORDNO": "9,1,38,37,23",
+      "CHNG_DT": "20260512",
+      "ETQTY_XPORT_PRDLST_YN": "N"
+    },
+    {
+      "LCNS_NO": "19910449004",
+      "BSSH_NM": "상미식품주식회사",
+      "PRDLST_REPORT_NO": "199104490041112",
+      "PRMS_DT": "20250122",
+      "PRDLST_NM": "글로벌 진라면 베지 건더기스프",
+      "PRDLST_DCNM": "과.채가공품",
+      "RAWMTRL_NM": "고춧가루, 건파, 과.채가공품, 건표고버섯, 과.채가공품, 과.채가공품",
+      "RAWMTRL_ORDNO": "6,5,4,3,2,1",
+      "CHNG_DT": "20250123",
+      "ETQTY_XPORT_PRDLST_YN": "O"
+    },
+    {
+      "LCNS_NO": "20170202548",
+      "BSSH_NM": "주식회사 다함푸드",
+      "PRDLST_REPORT_NO": "2017020254873",
+      "PRMS_DT": "20230718",
+      "PRDLST_NM": "꼬치마요로제진라면",
+      "PRDLST_DCNM": "복합조미식품",
+      "RAWMTRL_NM": "식품첨가물혼합제제, 설탕, 고춧가루, 복합조미식품",
+      "RAWMTRL_ORDNO": "4,3,2,1",
+      "CHNG_DT": "20230720",
+      "ETQTY_XPORT_PRDLST_YN": "N"
+    },
+    {
+      "LCNS_NO": "19850311001",
+      "BSSH_NM": "태원식품산업(주)",
+      "PRDLST_REPORT_NO": "198503110018407",
+      "PRMS_DT": "20190516",
+      "PRDLST_NM": "라면스프베이스(진라면)",
+      "PRDLST_DCNM": "복합조미식품",
+      "RAWMTRL_NM": "호박산이나트륨, 5'-리보뉴클레오티드이나트륨, 생강추출분말, 파프리카추출색소, 마늘추출농축분말, 후추가루, 고춧가루, 복합조미식품, 설탕, 복합조미식품, 정제소금, 에프에스피-1, 복합조미식품, 복합조미식품, 복합조미식품, 건마늘분말, 복합조미식품, 복합조미식품",
+      "RAWMTRL_ORDNO": "44,43,42,41,40,39,38,37,36,2,1,8,32,28,22,21,15,9",
+      "CHNG_DT": "20190601",
+      "ETQTY_XPORT_PRDLST_YN": "N"
+    },
+    {
+      "LCNS_NO": "20010549541",
+      "BSSH_NM": "(주)농심",
+      "PRDLST_REPORT_NO": "20010549541180",
+      "PRMS_DT": "20240207",
+      "PRDLST_NM": "매울신라면",
+      "PRDLST_DCNM": "유탕면",
+      "RAWMTRL_NM": "정제소금, 초산전분, 감자전분, 팜유, 밀가루, 기타가공품, 면류첨가알칼리제, 난각칼슘, 중합인산염, 소스, 비타민B2, 정제수, 복합조미식품, 과.채가공품",
+      "RAWMTRL_ORDNO": "5,4,3,2,1,8,7,6,9,10,11,12,13,14",
+      "CHNG_DT": "20240209",
+      "ETQTY_XPORT_PRDLST_YN": "O"
+    },
+    {
+      "LCNS_NO": "19710487002",
+      "BSSH_NM": "삼양식품(주)익산공장",
+      "PRDLST_REPORT_NO": "1971048700213",
+      "PRMS_DT": "19940107",
+      "PRDLST_NM": "삼양라면",
+      "PRDLST_DCNM": "유탕면",
+      "RAWMTRL_NM": "유탕면, 복합조미식품",
+      "RAWMTRL_ORDNO": "85,105",
+      "CHNG_DT": "20260103",
+      "ETQTY_XPORT_PRDLST_YN": "N"
+    },
+    {
+      "LCNS_NO": "19880383127",
+      "BSSH_NM": "삼양식품(주)원주공장",
+      "PRDLST_REPORT_NO": "19880383127120",
+      "PRMS_DT": "20100519",
+      "PRDLST_NM": "삼양라면",
+      "PRDLST_DCNM": "유탕면",
+      "RAWMTRL_NM": "복합조미식품, 유탕면",
+      "RAWMTRL_ORDNO": "21,1",
+      "CHNG_DT": "20250701",
+      "ETQTY_XPORT_PRDLST_YN": "N"
+    },
+    {
+      "LCNS_NO": "19880383127",
+      "BSSH_NM": "삼양식품(주)원주공장",
+      "PRDLST_REPORT_NO": "198803831271937",
+      "PRMS_DT": "20200324",
+      "PRDLST_NM": "삼양라면 골드",
+      "PRDLST_DCNM": "유탕면",
+      "RAWMTRL_NM": "복합조미식품, 유탕면",
+      "RAWMTRL_ORDNO": "16,1",
+      "CHNG_DT": "20230610",
+      "ETQTY_XPORT_PRDLST_YN": "N"
+    },
+    {
+      "LCNS_NO": "19880383127",
+      "BSSH_NM": "삼양식품(주)원주공장",
+      "PRDLST_REPORT_NO": "198803831271938",
+      "PRMS_DT": "20200407",
+      "PRDLST_NM": "삼양라면 골드 스프",
+      "PRDLST_DCNM": "복합조미식품",
+      "RAWMTRL_NM": "복합조미식품",
+      "RAWMTRL_ORDNO": "1",
+      "CHNG_DT": "20230610",
+      "ETQTY_XPORT_PRDLST_YN": "N"
+    }
+  ],
+  "verified_allergen_declarations_added": 0,
+  "published_products_added": 0,
+  "notes": [
+    "Raw material strings may combine multiple ingredients.",
+    "Manufacturing reports are not identical to existing nutrition catalogue records.",
+    "No explicit allergen declaration or cross-contact columns are present."
+  ]
+}
