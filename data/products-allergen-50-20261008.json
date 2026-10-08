@@ -1,10 +1,10 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "reviewed_on": "2026-10-08",
   "reviewed_count": 50,
-  "contains_confirmed_count": 43,
-  "cross_contact_confirmed_count": 22,
-  "contains_unverified_count": 7,
+  "contains_confirmed_count": 44,
+  "cross_contact_confirmed_count": 23,
+  "contains_unverified_count": 6,
   "products": [
     {
       "id": "kurly_label_5060444",
@@ -2204,27 +2204,38 @@
       "category": "packaged_food",
       "verification_status": "product_label",
       "nutrition_per_100g": {
-        "kcal": null,
-        "protein_g": null,
-        "carbs_g": null,
-        "fat_g": null,
-        "sat_fat_g": null,
-        "sugars_g": null,
-        "sodium_mg": null,
-        "cholesterol_mg": null
+        "kcal": 900,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 100,
+        "sat_fat_g": 10,
+        "sugars_g": 0,
+        "sodium_mg": 0,
+        "cholesterol_mg": 0
       },
       "allergen_info": {
         "basis": "product_label_review",
         "contains": [],
         "contains_status": "unverified",
-        "cross_contact": [],
-        "cross_contact_status": "unverified",
+        "cross_contact": [
+          "대두"
+        ],
+        "cross_contact_status": "confirmed",
         "cross_contact_kind": "shared_facility",
-        "source_url": "https://www.kurly.com/goods/1002161508",
+        "source_url": "https://www.dongwonmall.com/product/detail.do?productId=003730499",
         "checked_on": "2026-10-08",
-        "review_note": "함유 원료 표시를 직접 확인하지 못했습니다. 제조시설 정보만으로 함유 여부를 판단하지 않습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+        "review_note": "동원 공식몰에서 대두 사용 제품과 같은 제조시설에서 제조한다는 안내를 확인했습니다. 이는 대두 함유 표시가 아닙니다. 영양값은 용량 480mL와 별개로 100g 기준입니다. 별도 함유 알레르기 표시가 없어 미확인을 유지합니다."
       },
       "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?productId=003730499",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "480mL",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        },
         {
           "source": "컬리 판매자 제공 제품 표시정보",
           "source_url": "https://www.kurly.com/goods/1002161508",
@@ -2501,19 +2512,22 @@
       "category": "packaged_food",
       "verification_status": "product_label",
       "nutrition_per_100g": {
-        "kcal": null,
-        "protein_g": null,
-        "carbs_g": null,
-        "fat_g": null,
-        "sat_fat_g": null,
-        "sugars_g": null,
-        "sodium_mg": null,
-        "cholesterol_mg": null
+        "kcal": 70,
+        "protein_g": 8,
+        "carbs_g": 9,
+        "fat_g": 0,
+        "sat_fat_g": 0,
+        "sugars_g": 9,
+        "sodium_mg": 730,
+        "cholesterol_mg": 60
       },
       "allergen_info": {
         "basis": "product_label_review",
-        "contains": [],
-        "contains_status": "unverified",
+        "contains": [
+          "대두",
+          "밀"
+        ],
+        "contains_status": "confirmed",
         "cross_contact": [
           "알류",
           "우유",
@@ -2535,11 +2549,21 @@
         ],
         "cross_contact_status": "confirmed",
         "cross_contact_kind": "shared_facility",
-        "source_url": "https://www.kurly.com/goods/1000270145",
+        "source_url": "https://m.dongwonmall.com/product/detail.do?productId=003600747",
         "checked_on": "2026-10-08",
-        "review_note": "함유 원료 표시를 직접 확인하지 못했습니다. 제조시설 정보만으로 함유 여부를 판단하지 않습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+        "review_note": "동원 공식몰의 400g 제품에서 대두·밀 함유와 100g 기준 영양값을 확인했습니다. 공식몰과 판매처의 제조시설 안내 범위가 달라, 기존 판매처 안내를 유지했습니다. 구매한 포장의 제조시설 표시를 확인하세요.",
+        "cross_contact_source_url": "https://www.kurly.com/goods/1000270145"
       },
       "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://m.dongwonmall.com/product/detail.do?productId=003600747",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "400g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        },
         {
           "source": "컬리 판매자 제공 제품 표시정보",
           "source_url": "https://www.kurly.com/goods/1000270145",
@@ -2953,5 +2977,5 @@
       ]
     }
   ],
-  "nutrition_confirmed_count": 3
+  "nutrition_confirmed_count": 5
 }
