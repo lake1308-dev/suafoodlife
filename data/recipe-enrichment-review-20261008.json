@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
   "recipe_count": 58,
-  "nutrition_reference_estimates": 4,
-  "nutrition_held": 54,
+  "nutrition_reference_estimates": 7,
+  "nutrition_held": 51,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -47,8 +47,9 @@
     },
     {
       "recipe_id": "paik_kR77WlHRZrs",
-      "status": "held",
-      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+      "status": "estimated_reference",
+      "ingredient_count": 7,
+      "kcal": 860.56
     },
     {
       "recipe_id": "paik_Jq2SwKMw8vI",
@@ -103,8 +104,9 @@
     },
     {
       "recipe_id": "paik_rrNfCVRFsvs",
-      "status": "held",
-      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+      "status": "estimated_reference",
+      "ingredient_count": 17,
+      "kcal": 1799.6
     },
     {
       "recipe_id": "paik__O4tvQtZDiU",
@@ -295,8 +297,9 @@
     },
     {
       "recipe_id": "paik_rrNfCVRFsvs_parboil",
-      "status": "held",
-      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+      "status": "estimated_reference",
+      "ingredient_count": 17,
+      "kcal": 1799.6
     }
   ],
   "allergen_ingredient_reviews": 58,
