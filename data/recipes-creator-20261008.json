@@ -1,6 +1,6 @@
 {
-  "version": "1.10.0",
-  "record_count": 86,
+  "version": "1.11.0",
+  "record_count": 96,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -9476,8 +9476,780 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_wTtHP5qFOio_perilla",
+      "names": {
+        "ko": "들기름막라면 · 백종원 참고",
+        "en": "들기름막라면 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "들기름막라면",
+        "들기름라면",
+        "백종원"
+      ],
+      "servings": 1,
+      "ingredients": [],
+      "ingredients_text": "정수물: 500ml\n라면사리: 1봉\n구운 파래김: 2장 (4g)\n탈피들깨가루: 약 1/3큰술 (3g)\n쪽파 약간 (5g)\n[양념장 재료]\n국간장: 1큰술 (10g)\n황설탕 약1/4큰술 (3g)\n들기름: 약 2와 1/2큰술 (17g)",
+      "steps": {
+        "ko": [
+          "국간장·설탕·들기름을 섞고 쪽파를 썰며 김을 부숩니다.",
+          "끓는 물에서 면이 풀어진 뒤 약 2분 삶습니다.",
+          "찬물에 헹궈 물기를 뺀 면에 양념장·김·들깨가루·쪽파를 올립니다."
+        ],
+        "en": [
+          "국간장·설탕·들기름을 섞고 쪽파를 썰며 김을 부숩니다.",
+          "끓는 물에서 면이 풀어진 뒤 약 2분 삶습니다.",
+          "찬물에 헹궈 물기를 뺀 면에 양념장·김·들깨가루·쪽파를 올립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "wTtHP5qFOio",
+        "url": "https://www.youtube.com/watch?v=wTtHP5qFOio",
+        "title": "라면으로 만드는 들기름 막국수! 5분이면 끝!",
+        "section_name": "들기름막라면",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "d82331f9e33b28a508c2ae33f8dceb75da01a64e23060e5e26c88a920981cc14"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 1인분이며 메밀면 대신 라면사리를 사용합니다. 라면 제품과 무게가 미지정이라 전체 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "라면사리",
+          "국간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_tHkbJgBUaiI_cabbageegg",
+      "names": {
+        "ko": "배추전(달걀옷) · 백종원 참고",
+        "en": "배추전(달걀옷) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "배추전(달걀옷)",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "알배기 배추: 4장(150g)\n꽃소금: 적당량\n달걀물: 적당량\n밀가루: 적당량\n식용유: 적당량",
+      "steps": {
+        "ko": [
+          "배추를 낱장으로 떼고 두꺼운 줄기를 두드린 뒤 소금으로 간합니다.",
+          "밀가루를 묻히고 달걀물을 입힙니다.",
+          "기름 두른 팬에서 양면과 속까지 충분히 익힙니다."
+        ],
+        "en": [
+          "배추를 낱장으로 떼고 두꺼운 줄기를 두드린 뒤 소금으로 간합니다.",
+          "밀가루를 묻히고 달걀물을 입힙니다.",
+          "기름 두른 팬에서 양면과 속까지 충분히 익힙니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "tHkbJgBUaiI",
+        "url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+        "title": "더 이상의 전 레시피는 필요 없습니다. 이걸로 종결!",
+        "section_name": "배추전(달걀옷)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "밀",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀물",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          },
+          {
+            "ingredient": "밀가루",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          }
+        ],
+        "check_product_labels": [
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_tHkbJgBUaiI_zucchiniegg",
+      "names": {
+        "ko": "애호박전(달걀옷) · 백종원 참고",
+        "en": "애호박전(달걀옷) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "애호박전(달걀옷)",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "애호박: 1/2개(160g)\n꽃소금: 적당량\n달걀물: 적당량\n밀가루: 적당량\n식용유: 적당량",
+      "steps": {
+        "ko": [
+          "애호박을 약 0.5cm 두께로 썰어 소금으로 간합니다.",
+          "밀가루를 묻히고 달걀물을 입힙니다.",
+          "기름 두른 팬에서 양면과 속까지 충분히 익힙니다."
+        ],
+        "en": [
+          "애호박을 약 0.5cm 두께로 썰어 소금으로 간합니다.",
+          "밀가루를 묻히고 달걀물을 입힙니다.",
+          "기름 두른 팬에서 양면과 속까지 충분히 익힙니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "tHkbJgBUaiI",
+        "url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+        "title": "더 이상의 전 레시피는 필요 없습니다. 이걸로 종결!",
+        "section_name": "애호박전(달걀옷)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "밀",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀물",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          },
+          {
+            "ingredient": "밀가루",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          }
+        ],
+        "check_product_labels": [
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_tHkbJgBUaiI_mushrooms",
+      "names": {
+        "ko": "모둠버섯전 · 백종원 참고",
+        "en": "모둠버섯전 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "모둠버섯전",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "팽이버섯: 1개(150g)\n느타리버섯: 3컵(200g)\n새송이버섯: 2개(200g)\n꽃소금: 적당량\n달걀물: 적당량\n밀가루: 적당량\n식용유: 적당량",
+      "steps": {
+        "ko": [
+          "새송이를 얇게 썰고 느타리와 팽이의 밑동을 정리합니다.",
+          "버섯에 소금을 뿌립니다. 새송이는 밀가루와 달걀물을 차례로 입힙니다.",
+          "느타리와 팽이는 밀가루를 묻혀 달걀물과 섞습니다.",
+          "새송이는 한 조각씩, 나머지는 한입 크기로 덜어 기름 두른 팬에서 익힙니다."
+        ],
+        "en": [
+          "새송이를 얇게 썰고 느타리와 팽이의 밑동을 정리합니다.",
+          "버섯에 소금을 뿌립니다. 새송이는 밀가루와 달걀물을 차례로 입힙니다.",
+          "느타리와 팽이는 밀가루를 묻혀 달걀물과 섞습니다.",
+          "새송이는 한 조각씩, 나머지는 한입 크기로 덜어 기름 두른 팬에서 익힙니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "tHkbJgBUaiI",
+        "url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+        "title": "더 이상의 전 레시피는 필요 없습니다. 이걸로 종결!",
+        "section_name": "모둠버섯전",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "밀",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀물",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          },
+          {
+            "ingredient": "밀가루",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          }
+        ],
+        "check_product_labels": [
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_tHkbJgBUaiI_fish",
+      "names": {
+        "ko": "동태전 · 백종원 참고",
+        "en": "동태전 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "동태전",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "동태포: 2컵(200g)\n꽃소금: 적당량\n후추: 적당량\n달걀물: 적당량\n밀가루: 적당량\n식용유: 적당량",
+      "steps": {
+        "ko": [
+          "동태포의 물기를 닦고 소금과 후추로 간합니다.",
+          "밀가루를 묻히고 달걀물을 입힙니다.",
+          "기름 두른 팬에서 양면과 속까지 충분히 익힙니다."
+        ],
+        "en": [
+          "동태포의 물기를 닦고 소금과 후추로 간합니다.",
+          "밀가루를 묻히고 달걀물을 입힙니다.",
+          "기름 두른 팬에서 양면과 속까지 충분히 익힙니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "tHkbJgBUaiI",
+        "url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+        "title": "더 이상의 전 레시피는 필요 없습니다. 이걸로 종결!",
+        "section_name": "동태전",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "밀",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀물",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          },
+          {
+            "ingredient": "밀가루",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          }
+        ],
+        "check_product_labels": [
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_tHkbJgBUaiI_beef",
+      "names": {
+        "ko": "소고기육전 · 백종원 참고",
+        "en": "소고기육전 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "소고기육전",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "소고기(불고기용): 2장(200g)\n꽃소금: 적당량\n후추: 적당량\n달걀물: 적당량\n밀가루: 적당량\n식용유: 적당량",
+      "steps": {
+        "ko": [
+          "소고기를 펼쳐 소금과 후추로 간합니다.",
+          "밀가루를 묻히고 달걀물을 입힙니다.",
+          "기름 두른 팬에서 한 장씩 중불로 양면을 익힙니다."
+        ],
+        "en": [
+          "소고기를 펼쳐 소금과 후추로 간합니다.",
+          "밀가루를 묻히고 달걀물을 입힙니다.",
+          "기름 두른 팬에서 한 장씩 중불로 양면을 익힙니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "tHkbJgBUaiI",
+        "url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+        "title": "더 이상의 전 레시피는 필요 없습니다. 이걸로 종결!",
+        "section_name": "소고기육전",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "밀",
+          "쇠고기",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "소고기(불고기용)",
+            "allergen": "쇠고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          },
+          {
+            "ingredient": "달걀물",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          },
+          {
+            "ingredient": "밀가루",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          }
+        ],
+        "check_product_labels": [
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_tHkbJgBUaiI_shrimp",
+      "names": {
+        "ko": "새우전 · 백종원 참고",
+        "en": "새우전 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "새우전",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "자숙 새우: 1.5컵(200g)\n꽃소금: 적당량\n달걀물: 적당량\n밀가루: 적당량\n식용유: 적당량",
+      "steps": {
+        "ko": [
+          "자숙 새우에 소금과 후추로 간합니다.",
+          "밀가루를 고루 묻히고 달걀물을 섞습니다.",
+          "기름 두른 팬에서 새우를 한 개씩 노릇하게 익힙니다."
+        ],
+        "en": [
+          "자숙 새우에 소금과 후추로 간합니다.",
+          "밀가루를 고루 묻히고 달걀물을 섞습니다.",
+          "기름 두른 팬에서 새우를 한 개씩 노릇하게 익힙니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "tHkbJgBUaiI",
+        "url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+        "title": "더 이상의 전 레시피는 필요 없습니다. 이걸로 종결!",
+        "section_name": "새우전",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "밀",
+          "새우",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "자숙 새우",
+            "allergen": "새우",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          },
+          {
+            "ingredient": "달걀물",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          },
+          {
+            "ingredient": "밀가루",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI"
+          }
+        ],
+        "check_product_labels": [
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_uB37XeU5SwM_corn",
+      "names": {
+        "ko": "옥수수전(치즈·연유) · 백종원 참고",
+        "en": "옥수수전(치즈·연유) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "옥수수전(치즈·연유)",
+        "옥수수전",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "통조림 옥수수: 1캔 (290g)\n물: 1/3컵 (50g)\n튀김가루: 1/2컵 (50g)\n식용유: 1/3컵 (40g)\n연유: 2큰술 (25g)\n파마산 치즈가루: 1/4컵 (20g)",
+      "steps": {
+        "ko": [
+          "통조림 옥수수의 물기를 뺍니다.",
+          "옥수수·튀김가루·물을 섞어 반죽합니다.",
+          "기름 두른 팬에 펼쳐 노릇하게 굽습니다.",
+          "파마산 치즈가루를 뿌리고 연유를 곁들입니다."
+        ],
+        "en": [
+          "통조림 옥수수의 물기를 뺍니다.",
+          "옥수수·튀김가루·물을 섞어 반죽합니다.",
+          "기름 두른 팬에 펼쳐 노릇하게 굽습니다.",
+          "파마산 치즈가루를 뿌리고 연유를 곁들입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "uB37XeU5SwM",
+        "url": "https://www.youtube.com/watch?v=uB37XeU5SwM",
+        "title": "옥수수로 전 해보셨어요? 캔 옥수수로 뚝딱! 달달, 고소, 바삭! '초간단 옥수수전' ㅣ 백종원의 백종원 레시피",
+        "section_name": "옥수수전(치즈·연유)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "787aadf2f3ac6be4b45ed2f07e9adf8857ed90f8b9c320d93496bc70ccb7c7f9"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "일부 재료량·제품 성분·실제 섭취량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "연유",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=uB37XeU5SwM"
+          },
+          {
+            "ingredient": "파마산 치즈가루",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=uB37XeU5SwM"
+          }
+        ],
+        "check_product_labels": [
+          "튀김가루",
+          "식용유",
+          "파마산 치즈가루"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_zS_o6psOt9g_pan",
+      "names": {
+        "ko": "콘치즈(프라이팬) · 백종원 참고",
+        "en": "콘치즈(프라이팬) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "콘치즈(프라이팬)",
+        "콘치즈",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "옥수수통조림: 1캔(340g)\n양파: 1/10개(25g)\n황설탕: 1큰술(12g)\n마요네즈: 4큰술(64g)\n모짜렐라치즈: 1컵(100g)\n스틱버터: 1큰술(12g)\n파슬리가루 약간",
+      "steps": {
+        "ko": [
+          "옥수수의 물기를 빼고 양파를 잘게 썹니다.",
+          "팬에 버터를 녹여 옥수수와 양파를 볶고 수분이 줄면 설탕을 더합니다.",
+          "불을 끄고 마요네즈를 섞어 펼칩니다.",
+          "치즈를 올려 뚜껑을 덮고 약불에서 녹인 뒤 파슬리를 뿌립니다."
+        ],
+        "en": [
+          "옥수수의 물기를 빼고 양파를 잘게 썹니다.",
+          "팬에 버터를 녹여 옥수수와 양파를 볶고 수분이 줄면 설탕을 더합니다.",
+          "불을 끄고 마요네즈를 섞어 펼칩니다.",
+          "치즈를 올려 뚜껑을 덮고 약불에서 녹인 뒤 파슬리를 뿌립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "zS_o6psOt9g",
+        "url": "https://www.youtube.com/watch?v=zS_o6psOt9g",
+        "title": "프라이팬 VS 에어프라이어, 백종원이 추천하는 인생 콘치즈는?",
+        "section_name": "콘치즈(프라이팬)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "466243adb0712b913b5c8444a978720768b6f36b5a5a7a72a8e0284c8ecfa507"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "일부 재료량·제품 성분·실제 섭취량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다. 옥수수 통조림의 표시 중량과 물기를 뺀 실제 먹는 중량이 다를 수 있습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "모짜렐라치즈",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=zS_o6psOt9g"
+          },
+          {
+            "ingredient": "스틱버터",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=zS_o6psOt9g"
+          }
+        ],
+        "check_product_labels": [
+          "마요네즈",
+          "모짜렐라치즈"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_zS_o6psOt9g_air",
+      "names": {
+        "ko": "콘치즈(에어프라이어) · 백종원 참고",
+        "en": "콘치즈(에어프라이어) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "콘치즈(에어프라이어)",
+        "콘치즈",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "옥수수통조림: 1캔(340g)\n양파 약1/6개(40g)\n황설탕: 1큰술(12g)\n마요네즈: 4큰술(64g)\n모짜렐라치즈: 1컵(100g)\n스틱버터: 1큰술(12g)\n후춧가루 약간\n파슬리가루 약간",
+      "steps": {
+        "ko": [
+          "물기 뺀 옥수수에 썬 양파·마요네즈·설탕·후추를 섞습니다.",
+          "버터 바른 용기에 옥수수를 펼치고 치즈를 올립니다.",
+          "에어프라이어에서 180도로 약 9~10분 가열합니다.",
+          "치즈가 녹고 색이 나면 꺼내 파슬리를 뿌립니다."
+        ],
+        "en": [
+          "물기 뺀 옥수수에 썬 양파·마요네즈·설탕·후추를 섞습니다.",
+          "버터 바른 용기에 옥수수를 펼치고 치즈를 올립니다.",
+          "에어프라이어에서 180도로 약 9~10분 가열합니다.",
+          "치즈가 녹고 색이 나면 꺼내 파슬리를 뿌립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "zS_o6psOt9g",
+        "url": "https://www.youtube.com/watch?v=zS_o6psOt9g",
+        "title": "프라이팬 VS 에어프라이어, 백종원이 추천하는 인생 콘치즈는?",
+        "section_name": "콘치즈(에어프라이어)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "466243adb0712b913b5c8444a978720768b6f36b5a5a7a72a8e0284c8ecfa507"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "일부 재료량·제품 성분·실제 섭취량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다. 옥수수 통조림의 표시 중량과 물기를 뺀 실제 먹는 중량이 다를 수 있습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "모짜렐라치즈",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=zS_o6psOt9g"
+          },
+          {
+            "ingredient": "스틱버터",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=zS_o6psOt9g"
+          }
+        ],
+        "check_product_labels": [
+          "마요네즈",
+          "모짜렐라치즈"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 12,
-  "allergen_ingredient_review_count": 86
+  "allergen_ingredient_review_count": 96
 }

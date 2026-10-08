@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 86,
+  "recipe_count": 96,
   "nutrition_reference_estimates": 12,
-  "nutrition_held": 74,
+  "nutrition_held": 84,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -445,9 +445,59 @@
       "recipe_id": "paik_5e5fp21dqWA",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_wTtHP5qFOio_perilla",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_cabbageegg",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_zucchiniegg",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_mushrooms",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_fish",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_beef",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_shrimp",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_uB37XeU5SwM_corn",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_zS_o6psOt9g_pan",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_zS_o6psOt9g_air",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 86,
+  "allergen_ingredient_reviews": 96,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1371,6 +1421,107 @@
         "간장",
         "액젓",
         "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_wTtHP5qFOio_perilla",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "라면사리",
+        "국간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_cabbageegg",
+      "known_from_ingredients": [
+        "밀",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_zucchiniegg",
+      "known_from_ingredients": [
+        "밀",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_mushrooms",
+      "known_from_ingredients": [
+        "밀",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_fish",
+      "known_from_ingredients": [
+        "밀",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_beef",
+      "known_from_ingredients": [
+        "밀",
+        "쇠고기",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_shrimp",
+      "known_from_ingredients": [
+        "밀",
+        "새우",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_uB37XeU5SwM_corn",
+      "known_from_ingredients": [
+        "우유"
+      ],
+      "product_labels_pending": [
+        "튀김가루",
+        "식용유",
+        "파마산 치즈가루"
+      ]
+    },
+    {
+      "recipe_id": "paik_zS_o6psOt9g_pan",
+      "known_from_ingredients": [
+        "우유"
+      ],
+      "product_labels_pending": [
+        "마요네즈",
+        "모짜렐라치즈"
+      ]
+    },
+    {
+      "recipe_id": "paik_zS_o6psOt9g_air",
+      "known_from_ingredients": [
+        "우유"
+      ],
+      "product_labels_pending": [
+        "마요네즈",
+        "모짜렐라치즈"
       ]
     }
   ],

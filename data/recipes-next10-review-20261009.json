@@ -1,0 +1,66 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 10,
+  "items": [
+    {
+      "recipe_id": "paik_wTtHP5qFOio_perilla",
+      "name": "들기름막라면",
+      "source_url": "https://www.youtube.com/watch?v=wTtHP5qFOio",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_cabbageegg",
+      "name": "배추전(달걀옷)",
+      "source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_zucchiniegg",
+      "name": "애호박전(달걀옷)",
+      "source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_mushrooms",
+      "name": "모둠버섯전",
+      "source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_fish",
+      "name": "동태전",
+      "source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_beef",
+      "name": "소고기육전",
+      "source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_shrimp",
+      "name": "새우전",
+      "source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_uB37XeU5SwM_corn",
+      "name": "옥수수전(치즈·연유)",
+      "source_url": "https://www.youtube.com/watch?v=uB37XeU5SwM",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_zS_o6psOt9g_pan",
+      "name": "콘치즈(프라이팬)",
+      "source_url": "https://www.youtube.com/watch?v=zS_o6psOt9g",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_zS_o6psOt9g_air",
+      "name": "콘치즈(에어프라이어)",
+      "source_url": "https://www.youtube.com/watch?v=zS_o6psOt9g",
+      "status": "verified_added"
+    }
+  ]
+}
