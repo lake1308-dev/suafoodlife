@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 50,
-  "nutrition_reference_estimates": 3,
-  "nutrition_held": 47,
+  "recipe_count": 58,
+  "nutrition_reference_estimates": 4,
+  "nutrition_held": 54,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -256,9 +256,50 @@
       "recipe_id": "paik_2y4Jvvmj7LY",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_10fl2mebYHs_egg",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_10fl2mebYHs_sausage",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_Z5-6wbdbgA4_egg",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_dXN1dlsYdJI_fishsauce",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_vG07DHeNH9c_mushroom",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_EUdt9GjWj5c_gochujang",
+      "status": "estimated_reference",
+      "ingredient_count": 9,
+      "kcal": 566.2
+    },
+    {
+      "recipe_id": "paik_rrNfCVRFsvs_rice",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_rrNfCVRFsvs_parboil",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 50,
+  "allergen_ingredient_reviews": 58,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -468,6 +509,7 @@
         "돼지고기"
       ],
       "product_labels_pending": [
+        "돼지고기(잡채용)",
         "진간장",
         "식용유",
         "MSG",
@@ -812,6 +854,92 @@
         "맛술",
         "메밀면",
         "연와사비 적당량"
+      ]
+    },
+    {
+      "recipe_id": "paik_10fl2mebYHs_egg",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "단무지",
+        "식용유 적당량"
+      ]
+    },
+    {
+      "recipe_id": "paik_10fl2mebYHs_sausage",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "단무지",
+        "게맛살",
+        "우엉조림",
+        "프랑크소시지",
+        "식용유 적당량"
+      ]
+    },
+    {
+      "recipe_id": "paik_Z5-6wbdbgA4_egg",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "맛소금",
+        "유부채",
+        "진간장",
+        "식용유",
+        "유부조림",
+        "김밥 단무지",
+        "맛소금 약간"
+      ]
+    },
+    {
+      "recipe_id": "paik_dXN1dlsYdJI_fishsauce",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "멸치액젓"
+      ]
+    },
+    {
+      "recipe_id": "paik_vG07DHeNH9c_mushroom",
+      "known_from_ingredients": [
+        "쇠고기",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "식용유",
+        "국간장",
+        "멸치액젓"
+      ]
+    },
+    {
+      "recipe_id": "paik_EUdt9GjWj5c_gochujang",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "식용유",
+        "고추장"
+      ]
+    },
+    {
+      "recipe_id": "paik_rrNfCVRFsvs_rice",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "식용유",
+        "잡채"
+      ]
+    },
+    {
+      "recipe_id": "paik_rrNfCVRFsvs_parboil",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "돼지고기(잡채용)",
+        "진간장",
+        "식용유",
+        "MSG",
+        "노두유"
       ]
     }
   ],

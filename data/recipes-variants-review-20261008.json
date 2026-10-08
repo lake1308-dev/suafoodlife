@@ -1,0 +1,63 @@
+{
+  "checked_on": "2026-10-08",
+  "added_count": 8,
+  "items": [
+    {
+      "recipe_id": "paik_10fl2mebYHs_egg",
+      "name": "달걀프라이김밥",
+      "source_url": "https://www.youtube.com/watch?v=10fl2mebYHs",
+      "section_name": "달걀프라이김밥",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_10fl2mebYHs_sausage",
+      "name": "소시지김밥",
+      "source_url": "https://www.youtube.com/watch?v=10fl2mebYHs",
+      "section_name": "소시지김밥",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_Z5-6wbdbgA4_egg",
+      "name": "유부달걀김밥",
+      "source_url": "https://www.youtube.com/watch?v=Z5-6wbdbgA4",
+      "section_name": "유부달걀김밥",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_dXN1dlsYdJI_fishsauce",
+      "name": "무생채(액젓 양념)",
+      "source_url": "https://www.youtube.com/watch?v=dXN1dlsYdJI",
+      "section_name": "무생채(액젓 양념)",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_vG07DHeNH9c_mushroom",
+      "name": "소고기버섯국",
+      "source_url": "https://www.youtube.com/watch?v=vG07DHeNH9c",
+      "section_name": "소고기버섯국",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_EUdt9GjWj5c_gochujang",
+      "name": "멸치볶음(고추장)",
+      "source_url": "https://www.youtube.com/watch?v=EUdt9GjWj5c",
+      "section_name": "멸치볶음(고추장)",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_rrNfCVRFsvs_rice",
+      "name": "잡채밥",
+      "source_url": "https://www.youtube.com/watch?v=rrNfCVRFsvs",
+      "section_name": "잡채밥",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_rrNfCVRFsvs_parboil",
+      "name": "잡채(데쳐서 만들기)",
+      "source_url": "https://www.youtube.com/watch?v=rrNfCVRFsvs",
+      "section_name": "잡채(데쳐서 만들기)",
+      "status": "verified_added"
+    }
+  ],
+  "policy": "Distinct ingredient lists and preparation methods within already verified official descriptions; no new serving or nutrition assumptions"
+}

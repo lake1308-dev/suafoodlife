@@ -1,0 +1,72 @@
+{
+  "checked_on": "2026-10-08",
+  "mfds": {
+    "source_records": 1156,
+    "already_imported": 1150,
+    "additional_complete_records": 0,
+    "held_ids": [
+      "33",
+      "36",
+      "691",
+      "692",
+      "2980",
+      "831"
+    ],
+    "reason": "Missing ingredients, first steps or all cooking instructions; do not invent missing source facts"
+  },
+  "epis": {
+    "provider": "농림수산식품교육문화정보원",
+    "status": "full_exports_require_account_login_or_issued_api_key",
+    "imported_records": 0,
+    "recipe_count": "not_verified",
+    "join_key": "RECIPE_ID",
+    "required_exports": [
+      {
+        "name": "레시피 기본정보",
+        "url": "https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20150827000000000464",
+        "required_columns": [
+          "RECIPE_ID",
+          "RECIPE_NM_KO",
+          "QNT",
+          "CALORIE"
+        ],
+        "grid": "Grid_20150827000000000226_1"
+      },
+      {
+        "name": "레시피 재료정보",
+        "url": "https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20150827000000000465",
+        "required_columns": [
+          "RECIPE_ID",
+          "IRDNT_SN",
+          "IRDNT_NM",
+          "IRDNT_CPCTY"
+        ],
+        "grid": "Grid_20150827000000000227_1"
+      },
+      {
+        "name": "레시피 과정정보",
+        "url": "https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20150827000000000466",
+        "required_columns": [
+          "RECIPE_ID",
+          "COOKING_NO",
+          "COOKING_DC"
+        ],
+        "grid": "Grid_20150827000000000228_1"
+      }
+    ],
+    "documented_limits": {
+      "sample_rows": 5,
+      "api_rows_per_request": 1000,
+      "file_download_rows_max": 5000
+    },
+    "policy": [
+      "Full exports of all three datasets required before registering recipes",
+      "Do not use a sample or truncated export as a complete ingredient list",
+      "Preserve source quantities; cups and spoons are not automatically converted to grams",
+      "Keep unverified calorie basis and missing nutrients separate",
+      "Compare source IDs and ingredient/method signatures against current collections",
+      "Do not assign foreign origin from Korean-style cuisine labels",
+      "Do not include images without separate review"
+    ]
+  }
+}
