@@ -1,0 +1,36 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 5,
+  "items": [
+    {
+      "recipe_id": "paik_-3y_AR7zYXM",
+      "name": "만능양파덮밥",
+      "source_url": "https://www.youtube.com/watch?v=-3y_AR7zYXM",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_uAShnbgCLSU",
+      "name": "만능양파볶음(대용량)",
+      "source_url": "https://www.youtube.com/watch?v=uAShnbgCLSU",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_du9q1BldDHU",
+      "name": "닭고기덮밥",
+      "source_url": "https://www.youtube.com/watch?v=du9q1BldDHU",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_QPjfwubAvso",
+      "name": "감자샐러드(대용량)",
+      "source_url": "https://www.youtube.com/watch?v=QPjfwubAvso",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_BqxpjY7TJ8g",
+      "name": "마파두부(만능양념장)",
+      "source_url": "https://www.youtube.com/watch?v=BqxpjY7TJ8g",
+      "status": "verified_added"
+    }
+  ]
+}

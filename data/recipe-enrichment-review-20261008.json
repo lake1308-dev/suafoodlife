@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 105,
+  "recipe_count": 110,
   "nutrition_reference_estimates": 18,
-  "nutrition_held": 87,
+  "nutrition_held": 92,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -546,9 +546,34 @@
       "recipe_id": "paik_0bnFoRQebq0_cream",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_-3y_AR7zYXM",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_uAShnbgCLSU",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_du9q1BldDHU",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_QPjfwubAvso",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_BqxpjY7TJ8g",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 105,
+  "allergen_ingredient_reviews": 110,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1654,6 +1679,58 @@
         "베이컨",
         "파르메산 치즈",
         "삶은스파게티면 전량"
+      ]
+    },
+    {
+      "recipe_id": "paik_-3y_AR7zYXM",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "간장",
+        "맛술"
+      ]
+    },
+    {
+      "recipe_id": "paik_uAShnbgCLSU",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_du9q1BldDHU",
+      "known_from_ingredients": [
+        "닭고기",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "진간장",
+        "맛술",
+        "훈연멸치가루",
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_QPjfwubAvso",
+      "known_from_ingredients": [
+        "우유"
+      ],
+      "product_labels_pending": [
+        "마요네즈"
+      ]
+    },
+    {
+      "recipe_id": "paik_BqxpjY7TJ8g",
+      "known_from_ingredients": [
+        "대두",
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "전분가루",
+        "만능양념장",
+        "된장",
+        "식용유"
       ]
     }
   ],

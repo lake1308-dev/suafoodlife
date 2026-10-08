@@ -1,6 +1,6 @@
 {
-  "version": "1.13.1",
-  "record_count": 105,
+  "version": "1.14.0",
+  "record_count": 110,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -11891,8 +11891,381 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_-3y_AR7zYXM",
+      "names": {
+        "ko": "만능양파덮밥 · 백종원 참고",
+        "en": "만능양파덮밥 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "만능양파덮밥",
+        "양파덮밥",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "만능양파: 45g / 1블럭\n간장: 30ml / 2큰술\n설탕: 15g / 1큰술\n맛술: 15ml / 1큰술\n물: 60ml / 1/3컵\n대파: 10g 1/3컵\n가다랑어 포: 5g 1/2컵\n달걀: 2개\n밥: 200g (원본 조리 과정에 명시)",
+      "steps": {
+        "ko": [
+          "간장·설탕·맛술·물을 약불에서 짧게 끓여 섞습니다.",
+          "미리 준비한 양파볶음을 넣어 풀고 푼 달걀과 대파를 더합니다.",
+          "달걀이 익으면 밥 위에 얹고 가다랑어포를 올립니다."
+        ],
+        "en": [
+          "간장·설탕·맛술·물을 약불에서 짧게 끓여 섞습니다.",
+          "미리 준비한 양파볶음을 넣어 풀고 푼 달걀과 대파를 더합니다.",
+          "달걀이 익으면 밥 위에 얹고 가다랑어포를 올립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "-3y_AR7zYXM",
+        "url": "https://www.youtube.com/watch?v=-3y_AR7zYXM",
+        "title": "만능양파볶음 활용 두 번째: 만능양파 덮밥 ㅣ 백종원의 쿠킹로그",
+        "section_name": "만능양파덮밥",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "b20b39394829f303bede7ac3d99d14310e194b939ecb60f8b8a23a788d85b56a"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "만능양파볶음 45g을 미리 준비해 사용합니다. 밥 200g은 원본 조리 과정에 명시된 양을 재료 목록에 보완했습니다. 달걀 무게와 양념 제품 성분이 미확인이라 전체 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-3y_AR7zYXM"
+          }
+        ],
+        "check_product_labels": [
+          "간장",
+          "맛술"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_uAShnbgCLSU",
+      "names": {
+        "ko": "만능양파볶음(대용량) · 백종원 참고",
+        "en": "만능양파볶음(대용량) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "만능양파볶음(대용량)",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "양파(껍질 포함): 15kg\n식용유: 300ml",
+      "steps": {
+        "ko": [
+          "양파 껍질을 제거하고 반으로 잘라 얇게 썹니다.",
+          "깊은 냄비에 기름과 양파를 넣어 강불에서 약 20분 볶습니다.",
+          "중불로 낮춰 약 40분 볶으며 상태에 따라 기름을 조절해 갈색이 나게 만듭니다.",
+          "넓게 펼쳐 식힌 뒤 작은 용기나 틀에 나눠 냉동 보관합니다."
+        ],
+        "en": [
+          "양파 껍질을 제거하고 반으로 잘라 얇게 썹니다.",
+          "깊은 냄비에 기름과 양파를 넣어 강불에서 약 20분 볶습니다.",
+          "중불로 낮춰 약 40분 볶으며 상태에 따라 기름을 조절해 갈색이 나게 만듭니다.",
+          "넓게 펼쳐 식힌 뒤 작은 용기나 틀에 나눠 냉동 보관합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "uAShnbgCLSU",
+        "url": "https://www.youtube.com/watch?v=uAShnbgCLSU",
+        "title": "양파 농가를 응원합니다! 만능양파볶음 대작전 2편: 만능양파볶음 완성! 소분 및 보관하기 ㅣ 백종원의 쿠킹로그",
+        "section_name": "만능양파볶음(대용량)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "dc7c34b7c6228e22fd2ea218f050ed8ec10411c4d37449878644c28d0f5bc66b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "양파 15kg은 껍질 포함 무게입니다. 원본은 대용량 준비법이며 손질 후 중량과 추가 기름량이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_du9q1BldDHU",
+      "names": {
+        "ko": "닭고기덮밥 · 백종원 참고",
+        "en": "닭고기덮밥 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "닭고기덮밥",
+        "백종원"
+      ],
+      "servings": 1,
+      "ingredients": [],
+      "ingredients_text": "닭다리살: 100g\n달걀: 1개\n양파 약1/3개(80g)\n대파: 1/3컵(20g)\n물: 1/3컵(60g)\n진간장: 3큰술(30g)\n황설탕: 1과1/4큰술(15g)\n맛술: 1큰술(10g)\n밥: 1공기(200g)\n훈연멸치가루: 적당량\n식용유: 적당량",
+      "steps": {
+        "ko": [
+          "닭고기와 양파·대파를 썰고 달걀을 풉니다.",
+          "간장·설탕·맛술을 섞어 소스를 만듭니다.",
+          "기름 두른 팬에서 닭의 껍질 쪽부터 굽고 양파를 더해 볶습니다.",
+          "소스·물·훈연멸치가루를 넣어 뚜껑을 덮고 익힙니다.",
+          "닭이 속까지 익으면 달걀물과 대파를 더해 익힌 뒤 밥 위에 담습니다."
+        ],
+        "en": [
+          "닭고기와 양파·대파를 썰고 달걀을 풉니다.",
+          "간장·설탕·맛술을 섞어 소스를 만듭니다.",
+          "기름 두른 팬에서 닭의 껍질 쪽부터 굽고 양파를 더해 볶습니다.",
+          "소스·물·훈연멸치가루를 넣어 뚜껑을 덮고 익힙니다.",
+          "닭이 속까지 익으면 달걀물과 대파를 더해 익힌 뒤 밥 위에 담습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "du9q1BldDHU",
+        "url": "https://www.youtube.com/watch?v=du9q1BldDHU",
+        "title": "식당에서 파는 그 닭고기 덮밥 Chicken Deopbap that is served at Restaurants!",
+        "section_name": "닭고기덮밥",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "5ef458e70e6f1bf76663eac1a97da95ef570df86ebaf097c0e238c9fec597a19"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 1인분입니다. 달걀 무게와 식용유·훈연멸치가루 양이 미지정이라 전체 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "닭고기",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "닭다리살",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=du9q1BldDHU"
+          },
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=du9q1BldDHU"
+          }
+        ],
+        "check_product_labels": [
+          "진간장",
+          "맛술",
+          "훈연멸치가루",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_QPjfwubAvso",
+      "names": {
+        "ko": "감자샐러드(대용량) · 백종원 참고",
+        "en": "감자샐러드(대용량) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "감자샐러드(대용량)",
+        "감자샐러드",
+        "감자사라다",
+        "백종원"
+      ],
+      "servings": 100,
+      "ingredients": [],
+      "ingredients_text": "*주 재료*\n감자(껍질제거): 10kg\n오이: 2kg\n양파: 2kg\n당근: 1.5kg\n셀러리: 500g\n*양념*\n마요네즈: 3.4kg\n황설탕: 480g\n꽃소금: 68g\n후춧가루: 20g\n생크림: 500ml\n식초: 160ml\n꽃소금(오이절임용): 40g\n꽃소금(양파절임용): 40g\n꽃소금(감자삶는용): 40g",
+      "steps": {
+        "ko": [
+          "감자·당근을 깍둑썰고 오이·양파·셀러리를 썹니다.",
+          "오이와 양파를 각각 소금에 약 30~40분 절인 뒤 물기를 뺍니다.",
+          "소금 넣은 끓는 물에 감자와 당근을 익혀 건지고 식힙니다.",
+          "채소를 모아 식초·설탕·소금을 섞습니다.",
+          "생크림과 마요네즈를 골고루 버무리고 후추를 더합니다."
+        ],
+        "en": [
+          "감자·당근을 깍둑썰고 오이·양파·셀러리를 썹니다.",
+          "오이와 양파를 각각 소금에 약 30~40분 절인 뒤 물기를 뺍니다.",
+          "소금 넣은 끓는 물에 감자와 당근을 익혀 건지고 식힙니다.",
+          "채소를 모아 식초·설탕·소금을 섞습니다.",
+          "생크림과 마요네즈를 골고루 버무리고 후추를 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "QPjfwubAvso",
+        "url": "https://www.youtube.com/watch?v=QPjfwubAvso",
+        "title": "대용량 레시피 두 번째는 샐러드?사라다? 하던 대로 감자사라다 100인분 갈게유! l 백종원의 대용량 레시피",
+        "section_name": "감자샐러드(대용량)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "98ba1474eeb569d2595572e61c045a66ce78f63e8cec19b705279309a063bf5b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 100인분, 1인 약 200g 제공 기준입니다. 절임물과 삶는 물로 빠지는 소금·성분 및 생크림·식초의 무게 환산이 미확인이라 전체 영양 계산은 보류했습니다. 선택 응용인 소시지·달걀·옥수수는 기본 목록에 합치지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "생크림",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=QPjfwubAvso"
+          }
+        ],
+        "check_product_labels": [
+          "마요네즈"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_BqxpjY7TJ8g",
+      "names": {
+        "ko": "마파두부(만능양념장) · 백종원 참고",
+        "en": "마파두부(만능양념장) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "마파두부(만능양념장)",
+        "마파두부",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "두부: 1과1/2컵(180g)\n간 마늘: 1/2큰술(8g)\n쪽파: 1큰술(5g)\n대파: 1큰술(10g)\n간 돼지고기: 1/2컵(80g)\n물: 1/2컵(90g)\n물(전분물용): 1/5컵(40g)\n전분가루: 1/5큰술(2g)\n만능양념장: 1/2컵(100g)\n된장: 1큰술(15g)\n식용유: 2큰술(15g)\n참기름: 1큰술(7g)",
+      "steps": {
+        "ko": [
+          "두부를 깍둑썰고 쪽파와 대파를 썹니다.",
+          "팬에 기름과 대파를 볶다가 돼지고기를 넣어 풀어가며 익힙니다.",
+          "물·미리 준비한 만능양념장·된장을 섞고 두부를 더합니다.",
+          "별도 물에 전분을 풀어 넣고 고루 섞은 뒤 참기름과 쪽파로 마무리합니다."
+        ],
+        "en": [
+          "두부를 깍둑썰고 쪽파와 대파를 썹니다.",
+          "팬에 기름과 대파를 볶다가 돼지고기를 넣어 풀어가며 익힙니다.",
+          "물·미리 준비한 만능양념장·된장을 섞고 두부를 더합니다.",
+          "별도 물에 전분을 풀어 넣고 고루 섞은 뒤 참기름과 쪽파로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "BqxpjY7TJ8g",
+        "url": "https://www.youtube.com/watch?v=BqxpjY7TJ8g",
+        "title": "정말 쉽게 만드는 마파두부!! ㅣ 백종원의 쿠킹로그",
+        "section_name": "마파두부(만능양념장)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "99318cf8acebae6df645c3fc3c6b3bd75cfa5cc12f3fda63ac4ad805225cd1db"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "미리 준비한 만능양념장 100g이 필요합니다. 이 영상 설명란에는 양념장 배합과 간 마늘의 사용 시점이 명시되지 않아 공식 영상을 함께 확인해 주세요. 양념장 제품·배합이 미확인이라 전체 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "대두",
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "두부",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=BqxpjY7TJ8g"
+          },
+          {
+            "ingredient": "간 돼지고기",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=BqxpjY7TJ8g"
+          }
+        ],
+        "check_product_labels": [
+          "전분가루",
+          "만능양념장",
+          "된장",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 18,
-  "allergen_ingredient_review_count": 105
+  "allergen_ingredient_review_count": 110
 }
