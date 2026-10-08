@@ -6,6 +6,7 @@ assert.equal(products.filter(x=>x.allergen_info.contains_status==='confirmed').l
 assert.equal(products.filter(x=>x.allergen_info.cross_contact_status==='confirmed').length,21);
 for(const p of products){assert(Object.values(p.nutrition_per_100g).every(x=>x===null));assert(p.allergen_info.source_url.startsWith('https://www.kurly.com/goods/'));assert.equal(p.allergen_info.checked_on,'2026-10-08');}
 const roasting=products.find(x=>x.id==='kurly_label_5060444');assert(roasting.allergen_info.contains.includes('땅콩'));assert(!roasting.allergen_info.contains.includes('우유'));assert(roasting.allergen_info.cross_contact.includes('우유'));
+assert(roasting.allergen_info.cross_contact.includes('메밀'));assert(!roasting.allergen_info.cross_contact.includes('밀'));
 const held=products.find(x=>x.id==='kurly_label_5095163');assert.equal(held.allergen_info.contains.length,0);assert(held.allergen_info.review_note.includes('오기'));
 const facilityOnly=products.find(x=>x.id==='kurly_label_1000357125');assert.equal(facilityOnly.allergen_info.contains.length,0);assert(facilityOnly.allergen_info.cross_contact.includes('땅콩'));
 const elements={};function element(){return{children:[],textContent:'',append(...x){this.children.push(...x)},classList:{toggle(){}}}}
