@@ -1,6 +1,6 @@
 {
-  "version": "1.17.0",
-  "record_count": 125,
+  "version": "1.18.0",
+  "record_count": 130,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -13659,8 +13659,362 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_XKohdaL45K8",
+      "names": {
+        "ko": "깍두기볶음밥 · 백종원 참고",
+        "en": "깍두기볶음밥 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "깍두기볶음밥",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "밥: 1공기(200g)\n우목심: 1/2컵(50g)\n대파: 1/2컵(40g)\n깍두기: 1컵(100g)\n김치국물: 1/5컵(50g)\n고추장: 2/3큰술(10g)\n물: 2/3컵(120g)\n참기름: 1/3큰술(2g)\n진간장: 1큰술(10g)\n황설탕: 1/3큰술(3g)\n식용유: 3큰술(20g)\n식용유(달걀용): 적당량\n달걀: 1개\n맛소금: 적당량\n깨소금: 적당량",
+      "steps": {
+        "ko": [
+          "깍두기를 다지고 대파를 썹니다.",
+          "기름에 쇠고기와 대파를 볶아 익힌 뒤 깍두기·김치국물·고추장·설탕·물·간장을 넣어 졸입니다.",
+          "수분이 줄면 밥을 넣어 고루 섞고 불을 높여 볶습니다.",
+          "별도 팬에서 달걀을 프라이해 볶음밥 위에 올리고 깨소금을 더합니다."
+        ],
+        "en": [
+          "깍두기를 다지고 대파를 썹니다.",
+          "기름에 쇠고기와 대파를 볶아 익힌 뒤 깍두기·김치국물·고추장·설탕·물·간장을 넣어 졸입니다.",
+          "수분이 줄면 밥을 넣어 고루 섞고 불을 높여 볶습니다.",
+          "별도 팬에서 달걀을 프라이해 볶음밥 위에 올리고 깨소금을 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "XKohdaL45K8",
+        "url": "https://www.youtube.com/watch?v=XKohdaL45K8",
+        "title": "[ENG] '깍두기 볶음밥' 등심집에서 볶아주는 그 맛!",
+        "section_name": "깍두기볶음밥",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "b6b8ec4779090225b588a851d68b15630a7f33e25c1d10284cdf16d747fb46ff"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 밥 1공기를 사용하지만 인분 수는 명시하지 않았습니다. 재료 목록의 참기름·맛소금 사용 시점이 설명란에 빠져 있어 공식 영상을 함께 확인해 주세요. 달걀 무게와 추가 기름량이 미확인이라 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "쇠고기",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "우목심",
+            "allergen": "쇠고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=XKohdaL45K8"
+          },
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=XKohdaL45K8"
+          }
+        ],
+        "check_product_labels": [
+          "깍두기",
+          "김치국물",
+          "고추장",
+          "진간장",
+          "식용유",
+          "식용유(달걀용)",
+          "맛소금"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_5uWt6U1Re5Q",
+      "names": {
+        "ko": "만능양파간장비빔면 · 백종원 참고",
+        "en": "만능양파간장비빔면 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "만능양파간장비빔면",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "만능양파: 45g(1블럭)\n라면사리: 1개\n물: 600ml(3컵)\n간장: 30ml(2큰술)\n참기름: 15ml(1큰술)\n설탕: 5g(1작은술)\n대파: 10g(1/4컵)\n후추: 소량",
+      "steps": {
+        "ko": [
+          "냉동 만능양파볶음을 사용한다면 부드럽게 준비합니다.",
+          "라면사리를 끓는 물에 약 2분 익힌 뒤 찬물로 헹궈 식힙니다.",
+          "면에 만능양파볶음·간장·설탕·참기름·대파·후추를 넣어 고르게 버무립니다."
+        ],
+        "en": [
+          "냉동 만능양파볶음을 사용한다면 부드럽게 준비합니다.",
+          "라면사리를 끓는 물에 약 2분 익힌 뒤 찬물로 헹궈 식힙니다.",
+          "면에 만능양파볶음·간장·설탕·참기름·대파·후추를 넣어 고르게 버무립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "5uWt6U1Re5Q",
+        "url": "https://www.youtube.com/watch?v=5uWt6U1Re5Q",
+        "title": "만능양파볶음 활용 네 번째: 만능양파 간장비빔면 ㅣ 백종원의 쿠킹로그",
+        "section_name": "만능양파간장비빔면",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "16f46b3bb26e277f70929b0737497861df8e5ead4a767d503d999beae2061f4e"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "미리 만든 만능양파볶음 45g이 필요합니다. 라면사리 제품·준비된 양파볶음의 구성과 무게 환산이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "라면사리",
+          "간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_iO0xX0AyS8M",
+      "names": {
+        "ko": "꽈리고추닭볶음 · 백종원 참고",
+        "en": "꽈리고추닭볶음 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "꽈리고추닭볶음",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*꽈리고추 닭볶음 재료\n토막 닭(9호): 1팩 (약900~930g)\n대파: 1과 4/5대(180g)\n꽈리고추: 약 20개(140g)\n통마늘(작은 것): 약 30개(100g)\n식용유: ¼컵(40g)\n건 고추: 약 4개(14g)\n*양념 재료\n물: 약 2컵(350g)\n진간장: 약 2/5컵(84g)\n황설탕: 2와1/2큰술(30g)\n간 마늘: 1큰술(20g)\n노두유: 1큰술(12g)\n후추가루: 약간",
+      "steps": {
+        "ko": [
+          "닭을 작게 자르고 마늘·건고추·대파·꽈리고추를 손질합니다.",
+          "기름에 건고추와 통마늘을 약 1분 볶고 닭을 펼쳐 구운 뒤 잘게 썬 대파를 더합니다.",
+          "닭 겉면이 익으면 설탕을 넣어 볶고 팬 중앙의 기름에 간장을 넣어 섞은 뒤 노두유를 더합니다.",
+          "물과 다진 마늘을 넣어 약 7분 졸이되 닭 속까지 완전히 익었는지 확인합니다.",
+          "대파와 꽈리고추를 넣어 약 10초 볶고 불을 끈 뒤 후추를 더합니다."
+        ],
+        "en": [
+          "닭을 작게 자르고 마늘·건고추·대파·꽈리고추를 손질합니다.",
+          "기름에 건고추와 통마늘을 약 1분 볶고 닭을 펼쳐 구운 뒤 잘게 썬 대파를 더합니다.",
+          "닭 겉면이 익으면 설탕을 넣어 볶고 팬 중앙의 기름에 간장을 넣어 섞은 뒤 노두유를 더합니다.",
+          "물과 다진 마늘을 넣어 약 7분 졸이되 닭 속까지 완전히 익었는지 확인합니다.",
+          "대파와 꽈리고추를 넣어 약 10초 볶고 불을 끈 뒤 후추를 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "iO0xX0AyS8M",
+        "url": "https://www.youtube.com/watch?v=iO0xX0AyS8M",
+        "title": "마늘듬뿍 꽈리고추 닭볶음",
+        "section_name": "꽈리고추닭볶음",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "d35afa9d05f1d3de30011be34ae2eff103c452319e7fe85d1d3aa6022ac8d25c"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본 닭 900~930g은 뼈 포함 포장 중량입니다. 먹는 살코기 무게와 남기는 기름·양념량, 인분 수가 미확인이라 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "닭고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "토막 닭(9호)",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=iO0xX0AyS8M"
+          }
+        ],
+        "check_product_labels": [
+          "식용유",
+          "진간장",
+          "노두유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_81gLJ5kRu4Y",
+      "names": {
+        "ko": "시금치무침(고기 곁들임) · 백종원 참고",
+        "en": "시금치무침(고기 곁들임) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "시금치무침(고기 곁들임)",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "시금치: 200g\n청양고추: 3개(20g)\n굵은고춧가루: 1/2큰술(3g)\n마늘: 3개(20g)\n참기름: 2큰술(14g)\n깨소금: 1큰술(5g)\n맛소금: 1과1/2큰술(7g)\n후춧가루: 적당량",
+      "steps": {
+        "ko": [
+          "시금치를 깨끗하게 씻어 잘게 썰고 고추와 마늘을 다집니다.",
+          "시금치·마늘·고추에 후추·맛소금·고춧가루를 섞어 간합니다.",
+          "깨소금과 참기름을 넣어 버무립니다."
+        ],
+        "en": [
+          "시금치를 깨끗하게 씻어 잘게 썰고 고추와 마늘을 다집니다.",
+          "시금치·마늘·고추에 후추·맛소금·고춧가루를 섞어 간합니다.",
+          "깨소금과 참기름을 넣어 버무립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "81gLJ5kRu4Y",
+        "url": "https://www.youtube.com/watch?v=81gLJ5kRu4Y",
+        "title": "시금치 무침에 고기를 싸 먹는다고? (고기로 싸 먹는) 시금치 무침!",
+        "section_name": "시금치무침(고기 곁들임)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "f68344669a9dfcffe5b48d639eae13871e647d1f0785e5cf464da2602370855c"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "구운 고기에 곁들이는 시금치무침이며 기본 재료 목록에는 고기가 없습니다. 고기를 임의로 추가하거나 돼지고기 알레르기를 확정하지 않습니다. 맛소금 제품 성분과 인분 수가 미확인이라 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "맛소금"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_R0xWJ4c8wR4",
+      "names": {
+        "ko": "닭칼국수 · 백종원 참고",
+        "en": "닭칼국수 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "닭칼국수",
+        "백종원"
+      ],
+      "servings": 2,
+      "ingredients": [],
+      "ingredients_text": "* 닭칼국수\n토막 닭(9호): 1/3마리\n칼국수 면: 300g\n식용유: 1큰술(7g)\n감자: 1/2개(100g)\n새송이버섯: 1개(60g)\n양파: 1/2개(125g)\n대파: 1대(100g)\n물: 약 10컵(1800ml)\n액젓: 3큰술(24g)\n꽃소금: 1/2큰술(6g)\n간 마늘: 1과 1/2큰술(30g)\n후춧가루: 적당량\n* 양념간장\n대파: 1/2대(50g)\n청양고추: 2개(20g)\n간 마늘: 1큰술(20g)\n진간장: 8큰술(80g)\n굵은 고춧가루: 1과1/2큰술(12g)\n참기름: 1/2큰술(4g)",
+      "steps": {
+        "ko": [
+          "손질한 닭의 물기를 빼고 기름 두른 팬에서 껍질 쪽부터 굽습니다. 채소를 썰어 준비합니다.",
+          "닭이 노릇해지면 물·액젓·소금을 넣어 끓이고 양파·감자·버섯을 더합니다.",
+          "면을 헹궈 넣고 익힙니다. 면이 거의 익으면 대파와 마늘을 더하고 닭 속까지 완전히 익혔는지 확인합니다.",
+          "별도 양념간장 재료를 섞어 준비하고 완성된 칼국수에 후추를 뿌립니다. 양념은 먹을 때 양을 조절합니다."
+        ],
+        "en": [
+          "손질한 닭의 물기를 빼고 기름 두른 팬에서 껍질 쪽부터 굽습니다. 채소를 썰어 준비합니다.",
+          "닭이 노릇해지면 물·액젓·소금을 넣어 끓이고 양파·감자·버섯을 더합니다.",
+          "면을 헹궈 넣고 익힙니다. 면이 거의 익으면 대파와 마늘을 더하고 닭 속까지 완전히 익혔는지 확인합니다.",
+          "별도 양념간장 재료를 섞어 준비하고 완성된 칼국수에 후추를 뿌립니다. 양념은 먹을 때 양을 조절합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "R0xWJ4c8wR4",
+        "url": "https://www.youtube.com/watch?v=R0xWJ4c8wR4",
+        "title": "곧! 중복이라 닭칼국수인데 특이한 닭칼국수 알려 드릴게요",
+        "section_name": "닭칼국수",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "013ec9f08833a47526f459db48f9afb9451472789173e515cb047a5f0089271a"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 2인분입니다. 닭 1/3마리의 가식 중량과 실제 먹는 양념간장·국물 양이 미확인이라 영양 계산과 인분 조절은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "닭고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "토막 닭(9호)",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=R0xWJ4c8wR4"
+          }
+        ],
+        "check_product_labels": [
+          "칼국수 면",
+          "식용유",
+          "액젓",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 18,
-  "allergen_ingredient_review_count": 125
+  "allergen_ingredient_review_count": 130
 }

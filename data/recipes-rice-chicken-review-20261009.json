@@ -1,0 +1,36 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 5,
+  "items": [
+    {
+      "recipe_id": "paik_XKohdaL45K8",
+      "name": "깍두기볶음밥",
+      "source_url": "https://www.youtube.com/watch?v=XKohdaL45K8",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_5uWt6U1Re5Q",
+      "name": "만능양파간장비빔면",
+      "source_url": "https://www.youtube.com/watch?v=5uWt6U1Re5Q",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_iO0xX0AyS8M",
+      "name": "꽈리고추닭볶음",
+      "source_url": "https://www.youtube.com/watch?v=iO0xX0AyS8M",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_81gLJ5kRu4Y",
+      "name": "시금치무침(고기 곁들임)",
+      "source_url": "https://www.youtube.com/watch?v=81gLJ5kRu4Y",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_R0xWJ4c8wR4",
+      "name": "닭칼국수",
+      "source_url": "https://www.youtube.com/watch?v=R0xWJ4c8wR4",
+      "status": "verified_added"
+    }
+  ]
+}
