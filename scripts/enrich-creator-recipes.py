@@ -5,6 +5,8 @@ for source_path in (repo/'data').glob('rda-*.json.gz'):
   for record in json.load(source_file).get('ingredients',[]):rda[record['id']]=record
 base=[('황설탕','rda:C0110040009a'),('물엿','rda:C0070000009a'),('진간장','rda:R0010010009a'),('참기름','rda:N0200000009a'),('통깨','rda:E0260020009n')]
 maps={
+'감자짜글이':{'감자':'rda:B0010140000a','양파':'rda:F1320000000a','대파':'rda:F1910040000a','청양고추':'rda:F0180080000a','통조림햄':'rda:I0170090009a','간마늘':'rda:F053000B060a','된장':'rda:R0120020009a','고추장':'rda:R0050010009a','굵은고춧가루':'rda:R0070000005a','황설탕':'rda:C0110040009a','진간장':'rda:R0010010009a'},
+'미역국':{'소고기(양지)':'rda:I027003D280a','자른미역':'rda:L0130000001a','참기름':'rda:N0200000009a','국간장':'rda:R0010030009a','다진마늘':'rda:F053000B060a','멸치액젓':'rda:K069001000Ia'},
 '진미채볶음':{'오징어채':'rda:K623000F06Ba','고추장':'rda:R0050010009a','고운고춧가루':'rda:R0070000005a','참기름':'rda:N0200000009a','물엿':'rda:C0070000009a','황설탕':'rda:C0110040009a','마요네즈':'rda:R0150020009a','통깨':'rda:E0260020009n'},
 '참치김치찌개':{'신김치':'rda:F2050070009a','양파':'rda:F1320000000a','두부':'rda:D0150000009a','참치캔':'rda:K001000000Sa','대파':'rda:F1910040000a','국간장':'rda:R0010030009a','간 마늘':'rda:F053000B060a','굵은 고춧가루':'rda:R0070000005a','청양고추':'rda:F0180080000a','황설탕':'rda:C0110040009a'},
 '부추전초간장':{'진간장':'rda:R0010010009a','식초':'rda:R0220060009a','황설탕':'rda:C0110040009a'},
@@ -37,7 +39,9 @@ assumptions['부추전초간장']=['진간장은 개량 양조간장, 식초는 
 assumptions['전양념간장']=assumptions['부추전초간장'][:] + ['통깨는 볶은 흰참깨 자료로 계산했습니다.']
 assumptions['진미채볶음']=['오징어채는 조미하여 말린 오징어채, 고추장은 개량 고추장, 마요네즈는 일반 제품, 통깨는 볶은 흰참깨 자료로 계산했습니다. 제품의 당·기름·염도 차이에 따라 값이 달라집니다.','물 35g은 열량과 주요 영양성분을 더하지 않는 물로 가정했습니다. 물 자체의 미량 무기질은 계산하지 않았습니다.','원본 재료 목록의 참기름과 통깨까지 전량 포함한 전체 무침 분량의 예상값입니다. 남기는 양념은 차감하지 않았으며, 인분 수는 미확인입니다.']
 assumptions['참치김치찌개']=['신김치는 대표 배추김치, 두부는 일반 두부, 국간장은 재래간장 자료로 계산했습니다. 김치 숙성도·제품·염도 차이가 반영되지 않은 대표 예상값입니다.','참치는 유지가 포함된 가다랑어 통조림 자료를 사용했습니다. 원본의 캔 기름을 함께 사용하는 조리법에 맞춘 선택이며, 추가 식용유를 중복해서 더하지 않습니다. 실제 제품 성분은 별도 확인이 필요합니다.','정수물 400ml는 열량과 주요 영양성분을 더하지 않는 물로 가정했습니다. 물 자체의 미량 무기질은 계산하지 않았습니다.','모든 재료와 국물을 먹는 원본 2인분 합계입니다. 국물을 남기면 특히 나트륨 섭취량이 줄어듭니다. 완성 후 100g 값은 아닙니다.']
-water_only={'진미채볶음':{'물'},'참치김치찌개':{'정수 물'},'감자조림':{'물'},'콩나물국':{'정수물'},'장아찌소스':{'물'}}
+assumptions['감자짜글이']=['감자는 수미 생것, 통조림햄은 돼지고기 함유 대표 통조림햄, 된장·고추장은 개량 제품, 진간장은 양조간장 자료로 계산했습니다. 실제 브랜드·품종·육류 구성과 염도에 따라 달라집니다.','물 700g은 열량과 주요 영양성분을 더하지 않는 물로 가정했습니다. 물 자체의 미량 무기질은 계산하지 않았습니다.','원본 목록의 정량 재료를 모두 섭취하는 전체 조리 분량 기준입니다. 기호에 따라 추가하는 간장과 남기는 국물·양념은 계산하지 않았습니다. 인분 수는 미확인입니다.','햄을 돼지고기 함유 대표 식품으로 선택한 것은 영양 계산용 가정입니다. 실제 햄의 알레르기 정보는 제품 표시를 별도로 확인해야 합니다.']
+assumptions['미역국']=['양지는 한우 양지 생것, 국간장은 재래간장, 멸치액젓은 대표 액젓 자료로 계산했습니다. 부위·등급·제품 염도에 따라 값이 달라집니다.','미역 10g은 물에 불리기 전 말린 것 기준입니다. 불린 미역 10g으로 계산하지 않았습니다.','물 1.3L는 열량과 주요 영양성분을 더하지 않는 물로 가정했습니다. 물 자체의 미량 무기질은 계산하지 않았습니다.','재료와 국물을 모두 먹는 전체 조리 분량의 예상값입니다. 국물을 남기면 특히 나트륨 섭취량이 줄어듭니다. 인분 수와 완성 중량은 미확인으로, 1인분이나 완성 후 100g 값은 아닙니다.']
+water_only={'감자짜글이':{'물'},'미역국':{'물'},'진미채볶음':{'물'},'참치김치찌개':{'정수 물'},'감자조림':{'물'},'콩나물국':{'정수물'},'장아찌소스':{'물'}}
 assert all(isinstance(tag,str) for tag in maps), 'Recipe map keys must be names'
 assert set(maps).issubset({r['tags'][0] for r in data['recipes']}), 'Recipe mappings must match registered recipes'
 for r in data['recipes']:
@@ -75,5 +79,5 @@ for r in data['recipes']:
   if any(t in norm for t in product_tokens) and name not in checks:checks.append(name)
  r['allergen_review']={'status':'ingredient_identity_reviewed_product_labels_pending','checked_on':'2026-10-08','known_from_ingredients':sorted(set(x['allergen'] for x in evidence)),'ingredient_evidence':evidence,'check_product_labels':checks,'classification_source_url':url,'cross_contact_status':'not_verified'}
  areviews.append({'recipe_id':r['id'],'known_from_ingredients':r['allergen_review']['known_from_ingredients'],'product_labels_pending':checks})
-data.update(version='1.13.0',nutrition_reference_count=len(maps),allergen_ingredient_review_count=len(areviews));p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+data.update(version='1.13.1',nutrition_reference_count=len(maps),allergen_ingredient_review_count=len(areviews));p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 (repo/'data/recipe-enrichment-review-20261008.json').write_text(json.dumps({'reviewed_on':'2026-10-08','recipe_count':len(data['recipes']),'nutrition_reference_estimates':len(maps),'nutrition_held':len(data['recipes'])-len(maps),'nutrition_items':nreviews,'allergen_ingredient_reviews':len(areviews),'allergen_items':areviews,'policy':'No certified complete allergen lists, no cross-contact claims, no allergen-free claims. Nutrition representative choices are disclosed.'},ensure_ascii=False,indent=2)+'\n')

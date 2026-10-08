@@ -1,5 +1,5 @@
 {
-  "version": "1.13.0",
+  "version": "1.13.1",
   "record_count": 105,
   "recipes": [
     {
@@ -255,7 +255,7 @@
       "source_kind": "creator_reference",
       "source_label": "백종원 공식 영상 참고",
       "verified_source": true,
-      "nutrition_status": "not_calculated",
+      "nutrition_status": "estimated_reference",
       "source_nutrition": null,
       "source_weight_text": "",
       "source": {
@@ -288,6 +288,147 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "nutrition_reference": {
+        "status": "estimated_reference",
+        "basis": "sum_of_measured_input_ingredients",
+        "complete_for_reference_ingredients": true,
+        "source_name": "농촌진흥청 국가표준식품성분 DB 10.4 (2026)",
+        "reviewed_on": "2026-10-08",
+        "original_servings": null,
+        "ingredients": [
+          {
+            "ingredient": "소고기(양지)",
+            "amount_g": 100.0,
+            "source_record_id": "I027003D280a",
+            "source_food_name": "소고기, 한우, 양지, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 253,
+              "protein_g": 18.58,
+              "fat_g": 18.59,
+              "carbs_g": 0,
+              "sugars_g": 0,
+              "fiber_g": 0,
+              "sodium_mg": 55,
+              "cholesterol_mg": 65.49,
+              "sat_fat_g": 5.76
+            }
+          },
+          {
+            "ingredient": "자른미역",
+            "amount_g": 10.0,
+            "source_record_id": "L0130000001a",
+            "source_food_name": "미역, 말린것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 150,
+              "protein_g": 20.31,
+              "fat_g": 4.83,
+              "carbs_g": 43.65,
+              "sugars_g": 0,
+              "fiber_g": 35.6,
+              "sodium_mg": 7535,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.79
+            }
+          },
+          {
+            "ingredient": "참기름",
+            "amount_g": 14.0,
+            "source_record_id": "N0200000009a",
+            "source_food_name": "참기름",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 920,
+              "protein_g": 0,
+              "fat_g": 99.84,
+              "carbs_g": 0.13,
+              "sugars_g": 0,
+              "fiber_g": 0,
+              "sodium_mg": 0,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 14.89
+            }
+          },
+          {
+            "ingredient": "국간장",
+            "amount_g": 30.0,
+            "source_record_id": "R0010030009a",
+            "source_food_name": "간장, 재래",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 34,
+              "protein_g": 5.92,
+              "fat_g": 0.03,
+              "carbs_g": 2.47,
+              "sugars_g": 0.29,
+              "fiber_g": 0.4,
+              "sodium_mg": 7999,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0
+            }
+          },
+          {
+            "ingredient": "다진마늘",
+            "amount_g": 10.0,
+            "source_record_id": "F053000B060a",
+            "source_food_name": "마늘, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 128,
+              "protein_g": 7.45,
+              "fat_g": 0.16,
+              "carbs_g": 26.42,
+              "sugars_g": 0.23,
+              "fiber_g": 3.8,
+              "sodium_mg": 3,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.06
+            }
+          },
+          {
+            "ingredient": "멸치액젓",
+            "amount_g": 15.0,
+            "source_record_id": "K069001000Ia",
+            "source_food_name": "멸치, 액젓",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 31,
+              "protein_g": 6.53,
+              "fat_g": 0.02,
+              "carbs_g": 1.13,
+              "sugars_g": 0.11,
+              "fiber_g": 0,
+              "sodium_mg": 8188,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0
+            }
+          }
+        ],
+        "totals": {
+          "kcal": 424.45,
+          "protein_g": 24.1115,
+          "carbs_g": 7.9357,
+          "fat_g": 33.0786,
+          "sodium_mg": 4436.7,
+          "sugars_g": 0.1265,
+          "sat_fat_g": 7.9296,
+          "cholesterol_mg": 65.49
+        },
+        "assumptions": [
+          "양지는 한우 양지 생것, 국간장은 재래간장, 멸치액젓은 대표 액젓 자료로 계산했습니다. 부위·등급·제품 염도에 따라 값이 달라집니다.",
+          "미역 10g은 물에 불리기 전 말린 것 기준입니다. 불린 미역 10g으로 계산하지 않았습니다.",
+          "물 1.3L는 열량과 주요 영양성분을 더하지 않는 물로 가정했습니다. 물 자체의 미량 무기질은 계산하지 않았습니다.",
+          "재료와 국물을 모두 먹는 전체 조리 분량의 예상값입니다. 국물을 남기면 특히 나트륨 섭취량이 줄어듭니다. 인분 수와 완성 중량은 미확인으로, 1인분이나 완성 후 100g 값은 아닙니다."
+        ],
+        "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
       }
     },
     {
@@ -4243,7 +4384,7 @@
       "source_kind": "creator_reference",
       "source_label": "백종원 공식 영상 참고",
       "verified_source": true,
-      "nutrition_status": "not_calculated",
+      "nutrition_status": "estimated_reference",
       "source_nutrition": null,
       "source_weight_text": "",
       "source": {
@@ -4269,6 +4410,242 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "nutrition_reference": {
+        "status": "estimated_reference",
+        "basis": "sum_of_measured_input_ingredients",
+        "complete_for_reference_ingredients": true,
+        "source_name": "농촌진흥청 국가표준식품성분 DB 10.4 (2026)",
+        "reviewed_on": "2026-10-08",
+        "original_servings": null,
+        "ingredients": [
+          {
+            "ingredient": "감자",
+            "amount_g": 400.0,
+            "source_record_id": "B0010140000a",
+            "source_food_name": "감자, 수미, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 70,
+              "protein_g": 1.93,
+              "fat_g": 0.03,
+              "carbs_g": 16.07,
+              "sugars_g": 0,
+              "fiber_g": 1.7,
+              "sodium_mg": 1,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.02
+            }
+          },
+          {
+            "ingredient": "양파",
+            "amount_g": 100.0,
+            "source_record_id": "F1320000000a",
+            "source_food_name": "양파, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 29,
+              "protein_g": 0.96,
+              "fat_g": 0.17,
+              "carbs_g": 6.52,
+              "sugars_g": 4.71,
+              "fiber_g": 1.6,
+              "sodium_mg": 2,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.01
+            }
+          },
+          {
+            "ingredient": "대파",
+            "amount_g": 80.0,
+            "source_record_id": "F1910040000a",
+            "source_food_name": "파, 대파, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 23,
+              "protein_g": 1.78,
+              "fat_g": 0.15,
+              "carbs_g": 4.8,
+              "sugars_g": 2.63,
+              "fiber_g": 1.6,
+              "sodium_mg": 0,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.07
+            }
+          },
+          {
+            "ingredient": "청양고추",
+            "amount_g": 15.0,
+            "source_record_id": "F0180080000a",
+            "source_food_name": "고추, 청양고추, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 31,
+              "protein_g": 1.53,
+              "fat_g": 0.3,
+              "carbs_g": 7.01,
+              "sugars_g": 0.34,
+              "fiber_g": 4.7,
+              "sodium_mg": 1,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.06
+            }
+          },
+          {
+            "ingredient": "통조림햄",
+            "amount_g": 200.0,
+            "source_record_id": "I0170090009a",
+            "source_food_name": "햄, 통조림, 돼지고기 함유",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 303,
+              "protein_g": 14.66,
+              "fat_g": 26.49,
+              "carbs_g": 1.48,
+              "sugars_g": 1.17,
+              "fiber_g": 0,
+              "sodium_mg": 1054,
+              "cholesterol_mg": 39.14,
+              "sat_fat_g": 9.66
+            }
+          },
+          {
+            "ingredient": "간마늘",
+            "amount_g": 15.0,
+            "source_record_id": "F053000B060a",
+            "source_food_name": "마늘, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 128,
+              "protein_g": 7.45,
+              "fat_g": 0.16,
+              "carbs_g": 26.42,
+              "sugars_g": 0.23,
+              "fiber_g": 3.8,
+              "sodium_mg": 3,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.06
+            }
+          },
+          {
+            "ingredient": "된장",
+            "amount_g": 10.0,
+            "source_record_id": "R0120020009a",
+            "source_food_name": "된장, 개량",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 193,
+              "protein_g": 13.73,
+              "fat_g": 7.25,
+              "carbs_g": 18.94,
+              "sugars_g": 5.45,
+              "fiber_g": 10.3,
+              "sodium_mg": 4339,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 1.15
+            }
+          },
+          {
+            "ingredient": "고추장",
+            "amount_g": 20.0,
+            "source_record_id": "R0050010009a",
+            "source_food_name": "고추장, 개량",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 205,
+              "protein_g": 3.66,
+              "fat_g": 1.38,
+              "carbs_g": 51.76,
+              "sugars_g": 21.84,
+              "fiber_g": 5.2,
+              "sodium_mg": 2486,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.32
+            }
+          },
+          {
+            "ingredient": "굵은고춧가루",
+            "amount_g": 10.0,
+            "source_record_id": "R0070000005a",
+            "source_food_name": "고춧가루",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 319,
+              "protein_g": 13.29,
+              "fat_g": 8.4,
+              "carbs_g": 60.62,
+              "sugars_g": 17.45,
+              "fiber_g": 37.699999999999996,
+              "sodium_mg": 13,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 1.48
+            }
+          },
+          {
+            "ingredient": "황설탕",
+            "amount_g": 10.0,
+            "source_record_id": "C0110040009a",
+            "source_food_name": "설탕, 황설탕",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 386,
+              "protein_g": 0.03,
+              "fat_g": 0.01,
+              "carbs_g": 99.66,
+              "sugars_g": 98.29,
+              "fiber_g": 0,
+              "sodium_mg": 2,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0
+            }
+          },
+          {
+            "ingredient": "진간장",
+            "amount_g": 40.0,
+            "source_record_id": "R0010010009a",
+            "source_food_name": "간장, 개량, 양조",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 103,
+              "protein_g": 9.15,
+              "fat_g": 0,
+              "carbs_g": 16.54,
+              "sugars_g": 0,
+              "fiber_g": 0.8,
+              "sodium_mg": 4783,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0
+            }
+          }
+        ],
+        "totals": {
+          "kcal": 1129.25,
+          "protein_g": 47.868,
+          "carbs_g": 117.5045,
+          "fat_g": 55.301,
+          "sodium_mg": 4960.4,
+          "sugars_g": 25.7265,
+          "sat_fat_g": 19.811,
+          "cholesterol_mg": 78.28
+        },
+        "assumptions": [
+          "감자는 수미 생것, 통조림햄은 돼지고기 함유 대표 통조림햄, 된장·고추장은 개량 제품, 진간장은 양조간장 자료로 계산했습니다. 실제 브랜드·품종·육류 구성과 염도에 따라 달라집니다.",
+          "물 700g은 열량과 주요 영양성분을 더하지 않는 물로 가정했습니다. 물 자체의 미량 무기질은 계산하지 않았습니다.",
+          "원본 목록의 정량 재료를 모두 섭취하는 전체 조리 분량 기준입니다. 기호에 따라 추가하는 간장과 남기는 국물·양념은 계산하지 않았습니다. 인분 수는 미확인입니다.",
+          "햄을 돼지고기 함유 대표 식품으로 선택한 것은 영양 계산용 가정입니다. 실제 햄의 알레르기 정보는 제품 표시를 별도로 확인해야 합니다."
+        ],
+        "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
       }
     },
     {
@@ -11516,6 +11893,6 @@
       }
     }
   ],
-  "nutrition_reference_count": 16,
+  "nutrition_reference_count": 18,
   "allergen_ingredient_review_count": 105
 }
