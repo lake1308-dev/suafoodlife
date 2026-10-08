@@ -1,5 +1,5 @@
 {
-  "version": "1.14.0",
+  "version": "1.14.1",
   "record_count": 110,
   "recipes": [
     {
@@ -10225,7 +10225,7 @@
         "description_sha256": "3da4eda78e1c7957e481efda840cfb6f37487c75d285778bd3eeb9c063b25006"
       },
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
-      "portion_notice": "원본은 1인분입니다. 달걀과 청양고추 무게가 미지정이라 전체 영양 계산과 자동 환산을 보류했습니다.",
+      "portion_notice": "원본은 1인분입니다. 달걀과 청양고추 무게가 미지정이라 전체 영양 계산과 자동 환산을 보류했습니다. 재료량은 원본 인분에 비례한 참고값입니다. 기호에 따른 간과 실제 조리 시간·불 세기는 직접 조절해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
         "checked_on": "2026-10-08",
@@ -10247,7 +10247,75 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
-      }
+      },
+      "portion_lines": [
+        {
+          "original_line": "밥: 1공기 (200g)",
+          "name": "밥",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "달걀: 3개",
+          "name": "달걀",
+          "amount": 3.0,
+          "unit": "개"
+        },
+        {
+          "original_line": "대파: 약 ½대 (40g)",
+          "name": "대파",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "청양고추: 2개",
+          "name": "청양고추",
+          "amount": 2.0,
+          "unit": "개"
+        },
+        {
+          "original_line": "간마늘: ½큰술 (10g)",
+          "name": "간마늘",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "간장: 1큰술 (10g)",
+          "name": "간장",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "액젓: 1큰술(10g)",
+          "name": "액젓",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "식초: 1큰술 (10g)",
+          "name": "식초",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "고춧가루: 1큰술 (8g)",
+          "name": "고춧가루",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "설탕: ½큰술 (6g)",
+          "name": "설탕",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "식용유: 3큰술 (21g)",
+          "name": "식용유",
+          "amount": 21.0,
+          "unit": "g"
+        }
+      ]
     },
     {
       "id": "paik_wTtHP5qFOio_perilla",
@@ -11547,7 +11615,7 @@
         "description_sha256": "33ab8374270a2f5f0cd65f462112b4c177c41c0024420b3a41b136d83185cd7a"
       },
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
-      "portion_notice": "원본은 약 3인분입니다. 달걀 무게와 생강·후추 양이 미지정이라 전체 영양 계산과 자동 환산을 보류했습니다.",
+      "portion_notice": "원본은 약 3인분입니다. 달걀 무게와 생강·후추 양이 미지정이라 전체 영양 계산과 자동 환산을 보류했습니다. 재료량은 원본 인분에 비례한 참고값입니다. 기호에 따른 간과 실제 조리 시간·불 세기는 직접 조절해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
         "checked_on": "2026-10-08",
@@ -11575,7 +11643,99 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
-      }
+      },
+      "portion_lines": [
+        {
+          "original_line": "물: 약 11컵(2L)",
+          "name": "물",
+          "amount": 2000.0,
+          "unit": "ml"
+        },
+        {
+          "original_line": "닭가슴살: 1팩(약300g)",
+          "name": "닭가슴살",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "대파: 3대(300g)",
+          "name": "대파",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "느타리버섯: 2컵(80g)",
+          "name": "느타리버섯",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "양파: 약 1/4개(70g)",
+          "name": "양파",
+          "amount": 70.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "숙주: 1컵(70g)",
+          "name": "숙주",
+          "amount": 70.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "부추: 약 2/3컵(25g)",
+          "name": "부추",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "국간장: 1/5컵(40g)",
+          "name": "국간장",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "굵은 고춧가루 약1/3컵(26g)",
+          "name": "굵은 고춧가루 약1/3컵(26g)"
+        },
+        {
+          "original_line": "간 마늘: 1큰술(20g)",
+          "name": "간 마늘",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "참기름: 2큰술(14g)",
+          "name": "참기름",
+          "amount": 14.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "식용유: 1큰술(7g)",
+          "name": "식용유",
+          "amount": 7.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "꽃소금: 2/3큰술(8g)",
+          "name": "꽃소금",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "달걀: 1개",
+          "name": "달걀",
+          "amount": 1.0,
+          "unit": "개"
+        },
+        {
+          "original_line": "후추가루: 약간",
+          "name": "후추가루"
+        },
+        {
+          "original_line": "간 생강: 약간",
+          "name": "간 생강"
+        }
+      ]
     },
     {
       "id": "paik_kzYgtXDcGQ4_soup",
@@ -11771,7 +11931,7 @@
         "description_sha256": "83646a45fe08479eb11eef433678fff6b76d0a7dce9aa89d8b90e7b0aaf253ef"
       },
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
-      "portion_notice": "원본은 4인분입니다. 달걀 무게·국간장 밀도·불린 당면의 수분량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다. 당면을 불리는 약 30분은 별도 준비 시간입니다.",
+      "portion_notice": "원본은 4인분입니다. 달걀 무게·국간장 밀도·불린 당면의 수분량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다. 당면을 불리는 약 30분은 별도 준비 시간입니다. 재료량은 원본 인분에 비례한 참고값입니다. 기호에 따른 간과 실제 조리 시간·불 세기는 직접 조절해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
         "checked_on": "2026-10-08",
@@ -11799,7 +11959,101 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
-      }
+      },
+      "portion_lines": [
+        {
+          "original_line": "소고기(불고기용): 2컵(180g)",
+          "name": "소고기(불고기용)",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "달걀: 2개",
+          "name": "달걀",
+          "amount": 2.0,
+          "unit": "개"
+        },
+        {
+          "original_line": "불린 당면: 2컵(120g)",
+          "name": "불린 당면",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "대파: 약 2와1/3대(228g)",
+          "name": "대파",
+          "amount": 228.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "느타리버섯: 2컵(80g)",
+          "name": "느타리버섯",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "표고버섯: 2컵(60g)",
+          "name": "표고버섯",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "숙주: 4컵(280g)",
+          "name": "숙주",
+          "amount": 280.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "간 생강: 약간",
+          "name": "간 생강"
+        },
+        {
+          "original_line": "간 마늘: 1과½큰술(30g)",
+          "name": "간 마늘",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "굵은 고춧가루: 3큰술(24g)",
+          "name": "굵은 고춧가루",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "국간장: 1/3컵(60ml)",
+          "name": "국간장",
+          "amount": 60.0,
+          "unit": "ml"
+        },
+        {
+          "original_line": "꽃소금: 1/3큰술(4g)",
+          "name": "꽃소금",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "후춧가루: 약간",
+          "name": "후춧가루"
+        },
+        {
+          "original_line": "참기름: 6큰술(42g)",
+          "name": "참기름",
+          "amount": 42.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "식용유: 2큰술(14g)",
+          "name": "식용유",
+          "amount": 14.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "물: 6컵 (1,080ml)",
+          "name": "물",
+          "amount": 80.0,
+          "unit": "ml"
+        }
+      ]
     },
     {
       "id": "paik_0bnFoRQebq0_cream",
@@ -12076,7 +12330,7 @@
         "description_sha256": "5ef458e70e6f1bf76663eac1a97da95ef570df86ebaf097c0e238c9fec597a19"
       },
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
-      "portion_notice": "원본은 1인분입니다. 달걀 무게와 식용유·훈연멸치가루 양이 미지정이라 전체 영양 계산을 보류했습니다.",
+      "portion_notice": "원본은 1인분입니다. 달걀 무게와 식용유·훈연멸치가루 양이 미지정이라 전체 영양 계산을 보류했습니다. 재료량은 원본 인분에 비례한 참고값입니다. 기호에 따른 간과 실제 조리 시간·불 세기는 직접 조절해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
         "checked_on": "2026-10-08",
@@ -12106,7 +12360,69 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
-      }
+      },
+      "portion_lines": [
+        {
+          "original_line": "닭다리살: 100g",
+          "name": "닭다리살",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "달걀: 1개",
+          "name": "달걀",
+          "amount": 1.0,
+          "unit": "개"
+        },
+        {
+          "original_line": "양파 약1/3개(80g)",
+          "name": "양파 약1/3개(80g)"
+        },
+        {
+          "original_line": "대파: 1/3컵(20g)",
+          "name": "대파",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "물: 1/3컵(60g)",
+          "name": "물",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "진간장: 3큰술(30g)",
+          "name": "진간장",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "황설탕: 1과1/4큰술(15g)",
+          "name": "황설탕",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "맛술: 1큰술(10g)",
+          "name": "맛술",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "밥: 1공기(200g)",
+          "name": "밥",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "훈연멸치가루: 적당량",
+          "name": "훈연멸치가루"
+        },
+        {
+          "original_line": "식용유: 적당량",
+          "name": "식용유"
+        }
+      ]
     },
     {
       "id": "paik_QPjfwubAvso",
@@ -12161,7 +12477,7 @@
         "description_sha256": "98ba1474eeb569d2595572e61c045a66ce78f63e8cec19b705279309a063bf5b"
       },
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
-      "portion_notice": "원본은 100인분, 1인 약 200g 제공 기준입니다. 절임물과 삶는 물로 빠지는 소금·성분 및 생크림·식초의 무게 환산이 미확인이라 전체 영양 계산은 보류했습니다. 선택 응용인 소시지·달걀·옥수수는 기본 목록에 합치지 않았습니다.",
+      "portion_notice": "원본은 100인분, 1인 약 200g 제공 기준입니다. 절임물과 삶는 물로 빠지는 소금·성분 및 생크림·식초의 무게 환산이 미확인이라 전체 영양 계산은 보류했습니다. 선택 응용인 소시지·달걀·옥수수는 기본 목록에 합치지 않았습니다. 재료량은 원본 인분에 비례한 참고값입니다. 기호에 따른 간과 실제 조리 시간·불 세기는 직접 조절해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
         "checked_on": "2026-10-08",
@@ -12181,7 +12497,101 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
-      }
+      },
+      "portion_lines": [
+        {
+          "original_line": "*주 재료*",
+          "heading": true
+        },
+        {
+          "original_line": "감자(껍질제거): 10kg",
+          "name": "감자(껍질제거)",
+          "amount": 10000.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "오이: 2kg",
+          "name": "오이",
+          "amount": 2000.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "양파: 2kg",
+          "name": "양파",
+          "amount": 2000.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "당근: 1.5kg",
+          "name": "당근",
+          "amount": 1500.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "셀러리: 500g",
+          "name": "셀러리",
+          "amount": 500.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "*양념*",
+          "heading": true
+        },
+        {
+          "original_line": "마요네즈: 3.4kg",
+          "name": "마요네즈",
+          "amount": 3400.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "황설탕: 480g",
+          "name": "황설탕",
+          "amount": 480.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "꽃소금: 68g",
+          "name": "꽃소금",
+          "amount": 68.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "후춧가루: 20g",
+          "name": "후춧가루",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "생크림: 500ml",
+          "name": "생크림",
+          "amount": 500.0,
+          "unit": "ml"
+        },
+        {
+          "original_line": "식초: 160ml",
+          "name": "식초",
+          "amount": 160.0,
+          "unit": "ml"
+        },
+        {
+          "original_line": "꽃소금(오이절임용): 40g",
+          "name": "꽃소금(오이절임용)",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "꽃소금(양파절임용): 40g",
+          "name": "꽃소금(양파절임용)",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "꽃소금(감자삶는용): 40g",
+          "name": "꽃소금(감자삶는용)",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ]
     },
     {
       "id": "paik_BqxpjY7TJ8g",

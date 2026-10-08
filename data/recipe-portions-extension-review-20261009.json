@@ -1,0 +1,37 @@
+{
+  "reviewed_on": "2026-10-09",
+  "added_controls": 5,
+  "items": [
+    {
+      "recipe_id": "paik_5e5fp21dqWA",
+      "name": "매콤달걀덮밥",
+      "original_servings": 1,
+      "status": "source_servings_and_ingredient_basis_reviewed"
+    },
+    {
+      "recipe_id": "paik_FdL13qXf4MA_breast",
+      "name": "닭개장(닭가슴살)",
+      "original_servings": 3,
+      "status": "source_servings_and_ingredient_basis_reviewed"
+    },
+    {
+      "recipe_id": "paik_jN_inaLf9Zo_beef",
+      "name": "육개장(20분 방식)",
+      "original_servings": 4,
+      "status": "source_servings_and_ingredient_basis_reviewed"
+    },
+    {
+      "recipe_id": "paik_du9q1BldDHU",
+      "name": "닭고기덮밥",
+      "original_servings": 1,
+      "status": "source_servings_and_ingredient_basis_reviewed"
+    },
+    {
+      "recipe_id": "paik_QPjfwubAvso",
+      "name": "감자샐러드(대용량)",
+      "original_servings": 100,
+      "status": "source_servings_and_ingredient_basis_reviewed"
+    }
+  ],
+  "policy": "Explicit source portions only; kg and L converted to g and ml; unspecified amounts remain manual; cooking time is never scaled"
+}
