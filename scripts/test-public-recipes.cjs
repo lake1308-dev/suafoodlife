@@ -1,5 +1,5 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
-const data=JSON.parse(fs.readFileSync('data/recipes-public-20261008.json'));
+const data=JSON.parse(require('zlib').gunzipSync(fs.readFileSync('data/recipes-public-20261008.json.gz')));
 assert.equal(data.recipes.length,1150);assert.equal(new Set(data.recipes.map(r=>r.id)).size,1150);
 const nodes=new Map();function el(){return {children:[],classList:{add(){},remove(){}},appendChild(x){this.children.push(x)},replaceChildren(){this.children=[]},after(){},scrollIntoView(){}}}
 ['recipe','recipeName','recipeMeta','recipeIngredients','recipeSteps','recipeNutritionNotice'].forEach(id=>nodes.set(id,el()));

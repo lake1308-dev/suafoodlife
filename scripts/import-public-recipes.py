@@ -15,3 +15,5 @@ for r in rows:
 pathlib.Path('data/recipes-public-20261008.json').write_text(json.dumps({'version':'1.0.0','record_count':len(recipes),'recipes':recipes},ensure_ascii=False,separators=(',',':'))+'\n')
 pathlib.Path('data/recipes-public-import-review-20261008.json').write_text(json.dumps({'source_records':len(rows),'imported_records':len(recipes),'held_records':held,'source_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'checks':['unique source IDs','required name, ingredients and first step','original ingredient quantities retained','no guessed servings or nutrient calculations','no product allergen declarations inferred']},ensure_ascii=False,indent=2)+'\n')
 print(f'Imported {len(recipes)}; held {len(held)}')
+
+with gzip.open('data/recipes-public-20261008.json.gz','wb') as f:f.write(pathlib.Path('data/recipes-public-20261008.json').read_bytes())
