@@ -48,3 +48,5 @@ button,input{font:inherit}button:focus-visible,[role="button"]:focus-visible,a:f
 .food-advice-item+.food-advice-item{margin-top:18px;padding-top:14px;border-top:1px solid #dce5d7}.food-advice-item h4{margin:0 0 7px;font-size:16px;color:#315c2c}.food-advice-item p{margin:0;line-height:1.65}.advice-recipe-button{margin:18px 0;background:#315c2c;color:#fff;border:0;border-radius:12px;padding:13px 16px;font-size:15px;cursor:pointer;min-height:44px}.ingredient-tips-card .allergy-content{background:#f5f8f0}
 
 .country-search.hidden,.country-grid.hidden,.country-title.hidden,.country-search-results.hidden{display:none}
+
+.recipe-portion-control{display:block;margin-top:14px;font-weight:700;color:#315c2c}.recipe-portion-control select{font:inherit;font-size:16px;min-height:44px;max-width:100%;margin-left:8px;padding:8px 12px;border:1px solid #d8dfd4;border-radius:10px;background:#fff;color:#182018}.recipe-portion-control select:focus-visible{outline:3px solid #8db885;outline-offset:2px}.portion-hint{display:block;margin-top:8px;font-size:14px;line-height:1.65}

@@ -1,0 +1,77 @@
+{
+  "reviewed_on": "2026-10-08",
+  "target_count": 10,
+  "verified_count": 10,
+  "items": [
+    {
+      "name": "짜장덮밥",
+      "status": "verified",
+      "source_url": "https://www.youtube.com/watch?v=_O4tvQtZDiU",
+      "original_servings": null,
+      "portion_scaling": false
+    },
+    {
+      "name": "김치전",
+      "status": "verified",
+      "source_url": "https://www.youtube.com/watch?v=47OIcvpqxlo",
+      "original_servings": null,
+      "portion_scaling": false
+    },
+    {
+      "name": "감자전",
+      "status": "verified",
+      "source_url": "https://www.youtube.com/watch?v=N82hJpl5cMM",
+      "original_servings": null,
+      "portion_scaling": false
+    },
+    {
+      "name": "김치수제비",
+      "status": "verified",
+      "source_url": "https://www.youtube.com/watch?v=G2kylWhMw5s",
+      "original_servings": null,
+      "portion_scaling": false
+    },
+    {
+      "name": "어묵감자볶음",
+      "status": "verified",
+      "source_url": "https://www.youtube.com/watch?v=mo8ogr40m4o",
+      "original_servings": 4,
+      "portion_scaling": true
+    },
+    {
+      "name": "두부조림",
+      "status": "verified",
+      "source_url": "https://www.youtube.com/watch?v=Eino3yP-Wk0",
+      "original_servings": null,
+      "portion_scaling": false
+    },
+    {
+      "name": "닭갈비(만능 양념장)",
+      "status": "verified",
+      "source_url": "https://www.youtube.com/watch?v=HI8DlDs1gko",
+      "original_servings": null,
+      "portion_scaling": false
+    },
+    {
+      "name": "오므라이스",
+      "status": "verified",
+      "source_url": "https://www.youtube.com/watch?v=AlK2Gl6kHZI",
+      "original_servings": null,
+      "portion_scaling": false
+    },
+    {
+      "name": "뒷다리살카레",
+      "status": "verified",
+      "source_url": "https://www.youtube.com/watch?v=LTVxirHWvh8",
+      "original_servings": 5,
+      "portion_scaling": false
+    },
+    {
+      "name": "잔치국수(채소 육수)",
+      "status": "verified",
+      "source_url": "https://www.youtube.com/watch?v=Gq9S0dJ3wHg",
+      "original_servings": 2,
+      "portion_scaling": false
+    }
+  ]
+}

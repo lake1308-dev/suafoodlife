@@ -103,7 +103,7 @@ async function loadRecipeDB(){
  try{
   const res=await fetch("data/recipes.json?v=0.2.3",{cache:"no-store"});
   const data=await res.json(); DB_RECIPES=data.recipes||[];
-  try{const creatorRes=await fetch("data/recipes-creator-20261008.json?v=1.0.0",{cache:"no-store"});if(creatorRes.ok){const creator=await creatorRes.json();DB_RECIPES.push(...(creator.recipes||[]));}}catch(err){console.warn("Creator reference recipes unavailable.",err)}
+  try{const creatorRes=await fetch("data/recipes-creator-20261008.json?v=1.1.0",{cache:"no-store"});if(creatorRes.ok){const creator=await creatorRes.json();DB_RECIPES.push(...(creator.recipes||[]));}}catch(err){console.warn("Creator reference recipes unavailable.",err)}
   const publicRes=await fetch("data/recipes-public-20261008.json.gz?v=1.0.0",{cache:"no-store"});
   if(publicRes.ok){const bytes=new Uint8Array(await publicRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}
  }catch(err){console.warn("Recipe DB unavailable; using bundled fallback.",err)}
@@ -589,20 +589,36 @@ function updateDBRecipeNutrition(){
  '<div>'+tr("Protein","단백질")+': '+(out.verified?fmt(t.protein_g==null?null:t.protein_g/servings,"g"):"—")+' · '+tr("Carbs","탄수화물")+': '+(out.verified?fmt(t.carbs_g==null?null:t.carbs_g/servings,"g"):"—")+' · '+tr("Fat","지방")+': '+(out.verified?fmt(t.fat_g==null?null:t.fat_g/servings,"g"):"—")+'</div>'+
  (out.complete?'<small>'+tr("All included ingredients use verified nutrition data.","포함된 모든 재료가 검증된 영양정보를 사용합니다.")+'</small>':'<small>'+tr("Not a full-recipe total. Missing verified data: ","전체 레시피 영양값이 아닙니다. 미포함 재료: ")+out.missing.join(", ")+'</small>');
 }
+function creatorPortionIngredientLines(r,servings){
+ if(!Number.isFinite(r.servings)||r.servings<=0||!Number.isFinite(servings)||servings<=0||!Array.isArray(r.portion_lines))return r.ingredients_text.split(/\n+/);
+ const factor=servings/r.servings;
+ return r.portion_lines.map(line=>factor===1||line.heading?line.original_line:Number.isFinite(line.amount)?line.name+": "+(Math.round(line.amount*factor*1000)/1000)+line.unit:line.original_line+" · 양은 직접 조절");
+}
+function renderCreatorPortionControls(r,host){
+ if(!Number.isFinite(r.servings)||r.servings<=0||!r.portion_lines)return;
+ const label=document.createElement("label");label.className="recipe-portion-control";label.htmlFor="creatorRecipeServings";label.textContent="만들 분량 ";
+ const select=document.createElement("select");select.id="creatorRecipeServings";
+ const choices=[...new Set([1,2,4,r.servings])].sort((a,b)=>a-b),selected=choices.includes(r.selected_servings)?r.selected_servings:r.servings;
+ choices.forEach(value=>{const option=document.createElement("option");option.value=String(value);option.textContent=value+"인분"+(value===r.servings?" (원본)":"");option.selected=value===selected;select.appendChild(option)});
+ select.onchange=()=>{const value=Number(select.value);if(!choices.includes(value))return;r.selected_servings=value;renderPublicRecipe(r,false)};
+ label.appendChild(select);host.appendChild(label);
+ const hint=document.createElement("span");hint.className="portion-hint";hint.textContent=" · 선택한 인분에 비례해 재료 양만 환산합니다. 조리 순서·불 세기·시간은 원본 기준이며 상황에 맞게 조절하세요. '약간·적당량'은 직접 조절해 주세요.";host.appendChild(hint);
+}
 function renderPublicRecipe(r,scroll=true){
  currentDish=r;$("recipe").classList.remove("hidden");
  $("recipeName").textContent=r.names.ko;
  $("recipeMeta").textContent=r.category_ko+" · "+(r.source_label||"식약처 공개 레시피")+(r.source_kind==="creator_reference"?" · "+(r.servings?r.servings+"인분 (원본 기준)":"원본 인분 수 미표기"):" · "+r.category);
  $("recipeIngredients").replaceChildren();
- r.ingredients_text.split(/\n+/).forEach(line=>{const li=document.createElement("li");li.textContent=line;$("recipeIngredients").appendChild(li)});
+ const ingredientLines=r.source_kind==="creator_reference"?creatorPortionIngredientLines(r,r.selected_servings||r.servings):r.ingredients_text.split(/\n+/);
+ ingredientLines.forEach(line=>{const li=document.createElement("li");li.textContent=line;$("recipeIngredients").appendChild(li)});
  $("recipeSteps").replaceChildren();
  r.steps.ko.forEach(step=>{const li=document.createElement("li");li.textContent=step.replace(/^\d+\.\s*/,"");$("recipeSteps").appendChild(li)});
  ["recipeAllergens","recipeNutritionLive"].forEach(id=>document.getElementById(id)?.classList.add("hidden"));
  let note=document.getElementById("recipeNutritionNotice");if(!note){note=document.createElement("p");note.id="recipeNutritionNotice";note.className="data-note";$("recipeMeta").after(note)}
  note.classList.remove("hidden");note.replaceChildren();
- const text=document.createElement("span");text.textContent="재료와 분량은 출처의 조리 예시를 유지했습니다. 알레르기는 사용하는 재료·제품의 표시를 확인하세요. ";note.appendChild(text);
+ const text=document.createElement("span");text.textContent=(r.source_kind==="creator_reference"?"재료는 공식 영상의 분량을 기준으로 표시합니다. ":"재료와 분량은 출처의 조리 예시를 유지했습니다. ")+"알레르기는 사용하는 재료·제품의 표시를 확인하세요. ";note.appendChild(text);
  const link=document.createElement("a");link.href=r.source.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=r.source_kind==="creator_reference"?"출처: "+r.source.name+" · 공식 영상 보기":"출처: 식품의약품안전처 · 레시피 번호 "+r.source.record_id;note.appendChild(link);
- if(r.source_kind==="creator_reference"){const editorial=document.createElement("p");editorial.textContent=r.editorial_notice+" 영양값은 아직 계산하지 않았습니다. 원본 분량을 임의로 1인분으로 환산하지 않았습니다.";note.appendChild(editorial);if(scroll)$("recipe").scrollIntoView({behavior:"smooth",block:"start"});return}
+ if(r.source_kind==="creator_reference"){const editorial=document.createElement("p");editorial.textContent=r.editorial_notice+" 영양값은 아직 계산하지 않았습니다. "+(r.portion_lines?"재료 목록은 선택한 인분 기준입니다.":r.portion_notice||"원본 인분 수가 확인되지 않아 분량 환산은 제공하지 않습니다.");note.appendChild(editorial);renderCreatorPortionControls(r,note);if(scroll)$("recipe").scrollIntoView({behavior:"smooth",block:"start"});return}
  const nutrition=document.createElement("p");const n=r.source_nutrition;const fmt=(v,u)=>Number.isFinite(v)?v+u:"미제공";
  nutrition.textContent="출처 제공 영양값: 열량 "+fmt(n.kcal," kcal")+" · 단백질 "+fmt(n.protein_g,"g")+" · 탄수화물 "+fmt(n.carbs_g,"g")+" · 지방 "+fmt(n.fat_g,"g")+" · 나트륨 "+fmt(n.sodium_mg,"mg")+". "+(r.source_weight_text?"출처 중량 표기: "+r.source_weight_text:"기준 중량이 제공되지 않아 100g 또는 1인분 값으로 환산하지 않았습니다.")+" 재료별 재계산값이 아닙니다.";note.appendChild(nutrition);
  if(scroll)$("recipe").scrollIntoView({behavior:"smooth",block:"start"});
