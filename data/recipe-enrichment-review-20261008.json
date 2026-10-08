@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 96,
-  "nutrition_reference_estimates": 12,
-  "nutrition_held": 84,
+  "recipe_count": 100,
+  "nutrition_reference_estimates": 14,
+  "nutrition_held": 86,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -495,9 +495,31 @@
       "recipe_id": "paik_zS_o6psOt9g_air",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_wfm951HEpGU_vinegarsoy",
+      "status": "estimated_reference",
+      "ingredient_count": 3,
+      "kcal": 29.7
+    },
+    {
+      "recipe_id": "paik_kpeQCq4mIXs_ricesauce",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_dippingsauce",
+      "status": "estimated_reference",
+      "ingredient_count": 6,
+      "kcal": 71.76
+    },
+    {
+      "recipe_id": "paik_uB37XeU5SwM_originalcorn",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 96,
+  "allergen_ingredient_reviews": 100,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1522,6 +1544,37 @@
       "product_labels_pending": [
         "마요네즈",
         "모짜렐라치즈"
+      ]
+    },
+    {
+      "recipe_id": "paik_wfm951HEpGU_vinegarsoy",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_kpeQCq4mIXs_ricesauce",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_dippingsauce",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_uB37XeU5SwM_originalcorn",
+      "known_from_ingredients": [
+        "우유"
+      ],
+      "product_labels_pending": [
+        "튀김가루",
+        "식용유"
       ]
     }
   ],

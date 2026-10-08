@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 4,
+  "includes": "Three separate dipping sauces and original condensed milk corn pancake method",
+  "items": [
+    {
+      "recipe_id": "paik_wfm951HEpGU_vinegarsoy",
+      "name": "부추전초간장",
+      "source_url": "https://www.youtube.com/watch?v=wfm951HEpGU",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_kpeQCq4mIXs_ricesauce",
+      "name": "가지밥양념장",
+      "source_url": "https://www.youtube.com/watch?v=kpeQCq4mIXs",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_tHkbJgBUaiI_dippingsauce",
+      "name": "전양념간장",
+      "source_url": "https://www.youtube.com/watch?v=tHkbJgBUaiI",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_uB37XeU5SwM_originalcorn",
+      "name": "옥수수전(연유)",
+      "source_url": "https://www.youtube.com/watch?v=uB37XeU5SwM",
+      "status": "verified_added"
+    }
+  ]
+}
