@@ -1,0 +1,1018 @@
+{
+  "version": "1.0.0",
+  "record_count": 20,
+  "recipes": [
+    {
+      "id": "paik_DnQ09ZZCjCs",
+      "names": {
+        "ko": "김치찌개 · 백종원 참고",
+        "en": "김치찌개 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "김치찌개",
+        "김치찌개",
+        "백종원"
+      ],
+      "servings": 2,
+      "ingredients": [],
+      "ingredients_text": "돼지고기: 120g\n쌀뜨물: 380ml (약 2컵)\n자른 김치: 150g\n다진마늘: 30g (2큰술)\n대파: 30g\n청양고추: 10g\n홍고추: 10g\n고운 고춧가루: 30g (2큰술)\n굵은 고춧가루: 30g (2큰술)\n국간장: 15ml (1큰술)\n새우젓: 15g (1큰술)",
+      "steps": {
+        "ko": [
+          "대파와 고추를 잘게 썰어 둡니다.",
+          "냄비에서 돼지고기를 쌀뜨물과 끓여 국물을 낸 뒤 김치와 마늘을 더합니다.",
+          "다시 끓으면 대파·고추·두 종류의 고춧가루를 넣습니다.",
+          "국간장과 새우젓을 섞어 간을 마무리합니다."
+        ],
+        "en": [
+          "대파와 고추를 잘게 썰어 둡니다.",
+          "냄비에서 돼지고기를 쌀뜨물과 끓여 국물을 낸 뒤 김치와 마늘을 더합니다.",
+          "다시 끓으면 대파·고추·두 종류의 고춧가루를 넣습니다.",
+          "국간장과 새우젓을 섞어 간을 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "DnQ09ZZCjCs",
+        "url": "https://www.youtube.com/watch?v=DnQ09ZZCjCs",
+        "title": "초간단 김치찌개 ㅣ 백종원의 백종원 레시피",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "d7e21f0a51871d353148fdf1109e878667a3b19f5a58d0bc0473a2918d3e6741"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_ffuakdFmuh4",
+      "names": {
+        "ko": "된장찌개 · 백종원 참고",
+        "en": "된장찌개 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "된장찌개",
+        "된장찌개",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "된장: 1/3컵(60g)\n물: 약4컵(750mL)\n간마늘: 1/2큰술(8g)\n육수용멸치: 10마리(20g)\n애호박: 1/2개(130g)\n양파: 1/2개(80g)\n느타리버섯: 1컵(80g)\n대파: 2/3컵(60g)\n청양고추: 2개(14g)\n홍고추: 1/2개(7g)\n두부: 1/2모(180g)",
+      "steps": {
+        "ko": [
+          "채소와 두부는 한입 크기로 손질하고, 멸치는 머리와 내장을 제거합니다.",
+          "물에 멸치와 양파를 넣고 끓입니다.",
+          "버섯·애호박·마늘·된장을 넣어 국물을 냅니다.",
+          "대파와 고추를 넣고 끓이다가 두부를 더해 약 1분 익힙니다."
+        ],
+        "en": [
+          "채소와 두부는 한입 크기로 손질하고, 멸치는 머리와 내장을 제거합니다.",
+          "물에 멸치와 양파를 넣고 끓입니다.",
+          "버섯·애호박·마늘·된장을 넣어 국물을 냅니다.",
+          "대파와 고추를 넣고 끓이다가 두부를 더해 약 1분 익힙니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "ffuakdFmuh4",
+        "url": "https://www.youtube.com/watch?v=ffuakdFmuh4",
+        "title": "된장찌개 맛이 안 난다면? '이것'만 기억하세요",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "b3c7491b8630f74423dc402e70ae7599bb30a40217ff982b51aa9546de6bb667"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_xsTFsunt6-8",
+      "names": {
+        "ko": "소고기미역국 · 백종원 참고",
+        "en": "소고기미역국 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "미역국",
+        "소고기미역국",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "소고기(양지): 1/2컵(100g)\n자른미역: 1/3컵(10g)\n참기름: 2큰술(14g)\n국간장: 3큰술(30g)\n물: 약7컵(1.3L)\n다진마늘: 2/3큰술(10g)\n멸치액젓: 1과1/2큰술(15g)",
+      "steps": {
+        "ko": [
+          "미역을 물에 불립니다.",
+          "참기름에 소고기를 중약불로 볶고, 고기가 익으면 미역도 함께 볶습니다.",
+          "국간장을 섞은 다음 물을 붓고 끓입니다.",
+          "끓는 국물에 마늘을 넣고, 마지막에 멸치액젓으로 간을 맞춥니다."
+        ],
+        "en": [
+          "미역을 물에 불립니다.",
+          "참기름에 소고기를 중약불로 볶고, 고기가 익으면 미역도 함께 볶습니다.",
+          "국간장을 섞은 다음 물을 붓고 끓입니다.",
+          "끓는 국물에 마늘을 넣고, 마지막에 멸치액젓으로 간을 맞춥니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "xsTFsunt6-8",
+        "url": "https://www.youtube.com/watch?v=xsTFsunt6-8",
+        "title": "한국인들이 생일마다 찾아 먹는 소울푸드",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "21cf133e608682b3c1c0a2ec88157388d20cec99f65725c0cb47eb5a129d53f2"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_j7s9VRsrm9o",
+      "names": {
+        "ko": "대파제육볶음 · 백종원 참고",
+        "en": "대파제육볶음 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "제육볶음",
+        "대파제육볶음",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "삼겹살: 300g\n통마늘: 8알(50g)\n청양고추: 3개(20g)\n대파: 2대(200g)\n물: 1/3컵(60g)\n진간장: 3큰술(30g)\n설탕: 1.5큰술(15g)\n굵은 고춧가루: 1큰술(5g)\n고운 고춧가루: 1큰술(5g)\n참기름: 1/2큰술 (4g)\n맛소금: 적당량\n후춧가루: 적당량\n깨소금: 적당량\n[쌈 재료]\n쌈 채소: 적당량\n쌈장: 적당량",
+      "steps": {
+        "ko": [
+          "삼겹살과 대파는 먹기 좋게 자르고 마늘과 고추를 썹니다.",
+          "소금과 후추로 간한 삼겹살을 굽다가 마늘을 넣습니다.",
+          "마늘이 노릇해지면 설탕과 간장을 차례로 넣어 볶습니다.",
+          "대파와 고춧가루를 넣고 물을 더해 양념이 고루 묻게 볶습니다.",
+          "대파가 지나치게 무르기 전에 참기름과 후추로 마무리하고 깨를 뿌립니다."
+        ],
+        "en": [
+          "삼겹살과 대파는 먹기 좋게 자르고 마늘과 고추를 썹니다.",
+          "소금과 후추로 간한 삼겹살을 굽다가 마늘을 넣습니다.",
+          "마늘이 노릇해지면 설탕과 간장을 차례로 넣어 볶습니다.",
+          "대파와 고춧가루를 넣고 물을 더해 양념이 고루 묻게 볶습니다.",
+          "대파가 지나치게 무르기 전에 참기름과 후추로 마무리하고 깨를 뿌립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "j7s9VRsrm9o",
+        "url": "https://www.youtube.com/watch?v=j7s9VRsrm9o",
+        "title": "대파 듬뿍! 삼겹살로 만든 '대파 제육볶음'",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "eb02b2e8920f77c47bbc5d6a6c3b1e5801c2dc4f044f360afe971aca444b8208"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_p3IQTouKyH0",
+      "names": {
+        "ko": "소불고기 · 백종원 참고",
+        "en": "소불고기 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "불고기",
+        "소불고기",
+        "백종원"
+      ],
+      "servings": 4,
+      "ingredients": [],
+      "ingredients_text": "쇠고기등심: 500g(3컵)\n양파: 120g(1컵)\n표고버섯: 30g(1/2컵)\n대파: 30g(1/3컵)\n홍고추: 10g(1개)\n황설탕: 30g(2.5큰술)\n물엿: 30g(1큰술)\n양파 간 것: 2큰술(20g)\n다진마늘: 18g(1큰술)\n진간장: 60g(6큰술)\n후춧가루: 1g(1/2작은술)\n통깨: 2g(1작은술)\n참기름: 30g(3큰술)",
+      "steps": {
+        "ko": [
+          "양파·버섯·대파·고추를 썰고 양념용 양파는 갈아 둡니다.",
+          "고기에 설탕과 물엿을 섞어 약 10분 둡니다.",
+          "간장·간 양파·마늘·후추·참기름을 섞고 준비한 채소를 더합니다.",
+          "달군 팬에서 고기가 익도록 볶고 통깨를 뿌립니다."
+        ],
+        "en": [
+          "양파·버섯·대파·고추를 썰고 양념용 양파는 갈아 둡니다.",
+          "고기에 설탕과 물엿을 섞어 약 10분 둡니다.",
+          "간장·간 양파·마늘·후추·참기름을 섞고 준비한 채소를 더합니다.",
+          "달군 팬에서 고기가 익도록 볶고 통깨를 뿌립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "p3IQTouKyH0",
+        "url": "https://www.youtube.com/watch?v=p3IQTouKyH0",
+        "title": "글로벌 한식! '소불고기'. 한국의 불고기가 이렇게 맛있습니다. ㅣ 백종원의 백종원 레시피",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "3daf747205b83dcc0f8d5874b8b27e8986146c5c7d355ec15c0e1f81b1a21921"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_-EwR5eshbPE",
+      "names": {
+        "ko": "닭볶음탕 · 백종원 참고",
+        "en": "닭볶음탕 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "닭볶음탕",
+        "닭볶음탕",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "토막닭: 1kg(10호 1마리)\n황설탕: 70g(1/2컵)\n간 마늘: 45g(1/3컵)\n진간장: 190g(1컵)\n굵은 고춧가루: 45g(1/2컵)\n고운 고춧가루: 30g(1/3컵)\n감자: 270g(2개)\n당근: 160g(1/2개)\n양파: 240g(1/2개)\n대파: 160g(3대)\n청양고추: 30g(4개)\n홍고추: 10g(1개)\n새송이: 50g(2개)\n표고버섯: 70g(3개)\n후춧가루: 2g(약간)\n물: 600mL",
+      "steps": {
+        "ko": [
+          "감자·당근·양파·버섯은 덩어리로, 대파와 고추는 짧게 썰어 둡니다.",
+          "손질한 닭과 물, 설탕을 냄비에 담아 끓입니다.",
+          "감자·당근·양파를 넣고 익히다가 마늘을 더합니다.",
+          "간장을 넣어 끓인 뒤 버섯과 두 종류의 고춧가루를 더합니다.",
+          "약 30~40분 끓여 농도를 조절하고 대파·고추·후추로 마무리합니다."
+        ],
+        "en": [
+          "감자·당근·양파·버섯은 덩어리로, 대파와 고추는 짧게 썰어 둡니다.",
+          "손질한 닭과 물, 설탕을 냄비에 담아 끓입니다.",
+          "감자·당근·양파를 넣고 익히다가 마늘을 더합니다.",
+          "간장을 넣어 끓인 뒤 버섯과 두 종류의 고춧가루를 더합니다.",
+          "약 30~40분 끓여 농도를 조절하고 대파·고추·후추로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "-EwR5eshbPE",
+        "url": "https://www.youtube.com/watch?v=-EwR5eshbPE",
+        "title": "'말복'에는 얼큰한 '닭볶음탕'으로 원기회복하세요! ㅣ 백종원의 백종원 레시피",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "f16b765a192faa9b86ea68c83b3f2f847f8364fd1d01f762d20437c1176c7c4b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_t4Es8mwdYlE",
+      "names": {
+        "ko": "떡볶이 · 백종원 참고",
+        "en": "떡볶이 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "떡볶이",
+        "떡볶이",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*떡볶이\n쌀떡: 4컵(400g)\n밀가루떡: 4컵(400g)\n사각어묵: 4장(160g)\n양배추: 2컵(160g)\n대파: 3컵(240g)\n물: 1L\n삶은달걀: 3개\n*양념장\n고추장: 1/3컵(80g)\n진간장: 1/3컵(50g)\n고운고춧가루: 1/3컵(30g)\n굵은고춧가루: 1/3컵(20g)\n황설탕: 1/3컵(70g)\nMSG: 1/2큰술(5g)",
+      "steps": {
+        "ko": [
+          "대파·양배추·어묵을 썰고 떡은 가볍게 헹굽니다.",
+          "물에 간장·설탕·고추장·고춧가루·대파·양배추를 넣고 끓입니다.",
+          "끓는 국물에 떡과 삶은 달걀을 넣고, MSG는 취향에 맞게 사용합니다.",
+          "다시 끓으면 어묵을 더하고 소스가 걸쭉해질 때까지 졸입니다."
+        ],
+        "en": [
+          "대파·양배추·어묵을 썰고 떡은 가볍게 헹굽니다.",
+          "물에 간장·설탕·고추장·고춧가루·대파·양배추를 넣고 끓입니다.",
+          "끓는 국물에 떡과 삶은 달걀을 넣고, MSG는 취향에 맞게 사용합니다.",
+          "다시 끓으면 어묵을 더하고 소스가 걸쭉해질 때까지 졸입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "t4Es8mwdYlE",
+        "url": "https://www.youtube.com/watch?v=t4Es8mwdYlE",
+        "title": "전 세계 어디서든 '한국 시장 떡볶이' 맛 그대로 내는 법",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "a26e9d45820125e058f5a118adf8a2324f1879e8805c87269e0e27a9d2a7c82b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_eIo2BaE6LxI",
+      "names": {
+        "ko": "김치볶음밥 · 백종원 참고",
+        "en": "김치볶음밥 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "김치볶음밥",
+        "김치볶음밥",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "김치: 1컵(160g)\n소시지: 2개(65g)\n대파: 1/2컵(40g)\n식용유: 3큰술(20g)\n진간장: 1/2큰술(5g)\n고운고춧가루: 1/3큰술(3g)\n설탕: 1/3큰술(3g)\n즉석밥: 1개\n달걀: 1개\n김가루: 적당량\n깨소금: 적당량",
+      "steps": {
+        "ko": [
+          "김치·소시지·대파를 잘게 썹니다.",
+          "기름에 대파와 소시지를 볶아 색을 내고 설탕, 간장을 차례로 넣습니다.",
+          "김치를 약불로 볶다가 밥을 넣고 덩어리를 풀어 다시 볶습니다.",
+          "따로 부친 달걀을 올리고 김가루와 깨소금을 곁들입니다."
+        ],
+        "en": [
+          "김치·소시지·대파를 잘게 썹니다.",
+          "기름에 대파와 소시지를 볶아 색을 내고 설탕, 간장을 차례로 넣습니다.",
+          "김치를 약불로 볶다가 밥을 넣고 덩어리를 풀어 다시 볶습니다.",
+          "따로 부친 달걀을 올리고 김가루와 깨소금을 곁들입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "eIo2BaE6LxI",
+        "url": "https://www.youtube.com/watch?v=eIo2BaE6LxI",
+        "title": "김치볶음밥 떡지지 않게 만드는 의외의 비법!",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "24e9285cc3e3c7a2a5beaaf0e41900b4262bd1b6b341eddd10375c8b9339e83e"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_kR77WlHRZrs",
+      "names": {
+        "ko": "계란볶음밥 · 백종원 참고",
+        "en": "계란볶음밥 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "계란볶음밥",
+        "계란볶음밥",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "밥: 1공기(200g)\n대파: 1/2컵(40g)\n달걀: 2개(120g)\n식용유: 4큰술(40g)\n진간장: 1/2큰술(5g)\nMSG: 1/4큰술(2g)\n맛소금: 1g",
+      "steps": {
+        "ko": [
+          "잘게 썬 대파를 기름에 볶고 팬 한쪽으로 모읍니다.",
+          "빈 쪽에서 달걀을 풀어 익힌 다음, 다른 빈 공간에서 간장을 끓여 재료와 섞습니다.",
+          "밥과 맛소금을 넣고 잠시 불을 꺼 밥알을 풀어 줍니다.",
+          "센 불로 다시 볶고 MSG는 취향에 따라 더합니다."
+        ],
+        "en": [
+          "잘게 썬 대파를 기름에 볶고 팬 한쪽으로 모읍니다.",
+          "빈 쪽에서 달걀을 풀어 익힌 다음, 다른 빈 공간에서 간장을 끓여 재료와 섞습니다.",
+          "밥과 맛소금을 넣고 잠시 불을 꺼 밥알을 풀어 줍니다.",
+          "센 불로 다시 볶고 MSG는 취향에 따라 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "kR77WlHRZrs",
+        "url": "https://www.youtube.com/watch?v=kR77WlHRZrs",
+        "title": "불맛 가득한 달걀볶음밥! 맛없으면 이상한 거죠~ ㅣ 백종원의 쿠킹로그",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "b6a642331a13936abef7b8574a80beeffeb3467f396bf7a4cca667f18859f093"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_Jq2SwKMw8vI",
+      "names": {
+        "ko": "비빔밥(전자레인지) · 백종원 참고",
+        "en": "비빔밥(전자레인지) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "비빔밥",
+        "비빔밥(전자레인지)",
+        "백종원"
+      ],
+      "servings": 1,
+      "ingredients": [],
+      "ingredients_text": "밥: 1공기 (200g)\n애호박: 약간 (40g)\n콩나물: 약 1/2컵 (40g)\n무: 약간 (30g)\n당근: 약간 (14g)\n표고 버섯: 1개 (12g)\n고추장: 1큰술 (20g)\n국간장: 1큰술 (10g)\n참기름: 1큰술 (7g)\n통깨: 약간 (3g)\n김가루: 약간\n계란: 1개\n식용유: 적당량",
+      "steps": {
+        "ko": [
+          "버섯·무·당근·애호박을 얇게 채 썰어 콩나물과 섞습니다.",
+          "전자레인지용 그릇에 밥을 펴고 고추장을 바른 뒤 채소를 올립니다.",
+          "전자레인지용 덮개를 씌워 1000W 기준 약 3분 30초 조리합니다.",
+          "별도로 달걀프라이를 만들어 올리고 김가루·깨·참기름을 더합니다."
+        ],
+        "en": [
+          "버섯·무·당근·애호박을 얇게 채 썰어 콩나물과 섞습니다.",
+          "전자레인지용 그릇에 밥을 펴고 고추장을 바른 뒤 채소를 올립니다.",
+          "전자레인지용 덮개를 씌워 1000W 기준 약 3분 30초 조리합니다.",
+          "별도로 달걀프라이를 만들어 올리고 김가루·깨·참기름을 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "Jq2SwKMw8vI",
+        "url": "https://www.youtube.com/watch?v=Jq2SwKMw8vI",
+        "title": "5분 안에 만드는 초간단 비빔밥 만들기! (Feat. 전자레인지)",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "8aee836cdb3fb0b0f23ba8c81ca2f94dea27d17ed328c14225acf5c390ff51d8"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_GP8_7D5eM6A",
+      "names": {
+        "ko": "순두부찌개 · 백종원 참고",
+        "en": "순두부찌개 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "순두부찌개",
+        "순두부찌개",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "양념장 만들기용 재료\n다진 양파: 1/2컵 (50g)\n대파: 1/3컵 (25g)\n다진 마늘: 1큰술 (15g)\n국간장: 1큰술 (10g)\n굵은 고춧가루: 1큰술 (10g)\n고운 고춧가루: 1/2 큰술 (5g)\n간 돼지고기: 30g\n식용유: 2큰술 (20g)\n참기름: 1큰술 (10g)\n꽃소금: 1/2작은술 (3g)\n황설탕: 1작은술 (5g)\n찌개 끓이기용 재료 (위 양념장 중 160g 사용)\n순두부 양념장: 2/3컵 (160g)\n순두부: 1개 (350g)\n계란: 1개 (60g)\n쪽파: 1큰술 (7g)\n청양고추: 1개 (8g)\n후춧가루: 1꼬집 (1g)\n물: 2/3컵 (120g)",
+      "steps": {
+        "ko": [
+          "양념장용 기름에 대파와 다진 돼지고기를 볶고 양파를 더해 수분을 날립니다.",
+          "마늘·소금·고춧가루·설탕·간장을 넣어 양념장을 만듭니다.",
+          "찌개용 냄비에 물과 완성한 양념장 160g, 순두부를 넣고 끓입니다.",
+          "끓으면 달걀을 넣고 고추·쪽파·후추로 마무리합니다."
+        ],
+        "en": [
+          "양념장용 기름에 대파와 다진 돼지고기를 볶고 양파를 더해 수분을 날립니다.",
+          "마늘·소금·고춧가루·설탕·간장을 넣어 양념장을 만듭니다.",
+          "찌개용 냄비에 물과 완성한 양념장 160g, 순두부를 넣고 끓입니다.",
+          "끓으면 달걀을 넣고 고추·쪽파·후추로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "GP8_7D5eM6A",
+        "url": "https://www.youtube.com/watch?v=GP8_7D5eM6A",
+        "title": "고추기름이 포인트! '순두부찌개'로 오늘 저녁 어떠세요?! ㅣ 백종원의 백종원 레시피",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "824926d6111484319b52348f4fac7a50cb38d3f93d52dfe91e2a8b6b8562f46c"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_8uwmFQH614M",
+      "names": {
+        "ko": "부대찌개 · 백종원 참고",
+        "en": "부대찌개 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "부대찌개",
+        "부대찌개",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*부대찌개\n물: 3컵(540ml)\n통조림햄: 1캔(200g)\n대파: 1과 1/2대(150g)\n소시지: 2개(95g)\n양파: 1/4개(60g)\n신김치: 약 1/3컵(50g)\n베이크드빈스: 1과 1/2큰술(30g)\n체다슬라이스치즈: 1장(20g)\n*양념장\n간마늘: 1큰술(20g)\n굵은 고춧가루: 2큰술(16g)\n고추장: 약 1/2큰술(12g)\n된장: 약 1/2큰술(12g)\n국간장: 약 1큰술(12g)\n후춧가루: 약간\n*추가재료\n라면: 1개\n정수물: 1컵(180ml)",
+      "steps": {
+        "ko": [
+          "채소와 소시지를 썹니다. 햄은 일부를 편 또는 채로 썰고 나머지는 으깹니다.",
+          "냄비에 채소와 햄·소시지를 담고 김치·양념장·콩을 더합니다.",
+          "물을 붓고 치즈를 올려 센 불에서 끓인 후 약 3분 더 익힙니다.",
+          "라면을 추가할 때에는 물 180ml를 더해 다시 끓인 다음 면을 익힙니다."
+        ],
+        "en": [
+          "채소와 소시지를 썹니다. 햄은 일부를 편 또는 채로 썰고 나머지는 으깹니다.",
+          "냄비에 채소와 햄·소시지를 담고 김치·양념장·콩을 더합니다.",
+          "물을 붓고 치즈를 올려 센 불에서 끓인 후 약 3분 더 익힙니다.",
+          "라면을 추가할 때에는 물 180ml를 더해 다시 끓인 다음 면을 익힙니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "8uwmFQH614M",
+        "url": "https://www.youtube.com/watch?v=8uwmFQH614M",
+        "title": "🔥부대찌개🔥 육수 없이도 진한 맛 내는 방법! (+T.M.T 주의)",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "8ad7d55c9f32f0e7c3af038765a585cd56a499fc4329acd3409c8815cd09d999"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_3gQwydGHIG8",
+      "names": {
+        "ko": "감자조림 · 백종원 참고",
+        "en": "감자조림 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "감자조림",
+        "감자조림",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "물: 약 2와2/3컵(470g)\n감자: 2개(400g)\n양파: 1/2개(125g)\n진간장: 약 2/3컵(120g)\n물엿: 약 1/3컵(65g)\n소고기(불고기용): 2/3컵(60g)\n황설탕: 약 4큰술(47g)\n꽈리고추: 약 4개(22g)\n간마늘: 1/2큰술(10g)",
+      "steps": {
+        "ko": [
+          "감자는 약 3cm 크기로 자르고 고기·양파·고추도 손질합니다.",
+          "감자·소고기·물·설탕·물엿을 냄비에 넣고 센 불로 끓입니다.",
+          "양파를 더해 다시 끓으면 간장과 마늘을 넣습니다.",
+          "중불에서 약 7~8분 졸인 뒤 불을 끄고 꽈리고추를 섞습니다."
+        ],
+        "en": [
+          "감자는 약 3cm 크기로 자르고 고기·양파·고추도 손질합니다.",
+          "감자·소고기·물·설탕·물엿을 냄비에 넣고 센 불로 끓입니다.",
+          "양파를 더해 다시 끓으면 간장과 마늘을 넣습니다.",
+          "중불에서 약 7~8분 졸인 뒤 불을 끄고 꽈리고추를 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "3gQwydGHIG8",
+        "url": "https://www.youtube.com/watch?v=3gQwydGHIG8",
+        "title": "고기를 넣어 더 맛있는 감자조림! 든든한 밑반찬 만들어두세요~",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "37a2d02ed0c52e7cbd2864d62a2131044417c4a441f1733d6e972e163e6129f2"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_T7YJviWhquo",
+      "names": {
+        "ko": "계란말이 · 백종원 참고",
+        "en": "계란말이 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "계란말이",
+        "계란말이",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "달걀: 6개(왕란 5개)\n당근: 1/5컵(20g)\n대파: 1/2컵(30g)\n꽃소금: 1/6큰술(2g)\n황설탕: 약간\n식용유: 3큰술(21g)",
+      "steps": {
+        "ko": [
+          "당근과 대파를 잘게 다지고 달걀에 소금·설탕과 함께 섞습니다.",
+          "기름을 두른 팬에서 약불로 달걀물 일부를 익힙니다.",
+          "윗면이 마르기 시작하면 말고, 남은 달걀물을 조금씩 부어 이어서 맙니다.",
+          "속까지 익힌 다음 먹기 좋은 크기로 자릅니다."
+        ],
+        "en": [
+          "당근과 대파를 잘게 다지고 달걀에 소금·설탕과 함께 섞습니다.",
+          "기름을 두른 팬에서 약불로 달걀물 일부를 익힙니다.",
+          "윗면이 마르기 시작하면 말고, 남은 달걀물을 조금씩 부어 이어서 맙니다.",
+          "속까지 익힌 다음 먹기 좋은 크기로 자릅니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "T7YJviWhquo",
+        "url": "https://www.youtube.com/watch?v=T7YJviWhquo",
+        "title": "[Sub] 정말 쉬운 달걀말이!",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "23b5671de086f4bc2dbf3b71e3330a168f2cba29babfa061350856998268e004"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_0CL9U_Se8Gs",
+      "names": {
+        "ko": "오징어볶음 · 백종원 참고",
+        "en": "오징어볶음 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "오징어볶음",
+        "오징어볶음",
+        "백종원"
+      ],
+      "servings": 2,
+      "ingredients": [],
+      "ingredients_text": "*오징어볶음 재료\n오징어: 1마리(300g)\n양파 ½개 (125g)\n대파 ½대 (50g)\n당근: 1/9개 (30g)\n청양고추: 2개 (20g)\n홍고추: 1개 (10g)\n양배추: 1/12개 (200g)\n물 ¼컵 (45ml)\n식용유: 1과1/2큰술(약 11g)\n*양념장 재료\n황설탕: 1큰술 (12g)\n간 마늘 ½큰술 (10g)\n고추장: 1큰술 (20g)\n굵은 고춧가루: 1과1/2큰술 (12g)\n진간장: 2큰술(20g)\n참기름: 1큰술 (7g)\n통깨 ½큰술 (2g)",
+      "steps": {
+        "ko": [
+          "오징어의 내장·뼈·입·눈 등을 제거해 손질하고 채소와 함께 썰어 둡니다.",
+          "기름에 잘게 썬 대파를 볶다가 오징어를 넣습니다.",
+          "오징어에서 수분이 나오면 설탕, 간장·마늘·고춧가루·고추장을 차례로 더합니다.",
+          "당근·양배추·양파·물을 넣어 센 불로 볶습니다.",
+          "남은 대파와 고추, 참기름을 섞고 통깨를 뿌립니다."
+        ],
+        "en": [
+          "오징어의 내장·뼈·입·눈 등을 제거해 손질하고 채소와 함께 썰어 둡니다.",
+          "기름에 잘게 썬 대파를 볶다가 오징어를 넣습니다.",
+          "오징어에서 수분이 나오면 설탕, 간장·마늘·고춧가루·고추장을 차례로 더합니다.",
+          "당근·양배추·양파·물을 넣어 센 불로 볶습니다.",
+          "남은 대파와 고추, 참기름을 섞고 통깨를 뿌립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "0CL9U_Se8Gs",
+        "url": "https://www.youtube.com/watch?v=0CL9U_Se8Gs",
+        "title": "밥을 훔친 오징어볶음&덮밥",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "56ae962d04d8db143f2de121f18a10f94f65aa101600c57a8b0a3f964da3c8dd"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_0q0btGvIrWY",
+      "names": {
+        "ko": "콩나물무침(100인분) · 백종원 참고",
+        "en": "콩나물무침(100인분) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "콩나물무침",
+        "콩나물무침(100인분)",
+        "백종원"
+      ],
+      "servings": 100,
+      "ingredients": [],
+      "ingredients_text": "*주 재료*\n콩나물: 2박스 8kg\n대파: 600g\n당근: 400g\n*양념*\n다진마늘: 240g\n참기름: 200ml\n꽃소금: 70g\n통깨: 60g\nmsg(미원): 20g",
+      "steps": {
+        "ko": [
+          "충분한 끓는 물에 콩나물을 삶아 머리 부분까지 부드러워졌는지 확인합니다.",
+          "찬물에 두세 번 헹군 뒤 체에 받쳐 물기를 뺍니다.",
+          "대파는 어슷하게, 당근은 얇은 채로 썹니다.",
+          "콩나물에 당근·소금·마늘·MSG·참기름·대파를 넣어 골고루 무칩니다.",
+          "마지막으로 통깨를 섞습니다. 이 분량은 가정용이 아닌 원본의 100인분입니다."
+        ],
+        "en": [
+          "충분한 끓는 물에 콩나물을 삶아 머리 부분까지 부드러워졌는지 확인합니다.",
+          "찬물에 두세 번 헹군 뒤 체에 받쳐 물기를 뺍니다.",
+          "대파는 어슷하게, 당근은 얇은 채로 썹니다.",
+          "콩나물에 당근·소금·마늘·MSG·참기름·대파를 넣어 골고루 무칩니다.",
+          "마지막으로 통깨를 섞습니다. 이 분량은 가정용이 아닌 원본의 100인분입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "0q0btGvIrWY",
+        "url": "https://www.youtube.com/watch?v=0q0btGvIrWY",
+        "title": "빡세게 팍팍 무쳤쥬!? 백종원의 대용량 레시피 3탄: 콩나물무침 100인분! ㅣ 백종원의 대용량 레시피",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "c992cc9d6a7371856f1f86ef5be11d98c7b1aa2cd7d113c5a9fa8dc8b23362ff"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_EUdt9GjWj5c",
+      "names": {
+        "ko": "멸치볶음(간장) · 백종원 참고",
+        "en": "멸치볶음(간장) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "멸치볶음",
+        "멸치볶음(간장)",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "간장 양념 재료\n중멸치: 약 1컵(50g)\n청양고추: 1개(10g)\n물엿: 2큰술(32g)\n식용유: 3큰술(21g)\n진간장: 1큰술(10g)\n참기름: 1큰술(7g)\n황설탕: 1/2큰술(6g)\n통깨: 약간(2g)",
+      "steps": {
+        "ko": [
+          "간장·물엿·설탕을 섞고 고추는 잘게 썹니다.",
+          "기름에 멸치를 볶습니다. 큰 멸치는 미리 머리와 내장, 가시를 제거합니다.",
+          "멸치를 한쪽으로 밀고 약불에서 양념을 끓여 설탕을 녹입니다.",
+          "양념에 거품이 나면 멸치와 고추를 섞어 볶습니다.",
+          "불을 끄고 참기름과 통깨를 더합니다."
+        ],
+        "en": [
+          "간장·물엿·설탕을 섞고 고추는 잘게 썹니다.",
+          "기름에 멸치를 볶습니다. 큰 멸치는 미리 머리와 내장, 가시를 제거합니다.",
+          "멸치를 한쪽으로 밀고 약불에서 양념을 끓여 설탕을 녹입니다.",
+          "양념에 거품이 나면 멸치와 고추를 섞어 볶습니다.",
+          "불을 끄고 참기름과 통깨를 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "EUdt9GjWj5c",
+        "url": "https://www.youtube.com/watch?v=EUdt9GjWj5c",
+        "title": "밥도둑을 두 개나 만들어버렸어요;; 간장맛 vs 고추장맛 과연 승자는?",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "39c3642dd5a750ba998401d5807eba5ad6c5bfd867a14ef392f2de4b3328a2b2"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_7VNH9Fvvus0",
+      "names": {
+        "ko": "햄감자채볶음 · 백종원 참고",
+        "en": "햄감자채볶음 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "감자볶음",
+        "햄감자채볶음",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*감자 데치기\n정수물: 약5과1/2컵(1L)\n감자: 2개(400g)\n*감자채볶음\n데친 감자채 전량\n통조림햄: 1캔(200g)\n양파: 약1/4개(60g)\n식용유: 3큰술(21g)\n당근: 약간(20g)\n대파: 약간(20g)\n꽃소금: 1/4큰술(3g)\n후추가루: 약간",
+      "steps": {
+        "ko": [
+          "감자·당근·양파·햄을 채 썰고 대파를 썹니다.",
+          "끓는 물에 감자채를 약 1분 데친 뒤 물기를 뺍니다. 두께에 따라 시간을 조절합니다.",
+          "기름에 햄을 노릇하게 굽고 양파를 볶습니다.",
+          "감자·당근·소금·후추를 더해 센 불로 볶다가 익으면 대파를 섞습니다."
+        ],
+        "en": [
+          "감자·당근·양파·햄을 채 썰고 대파를 썹니다.",
+          "끓는 물에 감자채를 약 1분 데친 뒤 물기를 뺍니다. 두께에 따라 시간을 조절합니다.",
+          "기름에 햄을 노릇하게 굽고 양파를 볶습니다.",
+          "감자·당근·소금·후추를 더해 센 불로 볶다가 익으면 대파를 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "7VNH9Fvvus0",
+        "url": "https://www.youtube.com/watch?v=7VNH9Fvvus0",
+        "title": "누구나 100% 성공하는 햄감자채볶음! 요즘 이거 때문에 밥 거덜 납니다",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "b16fa7ceca4be70760661edd361cb37ce20683519ead6c5f7f3883ec52f95a86"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_e--h7ax_6pQ",
+      "names": {
+        "ko": "참치김치찌개 · 백종원 참고",
+        "en": "참치김치찌개 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "참치김치찌개",
+        "참치김치찌개",
+        "백종원"
+      ],
+      "servings": 2,
+      "ingredients": [],
+      "ingredients_text": "정수 물: 약 2컵(400ml)\n신김치: 약 1컵(150g)\n양파: 약 1/2개(100g)\n두부: 1/2팩(90g)\n참치캔: 1/2캔(50g)\n대파: 약 1/3대(30g)\n국간장: 2큰술(20g)\n간 마늘: 1큰술(20g)\n굵은 고춧가루: 2큰술(16g)\n청양고추: 1개(10g)\n황설탕: 1/4큰술(3g)",
+      "steps": {
+        "ko": [
+          "양파·대파·고추를 얇게 썰고 두부는 약 1cm 두께로 자릅니다.",
+          "두부를 제외한 찌개 재료를 냄비에 담아 센 불로 끓입니다. 참치는 캔의 기름과 함께 사용합니다.",
+          "끓기 시작하면 두부를 더해 약 5분 익힙니다.",
+          "불을 중불로 낮춰 끓이면서 먹습니다."
+        ],
+        "en": [
+          "양파·대파·고추를 얇게 썰고 두부는 약 1cm 두께로 자릅니다.",
+          "두부를 제외한 찌개 재료를 냄비에 담아 센 불로 끓입니다. 참치는 캔의 기름과 함께 사용합니다.",
+          "끓기 시작하면 두부를 더해 약 5분 익힙니다.",
+          "불을 중불로 낮춰 끓이면서 먹습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "e--h7ax_6pQ",
+        "url": "https://www.youtube.com/watch?v=e--h7ax_6pQ",
+        "title": "참치김치찌개 끓이기 전에 '이거' 같이 안 해 먹으면 손해!",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "219c1fabb2a42a3baa8e215418be1f4a6438ab113055c7fae0dd2d834df54810"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    },
+    {
+      "id": "paik_rrNfCVRFsvs",
+      "names": {
+        "ko": "잡채 · 백종원 참고",
+        "en": "잡채 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "잡채",
+        "잡채",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "당면: 250g\n시금치: 150g\n돼지고기(잡채용): 2/3컵(110g)\n건 목이버섯: 1/2컵(3g)\n양파: 2컵(180g)\n대파: 2/3컵(40g)\n당근: 2/3컵(40g)\n진간장: 4큰술(30g)\n황설탕: 2큰술(22g)\n참기름: 4큰술(25g)\n간 마늘: 1큰술(15g)\n식용유: 4큰술(25g)\n꽃소금: 1/3큰술(2g)\n통깨: 1/2큰술(4g)\nMSG: 1/3큰술(2g)\n후춧가루: 1g\n노두유: 1큰술(6g)",
+      "steps": {
+        "ko": [
+          "당면과 목이버섯을 약 30분 불립니다. 당면은 삶고 버섯은 먹기 좋게 나눕니다.",
+          "채소를 썰고 시금치는 뿌리를 제거합니다.",
+          "기름에 돼지고기를 소금과 볶다가 양파·당근·대파·버섯·후추를 더합니다. 시금치는 마지막에 넣습니다.",
+          "볶은 재료를 펼쳐 식히고, 삶은 당면은 마늘·설탕·간장·소금으로 간합니다.",
+          "당면과 볶은 재료를 섞고 노두유로 색을 조절한 뒤 참기름과 깨로 마무리합니다."
+        ],
+        "en": [
+          "당면과 목이버섯을 약 30분 불립니다. 당면은 삶고 버섯은 먹기 좋게 나눕니다.",
+          "채소를 썰고 시금치는 뿌리를 제거합니다.",
+          "기름에 돼지고기를 소금과 볶다가 양파·당근·대파·버섯·후추를 더합니다. 시금치는 마지막에 넣습니다.",
+          "볶은 재료를 펼쳐 식히고, 삶은 당면은 마늘·설탕·간장·소금으로 간합니다.",
+          "당면과 볶은 재료를 섞고 노두유로 색을 조절한 뒤 참기름과 깨로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "rrNfCVRFsvs",
+        "url": "https://www.youtube.com/watch?v=rrNfCVRFsvs",
+        "title": "'잡채 초간단 버전', 그리고 '잡채밥' 입니다. 어제꺼 보다 훨씬 쉬워요!  그리고 명절 즐겁게 보내세요 ^^ ㅣ 백종원의 쿠킹로그",
+        "retrieved_on": "2026-10-08",
+        "description_sha256": "02a69bf2d88833c8979c17c1cb648165d9c31000d09c69d25636dab7ceaea14c"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+    }
+  ]
+}

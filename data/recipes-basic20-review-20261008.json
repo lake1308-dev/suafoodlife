@@ -1,0 +1,147 @@
+{
+  "reviewed_on": "2026-10-08",
+  "target_count": 20,
+  "verified_count": 20,
+  "items": [
+    {
+      "name": "김치찌개",
+      "status": "verified",
+      "recipe_id": "paik_DnQ09ZZCjCs",
+      "source_url": "https://www.youtube.com/watch?v=DnQ09ZZCjCs",
+      "servings_confirmed": 2
+    },
+    {
+      "name": "된장찌개",
+      "status": "verified",
+      "recipe_id": "paik_ffuakdFmuh4",
+      "source_url": "https://www.youtube.com/watch?v=ffuakdFmuh4",
+      "servings_confirmed": null
+    },
+    {
+      "name": "미역국",
+      "status": "verified",
+      "recipe_id": "paik_xsTFsunt6-8",
+      "source_url": "https://www.youtube.com/watch?v=xsTFsunt6-8",
+      "servings_confirmed": null
+    },
+    {
+      "name": "제육볶음",
+      "status": "verified",
+      "recipe_id": "paik_j7s9VRsrm9o",
+      "source_url": "https://www.youtube.com/watch?v=j7s9VRsrm9o",
+      "servings_confirmed": null
+    },
+    {
+      "name": "불고기",
+      "status": "verified",
+      "recipe_id": "paik_p3IQTouKyH0",
+      "source_url": "https://www.youtube.com/watch?v=p3IQTouKyH0",
+      "servings_confirmed": 4
+    },
+    {
+      "name": "닭볶음탕",
+      "status": "verified",
+      "recipe_id": "paik_-EwR5eshbPE",
+      "source_url": "https://www.youtube.com/watch?v=-EwR5eshbPE",
+      "servings_confirmed": null
+    },
+    {
+      "name": "떡볶이",
+      "status": "verified",
+      "recipe_id": "paik_t4Es8mwdYlE",
+      "source_url": "https://www.youtube.com/watch?v=t4Es8mwdYlE",
+      "servings_confirmed": null
+    },
+    {
+      "name": "김치볶음밥",
+      "status": "verified",
+      "recipe_id": "paik_eIo2BaE6LxI",
+      "source_url": "https://www.youtube.com/watch?v=eIo2BaE6LxI",
+      "servings_confirmed": null
+    },
+    {
+      "name": "계란볶음밥",
+      "status": "verified",
+      "recipe_id": "paik_kR77WlHRZrs",
+      "source_url": "https://www.youtube.com/watch?v=kR77WlHRZrs",
+      "servings_confirmed": null
+    },
+    {
+      "name": "비빔밥",
+      "status": "verified",
+      "recipe_id": "paik_Jq2SwKMw8vI",
+      "source_url": "https://www.youtube.com/watch?v=Jq2SwKMw8vI",
+      "servings_confirmed": 1
+    },
+    {
+      "name": "순두부찌개",
+      "status": "verified",
+      "recipe_id": "paik_GP8_7D5eM6A",
+      "source_url": "https://www.youtube.com/watch?v=GP8_7D5eM6A",
+      "servings_confirmed": null
+    },
+    {
+      "name": "부대찌개",
+      "status": "verified",
+      "recipe_id": "paik_8uwmFQH614M",
+      "source_url": "https://www.youtube.com/watch?v=8uwmFQH614M",
+      "servings_confirmed": null
+    },
+    {
+      "name": "감자조림",
+      "status": "verified",
+      "recipe_id": "paik_3gQwydGHIG8",
+      "source_url": "https://www.youtube.com/watch?v=3gQwydGHIG8",
+      "servings_confirmed": null
+    },
+    {
+      "name": "계란말이",
+      "status": "verified",
+      "recipe_id": "paik_T7YJviWhquo",
+      "source_url": "https://www.youtube.com/watch?v=T7YJviWhquo",
+      "servings_confirmed": null
+    },
+    {
+      "name": "오징어볶음",
+      "status": "verified",
+      "recipe_id": "paik_0CL9U_Se8Gs",
+      "source_url": "https://www.youtube.com/watch?v=0CL9U_Se8Gs",
+      "servings_confirmed": 2
+    },
+    {
+      "name": "콩나물무침",
+      "status": "verified",
+      "recipe_id": "paik_0q0btGvIrWY",
+      "source_url": "https://www.youtube.com/watch?v=0q0btGvIrWY",
+      "servings_confirmed": 100
+    },
+    {
+      "name": "멸치볶음",
+      "status": "verified",
+      "recipe_id": "paik_EUdt9GjWj5c",
+      "source_url": "https://www.youtube.com/watch?v=EUdt9GjWj5c",
+      "servings_confirmed": null
+    },
+    {
+      "name": "감자볶음",
+      "status": "verified",
+      "recipe_id": "paik_7VNH9Fvvus0",
+      "source_url": "https://www.youtube.com/watch?v=7VNH9Fvvus0",
+      "servings_confirmed": null
+    },
+    {
+      "name": "참치김치찌개",
+      "status": "verified",
+      "recipe_id": "paik_e--h7ax_6pQ",
+      "source_url": "https://www.youtube.com/watch?v=e--h7ax_6pQ",
+      "servings_confirmed": 2
+    },
+    {
+      "name": "잡채",
+      "status": "verified",
+      "recipe_id": "paik_rrNfCVRFsvs",
+      "source_url": "https://www.youtube.com/watch?v=rrNfCVRFsvs",
+      "servings_confirmed": null
+    }
+  ]
+}

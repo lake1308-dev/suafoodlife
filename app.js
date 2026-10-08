@@ -103,6 +103,7 @@ async function loadRecipeDB(){
  try{
   const res=await fetch("data/recipes.json?v=0.2.3",{cache:"no-store"});
   const data=await res.json(); DB_RECIPES=data.recipes||[];
+  try{const creatorRes=await fetch("data/recipes-creator-20261008.json?v=1.0.0",{cache:"no-store"});if(creatorRes.ok){const creator=await creatorRes.json();DB_RECIPES.push(...(creator.recipes||[]));}}catch(err){console.warn("Creator reference recipes unavailable.",err)}
   const publicRes=await fetch("data/recipes-public-20261008.json.gz?v=1.0.0",{cache:"no-store"});
   if(publicRes.ok){const bytes=new Uint8Array(await publicRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}
  }catch(err){console.warn("Recipe DB unavailable; using bundled fallback.",err)}
@@ -555,7 +556,7 @@ function renderDBRecipeCard(r,host){
  const meta=[r.country,r.region].filter(Boolean).join(" · ");
  const country=document.createElement("span");country.className="country";country.textContent=meta;
  const title=document.createElement("h3");title.textContent=lang==="ko"?r.names.ko:r.names.en;
- const summary=document.createElement("p");summary.textContent=r.public_recipe?r.category_ko+" · 식약처 레시피":r.ingredients.slice(0,5).map(x=>dbIngredientName(x.ingredient_id)).join(" · ");
+ const summary=document.createElement("p");summary.textContent=r.public_recipe?r.category_ko+" · "+(r.source_label||"식약처 레시피"):r.ingredients.slice(0,5).map(x=>dbIngredientName(x.ingredient_id)).join(" · ");
  const open=document.createElement("span");open.className="open";open.textContent=tr("View recipe →","레시피·재료 보기 →");c.append(country,title,summary,open);
  c.onclick=()=>{lastRecipeTrigger=c;returnTarget=host.id==="ingredientRecipeResults"?"result":host.id==="exploreGrid"?"explorer":"recipeSearchResults";renderDBRecipe(r)};host.appendChild(c);
 }
@@ -591,7 +592,7 @@ function updateDBRecipeNutrition(){
 function renderPublicRecipe(r,scroll=true){
  currentDish=r;$("recipe").classList.remove("hidden");
  $("recipeName").textContent=r.names.ko;
- $("recipeMeta").textContent=r.category_ko+" · "+r.category+" · 식약처 공개 레시피";
+ $("recipeMeta").textContent=r.category_ko+" · "+(r.source_label||"식약처 공개 레시피")+(r.source_kind==="creator_reference"?" · "+(r.servings?r.servings+"인분 (원본 기준)":"원본 인분 수 미표기"):" · "+r.category);
  $("recipeIngredients").replaceChildren();
  r.ingredients_text.split(/\n+/).forEach(line=>{const li=document.createElement("li");li.textContent=line;$("recipeIngredients").appendChild(li)});
  $("recipeSteps").replaceChildren();
@@ -600,7 +601,8 @@ function renderPublicRecipe(r,scroll=true){
  let note=document.getElementById("recipeNutritionNotice");if(!note){note=document.createElement("p");note.id="recipeNutritionNotice";note.className="data-note";$("recipeMeta").after(note)}
  note.classList.remove("hidden");note.replaceChildren();
  const text=document.createElement("span");text.textContent="재료와 분량은 출처의 조리 예시를 유지했습니다. 알레르기는 사용하는 재료·제품의 표시를 확인하세요. ";note.appendChild(text);
- const link=document.createElement("a");link.href=r.source.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent="출처: 식품의약품안전처 · 레시피 번호 "+r.source.record_id;note.appendChild(link);
+ const link=document.createElement("a");link.href=r.source.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=r.source_kind==="creator_reference"?"출처: "+r.source.name+" · 공식 영상 보기":"출처: 식품의약품안전처 · 레시피 번호 "+r.source.record_id;note.appendChild(link);
+ if(r.source_kind==="creator_reference"){const editorial=document.createElement("p");editorial.textContent=r.editorial_notice+" 영양값은 아직 계산하지 않았습니다. 원본 분량을 임의로 1인분으로 환산하지 않았습니다.";note.appendChild(editorial);if(scroll)$("recipe").scrollIntoView({behavior:"smooth",block:"start"});return}
  const nutrition=document.createElement("p");const n=r.source_nutrition;const fmt=(v,u)=>Number.isFinite(v)?v+u:"미제공";
  nutrition.textContent="출처 제공 영양값: 열량 "+fmt(n.kcal," kcal")+" · 단백질 "+fmt(n.protein_g,"g")+" · 탄수화물 "+fmt(n.carbs_g,"g")+" · 지방 "+fmt(n.fat_g,"g")+" · 나트륨 "+fmt(n.sodium_mg,"mg")+". "+(r.source_weight_text?"출처 중량 표기: "+r.source_weight_text:"기준 중량이 제공되지 않아 100g 또는 1인분 값으로 환산하지 않았습니다.")+" 재료별 재계산값이 아닙니다.";note.appendChild(nutrition);
  if(scroll)$("recipe").scrollIntoView({behavior:"smooth",block:"start"});
@@ -629,7 +631,7 @@ function recipeMatchScore(raw,fields){
 }
 function recipeSearch(q){
  const raw=normalize(q),host=$("recipeSearchResults");host.innerHTML="";if(!raw){host.innerHTML='<div class="recipe-no-result">'+tr("Enter a dish name, country, or cooking style.","요리 이름, 나라 또는 요리방식을 입력해 주세요.")+"</div>";$("recipeSearchInput").focus();return}
- const db=DB_RECIPES.map(r=>({r,score:recipeMatchScore(raw,[r.names.en,r.names.ko,r.country,r.region,r.category,r.category_ko,...(r.tags||[]),...(r.tags_ko||[])])})).filter(x=>x.score<Infinity).sort((a,b)=>a.score-b.score||(lang==="ko"?a.r.names.ko:a.r.names.en).localeCompare(lang==="ko"?b.r.names.ko:b.r.names.en,"ko")).slice(0,18);
+ const db=DB_RECIPES.map(r=>({r,score:recipeMatchScore(raw,[r.names.en,r.names.ko,r.country,r.region,r.category,r.category_ko,...(r.tags||[]),...(r.tags_ko||[])])})).filter(x=>x.score<Infinity).sort((a,b)=>a.score-b.score||Number(!!b.r.verified_source)-Number(!!a.r.verified_source)||(lang==="ko"?a.r.names.ko:a.r.names.en).localeCompare(lang==="ko"?b.r.names.ko:b.r.names.en,"ko")).slice(0,18);
  if(db.length){db.forEach(x=>renderDBRecipeCard(x.r,host));return}
  const matches=DISHES.map(d=>({d,score:recipeMatchScore(raw,[d.name,d.nameKo,d.country,d.countryKo,d.region,d.regionKo,d.type,d.typeKo,d.desc,d.descKo])})).filter(x=>x.score<Infinity).sort((a,b)=>a.score-b.score||tr(a.d.name,a.d.nameKo).localeCompare(tr(b.d.name,b.d.nameKo),"ko")).slice(0,12).map(x=>x.d);
  if(!matches.length){host.innerHTML='<div class="recipe-no-result">'+tr("No matching recipe yet. Try a shorter dish name, country, region, or cooking style.","일치하는 레시피가 없습니다. 요리 이름을 짧게 쓰거나 나라·지역·요리방식으로 검색해 보세요.")+'</div>';return}
