@@ -1,10 +1,10 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "reviewed_on": "2026-10-08",
   "reviewed_count": 50,
-  "contains_confirmed_count": 41,
+  "contains_confirmed_count": 42,
   "cross_contact_confirmed_count": 21,
-  "contains_unverified_count": 9,
+  "contains_unverified_count": 8,
   "products": [
     {
       "id": "kurly_label_5060444",
@@ -1844,14 +1844,14 @@
       "category": "packaged_food",
       "verification_status": "product_label",
       "nutrition_per_100g": {
-        "kcal": null,
-        "protein_g": null,
-        "carbs_g": null,
-        "fat_g": null,
-        "sat_fat_g": null,
-        "sugars_g": null,
-        "sodium_mg": null,
-        "cholesterol_mg": null
+        "kcal": 65,
+        "protein_g": 3,
+        "carbs_g": 5,
+        "fat_g": 3.8,
+        "sat_fat_g": 2.3,
+        "sugars_g": 5,
+        "sodium_mg": 50,
+        "cholesterol_mg": 15
       },
       "allergen_info": {
         "basis": "product_label_review",
@@ -1862,9 +1862,18 @@
         "cross_contact_kind": "shared_facility",
         "source_url": "https://www.kurly.com/goods/1001453756",
         "checked_on": "2026-10-08",
-        "review_note": "함유 원료 표시를 직접 확인하지 못했습니다. 제조시설 정보만으로 함유 여부를 판단하지 않습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+        "review_note": "공식 제품 페이지에서 영양값을 확인했습니다(100mL 기준). 별도 알레르기 표시 및 제조시설 안내는 아직 직접 확인하지 못했습니다."
       },
       "sources": [
+        {
+          "source": "서울우유 공식 제품 영양성분표",
+          "source_url": "https://www.seoulmilk.co.kr/mobile/product/product_view.sm?nmNo=10000000000478&page=1&subname=P0",
+          "basis": "100ml",
+          "label_basis": "100ml",
+          "declared_weight": "700mL",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 영양정보"
+        },
         {
           "source": "컬리 판매자 제공 제품 표시정보",
           "source_url": "https://www.kurly.com/goods/1001453756",
@@ -2577,19 +2586,23 @@
       "category": "packaged_food",
       "verification_status": "product_label",
       "nutrition_per_100g": {
-        "kcal": null,
-        "protein_g": null,
-        "carbs_g": null,
-        "fat_g": null,
-        "sat_fat_g": null,
-        "sugars_g": null,
-        "sodium_mg": null,
-        "cholesterol_mg": null
+        "kcal": 515,
+        "protein_g": 0,
+        "carbs_g": 16,
+        "fat_g": 50,
+        "sat_fat_g": 8,
+        "sugars_g": 16,
+        "sodium_mg": 700,
+        "cholesterol_mg": 30
       },
       "allergen_info": {
         "basis": "product_label_review",
-        "contains": [],
-        "contains_status": "unverified",
+        "contains": [
+          "알류",
+          "우유",
+          "대두"
+        ],
+        "contains_status": "confirmed",
         "cross_contact": [
           "메밀",
           "땅콩",
@@ -2610,11 +2623,22 @@
         ],
         "cross_contact_status": "confirmed",
         "cross_contact_kind": "possible_cross_contact",
-        "source_url": "https://www.kurly.com/goods/1000244528",
+        "source_url": "https://jungoneshop.com/goods/goods_view.php?goodsNo=179",
         "checked_on": "2026-10-08",
-        "review_note": "함유 원료 표시를 직접 확인하지 못했습니다. 제조시설 정보만으로 함유 여부를 판단하지 않습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+        "review_note": "제조사 공식몰의 315g 제품 표시 이미지에서 달걀·우유·대두 함유와 혼입 가능 안내를 확인했습니다. 영양값은 100g 기준입니다.",
+        "label_image_url": "https://daesang12.hgodo.com/chungjungone/1005381/on_04.jpg"
       },
       "sources": [
+        {
+          "source": "대상 공식몰 제품 표시정보",
+          "source_url": "https://jungoneshop.com/goods/goods_view.php?goodsNo=179",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "315g",
+          "manufacturer": "대상(주) 기흥공장",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        },
         {
           "source": "컬리 판매자 제공 제품 표시정보",
           "source_url": "https://www.kurly.com/goods/1000244528",
@@ -2896,5 +2920,6 @@
         }
       ]
     }
-  ]
+  ],
+  "nutrition_confirmed_count": 2
 }
