@@ -1,0 +1,28 @@
+{
+  "reviewed_on": "2026-10-09",
+  "added_controls": 3,
+  "items": [
+    {
+      "recipe_id": "paik_FbApByZGCXg",
+      "name": "쫄면",
+      "original_servings": 1,
+      "source_url": "https://www.youtube.com/watch?v=FbApByZGCXg",
+      "status": "source_servings_and_ingredient_basis_reviewed"
+    },
+    {
+      "recipe_id": "paik_wTtHP5qFOio_perilla",
+      "name": "들기름막라면",
+      "original_servings": 1,
+      "source_url": "https://www.youtube.com/watch?v=wTtHP5qFOio",
+      "status": "source_servings_and_ingredient_basis_reviewed"
+    },
+    {
+      "recipe_id": "paik_mZ2C8gEw8Vk",
+      "name": "갈치조림",
+      "original_servings": 2,
+      "source_url": "https://www.youtube.com/watch?v=mZ2C8gEw8Vk",
+      "status": "source_servings_and_ingredient_basis_reviewed"
+    }
+  ],
+  "policy": "Measured weights or explicit package counts; fractions parsed; unknown amounts remain manual; original quantities restored; no proportional cooking time"
+}

@@ -1,5 +1,5 @@
 {
-  "version": "1.18.0",
+  "version": "1.18.1",
   "record_count": 130,
   "recipes": [
     {
@@ -6545,7 +6545,116 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
-      }
+      },
+      "portion_lines": [
+        {
+          "original_line": "*양념장",
+          "heading": true
+        },
+        {
+          "original_line": "고추장: 2와 2/3큰술(35g)",
+          "name": "고추장",
+          "amount": 35.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "황설탕: 2큰술(24g)",
+          "name": "황설탕",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "양조 식초: 3과 1/2큰술(28g)",
+          "name": "양조 식초",
+          "amount": 28.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "간 마늘: 1/2큰술(10g)",
+          "name": "간 마늘",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "진간장: 1/2큰술(5g)",
+          "name": "진간장",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "참기름: 약 1/2큰술(4g)",
+          "name": "참기름",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "고운 고춧가루: 1/2큰술(3g)",
+          "name": "고운 고춧가루",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "*쫄면",
+          "heading": true
+        },
+        {
+          "original_line": "물(쫄면 삶을 물): 약 6컵",
+          "name": "물(쫄면 삶을 물)"
+        },
+        {
+          "original_line": "쫄면사리: 1개(204g)",
+          "name": "쫄면사리",
+          "amount": 204.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "양념장 전량",
+          "name": "양념장 전량"
+        },
+        {
+          "original_line": "통깨: 약간(1g)",
+          "name": "통깨",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "삶은 콩나물 : 약간(80g)",
+          "name": "삶은 콩나물",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "불린미역 : 약간(30g)",
+          "name": "불린미역",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "양배추 채 : 약간(80g)",
+          "name": "양배추 채",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "상추 채 : 약간(10g)",
+          "name": "상추 채",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "당근 채 : 약간(20g)",
+          "name": "당근 채",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "삶은달걀: 1/2개",
+          "name": "삶은달걀",
+          "amount": 0.5,
+          "unit": "개"
+        }
+      ],
+      "portion_notice": " 재료량은 원본 인분에 비례한 참고값입니다. 양념은 입맛에 맞게 조절하고 조리 시간과 불 세기는 비례해서 바꾸지 마세요."
     },
     {
       "id": "paik_kj2ZupQ7fts",
@@ -10366,7 +10475,7 @@
         "description_sha256": "d82331f9e33b28a508c2ae33f8dceb75da01a64e23060e5e26c88a920981cc14"
       },
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
-      "portion_notice": "원본은 1인분이며 메밀면 대신 라면사리를 사용합니다. 라면 제품과 무게가 미지정이라 전체 영양 계산을 보류했습니다.",
+      "portion_notice": "원본은 1인분이며 메밀면 대신 라면사리를 사용합니다. 라면 제품과 무게가 미지정이라 전체 영양 계산을 보류했습니다. 재료량은 원본 인분에 비례한 참고값입니다. 양념은 입맛에 맞게 조절하고 조리 시간과 불 세기는 비례해서 바꾸지 마세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
         "checked_on": "2026-10-08",
@@ -10378,7 +10487,61 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
-      }
+      },
+      "portion_lines": [
+        {
+          "original_line": "정수물: 500ml",
+          "name": "정수물",
+          "amount": 500.0,
+          "unit": "ml"
+        },
+        {
+          "original_line": "라면사리: 1봉",
+          "name": "라면사리",
+          "amount": 1.0,
+          "unit": "봉"
+        },
+        {
+          "original_line": "구운 파래김: 2장 (4g)",
+          "name": "구운 파래김",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "탈피들깨가루: 약 1/3큰술 (3g)",
+          "name": "탈피들깨가루",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "쪽파 약간 (5g)",
+          "name": "쪽파",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "[양념장 재료]",
+          "heading": true
+        },
+        {
+          "original_line": "국간장: 1큰술 (10g)",
+          "name": "국간장",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "황설탕 약1/4큰술 (3g)",
+          "name": "황설탕",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "들기름: 약 2와 1/2큰술 (17g)",
+          "name": "들기름",
+          "amount": 17.0,
+          "unit": "g"
+        }
+      ]
     },
     {
       "id": "paik_tHkbJgBUaiI_cabbageegg",
@@ -13235,7 +13398,7 @@
         "description_sha256": "e7b16754cda6d37405b450a6ad51654dfc7a4d7c041581ad5e53aa0e0cd3b598"
       },
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
-      "portion_notice": "원본은 2인분입니다. 한글 재료 목록의 고춧가루 45g을 사용했습니다. 영문 목록은 30g으로 달라 공식 영상을 함께 확인해 주세요. 갈치의 뼈를 제외한 가식량과 남기는 국물 양이 미확인이라 영양 계산은 보류했습니다.",
+      "portion_notice": "원본은 2인분입니다. 한글 재료 목록의 고춧가루 45g을 사용했습니다. 영문 목록은 30g으로 달라 공식 영상을 함께 확인해 주세요. 갈치의 뼈를 제외한 가식량과 남기는 국물 양이 미확인이라 영양 계산은 보류했습니다. 재료량은 원본 인분에 비례한 참고값입니다. 양념은 입맛에 맞게 조절하고 조리 시간과 불 세기는 비례해서 바꾸지 마세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
         "checked_on": "2026-10-08",
@@ -13248,7 +13411,87 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
-      }
+      },
+      "portion_lines": [
+        {
+          "original_line": "물: 약 3컵(500ml)",
+          "name": "물",
+          "amount": 500.0,
+          "unit": "ml"
+        },
+        {
+          "original_line": "손질갈치: 4~5토막(300g)",
+          "name": "손질갈치",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "무: 약 1/10개(250g)",
+          "name": "무",
+          "amount": 250.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "대파: 1대(100g)",
+          "name": "대파",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "국간장: 1/4컵(50g)",
+          "name": "국간장",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "굵은 고춧가루: 약 1/2컵(45g)",
+          "name": "굵은 고춧가루",
+          "amount": 45.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "물엿: 2큰술(30g)",
+          "name": "물엿",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "청양고추: 약 3개(26g)",
+          "name": "청양고추",
+          "amount": 26.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "간 마늘: 약 1큰술(24g)",
+          "name": "간 마늘",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "맛술: 2큰술(20g)",
+          "name": "맛술",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "고추장: 약 1큰술(15g)",
+          "name": "고추장",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "황설탕: 약 1큰술(11g)",
+          "name": "황설탕",
+          "amount": 11.0,
+          "unit": "g"
+        },
+        {
+          "original_line": "꽃소금: 1/6큰술(2g)",
+          "name": "꽃소금",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ]
     },
     {
       "id": "paik_sRQxVQ5-NNA",
