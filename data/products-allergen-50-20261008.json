@@ -1,0 +1,2913 @@
+{
+  "version": "0.1.0",
+  "reviewed_on": "2026-10-08",
+  "reviewed_count": 50,
+  "contains_confirmed_count": 41,
+  "cross_contact_confirmed_count": 21,
+  "contains_unverified_count": 9,
+  "products": [
+    {
+      "id": "kurly_label_5060444",
+      "names": {
+        "ko": "풀무원 로스팅 정면 4입",
+        "en": "풀무원 로스팅 정면 4입"
+      },
+      "aliases": {
+        "ko": [
+          "풀무원로스팅정면4입"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "땅콩",
+          "대두",
+          "밀"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "우유",
+          "메밀",
+          "밀",
+          "고등어",
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "쇠고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5060444",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5060444",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "102.8g*4개입",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001320916",
+      "names": {
+        "ko": "장터만두 시장 고기 만두 840g",
+        "en": "장터만두 시장 고기 만두 840g"
+      },
+      "aliases": {
+        "ko": [
+          "장터만두시장고기만두840g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "우유",
+          "대두",
+          "밀",
+          "돼지고기",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "새우",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1001320916",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001320916",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "840g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5121225",
+      "names": {
+        "ko": "농심 신라면 건면 큰사발 4입",
+        "en": "농심 신라면 건면 큰사발 4입"
+      },
+      "aliases": {
+        "ko": [
+          "농심신라면건면큰사발4입"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "우유",
+          "대두",
+          "밀",
+          "돼지고기",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "새우",
+          "토마토",
+          "호두",
+          "닭고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5121225",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5121225",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "308g(77gX4입)",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001505506",
+      "names": {
+        "ko": "장터만두 시장 김치 만두 840g",
+        "en": "장터만두 시장 김치 만두 840g"
+      },
+      "aliases": {
+        "ko": [
+          "장터만두시장김치만두840g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "우유",
+          "대두",
+          "밀",
+          "새우",
+          "돼지고기",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1001505506",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001505506",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "840g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5134067",
+      "names": {
+        "ko": "하림 The 미식 장인라면 담백한맛 컵",
+        "en": "하림 The 미식 장인라면 담백한맛 컵"
+      },
+      "aliases": {
+        "ko": [
+          "하림The미식장인라면담백한맛컵"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "돼지고기",
+          "토마토",
+          "닭고기",
+          "쇠고기",
+          "이산화황"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "새우",
+          "복숭아",
+          "호두",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5134067",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5134067",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "106g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5013523",
+      "names": {
+        "ko": "한만두 매콤한 갈비만두",
+        "en": "한만두 매콤한 갈비만두"
+      },
+      "aliases": {
+        "ko": [
+          "한만두매콤한갈비만두"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "대두",
+          "밀",
+          "돼지고기",
+          "닭고기",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5013523",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5013523",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "420g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5013192",
+      "names": {
+        "ko": "창화당 김치궁중만두",
+        "en": "창화당 김치궁중만두"
+      },
+      "aliases": {
+        "ko": [
+          "창화당김치궁중만두"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "우유",
+          "대두",
+          "밀",
+          "새우",
+          "돼지고기",
+          "토마토",
+          "닭고기",
+          "쇠고기",
+          "조개류",
+          "굴"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "오징어",
+          "조개류",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5013192",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5013192",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "700g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5013191",
+      "names": {
+        "ko": "창화당 고기궁중만두",
+        "en": "창화당 고기궁중만두"
+      },
+      "aliases": {
+        "ko": [
+          "창화당고기궁중만두"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "대두",
+          "밀",
+          "돼지고기",
+          "닭고기",
+          "조개류",
+          "굴"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "우유",
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "새우",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "쇠고기",
+          "오징어",
+          "조개류",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5013191",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5013191",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "700g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1000357125",
+      "names": {
+        "ko": "푸디버디 빨강라면 4입",
+        "en": "푸디버디 빨강라면 4입"
+      },
+      "aliases": {
+        "ko": [
+          "푸디버디빨강라면4입"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [],
+        "contains_status": "unverified",
+        "cross_contact": [
+          "알류",
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "아황산류",
+          "호두",
+          "조개류",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1000357125",
+        "checked_on": "2026-10-08",
+        "review_note": "함유 원료 표시를 직접 확인하지 못했습니다. 제조시설 정보만으로 함유 여부를 판단하지 않습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1000357125",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "84g*4봉",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5005166",
+      "names": {
+        "ko": "풀무원 생면식감 매운맛 4입",
+        "en": "풀무원 생면식감 매운맛 4입"
+      },
+      "aliases": {
+        "ko": [
+          "풀무원생면식감매운맛4입"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "게",
+          "돼지고기",
+          "닭고기",
+          "쇠고기",
+          "오징어"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "새우",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5005166",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5005166",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "383.6g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1000347300",
+      "names": {
+        "ko": "소반옥 사골 떡 만둣국 (2인분)",
+        "en": "소반옥 사골 떡 만둣국 (2인분)"
+      },
+      "aliases": {
+        "ko": [
+          "소반옥사골떡만둣국(2인분)"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "우유",
+          "대두",
+          "밀",
+          "돼지고기",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "새우",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1000347300",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1000347300",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "640g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001390087",
+      "names": {
+        "ko": "삼양 별뽀빠이 72g X 4개입",
+        "en": "삼양 별뽀빠이 72g X 4개입"
+      },
+      "aliases": {
+        "ko": [
+          "삼양별뽀빠이72gX4개입"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1001390087",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001390087",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "288g (72g X 4개입)",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1002121374",
+      "names": {
+        "ko": "오리온 스윙칩 바베큐갈비라면맛 105g",
+        "en": "오리온 스윙칩 바베큐갈비라면맛 105g"
+      },
+      "aliases": {
+        "ko": [
+          "오리온스윙칩바베큐갈비라면맛105g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "토마토",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "땅콩",
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "호두",
+          "닭고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "홍합"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "possible_cross_contact",
+        "source_url": "https://www.kurly.com/goods/1002121374",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1002121374",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "105g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001026648",
+      "names": {
+        "ko": "비비고 진한 김치고기만두 200g",
+        "en": "비비고 진한 김치고기만두 200g"
+      },
+      "aliases": {
+        "ko": [
+          "비비고진한김치고기만두200g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "밀",
+          "돼지고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "우유",
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "새우",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "쇠고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "possible_cross_contact",
+        "source_url": "https://www.kurly.com/goods/1001026648",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001026648",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "200g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5095163",
+      "names": {
+        "ko": "하림 The 미식 장인라면 담백한 맛 4입",
+        "en": "하림 The 미식 장인라면 담백한 맛 4입"
+      },
+      "aliases": {
+        "ko": [
+          "하림The미식장인라면담백한맛4입"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [],
+        "contains_status": "unverified",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5095163",
+        "checked_on": "2026-10-08",
+        "review_note": "출처의 알레르기 원료명에 오기가 있어 표시 전체를 재확인할 때까지 연결을 보류했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5095163",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "448g(112g x 4개입)",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001368737",
+      "names": {
+        "ko": "풀무원 평양왕만두 1.4kg",
+        "en": "풀무원 평양왕만두 1.4kg"
+      },
+      "aliases": {
+        "ko": [
+          "풀무원평양왕만두1.4kg"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "돼지고기",
+          "밀",
+          "대두",
+          "알류",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "우유",
+          "토마토",
+          "땅콩",
+          "게",
+          "새우",
+          "메밀",
+          "닭고기",
+          "호두",
+          "오징어",
+          "조개류",
+          "홍합",
+          "전복"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1001368737",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001368737",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "1,400g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1000819864",
+      "names": {
+        "ko": "청정원 새우액젓 500g",
+        "en": "청정원 새우액젓 500g"
+      },
+      "aliases": {
+        "ko": [
+          "청정원새우액젓500g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "새우"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1000819864",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1000819864",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "500g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1002043545",
+      "names": {
+        "ko": "호밍스 집만두 김치두부 만두 400g",
+        "en": "호밍스 집만두 김치두부 만두 400g"
+      },
+      "aliases": {
+        "ko": [
+          "호밍스집만두김치두부만두400g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "우유",
+          "대두",
+          "밀",
+          "새우",
+          "돼지고기",
+          "닭고기",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "possible_cross_contact",
+        "source_url": "https://www.kurly.com/goods/1002043545",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1002043545",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "400g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5034971",
+      "names": {
+        "ko": "더본 만능 양념장 소스",
+        "en": "더본 만능 양념장 소스"
+      },
+      "aliases": {
+        "ko": [
+          "더본만능양념장소스"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "밀"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5034971",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5034971",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "370g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5079335",
+      "names": {
+        "ko": "롯데 빠다코코낫 300g",
+        "en": "롯데 빠다코코낫 300g"
+      },
+      "aliases": {
+        "ko": [
+          "롯데빠다코코낫300g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "아황산류"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5079335",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5079335",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "제품 표시 추가 확인",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5063278",
+      "names": {
+        "ko": "델링 스테이크 소스",
+        "en": "델링 스테이크 소스"
+      },
+      "aliases": {
+        "ko": [
+          "델링스테이크소스"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "밀",
+          "토마토",
+          "쇠고기",
+          "조개류",
+          "굴"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "우유",
+          "땅콩",
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "아황산류",
+          "닭고기",
+          "오징어"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5063278",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5063278",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "300g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1002108886",
+      "names": {
+        "ko": "청정원 연겨자35g",
+        "en": "청정원 연겨자35g"
+      },
+      "aliases": {
+        "ko": [
+          "청정원연겨자35g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [],
+        "contains_status": "unverified",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1002108886",
+        "checked_on": "2026-10-08",
+        "review_note": "함유 원료 표시를 직접 확인하지 못했습니다. 제조시설 정보만으로 함유 여부를 판단하지 않습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1002108886",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "35g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1000033205",
+      "names": {
+        "ko": "오리온 다이제 오리지널 351g",
+        "en": "오리온 다이제 오리지널 351g"
+      },
+      "aliases": {
+        "ko": [
+          "오리온다이제오리지널351g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "땅콩",
+          "게",
+          "새우",
+          "돼지고기",
+          "토마토",
+          "닭고기",
+          "쇠고기",
+          "오징어",
+          "조개류",
+          "굴"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "possible_cross_contact",
+        "source_url": "https://www.kurly.com/goods/1000033205",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1000033205",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "39g X 9개입",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5095165",
+      "names": {
+        "ko": "오리온 예감 오리지널 192g",
+        "en": "오리온 예감 오리지널 192g"
+      },
+      "aliases": {
+        "ko": [
+          "오리온예감오리지널192g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5095165",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5095165",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "192g (16g x 12봉지)",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1000244534",
+      "names": {
+        "ko": "청정원오리엔탈드레싱325g",
+        "en": "청정원오리엔탈드레싱325g"
+      },
+      "aliases": {
+        "ko": [
+          "청정원오리엔탈드레싱325g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [],
+        "contains_status": "unverified",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "possible_cross_contact",
+        "source_url": "https://www.kurly.com/goods/1000244534",
+        "checked_on": "2026-10-08",
+        "review_note": "출처의 알레르기 원료명에 오기가 있어 표시 전체를 재확인할 때까지 연결을 보류했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1000244534",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "325g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001029494",
+      "names": {
+        "ko": "해태 오사쯔 100g",
+        "en": "해태 오사쯔 100g"
+      },
+      "aliases": {
+        "ko": [
+          "해태오사쯔100g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1001029494",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001029494",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "100g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5095164",
+      "names": {
+        "ko": "오리온 예감 치즈 그라탕 204g",
+        "en": "오리온 예감 치즈 그라탕 204g"
+      },
+      "aliases": {
+        "ko": [
+          "오리온예감치즈그라탕204g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "새우",
+          "쇠고기",
+          "오징어"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5095164",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5095164",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "204g (17g x 12봉)",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001399097",
+      "names": {
+        "ko": "오리온 쿠쉬쿠쉬 196.8g",
+        "en": "오리온 쿠쉬쿠쉬 196.8g"
+      },
+      "aliases": {
+        "ko": [
+          "오리온쿠쉬쿠쉬196.8g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "밀"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1001399097",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001399097",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "196.8g (16.4g X 12봉지)",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5152567",
+      "names": {
+        "ko": "오리온 썬 대용량 273g",
+        "en": "오리온 썬 대용량 273g"
+      },
+      "aliases": {
+        "ko": [
+          "오리온썬대용량273g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "우유",
+          "대두",
+          "밀",
+          "닭고기",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "땅콩",
+          "게",
+          "새우",
+          "돼지고기",
+          "토마토",
+          "오징어",
+          "조개류",
+          "굴",
+          "홍합"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "possible_cross_contact",
+        "source_url": "https://www.kurly.com/goods/5152567",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5152567",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "273g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1002098839",
+      "names": {
+        "ko": "청정원 묵곤약 600g",
+        "en": "청정원 묵곤약 600g"
+      },
+      "aliases": {
+        "ko": [
+          "청정원묵곤약600g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "새우",
+          "돼지고기",
+          "닭고기",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1002098839",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1002098839",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "600g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001453756",
+      "names": {
+        "ko": "서울우유 유기농우유 700mL",
+        "en": "서울우유 유기농우유 700mL"
+      },
+      "aliases": {
+        "ko": [
+          "서울우유유기농우유700mL"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [],
+        "contains_status": "unverified",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1001453756",
+        "checked_on": "2026-10-08",
+        "review_note": "함유 원료 표시를 직접 확인하지 못했습니다. 제조시설 정보만으로 함유 여부를 판단하지 않습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001453756",
+          "basis": "100ml",
+          "label_basis": "100ml",
+          "declared_weight": "제품 표시 추가 확인",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1000640848",
+      "names": {
+        "ko": "오리온 눈을감자 96g",
+        "en": "오리온 눈을감자 96g"
+      },
+      "aliases": {
+        "ko": [
+          "오리온눈을감자96g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "닭고기",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1000640848",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1000640848",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "96g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1000365868",
+      "names": {
+        "ko": "해태 맛동산 300g",
+        "en": "해태 맛동산 300g"
+      },
+      "aliases": {
+        "ko": [
+          "해태맛동산300g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "우유",
+          "땅콩",
+          "대두",
+          "밀"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "쇠고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "possible_cross_contact",
+        "source_url": "https://www.kurly.com/goods/1000365868",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1000365868",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "300g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001397542",
+      "names": {
+        "ko": "해태 알사탕 319g",
+        "en": "해태 알사탕 319g"
+      },
+      "aliases": {
+        "ko": [
+          "해태알사탕319g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "땅콩",
+          "대두",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1001397542",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001397542",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "319g (71개입)",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5049729",
+      "names": {
+        "ko": "서울우유 국산우유로 만든 연유 500g",
+        "en": "서울우유 국산우유로 만든 연유 500g"
+      },
+      "aliases": {
+        "ko": [
+          "서울우유국산우유로만든연유500g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5049729",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5049729",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "500g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5049727",
+      "names": {
+        "ko": "서울우유 나 100% 우유 1.8L",
+        "en": "서울우유 나 100% 우유 1.8L"
+      },
+      "aliases": {
+        "ko": [
+          "서울우유나100%우유1.8L"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5049727",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5049727",
+          "basis": "100ml",
+          "label_basis": "100ml",
+          "declared_weight": "1.8L",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1002161508",
+      "names": {
+        "ko": "동원 건강요리유 480ml",
+        "en": "동원 건강요리유 480ml"
+      },
+      "aliases": {
+        "ko": [
+          "동원건강요리유480ml"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [],
+        "contains_status": "unverified",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1002161508",
+        "checked_on": "2026-10-08",
+        "review_note": "함유 원료 표시를 직접 확인하지 못했습니다. 제조시설 정보만으로 함유 여부를 판단하지 않습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1002161508",
+          "basis": "100ml",
+          "label_basis": "100ml",
+          "declared_weight": "480ml",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001765010",
+      "names": {
+        "ko": "청정원 저당케찹 490g",
+        "en": "청정원 저당케찹 490g"
+      },
+      "aliases": {
+        "ko": [
+          "청정원저당케찹490g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "토마토"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1001765010",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001765010",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "490g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_5049728",
+      "names": {
+        "ko": "서울우유 나 100% 저지방 우유 1.8L",
+        "en": "서울우유 나 100% 저지방 우유 1.8L"
+      },
+      "aliases": {
+        "ko": [
+          "서울우유나100%저지방우유1.8L"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/5049728",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/5049728",
+          "basis": "100ml",
+          "label_basis": "100ml",
+          "declared_weight": "1.8L",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1000643317",
+      "names": {
+        "ko": "동원 마일드참치 150g",
+        "en": "동원 마일드참치 150g"
+      },
+      "aliases": {
+        "ko": [
+          "동원마일드참치150g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "밀",
+          "조개류",
+          "홍합"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1000643317",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1000643317",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "150g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001789591",
+      "names": {
+        "ko": "서울우유 저탄소인증 우유 900mL",
+        "en": "서울우유 저탄소인증 우유 900mL"
+      },
+      "aliases": {
+        "ko": [
+          "서울우유저탄소인증우유900mL"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1001789591",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001789591",
+          "basis": "100ml",
+          "label_basis": "100ml",
+          "declared_weight": "900mL",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1001765008",
+      "names": {
+        "ko": "청정원 저당케찹 285g",
+        "en": "청정원 저당케찹 285g"
+      },
+      "aliases": {
+        "ko": [
+          "청정원저당케찹285g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "토마토"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1001765008",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1001765008",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "285g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1000270145",
+      "names": {
+        "ko": "동원 왕골뱅이 400g",
+        "en": "동원 왕골뱅이 400g"
+      },
+      "aliases": {
+        "ko": [
+          "동원왕골뱅이400g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [],
+        "contains_status": "unverified",
+        "cross_contact": [
+          "알류",
+          "우유",
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "쇠고기",
+          "오징어",
+          "조개류",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1000270145",
+        "checked_on": "2026-10-08",
+        "review_note": "함유 원료 표시를 직접 확인하지 못했습니다. 제조시설 정보만으로 함유 여부를 판단하지 않습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1000270145",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "400g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1002101803",
+      "names": {
+        "ko": "동원 큰사각유부초밥189g",
+        "en": "동원 큰사각유부초밥189g"
+      },
+      "aliases": {
+        "ko": [
+          "동원큰사각유부초밥189g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "우유",
+          "대두",
+          "밀"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1002101803",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1002101803",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "189g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1000244528",
+      "names": {
+        "ko": "청정원코울슬로드레싱315g",
+        "en": "청정원코울슬로드레싱315g"
+      },
+      "aliases": {
+        "ko": [
+          "청정원코울슬로드레싱315g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [],
+        "contains_status": "unverified",
+        "cross_contact": [
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "쇠고기",
+          "오징어",
+          "조개류",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "possible_cross_contact",
+        "source_url": "https://www.kurly.com/goods/1000244528",
+        "checked_on": "2026-10-08",
+        "review_note": "함유 원료 표시를 직접 확인하지 못했습니다. 제조시설 정보만으로 함유 여부를 판단하지 않습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1000244528",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "315g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1002101818",
+      "names": {
+        "ko": "동원 냉동유부 180g",
+        "en": "동원 냉동유부 180g"
+      },
+      "aliases": {
+        "ko": [
+          "동원냉동유부180g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1002101818",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1002101818",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "180g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1000643377",
+      "names": {
+        "ko": "동원 리챔 순살꼬꼬 200g x 3캔",
+        "en": "동원 리챔 순살꼬꼬 200g x 3캔"
+      },
+      "aliases": {
+        "ko": [
+          "동원리챔순살꼬꼬200gx3캔"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "우유",
+          "닭고기",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1000643377",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1000643377",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "200g x 3개입",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1002010934",
+      "names": {
+        "ko": "오리온 나! 샌드 오리지널 77g",
+        "en": "오리온 나! 샌드 오리지널 77g"
+      },
+      "aliases": {
+        "ko": [
+          "오리온나!샌드오리지널77g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "알류",
+          "우유",
+          "대두",
+          "밀",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "땅콩",
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "토마토",
+          "호두",
+          "닭고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "홍합"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "possible_cross_contact",
+        "source_url": "https://www.kurly.com/goods/1002010934",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1002010934",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "77g (38.5g x 2봉지)",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1002069553",
+      "names": {
+        "ko": "동원 동그랑땡 710g",
+        "en": "동원 동그랑땡 710g"
+      },
+      "aliases": {
+        "ko": [
+          "동원동그랑땡710g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "돼지고기",
+          "쇠고기",
+          "조개류",
+          "바지락",
+          "모시조개"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1002069553",
+        "checked_on": "2026-10-08",
+        "review_note": "판매자가 제공한 이 제품의 알레르기 표시를 확인했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1002069553",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "710g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    },
+    {
+      "id": "kurly_label_1002051643",
+      "names": {
+        "ko": "청정원 매실청 650g",
+        "en": "청정원 매실청 650g"
+      },
+      "aliases": {
+        "ko": [
+          "청정원매실청650g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "sugars_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [],
+        "contains_status": "unverified",
+        "cross_contact": [],
+        "cross_contact_status": "unverified",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.kurly.com/goods/1002051643",
+        "checked_on": "2026-10-08",
+        "review_note": "함유 원료 표시를 직접 확인하지 못했습니다. 제조시설 정보만으로 함유 여부를 판단하지 않습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "컬리 판매자 제공 제품 표시정보",
+          "source_url": "https://www.kurly.com/goods/1002051643",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "650g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        }
+      ]
+    }
+  ]
+}
