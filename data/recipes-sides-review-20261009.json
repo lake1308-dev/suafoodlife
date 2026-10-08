@@ -1,0 +1,36 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 5,
+  "items": [
+    {
+      "recipe_id": "paik_2vrJR3ZpRf0",
+      "name": "도라지나물",
+      "source_url": "https://www.youtube.com/watch?v=2vrJR3ZpRf0",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_JmiW-dD1RqM",
+      "name": "고사리나물",
+      "source_url": "https://www.youtube.com/watch?v=JmiW-dD1RqM",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_tD8ApzPsDx8",
+      "name": "시금치무침",
+      "source_url": "https://www.youtube.com/watch?v=tD8ApzPsDx8",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_mZ2C8gEw8Vk",
+      "name": "갈치조림",
+      "source_url": "https://www.youtube.com/watch?v=mZ2C8gEw8Vk",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_sRQxVQ5-NNA",
+      "name": "깍두기",
+      "source_url": "https://www.youtube.com/watch?v=sRQxVQ5-NNA",
+      "status": "verified_added"
+    }
+  ]
+}

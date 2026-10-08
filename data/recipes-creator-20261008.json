@@ -1,6 +1,6 @@
 {
-  "version": "1.15.0",
-  "record_count": 115,
+  "version": "1.16.0",
+  "record_count": 120,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -13006,8 +13006,329 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_2vrJR3ZpRf0",
+      "names": {
+        "ko": "도라지나물 · 백종원 참고",
+        "en": "도라지나물 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "도라지나물",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "도라지: 250g\n대파: 1/2컵(40g)\n간 마늘: 1큰술(15g)\n참기름: 3큰술(22g)\n꽃소금: 1/2큰술(5g)\n꽃소금(소금물용): 1과1/2큰술(15g)\n물(소금물용): 3컵(540g)\n깨소금: 2큰술(16g)\n쌀뜨물: 2/3컵(120g)",
+      "steps": {
+        "ko": [
+          "도라지를 소금물에 약 1시간 담가 쓴맛을 뺀 뒤 흐르는 물로 씻고 짧게 자릅니다.",
+          "참기름에 썬 대파를 볶고 도라지를 더해 볶습니다.",
+          "쌀뜨물·마늘·조리용 소금으로 졸인 뒤 빻은 깨를 섞고 깨소금으로 마무리합니다."
+        ],
+        "en": [
+          "도라지를 소금물에 약 1시간 담가 쓴맛을 뺀 뒤 흐르는 물로 씻고 짧게 자릅니다.",
+          "참기름에 썬 대파를 볶고 도라지를 더해 볶습니다.",
+          "쌀뜨물·마늘·조리용 소금으로 졸인 뒤 빻은 깨를 섞고 깨소금으로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "2vrJR3ZpRf0",
+        "url": "https://www.youtube.com/watch?v=2vrJR3ZpRf0",
+        "title": "설날 준비! 삼색 나물 두 번째 도라지 나물입니다. ㅣ 백종원의 백종원레시피",
+        "section_name": "도라지나물",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "3ce60f28057e5069f486bd11c71ef023e859c0d343c3b70b40bd7485425ca991"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "소금물에 담근 뒤 씻어내는 과정이 있어 절임용 소금 전량을 먹는 양으로 계산하지 않습니다. 쌀뜨물 성분과 인분 수가 미확인이라 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_JmiW-dD1RqM",
+      "names": {
+        "ko": "고사리나물 · 백종원 참고",
+        "en": "고사리나물 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "고사리나물",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "불린고사리: 250g\n대파: 1/2컵(40g)\n들기름: 3큰술(20g)\n간마늘: 1큰술(15g)\n국간장: 2큰술(20g)\n황설탕: 1/2큰술(5g)\n꽃소금: 1/4큰술(2g)\n갈은 깨: 1큰술(8g)\n쌀뜨물: 1컵(180g)\n깨소금: 적당량",
+      "steps": {
+        "ko": [
+          "불린 고사리를 씻어 물기를 빼고 자릅니다. 대파와 깨도 준비합니다.",
+          "들기름에 대파를 볶다가 마늘과 고사리를 차례로 더합니다.",
+          "쌀뜨물·국간장·설탕·소금을 넣고 수분이 줄도록 익힌 뒤 빻은 깨와 깨소금으로 마무리합니다."
+        ],
+        "en": [
+          "불린 고사리를 씻어 물기를 빼고 자릅니다. 대파와 깨도 준비합니다.",
+          "들기름에 대파를 볶다가 마늘과 고사리를 차례로 더합니다.",
+          "쌀뜨물·국간장·설탕·소금을 넣고 수분이 줄도록 익힌 뒤 빻은 깨와 깨소금으로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "JmiW-dD1RqM",
+        "url": "https://www.youtube.com/watch?v=JmiW-dD1RqM",
+        "title": "삼색나물 마지막 고사리나물 ^^. 새해 복 많이 받으세요 ! ㅣ 백종원의 백종원레시피",
+        "section_name": "고사리나물",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "fb8940612241ce0973e82a75023e1be7560762a0f507683f83ca08242c05d172"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "재료 250g은 불린 고사리 기준입니다. 쌀뜨물 성분과 마무리 깨소금 양이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "국간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_tD8ApzPsDx8",
+      "names": {
+        "ko": "시금치무침 · 백종원 참고",
+        "en": "시금치무침 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "시금치무침",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "시금치: 250g\n물: 1L\n꽃소금: 1/2큰술(5g)\n간 마늘: 1큰술(15g)\n조선간장국간장: 2큰술(20g)\n참기름: 2큰술(15g)\n깨소금: 2큰술(16g)",
+      "steps": {
+        "ko": [
+          "시금치를 손질해 씻고 깨 일부를 빻습니다.",
+          "소금을 넣은 끓는 물에 뿌리부터 넣어 약 30초 데친 뒤 찬물로 헹구고 물기를 뺍니다.",
+          "시금치에 마늘·국간장·참기름·빻은 깨를 버무리고 깨소금을 올립니다."
+        ],
+        "en": [
+          "시금치를 손질해 씻고 깨 일부를 빻습니다.",
+          "소금을 넣은 끓는 물에 뿌리부터 넣어 약 30초 데친 뒤 찬물로 헹구고 물기를 뺍니다.",
+          "시금치에 마늘·국간장·참기름·빻은 깨를 버무리고 깨소금을 올립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "tD8ApzPsDx8",
+        "url": "https://www.youtube.com/watch?v=tD8ApzPsDx8",
+        "title": "설 준비하셔야죠? 삼색 나물 첫 번째 시금치나물입니다 ㅣ 백종원의 백종원레시피",
+        "section_name": "시금치무침",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "be992a850342612d8a03ea5afa4bb3438c79657e7dd9759f4cbc48e12c29140b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "소금 5g은 데치는 물에 사용합니다. 데친 물을 버리는 과정의 성분 손실과 인분 수가 미확인이라 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "조선간장국간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_mZ2C8gEw8Vk",
+      "names": {
+        "ko": "갈치조림 · 백종원 참고",
+        "en": "갈치조림 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "갈치조림",
+        "백종원"
+      ],
+      "servings": 2,
+      "ingredients": [],
+      "ingredients_text": "물: 약 3컵(500ml)\n손질갈치: 4~5토막(300g)\n무: 약 1/10개(250g)\n대파: 1대(100g)\n국간장: 1/4컵(50g)\n굵은 고춧가루: 약 1/2컵(45g)\n물엿: 2큰술(30g)\n청양고추: 약 3개(26g)\n간 마늘: 약 1큰술(24g)\n맛술: 2큰술(20g)\n고추장: 약 1큰술(15g)\n황설탕: 약 1큰술(11g)\n꽃소금: 1/6큰술(2g)",
+      "steps": {
+        "ko": [
+          "손질한 갈치를 씻고 지느러미를 제거합니다. 무를 얇게 썰고 대파와 고추도 준비합니다.",
+          "간장·물엿·설탕·맛술·마늘·고추장·고춧가루를 물 일부와 섞습니다.",
+          "냄비에 무·갈치·대파·고추를 담고 양념과 남은 물을 부어 끓입니다.",
+          "끓으면 소금으로 간하고 약 13~15분 졸입니다. 생선 두께에 따라 불을 조절하고 국물을 끼얹어 익힙니다."
+        ],
+        "en": [
+          "손질한 갈치를 씻고 지느러미를 제거합니다. 무를 얇게 썰고 대파와 고추도 준비합니다.",
+          "간장·물엿·설탕·맛술·마늘·고추장·고춧가루를 물 일부와 섞습니다.",
+          "냄비에 무·갈치·대파·고추를 담고 양념과 남은 물을 부어 끓입니다.",
+          "끓으면 소금으로 간하고 약 13~15분 졸입니다. 생선 두께에 따라 불을 조절하고 국물을 끼얹어 익힙니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "mZ2C8gEw8Vk",
+        "url": "https://www.youtube.com/watch?v=mZ2C8gEw8Vk",
+        "title": "제가 좋아하는 갈치조림은요...",
+        "section_name": "갈치조림",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "e7b16754cda6d37405b450a6ad51654dfc7a4d7c041581ad5e53aa0e0cd3b598"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 2인분입니다. 한글 재료 목록의 고춧가루 45g을 사용했습니다. 영문 목록은 30g으로 달라 공식 영상을 함께 확인해 주세요. 갈치의 뼈를 제외한 가식량과 남기는 국물 양이 미확인이라 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "국간장",
+          "맛술",
+          "고추장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_sRQxVQ5-NNA",
+      "names": {
+        "ko": "깍두기 · 백종원 참고",
+        "en": "깍두기 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "깍두기",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "* 무절임\n무: 4.5kg\n꽃소금: 2/3컵(90g)\n설탕: 2/3컵(90g)\n* 밀가루풀\n밀가루: 3큰술(30g)\n물: 2컵(360g)\n* 깍두기양념\n대파: 2컵(160g)\n멸치액젓: ½컵(100g)\n꽃소금: ¼컵(30g)\n새우젓: 2/3컵(140g)\n간마늘: 1컵(150g)\n간생강: ¼컵(30g)\n설탕: 1컵(140g)\n고운고춧가루: 1과1/2컵(120g)\n굵은고춧가루: 1과1/2컵(120g)",
+      "steps": {
+        "ko": [
+          "무를 씻어 약 3cm 크기로 썰고 절임용 소금과 설탕에 약 1시간 절이며 중간에 섞습니다.",
+          "밀가루와 물을 끓여 풀을 만들고 굵은 고춧가루를 섞어 불립니다.",
+          "썬 대파와 나머지 양념을 준비해 고춧가루 풀과 섞습니다.",
+          "절인 무를 헹궈 물기를 뺀 뒤 양념과 고운 고춧가루를 골고루 버무리고 밀폐 용기에 담습니다."
+        ],
+        "en": [
+          "무를 씻어 약 3cm 크기로 썰고 절임용 소금과 설탕에 약 1시간 절이며 중간에 섞습니다.",
+          "밀가루와 물을 끓여 풀을 만들고 굵은 고춧가루를 섞어 불립니다.",
+          "썬 대파와 나머지 양념을 준비해 고춧가루 풀과 섞습니다.",
+          "절인 무를 헹궈 물기를 뺀 뒤 양념과 고운 고춧가루를 골고루 버무리고 밀폐 용기에 담습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "sRQxVQ5-NNA",
+        "url": "https://www.youtube.com/watch?v=sRQxVQ5-NNA",
+        "title": "깍두기 담그는 법, 어렵지 않아요.",
+        "section_name": "깍두기",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "f6bb2f596dedc3b48e50e2e47701edf6e337ec680c51bee2b535a071d81e4e44"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 무 4.5kg을 사용하는 대용량입니다. 절임물을 버리고 헹구는 과정의 소금·설탕 손실이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "밀",
+          "새우"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "밀가루",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=sRQxVQ5-NNA"
+          },
+          {
+            "ingredient": "새우젓",
+            "allergen": "새우",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=sRQxVQ5-NNA"
+          }
+        ],
+        "check_product_labels": [
+          "멸치액젓",
+          "새우젓"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 18,
-  "allergen_ingredient_review_count": 115
+  "allergen_ingredient_review_count": 120
 }

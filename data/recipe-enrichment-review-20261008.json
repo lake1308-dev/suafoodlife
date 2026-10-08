@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 115,
+  "recipe_count": 120,
   "nutrition_reference_estimates": 18,
-  "nutrition_held": 97,
+  "nutrition_held": 102,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -596,9 +596,34 @@
       "recipe_id": "paik_Lz0tPtrMQmQ",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_2vrJR3ZpRf0",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_JmiW-dD1RqM",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_tD8ApzPsDx8",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_mZ2C8gEw8Vk",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_sRQxVQ5-NNA",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 115,
+  "allergen_ingredient_reviews": 120,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1803,6 +1828,45 @@
       "product_labels_pending": [
         "통조림골뱅이",
         "고추장"
+      ]
+    },
+    {
+      "recipe_id": "paik_2vrJR3ZpRf0",
+      "known_from_ingredients": [],
+      "product_labels_pending": []
+    },
+    {
+      "recipe_id": "paik_JmiW-dD1RqM",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "국간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_tD8ApzPsDx8",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "조선간장국간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_mZ2C8gEw8Vk",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "국간장",
+        "맛술",
+        "고추장"
+      ]
+    },
+    {
+      "recipe_id": "paik_sRQxVQ5-NNA",
+      "known_from_ingredients": [
+        "밀",
+        "새우"
+      ],
+      "product_labels_pending": [
+        "멸치액젓",
+        "새우젓"
       ]
     }
   ],
