@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 65,
+  "recipe_count": 68,
   "nutrition_reference_estimates": 11,
-  "nutrition_held": 54,
+  "nutrition_held": 57,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -339,9 +339,24 @@
       "status": "estimated_reference",
       "ingredient_count": 10,
       "kcal": 402.82
+    },
+    {
+      "recipe_id": "paik_jN6rB-bUQXM",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_wfm951HEpGU",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_12e93a8T2nU",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 65,
+  "allergen_ingredient_reviews": 68,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1048,6 +1063,39 @@
       "product_labels_pending": [
         "새우젓",
         "맛술"
+      ]
+    },
+    {
+      "recipe_id": "paik_jN6rB-bUQXM",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "부침가루",
+        "식용유",
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_wfm951HEpGU",
+      "known_from_ingredients": [
+        "새우"
+      ],
+      "product_labels_pending": [
+        "부침가루",
+        "멸치액젓",
+        "식용유",
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_12e93a8T2nU",
+      "known_from_ingredients": [
+        "돼지고기",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "부침가루",
+        "식용유",
+        "맛소금"
       ]
     }
   ],

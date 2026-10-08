@@ -1,0 +1,27 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 3,
+  "items": [
+    {
+      "recipe_id": "paik_jN6rB-bUQXM",
+      "name": "배추전",
+      "source_url": "https://www.youtube.com/watch?v=jN6rB-bUQXM",
+      "status": "verified_added",
+      "nutrition_hold_reason": "전체 재료량과 인분 수가 명시되지 않아 자동 환산과 영양 계산은 보류했습니다."
+    },
+    {
+      "recipe_id": "paik_wfm951HEpGU",
+      "name": "부추전",
+      "source_url": "https://www.youtube.com/watch?v=wfm951HEpGU",
+      "status": "verified_added",
+      "nutrition_hold_reason": "초간장은 별도 곁들이는 양념입니다. 실제 먹는 양과 인분 수가 명시되지 않아 자동 환산과 전체 영양 계산은 보류했습니다."
+    },
+    {
+      "recipe_id": "paik_12e93a8T2nU",
+      "name": "대파전",
+      "source_url": "https://www.youtube.com/watch?v=12e93a8T2nU",
+      "status": "verified_added",
+      "nutrition_hold_reason": "원본은 전 2장 분량이며 2인분으로 확정하지 않습니다. 달걀 무게와 후춧가루 양도 미지정이어서 전체 영양 계산을 보류했습니다."
+    }
+  ]
+}
