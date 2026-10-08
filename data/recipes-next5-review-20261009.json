@@ -1,0 +1,41 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 5,
+  "items": [
+    {
+      "recipe_id": "paik_VDn_dcC88mc",
+      "name": "소고기장조림",
+      "source_url": "https://www.youtube.com/watch?v=VDn_dcC88mc",
+      "status": "verified_added",
+      "nutrition_hold_reason": "고기 삶는 물과 조림용 물은 별도입니다. 버리는 삶은 물과 남기는 양념장 성분이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다."
+    },
+    {
+      "recipe_id": "paik_dKD_C-1XklE",
+      "name": "어묵전골",
+      "source_url": "https://www.youtube.com/watch?v=dKD_C-1XklE",
+      "status": "verified_added",
+      "nutrition_hold_reason": "육수 준비량과 전골에 쓰는 양은 서로 다릅니다. 어묵 제품별 성분과 곁들이는 양념 섭취량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다."
+    },
+    {
+      "recipe_id": "paik_pTvMsM2v1tg",
+      "name": "토마토달걀볶음",
+      "source_url": "https://www.youtube.com/watch?v=pTvMsM2v1tg",
+      "status": "verified_added",
+      "nutrition_hold_reason": "스크램블용과 파기름용 식용유는 각각 30g입니다. 달걀 무게와 소금 양이 미지정이라 전체 영양 계산을 보류했습니다."
+    },
+    {
+      "recipe_id": "paik_-_q9oyOToxs",
+      "name": "우유라면",
+      "source_url": "https://www.youtube.com/watch?v=-_q9oyOToxs",
+      "status": "verified_added",
+      "nutrition_hold_reason": "라면 제품과 고춧가루 무게가 미지정이며 삶은 물을 버리는 과정이 있어 전체 영양 계산을 보류했습니다."
+    },
+    {
+      "recipe_id": "paik_5e5fp21dqWA",
+      "name": "매콤달걀덮밥",
+      "source_url": "https://www.youtube.com/watch?v=5e5fp21dqWA",
+      "status": "verified_added",
+      "nutrition_hold_reason": "원본은 1인분입니다. 달걀과 청양고추 무게가 미지정이라 전체 영양 계산과 자동 환산을 보류했습니다."
+    }
+  ]
+}

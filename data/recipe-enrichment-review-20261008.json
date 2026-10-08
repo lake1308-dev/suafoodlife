@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 81,
+  "recipe_count": 86,
   "nutrition_reference_estimates": 12,
-  "nutrition_held": 69,
+  "nutrition_held": 74,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -420,9 +420,34 @@
       "recipe_id": "paik_bMLfohWNsvQ_rice",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_VDn_dcC88mc",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_dKD_C-1XklE",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_pTvMsM2v1tg",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_-_q9oyOToxs",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_5e5fp21dqWA",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 81,
+  "allergen_ingredient_reviews": 86,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1290,6 +1315,62 @@
       "product_labels_pending": [
         "식용유",
         "만능 볶음요리 소스"
+      ]
+    },
+    {
+      "recipe_id": "paik_VDn_dcC88mc",
+      "known_from_ingredients": [
+        "쇠고기"
+      ],
+      "product_labels_pending": [
+        "진간장",
+        "맛술"
+      ]
+    },
+    {
+      "recipe_id": "paik_dKD_C-1XklE",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "멸치다시다",
+        "진간장",
+        "맛술",
+        "모둠어묵",
+        "사각어묵"
+      ]
+    },
+    {
+      "recipe_id": "paik_pTvMsM2v1tg",
+      "known_from_ingredients": [
+        "알류",
+        "토마토"
+      ],
+      "product_labels_pending": [
+        "식용유(스크램블용)",
+        "식용유(파 기름용)",
+        "진간장",
+        "굴소스"
+      ]
+    },
+    {
+      "recipe_id": "paik_-_q9oyOToxs",
+      "known_from_ingredients": [
+        "우유"
+      ],
+      "product_labels_pending": [
+        "라면"
+      ]
+    },
+    {
+      "recipe_id": "paik_5e5fp21dqWA",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "간장",
+        "액젓",
+        "식용유"
       ]
     }
   ],
