@@ -5,6 +5,7 @@ for source_path in (repo/'data').glob('rda-*.json.gz'):
   for record in json.load(source_file).get('ingredients',[]):rda[record['id']]=record
 base=[('황설탕','rda:C0110040009a'),('물엿','rda:C0070000009a'),('진간장','rda:R0010010009a'),('참기름','rda:N0200000009a'),('통깨','rda:E0260020009n')]
 maps={
+'감자조림':{'감자':'rda:B0010140000a','양파':'rda:F1320000000a','진간장':'rda:R0010010009a','물엿':'rda:C0070000009a','소고기(불고기용)':'rda:I027003D110a','황설탕':'rda:C0110040009a','꽈리고추':'rda:F0180020000a','간마늘':'rda:F053000B060a'},
 '콩나물국':{'콩나물':'rda:F1820000000a','대파':'rda:F1910040000a','간 마늘':'rda:F053000B060a','꽃소금':'rda:R0200020009a','국간장':'rda:R0010030009a','청양고추':'rda:F0180080000a'},
 '장아찌소스':{'진간장':'rda:R0010010009a','식초':'rda:R0220060009a','설탕':'rda:C0110020009a'},
 '새우젓무침':{'새우젓':'rda:K617006000Ia','간 마늘':'rda:F053000B060a','황설탕':'rda:C0110040009a','쪽파':'rda:F1910030000a','맛술':'rda:R0160000009a','참기름':'rda:N0200000009a','청양고추':'rda:F0180080000a','홍고추':'rda:F018000C020a','굵은 고춧가루':'rda:R0070000005a','통깨':'rda:E0260020009n'},
@@ -27,7 +28,8 @@ assumptions['애호박전']=['건새우는 꽃새우를 삶아 말린 것, 전�
 assumptions['새우젓무침']=['새우젓은 젓새우 젓갈, 맛술은 대표 맛술, 통깨는 볶은 흰참깨 자료로 계산했습니다. 젓갈 종류·염도와 제품에 따라 특히 나트륨과 당류가 달라집니다.','양념을 포함한 무침 전체 분량의 재료 합계입니다. 수육에 곁들여 조금씩 먹는 양념으로, 이 합계를 1인분 식사 영양값으로 해석하지 않습니다.','맛술의 조리 중 알코올 손실이나 숙성에 따른 변화를 반영하지 않았습니다. 실제 섭취량에 따라 값이 달라집니다.']
 assumptions['콩나물국']=['콩나물과 채소는 생것, 국간장은 재래간장, 꽃소금은 정제염 자료를 사용했습니다. 실제 제품 염도에 따라 나트륨이 달라집니다.','정수물 2L는 열량과 주요 영양성분을 더하지 않는 물로 가정했습니다. 물 자체의 미량 무기질은 계산하지 않았습니다.','재료와 국물을 모두 먹는 전체 4인분의 예상 합계입니다. 국물을 남기면 특히 나트륨 섭취량이 줄어듭니다. 조리 후 100g 값은 아닙니다.']
 assumptions['장아찌소스']=['진간장은 개량 양조간장, 식초는 양조식초, 설탕은 백설탕 자료로 계산했습니다. 실제 제품에 따라 값이 달라집니다.','물 360g은 열량과 주요 영양성분을 더하지 않는 물로 가정했습니다. 물 자체의 미량 무기질은 계산하지 않았습니다.','만든 소스 전체의 예상 합계입니다. 장아찌 채소에 흡수되는 양이나 남기는 소스는 확인되지 않아 완성 장아찌 또는 1인분 영양값으로 사용할 수 없습니다.']
-water_only={'콩나물국':{'정수물'},'장아찌소스':{'물'}}
+assumptions['감자조림']=['감자는 수미 생것, 불고기용 소고기는 한우 등심 생것, 진간장은 개량 양조간장 자료로 계산했습니다. 실제 품종·부위·제품에 따라 값이 달라집니다.','물 470g은 열량과 주요 영양성분을 더하지 않는 물로 가정했습니다. 물 자체의 미량 무기질은 계산하지 않았습니다.','조림 양념과 모든 재료를 합한 전체 조리 분량의 예상값입니다. 남기는 국물·양념에 따라 특히 당류와 나트륨의 실제 섭취량이 줄어듭니다. 인분 수가 미지정이어서 1인분 또는 완성 후 100g 값으로 표시하지 않습니다.']
+water_only={'감자조림':{'물'},'콩나물국':{'정수물'},'장아찌소스':{'물'}}
 assert all(isinstance(tag,str) for tag in maps), 'Recipe map keys must be names'
 assert set(maps).issubset({r['tags'][0] for r in data['recipes']}), 'Recipe mappings must match registered recipes'
 for r in data['recipes']:
@@ -65,5 +67,5 @@ for r in data['recipes']:
   if any(t in norm for t in product_tokens) and name not in checks:checks.append(name)
  r['allergen_review']={'status':'ingredient_identity_reviewed_product_labels_pending','checked_on':'2026-10-08','known_from_ingredients':sorted(set(x['allergen'] for x in evidence)),'ingredient_evidence':evidence,'check_product_labels':checks,'classification_source_url':url,'cross_contact_status':'not_verified'}
  areviews.append({'recipe_id':r['id'],'known_from_ingredients':r['allergen_review']['known_from_ingredients'],'product_labels_pending':checks})
-data.update(version='1.9.1',nutrition_reference_count=len(maps),allergen_ingredient_review_count=len(areviews));p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+data.update(version='1.9.2',nutrition_reference_count=len(maps),allergen_ingredient_review_count=len(areviews));p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 (repo/'data/recipe-enrichment-review-20261008.json').write_text(json.dumps({'reviewed_on':'2026-10-08','recipe_count':len(data['recipes']),'nutrition_reference_estimates':len(maps),'nutrition_held':len(data['recipes'])-len(maps),'nutrition_items':nreviews,'allergen_ingredient_reviews':len(areviews),'allergen_items':areviews,'policy':'No certified complete allergen lists, no cross-contact claims, no allergen-free claims. Nutrition representative choices are disclosed.'},ensure_ascii=False,indent=2)+'\n')
