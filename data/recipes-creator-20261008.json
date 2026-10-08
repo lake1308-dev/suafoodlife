@@ -1,6 +1,6 @@
 {
-  "version": "1.12.1",
-  "record_count": 100,
+  "version": "1.13.0",
+  "record_count": 105,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -11115,8 +11115,407 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_FdL13qXf4MA_breast",
+      "names": {
+        "ko": "닭개장(닭가슴살) · 백종원 참고",
+        "en": "닭개장(닭가슴살) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "닭개장(닭가슴살)",
+        "닭개장",
+        "백종원"
+      ],
+      "servings": 3,
+      "ingredients": [],
+      "ingredients_text": "물: 약 11컵(2L)\n닭가슴살: 1팩(약300g)\n대파: 3대(300g)\n느타리버섯: 2컵(80g)\n양파: 약 1/4개(70g)\n숙주: 1컵(70g)\n부추: 약 2/3컵(25g)\n국간장: 1/5컵(40g)\n굵은 고춧가루 약1/3컵(26g)\n간 마늘: 1큰술(20g)\n참기름: 2큰술(14g)\n식용유: 1큰술(7g)\n꽃소금: 2/3큰술(8g)\n달걀: 1개\n후추가루: 약간\n간 생강: 약간",
+      "steps": {
+        "ko": [
+          "닭가슴살을 물에 약 10분 삶아 익힌 뒤 건지고 육수는 따로 둡니다.",
+          "대파·부추·양파와 버섯을 손질하고 식힌 고기를 결대로 찢습니다.",
+          "냄비에 기름과 대파를 볶고 약불에서 고춧가루를 더합니다.",
+          "육수·닭고기·버섯·양파·마늘·생강·간장·소금을 넣어 끓입니다.",
+          "중불에서 약 15~20분 끓인 뒤 달걀물·부추·숙주를 넣어 약 1분 더 익힙니다.",
+          "그릇에 담아 후추로 마무리합니다."
+        ],
+        "en": [
+          "닭가슴살을 물에 약 10분 삶아 익힌 뒤 건지고 육수는 따로 둡니다.",
+          "대파·부추·양파와 버섯을 손질하고 식힌 고기를 결대로 찢습니다.",
+          "냄비에 기름과 대파를 볶고 약불에서 고춧가루를 더합니다.",
+          "육수·닭고기·버섯·양파·마늘·생강·간장·소금을 넣어 끓입니다.",
+          "중불에서 약 15~20분 끓인 뒤 달걀물·부추·숙주를 넣어 약 1분 더 익힙니다.",
+          "그릇에 담아 후추로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "FdL13qXf4MA",
+        "url": "https://www.youtube.com/watch?v=FdL13qXf4MA",
+        "title": "💪운동한다고 닭가슴살 사다 놓은 분들! 말복 '닭개장' 손쉽게 끓여봐요",
+        "section_name": "닭개장(닭가슴살)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "33ab8374270a2f5f0cd65f462112b4c177c41c0024420b3a41b136d83185cd7a"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 약 3인분입니다. 달걀 무게와 생강·후추 양이 미지정이라 전체 영양 계산과 자동 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "닭고기",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "닭가슴살",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=FdL13qXf4MA"
+          },
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=FdL13qXf4MA"
+          }
+        ],
+        "check_product_labels": [
+          "국간장",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_kzYgtXDcGQ4_soup",
+      "names": {
+        "ko": "닭곰탕 · 백종원 참고",
+        "en": "닭곰탕 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "닭곰탕",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "* 닭 육수 재료\n닭(9호) 1마리\n양파: 125g\n대파: 1대(100g)\n물: 17컵(3060ml)\n* 닭곰탕 재료\n삶은 닭: 1마리\n대파: 8큰술(56g)\n밥: 4공기(800g)\n꽃소금: 1큰술(12g)\n후춧가루: 약간",
+      "steps": {
+        "ko": [
+          "손질한 닭과 양파·대파를 물에 넣어 약 30분 삶습니다. 고기 속까지 익었는지 확인합니다.",
+          "닭을 건져 육수를 약 30분 더 끓이고 고기는 살을 발라 찢습니다.",
+          "닭 뼈를 육수에 다시 넣어 소금으로 간하며 끓입니다.",
+          "밥과 닭고기를 그릇에 담고 체로 거른 육수를 부어 대파와 후추를 올립니다."
+        ],
+        "en": [
+          "손질한 닭과 양파·대파를 물에 넣어 약 30분 삶습니다. 고기 속까지 익었는지 확인합니다.",
+          "닭을 건져 육수를 약 30분 더 끓이고 고기는 살을 발라 찢습니다.",
+          "닭 뼈를 육수에 다시 넣어 소금으로 간하며 끓입니다.",
+          "밥과 닭고기를 그릇에 담고 체로 거른 육수를 부어 대파와 후추를 올립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "kzYgtXDcGQ4",
+        "url": "https://www.youtube.com/watch?v=kzYgtXDcGQ4",
+        "title": "뽀오얀 국물이 제대로~ 더위 나기 보양식 '닭곰탕'",
+        "section_name": "닭곰탕",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "6ab0d462bb3d7000f7fa43134ac55287057316b64fc305c9612e3e45009779a7"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "생닭과 삶은 닭은 같은 닭을 준비 단계와 완성 단계에 나눠 적은 것입니다. 밥 4공기를 4인분으로 확정하지 않았으며 뼈·육수의 섭취량이 미확인이라 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "닭고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "닭(9호)",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=kzYgtXDcGQ4"
+          },
+          {
+            "ingredient": "삶은 닭",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=kzYgtXDcGQ4"
+          }
+        ],
+        "check_product_labels": [],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_kzYgtXDcGQ4_broth",
+      "names": {
+        "ko": "닭육수(통닭) · 백종원 참고",
+        "en": "닭육수(통닭) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "닭육수(통닭)",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "닭(9호) 1마리\n양파: 125g\n대파: 1대(100g)\n물: 17컵(3060ml)",
+      "steps": {
+        "ko": [
+          "닭의 내장과 불순물을 제거하고 양파·대파를 손질합니다.",
+          "물에 닭·채소를 넣어 약 30분 삶습니다. 닭 크기에 따라 충분히 익었는지 확인합니다.",
+          "익은 닭을 건져 따로 두고 육수를 약 30분 더 끓여 닭곰탕용으로 준비합니다."
+        ],
+        "en": [
+          "닭의 내장과 불순물을 제거하고 양파·대파를 손질합니다.",
+          "물에 닭·채소를 넣어 약 30분 삶습니다. 닭 크기에 따라 충분히 익었는지 확인합니다.",
+          "익은 닭을 건져 따로 두고 육수를 약 30분 더 끓여 닭곰탕용으로 준비합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "kzYgtXDcGQ4",
+        "url": "https://www.youtube.com/watch?v=kzYgtXDcGQ4",
+        "title": "뽀오얀 국물이 제대로~ 더위 나기 보양식 '닭곰탕'",
+        "section_name": "닭육수(통닭)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "6ab0d462bb3d7000f7fa43134ac55287057316b64fc305c9612e3e45009779a7"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "닭곰탕 영상의 육수 준비 단계입니다. 닭고기는 따로 건져 완성 곰탕에 사용합니다. 뼈와 건더기를 포함한 재료 합계를 육수의 영양값으로 계산하지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "닭고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "닭(9호)",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=kzYgtXDcGQ4"
+          }
+        ],
+        "check_product_labels": [],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_jN_inaLf9Zo_beef",
+      "names": {
+        "ko": "육개장(20분 방식) · 백종원 참고",
+        "en": "육개장(20분 방식) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "육개장(20분 방식)",
+        "육개장",
+        "백종원"
+      ],
+      "servings": 4,
+      "ingredients": [],
+      "ingredients_text": "소고기(불고기용): 2컵(180g)\n달걀: 2개\n불린 당면: 2컵(120g)\n대파: 약 2와1/3대(228g)\n느타리버섯: 2컵(80g)\n표고버섯: 2컵(60g)\n숙주: 4컵(280g)\n간 생강: 약간\n간 마늘: 1과½큰술(30g)\n굵은 고춧가루: 3큰술(24g)\n국간장: 1/3컵(60ml)\n꽃소금: 1/3큰술(4g)\n후춧가루: 약간\n참기름: 6큰술(42g)\n식용유: 2큰술(14g)\n물: 6컵 (1,080ml)",
+      "steps": {
+        "ko": [
+          "당면을 미지근한 물에 약 30분 불리고 고기·대파·버섯을 손질합니다.",
+          "기름에 긴 대파와 소고기를 볶고 고춧가루를 더한 뒤 물을 붓습니다.",
+          "버섯·마늘·생강·국간장을 넣어 끓입니다.",
+          "숙주를 넣고 소금으로 간한 뒤 불린 당면을 더합니다.",
+          "끓으면 달걀물을 둘러 넣어 익히고 후추와 고명 대파를 올립니다."
+        ],
+        "en": [
+          "당면을 미지근한 물에 약 30분 불리고 고기·대파·버섯을 손질합니다.",
+          "기름에 긴 대파와 소고기를 볶고 고춧가루를 더한 뒤 물을 붓습니다.",
+          "버섯·마늘·생강·국간장을 넣어 끓입니다.",
+          "숙주를 넣고 소금으로 간한 뒤 불린 당면을 더합니다.",
+          "끓으면 달걀물을 둘러 넣어 익히고 후추와 고명 대파를 올립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "jN_inaLf9Zo",
+        "url": "https://www.youtube.com/watch?v=jN_inaLf9Zo",
+        "title": "육개장 만드는 데 20분이면 가능",
+        "section_name": "육개장(20분 방식)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "83646a45fe08479eb11eef433678fff6b76d0a7dce9aa89d8b90e7b0aaf253ef"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 4인분입니다. 달걀 무게·국간장 밀도·불린 당면의 수분량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다. 당면을 불리는 약 30분은 별도 준비 시간입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "쇠고기",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "소고기(불고기용)",
+            "allergen": "쇠고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=jN_inaLf9Zo"
+          },
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=jN_inaLf9Zo"
+          }
+        ],
+        "check_product_labels": [
+          "국간장",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_0bnFoRQebq0_cream",
+      "names": {
+        "ko": "베이컨크림파스타 · 백종원 참고",
+        "en": "베이컨크림파스타 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "베이컨크림파스타",
+        "크림파스타",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*면 삶기\n정수물: 8과1/3컵(1.5L)\n스파게티면: 90g\n꽃소금: 1큰술(12g)\n올리브유: 약간\n*베이컨크림파스타\n베이컨: 2줄(32g)\n양파: 1/2개(125g)\n양송이 버섯: 1과 1/2개(30g)\n밀가루: 1/2큰술(5g)\n우유: 1팩(200ml)\n버터 약1큰술(15g)\n올리브유: 2큰술(14g)\n파르메산 치즈: 2큰술(16g)\n꽃소금: 1/6큰술(2g)\n삶은스파게티면 전량\n후춧가루: 적당량\n파슬리가루: 적당량",
+      "steps": {
+        "ko": [
+          "소금과 약간의 올리브유를 넣은 물에서 스파게티를 약 6분 삶고 면수를 따로 둡니다.",
+          "베이컨·양파·양송이를 손질해 올리브유에 볶습니다.",
+          "버터가 녹으면 우유·얇게 썬 버섯·삶은 면을 넣어 졸입니다.",
+          "밀가루를 고루 풀고 소금으로 간합니다. 필요하면 면수를 더합니다.",
+          "불을 끄고 치즈를 섞어 후추와 파슬리로 마무리합니다."
+        ],
+        "en": [
+          "소금과 약간의 올리브유를 넣은 물에서 스파게티를 약 6분 삶고 면수를 따로 둡니다.",
+          "베이컨·양파·양송이를 손질해 올리브유에 볶습니다.",
+          "버터가 녹으면 우유·얇게 썬 버섯·삶은 면을 넣어 졸입니다.",
+          "밀가루를 고루 풀고 소금으로 간합니다. 필요하면 면수를 더합니다.",
+          "불을 끄고 치즈를 섞어 후추와 파슬리로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "0bnFoRQebq0",
+        "url": "https://www.youtube.com/watch?v=0bnFoRQebq0",
+        "title": "집에서 '크림 파스타'쯤이야",
+        "section_name": "베이컨크림파스타",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "50b7671e4bdfe50e343783b7772a1e70abc3eda2747dfdd16e21a4785dbab825"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "면 삶는 물의 소금과 실제 섭취하는 소금량은 다릅니다. 면수를 더하는 양과 제품별 성분도 미확인이라 전체 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "밀",
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "밀가루",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=0bnFoRQebq0"
+          },
+          {
+            "ingredient": "우유",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=0bnFoRQebq0"
+          },
+          {
+            "ingredient": "파르메산 치즈",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=0bnFoRQebq0"
+          }
+        ],
+        "check_product_labels": [
+          "스파게티면",
+          "올리브유",
+          "베이컨",
+          "파르메산 치즈",
+          "삶은스파게티면 전량"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 16,
-  "allergen_ingredient_review_count": 100
+  "allergen_ingredient_review_count": 105
 }

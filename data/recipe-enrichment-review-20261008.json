@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 100,
+  "recipe_count": 105,
   "nutrition_reference_estimates": 16,
-  "nutrition_held": 84,
+  "nutrition_held": 89,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -519,9 +519,34 @@
       "recipe_id": "paik_uB37XeU5SwM_originalcorn",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_FdL13qXf4MA_breast",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_kzYgtXDcGQ4_soup",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_kzYgtXDcGQ4_broth",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_jN_inaLf9Zo_beef",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_0bnFoRQebq0_cream",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 100,
+  "allergen_ingredient_reviews": 105,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1577,6 +1602,56 @@
       "product_labels_pending": [
         "튀김가루",
         "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_FdL13qXf4MA_breast",
+      "known_from_ingredients": [
+        "닭고기",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "국간장",
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_kzYgtXDcGQ4_soup",
+      "known_from_ingredients": [
+        "닭고기"
+      ],
+      "product_labels_pending": []
+    },
+    {
+      "recipe_id": "paik_kzYgtXDcGQ4_broth",
+      "known_from_ingredients": [
+        "닭고기"
+      ],
+      "product_labels_pending": []
+    },
+    {
+      "recipe_id": "paik_jN_inaLf9Zo_beef",
+      "known_from_ingredients": [
+        "쇠고기",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "국간장",
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_0bnFoRQebq0_cream",
+      "known_from_ingredients": [
+        "밀",
+        "우유"
+      ],
+      "product_labels_pending": [
+        "스파게티면",
+        "올리브유",
+        "베이컨",
+        "파르메산 치즈",
+        "삶은스파게티면 전량"
       ]
     }
   ],

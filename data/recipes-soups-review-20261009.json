@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 5,
+  "includes": "Four finished dishes and separately documented chicken broth preparation",
+  "items": [
+    {
+      "recipe_id": "paik_FdL13qXf4MA_breast",
+      "name": "닭개장(닭가슴살)",
+      "source_url": "https://www.youtube.com/watch?v=FdL13qXf4MA",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_kzYgtXDcGQ4_soup",
+      "name": "닭곰탕",
+      "source_url": "https://www.youtube.com/watch?v=kzYgtXDcGQ4",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_kzYgtXDcGQ4_broth",
+      "name": "닭육수(통닭)",
+      "source_url": "https://www.youtube.com/watch?v=kzYgtXDcGQ4",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_jN_inaLf9Zo_beef",
+      "name": "육개장(20분 방식)",
+      "source_url": "https://www.youtube.com/watch?v=jN_inaLf9Zo",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_0bnFoRQebq0_cream",
+      "name": "베이컨크림파스타",
+      "source_url": "https://www.youtube.com/watch?v=0bnFoRQebq0",
+      "status": "verified_added"
+    }
+  ]
+}
