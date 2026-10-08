@@ -1,0 +1,405 @@
+{
+  "version": "0.1.0",
+  "reviewed_on": "2026-10-08",
+  "reviewed_count": 5,
+  "contains_confirmed_count": 5,
+  "cross_contact_confirmed_count": 5,
+  "products": [
+    {
+      "id": "dongwon_official_000002178",
+      "names": {
+        "ko": "동원 고추참치 100g",
+        "en": "동원 고추참치 100g"
+      },
+      "aliases": {
+        "ko": [
+          "동원고추참치100g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 140.0,
+        "protein_g": 10.0,
+        "carbs_g": 12.0,
+        "fat_g": 6.0,
+        "sat_fat_g": 1.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 720.0,
+        "cholesterol_mg": 40.0
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "토마토",
+          "대두",
+          "밀",
+          "조개류",
+          "굴"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "우유",
+          "메밀",
+          "땅콩",
+          "고등어",
+          "새우",
+          "게",
+          "쇠고기",
+          "돼지고기",
+          "닭고기",
+          "복숭아",
+          "아황산류",
+          "오징어",
+          "잣",
+          "호두",
+          "조개류",
+          "전복",
+          "홍합"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://m.dongwonmall.com/product/detail.do?productId=000002178",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요."
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://m.dongwonmall.com/product/detail.do?productId=000002178",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "100g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 140,
+            "protein_g": 10,
+            "carbs_g": 12,
+            "fat_g": 6,
+            "sat_fat_g": 1,
+            "sugars_g": 9,
+            "sodium_mg": 720,
+            "cholesterol_mg": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongwon_official_000750976",
+      "names": {
+        "ko": "동원 리챔 오리지널 200g",
+        "en": "동원 리챔 오리지널 200g"
+      },
+      "aliases": {
+        "ko": [
+          "동원리챔오리지널200g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 267.0,
+        "protein_g": 13.0,
+        "carbs_g": 2.0,
+        "fat_g": 23.0,
+        "sat_fat_g": 10.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 670.0,
+        "cholesterol_mg": 60.0
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "돼지고기",
+          "대두"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "닭고기",
+          "쇠고기",
+          "밀",
+          "우유",
+          "알류",
+          "토마토",
+          "게",
+          "새우",
+          "조개류",
+          "굴"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://m.dongwonmall.com/product/detail.do?productId=000750976",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요."
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://m.dongwonmall.com/product/detail.do?productId=000750976",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "200g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 267,
+            "protein_g": 13,
+            "carbs_g": 2,
+            "fat_g": 23,
+            "sat_fat_g": 10,
+            "sugars_g": 2,
+            "sodium_mg": 670,
+            "cholesterol_mg": 60
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongwon_official_001332342",
+      "names": {
+        "ko": "동원 양반 버섯야채죽 파우치 420g",
+        "en": "동원 양반 버섯야채죽 파우치 420g"
+      },
+      "aliases": {
+        "ko": [
+          "동원양반버섯야채죽파우치420g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 65.47619048,
+        "protein_g": 0.95238095,
+        "carbs_g": 12.14285714,
+        "fat_g": 1.42857143,
+        "sat_fat_g": 0.23809524,
+        "sugars_g": 1.19047619,
+        "sodium_mg": 319.04761905,
+        "cholesterol_mg": 1.19047619
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "밀",
+          "우유",
+          "쇠고기",
+          "닭고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "메밀",
+          "알류",
+          "땅콩",
+          "고등어",
+          "호두",
+          "복숭아",
+          "아황산류",
+          "오징어",
+          "새우",
+          "조개류",
+          "전복",
+          "굴",
+          "홍합",
+          "게",
+          "돼지고기",
+          "토마토",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001332342",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요."
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001332342",
+          "basis": "100g",
+          "label_basis": "420g",
+          "declared_weight": "420g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 275,
+            "protein_g": 4,
+            "carbs_g": 51,
+            "fat_g": 6,
+            "sat_fat_g": 1,
+            "sugars_g": 5,
+            "sodium_mg": 1340,
+            "cholesterol_mg": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongwon_official_001073666",
+      "names": {
+        "ko": "동원 양반 전복죽 파우치 420g",
+        "en": "동원 양반 전복죽 파우치 420g"
+      },
+      "aliases": {
+        "ko": [
+          "동원양반전복죽파우치420g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 59.52380952,
+        "protein_g": 0.95238095,
+        "carbs_g": 10.23809524,
+        "fat_g": 1.66666667,
+        "sat_fat_g": 0.26190476,
+        "sugars_g": 0.0,
+        "sodium_mg": 235.71428571,
+        "cholesterol_mg": 2.38095238
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "밀",
+          "쇠고기",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "메밀",
+          "알류",
+          "우유",
+          "땅콩",
+          "고등어",
+          "호두",
+          "복숭아",
+          "아황산류",
+          "오징어",
+          "새우",
+          "게",
+          "닭고기",
+          "돼지고기",
+          "토마토",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001073666",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요."
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001073666",
+          "basis": "100g",
+          "label_basis": "420g",
+          "declared_weight": "420g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 250,
+            "protein_g": 4,
+            "carbs_g": 43,
+            "fat_g": 7,
+            "sat_fat_g": 1.1,
+            "sugars_g": 0,
+            "sodium_mg": 990,
+            "cholesterol_mg": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongwon_official_000011114",
+      "names": {
+        "ko": "동원 양반 참치죽 용기 287.5g",
+        "en": "동원 양반 참치죽 용기 287.5g"
+      },
+      "aliases": {
+        "ko": [
+          "동원양반참치죽용기287.5g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 66.08695652,
+        "protein_g": 1.39130435,
+        "carbs_g": 11.82608696,
+        "fat_g": 1.49565217,
+        "sat_fat_g": 0.24347826,
+        "sugars_g": null,
+        "sodium_mg": 316.52173913,
+        "cholesterol_mg": 3.47826087
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "밀",
+          "우유",
+          "쇠고기",
+          "닭고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "메밀",
+          "알류",
+          "땅콩",
+          "고등어",
+          "호두",
+          "복숭아",
+          "아황산류",
+          "조개류",
+          "전복",
+          "굴",
+          "홍합",
+          "오징어",
+          "새우",
+          "게",
+          "돼지고기",
+          "토마토",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.dongwonmall.com/product/detail.do?productId=000011114",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요. 당류는 1g 미만으로 표시되어 정확한 수치를 입력하지 않았습니다."
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?productId=000011114",
+          "basis": "100g",
+          "label_basis": "287.5g",
+          "declared_weight": "287.5g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 190,
+            "protein_g": 4,
+            "carbs_g": 34,
+            "fat_g": 4.3,
+            "sat_fat_g": 0.7,
+            "sugars_g": null,
+            "sodium_mg": 910,
+            "cholesterol_mg": 10
+          }
+        }
+      ]
+    }
+  ]
+}
