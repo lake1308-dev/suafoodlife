@@ -1,0 +1,57 @@
+{
+  "checked_on": "2026-10-08",
+  "new_official_videos": 5,
+  "added_recipes": 7,
+  "items": [
+    {
+      "recipe_id": "paik_xNUvkgONOOM_sauce",
+      "name": "장아찌소스",
+      "source_url": "https://www.youtube.com/watch?v=xNUvkgONOOM",
+      "section_name": "장아찌소스",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_xexAbSUQzSw_seaweed",
+      "name": "미역냉국",
+      "source_url": "https://www.youtube.com/watch?v=xexAbSUQzSw",
+      "section_name": "미역냉국",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_mjLPNh11_xs_salad",
+      "name": "참치마요샐러드",
+      "source_url": "https://www.youtube.com/watch?v=mjLPNh11_xs",
+      "section_name": "참치마요샐러드",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_mjLPNh11_xs_toast",
+      "name": "튜나멜트토스트",
+      "source_url": "https://www.youtube.com/watch?v=mjLPNh11_xs",
+      "section_name": "튜나멜트토스트",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_fdW2duLTBLU_zucchini",
+      "name": "애호박전",
+      "source_url": "https://www.youtube.com/watch?v=fdW2duLTBLU",
+      "section_name": "애호박전",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_rGAt5QS2ueU_pork",
+      "name": "뒷다리살수육",
+      "source_url": "https://www.youtube.com/watch?v=rGAt5QS2ueU",
+      "section_name": "뒷다리살수육",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_rGAt5QS2ueU_shrimp",
+      "name": "새우젓무침",
+      "source_url": "https://www.youtube.com/watch?v=rGAt5QS2ueU",
+      "section_name": "새우젓무침",
+      "status": "verified_added"
+    }
+  ],
+  "policy": "Separate actual recipe sections; do not label sauce as a complete pickle, or infer servings from pieces or ambiguous family portions"
+}

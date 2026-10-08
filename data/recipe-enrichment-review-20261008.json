@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 58,
-  "nutrition_reference_estimates": 7,
-  "nutrition_held": 51,
+  "recipe_count": 65,
+  "nutrition_reference_estimates": 8,
+  "nutrition_held": 57,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -300,9 +300,45 @@
       "status": "estimated_reference",
       "ingredient_count": 17,
       "kcal": 1799.6
+    },
+    {
+      "recipe_id": "paik_xNUvkgONOOM_sauce",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_xexAbSUQzSw_seaweed",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_mjLPNh11_xs_salad",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_mjLPNh11_xs_toast",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_fdW2duLTBLU_zucchini",
+      "status": "estimated_reference",
+      "ingredient_count": 6,
+      "kcal": 842.84
+    },
+    {
+      "recipe_id": "paik_rGAt5QS2ueU_pork",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_rGAt5QS2ueU_shrimp",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 58,
+  "allergen_ingredient_reviews": 65,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -943,6 +979,72 @@
         "식용유",
         "MSG",
         "노두유"
+      ]
+    },
+    {
+      "recipe_id": "paik_xNUvkgONOOM_sauce",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_xexAbSUQzSw_seaweed",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "액젓",
+        "국간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_mjLPNh11_xs_salad",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "통조림참치",
+        "마요네즈",
+        "치킨무"
+      ]
+    },
+    {
+      "recipe_id": "paik_mjLPNh11_xs_toast",
+      "known_from_ingredients": [
+        "우유"
+      ],
+      "product_labels_pending": [
+        "통조림참치",
+        "마요네즈",
+        "치킨무",
+        "식빵",
+        "슬라이스체다치즈"
+      ]
+    },
+    {
+      "recipe_id": "paik_fdW2duLTBLU_zucchini",
+      "known_from_ingredients": [
+        "새우"
+      ],
+      "product_labels_pending": [
+        "전분가루",
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_rGAt5QS2ueU_pork",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "재래식 된장"
+      ]
+    },
+    {
+      "recipe_id": "paik_rGAt5QS2ueU_shrimp",
+      "known_from_ingredients": [
+        "새우"
+      ],
+      "product_labels_pending": [
+        "새우젓",
+        "맛술"
       ]
     }
   ],

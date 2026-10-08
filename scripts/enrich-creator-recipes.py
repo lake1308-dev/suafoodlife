@@ -5,6 +5,7 @@ for source_path in (repo/'data').glob('rda-*.json.gz'):
   for record in json.load(source_file).get('ingredients',[]):rda[record['id']]=record
 base=[('황설탕','rda:C0110040009a'),('물엿','rda:C0070000009a'),('진간장','rda:R0010010009a'),('참기름','rda:N0200000009a'),('통깨','rda:E0260020009n')]
 maps={
+'애호박전':{'애호박':'rda:F1980050000a','건새우':'rda:K6130050003a','청양고추':'rda:F0180080000a','소금':'rda:R0200020009a','전분가루':'rda:B0140010005a','식용유':'rda:N0220000009a'},
 '계란볶음밥':{'밥':'rda:A013000A039a','대파':'rda:F1910040000a','달걀':'rda:J0030000000a','식용유':'rda:N0220000009a','진간장':'rda:R0010010009a','MSG':'rda:R0310002825a','맛소금':'rda:R0200012819a'},
 '불고기':dict(base+[('쇠고기등심','rda:I027003D110a'),('양파','rda:F1320000000a'),('양파 간 것','rda:F1320000000a'),('표고버섯','rda:G027000B010a'),('대파','rda:F1910040000a'),('홍고추','rda:F018000C020a'),('다진마늘','rda:F053000B060a'),('후춧가루','rda:R0410010005a')]),
 '멸치볶음(고추장)':{'황설탕':'rda:C0110040009a','물엿':'rda:C0070000009a','참기름':'rda:N0200000009a','통깨':'rda:E0260020009n','중멸치':'rda:K0660001153a','청양고추':'rda:F0180080000a','식용유':'rda:N0220000009a','고추장':'rda:R0050010009a','고운 고춧가루':'rda:R0070000005a'},
@@ -19,6 +20,9 @@ assumptions['멸치볶음(고추장)']=['식용유는 콩기름, 고추장은 �
 assumptions['계란볶음밥']=['밥은 멥쌀 백미밥, 달걀은 생것 식품성분을 기준으로 계산했습니다. 이미 기름이 들어간 달걀프라이 자료를 더하지 않습니다.','식용유는 콩기름, 진간장은 개량 양조간장, MSG는 화학조미료 가루, 맛소금은 가공염 맛소금 자료로 계산했습니다. 실제 제품에 따라 달라집니다.','원본에 적힌 식용유 40g을 모두 섭취하는 기준입니다. 팬에 남기는 기름에 따라 실제 섭취값은 줄어듭니다.','밥 1공기와 달걀 2개를 쓰는 전체 조리 분량입니다. 원본에 인분 수가 명시되지 않아 1인분 영양값으로 단정하지 않습니다.']
 assumptions['잡채']=['당면은 삶기 전의 마른 고구마 당면 250g, 목이버섯은 말린 것 3g 기준입니다. 삶은 당면의 100g 값을 마른 무게에 곱하지 않습니다.','잡채용 돼지고기는 등심살 생것, 시금치와 채소는 생것 기준입니다. 부위·손질 상태에 따라 달라집니다.','진간장과 노두유는 대표 개량 양조간장 자료로 계산했습니다. 노두유의 실제 제품 성분은 미확인으로, 특히 당류·나트륨은 제품 표시값으로 보완해야 합니다.','식용유는 콩기름, 꽃소금은 정제염, 통깨는 볶은 흰참깨, MSG는 화학조미료 가루 자료를 사용했습니다.','모든 정량 재료를 합한 전체 조리 분량의 추정값입니다. 삶거나 데쳐 버리는 물로 빠지는 성분과 팬에 남는 기름은 계산하지 않았습니다.']
 assumptions['잡채(데쳐서 만들기)']=assumptions['잡채'][:] + ['볶는 조리법과 같은 원본 재료 목록을 사용합니다. 데치는 과정의 성분 손실을 반영하지 않아 재료 기준 예상 합계는 같지만, 실제 완성 음식의 값이 같다는 뜻은 아닙니다.']
+assumptions['애호박전']=['건새우는 꽃새우를 삶아 말린 것, 전분가루는 감자전분, 소금은 정제염, 식용유는 콩기름 자료로 계산했습니다. 실제 종류와 제품이 다르면 값이 달라집니다.','원본의 식용유 50g과 반죽을 모두 섭취하는 전체 조리 분량 기준입니다. 팬에 남는 기름이나 반죽은 빼지 않았습니다.','전분을 감자전분으로 선택한 것은 영양 계산용 가정입니다. 실제 사용 제품의 밀 함유 여부는 별도로 확인해야 합니다.']
+assert all(isinstance(tag,str) for tag in maps), 'Recipe map keys must be names'
+assert set(maps).issubset({r['tags'][0] for r in data['recipes']}), 'Recipe mappings must match registered recipes'
 for r in data['recipes']:
  tag=r['tags'][0]
  if tag not in maps:
@@ -37,9 +41,9 @@ print('Nutrition reference estimates',[(r['tags'][0],r['nutrition_reference']['t
 # Only explicit ingredient identities. Product flavour names and recipe titles are not evidence.
 def clean(s):return re.sub(r'\s+','',s).lower()
 identities={}
-for allergen,names in {'알류':['달걀','계란','삶은달걀','달걀지단'],'쇠고기':['쇠고기등심','소고기(양지)','소고기(불고기용)','소양지','소 양지','불고기용소고기'],'돼지고기':['돼지고기','간돼지고기','돼지고기(잡채용)','돼지고기뒷다리살','삼겹살','뒷다리살','돼지고기 앞다리살(찌개용)'],'닭고기':['토막닭','닭다리살'],'대두':['두부','순두부','콩나물','삶은 콩나물'],'밀':['밀가루','밀가루떡'],'새우':['새우젓'],'오징어':['오징어','오징어채'],'우유':['버터'],'고등어':['고등어 통조림'],'메밀':['메밀면']}.items():
+for allergen,names in {'알류':['달걀','계란','삶은달걀','달걀지단'],'쇠고기':['쇠고기등심','소고기(양지)','소고기(불고기용)','소양지','소 양지','불고기용소고기'],'돼지고기':['돼지고기','간돼지고기','돼지고기(잡채용)','돼지고기뒷다리살','삼겹살','뒷다리살','돼지고기 앞다리살(찌개용)','돼지고기 뒷다리살 덩어리'],'닭고기':['토막닭','닭다리살'],'대두':['두부','순두부','콩나물','삶은 콩나물'],'밀':['밀가루','밀가루떡'],'새우':['새우젓','건새우'],'오징어':['오징어','오징어채'],'우유':['버터'],'고등어':['고등어 통조림'],'메밀':['메밀면']}.items():
  for name in names:identities[clean(name)]=allergen
-product_tokens=['김치','간장','고추장','된장','쌈장','소시지','통조림햄','어묵','새우젓','액젓','라면','카레가루','케첩','짜장소스','부침가루','미림','맛술','msg','미원','노두유','맛소금','치즈','식용유','다시다','양념장','우동','밀가루떡','참치캔','마요네즈','게맛살','단무지','우엉조림','유부','사골국물','굴소스','쫄면','메밀면','고등어 통조림','오징어채','케찹','연와사비','잡채']
+product_tokens=['김치','간장','고추장','된장','쌈장','소시지','통조림햄','어묵','새우젓','액젓','라면','카레가루','케첩','짜장소스','부침가루','미림','맛술','msg','미원','노두유','맛소금','치즈','식용유','다시다','양념장','우동','밀가루떡','참치캔','마요네즈','게맛살','단무지','우엉조림','유부','사골국물','굴소스','쫄면','메밀면','고등어 통조림','오징어채','케찹','연와사비','잡채','식빵','치킨무','통조림참치','전분가루']
 url='https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412'
 areviews=[]
 for r in data['recipes']:
@@ -52,5 +56,5 @@ for r in data['recipes']:
   if any(t in norm for t in product_tokens) and name not in checks:checks.append(name)
  r['allergen_review']={'status':'ingredient_identity_reviewed_product_labels_pending','checked_on':'2026-10-08','known_from_ingredients':sorted(set(x['allergen'] for x in evidence)),'ingredient_evidence':evidence,'check_product_labels':checks,'classification_source_url':url,'cross_contact_status':'not_verified'}
  areviews.append({'recipe_id':r['id'],'known_from_ingredients':r['allergen_review']['known_from_ingredients'],'product_labels_pending':checks})
-data.update(version='1.5.0',nutrition_reference_count=len(maps),allergen_ingredient_review_count=len(areviews));p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+data.update(version='1.6.0',nutrition_reference_count=len(maps),allergen_ingredient_review_count=len(areviews));p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 (repo/'data/recipe-enrichment-review-20261008.json').write_text(json.dumps({'reviewed_on':'2026-10-08','recipe_count':len(data['recipes']),'nutrition_reference_estimates':len(maps),'nutrition_held':len(data['recipes'])-len(maps),'nutrition_items':nreviews,'allergen_ingredient_reviews':len(areviews),'allergen_items':areviews,'policy':'No certified complete allergen lists, no cross-contact claims, no allergen-free claims. Nutrition representative choices are disclosed.'},ensure_ascii=False,indent=2)+'\n')
