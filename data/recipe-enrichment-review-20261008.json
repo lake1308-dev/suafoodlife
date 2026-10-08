@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 68,
+  "recipe_count": 71,
   "nutrition_reference_estimates": 11,
-  "nutrition_held": 57,
+  "nutrition_held": 60,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -354,9 +354,24 @@
       "recipe_id": "paik_12e93a8T2nU",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_kpeQCq4mIXs",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_eZzBMCZYEfc",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_5eQ1rf642QI",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 68,
+  "allergen_ingredient_reviews": 71,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1096,6 +1111,34 @@
         "부침가루",
         "식용유",
         "맛소금"
+      ]
+    },
+    {
+      "recipe_id": "paik_kpeQCq4mIXs",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "식용유 약",
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_eZzBMCZYEfc",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_5eQ1rf642QI",
+      "known_from_ingredients": [
+        "대두",
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "김치",
+        "진간장"
       ]
     }
   ],

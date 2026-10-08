@@ -1,6 +1,6 @@
 {
-  "version": "1.7.0",
-  "record_count": 68,
+  "version": "1.8.0",
+  "record_count": 71,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -8016,8 +8016,222 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_kpeQCq4mIXs",
+      "names": {
+        "ko": "가지밥 · 백종원 참고",
+        "en": "가지밥 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "가지밥",
+        "백종원"
+      ],
+      "servings": 4,
+      "ingredients": [],
+      "ingredients_text": "쌀: 2컵(320g)\n정수물: 1과2/3컵(300g)\n식용유 약: 6큰술(40g)\n대파: 1/2대(50g)\n진간장: 3큰술(30g)\n가지(大): 4개(800g)\n* 양념장 재료\n부추: 2/3컵(40g)\n대파: 1/3컵(20g)\n청양고추: 2개(20g)\n간 마늘: 1큰술(20g)\n진간장: 2/3컵(120ml)\n황설탕: 1/2큰술(6g)\n굵은 고춧가루: 2큰술(16g)\n깨소금: 2큰술(12g)\n참기름: 1큰술(7g)\n*선택 추가 재료 (기본 가지밥에 포함하지 않음)\n*선택 달걀: 1개\n*선택 식용유: 3큰술(21g)",
+      "steps": {
+        "ko": [
+          "쌀을 씻어 약 15분 불리고 가지와 대파를 썹니다.",
+          "팬에 기름과 대파를 볶다가 간장을 가장자리에 넣고 가지를 볶습니다.",
+          "불린 쌀과 물을 밥솥에 넣고 볶은 가지를 올려 취사합니다.",
+          "부추·대파·고추를 썰어 나머지 양념장 재료와 섞습니다.",
+          "완성한 밥에 양념장을 기호에 맞게 곁들입니다. 달걀프라이는 선택 사항입니다."
+        ],
+        "en": [
+          "쌀을 씻어 약 15분 불리고 가지와 대파를 썹니다.",
+          "팬에 기름과 대파를 볶다가 간장을 가장자리에 넣고 가지를 볶습니다.",
+          "불린 쌀과 물을 밥솥에 넣고 볶은 가지를 올려 취사합니다.",
+          "부추·대파·고추를 썰어 나머지 양념장 재료와 섞습니다.",
+          "완성한 밥에 양념장을 기호에 맞게 곁들입니다. 달걀프라이는 선택 사항입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "kpeQCq4mIXs",
+        "url": "https://www.youtube.com/watch?v=kpeQCq4mIXs",
+        "title": "진짜 가지가지 합니다.",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "be890d3ae48a8d01321d906beb481b7c0f16c80c9c74fe32c8397b212a778749"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "가지밥은 원본 4인분입니다. 양념장을 먹는 양과 선택 달걀의 무게가 불명확해 전체 영양 계산과 자동 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "식용유 약",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_eZzBMCZYEfc",
+      "names": {
+        "ko": "돼지고기모둠찜 · 백종원 참고",
+        "en": "돼지고기모둠찜 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "돼지고기모둠찜",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "* 돼지고기모둠찜\n돼지고기 후지 슬라이스: 260g\n숙주 약: 1과1/3컵(120g)\n양파 약: 1/4개(60g)\n표고버섯: 2개(30g)\n고구마 약: 1/7개(40g)\n당근 약1/4개(50g)\n청경채: 3송이(120g)\n쪽파: 1/2큰술(2g)\n* 양념장\n진간장: 4큰술(40g)\n환만식초: 2와1/2큰술(20g)\n황설탕: 1큰술(12g)\n청양고추 약: 1과 1/2개(14g)\n간 마늘: 2/5큰술(8g)\n굵은 고춧가루: 1/4큰술(2g)",
+      "steps": {
+        "ko": [
+          "숙주와 청경채를 씻고 다른 채소를 얇게 썹니다.",
+          "채소를 섞어 찜기에 돼지고기와 번갈아 층층이 올립니다.",
+          "물이 끓으면 찜기를 올려 뚜껑을 덮고 원본 안내인 약 7분을 참고해 찝니다. 고기 두께에 따라 속까지 익었는지 확인합니다.",
+          "쪽파를 뿌리고 별도로 섞은 양념장을 곁들입니다."
+        ],
+        "en": [
+          "숙주와 청경채를 씻고 다른 채소를 얇게 썹니다.",
+          "채소를 섞어 찜기에 돼지고기와 번갈아 층층이 올립니다.",
+          "물이 끓으면 찜기를 올려 뚜껑을 덮고 원본 안내인 약 7분을 참고해 찝니다. 고기 두께에 따라 속까지 익었는지 확인합니다.",
+          "쪽파를 뿌리고 별도로 섞은 양념장을 곁들입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "eZzBMCZYEfc",
+        "url": "https://www.youtube.com/watch?v=eZzBMCZYEfc",
+        "title": "집에 손님 올 때는 이 메뉴를 해보세요. Make This Dish When You Have Guests Over!",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "1ac2d2ea31a5c4963fe191183412a1f3dbca12921469e1d16c5b212a137e479a"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "곁들이는 양념장은 별도 분량입니다. 인분 수와 실제 양념장 섭취량이 미지정이어서 전체 영양 계산과 자동 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "돼지고기 후지 슬라이스",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=eZzBMCZYEfc"
+          }
+        ],
+        "check_product_labels": [
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_5eQ1rf642QI",
+      "names": {
+        "ko": "두부김치 · 백종원 참고",
+        "en": "두부김치 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "두부김치",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "김치: 1컵(200g)\n물 반컵(90g)\n양파: 1/4개(40g)\n당근: 1/5컵(20g)\n청양고추: 1개(14g)\n홍고추: 1개(20g)\n대파: 1/4컵(20g)\n삼겹살: 1컵(160g)\n황설탕: 1/2큰술(5g)\n간마늘: 1큰술(15g)\n굵은고춧가루: 1.5큰술(15g)\n참기름: 2큰술(15g)\n깨소금: 1/2큰술(3g)\n진간장: 3큰술(30g)\n두부: 1모(300g)",
+      "steps": {
+        "ko": [
+          "삼겹살에 설탕을 뿌려 팬에서 노릇하게 굽습니다.",
+          "물·고춧가루·마늘·간장을 섞고 김치를 넣어 볶습니다.",
+          "양파와 당근을 더해 볶은 뒤 고추와 대파를 섞고 불을 끕니다.",
+          "참기름을 섞어 마무리합니다. 두부는 별도 끓는 물에 데쳐 먹기 좋게 썹니다.",
+          "두부와 볶은 김치를 함께 담고 깨소금을 뿌립니다."
+        ],
+        "en": [
+          "삼겹살에 설탕을 뿌려 팬에서 노릇하게 굽습니다.",
+          "물·고춧가루·마늘·간장을 섞고 김치를 넣어 볶습니다.",
+          "양파와 당근을 더해 볶은 뒤 고추와 대파를 섞고 불을 끕니다.",
+          "참기름을 섞어 마무리합니다. 두부는 별도 끓는 물에 데쳐 먹기 좋게 썹니다.",
+          "두부와 볶은 김치를 함께 담고 깨소금을 뿌립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "5eQ1rf642QI",
+        "url": "https://www.youtube.com/watch?v=5eQ1rf642QI",
+        "title": "김치볶음 끝내주는 두부김치! 술 안주로도 제격ㅎㅎㅎ | 백종원의 백종원 레시피",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "55f7447eb4cca1f808964227e946ddaec08189a7a92a27706b0e9a4c0e07ea9e"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "두부 데치는 물에도 참기름을 넣는 과정이 있지만 재료 목록의 참기름을 각 단계에 나누는 양은 미지정입니다. 섭취량과 인분 수를 확인하기 전 전체 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "대두",
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "삼겹살",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=5eQ1rf642QI"
+          },
+          {
+            "ingredient": "두부",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=5eQ1rf642QI"
+          }
+        ],
+        "check_product_labels": [
+          "김치",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 11,
-  "allergen_ingredient_review_count": 68
+  "allergen_ingredient_review_count": 71
 }

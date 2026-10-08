@@ -1,0 +1,30 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 3,
+  "items": [
+    {
+      "recipe_id": "paik_kpeQCq4mIXs",
+      "name": "가지밥",
+      "searched_as": "가지볶음",
+      "source_url": "https://www.youtube.com/watch?v=kpeQCq4mIXs",
+      "status": "verified_added",
+      "nutrition_hold_reason": "가지밥은 원본 4인분입니다. 양념장을 먹는 양과 선택 달걀의 무게가 불명확해 전체 영양 계산과 자동 환산을 보류했습니다."
+    },
+    {
+      "recipe_id": "paik_eZzBMCZYEfc",
+      "name": "돼지고기모둠찜",
+      "searched_as": "숙주나물",
+      "source_url": "https://www.youtube.com/watch?v=eZzBMCZYEfc",
+      "status": "verified_added",
+      "nutrition_hold_reason": "곁들이는 양념장은 별도 분량입니다. 인분 수와 실제 양념장 섭취량이 미지정이어서 전체 영양 계산과 자동 환산을 보류했습니다."
+    },
+    {
+      "recipe_id": "paik_5eQ1rf642QI",
+      "name": "두부김치",
+      "searched_as": "두부김치",
+      "source_url": "https://www.youtube.com/watch?v=5eQ1rf642QI",
+      "status": "verified_added",
+      "nutrition_hold_reason": "두부 데치는 물에도 참기름을 넣는 과정이 있지만 재료 목록의 참기름을 각 단계에 나누는 양은 미지정입니다. 섭취량과 인분 수를 확인하기 전 전체 영양 계산을 보류했습니다."
+    }
+  ]
+}
