@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
   "recipe_count": 65,
-  "nutrition_reference_estimates": 8,
-  "nutrition_held": 57,
+  "nutrition_reference_estimates": 9,
+  "nutrition_held": 56,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -334,8 +334,9 @@
     },
     {
       "recipe_id": "paik_rGAt5QS2ueU_shrimp",
-      "status": "held",
-      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+      "status": "estimated_reference",
+      "ingredient_count": 10,
+      "kcal": 402.82
     }
   ],
   "allergen_ingredient_reviews": 65,

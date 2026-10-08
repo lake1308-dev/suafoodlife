@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
+  "version": "1.6.1",
   "record_count": 65,
   "recipes": [
     {
@@ -7318,7 +7318,7 @@
       "source_kind": "creator_reference",
       "source_label": "백종원 공식 영상 참고",
       "verified_source": true,
-      "nutrition_status": "not_calculated",
+      "nutrition_status": "estimated_reference",
       "source_nutrition": null,
       "source_weight_text": "",
       "source": {
@@ -7352,9 +7352,225 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "nutrition_reference": {
+        "status": "estimated_reference",
+        "basis": "sum_of_measured_input_ingredients",
+        "complete_for_reference_ingredients": true,
+        "source_name": "농촌진흥청 국가표준식품성분 DB 10.4 (2026)",
+        "reviewed_on": "2026-10-08",
+        "original_servings": null,
+        "ingredients": [
+          {
+            "ingredient": "새우젓",
+            "amount_g": 200.0,
+            "source_record_id": "K617006000Ia",
+            "source_food_name": "새우, 젓새우, 젓갈",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 53.0,
+              "protein_g": 10.4,
+              "fat_g": 0.9,
+              "carbs_g": 0.7,
+              "sugars_g": null,
+              "fiber_g": null,
+              "sodium_mg": 6200.0,
+              "cholesterol_mg": null,
+              "sat_fat_g": null
+            }
+          },
+          {
+            "ingredient": "간 마늘",
+            "amount_g": 24.0,
+            "source_record_id": "F053000B060a",
+            "source_food_name": "마늘, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 128,
+              "protein_g": 7.45,
+              "fat_g": 0.16,
+              "carbs_g": 26.42,
+              "sugars_g": 0.23,
+              "fiber_g": 3.8,
+              "sodium_mg": 3,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.06
+            }
+          },
+          {
+            "ingredient": "황설탕",
+            "amount_g": 20.0,
+            "source_record_id": "C0110040009a",
+            "source_food_name": "설탕, 황설탕",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 386,
+              "protein_g": 0.03,
+              "fat_g": 0.01,
+              "carbs_g": 99.66,
+              "sugars_g": 98.29,
+              "fiber_g": 0,
+              "sodium_mg": 2,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0
+            }
+          },
+          {
+            "ingredient": "쪽파",
+            "amount_g": 16.0,
+            "source_record_id": "F1910030000a",
+            "source_food_name": "파, 쪽파, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 26,
+              "protein_g": 1.69,
+              "fat_g": 0.17,
+              "carbs_g": 5.8,
+              "sugars_g": 3.32,
+              "fiber_g": 2.4,
+              "sodium_mg": 1,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.04
+            }
+          },
+          {
+            "ingredient": "맛술",
+            "amount_g": 14.0,
+            "source_record_id": "R0160000009a",
+            "source_food_name": "맛술",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 146,
+              "protein_g": 0.3,
+              "fat_g": 0.3,
+              "carbs_g": 35.5,
+              "sugars_g": null,
+              "fiber_g": null,
+              "sodium_mg": 32,
+              "cholesterol_mg": null,
+              "sat_fat_g": null
+            }
+          },
+          {
+            "ingredient": "참기름",
+            "amount_g": 14.0,
+            "source_record_id": "N0200000009a",
+            "source_food_name": "참기름",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 920,
+              "protein_g": 0,
+              "fat_g": 99.84,
+              "carbs_g": 0.13,
+              "sugars_g": 0,
+              "fiber_g": 0,
+              "sodium_mg": 0,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 14.89
+            }
+          },
+          {
+            "ingredient": "청양고추",
+            "amount_g": 10.0,
+            "source_record_id": "F0180080000a",
+            "source_food_name": "고추, 청양고추, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 31,
+              "protein_g": 1.53,
+              "fat_g": 0.3,
+              "carbs_g": 7.01,
+              "sugars_g": 0.34,
+              "fiber_g": 4.7,
+              "sodium_mg": 1,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.06
+            }
+          },
+          {
+            "ingredient": "홍고추",
+            "amount_g": 10.0,
+            "source_record_id": "F018000C020a",
+            "source_food_name": "고추, 빨간색, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 85,
+              "protein_g": 3.12,
+              "fat_g": 2.73,
+              "carbs_g": 15.34,
+              "sugars_g": 5.48,
+              "fiber_g": 10.2,
+              "sodium_mg": 1,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.49
+            }
+          },
+          {
+            "ingredient": "굵은 고춧가루",
+            "amount_g": 4.0,
+            "source_record_id": "R0070000005a",
+            "source_food_name": "고춧가루",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 319,
+              "protein_g": 13.29,
+              "fat_g": 8.4,
+              "carbs_g": 60.62,
+              "sugars_g": 17.45,
+              "fiber_g": 37.699999999999996,
+              "sodium_mg": 13,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 1.48
+            }
+          },
+          {
+            "ingredient": "통깨",
+            "amount_g": 2.0,
+            "source_record_id": "E0260020009n",
+            "source_food_name": "참깨, 흰색, 볶은것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 557,
+              "protein_g": 25.96,
+              "fat_g": 45.11,
+              "carbs_g": 21.83,
+              "sugars_g": 0,
+              "fiber_g": 14.1,
+              "sodium_mg": 2,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 7.1
+            }
+          }
+        ],
+        "totals": {
+          "kcal": 402.82,
+          "protein_g": 24.4222,
+          "carbs_g": 38.6854,
+          "fat_g": 17.4284,
+          "sodium_mg": 12406.52,
+          "sugars_g": null,
+          "sat_fat_g": null,
+          "cholesterol_mg": null
+        },
+        "assumptions": [
+          "새우젓은 젓새우 젓갈, 맛술은 대표 맛술, 통깨는 볶은 흰참깨 자료로 계산했습니다. 젓갈 종류·염도와 제품에 따라 특히 나트륨과 당류가 달라집니다.",
+          "양념을 포함한 무침 전체 분량의 재료 합계입니다. 수육에 곁들여 조금씩 먹는 양념으로, 이 합계를 1인분 식사 영양값으로 해석하지 않습니다.",
+          "맛술의 조리 중 알코올 손실이나 숙성에 따른 변화를 반영하지 않았습니다. 실제 섭취량에 따라 값이 달라집니다."
+        ],
+        "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
       }
     }
   ],
-  "nutrition_reference_count": 8,
+  "nutrition_reference_count": 9,
   "allergen_ingredient_review_count": 65
 }
