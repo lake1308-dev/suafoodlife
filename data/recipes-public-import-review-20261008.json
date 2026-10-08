@@ -1,0 +1,44 @@
+{
+  "source_records": 1156,
+  "imported_records": 1150,
+  "held_records": [
+    {
+      "source_id": "33",
+      "name": "사과 새우 북엇국",
+      "reason": "missing_required_fields_or_duplicate_id"
+    },
+    {
+      "source_id": "36",
+      "name": "저염 된장으로 맛을 낸 황태해장국",
+      "reason": "missing_required_fields_or_duplicate_id"
+    },
+    {
+      "source_id": "691",
+      "name": "호박잎다슬기된장국",
+      "reason": "missing_required_fields_or_duplicate_id"
+    },
+    {
+      "source_id": "692",
+      "name": "양배추두부찜과 양파케첩소스",
+      "reason": "missing_required_fields_or_duplicate_id"
+    },
+    {
+      "source_id": "2980",
+      "name": "비타 오이 물김치",
+      "reason": "missing_required_fields_or_duplicate_id"
+    },
+    {
+      "source_id": "831",
+      "name": "곤약 콩조림",
+      "reason": "missing_required_fields_or_duplicate_id"
+    }
+  ],
+  "source_sha256": "7e557bd81c25e2d9f9fc244c6b302182092d922482e14a568bdc8f4b08532710",
+  "checks": [
+    "unique source IDs",
+    "required name, ingredients and first step",
+    "original ingredient quantities retained",
+    "no guessed servings or nutrient calculations",
+    "no product allergen declarations inferred"
+  ]
+}
