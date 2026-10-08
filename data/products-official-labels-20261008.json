@@ -1,9 +1,9 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "reviewed_on": "2026-10-08",
-  "reviewed_count": 7,
-  "contains_confirmed_count": 7,
-  "cross_contact_confirmed_count": 7,
+  "reviewed_count": 9,
+  "contains_confirmed_count": 9,
+  "cross_contact_confirmed_count": 9,
   "products": [
     {
       "id": "dongwon_official_000002178",
@@ -559,6 +559,170 @@
             "sugars_g": 3,
             "sodium_mg": 840,
             "cholesterol_mg": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongwon_official_001425335",
+      "names": {
+        "ko": "동원 양반 수라 부대찌개 460g",
+        "en": "동원 양반 수라 부대찌개 460g"
+      },
+      "aliases": {
+        "ko": [
+          "동원양반수라부대찌개460g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 118.47826087,
+        "protein_g": 3.47826087,
+        "carbs_g": 13.47826087,
+        "fat_g": 5.65217391,
+        "sat_fat_g": 2.60869565,
+        "sugars_g": 2.17391304,
+        "sodium_mg": 682.60869565,
+        "cholesterol_mg": 14.13043478
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "새우",
+          "돼지고기",
+          "토마토",
+          "닭고기",
+          "쇠고기",
+          "조개류",
+          "홍합"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "메밀",
+          "땅콩",
+          "고등어",
+          "게",
+          "복숭아",
+          "아황산류",
+          "호두",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001425335",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요."
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001425335",
+          "basis": "100g",
+          "label_basis": "460g",
+          "declared_weight": "460g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 545,
+            "protein_g": 16,
+            "carbs_g": 62,
+            "fat_g": 26,
+            "sat_fat_g": 12,
+            "sugars_g": 10,
+            "sodium_mg": 3140,
+            "cholesterol_mg": 65
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongwon_official_001243297",
+      "names": {
+        "ko": "동원 양반 백합미역국 460g",
+        "en": "동원 양반 백합미역국 460g"
+      },
+      "aliases": {
+        "ko": [
+          "동원양반백합미역국460g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 26.08695652,
+        "protein_g": 1.08695652,
+        "carbs_g": 2.60869565,
+        "fat_g": 1.30434783,
+        "sat_fat_g": 0.17391304,
+        "sugars_g": 0.43478261,
+        "sodium_mg": 543.47826087,
+        "cholesterol_mg": 5.43478261
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "밀",
+          "조개류",
+          "홍합"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "우유",
+          "메밀",
+          "땅콩",
+          "고등어",
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "쇠고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.dongwonmall.com/product/detail.do?nrCoId=google_code&productId=001243297",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요."
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?nrCoId=google_code&productId=001243297",
+          "basis": "100g",
+          "label_basis": "460g",
+          "declared_weight": "460g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 120,
+            "protein_g": 5,
+            "carbs_g": 12,
+            "fat_g": 6,
+            "sat_fat_g": 0.8,
+            "sugars_g": 2,
+            "sodium_mg": 2500,
+            "cholesterol_mg": 25
           }
         }
       ]
