@@ -1,10 +1,10 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "reviewed_on": "2026-10-08",
   "reviewed_count": 50,
-  "contains_confirmed_count": 42,
-  "cross_contact_confirmed_count": 21,
-  "contains_unverified_count": 8,
+  "contains_confirmed_count": 43,
+  "cross_contact_confirmed_count": 22,
+  "contains_unverified_count": 7,
   "products": [
     {
       "id": "kurly_label_5060444",
@@ -1523,27 +1523,59 @@
       "category": "packaged_food",
       "verification_status": "product_label",
       "nutrition_per_100g": {
-        "kcal": null,
-        "protein_g": null,
-        "carbs_g": null,
-        "fat_g": null,
-        "sat_fat_g": null,
-        "sugars_g": null,
-        "sodium_mg": null,
-        "cholesterol_mg": null
+        "kcal": 230,
+        "protein_g": 2,
+        "carbs_g": 13,
+        "fat_g": 19,
+        "sat_fat_g": 2.9,
+        "sugars_g": 13,
+        "sodium_mg": 1100,
+        "cholesterol_mg": 0
       },
       "allergen_info": {
         "basis": "product_label_review",
-        "contains": [],
-        "contains_status": "unverified",
-        "cross_contact": [],
-        "cross_contact_status": "unverified",
+        "contains": [
+          "대두",
+          "밀"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "우유",
+          "메밀",
+          "땅콩",
+          "고등어",
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "쇠고기",
+          "오징어",
+          "조개류",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
         "cross_contact_kind": "possible_cross_contact",
-        "source_url": "https://www.kurly.com/goods/1000244534",
+        "source_url": "https://www.jungoneshop.com/goods/goods_view.php?goodsNo=3257",
         "checked_on": "2026-10-08",
-        "review_note": "출처의 알레르기 원료명에 오기가 있어 표시 전체를 재확인할 때까지 연결을 보류했습니다. 제조시설·혼입 안내는 추가 확인이 필요합니다. 이 제품의 영양값은 아직 연결하지 않았습니다."
+        "review_note": "제조사 공식몰의 325g 제품 표시에서 대두·밀 함유와 혼입 가능 안내를 확인했습니다. 기존 판매처 오기 대신 공식 표시를 연결했습니다. 영양값은 100g 기준입니다.",
+        "label_image_url": "https://daesang12.hgodo.com/chungjungone/1007783/on_04.jpg"
       },
       "sources": [
+        {
+          "source": "대상 공식몰 제품 표시정보",
+          "source_url": "https://www.jungoneshop.com/goods/goods_view.php?goodsNo=3257",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "325g",
+          "manufacturer": "대상(주) 기흥공장",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보"
+        },
         {
           "source": "컬리 판매자 제공 제품 표시정보",
           "source_url": "https://www.kurly.com/goods/1000244534",
@@ -2921,5 +2953,5 @@
       ]
     }
   ],
-  "nutrition_confirmed_count": 2
+  "nutrition_confirmed_count": 3
 }
