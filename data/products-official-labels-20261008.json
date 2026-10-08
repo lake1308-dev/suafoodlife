@@ -1,9 +1,9 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "reviewed_on": "2026-10-08",
-  "reviewed_count": 9,
-  "contains_confirmed_count": 9,
-  "cross_contact_confirmed_count": 9,
+  "reviewed_count": 14,
+  "contains_confirmed_count": 14,
+  "cross_contact_confirmed_count": 14,
   "products": [
     {
       "id": "dongwon_official_000002178",
@@ -723,6 +723,412 @@
             "sugars_g": 2,
             "sodium_mg": 2500,
             "cholesterol_mg": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongwon_official_003796860",
+      "names": {
+        "ko": "동원 양반 야채바삭 김말이 475g",
+        "en": "동원 양반 야채바삭 김말이 475g"
+      },
+      "aliases": {
+        "ko": [
+          "동원양반야채바삭김말이475g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 195.0,
+        "protein_g": 1.0,
+        "carbs_g": 28.0,
+        "fat_g": 9.0,
+        "sat_fat_g": 1.7,
+        "sugars_g": 3.0,
+        "sodium_mg": 590.0,
+        "cholesterol_mg": 0.0
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "밀",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "우유",
+          "메밀",
+          "땅콩",
+          "고등어",
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "오징어",
+          "잣",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.dongwonmall.com/product/detail.do?productId=003796860",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요. "
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?productId=003796860",
+          "basis": "100g",
+          "label_basis": "100g",
+          "declared_weight": "475g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 195,
+            "protein_g": 1,
+            "carbs_g": 28,
+            "fat_g": 9,
+            "sat_fat_g": 1.7,
+            "sugars_g": 3,
+            "sodium_mg": 590,
+            "cholesterol_mg": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongwon_official_001561289_original",
+      "names": {
+        "ko": "동원 양반 김부각 오리지널 50g",
+        "en": "동원 양반 김부각 오리지널 50g"
+      },
+      "aliases": {
+        "ko": [
+          "동원양반김부각오리지널50g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 620.0,
+        "protein_g": 4.0,
+        "carbs_g": 48.0,
+        "fat_g": 46.0,
+        "sat_fat_g": 3.6,
+        "sugars_g": null,
+        "sodium_mg": 900.0,
+        "cholesterol_mg": 10.0
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "닭고기",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "메밀",
+          "땅콩",
+          "고등어",
+          "게",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001561289",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요. 당류 1g 미만의 정확한 값은 미확인으로 유지했습니다."
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001561289",
+          "basis": "100g",
+          "label_basis": "50g",
+          "declared_weight": "50g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 310,
+            "protein_g": 2,
+            "carbs_g": 24,
+            "fat_g": 23,
+            "sat_fat_g": 1.8,
+            "sugars_g": null,
+            "sodium_mg": 450,
+            "cholesterol_mg": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongwon_official_001561289_garlic",
+      "names": {
+        "ko": "동원 양반 마늘 김부각 50g",
+        "en": "동원 양반 마늘 김부각 50g"
+      },
+      "aliases": {
+        "ko": [
+          "동원양반마늘김부각50g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 610.0,
+        "protein_g": 4.0,
+        "carbs_g": 50.0,
+        "fat_g": 44.0,
+        "sat_fat_g": 3.6,
+        "sugars_g": 2.0,
+        "sodium_mg": 840.0,
+        "cholesterol_mg": 10.0
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "우유",
+          "대두",
+          "밀",
+          "게",
+          "토마토",
+          "쇠고기"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "메밀",
+          "땅콩",
+          "고등어",
+          "새우",
+          "돼지고기",
+          "복숭아",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001561289",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요. "
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001561289",
+          "basis": "100g",
+          "label_basis": "50g",
+          "declared_weight": "50g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 305,
+            "protein_g": 2,
+            "carbs_g": 25,
+            "fat_g": 22,
+            "sat_fat_g": 1.8,
+            "sugars_g": 1,
+            "sodium_mg": 420,
+            "cholesterol_mg": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongwon_official_001561289_shrimp",
+      "names": {
+        "ko": "동원 양반 새우 김부각 50g",
+        "en": "동원 양반 새우 김부각 50g"
+      },
+      "aliases": {
+        "ko": [
+          "동원양반새우김부각50g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 640.0,
+        "protein_g": 4.0,
+        "carbs_g": 44.0,
+        "fat_g": 50.0,
+        "sat_fat_g": 4.6,
+        "sugars_g": 2.0,
+        "sodium_mg": 1580.0,
+        "cholesterol_mg": 30.0
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "새우",
+          "우유",
+          "대두"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "우유",
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "쇠고기",
+          "돼지고기",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "오징어",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001561289",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요. "
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001561289",
+          "basis": "100g",
+          "label_basis": "50g",
+          "declared_weight": "50g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 320,
+            "protein_g": 2,
+            "carbs_g": 22,
+            "fat_g": 25,
+            "sat_fat_g": 2.3,
+            "sugars_g": 1,
+            "sodium_mg": 790,
+            "cholesterol_mg": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "dongwon_official_001561289_kimchi",
+      "names": {
+        "ko": "동원 양반 김치맛 김부각 50g",
+        "en": "동원 양반 김치맛 김부각 50g"
+      },
+      "aliases": {
+        "ko": [
+          "동원양반김치맛김부각50g"
+        ],
+        "en": []
+      },
+      "category": "packaged_food",
+      "verification_status": "product_label",
+      "nutrition_per_100g": {
+        "kcal": 630.0,
+        "protein_g": 4.0,
+        "carbs_g": 42.0,
+        "fat_g": 50.0,
+        "sat_fat_g": 5.8,
+        "sugars_g": 2.0,
+        "sodium_mg": 1440.0,
+        "cholesterol_mg": 20.0
+      },
+      "allergen_info": {
+        "basis": "product_label_review",
+        "contains": [
+          "대두",
+          "오징어",
+          "새우"
+        ],
+        "contains_status": "confirmed",
+        "cross_contact": [
+          "알류",
+          "우유",
+          "메밀",
+          "땅콩",
+          "밀",
+          "고등어",
+          "게",
+          "돼지고기",
+          "복숭아",
+          "토마토",
+          "아황산류",
+          "호두",
+          "닭고기",
+          "쇠고기",
+          "조개류",
+          "굴",
+          "전복",
+          "홍합",
+          "잣"
+        ],
+        "cross_contact_status": "confirmed",
+        "cross_contact_kind": "shared_facility",
+        "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001561289",
+        "checked_on": "2026-10-08",
+        "review_note": "동원 공식몰의 해당 규격 제품 표시를 확인했습니다. 실제 포장 표시를 우선 확인하세요. "
+      },
+      "sources": [
+        {
+          "source": "동원 공식몰 제품 표시정보",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001561289",
+          "basis": "100g",
+          "label_basis": "50g",
+          "declared_weight": "50g",
+          "reference_date": "2026-10-08",
+          "data_type": "제품 표시정보",
+          "nutrition_label_values": {
+            "kcal": 315,
+            "protein_g": 2,
+            "carbs_g": 21,
+            "fat_g": 25,
+            "sat_fat_g": 2.9,
+            "sugars_g": 1,
+            "sodium_mg": 720,
+            "cholesterol_mg": 10
           }
         }
       ]
