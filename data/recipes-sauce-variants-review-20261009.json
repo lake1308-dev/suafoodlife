@@ -1,0 +1,18 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 2,
+  "items": [
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_lettuce",
+      "name": "양상추데침요리",
+      "source_url": "https://www.youtube.com/watch?v=bMLfohWNsvQ",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_rice",
+      "name": "볶음밥",
+      "source_url": "https://www.youtube.com/watch?v=bMLfohWNsvQ",
+      "status": "verified_added"
+    }
+  ]
+}

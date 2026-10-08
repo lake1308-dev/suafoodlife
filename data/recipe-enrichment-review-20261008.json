@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 79,
+  "recipe_count": 81,
   "nutrition_reference_estimates": 11,
-  "nutrition_held": 68,
+  "nutrition_held": 70,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -409,9 +409,19 @@
       "recipe_id": "paik_bMLfohWNsvQ_garlicstems",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_lettuce",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_rice",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 79,
+  "allergen_ingredient_reviews": 81,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1259,6 +1269,24 @@
       ],
       "product_labels_pending": [
         "돼지고기(잡채용)",
+        "식용유",
+        "만능 볶음요리 소스"
+      ]
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_lettuce",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "식용유",
+        "만능 볶음요리 소스"
+      ]
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_rice",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
         "식용유",
         "만능 볶음요리 소스"
       ]

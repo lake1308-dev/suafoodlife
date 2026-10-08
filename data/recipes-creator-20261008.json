@@ -1,6 +1,6 @@
 {
-  "version": "1.9.0",
-  "record_count": 79,
+  "version": "1.9.1",
+  "record_count": 81,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -8783,8 +8783,141 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_bMLfohWNsvQ_lettuce",
+      "names": {
+        "ko": "양상추데침요리 · 백종원 참고",
+        "en": "양상추데침요리 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "양상추데침요리",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "양상추: 1/4개(100g)\n대파: 1큰술(10g)\n물: 1/3컵\n식용유: 2큰술\n만능 볶음요리 소스: 3큰술\n참기름 적당량",
+      "steps": {
+        "ko": [
+          "양상추를 크게 뜯고 대파를 썹니다.",
+          "기름을 넣은 끓는 물에 양상추를 데쳐 건져 접시에 펼칩니다.",
+          "팬에서 기름과 대파를 볶다가 만능볶음요리소스·물·참기름을 섞습니다.",
+          "만든 소스를 데친 양상추 위에 뿌립니다."
+        ],
+        "en": [
+          "양상추를 크게 뜯고 대파를 썹니다.",
+          "기름을 넣은 끓는 물에 양상추를 데쳐 건져 접시에 펼칩니다.",
+          "팬에서 기름과 대파를 볶다가 만능볶음요리소스·물·참기름을 섞습니다.",
+          "만든 소스를 데친 양상추 위에 뿌립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "bMLfohWNsvQ",
+        "url": "https://www.youtube.com/watch?v=bMLfohWNsvQ",
+        "title": "★NEW★ '만능 볶음요리 소스' 암꺼나 넣고 볶아도 천상의 맛! 우리모두 요리사가 됩니다. (진지) l 백종원의 쿠킹로그",
+        "section_name": "양상추데침요리",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "d302352447057d81cb1b0b5bbd0330a8247cd53c39d5567ce207f58e4679feb9"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "인분 수와 일부 재료 또는 실제 섭취량이 불명확해 자동 환산과 영양 계산을 보류했습니다. 만능볶음요리소스는 이 사이트의 같은 이름 레시피에서 준비합니다. 소스용 간장·굴소스·전분 등의 제품 알레르기 표시도 확인해 주세요.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "식용유",
+          "만능 볶음요리 소스"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_bMLfohWNsvQ_rice",
+      "names": {
+        "ko": "볶음밥 (만능볶음소스) · 백종원 참고",
+        "en": "볶음밥 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "볶음밥",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "돼지목살: 1컵(150g)\n셀러리: 1컵(100g)\n식용유: 1큰술(15g)\n대파: 2큰술(20g)\n건고추 적당량\n후추 적당량\n만능 볶음요리 소스: 3큰술(30g)",
+      "steps": {
+        "ko": [
+          "대파를 썰고 기름 두른 팬에서 달걀을 풀어 볶습니다.",
+          "달걀이 반쯤 익으면 한쪽으로 밀고 대파를 볶아 함께 섞습니다.",
+          "약불에서 밥을 넣어 고루 풀고 만능볶음요리소스로 볶아 마무리합니다."
+        ],
+        "en": [
+          "대파를 썰고 기름 두른 팬에서 달걀을 풀어 볶습니다.",
+          "달걀이 반쯤 익으면 한쪽으로 밀고 대파를 볶아 함께 섞습니다.",
+          "약불에서 밥을 넣어 고루 풀고 만능볶음요리소스로 볶아 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "bMLfohWNsvQ",
+        "url": "https://www.youtube.com/watch?v=bMLfohWNsvQ",
+        "title": "★NEW★ '만능 볶음요리 소스' 암꺼나 넣고 볶아도 천상의 맛! 우리모두 요리사가 됩니다. (진지) l 백종원의 쿠킹로그",
+        "section_name": "볶음밥",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "d302352447057d81cb1b0b5bbd0330a8247cd53c39d5567ce207f58e4679feb9"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "인분 수와 일부 재료 또는 실제 섭취량이 불명확해 자동 환산과 영양 계산을 보류했습니다. 만능볶음요리소스는 이 사이트의 같은 이름 레시피에서 준비합니다. 소스용 간장·굴소스·전분 등의 제품 알레르기 표시도 확인해 주세요.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "돼지목살",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=bMLfohWNsvQ"
+          }
+        ],
+        "check_product_labels": [
+          "식용유",
+          "만능 볶음요리 소스"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 11,
-  "allergen_ingredient_review_count": 79
+  "allergen_ingredient_review_count": 81
 }
