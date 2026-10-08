@@ -6,9 +6,11 @@ for source_path in (repo/'data').glob('rda-*.json.gz'):
 base=[('황설탕','rda:C0110040009a'),('물엿','rda:C0070000009a'),('진간장','rda:R0010010009a'),('참기름','rda:N0200000009a'),('통깨','rda:E0260020009n')]
 maps={
 '불고기':dict(base+[('쇠고기등심','rda:I027003D110a'),('양파','rda:F1320000000a'),('양파 간 것','rda:F1320000000a'),('표고버섯','rda:G027000B010a'),('대파','rda:F1910040000a'),('홍고추','rda:F018000C020a'),('다진마늘','rda:F053000B060a'),('후춧가루','rda:R0410010005a')]),
+'무생채(소금 양념)':{'무':'rda:F065002B090a','고운고춧가루':'rda:R0070000005a','황설탕':'rda:C0110040009a','간마늘':'rda:F053000B060a','식초':'rda:R0220060009a','꽃소금':'rda:R0200020009a','대파':'rda:F1910040000a','깨소금':'rda:E0260020009n'},
 '멸치볶음':dict(base+[('중멸치','rda:K0660001153a'),('청양고추','rda:F0180080000a'),('식용유','rda:N0220000009a')])}
 assumptions={'불고기':['쇠고기등심은 한우 등심 생것 자료를 사용했습니다. 등급·원산지·지방량에 따라 달라집니다.','진간장은 개량 양조간장, 통깨는 볶은 흰참깨 자료를 기준으로 계산했습니다.'], '멸치볶음':['식용유는 콩기름, 진간장은 개량 양조간장, 통깨는 볶은 흰참깨 자료를 기준으로 계산했습니다. 실제 제품이 다르면 값이 달라집니다.']}
 nutrient_keys=['kcal','protein_g','carbs_g','fat_g','sodium_mg','sugars_g','sat_fat_g','cholesterol_mg'];nreviews=[]
+assumptions['무생채(소금 양념)']=['무는 조선무 생것, 식초는 양조식초, 꽃소금은 대표 정제염 자료로 계산했습니다. 실제 제품 성분과는 다를 수 있습니다.','깨소금은 볶은 흰참깨를 갈아 쓴 것으로 가정했습니다. 소금을 섞은 제품이면 영양값이 달라집니다.','양념을 모두 먹는 기준입니다. 무에서 나온 국물이나 양념을 남기면 실제 섭취량은 줄어듭니다.']
 for r in data['recipes']:
  tag=r['tags'][0]
  if tag not in maps:
@@ -27,9 +29,9 @@ print('Nutrition reference estimates',[(r['tags'][0],r['nutrition_reference']['t
 # Only explicit ingredient identities. Product flavour names and recipe titles are not evidence.
 def clean(s):return re.sub(r'\s+','',s).lower()
 identities={}
-for allergen,names in {'알류':['달걀','계란','삶은달걀'],'쇠고기':['쇠고기등심','소고기(양지)','소고기(불고기용)'],'돼지고기':['돼지고기','간돼지고기','돼지고기(잡채용)','돼지고기뒷다리살','삼겹살'],'닭고기':['토막닭','닭다리살'],'대두':['두부','순두부','콩나물'],'밀':['밀가루','밀가루떡'],'새우':['새우젓'],'오징어':['오징어'],'우유':['버터']}.items():
+for allergen,names in {'알류':['달걀','계란','삶은달걀','달걀지단'],'쇠고기':['쇠고기등심','소고기(양지)','소고기(불고기용)','소양지','소 양지'],'돼지고기':['돼지고기','간돼지고기','돼지고기(잡채용)','돼지고기뒷다리살','삼겹살','뒷다리살','돼지고기 앞다리살(찌개용)'],'닭고기':['토막닭','닭다리살'],'대두':['두부','순두부','콩나물','삶은 콩나물'],'밀':['밀가루','밀가루떡'],'새우':['새우젓'],'오징어':['오징어','오징어채'],'우유':['버터'],'고등어':['고등어 통조림'],'메밀':['메밀면']}.items():
  for name in names:identities[clean(name)]=allergen
-product_tokens=['김치','간장','고추장','된장','쌈장','소시지','통조림햄','어묵','새우젓','액젓','라면','카레가루','케첩','짜장소스','부침가루','미림','맛술','msg','미원','노두유','맛소금','치즈','식용유','다시다','양념장','우동','밀가루떡','참치캔']
+product_tokens=['김치','간장','고추장','된장','쌈장','소시지','통조림햄','어묵','새우젓','액젓','라면','카레가루','케첩','짜장소스','부침가루','미림','맛술','msg','미원','노두유','맛소금','치즈','식용유','다시다','양념장','우동','밀가루떡','참치캔','마요네즈','게맛살','단무지','우엉조림','유부','사골국물','굴소스','쫄면','메밀면','고등어 통조림','오징어채','케찹','연와사비']
 url='https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412'
 areviews=[]
 for r in data['recipes']:
@@ -42,5 +44,5 @@ for r in data['recipes']:
   if any(t in norm for t in product_tokens) and name not in checks:checks.append(name)
  r['allergen_review']={'status':'ingredient_identity_reviewed_product_labels_pending','checked_on':'2026-10-08','known_from_ingredients':sorted(set(x['allergen'] for x in evidence)),'ingredient_evidence':evidence,'check_product_labels':checks,'classification_source_url':url,'cross_contact_status':'not_verified'}
  areviews.append({'recipe_id':r['id'],'known_from_ingredients':r['allergen_review']['known_from_ingredients'],'product_labels_pending':checks})
-data.update(version='1.2.0',nutrition_reference_count=2,allergen_ingredient_review_count=len(areviews));p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
-(repo/'data/recipe-enrichment-review-20261008.json').write_text(json.dumps({'reviewed_on':'2026-10-08','recipe_count':30,'nutrition_reference_estimates':2,'nutrition_held':28,'nutrition_items':nreviews,'allergen_ingredient_reviews':30,'allergen_items':areviews,'policy':'No certified complete allergen lists, no cross-contact claims, no allergen-free claims. Nutrition representative choices are disclosed.'},ensure_ascii=False,indent=2)+'\n')
+data.update(version='1.3.0',nutrition_reference_count=len(maps),allergen_ingredient_review_count=len(areviews));p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+(repo/'data/recipe-enrichment-review-20261008.json').write_text(json.dumps({'reviewed_on':'2026-10-08','recipe_count':len(data['recipes']),'nutrition_reference_estimates':len(maps),'nutrition_held':len(data['recipes'])-len(maps),'nutrition_items':nreviews,'allergen_ingredient_reviews':len(areviews),'allergen_items':areviews,'policy':'No certified complete allergen lists, no cross-contact claims, no allergen-free claims. Nutrition representative choices are disclosed.'},ensure_ascii=False,indent=2)+'\n')
