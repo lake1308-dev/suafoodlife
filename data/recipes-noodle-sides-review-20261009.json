@@ -1,0 +1,36 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 5,
+  "items": [
+    {
+      "recipe_id": "paik_vjWddRRR58M",
+      "name": "간장냉국수",
+      "source_url": "https://www.youtube.com/watch?v=vjWddRRR58M",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_RH73tQvg33g",
+      "name": "들깨칼국수",
+      "source_url": "https://www.youtube.com/watch?v=RH73tQvg33g",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_iij0bMkadEw",
+      "name": "다시마칼국수",
+      "source_url": "https://www.youtube.com/watch?v=iij0bMkadEw",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_MqdncXPR0lY",
+      "name": "꽈리고추삼겹살볶음",
+      "source_url": "https://www.youtube.com/watch?v=MqdncXPR0lY",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_-Imo0xgUQG0",
+      "name": "도토리묵사발",
+      "source_url": "https://www.youtube.com/watch?v=-Imo0xgUQG0",
+      "status": "verified_added"
+    }
+  ]
+}

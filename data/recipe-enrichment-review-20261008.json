@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 120,
+  "recipe_count": 125,
   "nutrition_reference_estimates": 18,
-  "nutrition_held": 102,
+  "nutrition_held": 107,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -621,9 +621,34 @@
       "recipe_id": "paik_sRQxVQ5-NNA",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_vjWddRRR58M",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_RH73tQvg33g",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_iij0bMkadEw",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_MqdncXPR0lY",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_-Imo0xgUQG0",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 120,
+  "allergen_ingredient_reviews": 125,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -949,6 +974,7 @@
       "product_labels_pending": [
         "국간장",
         "진간장",
+        "건소면",
         "양념간장 기호에 따라"
       ]
     },
@@ -1867,6 +1893,50 @@
       "product_labels_pending": [
         "멸치액젓",
         "새우젓"
+      ]
+    },
+    {
+      "recipe_id": "paik_vjWddRRR58M",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "진간장",
+        "맛술",
+        "소면"
+      ]
+    },
+    {
+      "recipe_id": "paik_RH73tQvg33g",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "칼국수면",
+        "멸치액젓"
+      ]
+    },
+    {
+      "recipe_id": "paik_iij0bMkadEw",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "칼국수 면",
+        "국간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_MqdncXPR0lY",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_-Imo0xgUQG0",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "도토리묵",
+        "신김치",
+        "국간장 약2/3큰술(7g)",
+        "소고기다시다 약1/2큰술(5g)"
       ]
     }
   ],

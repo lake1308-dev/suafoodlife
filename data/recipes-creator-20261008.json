@@ -1,6 +1,6 @@
 {
-  "version": "1.16.0",
-  "record_count": 120,
+  "version": "1.17.0",
+  "record_count": 125,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -4219,6 +4219,7 @@
         "check_product_labels": [
           "국간장",
           "진간장",
+          "건소면",
           "양념간장 기호에 따라"
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
@@ -13327,8 +13328,339 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_vjWddRRR58M",
+      "names": {
+        "ko": "간장냉국수 · 백종원 참고",
+        "en": "간장냉국수 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "간장냉국수",
+        "간장국수",
+        "백종원"
+      ],
+      "servings": 1,
+      "ingredients": [],
+      "ingredients_text": "* 육수 (4인분)\n정수물: 1L\n진간장: 1컵 (200g)\n황설탕: 1/2컵 (70g)\n맛술: 1/3컵 (60g)\n식초: 1/3컵 (60g)\n* 간장냉국수 (1인분)\n소면: 1인분 (100g)\n대파: 2큰술 (14g)\n청양고추: 2개 (20g)\n참기름: 1/3큰술 (2g)\n얼음: 1컵 (80g)",
+      "steps": {
+        "ko": [
+          "소면을 끓는 물에 약 3분 30초 삶고 찬물로 헹궈 차갑게 준비합니다.",
+          "육수용 물 일부에 간장·설탕·맛술을 넣어 끓이고 나머지 물을 더해 식힙니다.",
+          "대파와 고추를 썰고 차가운 육수에 식초를 섞습니다.",
+          "면을 그릇에 담아 얼음과 육수를 더하고 대파·고추·참기름으로 마무리합니다."
+        ],
+        "en": [
+          "소면을 끓는 물에 약 3분 30초 삶고 찬물로 헹궈 차갑게 준비합니다.",
+          "육수용 물 일부에 간장·설탕·맛술을 넣어 끓이고 나머지 물을 더해 식힙니다.",
+          "대파와 고추를 썰고 차가운 육수에 식초를 섞습니다.",
+          "면을 그릇에 담아 얼음과 육수를 더하고 대파·고추·참기름으로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "vjWddRRR58M",
+        "url": "https://www.youtube.com/watch?v=vjWddRRR58M",
+        "title": "라면보다 쉬운 초간단 간장냉국수 왔습니다",
+        "section_name": "간장냉국수",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "d972900def16daf41d8f603cb1889aa18347d93ed8c848dca24f0328fc7c134f"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "면 재료는 1인분, 육수 재료는 4인분 기준입니다. 육수 전량을 한 그릇에 사용하는 뜻이 아닙니다. 실제 사용하는 육수량이 미확인이라 인분 조절과 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "진간장",
+          "맛술",
+          "소면"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_RH73tQvg33g",
+      "names": {
+        "ko": "들깨칼국수 · 백종원 참고",
+        "en": "들깨칼국수 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "들깨칼국수",
+        "칼국수",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "감자: 2/3개(120g)\n표고버섯: 1개(20g)\n양파: 약 1/4개(60g)\n물: 3과 1/2컵(630ml)\n칼국수면: 150g\n간 마늘: 1/2큰술(10g)\n멸치액젓: 약 1과 1/2큰술(14g)\n꽃소금: 약간(1g)\n들깻가루: 약 5큰술( 껍질 없는 것 )(44g)\n들기름: 1큰술(7g)",
+      "steps": {
+        "ko": [
+          "감자·버섯·양파를 썰어 물과 함께 끓입니다.",
+          "칼국수면을 넣기 직전에 헹궈 냄비에 더하고 부드럽게 풀어줍니다.",
+          "다시 끓으면 마늘과 액젓을 넣어 약 4분 30초 익히며 소금으로 간을 조절합니다.",
+          "면이 익으면 들깻가루를 섞고 불을 끈 뒤 들기름을 더합니다."
+        ],
+        "en": [
+          "감자·버섯·양파를 썰어 물과 함께 끓입니다.",
+          "칼국수면을 넣기 직전에 헹궈 냄비에 더하고 부드럽게 풀어줍니다.",
+          "다시 끓으면 마늘과 액젓을 넣어 약 4분 30초 익히며 소금으로 간을 조절합니다.",
+          "면이 익으면 들깻가루를 섞고 불을 끈 뒤 들기름을 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "RH73tQvg33g",
+        "url": "https://www.youtube.com/watch?v=RH73tQvg33g",
+        "title": "생각보다 더! 더! 쉬운 들깨칼국수~",
+        "section_name": "들깨칼국수",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "79c8412c20a8d5d12d8504bab2439aff7385cbaf692f1e37f03ee8ac1306acb7"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "들깻가루는 껍질 없는 것 기준입니다. 원본은 인분 수를 명시하지 않았습니다. 면 제품과 조리 중 추가 물량·남기는 국물이 미확인이라 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "칼국수면",
+          "멸치액젓"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_iij0bMkadEw",
+      "names": {
+        "ko": "다시마칼국수 · 백종원 참고",
+        "en": "다시마칼국수 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "다시마칼국수",
+        "백종원"
+      ],
+      "servings": 2,
+      "ingredients": [],
+      "ingredients_text": "* 다시마 육수 (약 4인분)\n건 다시마: 54g\n물: 15컵(2700g)\n* 다시마 칼국수 (약 2인분)\n다시마 육수: 약 6컵(1100g)\n칼국수 면: 225g\n멸치가루: 3/5큰술(3g)\n국간장: 1큰술(10g)\n꽃소금: 약 1/6큰술(2.5g)\n돼지 호박: 약 1/5개(70g)\n당근: 약 1/6개(48g)\n감자: 약 1/3개(54g)\n양파: 약 1/4개(70g)\n대파: 2/3컵(40g)\n청양고추: 2개(20g)\n불린 다시마 채: 80g\n깨소금: 약간\n후춧가루: 약간",
+      "steps": {
+        "ko": [
+          "건다시마를 따뜻한 물에 약 5~10분 불려 육수를 준비합니다. 멸치는 내장을 제거하고 갈아 둡니다.",
+          "채소와 불린 다시마를 썰고 면은 넣기 직전에 헹굽니다.",
+          "육수에 국간장·멸치가루를 끓인 뒤 면과 다시마를 더합니다.",
+          "감자·당근·양파를 넣고 소금으로 간합니다. 감자가 반쯤 익으면 호박을 더합니다.",
+          "면이 익을 무렵 대파·고추를 넣고 그릇에 담아 깨소금과 후추를 더합니다."
+        ],
+        "en": [
+          "건다시마를 따뜻한 물에 약 5~10분 불려 육수를 준비합니다. 멸치는 내장을 제거하고 갈아 둡니다.",
+          "채소와 불린 다시마를 썰고 면은 넣기 직전에 헹굽니다.",
+          "육수에 국간장·멸치가루를 끓인 뒤 면과 다시마를 더합니다.",
+          "감자·당근·양파를 넣고 소금으로 간합니다. 감자가 반쯤 익으면 호박을 더합니다.",
+          "면이 익을 무렵 대파·고추를 넣고 그릇에 담아 깨소금과 후추를 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "iij0bMkadEw",
+        "url": "https://www.youtube.com/watch?v=iij0bMkadEw",
+        "title": "자연스러운 감칠맛의 다시마칼국수! Naturally flavorful dasima kalguksu!",
+        "section_name": "다시마칼국수",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "10f7320339b9f3dca3677b1a72d78adc9a1ebd8c745f41bc44111c90d18dc4e6"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "육수 준비는 약 4인분, 칼국수 재료는 약 2인분 기준입니다. 두 목록을 함께 비례 환산하지 않습니다. 육수 추출 성분과 면 제품·남기는 국물이 미확인이라 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "칼국수 면",
+          "국간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_MqdncXPR0lY",
+      "names": {
+        "ko": "꽈리고추삼겹살볶음 · 백종원 참고",
+        "en": "꽈리고추삼겹살볶음 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "꽈리고추삼겹살볶음",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "꽈리고추: 150g (20개)\n삼겹살: 600g\n대파: 30g (2/3컵)\n청양고추: 30g (3개)\n간마늘: 30g (2큰술)\n황설탕: 30g (3큰술)\n진간장: 60ml (1/3컵)",
+      "steps": {
+        "ko": [
+          "꽈리고추·청양고추·대파와 삼겹살을 썰어 준비합니다.",
+          "삼겹살을 노릇하게 볶아 속까지 익히고 대파와 마늘을 더합니다.",
+          "재료를 한쪽으로 모아 팬의 기름 쪽에 간장을 넣어 볶은 뒤 고기와 섞습니다.",
+          "고추를 더해 골고루 볶아 마무리합니다."
+        ],
+        "en": [
+          "꽈리고추·청양고추·대파와 삼겹살을 썰어 준비합니다.",
+          "삼겹살을 노릇하게 볶아 속까지 익히고 대파와 마늘을 더합니다.",
+          "재료를 한쪽으로 모아 팬의 기름 쪽에 간장을 넣어 볶은 뒤 고기와 섞습니다.",
+          "고추를 더해 골고루 볶아 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "MqdncXPR0lY",
+        "url": "https://www.youtube.com/watch?v=MqdncXPR0lY",
+        "title": "아삭한 식감이 매력적인 꽈리고추 삼겹살볶음 l 백종원의 백종원 레시피",
+        "section_name": "꽈리고추삼겹살볶음",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "e2508ae5e997d8ab23619cf3afbc0f6a605d9dfc32e27554d5e2886058c4d493"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본 재료 목록에는 황설탕 30g이 있으나 설명란 조리 과정에는 사용 시점이 빠져 있습니다. 공식 영상을 함께 확인해 주세요. 실제 남는 기름과 간장 무게 환산·인분 수가 미확인이라 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "삼겹살",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=MqdncXPR0lY"
+          }
+        ],
+        "check_product_labels": [
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_-Imo0xgUQG0",
+      "names": {
+        "ko": "도토리묵사발 · 백종원 참고",
+        "en": "도토리묵사발 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "도토리묵사발",
+        "도토리묵",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "도토리묵: 1팩(412g)\n정수물: 약 2컵(350ml)\n신김치: 약 1컵(110g)\n오이 약1/4개(55g)\n식초: 3큰술(24g)\n청양고추: 1개(10g)\n통깨: 2큰술(10g)\n대파 약1/10개(8g)\n국간장 약2/3큰술(7g)\n소고기다시다 약1/2큰술(5g)\n황설탕 약1/2큰술(5g)\n간 마늘: 1/5큰술(4g)\n참기름 약1/2큰술(4g)\n굵은 고춧가루: 약간\n각얼음: 6개",
+      "steps": {
+        "ko": [
+          "도토리묵을 씻어 채 썰고 김치·오이·대파·고추도 준비합니다. 깨는 빻습니다.",
+          "그릇에 묵과 채소·마늘·빻은 깨·참기름을 담습니다.",
+          "육수용 물 일부와 다시다를 전자레인지용 그릇에 넣고 약 30초 가열해 풉니다.",
+          "나머지 물·국간장·설탕·식초를 섞어 국물을 만들고 묵에 얼음과 함께 부은 뒤 고춧가루를 더합니다."
+        ],
+        "en": [
+          "도토리묵을 씻어 채 썰고 김치·오이·대파·고추도 준비합니다. 깨는 빻습니다.",
+          "그릇에 묵과 채소·마늘·빻은 깨·참기름을 담습니다.",
+          "육수용 물 일부와 다시다를 전자레인지용 그릇에 넣고 약 30초 가열해 풉니다.",
+          "나머지 물·국간장·설탕·식초를 섞어 국물을 만들고 묵에 얼음과 함께 부은 뒤 고춧가루를 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "-Imo0xgUQG0",
+        "url": "https://www.youtube.com/watch?v=-Imo0xgUQG0",
+        "title": "단돈 2천원으로 방구석 피서! 다람이 거🐹 도토리🌰 뺏어 만든 쿨내 폴폴❄ 묵사발",
+        "section_name": "도토리묵사발",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "daab1d1cce8328f5dd67a40882fa2feefb7062306507afa447b79ddd9d50a265"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "도토리묵 1팩은 원본의 412g 기준이며 제품마다 다릅니다. 다시다의 제품 성분과 고춧가루 양·인분 수가 미확인이라 영양 계산은 보류했습니다. 소고기다시다라는 제품명만으로 쇠고기 알레르기를 확정하지 않습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "도토리묵",
+          "신김치",
+          "국간장 약2/3큰술(7g)",
+          "소고기다시다 약1/2큰술(5g)"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 18,
-  "allergen_ingredient_review_count": 120
+  "allergen_ingredient_review_count": 125
 }
