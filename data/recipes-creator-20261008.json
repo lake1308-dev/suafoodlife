@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "record_count": 30,
   "recipes": [
     {
@@ -118,7 +118,36 @@
           "amount": 15.0,
           "unit": "g"
         }
-      ]
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "돼지고기",
+          "새우"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "돼지고기",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=DnQ09ZZCjCs"
+          },
+          {
+            "ingredient": "새우젓",
+            "allergen": "새우",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=DnQ09ZZCjCs"
+          }
+        ],
+        "check_product_labels": [
+          "자른 김치",
+          "국간장",
+          "새우젓"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_ffuakdFmuh4",
@@ -168,7 +197,27 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "b3c7491b8630f74423dc402e70ae7599bb30a40217ff982b51aa9546de6bb667"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "대두"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "두부",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=ffuakdFmuh4"
+          }
+        ],
+        "check_product_labels": [
+          "된장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_xsTFsunt6-8",
@@ -218,7 +267,28 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "21cf133e608682b3c1c0a2ec88157388d20cec99f65725c0cb47eb5a129d53f2"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "쇠고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "소고기(양지)",
+            "allergen": "쇠고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=xsTFsunt6-8"
+          }
+        ],
+        "check_product_labels": [
+          "국간장",
+          "멸치액젓"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_j7s9VRsrm9o",
@@ -270,7 +340,29 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "eb02b2e8920f77c47bbc5d6a6c3b1e5801c2dc4f044f360afe971aca444b8208"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "삼겹살",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=j7s9VRsrm9o"
+          }
+        ],
+        "check_product_labels": [
+          "진간장",
+          "맛소금",
+          "쌈장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_p3IQTouKyH0",
@@ -308,7 +400,7 @@
       "source_kind": "creator_reference",
       "source_label": "백종원 공식 영상 참고",
       "verified_source": true,
-      "nutrition_status": "not_calculated",
+      "nutrition_status": "estimated_reference",
       "source_nutrition": null,
       "source_weight_text": "",
       "source": {
@@ -400,7 +492,299 @@
           "amount": 30.0,
           "unit": "g"
         }
-      ]
+      ],
+      "nutrition_reference": {
+        "status": "estimated_reference",
+        "basis": "sum_of_measured_input_ingredients",
+        "complete_for_reference_ingredients": true,
+        "source_name": "농촌진흥청 국가표준식품성분 DB 10.4 (2026)",
+        "reviewed_on": "2026-10-08",
+        "original_servings": 4,
+        "ingredients": [
+          {
+            "ingredient": "쇠고기등심",
+            "amount_g": 500.0,
+            "source_record_id": "I027003D110a",
+            "source_food_name": "소고기, 한우, 등심, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 313,
+              "protein_g": 15.61,
+              "fat_g": 26.3,
+              "carbs_g": 0,
+              "sugars_g": 0,
+              "fiber_g": 0,
+              "sodium_mg": 56,
+              "cholesterol_mg": 78.96,
+              "sat_fat_g": 10.83
+            }
+          },
+          {
+            "ingredient": "양파",
+            "amount_g": 120.0,
+            "source_record_id": "F1320000000a",
+            "source_food_name": "양파, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 29,
+              "protein_g": 0.96,
+              "fat_g": 0.17,
+              "carbs_g": 6.52,
+              "sugars_g": 4.71,
+              "fiber_g": 1.6,
+              "sodium_mg": 2,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.01
+            }
+          },
+          {
+            "ingredient": "표고버섯",
+            "amount_g": 30.0,
+            "source_record_id": "G027000B010a",
+            "source_food_name": "표고버섯, 배지재배, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 22,
+              "protein_g": 2.74,
+              "fat_g": 0.38,
+              "carbs_g": 7.38,
+              "sugars_g": 0.43,
+              "fiber_g": 5,
+              "sodium_mg": 3,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.03
+            }
+          },
+          {
+            "ingredient": "대파",
+            "amount_g": 30.0,
+            "source_record_id": "F1910040000a",
+            "source_food_name": "파, 대파, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 23,
+              "protein_g": 1.78,
+              "fat_g": 0.15,
+              "carbs_g": 4.8,
+              "sugars_g": 2.63,
+              "fiber_g": 1.6,
+              "sodium_mg": 0,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.07
+            }
+          },
+          {
+            "ingredient": "홍고추",
+            "amount_g": 10.0,
+            "source_record_id": "F018000C020a",
+            "source_food_name": "고추, 빨간색, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 85,
+              "protein_g": 3.12,
+              "fat_g": 2.73,
+              "carbs_g": 15.34,
+              "sugars_g": 5.48,
+              "fiber_g": 10.2,
+              "sodium_mg": 1,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.49
+            }
+          },
+          {
+            "ingredient": "황설탕",
+            "amount_g": 30.0,
+            "source_record_id": "C0110040009a",
+            "source_food_name": "설탕, 황설탕",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 386,
+              "protein_g": 0.03,
+              "fat_g": 0.01,
+              "carbs_g": 99.66,
+              "sugars_g": 98.29,
+              "fiber_g": 0,
+              "sodium_mg": 2,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0
+            }
+          },
+          {
+            "ingredient": "물엿",
+            "amount_g": 30.0,
+            "source_record_id": "C0070000009a",
+            "source_food_name": "물엿",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 306,
+              "protein_g": 0.02,
+              "fat_g": 0,
+              "carbs_g": 79.19,
+              "sugars_g": 43.97,
+              "fiber_g": 0,
+              "sodium_mg": 0,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0
+            }
+          },
+          {
+            "ingredient": "양파 간 것",
+            "amount_g": 20.0,
+            "source_record_id": "F1320000000a",
+            "source_food_name": "양파, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 29,
+              "protein_g": 0.96,
+              "fat_g": 0.17,
+              "carbs_g": 6.52,
+              "sugars_g": 4.71,
+              "fiber_g": 1.6,
+              "sodium_mg": 2,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.01
+            }
+          },
+          {
+            "ingredient": "다진마늘",
+            "amount_g": 18.0,
+            "source_record_id": "F053000B060a",
+            "source_food_name": "마늘, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 128,
+              "protein_g": 7.45,
+              "fat_g": 0.16,
+              "carbs_g": 26.42,
+              "sugars_g": 0.23,
+              "fiber_g": 3.8,
+              "sodium_mg": 3,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.06
+            }
+          },
+          {
+            "ingredient": "진간장",
+            "amount_g": 60.0,
+            "source_record_id": "R0010010009a",
+            "source_food_name": "간장, 개량, 양조",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 103,
+              "protein_g": 9.15,
+              "fat_g": 0,
+              "carbs_g": 16.54,
+              "sugars_g": 0,
+              "fiber_g": 0.8,
+              "sodium_mg": 4783,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0
+            }
+          },
+          {
+            "ingredient": "후춧가루",
+            "amount_g": 1.0,
+            "source_record_id": "R0410010005a",
+            "source_food_name": "후추, 검은색, 가루",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 362.0,
+              "protein_g": 12.87,
+              "fat_g": 5.0,
+              "carbs_g": 66.33,
+              "sugars_g": 0.65,
+              "fiber_g": 25.6,
+              "sodium_mg": 6.0,
+              "cholesterol_mg": 0.0,
+              "sat_fat_g": 0.18
+            }
+          },
+          {
+            "ingredient": "통깨",
+            "amount_g": 2.0,
+            "source_record_id": "E0260020009n",
+            "source_food_name": "참깨, 흰색, 볶은것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 557,
+              "protein_g": 25.96,
+              "fat_g": 45.11,
+              "carbs_g": 21.83,
+              "sugars_g": 0,
+              "fiber_g": 14.1,
+              "sodium_mg": 2,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 7.1
+            }
+          },
+          {
+            "ingredient": "참기름",
+            "amount_g": 30.0,
+            "source_record_id": "N0200000009a",
+            "source_food_name": "참기름",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 920,
+              "protein_g": 0,
+              "fat_g": 99.84,
+              "carbs_g": 0.13,
+              "sugars_g": 0,
+              "fiber_g": 0,
+              "sodium_mg": 0,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 14.89
+            }
+          }
+        ],
+        "totals": {
+          "kcal": 2210.8,
+          "protein_g": 88.5559,
+          "carbs_g": 83.7895,
+          "fat_g": 163.106,
+          "sodium_mg": 3154.84,
+          "sugars_g": 50.7859,
+          "sat_fat_g": 58.8646,
+          "cholesterol_mg": 394.8
+        },
+        "assumptions": [
+          "쇠고기등심은 한우 등심 생것 자료를 사용했습니다. 등급·원산지·지방량에 따라 달라집니다.",
+          "진간장은 개량 양조간장, 통깨는 볶은 흰참깨 자료를 기준으로 계산했습니다."
+        ],
+        "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
+      },
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "쇠고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "쇠고기등심",
+            "allergen": "쇠고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=p3IQTouKyH0"
+          }
+        ],
+        "check_product_labels": [
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_-EwR5eshbPE",
@@ -452,7 +836,27 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "f16b765a192faa9b86ea68c83b3f2f847f8364fd1d01f762d20437c1176c7c4b"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "닭고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "토막닭",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-EwR5eshbPE"
+          }
+        ],
+        "check_product_labels": [
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_t4Es8mwdYlE",
@@ -502,7 +906,38 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "a26e9d45820125e058f5a118adf8a2324f1879e8805c87269e0e27a9d2a7c82b"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "밀",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "밀가루떡",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=t4Es8mwdYlE"
+          },
+          {
+            "ingredient": "삶은달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=t4Es8mwdYlE"
+          }
+        ],
+        "check_product_labels": [
+          "밀가루떡",
+          "사각어묵",
+          "고추장",
+          "진간장",
+          "MSG"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_eIo2BaE6LxI",
@@ -552,7 +987,30 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "24e9285cc3e3c7a2a5beaaf0e41900b4262bd1b6b341eddd10375c8b9339e83e"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=eIo2BaE6LxI"
+          }
+        ],
+        "check_product_labels": [
+          "김치",
+          "소시지",
+          "식용유",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_kR77WlHRZrs",
@@ -602,7 +1060,30 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "b6a642331a13936abef7b8574a80beeffeb3467f396bf7a4cca667f18859f093"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=kR77WlHRZrs"
+          }
+        ],
+        "check_product_labels": [
+          "식용유",
+          "진간장",
+          "MSG",
+          "맛소금"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_Jq2SwKMw8vI",
@@ -726,7 +1207,36 @@
         {
           "original_line": "식용유: 적당량"
         }
-      ]
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "대두",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "콩나물",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=Jq2SwKMw8vI"
+          },
+          {
+            "ingredient": "계란",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=Jq2SwKMw8vI"
+          }
+        ],
+        "check_product_labels": [
+          "고추장",
+          "국간장",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_GP8_7D5eM6A",
@@ -776,7 +1286,43 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "824926d6111484319b52348f4fac7a50cb38d3f93d52dfe91e2a8b6b8562f46c"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "대두",
+          "돼지고기",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "간 돼지고기",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=GP8_7D5eM6A"
+          },
+          {
+            "ingredient": "순두부",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=GP8_7D5eM6A"
+          },
+          {
+            "ingredient": "계란",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=GP8_7D5eM6A"
+          }
+        ],
+        "check_product_labels": [
+          "국간장",
+          "식용유",
+          "순두부 양념장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_8uwmFQH614M",
@@ -826,7 +1372,25 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "8ad7d55c9f32f0e7c3af038765a585cd56a499fc4329acd3409c8815cd09d999"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "통조림햄",
+          "소시지",
+          "신김치",
+          "체다슬라이스치즈",
+          "고추장",
+          "된장",
+          "국간장",
+          "라면"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_3gQwydGHIG8",
@@ -876,7 +1440,27 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "37a2d02ed0c52e7cbd2864d62a2131044417c4a441f1733d6e972e163e6129f2"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "쇠고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "소고기(불고기용)",
+            "allergen": "쇠고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=3gQwydGHIG8"
+          }
+        ],
+        "check_product_labels": [
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_T7YJviWhquo",
@@ -926,7 +1510,27 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "23b5671de086f4bc2dbf3b71e3330a168f2cba29babfa061350856998268e004"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=T7YJviWhquo"
+          }
+        ],
+        "check_product_labels": [
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_0CL9U_Se8Gs",
@@ -1084,7 +1688,29 @@
           "amount": 2.0,
           "unit": "g"
         }
-      ]
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "오징어"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "오징어",
+            "allergen": "오징어",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=0CL9U_Se8Gs"
+          }
+        ],
+        "check_product_labels": [
+          "식용유",
+          "고추장",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_0q0btGvIrWY",
@@ -1194,7 +1820,27 @@
           "amount": 20.0,
           "unit": "g"
         }
-      ]
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "대두"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "콩나물",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=0q0btGvIrWY"
+          }
+        ],
+        "check_product_labels": [
+          "msg(미원)"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_EUdt9GjWj5c",
@@ -1234,7 +1880,7 @@
       "source_kind": "creator_reference",
       "source_label": "백종원 공식 영상 참고",
       "verified_source": true,
-      "nutrition_status": "not_calculated",
+      "nutrition_status": "estimated_reference",
       "source_nutrition": null,
       "source_weight_text": "",
       "source": {
@@ -1246,7 +1892,195 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "39c3642dd5a750ba998401d5807eba5ad6c5bfd867a14ef392f2de4b3328a2b2"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "nutrition_reference": {
+        "status": "estimated_reference",
+        "basis": "sum_of_measured_input_ingredients",
+        "complete_for_reference_ingredients": true,
+        "source_name": "농촌진흥청 국가표준식품성분 DB 10.4 (2026)",
+        "reviewed_on": "2026-10-08",
+        "original_servings": null,
+        "ingredients": [
+          {
+            "ingredient": "중멸치",
+            "amount_g": 50.0,
+            "source_record_id": "K0660001153a",
+            "source_food_name": "멸치, 중멸치, 삶아서 말린것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 245,
+              "protein_g": 49.69,
+              "fat_g": 3.3,
+              "carbs_g": 1.07,
+              "sugars_g": 0,
+              "fiber_g": 0,
+              "sodium_mg": 2377,
+              "cholesterol_mg": 497.29,
+              "sat_fat_g": 1.31
+            }
+          },
+          {
+            "ingredient": "청양고추",
+            "amount_g": 10.0,
+            "source_record_id": "F0180080000a",
+            "source_food_name": "고추, 청양고추, 생것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 31,
+              "protein_g": 1.53,
+              "fat_g": 0.3,
+              "carbs_g": 7.01,
+              "sugars_g": 0.34,
+              "fiber_g": 4.7,
+              "sodium_mg": 1,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0.06
+            }
+          },
+          {
+            "ingredient": "물엿",
+            "amount_g": 32.0,
+            "source_record_id": "C0070000009a",
+            "source_food_name": "물엿",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 306,
+              "protein_g": 0.02,
+              "fat_g": 0,
+              "carbs_g": 79.19,
+              "sugars_g": 43.97,
+              "fiber_g": 0,
+              "sodium_mg": 0,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0
+            }
+          },
+          {
+            "ingredient": "식용유",
+            "amount_g": 21.0,
+            "source_record_id": "N0220000009a",
+            "source_food_name": "콩기름",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 921,
+              "protein_g": 0,
+              "fat_g": 99.96,
+              "carbs_g": 0,
+              "sugars_g": 0,
+              "fiber_g": 0,
+              "sodium_mg": 0,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 14.79
+            }
+          },
+          {
+            "ingredient": "진간장",
+            "amount_g": 10.0,
+            "source_record_id": "R0010010009a",
+            "source_food_name": "간장, 개량, 양조",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 103,
+              "protein_g": 9.15,
+              "fat_g": 0,
+              "carbs_g": 16.54,
+              "sugars_g": 0,
+              "fiber_g": 0.8,
+              "sodium_mg": 4783,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0
+            }
+          },
+          {
+            "ingredient": "참기름",
+            "amount_g": 7.0,
+            "source_record_id": "N0200000009a",
+            "source_food_name": "참기름",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 920,
+              "protein_g": 0,
+              "fat_g": 99.84,
+              "carbs_g": 0.13,
+              "sugars_g": 0,
+              "fiber_g": 0,
+              "sodium_mg": 0,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 14.89
+            }
+          },
+          {
+            "ingredient": "황설탕",
+            "amount_g": 6.0,
+            "source_record_id": "C0110040009a",
+            "source_food_name": "설탕, 황설탕",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 386,
+              "protein_g": 0.03,
+              "fat_g": 0.01,
+              "carbs_g": 99.66,
+              "sugars_g": 98.29,
+              "fiber_g": 0,
+              "sodium_mg": 2,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 0
+            }
+          },
+          {
+            "ingredient": "통깨",
+            "amount_g": 2.0,
+            "source_record_id": "E0260020009n",
+            "source_food_name": "참깨, 흰색, 볶은것",
+            "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "basis_g": 100,
+            "nutrition_per_100g": {
+              "kcal": 557,
+              "protein_g": 25.96,
+              "fat_g": 45.11,
+              "carbs_g": 21.83,
+              "sugars_g": 0,
+              "fiber_g": 14.1,
+              "sodium_mg": 2,
+              "cholesterol_mg": 0,
+              "sat_fat_g": 7.1
+            }
+          }
+        ],
+        "totals": {
+          "kcal": 525.93,
+          "protein_g": 26.4404,
+          "carbs_g": 34.6561,
+          "fat_g": 30.5632,
+          "sodium_mg": 1667.06,
+          "sugars_g": 20.0018,
+          "sat_fat_g": 4.9512,
+          "cholesterol_mg": 248.645
+        },
+        "assumptions": [
+          "식용유는 콩기름, 진간장은 개량 양조간장, 통깨는 볶은 흰참깨 자료를 기준으로 계산했습니다. 실제 제품이 다르면 값이 달라집니다."
+        ],
+        "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
+      },
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "식용유",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_7VNH9Fvvus0",
@@ -1296,7 +2130,19 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "b16fa7ceca4be70760661edd361cb37ce20683519ead6c5f7f3883ec52f95a86"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "통조림햄",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_e--h7ax_6pQ",
@@ -1414,7 +2260,29 @@
           "amount": 3.0,
           "unit": "g"
         }
-      ]
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "대두"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "두부",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=e--h7ax_6pQ"
+          }
+        ],
+        "check_product_labels": [
+          "신김치",
+          "참치캔",
+          "국간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_rrNfCVRFsvs",
@@ -1466,7 +2334,30 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "02a69bf2d88833c8979c17c1cb648165d9c31000d09c69d25636dab7ceaea14c"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "돼지고기(잡채용)",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=rrNfCVRFsvs"
+          }
+        ],
+        "check_product_labels": [
+          "진간장",
+          "식용유",
+          "MSG",
+          "노두유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik__O4tvQtZDiU",
@@ -1516,7 +2407,28 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "e628906e76d80dd56f26f82a3647fcb5a538d4232a3ec6db8eced2e04d0bd966"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=_O4tvQtZDiU"
+          }
+        ],
+        "check_product_labels": [
+          "만능짜장소스",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_47OIcvpqxlo",
@@ -1566,7 +2478,21 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "cff84f4bc4f42e70ee1835e9b26da2d02c6077cac4eec54a50eda8125cba023c"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "신김치",
+          "부침가루",
+          "소시지",
+          "식용유 적당량"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_N82hJpl5cMM",
@@ -1618,7 +2544,19 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "234b70decc1e76ac2fbb8a14ad53f19956def7701960fc479422ea0c42e28180"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "식용유",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_G2kylWhMw5s",
@@ -1670,7 +2608,29 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "f859c9e1042b4486ad5a31e12b7f85aff5e222d9b5d8c9285491cf657486c430"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "밀"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "밀가루",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=G2kylWhMw5s"
+          }
+        ],
+        "check_product_labels": [
+          "신김치",
+          "국간장",
+          "멸치액젓"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_mo8ogr40m4o",
@@ -1805,7 +2765,21 @@
         {
           "original_line": "통깨 약간"
         }
-      ]
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "얇은 사각어묵",
+          "봉어묵",
+          "진간장",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_Eino3yP-Wk0",
@@ -1855,7 +2829,35 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "f4085279f9bc662a4ed9cd1f3d9282fa5578450fee37af448453f06e18fa5522"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "대두",
+          "새우"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "두부",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=Eino3yP-Wk0"
+          },
+          {
+            "ingredient": "새우젓",
+            "allergen": "새우",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=Eino3yP-Wk0"
+          }
+        ],
+        "check_product_labels": [
+          "새우젓",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_HI8DlDs1gko",
@@ -1907,7 +2909,31 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "e8eb7eda3c822b56cef2ce1c212648f12c39e070fcd5bd97f7e343fc9544e4f2"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "닭고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "닭 다리살",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=HI8DlDs1gko"
+          }
+        ],
+        "check_product_labels": [
+          "고추장",
+          "맛술",
+          "진간장",
+          "만능양념장",
+          "우동사리"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_AlK2Gl6kHZI",
@@ -1959,7 +2985,39 @@
         "retrieved_on": "2026-10-08",
         "description_sha256": "3c960de098078bfcc72586cc4e2420bd2bb3442d80927b466a32f657b8937dfa"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다."
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "밀",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "밀가루",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=AlK2Gl6kHZI"
+          },
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=AlK2Gl6kHZI"
+          }
+        ],
+        "check_product_labels": [
+          "식용유",
+          "케첩",
+          "간장",
+          "소고기다시다",
+          "미림",
+          "식용유 적당량"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_LTVxirHWvh8",
@@ -2012,7 +3070,37 @@
         "description_sha256": "faffa3d5c6a705dd40abeea840013ff0d98cc34d029273ca23feed6a71df5099"
       },
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
-      "portion_notice": "원본에 전체 조리 분량과 1인분 상차림이 함께 있어 자동 환산은 보류했습니다. 각 재료의 기준을 확인해 주세요."
+      "portion_notice": "원본에 전체 조리 분량과 1인분 상차림이 함께 있어 자동 환산은 보류했습니다. 각 재료의 기준을 확인해 주세요.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "돼지고기",
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "돼지고기뒷다리살",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=LTVxirHWvh8"
+          },
+          {
+            "ingredient": "버터",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=LTVxirHWvh8"
+          }
+        ],
+        "check_product_labels": [
+          "카레가루",
+          "케첩",
+          "식용유",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     },
     {
       "id": "paik_Gq9S0dJ3wHg",
@@ -2065,7 +3153,31 @@
         "description_sha256": "d8eead2e940560f7021f7a93a6c4e76cc2d4c7da959a4f5fdc528db9eb0fb476"
       },
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
-      "portion_notice": "원본에 전체 조리 분량과 1인분 상차림이 함께 있어 자동 환산은 보류했습니다. 각 재료의 기준을 확인해 주세요."
+      "portion_notice": "원본에 전체 조리 분량과 1인분 상차림이 함께 있어 자동 환산은 보류했습니다. 각 재료의 기준을 확인해 주세요.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=Gq9S0dJ3wHg"
+          }
+        ],
+        "check_product_labels": [
+          "국간장",
+          "진간장",
+          "양념간장 기호에 따라"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
-  ]
+  ],
+  "nutrition_reference_count": 2,
+  "allergen_ingredient_review_count": 30
 }

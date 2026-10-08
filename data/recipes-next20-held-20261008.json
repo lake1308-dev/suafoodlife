@@ -1,0 +1,287 @@
+{
+  "reviewed_on": "2026-10-08",
+  "candidate_count": 20,
+  "added_count": 0,
+  "items": [
+    {
+      "search_name": "고추장찌개",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "B2s5seuBCn0",
+          "title": "꿀팁 대공개! 고추장찌개가 맛있어지는 비법은...!"
+        },
+        {
+          "id": "udirCMIxs_c",
+          "title": "얼큰한 고추장찌개! 밥 한 공기 뚝딱! l 백종원의 백종원레시피"
+        }
+      ]
+    },
+    {
+      "search_name": "메밀국수",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "2y4Jvvmj7LY",
+          "title": "가슴속까지 시원한 메밀국수"
+        },
+        {
+          "id": "wTtHP5qFOio",
+          "title": "라면으로 만드는 들기름 막국수! 5분이면 끝!"
+        }
+      ]
+    },
+    {
+      "search_name": "김밥",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "10fl2mebYHs",
+          "title": "의외로 많은 분들이 틀리는 김밥 말기 핵심 포인트"
+        },
+        {
+          "id": "jeBMJGNgZ34",
+          "title": "베이컨땡초김밥/게맛살마요김밥/돼지불고기김밥/무말랭이김밥,  나만의 김밥을 만들어 보세요! ㅣ 백종원의 쿠킹로그"
+        }
+      ]
+    },
+    {
+      "search_name": "콩나물국",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "SeUG8iRDE_g",
+          "title": "숨~이 살아 있는 시원한 콩나물국 끓이는 법"
+        },
+        {
+          "id": "Sh8kjldrKf8",
+          "title": "콩나물 해장국이 먼저냐 수란이 먼저냐? 아무튼 술 숙취엔 이거 두 개 먹고 시작입니다"
+        }
+      ]
+    },
+    {
+      "search_name": "유부초밥",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "Z5-6wbdbgA4",
+          "title": "김밥의 수많은 속재료가 부담된다면? '이것'만 준비하세요, 간단하게 김밥 맛집 흉내내기 가능!"
+        }
+      ]
+    },
+    {
+      "search_name": "돼지고기덮밥",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "5iRPP3nqCJE",
+          "title": "소스가 핵심! 돼지고기 덮밥"
+        },
+        {
+          "id": "XU5Jv4e7DKw",
+          "title": "\"혼자 먹기 너무 아까워요..\" 태국식 시금치 고기 덮밥 만들기!"
+        }
+      ]
+    },
+    {
+      "search_name": "참치마요덮밥",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "kj2ZupQ7fts",
+          "title": "[Sub] 스팸+달걀+김치+마요네즈=끝!"
+        },
+        {
+          "id": "mjLPNh11_xs",
+          "title": "'참치마요' 만들어서 고급진 토스트까지! (준비물:남은 치킨무)"
+        }
+      ]
+    },
+    {
+      "search_name": "떡만둣국",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "At-u3lwsFtk",
+          "title": "떡만둣국, 사골 육수 없이 '이것'먼저 넣으면 풍미가 폭발합니다"
+        },
+        {
+          "id": "_MhD25Ip3bc",
+          "title": "\"비싼 양지 사지 마세요!\" 떡국 맛 180도 바꾸는 가성비 부위 추천"
+        }
+      ]
+    },
+    {
+      "search_name": "계란찜",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "_H64Kz7Mgz4",
+          "title": "뚝배기 계란찜 부풀어 오르는 결정적 한 끗 차이!"
+        }
+      ]
+    },
+    {
+      "search_name": "소시지야채볶음",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "iNh_bXmYfgw",
+          "title": "소시지케찹볶음.. 이건 퍼펙트예요"
+        }
+      ]
+    },
+    {
+      "search_name": "떡국",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "_MhD25Ip3bc",
+          "title": "\"비싼 양지 사지 마세요!\" 떡국 맛 180도 바꾸는 가성비 부위 추천"
+        },
+        {
+          "id": "At-u3lwsFtk",
+          "title": "떡만둣국, 사골 육수 없이 '이것'먼저 넣으면 풍미가 폭발합니다"
+        }
+      ]
+    },
+    {
+      "search_name": "무생채",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "dXN1dlsYdJI",
+          "title": "가을 햇무가 좋은 시기입니다. 가을 무로 만드는 간단한 무생채와 맛있는 무생채 비빔밥입니다! ㅣ 백종원의 쿠킹로그"
+        },
+        {
+          "id": "KbWtIU129hw",
+          "title": "수육에 같이 먹는 보쌈무김치 만드는 법 의외로 간단합니다"
+        }
+      ]
+    },
+    {
+      "search_name": "진미채볶음",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "xecKUiZBCtM",
+          "title": "우리집 밥도둑! 진미채볶음!!"
+        }
+      ]
+    },
+    {
+      "search_name": "달걀장조림",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "3p4xH_IZhH4",
+          "title": "탱글탱글한 반숙 달걀과 통마늘의 조화! 감칠맛 폭발하는 밥반찬"
+        },
+        {
+          "id": "RmZyxKOUbfs",
+          "title": "🦆: 여보 여기 있던 내 알 못 봤어요?│메추리알 장조림"
+        }
+      ]
+    },
+    {
+      "search_name": "소고기무국",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "vG07DHeNH9c",
+          "title": "찬바람 불면 생각나는 최고의 국물 요리"
+        },
+        {
+          "id": "M8RXmDJ3W-s",
+          "title": "'소고기' 말고 '돼지고기'로 끓이는 '뭇국', 엄청 시원하고 개운해요"
+        }
+      ]
+    },
+    {
+      "search_name": "감자짜글이",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "wpUsg7f-F4o",
+          "title": "초대손님 '양세형'님께서 '감자짜글이'를 만들어 주셨습니다. ㅋㅋ 진짜 밥도둑. 잡았다 요놈 ㅣ 백종원의 쿠킹로그"
+        },
+        {
+          "id": "udirCMIxs_c",
+          "title": "얼큰한 고추장찌개! 밥 한 공기 뚝딱! l 백종원의 백종원레시피"
+        }
+      ]
+    },
+    {
+      "search_name": "비빔국수",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "iWWQBoS3SL4",
+          "title": "비빔국수 만들다가 신메뉴가 탄생했습니다 '○○비빔국수' !! The Season for Bibim Guksu! Check Out This New Kind of Guksu."
+        },
+        {
+          "id": "cNfbDK9vIFI",
+          "title": "강식당2 화제의 비빔 국수!! 니가 비비바락 국수 양념장 만들기 l 백종원의 대용량 레시피"
+        }
+      ]
+    },
+    {
+      "search_name": "쫄면",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "FbApByZGCXg",
+          "title": "매콤새콤달콤 쫄면! 하지만 전 쫄면을 별로 좋아하진 않아요... 그 이유는...!"
+        },
+        {
+          "id": "w53qGlJ1vLI",
+          "title": "막창을 튀겨서 짬뽕에 넣었습니다!"
+        }
+      ]
+    },
+    {
+      "search_name": "고등어조림",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "j9NXZh0gX3w",
+          "title": "비 오는 날엔 술 한잔 생각나는 김치찜! 고등어 통조림으로 쉽게 만듭니다! ㅣ 백종원의 백종원레시피"
+        },
+        {
+          "id": "mZ2C8gEw8Vk",
+          "title": "제가 좋아하는 갈치조림은요..."
+        }
+      ]
+    },
+    {
+      "search_name": "북엇국",
+      "status": "held",
+      "reason": "Official video description request returned HTTP 429; quantities and steps not verified",
+      "video_candidates": [
+        {
+          "id": "fVKaR66n9B4",
+          "title": "줄 서서 먹는 북엇국집 맛, 집에서 손쉽게 따라하기!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "reviewed_on": "2026-10-08",
+  "recipe_count": 30,
+  "nutrition_reference_estimates": 2,
+  "nutrition_held": 28,
+  "nutrition_items": [
+    {
+      "recipe_id": "paik_DnQ09ZZCjCs",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_ffuakdFmuh4",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_xsTFsunt6-8",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_j7s9VRsrm9o",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_p3IQTouKyH0",
+      "status": "estimated_reference",
+      "ingredient_count": 13,
+      "kcal": 2210.8
+    },
+    {
+      "recipe_id": "paik_-EwR5eshbPE",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_t4Es8mwdYlE",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_eIo2BaE6LxI",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_kR77WlHRZrs",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_Jq2SwKMw8vI",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_GP8_7D5eM6A",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_8uwmFQH614M",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_3gQwydGHIG8",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_T7YJviWhquo",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_0CL9U_Se8Gs",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_0q0btGvIrWY",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_EUdt9GjWj5c",
+      "status": "estimated_reference",
+      "ingredient_count": 8,
+      "kcal": 525.93
+    },
+    {
+      "recipe_id": "paik_7VNH9Fvvus0",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_e--h7ax_6pQ",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_rrNfCVRFsvs",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik__O4tvQtZDiU",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_47OIcvpqxlo",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_N82hJpl5cMM",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_G2kylWhMw5s",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_mo8ogr40m4o",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_Eino3yP-Wk0",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_HI8DlDs1gko",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_AlK2Gl6kHZI",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_LTVxirHWvh8",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_Gq9S0dJ3wHg",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    }
+  ],
+  "allergen_ingredient_reviews": 30,
+  "allergen_items": [
+    {
+      "recipe_id": "paik_DnQ09ZZCjCs",
+      "known_from_ingredients": [
+        "돼지고기",
+        "새우"
+      ],
+      "product_labels_pending": [
+        "자른 김치",
+        "국간장",
+        "새우젓"
+      ]
+    },
+    {
+      "recipe_id": "paik_ffuakdFmuh4",
+      "known_from_ingredients": [
+        "대두"
+      ],
+      "product_labels_pending": [
+        "된장"
+      ]
+    },
+    {
+      "recipe_id": "paik_xsTFsunt6-8",
+      "known_from_ingredients": [
+        "쇠고기"
+      ],
+      "product_labels_pending": [
+        "국간장",
+        "멸치액젓"
+      ]
+    },
+    {
+      "recipe_id": "paik_j7s9VRsrm9o",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "진간장",
+        "맛소금",
+        "쌈장"
+      ]
+    },
+    {
+      "recipe_id": "paik_p3IQTouKyH0",
+      "known_from_ingredients": [
+        "쇠고기"
+      ],
+      "product_labels_pending": [
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_-EwR5eshbPE",
+      "known_from_ingredients": [
+        "닭고기"
+      ],
+      "product_labels_pending": [
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_t4Es8mwdYlE",
+      "known_from_ingredients": [
+        "밀",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "밀가루떡",
+        "사각어묵",
+        "고추장",
+        "진간장",
+        "MSG"
+      ]
+    },
+    {
+      "recipe_id": "paik_eIo2BaE6LxI",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "김치",
+        "소시지",
+        "식용유",
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_kR77WlHRZrs",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "식용유",
+        "진간장",
+        "MSG",
+        "맛소금"
+      ]
+    },
+    {
+      "recipe_id": "paik_Jq2SwKMw8vI",
+      "known_from_ingredients": [
+        "대두",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "고추장",
+        "국간장",
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_GP8_7D5eM6A",
+      "known_from_ingredients": [
+        "대두",
+        "돼지고기",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "국간장",
+        "식용유",
+        "순두부 양념장"
+      ]
+    },
+    {
+      "recipe_id": "paik_8uwmFQH614M",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "통조림햄",
+        "소시지",
+        "신김치",
+        "체다슬라이스치즈",
+        "고추장",
+        "된장",
+        "국간장",
+        "라면"
+      ]
+    },
+    {
+      "recipe_id": "paik_3gQwydGHIG8",
+      "known_from_ingredients": [
+        "쇠고기"
+      ],
+      "product_labels_pending": [
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_T7YJviWhquo",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_0CL9U_Se8Gs",
+      "known_from_ingredients": [
+        "오징어"
+      ],
+      "product_labels_pending": [
+        "식용유",
+        "고추장",
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_0q0btGvIrWY",
+      "known_from_ingredients": [
+        "대두"
+      ],
+      "product_labels_pending": [
+        "msg(미원)"
+      ]
+    },
+    {
+      "recipe_id": "paik_EUdt9GjWj5c",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "식용유",
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_7VNH9Fvvus0",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "통조림햄",
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_e--h7ax_6pQ",
+      "known_from_ingredients": [
+        "대두"
+      ],
+      "product_labels_pending": [
+        "신김치",
+        "참치캔",
+        "국간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_rrNfCVRFsvs",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "진간장",
+        "식용유",
+        "MSG",
+        "노두유"
+      ]
+    },
+    {
+      "recipe_id": "paik__O4tvQtZDiU",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "만능짜장소스",
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_47OIcvpqxlo",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "신김치",
+        "부침가루",
+        "소시지",
+        "식용유 적당량"
+      ]
+    },
+    {
+      "recipe_id": "paik_N82hJpl5cMM",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "식용유",
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_G2kylWhMw5s",
+      "known_from_ingredients": [
+        "밀"
+      ],
+      "product_labels_pending": [
+        "신김치",
+        "국간장",
+        "멸치액젓"
+      ]
+    },
+    {
+      "recipe_id": "paik_mo8ogr40m4o",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "얇은 사각어묵",
+        "봉어묵",
+        "진간장",
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_Eino3yP-Wk0",
+      "known_from_ingredients": [
+        "대두",
+        "새우"
+      ],
+      "product_labels_pending": [
+        "새우젓",
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_HI8DlDs1gko",
+      "known_from_ingredients": [
+        "닭고기"
+      ],
+      "product_labels_pending": [
+        "고추장",
+        "맛술",
+        "진간장",
+        "만능양념장",
+        "우동사리"
+      ]
+    },
+    {
+      "recipe_id": "paik_AlK2Gl6kHZI",
+      "known_from_ingredients": [
+        "밀",
+        "알류"
+      ],
+      "product_labels_pending": [
+        "식용유",
+        "케첩",
+        "간장",
+        "소고기다시다",
+        "미림",
+        "식용유 적당량"
+      ]
+    },
+    {
+      "recipe_id": "paik_LTVxirHWvh8",
+      "known_from_ingredients": [
+        "돼지고기",
+        "우유"
+      ],
+      "product_labels_pending": [
+        "카레가루",
+        "케첩",
+        "식용유",
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_Gq9S0dJ3wHg",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "국간장",
+        "진간장",
+        "양념간장 기호에 따라"
+      ]
+    }
+  ],
+  "policy": "No certified complete allergen lists, no cross-contact claims, no allergen-free claims. Nutrition representative choices are disclosed."
+}
