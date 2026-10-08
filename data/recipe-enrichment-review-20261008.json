@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
   "recipe_count": 65,
-  "nutrition_reference_estimates": 9,
-  "nutrition_held": 56,
+  "nutrition_reference_estimates": 11,
+  "nutrition_held": 54,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -185,8 +185,9 @@
     },
     {
       "recipe_id": "paik_SeUG8iRDE_g",
-      "status": "held",
-      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+      "status": "estimated_reference",
+      "ingredient_count": 6,
+      "kcal": 172.2
     },
     {
       "recipe_id": "paik_5wMxMwv1-Xs",
@@ -303,8 +304,9 @@
     },
     {
       "recipe_id": "paik_xNUvkgONOOM_sauce",
-      "status": "held",
-      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+      "status": "estimated_reference",
+      "ingredient_count": 3,
+      "kcal": 1260.9
     },
     {
       "recipe_id": "paik_xexAbSUQzSw_seaweed",

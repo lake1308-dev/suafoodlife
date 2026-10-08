@@ -5,6 +5,8 @@ for source_path in (repo/'data').glob('rda-*.json.gz'):
   for record in json.load(source_file).get('ingredients',[]):rda[record['id']]=record
 base=[('황설탕','rda:C0110040009a'),('물엿','rda:C0070000009a'),('진간장','rda:R0010010009a'),('참기름','rda:N0200000009a'),('통깨','rda:E0260020009n')]
 maps={
+'콩나물국':{'콩나물':'rda:F1820000000a','대파':'rda:F1910040000a','간 마늘':'rda:F053000B060a','꽃소금':'rda:R0200020009a','국간장':'rda:R0010030009a','청양고추':'rda:F0180080000a'},
+'장아찌소스':{'진간장':'rda:R0010010009a','식초':'rda:R0220060009a','설탕':'rda:C0110020009a'},
 '새우젓무침':{'새우젓':'rda:K617006000Ia','간 마늘':'rda:F053000B060a','황설탕':'rda:C0110040009a','쪽파':'rda:F1910030000a','맛술':'rda:R0160000009a','참기름':'rda:N0200000009a','청양고추':'rda:F0180080000a','홍고추':'rda:F018000C020a','굵은 고춧가루':'rda:R0070000005a','통깨':'rda:E0260020009n'},
 '애호박전':{'애호박':'rda:F1980050000a','건새우':'rda:K6130050003a','청양고추':'rda:F0180080000a','소금':'rda:R0200020009a','전분가루':'rda:B0140010005a','식용유':'rda:N0220000009a'},
 '계란볶음밥':{'밥':'rda:A013000A039a','대파':'rda:F1910040000a','달걀':'rda:J0030000000a','식용유':'rda:N0220000009a','진간장':'rda:R0010010009a','MSG':'rda:R0310002825a','맛소금':'rda:R0200012819a'},
@@ -23,6 +25,9 @@ assumptions['잡채']=['당면은 삶기 전의 마른 고구마 당면 250g, �
 assumptions['잡채(데쳐서 만들기)']=assumptions['잡채'][:] + ['볶는 조리법과 같은 원본 재료 목록을 사용합니다. 데치는 과정의 성분 손실을 반영하지 않아 재료 기준 예상 합계는 같지만, 실제 완성 음식의 값이 같다는 뜻은 아닙니다.']
 assumptions['애호박전']=['건새우는 꽃새우를 삶아 말린 것, 전분가루는 감자전분, 소금은 정제염, 식용유는 콩기름 자료로 계산했습니다. 실제 종류와 제품이 다르면 값이 달라집니다.','원본의 식용유 50g과 반죽을 모두 섭취하는 전체 조리 분량 기준입니다. 팬에 남는 기름이나 반죽은 빼지 않았습니다.','전분을 감자전분으로 선택한 것은 영양 계산용 가정입니다. 실제 사용 제품의 밀 함유 여부는 별도로 확인해야 합니다.']
 assumptions['새우젓무침']=['새우젓은 젓새우 젓갈, 맛술은 대표 맛술, 통깨는 볶은 흰참깨 자료로 계산했습니다. 젓갈 종류·염도와 제품에 따라 특히 나트륨과 당류가 달라집니다.','양념을 포함한 무침 전체 분량의 재료 합계입니다. 수육에 곁들여 조금씩 먹는 양념으로, 이 합계를 1인분 식사 영양값으로 해석하지 않습니다.','맛술의 조리 중 알코올 손실이나 숙성에 따른 변화를 반영하지 않았습니다. 실제 섭취량에 따라 값이 달라집니다.']
+assumptions['콩나물국']=['콩나물과 채소는 생것, 국간장은 재래간장, 꽃소금은 정제염 자료를 사용했습니다. 실제 제품 염도에 따라 나트륨이 달라집니다.','정수물 2L는 열량과 주요 영양성분을 더하지 않는 물로 가정했습니다. 물 자체의 미량 무기질은 계산하지 않았습니다.','재료와 국물을 모두 먹는 전체 4인분의 예상 합계입니다. 국물을 남기면 특히 나트륨 섭취량이 줄어듭니다. 조리 후 100g 값은 아닙니다.']
+assumptions['장아찌소스']=['진간장은 개량 양조간장, 식초는 양조식초, 설탕은 백설탕 자료로 계산했습니다. 실제 제품에 따라 값이 달라집니다.','물 360g은 열량과 주요 영양성분을 더하지 않는 물로 가정했습니다. 물 자체의 미량 무기질은 계산하지 않았습니다.','만든 소스 전체의 예상 합계입니다. 장아찌 채소에 흡수되는 양이나 남기는 소스는 확인되지 않아 완성 장아찌 또는 1인분 영양값으로 사용할 수 없습니다.']
+water_only={'콩나물국':{'정수물'},'장아찌소스':{'물'}}
 assert all(isinstance(tag,str) for tag in maps), 'Recipe map keys must be names'
 assert set(maps).issubset({r['tags'][0] for r in data['recipes']}), 'Recipe mappings must match registered recipes'
 for r in data['recipes']:
@@ -32,7 +37,9 @@ for r in data['recipes']:
  ingredients=[]
  for raw in r['ingredients_text'].splitlines():
   if ':' not in raw:continue
-  name=raw.split(':')[0].strip();assert name in maps[tag],(tag,name)
+  name=raw.split(':')[0].strip()
+  if name in water_only.get(tag,set()):continue
+  assert name in maps[tag],(tag,name)
   m=re.search(r'(\d+(?:\.\d+)?)\s*g\b',raw);assert m,(tag,raw)
   amount=float(m[1]);src=rda[maps[tag][name]];assert src['verification_status']=='verified';assert src['sources'][0]['basis']=='100g';assert math.isfinite(src['nutrition_per_100g']['kcal'])
   ingredients.append({'ingredient':name,'amount_g':amount,'source_record_id':src['sources'][0]['source_record_id'],'source_food_name':src['names']['ko'],'source_url':src['sources'][0]['source_url'],'basis_g':100,'nutrition_per_100g':src['nutrition_per_100g']})
@@ -58,5 +65,5 @@ for r in data['recipes']:
   if any(t in norm for t in product_tokens) and name not in checks:checks.append(name)
  r['allergen_review']={'status':'ingredient_identity_reviewed_product_labels_pending','checked_on':'2026-10-08','known_from_ingredients':sorted(set(x['allergen'] for x in evidence)),'ingredient_evidence':evidence,'check_product_labels':checks,'classification_source_url':url,'cross_contact_status':'not_verified'}
  areviews.append({'recipe_id':r['id'],'known_from_ingredients':r['allergen_review']['known_from_ingredients'],'product_labels_pending':checks})
-data.update(version='1.6.1',nutrition_reference_count=len(maps),allergen_ingredient_review_count=len(areviews));p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+data.update(version='1.6.2',nutrition_reference_count=len(maps),allergen_ingredient_review_count=len(areviews));p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 (repo/'data/recipe-enrichment-review-20261008.json').write_text(json.dumps({'reviewed_on':'2026-10-08','recipe_count':len(data['recipes']),'nutrition_reference_estimates':len(maps),'nutrition_held':len(data['recipes'])-len(maps),'nutrition_items':nreviews,'allergen_ingredient_reviews':len(areviews),'allergen_items':areviews,'policy':'No certified complete allergen lists, no cross-contact claims, no allergen-free claims. Nutrition representative choices are disclosed.'},ensure_ascii=False,indent=2)+'\n')
