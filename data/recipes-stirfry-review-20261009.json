@@ -1,0 +1,54 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 8,
+  "items": [
+    {
+      "recipe_id": "paik_cUQzxhmYdGs_cabbage",
+      "name": "양배추전",
+      "source_url": "https://www.youtube.com/watch?v=cUQzxhmYdGs",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_aXJgN_JjYDg_sweetpotato",
+      "name": "고구마빠스",
+      "source_url": "https://www.youtube.com/watch?v=aXJgN_JjYDg",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_sauce",
+      "name": "만능볶음요리소스",
+      "source_url": "https://www.youtube.com/watch?v=bMLfohWNsvQ",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_mushroom",
+      "name": "버섯볶음",
+      "source_url": "https://www.youtube.com/watch?v=bMLfohWNsvQ",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_sprouts",
+      "name": "숙주볶음",
+      "source_url": "https://www.youtube.com/watch?v=bMLfohWNsvQ",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_peppers",
+      "name": "꽈리고추볶음",
+      "source_url": "https://www.youtube.com/watch?v=bMLfohWNsvQ",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_celery",
+      "name": "셀러리볶음",
+      "source_url": "https://www.youtube.com/watch?v=bMLfohWNsvQ",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_garlicstems",
+      "name": "마늘쫑볶음",
+      "source_url": "https://www.youtube.com/watch?v=bMLfohWNsvQ",
+      "status": "verified_added"
+    }
+  ]
+}

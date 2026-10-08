@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 71,
+  "recipe_count": 79,
   "nutrition_reference_estimates": 11,
-  "nutrition_held": 60,
+  "nutrition_held": 68,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -369,9 +369,49 @@
       "recipe_id": "paik_5eQ1rf642QI",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_cUQzxhmYdGs_cabbage",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_aXJgN_JjYDg_sweetpotato",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_sauce",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_mushroom",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_sprouts",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_peppers",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_celery",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_garlicstems",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 71,
+  "allergen_ingredient_reviews": 79,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1139,6 +1179,88 @@
       "product_labels_pending": [
         "김치",
         "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_cUQzxhmYdGs_cabbage",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "튀김가루",
+        "식용유 적당량"
+      ]
+    },
+    {
+      "recipe_id": "paik_aXJgN_JjYDg_sweetpotato",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "식용유",
+        "튀김용 식용유 적당량"
+      ]
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_sauce",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "진간장",
+        "굴소스",
+        "노두유",
+        "전분가루",
+        "MSG"
+      ]
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_mushroom",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "식용유",
+        "돈등심(잡채용)",
+        "만능 볶음요리 소스"
+      ]
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_sprouts",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "식용유",
+        "돈등심(잡채용)",
+        "만능 볶음요리 소스"
+      ]
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_peppers",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "식용유",
+        "만능 볶음요리 소스"
+      ]
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_celery",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "식용유",
+        "만능 볶음요리 소스"
+      ]
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_garlicstems",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "돼지고기(잡채용)",
+        "식용유",
+        "만능 볶음요리 소스"
       ]
     }
   ],
