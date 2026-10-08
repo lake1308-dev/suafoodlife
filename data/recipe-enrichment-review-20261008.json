@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 110,
+  "recipe_count": 115,
   "nutrition_reference_estimates": 18,
-  "nutrition_held": 92,
+  "nutrition_held": 97,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -571,9 +571,34 @@
       "recipe_id": "paik_BqxpjY7TJ8g",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_6e-IbuuD6ZU",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_zRg4nxIv3j8",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_NvoCWyO0Vfg",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_ny9XkQbN6sI",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_Lz0tPtrMQmQ",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 110,
+  "allergen_ingredient_reviews": 115,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1731,6 +1756,53 @@
         "만능양념장",
         "된장",
         "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_6e-IbuuD6ZU",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "순한맛라면",
+        "고추장"
+      ]
+    },
+    {
+      "recipe_id": "paik_zRg4nxIv3j8",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "진간장",
+        "식용유",
+        "우동면",
+        "훈연멸치가루",
+        "마요네즈"
+      ]
+    },
+    {
+      "recipe_id": "paik_NvoCWyO0Vfg",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "진간장",
+        "진라면(순한맛)"
+      ]
+    },
+    {
+      "recipe_id": "paik_ny9XkQbN6sI",
+      "known_from_ingredients": [
+        "대두"
+      ],
+      "product_labels_pending": [
+        "라면",
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_Lz0tPtrMQmQ",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "통조림골뱅이",
+        "고추장"
       ]
     }
   ],

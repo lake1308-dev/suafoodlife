@@ -1,6 +1,6 @@
 {
-  "version": "1.14.1",
-  "record_count": 110,
+  "version": "1.15.0",
+  "record_count": 115,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -12674,8 +12674,340 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_6e-IbuuD6ZU",
+      "names": {
+        "ko": "라볶이 · 백종원 참고",
+        "en": "라볶이 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "라볶이",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "순한맛라면: 1개\n대파: 약 1/3대(30g)\n정수물: 1과 1/2컵(270g)\n황설탕: 1큰술(12g)\n고추장: 1큰술(20g)",
+      "steps": {
+        "ko": [
+          "대파를 잘게 썰고 물에 분말수프 절반에서 3분의 2 정도와 건더기수프·설탕·고추장을 섞어 끓입니다.",
+          "끓는 양념에 면을 넣어 풀어줍니다.",
+          "면이 풀리면 대파를 더하고 약 1분 더 끓여 면과 소스 상태를 확인합니다."
+        ],
+        "en": [
+          "대파를 잘게 썰고 물에 분말수프 절반에서 3분의 2 정도와 건더기수프·설탕·고추장을 섞어 끓입니다.",
+          "끓는 양념에 면을 넣어 풀어줍니다.",
+          "면이 풀리면 대파를 더하고 약 1분 더 끓여 면과 소스 상태를 확인합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "6e-IbuuD6ZU",
+        "url": "https://www.youtube.com/watch?v=6e-IbuuD6ZU",
+        "title": "라면 끓이기보다 쉬운 '1분 라볶이', 평생 써먹는 레시피 알려드립니다",
+        "section_name": "라볶이",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "bd27589411b8ac296ffaa170fe8875a30f0d70d897d87c7a67ffc0c591895926"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본의 1분은 면이 풀린 뒤의 추가 조리 시간입니다. 떡은 원본 재료에 없습니다. 라면 제품과 수프 사용량에 따라 영양값이 달라져 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "순한맛라면",
+          "고추장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_zRg4nxIv3j8",
+      "names": {
+        "ko": "볶음우동 · 백종원 참고",
+        "en": "볶음우동 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "볶음우동",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*소스\n진간장: 2큰술(20g)\n식초: 2/3큰술(7g)\n황설탕: 1큰술(10g)\n물: ½컵(90g)\n*볶음재료\n식용유: 3큰술(20g)\n양배추: ½컵(40g)\n양파: 1/4개(40g)\n당근: 20g\n돼지고기(등심): 50g\n대파: 30g\n우동면: 1개(200g)\n훈연멸치가루: 적당량\n쪽파: 적당량\n마요네즈: 적당량",
+      "steps": {
+        "ko": [
+          "채소를 썰고 간장·식초·설탕·물을 섞어 소스를 준비합니다.",
+          "기름에 대파와 돼지고기를 볶아 익힌 뒤 나머지 채소를 더합니다.",
+          "우동면과 소스를 넣고 중불에서 면을 풀다가 불을 높여 볶습니다.",
+          "접시에 담아 마요네즈·훈연멸치가루·쪽파를 취향에 맞게 더합니다."
+        ],
+        "en": [
+          "채소를 썰고 간장·식초·설탕·물을 섞어 소스를 준비합니다.",
+          "기름에 대파와 돼지고기를 볶아 익힌 뒤 나머지 채소를 더합니다.",
+          "우동면과 소스를 넣고 중불에서 면을 풀다가 불을 높여 볶습니다.",
+          "접시에 담아 마요네즈·훈연멸치가루·쪽파를 취향에 맞게 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "zRg4nxIv3j8",
+        "url": "https://www.youtube.com/watch?v=zRg4nxIv3j8",
+        "title": "밖에서 사 먹는 맛! '볶음우동' 만들어 보세요~",
+        "section_name": "볶음우동",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "f777ccf1568a071a507d2defdb1d7124666777fdb12784f13ef0f91348f80098"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 인분 수를 명시하지 않았습니다. 마요네즈·훈연멸치가루 등의 양과 제품 성분이 미확인이라 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "돼지고기(등심)",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=zRg4nxIv3j8"
+          }
+        ],
+        "check_product_labels": [
+          "진간장",
+          "식용유",
+          "우동면",
+          "훈연멸치가루",
+          "마요네즈"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_NvoCWyO0Vfg",
+      "names": {
+        "ko": "김라면 · 백종원 참고",
+        "en": "김라면 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "김라면",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "김: 5장\n물: 1컵(180g)\n진간장: 2큰술(20g)\n황설탕: 2큰술(20g)\n진라면(순한맛): 1개\n깨소금: 1큰술(10g)\n들기름: 3큰술(20g)\n대파: 1/3컵(30g)\n청양고추: 2개(14g)",
+      "steps": {
+        "ko": [
+          "김을 마른 팬에서 구워 부수고 대파·고추를 썰고 깨를 빻습니다.",
+          "물에 라면 수프·간장·설탕을 넣어 끓인 뒤 식혀 소스를 준비합니다.",
+          "별도 물에 면을 삶아 찬물로 헹구고 물기를 뺍니다.",
+          "그릇에 들기름과 면을 담고 김·깨·채소를 올립니다. 소스는 입맛에 맞게 부어 섞습니다."
+        ],
+        "en": [
+          "김을 마른 팬에서 구워 부수고 대파·고추를 썰고 깨를 빻습니다.",
+          "물에 라면 수프·간장·설탕을 넣어 끓인 뒤 식혀 소스를 준비합니다.",
+          "별도 물에 면을 삶아 찬물로 헹구고 물기를 뺍니다.",
+          "그릇에 들기름과 면을 담고 김·깨·채소를 올립니다. 소스는 입맛에 맞게 부어 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "NvoCWyO0Vfg",
+        "url": "https://www.youtube.com/watch?v=NvoCWyO0Vfg",
+        "title": "[ENG] 비빔라면의 신세계! '김라면' 입니다",
+        "section_name": "김라면",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "c765f8e062ab39884334a92c8f1a747976d0100c856bcbe31df61a05c61b38fa"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 진라면 순한맛을 사용합니다. 김의 무게와 실제 먹는 소스 양이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "진간장",
+          "진라면(순한맛)"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_ny9XkQbN6sI",
+      "names": {
+        "ko": "냉라면 · 백종원 참고",
+        "en": "냉라면 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "냉라면",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "라면: 1개\n양파: 1/6개 (40g)\n콩나물: 2컵 (20g)\n진간장: 2큰술 (20g)\n황설탕: 2큰술 (24g)\n식초: 2큰술 (20g)\n정수물: 1컵 (190g)\n청양고추: 1개 (8g)\n얼음: 적당량",
+      "steps": {
+        "ko": [
+          "콩나물을 씻고 양파와 청양고추를 썹니다.",
+          "별도의 끓는 물에 면·건더기수프·양파·콩나물을 익혀 건지고 차갑게 헹굽니다.",
+          "정수물에 분말수프·간장·설탕·식초를 풀어 냉국물을 만듭니다.",
+          "면과 채소를 그릇에 담고 국물·고추·얼음을 더합니다."
+        ],
+        "en": [
+          "콩나물을 씻고 양파와 청양고추를 썹니다.",
+          "별도의 끓는 물에 면·건더기수프·양파·콩나물을 익혀 건지고 차갑게 헹굽니다.",
+          "정수물에 분말수프·간장·설탕·식초를 풀어 냉국물을 만듭니다.",
+          "면과 채소를 그릇에 담고 국물·고추·얼음을 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "ny9XkQbN6sI",
+        "url": "https://www.youtube.com/watch?v=ny9XkQbN6sI",
+        "title": "뼛속까지 시원한 '초간단 냉라면' ㅣ 백종원의 쿠킹로그",
+        "section_name": "냉라면",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "5abf78c8fe366ad2d02319fb1e1bfc9b36f53f77e53f7a46d6dbc7522fe1b2de"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원문은 콩나물을 2컵(20g)으로 적어 컵 수와 무게의 일치 여부를 추가 확인해야 합니다. 정수물 1컵(190g)은 냉국물용이며 면 삶는 물은 별도입니다. 영양 계산과 인분 환산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "대두"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "콩나물",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=ny9XkQbN6sI"
+          }
+        ],
+        "check_product_labels": [
+          "라면",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_Lz0tPtrMQmQ",
+      "names": {
+        "ko": "골뱅이무침 · 백종원 참고",
+        "en": "골뱅이무침 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "골뱅이무침",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "통조림골뱅이: 1캔(400g)\n양파: 1/2개(100g)\n당근: 1/6개(50g)\n오이: 1/2개(100g)\n양배추: 2/3컵(60g)\n대파: 2/3컵(60g)\n청양고추: 2개(15g)\n북어채: 1컵(30g)\n*양념장 재료\n고추장: 1/3컵(80g)\n황설탕: 1/3컵(50g)\n식초: 1/3컵(60g)\n굵은고춧가루: 1/2큰술(3g)\n고운고춧가루: 1/2큰술(3g)\n참기름: 1큰술(8g)\n깨소금: 1/2큰술(3g)",
+      "steps": {
+        "ko": [
+          "골뱅이를 반으로 자르고 채소를 먹기 좋게 썹니다. 북어채는 골뱅이 국물로 가볍게 적십니다.",
+          "깨소금을 제외한 양념 재료를 골고루 섞습니다.",
+          "골뱅이·채소·북어채를 양념과 버무린 뒤 깨소금을 뿌립니다."
+        ],
+        "en": [
+          "골뱅이를 반으로 자르고 채소를 먹기 좋게 썹니다. 북어채는 골뱅이 국물로 가볍게 적십니다.",
+          "깨소금을 제외한 양념 재료를 골고루 섞습니다.",
+          "골뱅이·채소·북어채를 양념과 버무린 뒤 깨소금을 뿌립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "Lz0tPtrMQmQ",
+        "url": "https://www.youtube.com/watch?v=Lz0tPtrMQmQ",
+        "title": "맥주 안주로 딱! 매콤새콤 골뱅이무침! ㅣ 백종원의 백종원 레시피",
+        "section_name": "골뱅이무침",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "25a328cfd2a862a570bf5537b7c2f91df51d55a3a531d2e4435f4a262d816f7e"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "골뱅이 400g은 통조림 표기량이며 건더기 무게와 사용 국물 양은 미확인입니다. 영양 계산과 인분 환산을 보류했습니다. 골뱅이 통조림은 조개류 등 알레르기 표시를 반드시 확인해 주세요.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "통조림골뱅이",
+          "고추장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 18,
-  "allergen_ingredient_review_count": 110
+  "allergen_ingredient_review_count": 115
 }

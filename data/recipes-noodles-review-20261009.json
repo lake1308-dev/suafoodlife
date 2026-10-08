@@ -1,0 +1,36 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 5,
+  "items": [
+    {
+      "recipe_id": "paik_6e-IbuuD6ZU",
+      "name": "라볶이",
+      "source_url": "https://www.youtube.com/watch?v=6e-IbuuD6ZU",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_zRg4nxIv3j8",
+      "name": "볶음우동",
+      "source_url": "https://www.youtube.com/watch?v=zRg4nxIv3j8",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_NvoCWyO0Vfg",
+      "name": "김라면",
+      "source_url": "https://www.youtube.com/watch?v=NvoCWyO0Vfg",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_ny9XkQbN6sI",
+      "name": "냉라면",
+      "source_url": "https://www.youtube.com/watch?v=ny9XkQbN6sI",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_Lz0tPtrMQmQ",
+      "name": "골뱅이무침",
+      "source_url": "https://www.youtube.com/watch?v=Lz0tPtrMQmQ",
+      "status": "verified_added"
+    }
+  ]
+}
