@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 141,
+  "recipe_count": 147,
   "nutrition_reference_estimates": 18,
-  "nutrition_held": 123,
+  "nutrition_held": 129,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -726,9 +726,39 @@
       "recipe_id": "paik_X8VEvBHHOjQ",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_coagMFr_nV8",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_VTnPfw9h-3k",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_rqbhm9hpvp8",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_z-XcuZL80Lc_basic",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_z-XcuZL80Lc_cheese",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_z-XcuZL80Lc_ham_cheese",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 141,
+  "allergen_ingredient_reviews": 147,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -2194,6 +2224,73 @@
         "딸기잼",
         "슬라이스햄",
         "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_coagMFr_nV8",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "생수제비",
+        "조미김가루",
+        "고추장",
+        "진간장 약"
+      ]
+    },
+    {
+      "recipe_id": "paik_VTnPfw9h-3k",
+      "known_from_ingredients": [
+        "알류"
+      ],
+      "product_labels_pending": [
+        "탕수육고기",
+        "신 김치",
+        "맛술",
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_rqbhm9hpvp8",
+      "known_from_ingredients": [
+        "우유"
+      ],
+      "product_labels_pending": [
+        "모차렐라 치즈",
+        "식용유",
+        "라면",
+        "슬라이스 체다치즈"
+      ]
+    },
+    {
+      "recipe_id": "paik_z-XcuZL80Lc_basic",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "식빵",
+        "마가린"
+      ]
+    },
+    {
+      "recipe_id": "paik_z-XcuZL80Lc_cheese",
+      "known_from_ingredients": [
+        "알류",
+        "우유"
+      ],
+      "product_labels_pending": [
+        "식빵",
+        "슬라이스치즈",
+        "마가린"
+      ]
+    },
+    {
+      "recipe_id": "paik_z-XcuZL80Lc_ham_cheese",
+      "known_from_ingredients": [
+        "알류",
+        "우유"
+      ],
+      "product_labels_pending": [
+        "식빵",
+        "슬라이스햄",
+        "슬라이스치즈",
+        "마가린"
       ]
     }
   ],

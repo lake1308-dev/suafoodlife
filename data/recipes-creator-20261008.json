@@ -1,6 +1,6 @@
 {
-  "version": "1.20.0",
-  "record_count": 141,
+  "version": "1.21.0",
+  "record_count": 147,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -8269,6 +8269,12 @@
             "allergen": "우유",
             "basis": "explicit_ingredient_identity",
             "recipe_source_url": "https://www.youtube.com/watch?v=mjLPNh11_xs"
+          },
+          {
+            "ingredient": "슬라이스체다치즈",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=mjLPNh11_xs"
           }
         ],
         "check_product_labels": [
@@ -15089,8 +15095,454 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_coagMFr_nV8",
+      "names": {
+        "ko": "비빔수제비 · 백종원 참고",
+        "en": "비빔수제비 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "비빔수제비",
+        "백종원"
+      ],
+      "servings": 1,
+      "ingredients": [],
+      "ingredients_text": "생수제비: 250g\n양배추: 1컵 (60g)\n오이: 1/2컵 (50g)\n꽃상추: 2장 (20g)\n참기름: 1큰술 (7g)\n조미김가루: 1/2컵 (6g)\n통깨: 1큰술 (5g)\n*양념장\n고추장: 1과 1/2큰술 (30g)\n양조식초: 2큰술 (20g)\n황설탕: 1과 1/2큰술 (18g)\n진간장 약: 1과 2/3큰술 (17g)\n간마늘: 1/2큰술 (10g)\n고운고춧가루: 1큰술 (6g)\n후춧가루: 약간\n*면 삶기\n물: 약: 1L (원본 조리 과정에 명시)",
+      "steps": {
+        "ko": [
+          "고추장·식초·설탕·간장·마늘·고춧가루·후추를 섞어 양념장을 만듭니다.",
+          "약 1L의 끓는 물에 생수제비를 약 8분 익히며 가끔 저어 줍니다.",
+          "채소를 채 썰고 익은 수제비를 찬물에 헹궈 물기를 뺍니다.",
+          "수제비에 채소·양념장·김가루를 올리고 참기름과 빻은 깨로 마무리합니다."
+        ],
+        "en": [
+          "고추장·식초·설탕·간장·마늘·고춧가루·후추를 섞어 양념장을 만듭니다.",
+          "약 1L의 끓는 물에 생수제비를 약 8분 익히며 가끔 저어 줍니다.",
+          "채소를 채 썰고 익은 수제비를 찬물에 헹궈 물기를 뺍니다.",
+          "수제비에 채소·양념장·김가루를 올리고 참기름과 빻은 깨로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "coagMFr_nV8",
+        "url": "https://www.youtube.com/watch?v=coagMFr_nV8",
+        "title": "비빔수제비라고 아시나요?",
+        "section_name": "비빔수제비",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "98c525124ab74561d198e4b17a6c25452ea5aa85c6fc8082cbf6a12151419b89"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 1인분입니다. 생수제비와 조미김가루의 실제 제품 성분이 미확인이라 영양 계산은 보류했습니다. 삶는 물 약 1L는 조리 과정에 명시된 양입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "생수제비",
+          "조미김가루",
+          "고추장",
+          "진간장 약"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_VTnPfw9h-3k",
+      "names": {
+        "ko": "탕수육냄비전골 · 백종원 참고",
+        "en": "탕수육냄비전골 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "탕수육냄비전골",
+        "탕수육전골",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "물: 2컵(360ml)\n탕수육고기: 100g\n신 김치: 약3/4컵(100g)\n양파: 1/5개(50g)\n맛술: 약1/5컵(40g)\n대파: 약1/3대(30g)\n진간장: 약1/5컵(30g)\n황설탕: 약2큰술(25g)\n간 생강: 약간\n절단 다시마: 1장\n달걀: 1개",
+      "steps": {
+        "ko": [
+          "양파를 썰어 냄비에 담고 준비된 탕수육과 다시마를 올립니다.",
+          "물·생강·설탕·간장·맛술을 섞어 부은 뒤 탕수육이 부드러워지도록 끓입니다.",
+          "끓는 국물에 자른 김치와 대파 일부를 더합니다.",
+          "푼 달걀을 둘러 익히고 남은 대파를 얹어 마무리합니다."
+        ],
+        "en": [
+          "양파를 썰어 냄비에 담고 준비된 탕수육과 다시마를 올립니다.",
+          "물·생강·설탕·간장·맛술을 섞어 부은 뒤 탕수육이 부드러워지도록 끓입니다.",
+          "끓는 국물에 자른 김치와 대파 일부를 더합니다.",
+          "푼 달걀을 둘러 익히고 남은 대파를 얹어 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "VTnPfw9h-3k",
+        "url": "https://www.youtube.com/watch?v=VTnPfw9h-3k",
+        "title": "배달시켜 먹고 남은 탕수육 더 맛있게 먹는 법?!",
+        "section_name": "탕수육냄비전골",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "8f7d80859a5a9b49b7e695d6f98a7642163889c7a5b971a2e3250f715506abb1"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "미리 조리된 탕수육을 활용하는 요리입니다. 탕수육의 육류 종류·튀김옷·기름과 달걀 무게, 인분 수가 미확인이라 영양 계산은 보류했습니다. 실제 탕수육의 알레르기 재료를 별도 확인해 주세요.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=VTnPfw9h-3k"
+          }
+        ],
+        "check_product_labels": [
+          "탕수육고기",
+          "신 김치",
+          "맛술",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_rqbhm9hpvp8",
+      "names": {
+        "ko": "치즈라면전 · 백종원 참고",
+        "en": "치즈라면전 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "치즈라면전",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "모차렐라 치즈: 1컵(100g)\n대파 약: 1/3대(30g)\n식용유: 2큰술(14g)\n라면: 1개\n슬라이스 체다치즈: 1장\n물: 적당량",
+      "steps": {
+        "ko": [
+          "대파를 썰고 건더기수프를 넣은 끓는 물에 라면을 풀어 삶은 뒤 건집니다.",
+          "면과 대파에 분말수프 약 3분의 2봉지를 섞습니다.",
+          "기름 두른 팬에 대파를 볶고 면을 얇게 펼칩니다.",
+          "불을 낮춰 두 종류 치즈를 올리고 뚜껑을 덮어 치즈가 녹고 밑면이 노릇해지도록 익힙니다."
+        ],
+        "en": [
+          "대파를 썰고 건더기수프를 넣은 끓는 물에 라면을 풀어 삶은 뒤 건집니다.",
+          "면과 대파에 분말수프 약 3분의 2봉지를 섞습니다.",
+          "기름 두른 팬에 대파를 볶고 면을 얇게 펼칩니다.",
+          "불을 낮춰 두 종류 치즈를 올리고 뚜껑을 덮어 치즈가 녹고 밑면이 노릇해지도록 익힙니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "rqbhm9hpvp8",
+        "url": "https://www.youtube.com/watch?v=rqbhm9hpvp8",
+        "title": "치즈라면전, 맛이 없을 수 없는 조합~",
+        "section_name": "치즈라면전",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "23c542753948658349a84680db0deb1b0880ae33eb8e253cd93cc3a76fd43988"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 분말수프 약 3분의 2봉지를 사용합니다. 라면·치즈 제품과 남기는 기름량, 인분 수가 미확인이라 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "모차렐라 치즈",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=rqbhm9hpvp8"
+          },
+          {
+            "ingredient": "슬라이스 체다치즈",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=rqbhm9hpvp8"
+          }
+        ],
+        "check_product_labels": [
+          "모차렐라 치즈",
+          "식용유",
+          "라면",
+          "슬라이스 체다치즈"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_z-XcuZL80Lc_basic",
+      "names": {
+        "ko": "길거리토스트(기본형) · 백종원 참고",
+        "en": "길거리토스트(기본형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "길거리토스트(기본형)",
+        "길거리토스트",
+        "토스트",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "식빵: 1장\n황설탕: 1큰술(10g)\n마가린: 적당량",
+      "steps": {
+        "ko": [
+          "팬을 중불로 달궈 마가린을 두릅니다.",
+          "식빵 양면을 노릇하게 굽습니다.",
+          "설탕을 뿌리고 반으로 접습니다."
+        ],
+        "en": [
+          "팬을 중불로 달궈 마가린을 두릅니다.",
+          "식빵 양면을 노릇하게 굽습니다.",
+          "설탕을 뿌리고 반으로 접습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "z-XcuZL80Lc",
+        "url": "https://www.youtube.com/watch?v=z-XcuZL80Lc",
+        "title": "핫도그보다 맛있는 한국의 진짜 길거리 간식, '이것' 하나로 종결!",
+        "section_name": "길거리토스트(기본형)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "5612472c3739ab729b9d6fcb2d42c24987c13fb723460b7372c57d44e9acf9f1"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "기본형 재료만 표시했습니다. 식빵 1장은 준비량이며 인분 수를 임의로 정하지 않았습니다. 식빵 제품과 마가린 양이 미확인이라 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "식빵",
+          "마가린"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_z-XcuZL80Lc_cheese",
+      "names": {
+        "ko": "길거리토스트(치즈형) · 백종원 참고",
+        "en": "길거리토스트(치즈형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "길거리토스트(치즈형)",
+        "길거리토스트",
+        "토스트",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "식빵: 2장\n달걀: 2개\n대파: 1/2컵(40g)\n슬라이스치즈: 1장\n꽃소금: 적당량\n황설탕: 2큰술 (20g)\n마가린: 적당량",
+      "steps": {
+        "ko": [
+          "대파를 잘게 썰어 푼 달걀과 소금에 섞습니다.",
+          "마가린 두른 팬에 달걀물을 붓고 식빵 두 장을 올려 익힙니다.",
+          "뒤집어 마가린을 더하고 설탕·치즈를 올려 반으로 접은 뒤 빵을 노릇하게 굽습니다."
+        ],
+        "en": [
+          "대파를 잘게 썰어 푼 달걀과 소금에 섞습니다.",
+          "마가린 두른 팬에 달걀물을 붓고 식빵 두 장을 올려 익힙니다.",
+          "뒤집어 마가린을 더하고 설탕·치즈를 올려 반으로 접은 뒤 빵을 노릇하게 굽습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "z-XcuZL80Lc",
+        "url": "https://www.youtube.com/watch?v=z-XcuZL80Lc",
+        "title": "핫도그보다 맛있는 한국의 진짜 길거리 간식, '이것' 하나로 종결!",
+        "section_name": "길거리토스트(치즈형)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "5612472c3739ab729b9d6fcb2d42c24987c13fb723460b7372c57d44e9acf9f1"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "치즈형 재료만 표시했으며 기본형·햄치즈형과 합산하지 않습니다. 달걀 무게와 마가린 양·제품 성분, 인분 수가 미확인이라 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류",
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=z-XcuZL80Lc"
+          },
+          {
+            "ingredient": "슬라이스치즈",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=z-XcuZL80Lc"
+          }
+        ],
+        "check_product_labels": [
+          "식빵",
+          "슬라이스치즈",
+          "마가린"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_z-XcuZL80Lc_ham_cheese",
+      "names": {
+        "ko": "길거리토스트(햄치즈형) · 백종원 참고",
+        "en": "길거리토스트(햄치즈형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "길거리토스트(햄치즈형)",
+        "길거리토스트",
+        "토스트",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "식빵: 2장\n달걀: 2개\n양배추: 1/3컵(30g)\n대파: 1/3컵(30g)\n당근: 1/2큰술(5g)\n슬라이스햄: 2장\n슬라이스치즈: 2장\n황설탕: 2큰술 (20g)\n꽃소금: 적당량\n마가린: 적당량",
+      "steps": {
+        "ko": [
+          "양배추·대파·당근을 잘게 썰어 달걀과 소금에 섞습니다.",
+          "마가린 두른 팬에 달걀물을 붓고 식빵 두 장을 올려 익힙니다.",
+          "뒤집어 빵을 굽고 팬 한쪽에서 햄을 따로 구워 달걀 위에 올립니다.",
+          "치즈와 설탕을 더해 반으로 접고 빵을 노릇하게 굽습니다."
+        ],
+        "en": [
+          "양배추·대파·당근을 잘게 썰어 달걀과 소금에 섞습니다.",
+          "마가린 두른 팬에 달걀물을 붓고 식빵 두 장을 올려 익힙니다.",
+          "뒤집어 빵을 굽고 팬 한쪽에서 햄을 따로 구워 달걀 위에 올립니다.",
+          "치즈와 설탕을 더해 반으로 접고 빵을 노릇하게 굽습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "z-XcuZL80Lc",
+        "url": "https://www.youtube.com/watch?v=z-XcuZL80Lc",
+        "title": "핫도그보다 맛있는 한국의 진짜 길거리 간식, '이것' 하나로 종결!",
+        "section_name": "길거리토스트(햄치즈형)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "5612472c3739ab729b9d6fcb2d42c24987c13fb723460b7372c57d44e9acf9f1"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "햄치즈형 재료만 표시했습니다. 햄의 육류와 알레르기 성분은 실제 제품에서 확인해야 합니다. 달걀 무게·마가린 양·제품 성분과 인분 수가 미확인이라 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류",
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=z-XcuZL80Lc"
+          },
+          {
+            "ingredient": "슬라이스치즈",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=z-XcuZL80Lc"
+          }
+        ],
+        "check_product_labels": [
+          "식빵",
+          "슬라이스햄",
+          "슬라이스치즈",
+          "마가린"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 18,
-  "allergen_ingredient_review_count": 141
+  "allergen_ingredient_review_count": 147
 }

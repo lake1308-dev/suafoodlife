@@ -1,0 +1,42 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 6,
+  "items": [
+    {
+      "recipe_id": "paik_coagMFr_nV8",
+      "name": "비빔수제비",
+      "source_url": "https://www.youtube.com/watch?v=coagMFr_nV8",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_VTnPfw9h-3k",
+      "name": "탕수육냄비전골",
+      "source_url": "https://www.youtube.com/watch?v=VTnPfw9h-3k",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_rqbhm9hpvp8",
+      "name": "치즈라면전",
+      "source_url": "https://www.youtube.com/watch?v=rqbhm9hpvp8",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_z-XcuZL80Lc_basic",
+      "name": "길거리토스트(기본형)",
+      "source_url": "https://www.youtube.com/watch?v=z-XcuZL80Lc",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_z-XcuZL80Lc_cheese",
+      "name": "길거리토스트(치즈형)",
+      "source_url": "https://www.youtube.com/watch?v=z-XcuZL80Lc",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_z-XcuZL80Lc_ham_cheese",
+      "name": "길거리토스트(햄치즈형)",
+      "source_url": "https://www.youtube.com/watch?v=z-XcuZL80Lc",
+      "status": "verified_added"
+    }
+  ]
+}
