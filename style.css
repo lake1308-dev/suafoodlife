@@ -50,3 +50,5 @@ button,input{font:inherit}button:focus-visible,[role="button"]:focus-visible,a:f
 .country-search.hidden,.country-grid.hidden,.country-title.hidden,.country-search-results.hidden{display:none}
 
 .recipe-portion-control{display:block;margin-top:14px;font-weight:700;color:#315c2c}.recipe-portion-control select{font:inherit;font-size:16px;min-height:44px;max-width:100%;margin-left:8px;padding:8px 12px;border:1px solid #d8dfd4;border-radius:10px;background:#fff;color:#182018}.recipe-portion-control select:focus-visible{outline:3px solid #8db885;outline-offset:2px}.portion-hint{display:block;margin-top:8px;font-size:14px;line-height:1.65}
+
+.recipe-preparations{margin-top:16px;padding-top:14px;border-top:1px solid #dce5d7}.recipe-preparations p{margin:8px 0}.recipe-preparation-button{display:block;max-width:100%;min-height:44px;margin:10px 0;padding:12px 16px;border:1px solid #315c2c;border-radius:10px;background:#f5f8f0;color:#315c2c;font:inherit;text-align:left;white-space:normal;overflow-wrap:anywhere;cursor:pointer}

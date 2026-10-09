@@ -1,0 +1,54 @@
+{
+  "reviewed_on": "2026-10-09",
+  "linked_recipes": 8,
+  "items": [
+    {
+      "recipe_id": "paik_-3y_AR7zYXM",
+      "target_recipe_id": "paik_uAShnbgCLSU",
+      "basis": "explicit prepared ingredient in official recipe",
+      "amount_hint": "이 요리에는 준비된 양파볶음 45g을 사용합니다."
+    },
+    {
+      "recipe_id": "paik_5uWt6U1Re5Q",
+      "target_recipe_id": "paik_uAShnbgCLSU",
+      "basis": "explicit prepared ingredient in official recipe",
+      "amount_hint": "이 요리에는 준비된 양파볶음 45g을 사용합니다."
+    },
+    {
+      "recipe_id": "paik_rrNfCVRFsvs_rice",
+      "target_recipe_id": "paik_rrNfCVRFsvs",
+      "basis": "explicit prepared ingredient in official recipe",
+      "amount_hint": "미리 만든 잡채를 사용합니다. 원본은 잡채 사용량을 지정하지 않았습니다."
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_mushroom",
+      "target_recipe_id": "paik_bMLfohWNsvQ_sauce",
+      "basis": "explicit prepared ingredient in official recipe",
+      "amount_hint": "이 요리에는 준비된 소스 30g을 사용합니다."
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_sprouts",
+      "target_recipe_id": "paik_bMLfohWNsvQ_sauce",
+      "basis": "explicit prepared ingredient in official recipe",
+      "amount_hint": "이 요리에는 준비된 소스 40g을 사용합니다."
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_peppers",
+      "target_recipe_id": "paik_bMLfohWNsvQ_sauce",
+      "basis": "explicit prepared ingredient in official recipe",
+      "amount_hint": "이 요리에는 준비된 소스 30g을 사용합니다."
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_celery",
+      "target_recipe_id": "paik_bMLfohWNsvQ_sauce",
+      "basis": "explicit prepared ingredient in official recipe",
+      "amount_hint": "이 요리에는 준비된 소스 30g을 사용합니다."
+    },
+    {
+      "recipe_id": "paik_bMLfohWNsvQ_garlicstems",
+      "target_recipe_id": "paik_bMLfohWNsvQ_sauce",
+      "basis": "explicit prepared ingredient in official recipe",
+      "amount_hint": "이 요리에는 준비된 소스 20g을 사용합니다."
+    }
+  ]
+}
