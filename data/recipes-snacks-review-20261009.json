@@ -1,0 +1,42 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 6,
+  "items": [
+    {
+      "recipe_id": "paik_2T7BfP1sx9g",
+      "name": "돼지불백",
+      "source_url": "https://www.youtube.com/watch?v=2T7BfP1sx9g",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_CVtdTM6gJTY",
+      "name": "라면땅(마요네즈)",
+      "source_url": "https://www.youtube.com/watch?v=CVtdTM6gJTY",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_-dBPLgpC-tk_basic",
+      "name": "프렌치토스트(기본형)",
+      "source_url": "https://www.youtube.com/watch?v=-dBPLgpC-tk",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_-dBPLgpC-tk_milk",
+      "name": "프렌치토스트(우유형)",
+      "source_url": "https://www.youtube.com/watch?v=-dBPLgpC-tk",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_WneiVYnZgHo",
+      "name": "마늘탕수육",
+      "source_url": "https://www.youtube.com/watch?v=WneiVYnZgHo",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_lqCzPHUu-3E",
+      "name": "라면땅(초고추장 곁들임)",
+      "source_url": "https://www.youtube.com/watch?v=lqCzPHUu-3E",
+      "status": "verified_added"
+    }
+  ]
+}

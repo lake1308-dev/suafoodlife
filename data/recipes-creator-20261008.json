@@ -1,6 +1,6 @@
 {
-  "version": "1.18.1",
-  "record_count": 130,
+  "version": "1.19.0",
+  "record_count": 136,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -14256,8 +14256,456 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_2T7BfP1sx9g",
+      "names": {
+        "ko": "돼지불백 · 백종원 참고",
+        "en": "돼지불백 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "돼지불백",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "돼지고기 후지(슬라이스): 500g\n물: 2/3컵(120ml)\n갈아만든 배: 약1/2컵(85ml)\n대파: 약1/3대(30g)\n진간장: 2와1/2큰술(25g)\n맛술: 2와1/2큰술(25g)\n황설탕: 1과2/3큰술(20g)\n간 마늘: 1큰술(20g)\n참기름: 1과1/2큰술(10g)\n노두유: 약1큰술(6g)\n간 생강: 약간(2g)\n후추가루: 약간",
+      "steps": {
+        "ko": [
+          "대파를 썰고 돼지고기에 대파·마늘·설탕을 섞습니다.",
+          "맛술·생강·배 음료를 넣어 섞고 간장·노두유·참기름·후추로 양념합니다.",
+          "달군 팬에서 고기를 풀어가며 볶습니다. 양념이 눌기 시작하면 물을 더합니다.",
+          "물이 줄고 고기가 속까지 익으면 불을 낮춰 마무리합니다."
+        ],
+        "en": [
+          "대파를 썰고 돼지고기에 대파·마늘·설탕을 섞습니다.",
+          "맛술·생강·배 음료를 넣어 섞고 간장·노두유·참기름·후추로 양념합니다.",
+          "달군 팬에서 고기를 풀어가며 볶습니다. 양념이 눌기 시작하면 물을 더합니다.",
+          "물이 줄고 고기가 속까지 익으면 불을 낮춰 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "2T7BfP1sx9g",
+        "url": "https://www.youtube.com/watch?v=2T7BfP1sx9g",
+        "title": "기사식당st 돼지불백, 추억의 그 맛!",
+        "section_name": "돼지불백",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "462ff577773bdd6c878f006ca092752a187bdced13f3bd7181b354d7eb83dd06"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 약 2~3인분으로 범위를 제시해 단일 인분으로 고정하지 않았습니다. 갈아만든 배는 원본에 적힌 음료 재료입니다. 제품 성분과 남기는 양념이 미확인이라 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "돼지고기 후지(슬라이스)",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=2T7BfP1sx9g"
+          }
+        ],
+        "check_product_labels": [
+          "갈아만든 배",
+          "진간장",
+          "맛술",
+          "노두유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_CVtdTM6gJTY",
+      "names": {
+        "ko": "라면땅(마요네즈) · 백종원 참고",
+        "en": "라면땅(마요네즈) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "라면땅(마요네즈)",
+        "라면땅",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "라면: 1봉지\n라면수프: 적당량\n마요네즈: 3큰술(48g)\n황설탕: 2큰술(24g)",
+      "steps": {
+        "ko": [
+          "라면 양면에 마요네즈를 얇고 고르게 바르고 설탕을 나누어 뿌립니다.",
+          "전자레인지용 접시에 담아 약 2분 20초 가열하되 기기 출력에 따라 중간에 색을 확인하고 뒤집습니다.",
+          "양면에 수프를 취향에 맞게 뿌린 뒤 식혀서 쪼갭니다."
+        ],
+        "en": [
+          "라면 양면에 마요네즈를 얇고 고르게 바르고 설탕을 나누어 뿌립니다.",
+          "전자레인지용 접시에 담아 약 2분 20초 가열하되 기기 출력에 따라 중간에 색을 확인하고 뒤집습니다.",
+          "양면에 수프를 취향에 맞게 뿌린 뒤 식혀서 쪼갭니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "CVtdTM6gJTY",
+        "url": "https://www.youtube.com/watch?v=CVtdTM6gJTY",
+        "title": "라면땅 업그레이드. 설탕+마요+스프 꿀맛탱",
+        "section_name": "라면땅(마요네즈)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "ee41219751471216f8a80669393483d4a6a22d13c4f2bde0ae812c80f4d53541"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 기기 출력에 따라 약 2~3분으로 조절합니다. 라면 제품과 수프 사용량이 미확인이라 영양 계산과 인분 환산을 보류했습니다. 마요네즈의 알레르기 표시는 제품에서 확인해 주세요.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "라면",
+          "라면수프",
+          "마요네즈"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_-dBPLgpC-tk_basic",
+      "names": {
+        "ko": "프렌치토스트(기본형) · 백종원 참고",
+        "en": "프렌치토스트(기본형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "프렌치토스트(기본형)",
+        "프렌치토스트",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "식빵: 3장\n달걀: 2개\n꽃소금: 2꼬집\n사과잼: 적당량\n식용유: 적당량\n버터: 적당량\n계핏가루: 적당량\n연유: 적당량",
+      "steps": {
+        "ko": [
+          "달걀에 소금을 넣어 풉니다.",
+          "중불로 달군 팬에 기름을 두르고 식빵 양면에 달걀물을 묻혀 굽습니다.",
+          "뒤집어가며 달걀이 익고 빵이 노릇해지면 버터·사과잼·계핏가루·연유를 더합니다."
+        ],
+        "en": [
+          "달걀에 소금을 넣어 풉니다.",
+          "중불로 달군 팬에 기름을 두르고 식빵 양면에 달걀물을 묻혀 굽습니다.",
+          "뒤집어가며 달걀이 익고 빵이 노릇해지면 버터·사과잼·계핏가루·연유를 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "-dBPLgpC-tk",
+        "url": "https://www.youtube.com/watch?v=-dBPLgpC-tk",
+        "title": "부드러움 끝판왕 프렌치토스트",
+        "section_name": "프렌치토스트(기본형)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "5531bd3f398a1247c6422be3bc7037d04f2c957dc1a195251321a62e77606a25"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "기본형 재료만 표시하며 샌드위치형과 우유형을 합치지 않았습니다. 달걀 무게와 기름·곁들임 양이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류",
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-dBPLgpC-tk"
+          },
+          {
+            "ingredient": "버터",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-dBPLgpC-tk"
+          },
+          {
+            "ingredient": "연유",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-dBPLgpC-tk"
+          }
+        ],
+        "check_product_labels": [
+          "식빵",
+          "사과잼",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_-dBPLgpC-tk_milk",
+      "names": {
+        "ko": "프렌치토스트(우유형) · 백종원 참고",
+        "en": "프렌치토스트(우유형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "프렌치토스트(우유형)",
+        "프렌치토스트",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "식빵: 3장\n달걀: 2개\n우유: 약2/3컵 (110g)\n황설탕: 1큰술 (12g)\n꽃소금: 2꼬집\n식용유: 적당량\n버터: 적당량\n사과잼: 적당량",
+      "steps": {
+        "ko": [
+          "우유·설탕·달걀·소금을 고루 섞습니다.",
+          "식빵을 달걀물에 넣어 충분히 적십니다.",
+          "기름 두른 팬에서 약불로 양면을 뒤집어가며 속까지 익힌 뒤 버터와 사과잼을 더합니다."
+        ],
+        "en": [
+          "우유·설탕·달걀·소금을 고루 섞습니다.",
+          "식빵을 달걀물에 넣어 충분히 적십니다.",
+          "기름 두른 팬에서 약불로 양면을 뒤집어가며 속까지 익힌 뒤 버터와 사과잼을 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "-dBPLgpC-tk",
+        "url": "https://www.youtube.com/watch?v=-dBPLgpC-tk",
+        "title": "부드러움 끝판왕 프렌치토스트",
+        "section_name": "프렌치토스트(우유형)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "5531bd3f398a1247c6422be3bc7037d04f2c957dc1a195251321a62e77606a25"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "우유형 재료만 표시하며 기본형과 합산하지 않았습니다. 달걀 무게와 기름·버터·잼 양이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류",
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-dBPLgpC-tk"
+          },
+          {
+            "ingredient": "우유",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-dBPLgpC-tk"
+          },
+          {
+            "ingredient": "버터",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-dBPLgpC-tk"
+          }
+        ],
+        "check_product_labels": [
+          "식빵",
+          "식용유",
+          "사과잼"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_WneiVYnZgHo",
+      "names": {
+        "ko": "마늘탕수육 · 백종원 참고",
+        "en": "마늘탕수육 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "마늘탕수육",
+        "탕수육",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*마늘돼지고기튀김\n돼지고기등심: 500g\n튀김가루: 1과1/2컵(160g)\n식용유: 3큰술(20g)\n식용유(튀김용): 1.8L\n물: 2/3컵(120g)\n깐마늘: 1/2컵(50g)\n진간장: 1큰술(10g)\n후춧가루: 1g\n맛소금: 1g\n*탕수육소스\n황설탕: 6큰술(60g)\n식초: 4큰술(40g)\n진간장: 2큰술(20g)\n간생강: 1/4큰술(3g)\n오이: 30g\n당근: 30g\n양파: 30g\n물: 1과1/2컵(270g)\n물(전분물용): 2큰술(20g)\n전분가루: 1큰술(10g)",
+      "steps": {
+        "ko": [
+          "돼지고기를 길게 썰고 마늘을 다져 간장·맛소금·후추와 함께 밑간합니다.",
+          "튀김가루·물·반죽용 기름을 섞어 고기에 입힙니다.",
+          "예열한 기름에서 고기를 약 3~5분 튀겨 건지고, 기름 온도를 높여 약 30초~1분 더 튀겨 속까지 익힙니다.",
+          "채소를 얇게 썰어 설탕·식초·간장·물과 끓이고 생강을 더합니다.",
+          "전분과 별도 물을 섞어 끓는 소스에 넣고 농도를 맞춰 고기와 곁들입니다."
+        ],
+        "en": [
+          "돼지고기를 길게 썰고 마늘을 다져 간장·맛소금·후추와 함께 밑간합니다.",
+          "튀김가루·물·반죽용 기름을 섞어 고기에 입힙니다.",
+          "예열한 기름에서 고기를 약 3~5분 튀겨 건지고, 기름 온도를 높여 약 30초~1분 더 튀겨 속까지 익힙니다.",
+          "채소를 얇게 썰어 설탕·식초·간장·물과 끓이고 생강을 더합니다.",
+          "전분과 별도 물을 섞어 끓는 소스에 넣고 농도를 맞춰 고기와 곁들입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "WneiVYnZgHo",
+        "url": "https://www.youtube.com/watch?v=WneiVYnZgHo",
+        "title": "부먹, 찍먹 다 맛있는 탕수육! 바삭 바삭~ ㅣ 백종원의 쿠킹로그",
+        "section_name": "마늘탕수육",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "213c015b2f1ba8900f6ec1c2d61320012feb2a7d4ba81469e57719d0287b2130"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "튀김용 식용유 1.8L는 조리 준비량이며 모두 먹는 양이 아닙니다. 고기에 흡수되는 기름과 실제 먹는 소스 양이 미확인이라 전체 영양 계산과 인분 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "돼지고기등심",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=WneiVYnZgHo"
+          }
+        ],
+        "check_product_labels": [
+          "튀김가루",
+          "식용유",
+          "식용유(튀김용)",
+          "진간장",
+          "맛소금",
+          "전분가루"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_lqCzPHUu-3E",
+      "names": {
+        "ko": "라면땅(초고추장 곁들임) · 백종원 참고",
+        "en": "라면땅(초고추장 곁들임) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "라면땅(초고추장 곁들임)",
+        "라면땅",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "라면: 1개\n초고추장: 적당량\n설탕: 적당량",
+      "steps": {
+        "ko": [
+          "라면을 네 조각으로 나눠 전자레인지용 그릇에 담습니다.",
+          "약 2분 30초 가열하되 중간에 상태를 확인하며 기기 출력에 맞게 조절합니다.",
+          "설탕을 뿌려 섞고 초고추장을 곁들입니다."
+        ],
+        "en": [
+          "라면을 네 조각으로 나눠 전자레인지용 그릇에 담습니다.",
+          "약 2분 30초 가열하되 중간에 상태를 확인하며 기기 출력에 맞게 조절합니다.",
+          "설탕을 뿌려 섞고 초고추장을 곁들입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "lqCzPHUu-3E",
+        "url": "https://www.youtube.com/watch?v=lqCzPHUu-3E",
+        "title": "라면땅 제일 쉽게 해먹는 방법. ○○○○에 찍어드세요!",
+        "section_name": "라면땅(초고추장 곁들임)",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "44512acf9409ecd40fab52fa407721f679a113ab3987b4022725674e7510afa9"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에는 설탕과 초고추장의 양이 적당량으로 표시되어 있습니다. 라면 제품과 실제 먹는 소스 양이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "라면",
+          "초고추장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 18,
-  "allergen_ingredient_review_count": 130
+  "allergen_ingredient_review_count": 136
 }

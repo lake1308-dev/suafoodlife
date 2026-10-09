@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 130,
+  "recipe_count": 136,
   "nutrition_reference_estimates": 18,
-  "nutrition_held": 112,
+  "nutrition_held": 118,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -671,9 +671,39 @@
       "recipe_id": "paik_R0xWJ4c8wR4",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_2T7BfP1sx9g",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_CVtdTM6gJTY",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_-dBPLgpC-tk_basic",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_-dBPLgpC-tk_milk",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_WneiVYnZgHo",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_lqCzPHUu-3E",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 130,
+  "allergen_ingredient_reviews": 136,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -2016,6 +2046,73 @@
         "식용유",
         "액젓",
         "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_2T7BfP1sx9g",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "갈아만든 배",
+        "진간장",
+        "맛술",
+        "노두유"
+      ]
+    },
+    {
+      "recipe_id": "paik_CVtdTM6gJTY",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "라면",
+        "라면수프",
+        "마요네즈"
+      ]
+    },
+    {
+      "recipe_id": "paik_-dBPLgpC-tk_basic",
+      "known_from_ingredients": [
+        "알류",
+        "우유"
+      ],
+      "product_labels_pending": [
+        "식빵",
+        "사과잼",
+        "식용유"
+      ]
+    },
+    {
+      "recipe_id": "paik_-dBPLgpC-tk_milk",
+      "known_from_ingredients": [
+        "알류",
+        "우유"
+      ],
+      "product_labels_pending": [
+        "식빵",
+        "식용유",
+        "사과잼"
+      ]
+    },
+    {
+      "recipe_id": "paik_WneiVYnZgHo",
+      "known_from_ingredients": [
+        "돼지고기"
+      ],
+      "product_labels_pending": [
+        "튀김가루",
+        "식용유",
+        "식용유(튀김용)",
+        "진간장",
+        "맛소금",
+        "전분가루"
+      ]
+    },
+    {
+      "recipe_id": "paik_lqCzPHUu-3E",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "라면",
+        "초고추장"
       ]
     }
   ],
