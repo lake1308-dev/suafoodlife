@@ -1,6 +1,6 @@
 {
-  "version": "1.19.0",
-  "record_count": 136,
+  "version": "1.20.0",
+  "record_count": 141,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -14704,8 +14704,393 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_tCe6B6U8wHw",
+      "names": {
+        "ko": "단무지무침 · 백종원 참고",
+        "en": "단무지무침 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "단무지무침",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "단무지: 1팩(고형물175g)\n대파 약: 2/3대(70g)\n간 깨 약: 1큰술(8g)\n간 마늘: 1/3큰술(7g)\n굵은 고춧가루 약: 1/2큰술(3g)\n참기름 약: 1/2큰술(3g)",
+      "steps": {
+        "ko": [
+          "단무지를 원하는 크기로 자르고 대파를 잘게 썹니다.",
+          "단무지에 대파·마늘·고춧가루·빻은 깨·참기름을 넣어 버무립니다.",
+          "밀폐 용기에 담아 냉장 보관합니다."
+        ],
+        "en": [
+          "단무지를 원하는 크기로 자르고 대파를 잘게 썹니다.",
+          "단무지에 대파·마늘·고춧가루·빻은 깨·참기름을 넣어 버무립니다.",
+          "밀폐 용기에 담아 냉장 보관합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "tCe6B6U8wHw",
+        "url": "https://www.youtube.com/watch?v=tCe6B6U8wHw",
+        "title": "조리는 3분 컷! 재료비도 초저렴!",
+        "section_name": "단무지무침",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "4d26018dda6d6457ac7856f36c4c6fb71cbfbea54b1447ff6fdd1fd0e7515b2c"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "단무지 175g은 포장 국물을 제외한 고형물 중량입니다. 실제 제품의 당·나트륨 성분과 인분 수가 미확인이라 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "단무지"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_Zkxiydlmplw",
+      "names": {
+        "ko": "오징어뭇국 · 백종원 참고",
+        "en": "오징어뭇국 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "오징어뭇국",
+        "오징어무국",
+        "오징어국",
+        "백종원"
+      ],
+      "servings": 4,
+      "ingredients": [],
+      "ingredients_text": "정수물: 2L\n오징어: 1마리(약300~350g)\n무: 약1/10개(180g)\n대파: 약1/2대(60g)\n국간장: 약1큰술(11g)\n꽃소금: 약1큰술(10g)\n간마늘: 1/2큰술(10g)\n멸치액젓: 1큰술(8g)\n들기름: 1큰술(7g)\n간생강: 약1/4큰술(3g)",
+      "steps": {
+        "ko": [
+          "오징어의 내장·뼈·입 등을 제거해 씻고 몸통과 다리를 썹니다. 무와 대파도 준비합니다.",
+          "냄비에 들기름·오징어·무를 넣어 약 2분 볶습니다.",
+          "물·국간장·액젓·소금·마늘·생강을 더해 끓이고, 끓어오르면 불을 낮춰 약 7분 익힙니다.",
+          "간을 확인해 조절하고 대파를 넣어 마무리합니다."
+        ],
+        "en": [
+          "오징어의 내장·뼈·입 등을 제거해 씻고 몸통과 다리를 썹니다. 무와 대파도 준비합니다.",
+          "냄비에 들기름·오징어·무를 넣어 약 2분 볶습니다.",
+          "물·국간장·액젓·소금·마늘·생강을 더해 끓이고, 끓어오르면 불을 낮춰 약 7분 익힙니다.",
+          "간을 확인해 조절하고 대파를 넣어 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "Zkxiydlmplw",
+        "url": "https://www.youtube.com/watch?v=Zkxiydlmplw",
+        "title": "장담하건대 내일 또 먹고 싶을 거예요",
+        "section_name": "오징어뭇국",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "6df69ee90dfc6248b1ae3c05e2175e8e3cee0b67f18e4fc4c886ba571de57f36"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 4인분이며 오징어 1마리 중량은 약 300~350g 범위입니다. 손질 후 먹는 무게와 남기는 국물이 미확인이라 영양 계산과 자동 인분 환산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "오징어"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "오징어",
+            "allergen": "오징어",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=Zkxiydlmplw"
+          }
+        ],
+        "check_product_labels": [
+          "국간장",
+          "멸치액젓"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_YXMxnHx7yZQ",
+      "names": {
+        "ko": "달걀샌드위치 · 백종원 참고",
+        "en": "달걀샌드위치 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "달걀샌드위치",
+        "백종원"
+      ],
+      "servings": 2,
+      "ingredients": [],
+      "ingredients_text": "* 달걀샌드위치\n달걀: 6개\n식빵: 4장\n슬라이스치즈: 2장\n베이컨: 3장(48g)\n스틱버터: 적당량\n마요소스: 적당량\n쓰리라차마요소스: 적당량\n* 마요소스\n마요네즈: 1/3컵(60g)\n황설탕: 1큰술(12g)\n* 쓰리라차마요소스\n마요네즈: 1/3컵(60g)\n황설탕: 1큰술(12g)\n고운고춧가루: 1/2큰술(3g)\n식초: 약2와1/2큰술(24g)",
+      "steps": {
+        "ko": [
+          "마요네즈와 설탕을 섞어 기본 소스를 만들고, 별도 그릇에 마요네즈·설탕·고춧가루·식초를 섞어 매콤한 소스를 만듭니다.",
+          "버터 두른 팬에서 식빵 한 면을 굽고 베이컨도 굽습니다.",
+          "달걀을 풀어 버터 두른 팬에서 저어가며 익히고 빵 크기로 모양을 잡아 치즈를 얹습니다.",
+          "빵에 두 소스를 나눠 바르고 치즈 올린 달걀·베이컨을 담아 다른 빵으로 덮습니다."
+        ],
+        "en": [
+          "마요네즈와 설탕을 섞어 기본 소스를 만들고, 별도 그릇에 마요네즈·설탕·고춧가루·식초를 섞어 매콤한 소스를 만듭니다.",
+          "버터 두른 팬에서 식빵 한 면을 굽고 베이컨도 굽습니다.",
+          "달걀을 풀어 버터 두른 팬에서 저어가며 익히고 빵 크기로 모양을 잡아 치즈를 얹습니다.",
+          "빵에 두 소스를 나눠 바르고 치즈 올린 달걀·베이컨을 담아 다른 빵으로 덮습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "YXMxnHx7yZQ",
+        "url": "https://www.youtube.com/watch?v=YXMxnHx7yZQ",
+        "title": "폭신~폭신한 에그 샌드위치 Soft and fluffy egg sandwich",
+        "section_name": "달걀샌드위치",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "701967a1e066f9a4222de66cddc0189855a63f579f7a1545091befe9dcaf4198"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 2인분입니다. 소스 목록은 준비용 배합이며 샌드위치에 바르는 양은 적당량입니다. 달걀 무게·버터·소스 섭취량이 미확인이라 영양 계산과 인분 조절은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류",
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=YXMxnHx7yZQ"
+          },
+          {
+            "ingredient": "슬라이스치즈",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=YXMxnHx7yZQ"
+          },
+          {
+            "ingredient": "스틱버터",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=YXMxnHx7yZQ"
+          }
+        ],
+        "check_product_labels": [
+          "식빵",
+          "슬라이스치즈",
+          "베이컨",
+          "마요소스",
+          "쓰리라차마요소스",
+          "마요네즈"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_JrTVWvj8uhs",
+      "names": {
+        "ko": "들기름두부구이 · 백종원 참고",
+        "en": "들기름두부구이 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "들기름두부구이",
+        "두부구이",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*들기름두부구이\n국산콩손두부: 1모(900g)\n들기름: 10큰술(70g)\n*양념장\n진간장: 4큰술(40g)\n대파 약: 1/3대(30g)\n청양고추: 2개(20g)\n간 마늘: 1/4큰술(5g)\n황설탕: 1/4큰술(3g)\n깨소금: 1/2큰술(3g)\n굵은고추가루: 1/4큰술(2g)\n참기름: 약2큰술(12g)",
+      "steps": {
+        "ko": [
+          "두부를 두툼하게 썰고 표면 물기를 제거합니다.",
+          "달군 팬에 들기름과 두부를 넣어 한 면을 노릇하게 굽고, 뒤집어 불을 낮춰 양면과 옆면을 익힙니다.",
+          "대파·고추를 썰어 간장과 나머지 양념 재료를 섞습니다.",
+          "구운 두부에 양념장을 따로 곁들여 먹을 양을 조절합니다."
+        ],
+        "en": [
+          "두부를 두툼하게 썰고 표면 물기를 제거합니다.",
+          "달군 팬에 들기름과 두부를 넣어 한 면을 노릇하게 굽고, 뒤집어 불을 낮춰 양면과 옆면을 익힙니다.",
+          "대파·고추를 썰어 간장과 나머지 양념 재료를 섞습니다.",
+          "구운 두부에 양념장을 따로 곁들여 먹을 양을 조절합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "JrTVWvj8uhs",
+        "url": "https://www.youtube.com/watch?v=JrTVWvj8uhs",
+        "title": "정말 너무 간단해서 아무나 할 수 있다.",
+        "section_name": "들기름두부구이",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "219960fbc25693fd6d54de7e7fa27b47dc522c6af5e19dd2cf9ea72ab05c26cd"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본 손두부 1모는 900g 기준입니다. 제품마다 크기가 다르며, 남기는 들기름과 실제 먹는 양념장이 미확인이라 전체 영양 계산과 인분 환산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "대두"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "국산콩손두부",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=JrTVWvj8uhs"
+          }
+        ],
+        "check_product_labels": [
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_X8VEvBHHOjQ",
+      "names": {
+        "ko": "몬테크리스토샌드위치 · 백종원 참고",
+        "en": "몬테크리스토샌드위치 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "몬테크리스토샌드위치",
+        "몬테크리스토",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*달걀물\n우유: 1/3컵(60ml)\n달걀: 1개\n맛소금: 약간\n*샌드위치\n식빵: 3장\n체다치즈슬라이스: 4장(80g)\n딸기잼: 3큰술(63g)\n슬라이스햄: 4장(40g)\n식용유: 3큰술(21g)",
+      "steps": {
+        "ko": [
+          "식빵에 잼을 얇게 펴 바르고 햄과 치즈를 층층이 올려 세 장을 겹칩니다.",
+          "달걀·우유·맛소금을 섞어 샌드위치의 앞뒤와 옆면에 묻힙니다.",
+          "기름 두른 팬에서 불을 낮춰 눌러가며 양면을 굽고 옆면도 돌려 익힙니다.",
+          "치즈가 녹고 달걀물이 익으면 꺼내 먹기 좋게 자릅니다."
+        ],
+        "en": [
+          "식빵에 잼을 얇게 펴 바르고 햄과 치즈를 층층이 올려 세 장을 겹칩니다.",
+          "달걀·우유·맛소금을 섞어 샌드위치의 앞뒤와 옆면에 묻힙니다.",
+          "기름 두른 팬에서 불을 낮춰 눌러가며 양면을 굽고 옆면도 돌려 익힙니다.",
+          "치즈가 녹고 달걀물이 익으면 꺼내 먹기 좋게 자릅니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "X8VEvBHHOjQ",
+        "url": "https://www.youtube.com/watch?v=X8VEvBHHOjQ",
+        "title": "살찌는 조합 = 그 정도로 맛있다는 거죠! 몬테크리스토 샌드위치",
+        "section_name": "몬테크리스토샌드위치",
+        "retrieved_on": "2026-10-09",
+        "description_sha256": "70741c7b2a4c75975c27e659583a39881f4f1b3709cfa756adccea5c8f04dc35"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "식빵 3장은 원본 준비량이며 인분 수는 명시하지 않았습니다. 실제 사용하는 잼·달걀물·흡수되는 기름량과 제품 성분이 미확인이라 영양 계산을 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-08",
+        "known_from_ingredients": [
+          "알류",
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "우유",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=X8VEvBHHOjQ"
+          },
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=X8VEvBHHOjQ"
+          },
+          {
+            "ingredient": "체다치즈슬라이스",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=X8VEvBHHOjQ"
+          }
+        ],
+        "check_product_labels": [
+          "맛소금",
+          "식빵",
+          "체다치즈슬라이스",
+          "딸기잼",
+          "슬라이스햄",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 18,
-  "allergen_ingredient_review_count": 136
+  "allergen_ingredient_review_count": 141
 }

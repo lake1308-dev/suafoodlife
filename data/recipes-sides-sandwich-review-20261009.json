@@ -1,0 +1,41 @@
+{
+  "checked_on": "2026-10-09",
+  "added_recipes": 5,
+  "items": [
+    {
+      "recipe_id": "paik_tCe6B6U8wHw",
+      "name": "단무지무침",
+      "source_url": "https://www.youtube.com/watch?v=tCe6B6U8wHw",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_Zkxiydlmplw",
+      "name": "오징어뭇국",
+      "source_url": "https://www.youtube.com/watch?v=Zkxiydlmplw",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_YXMxnHx7yZQ",
+      "name": "달걀샌드위치",
+      "source_url": "https://www.youtube.com/watch?v=YXMxnHx7yZQ",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_JrTVWvj8uhs",
+      "name": "들기름두부구이",
+      "source_url": "https://www.youtube.com/watch?v=JrTVWvj8uhs",
+      "status": "verified_added"
+    },
+    {
+      "recipe_id": "paik_X8VEvBHHOjQ",
+      "name": "몬테크리스토샌드위치",
+      "source_url": "https://www.youtube.com/watch?v=X8VEvBHHOjQ",
+      "status": "verified_added"
+    }
+  ],
+  "existing_recipe_name_review": {
+    "recipe_id": "paik_G2kylWhMw5s",
+    "display_name": "김치수제비",
+    "reason": "Official source includes kimchi; retain general 수제비 search tag, add 김치수제비; no duplicate added"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-08",
-  "recipe_count": 136,
+  "recipe_count": 141,
   "nutrition_reference_estimates": 18,
-  "nutrition_held": 118,
+  "nutrition_held": 123,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -701,9 +701,34 @@
       "recipe_id": "paik_lqCzPHUu-3E",
       "status": "held",
       "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_tCe6B6U8wHw",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_Zkxiydlmplw",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_YXMxnHx7yZQ",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_JrTVWvj8uhs",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+    },
+    {
+      "recipe_id": "paik_X8VEvBHHOjQ",
+      "status": "held",
+      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
     }
   ],
-  "allergen_ingredient_reviews": 136,
+  "allergen_ingredient_reviews": 141,
   "allergen_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -2113,6 +2138,62 @@
       "product_labels_pending": [
         "라면",
         "초고추장"
+      ]
+    },
+    {
+      "recipe_id": "paik_tCe6B6U8wHw",
+      "known_from_ingredients": [],
+      "product_labels_pending": [
+        "단무지"
+      ]
+    },
+    {
+      "recipe_id": "paik_Zkxiydlmplw",
+      "known_from_ingredients": [
+        "오징어"
+      ],
+      "product_labels_pending": [
+        "국간장",
+        "멸치액젓"
+      ]
+    },
+    {
+      "recipe_id": "paik_YXMxnHx7yZQ",
+      "known_from_ingredients": [
+        "알류",
+        "우유"
+      ],
+      "product_labels_pending": [
+        "식빵",
+        "슬라이스치즈",
+        "베이컨",
+        "마요소스",
+        "쓰리라차마요소스",
+        "마요네즈"
+      ]
+    },
+    {
+      "recipe_id": "paik_JrTVWvj8uhs",
+      "known_from_ingredients": [
+        "대두"
+      ],
+      "product_labels_pending": [
+        "진간장"
+      ]
+    },
+    {
+      "recipe_id": "paik_X8VEvBHHOjQ",
+      "known_from_ingredients": [
+        "알류",
+        "우유"
+      ],
+      "product_labels_pending": [
+        "맛소금",
+        "식빵",
+        "체다치즈슬라이스",
+        "딸기잼",
+        "슬라이스햄",
+        "식용유"
       ]
     }
   ],
