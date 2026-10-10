@@ -1,0 +1,22 @@
+const fs=require('fs'),assert=require('assert');
+const data=JSON.parse(fs.readFileSync('data/recipes-creator-20261008.json'));
+const audit=JSON.parse(fs.readFileSync('data/recipes-pasta-meat-review-20261011.json'));
+const byName=n=>data.recipes.find(r=>r.tags[0]===n);
+assert.equal(audit.video_reviews.length,39);assert.equal(audit.video_reviews.filter(v=>v.status==='added').length,29);assert.equal(audit.video_reviews.filter(v=>v.status==='duplicate').length,2);assert.equal(audit.video_reviews.filter(v=>v.status==='held').length,8);assert.equal(audit.items.length,42);
+assert.equal(audit.items.reduce((n,i)=>n+(data.recipes.find(r=>r.id===i.recipe_id).preparations?.length||0),0),12);
+for(const item of audit.items){const r=data.recipes.find(r=>r.id===item.recipe_id);assert(r);assert.equal(r.source.url,item.source_url);assert.equal(r.source.description_sha256,item.source_description_sha256);assert.equal(r.servings,item.servings);assert.equal(r.nutrition_status,'not_calculated');assert(!r.nutrition_reference);assert(!r.portion_lines);}
+assert(byName('감자탕겨자소스').ingredients_text.includes('황설탕: 비율 0.3'));assert.equal(byName('감자탕(뒷다리살)').servings,3);
+assert.equal(byName('돼지갈비찜').servings,null);assert(byName('돼지갈비찜').ingredients_text.includes('데침 용: 1.3L / 찜 용: 1.3L'));
+assert.equal(byName('소갈비찜(데침형)').servings,4);assert.equal(byName('소갈비찜(기본형)').servings,null);assert(byName('소갈비찜(기본형)').allergen_review.known_from_ingredients.includes('쇠고기'));
+assert(byName('버팔로윙').preparations[0].amount_hint.includes('2/3'));assert.deepEqual(byName('버팔로윙').allergen_review.known_from_ingredients,['닭고기','우유']);assert(byName('버팔로윙소스').allergen_review.known_from_ingredients.includes('우유'));
+assert.deepEqual(byName('떡갈비버거패티').allergen_review.known_from_ingredients,['쇠고기']);assert.equal(byName('떡갈비버거').servings,1);assert(byName('떡갈비버거').preparations[0].amount_hint.includes('150g'));
+assert.equal(byName('돼지마늘버거').servings,1);assert(byName('돼지마늘버거').preparations[0].amount_hint.includes('60g'));assert(byName('돼지마늘버거').preparations[1].amount_hint.includes('45g'));assert(byName('돼지마늘버거').allergen_review.known_from_ingredients.includes('돼지고기'));
+assert(byName('전복내장크림파스타').ingredients_text.includes('삶은스파게티면: 160g(삶기 전 80g)'));assert(byName('전복내장크림파스타').ingredients_text.includes('양 미표기'));assert(byName('전복내장크림파스타').allergen_review.known_from_ingredients.includes('조개류(전복)'));
+assert.equal(byName('명란크림파스타').servings,null);assert(byName('알리오올리오(마늘듬뿍)').portion_notice.includes('70ml'));
+assert(byName('중화제육면').allergen_review.known_from_ingredients.includes('돼지고기'));assert(!byName('돼지고기짬뽕라면').allergen_review.known_from_ingredients.includes('쇠고기'));
+assert(byName('찜닭').ingredients_text.includes('토막닭(12호): 1마리'));assert.equal(byName('찜닭').servings,null);assert(byName('찜닭').preparations[0].amount_hint.includes('전량'));
+assert(byName('함박스테이크').ingredients_text.includes('달걀: 2개(110g)'));assert(byName('함박스테이크').ingredients_text.includes('달걀(곁들임 용): 1개'));
+assert(byName('참치함박스테이크').preparations[0].amount_hint.includes('160g'));assert.equal(byName('떡갈비(두툼한 소고기형)').servings,null);assert(!byName('떡갈비(두툼한 소고기형)').ingredients_text.includes('약: 5개'));
+assert(byName('치즈등갈비').allergen_review.check_product_labels.includes('등갈비'));assert(!byName('치즈등갈비').allergen_review.check_product_labels.some(n=>n.startsWith('물')));assert(byName('LA갈비').allergen_review.check_product_labels.includes('LA갈비'));
+assert(byName('달걀볶음라면').portion_notice.includes('2/3봉지'));assert(audit.video_reviews.find(v=>v.video_id==='9J_tqZrDSng').reason.includes('omits'));
+console.log('PASS 42 new recipes from 29 sources: 12 preparation links, distinct methods, single-burger cooked weights, raw/cooked pasta, discarded blanching water and withheld bulk cooking gaps');

@@ -1,0 +1,705 @@
+{
+  "checked_on": "2026-10-11",
+  "search_topics": 40,
+  "unique_unregistered_video_candidates": 39,
+  "new_video_sources_added": 29,
+  "added_recipe_records": 42,
+  "previous_creator_records": 201,
+  "creator_records_after": 243,
+  "new_preparation_links": 12,
+  "scope": "Only the 39 distinct new candidate videos found in this round; not an exhaustive official-channel catalogue. Sauces and distinct methods count separately, not as unique foods.",
+  "video_reviews": [
+    {
+      "video_id": "UEfoOmupTG8",
+      "source_url": "https://www.youtube.com/watch?v=UEfoOmupTG8",
+      "title": "고급 레스토랑 따라잡기! 전복 내장 이렇게 드시면 정말 맛있어요~ 전복크림파스타",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "fpqJOFMfhmk",
+      "source_url": "https://www.youtube.com/watch?v=fpqJOFMfhmk",
+      "title": "명란대첩 │ 나에게는 아직 12개의 명란이 남아 있쥬~ 부럽쥬?",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "wM9hbmwCpdc",
+      "source_url": "https://www.youtube.com/watch?v=wM9hbmwCpdc",
+      "title": "뺏어 먹어도 무죄! 꾸덕꾸덕 크림 떡볶이~",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "ohihzV6Z85k",
+      "source_url": "https://www.youtube.com/watch?v=ohihzV6Z85k",
+      "title": "이탈리아 정통 말고 한국 스타일! K-알리오올리오",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "4QwUVgVoMSE",
+      "source_url": "https://www.youtube.com/watch?v=4QwUVgVoMSE",
+      "title": "🧄마늘은 많이 많이!🧄알리오올리오 떡볶이",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "jBdQ65yHB_U",
+      "source_url": "https://www.youtube.com/watch?v=jBdQ65yHB_U",
+      "title": "[Sub] 집에서 만든 새우감바스?? '감바스 알 아히요'",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "-KTb3zivHXk",
+      "source_url": "https://www.youtube.com/watch?v=-KTb3zivHXk",
+      "title": "드디어 들어간 마늘! 흑백요리사 때 그 맛이 아닙니다",
+      "status": "held",
+      "added_recipe_records": 0,
+      "reason": "Official description lacks a complete ingredient list and cooking procedure; no recipe copied from restaurant or promotion content."
+    },
+    {
+      "video_id": "nQaR6cwSmQk",
+      "source_url": "https://www.youtube.com/watch?v=nQaR6cwSmQk",
+      "title": "가지 하나로 만들어 먹는 가지구이덮밥! 5분이면 끝납니다.",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "qI1LRerUWXQ",
+      "source_url": "https://www.youtube.com/watch?v=qI1LRerUWXQ",
+      "title": "수박+오이 = 무슨 조합?",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "78AQ-ten9lE",
+      "source_url": "https://www.youtube.com/watch?v=78AQ-ten9lE",
+      "title": "라면이 요리가 되는 기적! 90초 만에 완성하는 마성의 면 요리",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "F5gdgqc5bgU",
+      "source_url": "https://www.youtube.com/watch?v=F5gdgqc5bgU",
+      "title": "짬뽕은 어떻게 만들까요? 불쇼와 함께 맛보는 짬뽕!",
+      "status": "held",
+      "added_recipe_records": 0,
+      "reason": "Official description lacks a complete ingredient list and cooking procedure; no recipe copied from restaurant or promotion content."
+    },
+    {
+      "video_id": "fEYJSPSGaLI",
+      "source_url": "https://www.youtube.com/watch?v=fEYJSPSGaLI",
+      "title": "중화제육면 1인분 만들기 ㅣ 백종원의 쿠킹로그",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "GpEiUb20IFo",
+      "source_url": "https://www.youtube.com/watch?v=GpEiUb20IFo",
+      "title": "떡갈비 버거, 일명 '붹붹버거'입니다! 햄버거는 한식이죠~~?? l 백종원의 쿠킹로그",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "F3C8-uEMixU",
+      "source_url": "https://www.youtube.com/watch?v=F3C8-uEMixU",
+      "title": "햄버거 패티가 바삭 바삭! 돼지마늘버거입니다. ㅣ 백종원의 쿠킹로그",
+      "status": "added",
+      "added_recipe_records": 3,
+      "reason": null
+    },
+    {
+      "video_id": "wyCV_de0CDY",
+      "source_url": "https://www.youtube.com/watch?v=wyCV_de0CDY",
+      "title": "두툼한 떡갈비 성공하는 TIP 대방출",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "GsnwEVsotdU",
+      "source_url": "https://www.youtube.com/watch?v=GsnwEVsotdU",
+      "title": "메리 크리스마스! '함박스테이크'로 우아한 크리스마스 보내세요~ l 백종원의 쿠킹로그",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "dxuntkET42M",
+      "source_url": "https://www.youtube.com/watch?v=dxuntkET42M",
+      "title": "'참치캔'으로 만드는 참치함박스테이크",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "2sUjx8PE_vg",
+      "source_url": "https://www.youtube.com/watch?v=2sUjx8PE_vg",
+      "title": "고기짬뽕라면 1인분 만들기 (feat.맛남의광장) ㅣ 백종원의 쿠킹로그",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "aH7EVawo5u8",
+      "source_url": "https://www.youtube.com/watch?v=aH7EVawo5u8",
+      "title": "부산 돼지국밥이 짬뽕이 됐습니다｜내꺼내먹2 EP.1",
+      "status": "held",
+      "added_recipe_records": 0,
+      "reason": "Official description lacks a complete ingredient list and cooking procedure; no recipe copied from restaurant or promotion content."
+    },
+    {
+      "video_id": "rpUq8w1MKZg",
+      "source_url": "https://www.youtube.com/watch?v=rpUq8w1MKZg",
+      "title": "짬뽕에 소시지를 이렇게 많이 넣어도 되는 겁니까?🔥",
+      "status": "held",
+      "added_recipe_records": 0,
+      "reason": "Official description lacks a complete ingredient list and cooking procedure; no recipe copied from restaurant or promotion content."
+    },
+    {
+      "video_id": "DNj3YiaP42s",
+      "source_url": "https://www.youtube.com/watch?v=DNj3YiaP42s",
+      "title": "잡채, 다음날 먹어도 쫄깃하게 만드는 법! 핵심은 색깔과 '이것'입니다",
+      "status": "duplicate",
+      "added_recipe_records": 0,
+      "reason": "Core ingredients and stir-fry/mix method substantially overlap existing japchae; no extra recipe count for a minor seasoning variation."
+    },
+    {
+      "video_id": "9J_tqZrDSng",
+      "source_url": "https://www.youtube.com/watch?v=9J_tqZrDSng",
+      "title": "팔아도 될 만큼 맛있는 김치찌개 비법전수! 돼지고기, 햄, 꽁치 등 기본 양념장으로 다 만들 수 있어요! l 백종원의 대용량 레시피",
+      "status": "held",
+      "added_recipe_records": 0,
+      "reason": "Bulk base ingredients include soup soy sauce and salt, but the written base procedure omits adding them. Dependent stew sections held rather than inventing the missing base process."
+    },
+    {
+      "video_id": "RVfSeUZ8XkY",
+      "source_url": "https://www.youtube.com/watch?v=RVfSeUZ8XkY",
+      "title": "김치로 만들 수 있는 최고의 메뉴! 밥은 두 그릇부터 시작입니다",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "qWbHSOplcvY",
+      "source_url": "https://www.youtube.com/watch?v=qWbHSOplcvY",
+      "title": "해외여행 가면 생각나는 한국 음식 TOP 1 김치찌개",
+      "status": "duplicate",
+      "added_recipe_records": 0,
+      "reason": "Substantially overlaps the registered basic pork kimchi stew method; no duplicate record added."
+    },
+    {
+      "video_id": "hvbh9EnL6Ww",
+      "source_url": "https://www.youtube.com/watch?v=hvbh9EnL6Ww",
+      "title": "[님아 그 시장을 가오_천안] “지금까지 먹은 김치찜은 잊으세요” 김치찜이라 불리길 거부한 천안의 미친 맛",
+      "status": "held",
+      "added_recipe_records": 0,
+      "reason": "Official description lacks a complete ingredient list and cooking procedure; no recipe copied from restaurant or promotion content."
+    },
+    {
+      "video_id": "kfGi3rTct8c",
+      "source_url": "https://www.youtube.com/watch?v=kfGi3rTct8c",
+      "title": "1인분 배달 힘들 때, 집에서 뚝딱 만들어 먹는 인생 찜닭",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "eeiqjyYgPew",
+      "source_url": "https://www.youtube.com/watch?v=eeiqjyYgPew",
+      "title": "한국은 치킨만 유명한 게 아닙니다! 한국 닭요리GOAT! 닭볶음탕",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "6hLnQ5c03L8",
+      "source_url": "https://www.youtube.com/watch?v=6hLnQ5c03L8",
+      "title": "감자탕! 돼지등뼈 없이도 가능해요 (feat. 찍어먹는 겨자 소스 만들기)",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "PjMWHZ3ubsQ",
+      "source_url": "https://www.youtube.com/watch?v=PjMWHZ3ubsQ",
+      "title": "'갈비찜' 의외로 무지하게 쉽습니다. 이번 추석엔 푸짐한 소갈비찜 요리로 점수 따세요! ㅣ 백종원의 백종원 레시피",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "v32NjYn5pSc",
+      "source_url": "https://www.youtube.com/watch?v=v32NjYn5pSc",
+      "title": "갈비찜 핏물, 그냥 빼지 마세요! 소고기 잡내 잡는 비법 공개",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "WT9tCViPddU",
+      "source_url": "https://www.youtube.com/watch?v=WT9tCViPddU",
+      "title": "소갈비찜 부럽지 않다! 비주얼까지 완벽한 돼지갈비찜",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "o3aLEbn2n5Y",
+      "source_url": "https://www.youtube.com/watch?v=o3aLEbn2n5Y",
+      "title": "치즈가 내린다 샤라랄라~♪ 혼자 먹기 너~무 아까운 치즈등갈비",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "pRwZAmoR7dE",
+      "source_url": "https://www.youtube.com/watch?v=pRwZAmoR7dE",
+      "title": "[백종원 시장이 되다_예산 5화] 닭 볶다가 눈물과 땀을 동시에 흘린 사연은..?💧",
+      "status": "held",
+      "added_recipe_records": 0,
+      "reason": "Official description lacks a complete ingredient list and cooking procedure; no recipe copied from restaurant or promotion content."
+    },
+    {
+      "video_id": "OgMi1KTPzJY",
+      "source_url": "https://www.youtube.com/watch?v=OgMi1KTPzJY",
+      "title": "'크리스피'하게 구워내고 '특급소스'와 함께 하는 '치킨 스테이크'. 사랑하는 가족과 함께하세요. ㅣ 백종원의 쿠킹로그",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "37-BCf85bHk",
+      "source_url": "https://www.youtube.com/watch?v=37-BCf85bHk",
+      "title": "설날 준비 LA갈비! ㅣ 백종원의 쿠킹로그",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "LojVJnvLb30",
+      "source_url": "https://www.youtube.com/watch?v=LojVJnvLb30",
+      "title": "왜 멀리 미국까지 가요? 집에서 이렇게 버팔로 윙 해 먹으면 되는데~",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "t8-BXQPVaRQ",
+      "source_url": "https://www.youtube.com/watch?v=t8-BXQPVaRQ",
+      "title": "[배고파_방콕] 방콕 사람들이 450년 동안 숨겨온 방콕식 샤부샤부",
+      "status": "held",
+      "added_recipe_records": 0,
+      "reason": "Official description lacks a complete ingredient list and cooking procedure; no recipe copied from restaurant or promotion content."
+    },
+    {
+      "video_id": "7cCAlN06WPc",
+      "source_url": "https://www.youtube.com/watch?v=7cCAlN06WPc",
+      "title": "이번 크리스마스엔 집에서 간단히 즐기는 찹! 스테이크",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "037o6vxm0es",
+      "source_url": "https://www.youtube.com/watch?v=037o6vxm0es",
+      "title": "경양식 돈가스를 만드는 두 가지 방법 (+버터 없이 돈가스소스 만들기!)",
+      "status": "added",
+      "added_recipe_records": 3,
+      "reason": null
+    }
+  ],
+  "items": [
+    {
+      "recipe_id": "paik_2sUjx8PE_vg",
+      "name": "돼지고기짬뽕라면",
+      "source_url": "https://www.youtube.com/watch?v=2sUjx8PE_vg",
+      "status": "verified_added",
+      "ingredient_excerpt": "돼지고기(후지) 1컵(150g)\n대파 2/3컵(50g)\n양파 1/2컵(40g)\n양배추 1/2컵(40g)\n당근 1/3컵(20g)\n애호박 1/2컵(60g)\n라면 1개\n달걀 1개(50g)\n고운고춧가루 1큰술(5g)\n굵은고춧가루 1큰술(5g)\n소고기다시다 1/2큰술(5g)\n꽃소금 1/5큰술(2g)\n진간장 1큰술(10g)\n식용유 2큰술(15g)\n물 600ml\n후춧가루 적당량",
+      "servings": 1,
+      "source_description_sha256": "989d0663b3142ed67f200d82a4cf1acbc21e04894e69a81c5aa1cca8c345708e"
+    },
+    {
+      "recipe_id": "paik_4QwUVgVoMSE",
+      "name": "알리오올리오떡볶이",
+      "source_url": "https://www.youtube.com/watch?v=4QwUVgVoMSE",
+      "status": "verified_added",
+      "ingredient_excerpt": "밀떡볶이떡 1과 1/2컵(180g)\n올리브유 1/4컵(40g)\n통마늘 10개(50g)\n건새우 1/2컵(15g)\n황설탕 1/2큰술(6g)\n꽃소금 약간(1g)\n대파 1/4대(25g)",
+      "servings": null,
+      "source_description_sha256": "e3f9f2676987c7c1d9ab6f9ba4e843f8b2c9acab64c51379eee375c31334e429"
+    },
+    {
+      "recipe_id": "paik_6hLnQ5c03L8_mustard",
+      "name": "감자탕겨자소스",
+      "source_url": "https://www.youtube.com/watch?v=6hLnQ5c03L8",
+      "status": "verified_added",
+      "ingredient_excerpt": "진간장 : 물 : 식초 : 황설탕 = 1 : 1 : 0.3 : 0.3\n연겨자 개인 취향에 맞게",
+      "servings": null,
+      "source_description_sha256": "99f37530a9c2173cecc86df4b8e540c8851ba8062b6cb9ab6cf8f55b0f2c353a"
+    },
+    {
+      "recipe_id": "paik_6hLnQ5c03L8",
+      "name": "감자탕(뒷다리살)",
+      "source_url": "https://www.youtube.com/watch?v=6hLnQ5c03L8",
+      "status": "verified_added",
+      "ingredient_excerpt": "*양념장\n된장 4와 1/2큰술(60g)\n고추장 1큰술(20g)\n굵은 고춧가루 3큰술(24g)\n간마늘 2와 1/2큰술(50g)\n소고기다시다 1큰술(10g)\nMSG 약 1/2큰술(5g)\n\n*감자탕\n물 약 17컵(3L)\n돼지고기 뒷다리살 600g \n감자 2개(360g)\n대파 3개(300g)\n양파 1/2개(125g)\n깻잎 20장(40g)\n들깻가루 약 4큰술(30g)\n청양고추 3개(30g)\n후춧가루 약간\n\n",
+      "servings": 3,
+      "source_description_sha256": "99f37530a9c2173cecc86df4b8e540c8851ba8062b6cb9ab6cf8f55b0f2c353a"
+    },
+    {
+      "recipe_id": "paik_7cCAlN06WPc_basic",
+      "name": "찹스테이크(기본형)",
+      "source_url": "https://www.youtube.com/watch?v=7cCAlN06WPc",
+      "status": "verified_added",
+      "ingredient_excerpt": "\n\n안심 300g\n양파 1/2개(175g)\n파프리카 1개(140g)\n피망 1/2개(70g)\n양송이 버섯 3개(60g)\n식용유 1/4컵(40g)\n당근 약간(약30g)\n스틱버터 1/4개(20g)\n통마늘 3개(15g)\n밀가루 1큰술(10g)\n맛소금 약간\n후춧가루 약간 \n파슬리 가루 약간\n\n* 소스\n\n물 1/2컵(90ml)\n케첩 3큰술(60g)\n황설탕 1과1/2큰술(18g)\n우스터 2큰술(12g)\n식초 1큰술(8g)\n후춧가루 약간 \n",
+      "servings": null,
+      "source_description_sha256": "14b6a766ab788440949bc4fcd9b43cb8b97ec9d9dd897fdaf61255a3e6407112"
+    },
+    {
+      "recipe_id": "paik_7cCAlN06WPc_sauce",
+      "name": "찹스테이크(스테이크소스형)",
+      "source_url": "https://www.youtube.com/watch?v=7cCAlN06WPc",
+      "status": "verified_added",
+      "ingredient_excerpt": "\n\n안심 300g\n양파 1/2개(175g)\n파프리카 1개(140g)\n피망 1/2개(70g)\n양송이 버섯 3개(60g)\n식용유 1/4컵(40g)\n당근 약간(약30g)\n스틱버터 1/4개(20g) \n통마늘 3개(15g)\n밀가루 1큰술(10g)\n맛소금 약간\n후춧가루 약간 \n파슬리 가루 약간\n\n* 소스\n\n물 1/2컵(90ml)\n케첩 3큰술(60g)\n황설탕 1과1/2큰술(18g)\n우스터 2큰술(12g)\n스테이크 소스 2큰술(12g)\n식초 1큰술(8g)\n후춧가루 약간",
+      "servings": null,
+      "source_description_sha256": "14b6a766ab788440949bc4fcd9b43cb8b97ec9d9dd897fdaf61255a3e6407112"
+    },
+    {
+      "recipe_id": "paik_LojVJnvLb30_sauce",
+      "name": "버팔로윙소스",
+      "source_url": "https://www.youtube.com/watch?v=LojVJnvLb30",
+      "status": "verified_added",
+      "ingredient_excerpt": "사과식초 약1/3컵(58g)\n타바스코 약1/2컵(70g)\n맛소금 약1/4큰술(3.5g)\n고운고추가루 1과1/2큰술(9g)\n버터 1조각(8g)",
+      "servings": null,
+      "source_description_sha256": "7cdc0dd3f8ab542da1d9d22e6a09da3039da6d2195165bf68e93b439cf0ccb6d"
+    },
+    {
+      "recipe_id": "paik_LojVJnvLb30",
+      "name": "버팔로윙",
+      "source_url": "https://www.youtube.com/watch?v=LojVJnvLb30",
+      "status": "verified_added",
+      "ingredient_excerpt": "닭봉 10개(약380g)\n닭날개 10개(약250g)\n버팔로윙소스 전량\n식용유 약간",
+      "servings": null,
+      "source_description_sha256": "7cdc0dd3f8ab542da1d9d22e6a09da3039da6d2195165bf68e93b439cf0ccb6d"
+    },
+    {
+      "recipe_id": "paik_OgMi1KTPzJY",
+      "name": "치킨스테이크",
+      "source_url": "https://www.youtube.com/watch?v=OgMi1KTPzJY",
+      "status": "verified_added",
+      "ingredient_excerpt": "*스테이크 재료\n\n닭 다리살 400g\n소금 2g\n후추 2g\n마늘 11개(120g)\n감자 1개(150g)\n양파 1개(130g)\n버터 1.5큰술(25g)\n  \n*스테이크소스 재료\n\n버터 1큰술(10g)\n간 마늘 1/2큰술(10g)\n간장 1/4컵(40g)\n식초 3큰술(20g)\n설탕 1/2컵(45g)\n물 1/2컵(90g)\n후추 약간",
+      "servings": null,
+      "source_description_sha256": "0f652d32cfbb2e3e160c8e1aaab53b9a416b77849241e4d5045fd335d32f2cff"
+    },
+    {
+      "recipe_id": "paik_RVfSeUZ8XkY",
+      "name": "돼지고기김치찜",
+      "source_url": "https://www.youtube.com/watch?v=RVfSeUZ8XkY",
+      "status": "verified_added",
+      "ingredient_excerpt": "돼지고기전지 1kg\n신김치 1.3kg\n양파 1/2개(100g)\n대파 1컵(80g)\n청양고추 3개(20g)\n황설탕 3큰술(30g)\n국간장 2큰술(20g)\n된장 1큰술(15g)\n간마늘 1큰술(15g)\n굵은고춧가루 2큰술(10g)\n물 6컵(1.2L)\n식초: 기호에 맞게 (조리 과정에만 기재)",
+      "servings": null,
+      "source_description_sha256": "36e4ef370472bc35436c4aef0fa4fbb466ea2634e468812b6ad070daae3602b7"
+    },
+    {
+      "recipe_id": "paik_WT9tCViPddU",
+      "name": "돼지갈비찜",
+      "source_url": "https://www.youtube.com/watch?v=WT9tCViPddU",
+      "status": "verified_added",
+      "ingredient_excerpt": "정수물 2.6L(데침 용: 1.3L / 찜 용: 1.3L )\n돼지갈비 1kg\n양파 약1개 (200g)\n대파 약1대 (100g)\n무 약간(100g)\n당근 약1/4개 (65g)\n청양고추 3개 (30g)\n진간장 약1/2컵 (80g)\n황설탕 약1/3컵 (50g)\n맛술  약1/4컵 (50g)\n간마늘 약2큰술 (30g)\n참기름 2큰술 (14g)\n간생강 1/4큰술 (5g)\n카라멜 약간 (2g)\n후추가루 약간",
+      "servings": null,
+      "source_description_sha256": "e3e9be9fbb5ce70d5d62bb2fc927370415e6409447bcd2a9c712b3ffeb885177"
+    },
+    {
+      "recipe_id": "paik_nQaR6cwSmQk",
+      "name": "가지구이덮밥",
+      "source_url": "https://www.youtube.com/watch?v=nQaR6cwSmQk",
+      "status": "verified_added",
+      "ingredient_excerpt": "*양념재료\n정수물 3큰술(21g)\n재래식된장 약1과1/2큰술(27g)\n진간장 ½큰술(5g)\n맛술 1큰술(10g)\n황설탕 약1큰술(10g)\n대파 1/5대(20g)\n청양고추 1개(10g)\n\n*덮밥재료\n밥 1공기(200g)\n가지 1개 (130g)\n식용유 약3큰술(25g)\n통깨 약간(1g)\n후추가루 약간\n양념장 전량",
+      "servings": 1,
+      "source_description_sha256": "dce1577514ce71865ba1021a4aa7a0b2eba15b7a00bb0a3f54a6525840fc7466"
+    },
+    {
+      "recipe_id": "paik_UEfoOmupTG8",
+      "name": "전복내장크림파스타",
+      "source_url": "https://www.youtube.com/watch?v=UEfoOmupTG8",
+      "status": "verified_added",
+      "ingredient_excerpt": "*전복 손질\n전복 4마리(15미)\n물 1L\n\n*전복내장크림소스\n전복내장 전량\n우유 1팩(200ml)\n양파 1/2개(125g)\n통마늘 5개(약30g)\n식용유 3큰술(21g)\n맛소금 약간\n\n*전복내장크림파스타\n삶은스파게티면 160g(삶기 전 80g)\n버터 약 2큰술(20g)\n파마산치즈가루 1과 1/4큰술(10g)\n손질 전복살 전량\n전복 내장 크림소스 전량\n쪽파 1줄(약10g)\n식용유(전복살 볶음용): 양 미표기 (조리 과정에만 기재)",
+      "servings": null,
+      "source_description_sha256": "1dc91398995af1596eb52e7dc7c861bd3563015b46b4367ef9c28fd274fb1d61"
+    },
+    {
+      "recipe_id": "paik_ohihzV6Z85k",
+      "name": "알리오올리오(마늘듬뿍)",
+      "source_url": "https://www.youtube.com/watch?v=ohihzV6Z85k",
+      "status": "verified_added",
+      "ingredient_excerpt": "* 면 삶기\n정수물 약6컵(1L)\n파스타면 100g\n꽃소금 1/3큰술(4g)\n\n* 알리오올리오\n면수 약1/3컵(70ml)\n올리브유 약1/3컵(55g)\n간 마늘 2큰술(40g)\n통마늘 약 4개(21g)\n쪽파 약간(4g)\n페퍼론치노 5개(2g)\n삶은 파스타면 전량\n꽃소금 약간\n파마산치즈가루 약간",
+      "servings": 1,
+      "source_description_sha256": "692c21029e9675aff52da102bf03a6db13881f3923c596abd19d29cb5e844e7c"
+    },
+    {
+      "recipe_id": "paik_qI1LRerUWXQ",
+      "name": "수박오이냉국",
+      "source_url": "https://www.youtube.com/watch?v=qI1LRerUWXQ",
+      "status": "verified_added",
+      "ingredient_excerpt": "수박(속 부분) 1/8통 400g\n오이 약 1/2개(100g)\n정수 물 2와1/2컵(450ml)\n황설탕 4와1/2큰술(54g)\n환만식초 4와1/2큰술(36g)\n진간장 1과1/2큰술(15g)\n꽃소금 약간\n얼음 적당량",
+      "servings": null,
+      "source_description_sha256": "ebee0026b39a08b4a6e3971ac0e06a904c9eb6a08f9d21795043436a7fe57776"
+    },
+    {
+      "recipe_id": "paik_jBdQ65yHB_U",
+      "name": "감바스알아히요",
+      "source_url": "https://www.youtube.com/watch?v=jBdQ65yHB_U",
+      "status": "verified_added",
+      "ingredient_excerpt": "칵테일새우 大 사이즈(26/30) 10마리(100g)\n통마늘 15개(75g)\n양송이버섯 4개(80g)\n방울토마토 6개(60g)\n베트남 고추 5개(2g)\n올리브유 1컵(180ml)\n맛소금 약 1/5큰술(3g)\n후춧가루 약간\n파슬리가루 약간\n바게트 or 식빵 적당량",
+      "servings": null,
+      "source_description_sha256": "b385d271dbb439966c0bc6017288602742350684e94710292d4202d353757a0a"
+    },
+    {
+      "recipe_id": "paik_fEYJSPSGaLI_sauce",
+      "name": "중화제육소스",
+      "source_url": "https://www.youtube.com/watch?v=fEYJSPSGaLI",
+      "status": "verified_added",
+      "ingredient_excerpt": "식용유 5큰술(35g)\n간돼지고기(후지) 1컵(150g)\n대파 1/2컵(40g)\n간마늘 1큰술(15g)\n진간장 1큰술(10g)\n황설탕 1과1/2큰술(15g)\n굵은고춧가루 1큰술(5g)\n고운고춧가루 1큰술(5g)\n된장 1큰술(15g)\n고추장 4큰술(60g)\n꽃소금 1/4큰술(2g)\nMSG 1/3큰술(3g)\n후춧가루 적당량\n물 2컵(360g)",
+      "servings": null,
+      "source_description_sha256": "821d5602efcc818431aaa99fe868c6fd0b2d10c5d7a8abb5891dca0c9f385f42"
+    },
+    {
+      "recipe_id": "paik_fEYJSPSGaLI",
+      "name": "중화제육면",
+      "source_url": "https://www.youtube.com/watch?v=fEYJSPSGaLI",
+      "status": "verified_added",
+      "ingredient_excerpt": "식용유 2큰술(20g)\n대파 1/3컵(30g)\n양파 1/3컵(40g)\n양배추 2/3컵(60g)\n애호박 2/3컵(60g)\n칼국수면 150g\n중화제육소스: 사용량 미표기 (조리 과정에 기재)",
+      "servings": 1,
+      "source_description_sha256": "821d5602efcc818431aaa99fe868c6fd0b2d10c5d7a8abb5891dca0c9f385f42"
+    },
+    {
+      "recipe_id": "paik_fpqJOFMfhmk",
+      "name": "명란크림파스타",
+      "source_url": "https://www.youtube.com/watch?v=fpqJOFMfhmk",
+      "status": "verified_added",
+      "ingredient_excerpt": "*면 삶기\n정수물 약5와1/2컵(1L)\n스파게티면 100g\n올리브오일 약2큰술(12g)\n맛소금 약간(2g)\n\n*명란크림파스타\n생크림 1컵(180g)\n명란젓 약2개(64g)\n양파 약1/4개(60g)\n통마늘 4개(20g)\n식용유 2큰술(14g)\n맛소금 약간\n명란젓(고명용) 약간\n파르메산치즈가루 약간\n쪽파 약간\n통후추가루 약간",
+      "servings": null,
+      "source_description_sha256": "0b3a26790ba0ac62ee372085313efe6a249512526f470a26355e4fa3af4e667a"
+    },
+    {
+      "recipe_id": "paik_kfGi3rTct8c_sauce",
+      "name": "찜닭소스",
+      "source_url": "https://www.youtube.com/watch?v=kfGi3rTct8c",
+      "status": "verified_added",
+      "ingredient_excerpt": "진간장 2/3컵(140g)  \n맛술 1/2컵(90g)\n황설탕 1/2컵(80g)\n물 1컵(180g)\n간생강 1/3큰술 (5g)\n간마늘 2큰술(30g)\n대파 1컵(80g)\n참기름 3큰술(20g)",
+      "servings": null,
+      "source_description_sha256": "ec542a758e17b82b1b8508c7b1beb24cc9627cc5dcb10f88b0fe4413cab53bc3"
+    },
+    {
+      "recipe_id": "paik_kfGi3rTct8c",
+      "name": "찜닭",
+      "source_url": "https://www.youtube.com/watch?v=kfGi3rTct8c",
+      "status": "verified_added",
+      "ingredient_excerpt": "토막닭(12호) 1마리\n물: 1컵 (180g)\n캬라멜 1/2큰술(5g)\n떡볶이떡 1컵(150g)\n감자 1/2개(200g)\n당근 1/2개(100g)\n고구마 1개(180g)\n대파 1/2컵(40g)\n새송이버섯 1개(60g)\n표고버섯 2개(30g)\n청양고추 3개(20g)\n홍고추 2개(15g)\n건홍고추 3개(8g)\n당면 100g\n찜닭소스 전량",
+      "servings": null,
+      "source_description_sha256": "ec542a758e17b82b1b8508c7b1beb24cc9627cc5dcb10f88b0fe4413cab53bc3"
+    },
+    {
+      "recipe_id": "paik_o3aLEbn2n5Y",
+      "name": "치즈등갈비",
+      "source_url": "https://www.youtube.com/watch?v=o3aLEbn2n5Y",
+      "status": "verified_added",
+      "ingredient_excerpt": "물(등갈비 초벌용) 8컵(약 1.4L)\n물(조림용) 6컵(약 1L)\n등갈비 약 15개(900g)\n모짜렐라 치즈 2봉지(200g)\n양파 1/2개(125g)\n떡볶이떡 약 2/3컵(100g)\n물엿 약 1/3컵(70g)\n맛술 1/3컵(60g)\n진간장 약 1/3컵(54g)\n대파 1/2대(50g)\n황설탕 약 2큰술(20g)\n간 마늘 1큰술(20g)\n고운 고춧가루 3큰술(18g)\n후춧가루 약간",
+      "servings": null,
+      "source_description_sha256": "7e0fd7f64d803b0d25f301462eecc8ea233eb9eb29c7f9dd4383f0dfa1db8559"
+    },
+    {
+      "recipe_id": "paik_eeiqjyYgPew",
+      "name": "닭볶음탕(데침형)",
+      "source_url": "https://www.youtube.com/watch?v=eeiqjyYgPew",
+      "status": "verified_added",
+      "ingredient_excerpt": "토막 닭고기 1마리(10호) \n물 3컵(540ml)\n대파 2대(200g)\n청양고추 3개(30g)\n홍고추 2개(20g)\n새송이버섯 2개(120g)\n표고버섯 2개(40g)\n당근 1/3개(90g)\n양파 1개(250g)\n감자 2개(400g)\n간 마늘 1큰술(15g)\n굵은 고춧가루 1/2컵(40g)\n고운 고춧가루 1큰술(6g)\n진간장 4/5컵(144ml)\n황설탕 3큰술(36g)\n후춧가루 약간",
+      "servings": null,
+      "source_description_sha256": "a11421ed215e370c481a8d2dff183c76e78fca26cb71515312c29680a1b3f21f"
+    },
+    {
+      "recipe_id": "paik_037o6vxm0es_sauce",
+      "name": "경양식돈가스소스",
+      "source_url": "https://www.youtube.com/watch?v=037o6vxm0es",
+      "status": "verified_added",
+      "ingredient_excerpt": "물 1과 2/3컵(300g)\n식용유 6큰술(42g)\n케첩 약 1/4컵(50g)\n황설탕 3큰술(36g)\n진간장 3큰술(30g)\n밀가루 2큰술(20g)\n식초 약 1과1/2큰술(14g)\n소고기 다시다 약간\nMSG 약간\n후춧가루 약간",
+      "servings": null,
+      "source_description_sha256": "0a888ed46b2f117c0712fddea2c0b758cf07613b60c3b2a06065c9a8a088b7eb"
+    },
+    {
+      "recipe_id": "paik_037o6vxm0es_egg",
+      "name": "경양식돈가스(달걀옷)",
+      "source_url": "https://www.youtube.com/watch?v=037o6vxm0es",
+      "status": "verified_added",
+      "ingredient_excerpt": "돼지고기 등심(2cm 두께) 1장(120g)\n꽃소금 약간\n후춧가루 약간\n밀가루 적당량\n달걀 2개\n빵가루 적당량\n튀김용 식용유 적당량",
+      "servings": null,
+      "source_description_sha256": "0a888ed46b2f117c0712fddea2c0b758cf07613b60c3b2a06065c9a8a088b7eb"
+    },
+    {
+      "recipe_id": "paik_037o6vxm0es_batter",
+      "name": "경양식돈가스(물반죽)",
+      "source_url": "https://www.youtube.com/watch?v=037o6vxm0es",
+      "status": "verified_added",
+      "ingredient_excerpt": "돼지고기 등심(2cm 두께) 1장(120g)\n꽃소금 약간\n후춧가루 약간\n튀김가루 1/2컵(50g)\n물 1/3컵(60g)\n달걀 1개\n빵가루 적당량\n튀김용 식용유 적당량",
+      "servings": null,
+      "source_description_sha256": "0a888ed46b2f117c0712fddea2c0b758cf07613b60c3b2a06065c9a8a088b7eb"
+    },
+    {
+      "recipe_id": "paik_37-BCf85bHk",
+      "name": "LA갈비",
+      "source_url": "https://www.youtube.com/watch?v=37-BCf85bHk",
+      "status": "verified_added",
+      "ingredient_excerpt": "LA갈비 1kg\n진간장 1컵(200g)\n황설탕 1/2컵(80g)\n맛술 1/2컵(100g)\n간마늘 1/4컵(40g)\n간생강 1/2큰술(8g)\n대파 1컵(80g)\n참기름 2큰술(15g)\n정수물 3컵(540g)\n후춧가루 적당량",
+      "servings": null,
+      "source_description_sha256": "4adf6c947a478cb8645e945ac7bbad46b965ead0980df122effc72c641029898"
+    },
+    {
+      "recipe_id": "paik_F3C8-uEMixU_pork",
+      "name": "돼지마늘버거고기튀김",
+      "source_url": "https://www.youtube.com/watch?v=F3C8-uEMixU",
+      "status": "verified_added",
+      "ingredient_excerpt": "돼지고기(후지) 100g\n튀김가루 1컵(110g)\n물 2/3컵(120g)\n맛소금 적당량\n후춧가루 적당량\n식용유(튀김용): 양 미표기 (조리 과정에만 기재)",
+      "servings": null,
+      "source_description_sha256": "68b73ea4f285bafae3fe7b01f247f976ba3bcdf5d55ba9d58ea116d0cb861c42"
+    },
+    {
+      "recipe_id": "paik_F3C8-uEMixU_sauce",
+      "name": "돼지마늘버거마늘소스",
+      "source_url": "https://www.youtube.com/watch?v=F3C8-uEMixU",
+      "status": "verified_added",
+      "ingredient_excerpt": "마요네즈 3/4컵(120g)\n식초 2큰술(20g)\n황설탕 3큰술(30g)\n깐마늘 1/4컵(30g)\n후춧가루 적당량",
+      "servings": null,
+      "source_description_sha256": "68b73ea4f285bafae3fe7b01f247f976ba3bcdf5d55ba9d58ea116d0cb861c42"
+    },
+    {
+      "recipe_id": "paik_F3C8-uEMixU",
+      "name": "돼지마늘버거",
+      "source_url": "https://www.youtube.com/watch?v=F3C8-uEMixU",
+      "status": "verified_added",
+      "ingredient_excerpt": "햄버거빵 1개\n고기튀김(돼지고기): 2장(60g)\n마늘소스 3큰술(45g)\n토마토 적당량\n양상추 적당량\n양파 적당량",
+      "servings": 1,
+      "source_description_sha256": "68b73ea4f285bafae3fe7b01f247f976ba3bcdf5d55ba9d58ea116d0cb861c42"
+    },
+    {
+      "recipe_id": "paik_GpEiUb20IFo_patty",
+      "name": "떡갈비버거패티",
+      "source_url": "https://www.youtube.com/watch?v=GpEiUb20IFo",
+      "status": "verified_added",
+      "ingredient_excerpt": "양지다짐육 1과1/2컵(250g)\n목심다짐육 1과1/2컵(250g)\n진간장 4큰술(40g)\n황설탕 5큰술(50g)\n감자전분 2큰술(20g)\n간마늘 2큰술(30g)\n후추 1/2큰술(2g)\n참기름 3큰술(30g)\n식용유 적당량",
+      "servings": null,
+      "source_description_sha256": "5ed83301563a3996507b6e497aec76474fa6339159c7bc93fcb02dd81073f0b0"
+    },
+    {
+      "recipe_id": "paik_GpEiUb20IFo",
+      "name": "떡갈비버거",
+      "source_url": "https://www.youtube.com/watch?v=GpEiUb20IFo",
+      "status": "verified_added",
+      "ingredient_excerpt": "햄버거빵 1개\n상추 3장\n양파 1/6개(30g)\n체다슬라이스치즈 1장\n떡갈비패티(쇠고기): 3개(150g)\n스틱버터 1/8개(10g)\n케첩 적당량\n마요네즈 적당량",
+      "servings": 1,
+      "source_description_sha256": "5ed83301563a3996507b6e497aec76474fa6339159c7bc93fcb02dd81073f0b0"
+    },
+    {
+      "recipe_id": "paik_GsnwEVsotdU_sauce",
+      "name": "함박스테이크소스",
+      "source_url": "https://www.youtube.com/watch?v=GsnwEVsotdU",
+      "status": "verified_added",
+      "ingredient_excerpt": "새송이버섯 1개(60g)\n양파 1개(100g)\n스틱버터 1/2개(40g)\n진간장 2큰술(20g)\n황설탕 4큰술(40g)\n케첩 4큰술(80g)\n물 2/3컵(120g)\n후추 적당량\n\n",
+      "servings": null,
+      "source_description_sha256": "6b61a262f04aa34470ab788dfb0459f12be871cd888e22bd6484695294f1afbf"
+    },
+    {
+      "recipe_id": "paik_GsnwEVsotdU",
+      "name": "함박스테이크",
+      "source_url": "https://www.youtube.com/watch?v=GsnwEVsotdU",
+      "status": "verified_added",
+      "ingredient_excerpt": "[ 양파볶음 ]\n\n양파 2컵(200g)\n간마늘 1큰술(15g)\n꽃소금 1/2큰술(5g)\n스틱버터 1/2개(40g)\n식용유 2큰술(15g)\n\n[ 스테이크 ]\n\n간소고기 1과1/2컵(250g)\n간돼지고기 2컵(350g)\n달걀 2개(110g)\n달걀(곁들임 용) 1개\n양파볶음 전량\n빵가루 2컵(100g)\n우스터소스 4큰술(40g)\n케첩 1과1/2큰술(25g)\n모짜렐라치즈 2큰술(30g)\n물 2/3컵(120g)\n밥 적당량\n파슬리가루 적당량\n식용유 적당량\n\n",
+      "servings": null,
+      "source_description_sha256": "6b61a262f04aa34470ab788dfb0459f12be871cd888e22bd6484695294f1afbf"
+    },
+    {
+      "recipe_id": "paik_PjMWHZ3ubsQ",
+      "name": "소갈비찜(기본형)",
+      "source_url": "https://www.youtube.com/watch?v=PjMWHZ3ubsQ",
+      "status": "verified_added",
+      "ingredient_excerpt": "- 갈비양념 -\n\n진간장 1과1/3컵 (260g)\n황설탕 2/3컵 (100g)\n맛술 2/3컵 (120g)\n물 1과1/3컵 (240g) \n간 마늘 1/4컵 (40g)\n간 생강 2/3큰술 (10g)\n대파 2/3컵 (50g)\n참기름 4큰술 (30g)\n후추 1g\n\n- 갈비찜재료 -\n\n소갈비: 2kg (공식 원본 요리명으로 확인)\n대파 3대 (160g)\n새송이버섯 2개 (50g)\n양파 2개 (370g)\n청양고추 3개 (20g)\n꽈리고추 5개 (20g)\n홍고추 2개 (20g)\n당근 1개 (230g)\n무우 1/3개 (360g)\n표고버섯 2개 (50g)\n물 1L",
+      "servings": null,
+      "source_description_sha256": "c486100ef488dffd0201f4bcc7226a2f1a9267d52d0761380576955946685550"
+    },
+    {
+      "recipe_id": "paik_v32NjYn5pSc",
+      "name": "소갈비찜(데침형)",
+      "source_url": "https://www.youtube.com/watch?v=v32NjYn5pSc",
+      "status": "verified_added",
+      "ingredient_excerpt": "* 소 갈비찜 재료 \n\n소갈비 2kg\n소갈비 데침용 물 적당량\n무 100g\n당근 ½개(135g)\n새송이버섯 1개(60g)\n표고버섯 6개(120g)\n청양고추 3개(30g)\n꽈리고추 5개(30g)\n홍고추 2개(20g)\n대파 2대(200g)\n양파 1개(250g)\n물 10컵(1800ml)\n\n* 양념장 재료 \n\n대파 ½컵(30g)\n간 생강 ½큰술(10g)\n간 마늘 2큰술(40g)\n진간장 1컵(180ml)\n황설탕 ½컵(70g)\n맛술 ½컵(90g)\n참기름 4큰술(28g)\n물 1컵(180ml)",
+      "servings": 4,
+      "source_description_sha256": "267160b55359585653cc63267d78b93728618896017e7cc05c696fd0a7d1ed24"
+    },
+    {
+      "recipe_id": "paik_dxuntkET42M_batter",
+      "name": "참치함박반죽",
+      "source_url": "https://www.youtube.com/watch?v=dxuntkET42M",
+      "status": "verified_added",
+      "ingredient_excerpt": "참치 1캔(150g)\n양파 1참치캔 or 1컵(100g)\n대파 1/2참치캔 or ½개(50g)\n청양고추 1/2참치캔 or 2개(20g)\n달걀 2개\n간 마늘 2/3큰술(13g)\n부침가루 4큰술(40g)",
+      "servings": null,
+      "source_description_sha256": "9b4d7870e1f5666e04a8cf4fc444e4e51e7c39fe9cdbd2ad7caf32187f82b709"
+    },
+    {
+      "recipe_id": "paik_dxuntkET42M",
+      "name": "참치함박스테이크",
+      "source_url": "https://www.youtube.com/watch?v=dxuntkET42M",
+      "status": "verified_added",
+      "ingredient_excerpt": "참치함박반죽: 160g\n*소스 준비량\n황설탕 1큰술(12g)\n케찹 2큰술(40g)\n진간장 1큰술(10g)\n정수물 약 1/2컵(100ml)\n*함박 1개 굽기\n*반죽은 위에 표시한 160g 사용량입니다.\n식용유 5큰술(35g)\n버터 1큰술(12g)\n*달걀프라이용\n달걀 1개\n식용유 3큰술(21g)",
+      "servings": null,
+      "source_description_sha256": "9b4d7870e1f5666e04a8cf4fc444e4e51e7c39fe9cdbd2ad7caf32187f82b709"
+    },
+    {
+      "recipe_id": "paik_wM9hbmwCpdc",
+      "name": "크림떡볶이",
+      "source_url": "https://www.youtube.com/watch?v=wM9hbmwCpdc",
+      "status": "verified_added",
+      "ingredient_excerpt": "떡볶이 떡 약1과1/2컵(250g)\n우유 1팩(200ml)\n베이컨 4장(72g)\n양파 약¼개(60g)\n식용유 1큰술(7g)\n슬라이스 체다치즈 2장\n후추가루 약간",
+      "servings": null,
+      "source_description_sha256": "130e5f6d8f0c49bf0d7cb39c773e57367b83bb4b65763a1e03fa407d9e17236e"
+    },
+    {
+      "recipe_id": "paik_wyCV_de0CDY_patty",
+      "name": "떡갈비(두툼한 소고기형)",
+      "source_url": "https://www.youtube.com/watch?v=wyCV_de0CDY",
+      "status": "verified_added",
+      "ingredient_excerpt": "간 소고기 600g\n소고기 불고기용 600g\n대파(흰 부분) 1과1/5대(120g) \n물 1컵(180ml) \n황설탕 5와1/4큰술(63g)\n간 마늘 3큰술(60g)\n진간장 약5큰술(47g)\n참기름 4큰술(28g) \n맛술 2와1/2큰술(25g)\n후춧가루 약간(1g)",
+      "servings": null,
+      "source_description_sha256": "79b1a7dd1fb0de901b981d654d6b8c7ecd375ec31236adfa7019997ace032181"
+    },
+    {
+      "recipe_id": "paik_wyCV_de0CDY",
+      "name": "떡갈비덮밥",
+      "source_url": "https://www.youtube.com/watch?v=wyCV_de0CDY",
+      "status": "verified_added",
+      "ingredient_excerpt": "떡갈비(쇠고기): 한 접시 사용 개수 미표기\n*소스\n물 약1/3컵(50ml)\n케첩 1과1/2큰술(30g)\n우스터 소스 3큰술(18g)\n버터 ¼개(20g)\n황설탕 1/3큰술(4g)\n후춧가루 약간\n*덮밥\n밥 1인분 (200g)\n식용유 적당량\n달걀 1개",
+      "servings": 1,
+      "source_description_sha256": "79b1a7dd1fb0de901b981d654d6b8c7ecd375ec31236adfa7019997ace032181"
+    },
+    {
+      "recipe_id": "paik_78AQ-ten9lE",
+      "name": "달걀볶음라면",
+      "source_url": "https://www.youtube.com/watch?v=78AQ-ten9lE",
+      "status": "verified_added",
+      "ingredient_excerpt": "라면 1개\n달걀 1개\n식용유 3큰술(21g)\n정수물  적당량",
+      "servings": null,
+      "source_description_sha256": "d46d84e2ee7dc893fa2959fcc9bb57002c4014527beb8f6f2f0c2fa8179f1cad"
+    }
+  ]
+}
