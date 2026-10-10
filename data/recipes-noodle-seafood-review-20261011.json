@@ -1,0 +1,188 @@
+{
+  "checked_on": "2026-10-11",
+  "official_video_sources": 15,
+  "previous_creator_records": 243,
+  "creator_records_after": 261,
+  "added_recipe_records": 18,
+  "items": [
+    {
+      "recipe_id": "paik_9Wvd9VL0OpM",
+      "name": "카레라면",
+      "source_url": "https://www.youtube.com/watch?v=9Wvd9VL0OpM",
+      "status": "verified_added",
+      "ingredient_excerpt": "순한맛 라면 1봉지\n물 약 3컵(550ml)\n고형 카레 1개(25g)\n버터 2큰술(24g)\n간마늘 1/5큰술(4g)\n후춧가루 약간",
+      "servings": null,
+      "source_description_sha256": "bf993b210443082eaab31fe57cc1f5c8bf6f105c1365b42c025644a4c902141a"
+    },
+    {
+      "recipe_id": "paik_GlQZFTUeRoI",
+      "name": "양파게티",
+      "source_url": "https://www.youtube.com/watch?v=GlQZFTUeRoI",
+      "status": "verified_added",
+      "ingredient_excerpt": "만능양파 45g / 1블럭\n짜장라면 1개\n물 600ml / 종이컵 3컵\n고추장 5g / 1작은술\n\n\n올리브유: 양 미표기 (조리 과정에만 기재)",
+      "servings": null,
+      "source_description_sha256": "95f425a02f10fef9fee62c608c07b5dc33e959bb3f993a3e8573663ff7c0bc06"
+    },
+    {
+      "recipe_id": "paik_LwHQ_LE4b9I",
+      "name": "진비빔면팟타이",
+      "source_url": "https://www.youtube.com/watch?v=LwHQ_LE4b9I",
+      "status": "verified_added",
+      "ingredient_excerpt": "진비빔면 1개\n물(면 삶을 용) 3컵(540ml)\n대파 약 1/3대(30g)\n달걀 1개\n식용유 4큰술(28g)\n멸치액젓 1/2큰술(4g)",
+      "servings": null,
+      "source_description_sha256": "048135230d739214af7ee5af3fdb0a0b03d7d43cbe9f36880a6481954dc757f1"
+    },
+    {
+      "recipe_id": "paik_WGqcdDem0Vg",
+      "name": "불고기짜파구리",
+      "source_url": "https://www.youtube.com/watch?v=WGqcdDem0Vg",
+      "status": "verified_added",
+      "ingredient_excerpt": "정수물 1과1/2병(650ml)\n소고기(불고기용) 약9장(130g)\n식용유 1큰술(7g)\n짜파게티 1봉지\n너구리 1봉지\n올리브오일: 양 미표기 (조리 과정에 기재)",
+      "servings": null,
+      "source_description_sha256": "41febe0694bc84a9d3865461c6b8d1d7c876625eed5c401a7bab91f84269dc00"
+    },
+    {
+      "recipe_id": "paik_XU5Jv4e7DKw",
+      "name": "시금치고기덮밥",
+      "source_url": "https://www.youtube.com/watch?v=XU5Jv4e7DKw",
+      "status": "verified_added",
+      "ingredient_excerpt": "시금치 150g\n간돼지고기 1과2/3컵(250g)\n식용유 ½컵(70g)\n청양고추 4개(30g)\n홍고추 1개(15g)\n마늘 4알(25g)\n설탕 1과1/2큰술(15g)\n굴 소스 1큰술 (10g)\n멸치 액젓 1큰술(10g)\n진간장 1/2큰술(5g)\n노두유 1큰술(10g)\n달걀 1개\n밥 1공기(200g)",
+      "servings": null,
+      "source_description_sha256": "313c1fff9c55fb858b7b050eda85e5aa0e6241313fe2472632578722e9550d5d"
+    },
+    {
+      "recipe_id": "paik_cNfbDK9vIFI",
+      "name": "강식당비빔국수양념장(대용량)",
+      "source_url": "https://www.youtube.com/watch?v=cNfbDK9vIFI",
+      "status": "verified_added",
+      "ingredient_excerpt": "\n간 돼지고기 5컵(1kg)\n정수물 3컵(540g)\n양파 3컵(210g)\n대파 8 1/3컵(600g)\n맛술 3컵(540g)\n황설탕 3컵(420g)\n물엿 3컵(780g)\n진간장 6컵(1200g)\n\n간 배 5컵 - 배2개 + 물2컵 (배 640g + 물 360g)\n간 생강 1 1/2큰술(28g)\n간 마늘 250g\n고운 고춧가루 5 1/2컵(560g)\n후춧가루 1 1/2큰술(12g)\n\n",
+      "servings": null,
+      "source_description_sha256": "3ee67db29ec86ecdb02cf4851b12188146a0cd2be7c76912d00f2917c826474d"
+    },
+    {
+      "recipe_id": "paik_gJDxWPoMHgo_sauce",
+      "name": "팟타이소스(간장·액젓형)",
+      "source_url": "https://www.youtube.com/watch?v=gJDxWPoMHgo",
+      "status": "verified_added",
+      "ingredient_excerpt": "물 2큰술(20g)\n황설탕 약 1과 1/2큰술(20g)\n식초 약 2와 1/2큰술(20g)\n진간장 약 1큰술(12g)\n멸치액젓 약 1과 1/2큰술(12g)",
+      "servings": null,
+      "source_description_sha256": "9ac2c62c50b75a9bd55b3e9a6d4113bfc48541ac576aa95d73a376fb07610943"
+    },
+    {
+      "recipe_id": "paik_gJDxWPoMHgo",
+      "name": "팟타이(국내재료형)",
+      "source_url": "https://www.youtube.com/watch?v=gJDxWPoMHgo",
+      "status": "verified_added",
+      "ingredient_excerpt": "숙주 약 1과 1/2컵(100g)\n양파 약 1/3개(80g)\n쌀국수 불리기 전 60g → 불린 후 1과 1/2컵(120g)\n식용유 1/4컵(40g)\n부추 약 1컵(40g)\n칵테일 새우 8마리(40g)\n건 새우 2/3컵(20g)\n통마늘 4개(20g)\n땅콩 분태 약 1/4컵(20g)\n청양고추 1개(10g)\n홍고추 1개(10g)\n달걀 2개\n팟타이소스(간장·액젓형): 원본 소스 준비량 참고",
+      "servings": null,
+      "source_description_sha256": "9ac2c62c50b75a9bd55b3e9a6d4113bfc48541ac576aa95d73a376fb07610943"
+    },
+    {
+      "recipe_id": "paik_guc9-PYM7ak_sauce",
+      "name": "어묵비빔라면양념장",
+      "source_url": "https://www.youtube.com/watch?v=guc9-PYM7ak",
+      "status": "verified_added",
+      "ingredient_excerpt": "대파 1/2대(50g)\n황설탕 1큰술(12g)\n굵은 고춧가루 1/2큰술(4g)\n고추장 약1/3큰술(6g)\n분말스프 1개\n참기름 1큰술(7g)\n식용유 1큰술(7g)",
+      "servings": null,
+      "source_description_sha256": "423624a45413cc0bcff33c6dec032889b7d69ac290674eb971a2a86db66a853a"
+    },
+    {
+      "recipe_id": "paik_guc9-PYM7ak",
+      "name": "어묵비빔라면",
+      "source_url": "https://www.youtube.com/watch?v=guc9-PYM7ak",
+      "status": "verified_added",
+      "ingredient_excerpt": "라면사리 1개\n건더기 스프 1개\n물 3컵(540ml)\n사각어묵 1장(50g)\n새송이버섯 1개(60g)\n통깨 약간\n어묵비빔라면양념장: 위 별도 항목의 준비량 참고",
+      "servings": null,
+      "source_description_sha256": "423624a45413cc0bcff33c6dec032889b7d69ac290674eb971a2a86db66a853a"
+    },
+    {
+      "recipe_id": "paik_Sh8kjldrKf8",
+      "name": "콩나물해장국",
+      "source_url": "https://www.youtube.com/watch?v=Sh8kjldrKf8",
+      "status": "verified_added",
+      "ingredient_excerpt": "정수물 약 16과1/2컵(3L)\n콩나물 1봉지(300g)\n오징어 1마리(300g)\n북어대가리 3개(174g)\n양파 1/2개(125g)\n다시마 2장(14g)\n대파 1/2개(50g)\n국간장 3큰술(30g)\n간 마늘 1큰술(20g)\n청양고추 1개(10g)\n굵은 고춧가루 1큰술(8g)",
+      "servings": 4,
+      "source_description_sha256": "0d9b3cb921a37abb771a7728c1cf86662460b2a67a132332cfd4e1ebfc2c4285"
+    },
+    {
+      "recipe_id": "paik_Sh8kjldrKf8_egg",
+      "name": "수란(해장국곁들임)",
+      "source_url": "https://www.youtube.com/watch?v=Sh8kjldrKf8",
+      "status": "verified_added",
+      "ingredient_excerpt": "달걀 4개\n콩나물해장국 육수 약간\n식용유 약간\n조미김 4장\n새우젓 약간\n중탕용 물: 그릇 절반 높이 (조리용, 섭취량 아님)",
+      "servings": null,
+      "source_description_sha256": "0d9b3cb921a37abb771a7728c1cf86662460b2a67a132332cfd4e1ebfc2c4285"
+    },
+    {
+      "recipe_id": "paik_K55CPyYTUJI",
+      "name": "배추절이기",
+      "source_url": "https://www.youtube.com/watch?v=K55CPyYTUJI",
+      "status": "verified_added",
+      "ingredient_excerpt": "배추 3포기\n천일염(소금물용) 3컵\n천일염 적당량\n물 3L",
+      "servings": null,
+      "source_description_sha256": "b173545de6796f41b1eb68ed0f3946803b216f73d684061a69e60c5250f731e4"
+    },
+    {
+      "recipe_id": "paik_kD9Qg139l9g",
+      "name": "홍콩식굴전",
+      "source_url": "https://www.youtube.com/watch?v=kD9Qg139l9g",
+      "status": "verified_added",
+      "ingredient_excerpt": "생굴 2봉지(200g)\n정수물 1/3컵(60ml)\n튀김가루 약1/2컵(60g)\n식용유 약1/3컵(56g)\n대파 약1/3대(30g)\n달걀 1개 \n스리라차 소스",
+      "servings": null,
+      "source_description_sha256": "a3edbe3abf68b6f18817fa6c12994916f321c808aa791a0555357801a057a68f"
+    },
+    {
+      "recipe_id": "paik_nj-DjQFEZb0",
+      "name": "순두부찌개(바지락·직접볶음형)",
+      "source_url": "https://www.youtube.com/watch?v=nj-DjQFEZb0",
+      "status": "verified_added",
+      "ingredient_excerpt": "순두부 1팩\n간 돼지고기 2/5컵(60g)\n양파 약 1/6개(40g)\n대파 약1/2컵(28g)\n청양고추 2개(20g)\n쪽파 2큰술(12g)\n물 2컵(360ml)\n바지락 10개(120g)\n간마늘 1큰술(20g)\n황설탕 1/3큰술(4g)\n고운고춧가루 1큰술(6g)\n참기름 3큰술(21g)\n꽃소금 약1/2큰술(5g)\n진간장 2큰술(20g)\n달걀 2개\n후춧가루 약간",
+      "servings": 2,
+      "source_description_sha256": "80fd03b3a8d443eecf326af0c2421affbad8d82618c156a2b217c29e82d3dd81"
+    },
+    {
+      "recipe_id": "paik_qVtqpAfJNb4",
+      "name": "어묵듬뿍라면",
+      "source_url": "https://www.youtube.com/watch?v=qVtqpAfJNb4",
+      "status": "verified_added",
+      "ingredient_excerpt": "라면 1개\n물 3과 1/2컵(630ml)\n얇은 사각어묵 2장(80g)\n청양고추 2개(20g)\n콩나물 약 1과 1/2컵(100g)\n대파 약 1/4대(20g)\n국간장 1큰술(10g)\n마라소스 약 2큰술(25g) ( *취향에 맞게 넣어주세요. )\n다시마: 양 미표기 (조리 과정에만 기재)\n건더기수프: 양 미표기 (조리 과정에 기재)",
+      "servings": null,
+      "source_description_sha256": "b44969ec864581631c31426ef2e0d5d04f818037137e06b89f63192e30c0015d"
+    },
+    {
+      "recipe_id": "paik_u8s0XK5WXuw",
+      "name": "우리집카레(대용량)",
+      "source_url": "https://www.youtube.com/watch?v=u8s0XK5WXuw",
+      "status": "verified_added",
+      "ingredient_excerpt": "물 약 11컵(2L)\n양파 5개(약 1.2kg)\n부채살 600g\n당근 1개(270g)\n토마토 1개(230g)\n고형 카레 8조각(200g)\n케첩 1/2컵(120g)\n우스터소스 1/2컵(90g)\n식용유 약 1/2컵(86g)\n버터 약 6큰술(70g)\n토마토 페이스트 2큰술(50g)\n고형 치킨스톡 2조각(20g)\n쿠민가루 약 2큰술(13g)\n후춧가루 약간\n밥 12인분",
+      "servings": 12,
+      "source_description_sha256": "a604c623ff1f8e1613da702cf04c604e760a2e30699e79e83eea63d6d0c68808"
+    },
+    {
+      "recipe_id": "paik_wk8FkdJ8hm0",
+      "name": "짜장라면오믈렛",
+      "source_url": "https://www.youtube.com/watch?v=wk8FkdJ8hm0",
+      "status": "verified_added",
+      "ingredient_excerpt": "짜장라면 1봉지\n달걀 3개\n식용유 2큰술 (14g)\n케첩 1큰술 (20g)",
+      "servings": 1,
+      "source_description_sha256": "ab1fced8fbd92aa8675b6246c5f60c9240795cfa80ed328e9359d858eabaa5fb"
+    }
+  ],
+  "held_sections": [
+    {
+      "video_id": "K55CPyYTUJI",
+      "sections": [
+        "배추김치",
+        "이북식 김치",
+        "막김치"
+      ],
+      "reason": "굴 투입 과정이 누락된 김칫소에 의존하는 완성 김치는 보류했습니다."
+    },
+    {
+      "video_id": "cNfbDK9vIFI",
+      "section": "국수 조립",
+      "reason": "고명 달걀 조리법과 면 정량 미표기; 확인된 양념장만 등록했습니다."
+    }
+  ],
+  "scope": "This reviewed batch only; sauces and preparations count separately, not as unique foods."
+}
