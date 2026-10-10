@@ -1,0 +1,764 @@
+{
+  "checked_on": "2026-10-11",
+  "search_topics": 40,
+  "unique_unregistered_video_candidates": 32,
+  "new_video_sources_added": 29,
+  "added_recipe_records": 54,
+  "previous_creator_records": 147,
+  "creator_records_after": 201,
+  "new_preparation_links": 22,
+  "scope": "Only the 32 distinct candidate videos found in this review; not an exhaustive catalogue of all official videos. Sauces and distinct methods are counted as recipe records, not unique foods.",
+  "video_reviews": [
+    {
+      "video_id": "M_G9MGGQdbs",
+      "source_url": "https://www.youtube.com/watch?v=M_G9MGGQdbs",
+      "title": "이걸 배우고 나면 아귀찜, 코다리찜도 가능해요! 매콤~한 콩나물찜!",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "7Ez066LV76U",
+      "source_url": "https://www.youtube.com/watch?v=7Ez066LV76U",
+      "title": "다가오는 초복, 닭백숙 먹고 원기회복하세요! l 백종원의 백종원 레시피",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "4WEhZLQ37Fk",
+      "source_url": "https://www.youtube.com/watch?v=4WEhZLQ37Fk",
+      "title": "[ENG] 감자채전의 색다른 버전! '새둥지전'입니다.",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "yI67M3IS4GI",
+      "source_url": "https://www.youtube.com/watch?v=yI67M3IS4GI",
+      "title": "옥수수 캔으로 만드는 최고의 간식 The Ultimate Snack Made from Canned Corn",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "9YlFFVisCBY",
+      "source_url": "https://www.youtube.com/watch?v=9YlFFVisCBY",
+      "title": "중독성 강한 통옥수수구이",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "wezbeu4-C2s",
+      "source_url": "https://www.youtube.com/watch?v=wezbeu4-C2s",
+      "title": "편견을 버리세요! 청국장이 좋아지는 레시피",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "OSYQHa-vbVU",
+      "source_url": "https://www.youtube.com/watch?v=OSYQHa-vbVU",
+      "title": "우리집이 휴게소 '소떡어떡'",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "-A0iP6Uzy3A",
+      "source_url": "https://www.youtube.com/watch?v=-A0iP6Uzy3A",
+      "title": "소떡소떡보다 맛있는 떡어묵꼬치! 어린이날 애들 간식으로 근사하죠?",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "IO6AeSPfJ0Y",
+      "source_url": "https://www.youtube.com/watch?v=IO6AeSPfJ0Y",
+      "title": "영양듬뿍 전복죽, 생각보다 쉬워요~",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "M8RXmDJ3W-s",
+      "source_url": "https://www.youtube.com/watch?v=M8RXmDJ3W-s",
+      "title": "'소고기' 말고 '돼지고기'로 끓이는 '뭇국', 엄청 시원하고 개운해요",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "FI6iypOkNUg",
+      "source_url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+      "title": "멸치국수 육수 내셨나요? 버릴 것 하나 없는 '1타 2피' 레시피",
+      "status": "added",
+      "added_recipe_records": 6,
+      "reason": null
+    },
+    {
+      "video_id": "0wqp-Ii5wQM",
+      "source_url": "https://www.youtube.com/watch?v=0wqp-Ii5wQM",
+      "title": "전 구울 때, 튀긴듯 바삭하지만 안타고 촉촉하게 잘 굽는 법",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "lDr6lNjUZ8w",
+      "source_url": "https://www.youtube.com/watch?v=lDr6lNjUZ8w",
+      "title": "비지찌개! 이렇게 고소하면 반칙인데요?",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "rLDquEv-ZJg",
+      "source_url": "https://www.youtube.com/watch?v=rLDquEv-ZJg",
+      "title": "소여사가 좋아하는 황태미역국! 해장용으로 딱이에요",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "-8qL_l94cJ8",
+      "source_url": "https://www.youtube.com/watch?v=-8qL_l94cJ8",
+      "title": "냄비든 밥솥이든 OK! 실패 없는 누룽지백숙",
+      "status": "added",
+      "added_recipe_records": 3,
+      "reason": null
+    },
+    {
+      "video_id": "7S9VN54ldnU",
+      "source_url": "https://www.youtube.com/watch?v=7S9VN54ldnU",
+      "title": "[ENG] 직접 만든 짜장소스로 짜장떡볶이를 간단하게~",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "iWWQBoS3SL4",
+      "source_url": "https://www.youtube.com/watch?v=iWWQBoS3SL4",
+      "title": "비빔국수 만들다가 신메뉴가 탄생했습니다 '○○비빔국수' !! The Season for Bibim Guksu! Check Out This New Kind of Guksu.",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "WFa47RUcZYM",
+      "source_url": "https://www.youtube.com/watch?v=WFa47RUcZYM",
+      "title": "초간단 '고추기름' 만들기!",
+      "status": "held",
+      "added_recipe_records": 0,
+      "reason": "Description lacks ingredient list and cooking procedure; a different fully documented official source supplies the separate chili oil recipe."
+    },
+    {
+      "video_id": "NGjk_1KQGmI",
+      "source_url": "https://www.youtube.com/watch?v=NGjk_1KQGmI",
+      "title": "불맛 가득 볶음밥을 더 맛있게! 우리집이 볶음밥 맛집! ㅣ업그레이드 볶음밥 ㅣ 백종원의 쿠킹로그",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "UlsvKb-Bafs",
+      "source_url": "https://www.youtube.com/watch?v=UlsvKb-Bafs",
+      "title": "겉절이 어렵지 않아요! 만능양념장과 함께라면 봄나물 완전정복~",
+      "status": "added",
+      "added_recipe_records": 4,
+      "reason": null
+    },
+    {
+      "video_id": "5UVURwno_jA",
+      "source_url": "https://www.youtube.com/watch?v=5UVURwno_jA",
+      "title": "크림 없이 크림새우, 어떻게 만들까요? 재료 간단, 만드는 법은 더 간단!",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "2HZO-YNHFPk",
+      "source_url": "https://www.youtube.com/watch?v=2HZO-YNHFPk",
+      "title": "치킨값 아까우시죠? 집에서 30분 만에 전문점 맛내는 반반 치킨 레시피",
+      "status": "added",
+      "added_recipe_records": 3,
+      "reason": null
+    },
+    {
+      "video_id": "HChukhwE1do",
+      "source_url": "https://www.youtube.com/watch?v=HChukhwE1do",
+      "title": "★고추마늘치킨★ 충격! 백스비어 영업기밀 공개!ㅣ 백종원의 쿠킹로그",
+      "status": "held",
+      "added_recipe_records": 0,
+      "reason": "Watch response did not supply verified official channel metadata. No record added."
+    },
+    {
+      "video_id": "w53qGlJ1vLI",
+      "source_url": "https://www.youtube.com/watch?v=w53qGlJ1vLI",
+      "title": "막창을 튀겨서 짬뽕에 넣었습니다!",
+      "status": "held",
+      "added_recipe_records": 0,
+      "reason": "Description has no complete recipe for its promoted dish; no recipe manufactured."
+    },
+    {
+      "video_id": "87zznFb0-us",
+      "source_url": "https://www.youtube.com/watch?v=87zznFb0-us",
+      "title": "어묵탕 지겨우셨죠? 오늘 저녁, 빨간 어묵으로 끝내드릴게요!",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "w9ML-v8OG1Y",
+      "source_url": "https://www.youtube.com/watch?v=w9ML-v8OG1Y",
+      "title": "남들보다 삼겹살 2배로 먹는 법 알려드릴게요! 숨겨 놓고 몰래 먹는 파무침 3종!",
+      "status": "added",
+      "added_recipe_records": 3,
+      "reason": null
+    },
+    {
+      "video_id": "_m_HiEJukX4",
+      "source_url": "https://www.youtube.com/watch?v=_m_HiEJukX4",
+      "title": "3월 3일 삼겹살데이! 뒷다리살도 삼겹살 만큼 맛있게 먹는 꿀팁!",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "Om6W3JBfmFU",
+      "source_url": "https://www.youtube.com/watch?v=Om6W3JBfmFU",
+      "title": "대패 두루치기 '나만의 비법 소스' 알려드릴게요!",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    },
+    {
+      "video_id": "_l_cJyxNkhc",
+      "source_url": "https://www.youtube.com/watch?v=_l_cJyxNkhc",
+      "title": "닭다리살 대파무침! 소스를 듬뿍 찍어 드셔보세요.",
+      "status": "added",
+      "added_recipe_records": 3,
+      "reason": null
+    },
+    {
+      "video_id": "4SEy2py0W_w",
+      "source_url": "https://www.youtube.com/watch?v=4SEy2py0W_w",
+      "title": "초고추장 없이도 새콤달콤한 골뱅이 파채무침",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "oUvPWwmvoPM",
+      "source_url": "https://www.youtube.com/watch?v=oUvPWwmvoPM",
+      "title": "매콤한 순대볶음! (+안 터지게 볶는 요령 알려드릴게요!)",
+      "status": "added",
+      "added_recipe_records": 1,
+      "reason": null
+    },
+    {
+      "video_id": "6AmBDFIJRE8",
+      "source_url": "https://www.youtube.com/watch?v=6AmBDFIJRE8",
+      "title": "[ENG] 집에서 먹는 신림동st 백순대볶음!",
+      "status": "added",
+      "added_recipe_records": 2,
+      "reason": null
+    }
+  ],
+  "held_sections": [
+    {
+      "video_id": "oUvPWwmvoPM",
+      "section": "순대볶음",
+      "reason": "Description omits the step for adding the sausage. Sauce alone was complete and added; missing cooking sequence was not invented."
+    }
+  ],
+  "items": [
+    {
+      "recipe_id": "paik_lDr6lNjUZ8w",
+      "name": "콩비지찌개",
+      "source_url": "https://www.youtube.com/watch?v=lDr6lNjUZ8w",
+      "status": "verified_added",
+      "ingredient_excerpt": "콩비지 2와 2/3컵(400g)\n정수물 1과 1/2컵(270g)\n신김치 1컵(130g)\n다진 돼지고기 약 1/2컵(85g)\n양파 약 1/4개(60g)\n대파 1/2대(50g)\n새우젓 약 1큰술(22g)\n청양고추 2개(20g)\n식용유 2큰술(14g)\n간 마늘 1/2큰술(10g)\n국간장 1큰술(10g)\n참기름 1큰술(7g) \n굵은 고춧가루 1/2큰술(4g)",
+      "servings": null,
+      "source_description_sha256": "4a965fcc01ca74b67424166b8619527e9f898bb5a4b3ed54bc9be0261deedc6f"
+    },
+    {
+      "recipe_id": "paik_wezbeu4-C2s",
+      "name": "청국장찌개",
+      "source_url": "https://www.youtube.com/watch?v=wezbeu4-C2s",
+      "status": "verified_added",
+      "ingredient_excerpt": "물 2컵(360ml)\n청국장 1/2팩(125g)\n신 김치 약¾컵(100g)\n두부 약1/3모(90g)\n양파 약¼컵(60g)\n대파 ½대(50g)\n된장 1큰술(20g)\n국멸치 ½컵(15g)\n청양고추 1개(10g)\n홍고추 1개(10g)\n간 마늘 1/4큰술(5g)",
+      "servings": null,
+      "source_description_sha256": "0b7b2d154d4a50ae49abe57ec83c1ae15e06a3b2bef688c2ee81d535dab98f15"
+    },
+    {
+      "recipe_id": "paik_4WEhZLQ37Fk",
+      "name": "새둥지전",
+      "source_url": "https://www.youtube.com/watch?v=4WEhZLQ37Fk",
+      "status": "verified_added",
+      "ingredient_excerpt": "감자 2개(400g)\n소시지 1/4컵(40g)\n달걀 3개\n식용유 1/3컵(40g)\n꽃소금 2/5큰술(4g)\n후춧가루 적당량\n파슬리가루 적당량\n케첩 적당량\n맛소금: 기호에 맞게 약간 (조리 과정에만 기재)",
+      "servings": null,
+      "source_description_sha256": "7815b0480cc0ecfb345c3cfd4b56ca0fb4ff5eda5e181acc285b15e3d9ef7322"
+    },
+    {
+      "recipe_id": "paik_IO6AeSPfJ0Y",
+      "name": "전복죽",
+      "source_url": "https://www.youtube.com/watch?v=IO6AeSPfJ0Y",
+      "status": "verified_added",
+      "ingredient_excerpt": "전복 2마리 (껍질 제거 후 78g)\n당근 약간(20g)\n밥 200g\n정수물 600ml\n참기름 약 2큰술(12g)\n맛소금 약 1/4큰술(3.5g)\n달걀 흰자 1개\n\n[1인분 세팅 재료]\n\n전복죽 적당량\n달걀 노른자 1개\n간깨 약간\n참기름 약간\n후추가루 약간",
+      "servings": 2,
+      "source_description_sha256": "63f195a717d8921ae989d9f7312566d11071fe3751b483d0393dc6b4a0c79151"
+    },
+    {
+      "recipe_id": "paik_7Ez066LV76U_sauce",
+      "name": "닭백숙양념장",
+      "source_url": "https://www.youtube.com/watch?v=7Ez066LV76U",
+      "status": "verified_added",
+      "ingredient_excerpt": "굵은고춧가루 1큰술(15g)\n뜨거운물(육수) 1큰술(15ml)\n다진 마늘 1/2작은술(3g)\n다진 대파 1/2작은술(3g)\n연겨자 1/3작은술(2g)\n진간장 2큰술(30ml)\n식초 1큰술(15ml)\n설탕 1/2작은술(3g)",
+      "servings": null,
+      "source_description_sha256": "9534831d85f50ef1ebe8f99c953cc67b7171c9490cbee9e3bf0f16a83c413bfb"
+    },
+    {
+      "recipe_id": "paik_7Ez066LV76U",
+      "name": "닭백숙",
+      "source_url": "https://www.youtube.com/watch?v=7Ez066LV76U",
+      "status": "verified_added",
+      "ingredient_excerpt": "닭 1마리 \n대파 2뿌리\n부추 1줌\n마늘 10개\n생강 1톨\n양파 2개\n물 3L\n소금\n후추",
+      "servings": null,
+      "source_description_sha256": "9534831d85f50ef1ebe8f99c953cc67b7171c9490cbee9e3bf0f16a83c413bfb"
+    },
+    {
+      "recipe_id": "paik_yI67M3IS4GI_pancake",
+      "name": "옥수수전(전분·부침형)",
+      "source_url": "https://www.youtube.com/watch?v=yI67M3IS4GI",
+      "status": "verified_added",
+      "ingredient_excerpt": "통조림 옥수수 1캔(340g)\n옥수수전분가루 약 7큰술(69g)\n물 1/4컵(45ml)\n꽃소금 1/8큰술 (1.5g)\n식용유 약 6큰술(42g)\n연유 4큰술(52g)\n파마산 치즈 적당량\n고춧가루 적당량",
+      "servings": null,
+      "source_description_sha256": "c600f194fbfd4e4e72aeeaa0299cbda372cb297f4561ca4cf6bad3adacf41f50"
+    },
+    {
+      "recipe_id": "paik_yI67M3IS4GI_fried",
+      "name": "옥수수전(전분·튀김형)",
+      "source_url": "https://www.youtube.com/watch?v=yI67M3IS4GI",
+      "status": "verified_added",
+      "ingredient_excerpt": "통조림 옥수수 1캔(340g)\n옥수수전분가루 약 7큰술(69g)\n물 1/4컵(45ml)\n꽃소금 1/8큰술 (1.5g)\n식용유 약 6큰술(42g)\n연유 4큰술(52g)\n파마산 치즈 적당량\n고춧가루 적당량",
+      "servings": null,
+      "source_description_sha256": "c600f194fbfd4e4e72aeeaa0299cbda372cb297f4561ca4cf6bad3adacf41f50"
+    },
+    {
+      "recipe_id": "paik_M_G9MGGQdbs",
+      "name": "콩나물찜",
+      "source_url": "https://www.youtube.com/watch?v=M_G9MGGQdbs",
+      "status": "verified_added",
+      "ingredient_excerpt": "*양념장\n고추장 1/5컵(46g)\n황설탕 1/5컵(28g)\n굵은 고춧가루 1/5컵(16g)\n맛술 1/5컵(36g)\n진간장 1/5컵(40g)\n간 마늘 1/5컵(34g)\n\n*전분물\n감자전분 1/2큰술(5g)\n물 1큰술(10g)\n\n*콩나물찜\n콩나물 500g\n물 1컵(180ml)\n떡국떡 1컵(100g)\n대파 약 1대(80g)\n양파 약 1/4개(60g)\n사각어묵 1장(50g)\n청양고추 2개(20g)\n참기름 1큰술(7g)\n후춧가루 약간\n통깨 약간",
+      "servings": null,
+      "source_description_sha256": "5d7cf798b25f81e94d8ef52cde4e299ffae83efff697c920460722d8cfc6cc6d"
+    },
+    {
+      "recipe_id": "paik_FI6iypOkNUg_broth",
+      "name": "멸치육수",
+      "source_url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+      "status": "verified_added",
+      "ingredient_excerpt": "디포리 2/3컵\n육수용멸치 1과1/2컵\n절단다시마 5장\n물 3L\n양파 1/2개\n대파 1대(100g)\n맛술 1/2컵(80g)\n국간장 3큰술(30g)\n꽃소금 적당량\nMSG 적당량",
+      "servings": null,
+      "source_description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+    },
+    {
+      "recipe_id": "paik_FI6iypOkNUg_sauce",
+      "name": "멸치국수양념장",
+      "source_url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+      "status": "verified_added",
+      "ingredient_excerpt": "청양고추 1개(12g)\n홍고추 1개(15g)\n대파 1대(50g)\n정수물 1큰술(10g)\n간마늘 1큰술(15g)\n굵은고춧가루 1큰술(5g)\n황설탕 1/3큰술(3g)\n깨소금 3큰술(30g)\n진간장 1/2컵(100g)\n참기름 2큰술(15g)\nMSG 적당량",
+      "servings": null,
+      "source_description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+    },
+    {
+      "recipe_id": "paik_FI6iypOkNUg_gimhae",
+      "name": "멸치국수(부산·김해식)",
+      "source_url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+      "status": "verified_added",
+      "ingredient_excerpt": "건소면 100g\n멸치육수 500ml\n통단무지 1/4개\n부추 20g\n양념장 적당량\n김가루 적당량\n깨소금 적당량\n후춧가루 적당량",
+      "servings": null,
+      "source_description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+    },
+    {
+      "recipe_id": "paik_FI6iypOkNUg_basic",
+      "name": "멸치국수(채소고명)",
+      "source_url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+      "status": "verified_added",
+      "ingredient_excerpt": "건소면 100g\n멸치육수 500ml\n양파 1/6개(30g)\n애호박 1/6개(30g)\n표고버섯 1/2개(10g)\n당근 1/6개(30g)\n양념장 적당량",
+      "servings": null,
+      "source_description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+    },
+    {
+      "recipe_id": "paik_FI6iypOkNUg_egg",
+      "name": "멸치국수(달걀국물)",
+      "source_url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+      "status": "verified_added",
+      "ingredient_excerpt": "건소면 100g\n멸치육수 500ml\n양파 1/6개(30g)\n애호박 1/6개(30g)\n표고버섯 1/2개(10g)\n당근 1/6개(30g)\n달걀 1개\n양념장: 기호에 맞게 (조리 과정에만 기재)",
+      "servings": null,
+      "source_description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+    },
+    {
+      "recipe_id": "paik_FI6iypOkNUg_egg_braise",
+      "name": "달걀조림(육수건더기 활용)",
+      "source_url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+      "status": "verified_added",
+      "ingredient_excerpt": "육수건더기\n물 1.5L\n황설탕 2/3컵\n꽃소금 1큰술\n진간장 1과1/3컵\n간마늘 2큰술\n달걀 18개",
+      "servings": null,
+      "source_description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+    },
+    {
+      "recipe_id": "paik_UlsvKb-Bafs_sauce",
+      "name": "만능겉절이양념",
+      "source_url": "https://www.youtube.com/watch?v=UlsvKb-Bafs",
+      "status": "verified_added",
+      "ingredient_excerpt": "멸치액젓 약 1/3컵(50g)\n대파 1/2대(50g)\n굵은 고춧가루 1/3컵(26g)\n황설탕 2큰술(24g)\n간마늘 1큰술(20g)\n깨소금 2큰술(12g)",
+      "servings": null,
+      "source_description_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+    },
+    {
+      "recipe_id": "paik_UlsvKb-Bafs_spring_cabbage",
+      "name": "봄동겉절이",
+      "source_url": "https://www.youtube.com/watch?v=UlsvKb-Bafs",
+      "status": "verified_added",
+      "ingredient_excerpt": "봄동: 양 미표기\n만능겉절이양념: 적당량\n참기름: 약간",
+      "servings": null,
+      "source_description_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+    },
+    {
+      "recipe_id": "paik_UlsvKb-Bafs_minari",
+      "name": "미나리겉절이",
+      "source_url": "https://www.youtube.com/watch?v=UlsvKb-Bafs",
+      "status": "verified_added",
+      "ingredient_excerpt": "미나리: 양 미표기\n만능겉절이양념: 적당량\n참기름: 약간",
+      "servings": null,
+      "source_description_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+    },
+    {
+      "recipe_id": "paik_UlsvKb-Bafs_chamnamul",
+      "name": "참나물겉절이",
+      "source_url": "https://www.youtube.com/watch?v=UlsvKb-Bafs",
+      "status": "verified_added",
+      "ingredient_excerpt": "참나물: 양 미표기\n만능겉절이양념: 적당량\n참기름: 약간",
+      "servings": null,
+      "source_description_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+    },
+    {
+      "recipe_id": "paik_5UVURwno_jA",
+      "name": "크림새우",
+      "source_url": "https://www.youtube.com/watch?v=5UVURwno_jA",
+      "status": "verified_added",
+      "ingredient_excerpt": "*새우튀김\n식용유(튀김용)(1.8L)\n새우 200g\n물 2/3컵(120ml)\n튀김가루 1컵(100g)\n\n*크림소스\n마요네즈 4큰술(80g)\n황설탕 2큰술(24g)\n식초 1큰술(8g)\n레몬즙 약간\n\n*세팅\n크림새우 전량\n양상추 약간",
+      "servings": null,
+      "source_description_sha256": "307f7452d0727a2833626a40e44fe9c544d59259af44e302c7e6a84ff6d6a8b2"
+    },
+    {
+      "recipe_id": "paik_2HZO-YNHFPk_sauce",
+      "name": "양념치킨소스",
+      "source_url": "https://www.youtube.com/watch?v=2HZO-YNHFPk",
+      "status": "verified_added",
+      "ingredient_excerpt": "물엿 4/5컵(220g)\n케찹 1/3컵(75g)\n고추장 1/4컵(45g)\n진간장 3.5큰술(35g)\n간마늘 1/2컵(65g)\n고운고춧가루 3큰술(15g)\n황설탕 1/3컵(50g)",
+      "servings": null,
+      "source_description_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
+    },
+    {
+      "recipe_id": "paik_2HZO-YNHFPk_fried",
+      "name": "후라이드치킨",
+      "source_url": "https://www.youtube.com/watch?v=2HZO-YNHFPk",
+      "status": "verified_added",
+      "ingredient_excerpt": "토막닭(7호) 1마리\n우유 1컵(190g)\n튀김가루(반죽물용) 1컵(120g)\n튀김가루 1컵(120g)\n맛소금 1/2큰술(5g)\n후추 1/3큰술(1g)\n식용유 1.8L",
+      "servings": null,
+      "source_description_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
+    },
+    {
+      "recipe_id": "paik_2HZO-YNHFPk_seasoned",
+      "name": "양념치킨",
+      "source_url": "https://www.youtube.com/watch?v=2HZO-YNHFPk",
+      "status": "verified_added",
+      "ingredient_excerpt": "[ 치킨반죽 ]\n\n토막닭(7호) 1마리\n우유 1컵(190g)\n튀김가루(반죽물용) 1컵(120g)\n튀김가루 1컵(120g)\n맛소금 1/2큰술(5g)\n후추 1/3큰술(1g)\n식용유 1.8L\n\n[ 양념치킨소스 ]\n\n물엿 4/5컵(220g)\n케찹 1/3컵(75g)\n고추장 1/4컵(45g)\n진간장 3.5큰술(35g)\n간마늘 1/2컵(65g)\n고운고춧가루 3큰술(15g)\n황설탕 1/3컵(50g)",
+      "servings": null,
+      "source_description_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
+    },
+    {
+      "recipe_id": "paik_NGjk_1KQGmI_chinese",
+      "name": "중국식볶음밥",
+      "source_url": "https://www.youtube.com/watch?v=NGjk_1KQGmI",
+      "status": "verified_added",
+      "ingredient_excerpt": "밥 1공기(200g)\n달걀 2개(120g)\n대파 1/2컵(40g)\n당근 1/4컵(20g)\n양파 1/4개(50g)\n진간장 1큰술(10g)\n식용유 4큰술(40g)\n참기름 1/3큰술(2g)\nMSG 1/4큰술(2g)\n맛소금 1g",
+      "servings": null,
+      "source_description_sha256": "c22f5edc22e2a04b41303691341a0a1ca7e39d8eb17fd9c72d49eafafececfd9"
+    },
+    {
+      "recipe_id": "paik_NGjk_1KQGmI_pork",
+      "name": "삼겹살볶음밥",
+      "source_url": "https://www.youtube.com/watch?v=NGjk_1KQGmI",
+      "status": "verified_added",
+      "ingredient_excerpt": "밥 1공기(200g)\n삼겹살 100g\n대파 1/2컵(40g)\n당근 1/4컵(20g)\n식용유 1큰술(10g) \n진간장 1큰술(10g)\n달걀 1개(60g)\n맛소금 1g",
+      "servings": null,
+      "source_description_sha256": "c22f5edc22e2a04b41303691341a0a1ca7e39d8eb17fd9c72d49eafafececfd9"
+    },
+    {
+      "recipe_id": "paik_w9ML-v8OG1Y_basic",
+      "name": "파무침(기본형)",
+      "source_url": "https://www.youtube.com/watch?v=w9ML-v8OG1Y",
+      "status": "verified_added",
+      "ingredient_excerpt": "파채 150g\n참기름 약2큰술(12g)\n맛소금 1/3큰술(3.5g)\n굵은고추가루 약1/3큰술(3g)\n고운고추가루 1/3큰술(2g)\n깨소금 약간",
+      "servings": null,
+      "source_description_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
+    },
+    {
+      "recipe_id": "paik_w9ML-v8OG1Y_soy",
+      "name": "파무침(간장형)",
+      "source_url": "https://www.youtube.com/watch?v=w9ML-v8OG1Y",
+      "status": "verified_added",
+      "ingredient_excerpt": "파채 150g\n식초 4큰술(32g)\n진간장 2큰술(20g)\n깨소금 약1큰술(5g)\n굵은고추가루 약1/3큰술(3g)\n고운고추가루 1/3큰술(2g)\n황설탕 약간(2g)\n통깨 약간",
+      "servings": null,
+      "source_description_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
+    },
+    {
+      "recipe_id": "paik_w9ML-v8OG1Y_chogochujang",
+      "name": "파무침(초고추장형)",
+      "source_url": "https://www.youtube.com/watch?v=w9ML-v8OG1Y",
+      "status": "verified_added",
+      "ingredient_excerpt": "파채 150g\n양배추채 150g\n고추장 가득1큰술(50g)\n식초 3큰술(24g)\n황설탕 약1과1/2큰술(17g)\n참기름 1과1/2큰술(10g)\n굵은고추가루 1큰술(8g)\n진간장 1/2큰술(5g)\n고운고추가루 1/3큰술(2g)\n깨소금 약간",
+      "servings": null,
+      "source_description_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
+    },
+    {
+      "recipe_id": "paik__m_HiEJukX4",
+      "name": "파채무침(양배추형)",
+      "source_url": "https://www.youtube.com/watch?v=_m_HiEJukX4",
+      "status": "verified_added",
+      "ingredient_excerpt": "파 채 4컵(200g)\n양배추 약 2컵(100g)\n식초 4와 1/2큰술(36g)\n고추장 약 1과 2/3큰술(36g)\n굵은 고춧가루 3큰술(24g)\n간 마늘 1과 1/5큰술(24g)\n황설탕 1과 2/3큰술(20g)\n참기름 2큰술(14g)\n통깨 약 2큰술(8g)",
+      "servings": null,
+      "source_description_sha256": "af654cb1715145cef372b641ef448165e1b53c1f127bc2c152f2f3c1ccdceb25"
+    },
+    {
+      "recipe_id": "paik_M8RXmDJ3W-s",
+      "name": "돼지고기뭇국",
+      "source_url": "https://www.youtube.com/watch?v=M8RXmDJ3W-s",
+      "status": "verified_added",
+      "ingredient_excerpt": "식용유 약3큰술(23g)\n돼지고기 후지 200g\n진간장 4큰술(40g)\n정수물 10컵(1800ml)\n무 약1/4개(575g)\n간 생강 1/10큰술(2g)\n맛소금 약1/3큰술(5g)\n대파 약 1컵(60g)\n후춧가루 약간",
+      "servings": null,
+      "source_description_sha256": "97ff203d5c191ccf20cfa76bc86c5e4172b33eb0e85aa31bdf14c2bb1b0c7f9d"
+    },
+    {
+      "recipe_id": "paik_rLDquEv-ZJg",
+      "name": "황태미역국",
+      "source_url": "https://www.youtube.com/watch?v=rLDquEv-ZJg",
+      "status": "verified_added",
+      "ingredient_excerpt": "정수물 약 8과 1/2컵(1.5L)\n불린 미역 2컵(180g)\n황태채 2컵(50g)\n국간장 2큰술(20g)\n멸치액젓 약 1과 2/3큰술(14g)\n참기름 약 1과 1/2큰술(10g)\n간 마늘 약 2/3큰술(10g)\n꽃소금 1/4큰술(3g)",
+      "servings": 4,
+      "source_description_sha256": "fe5fac3e0a9e43b9f4a3d9bae62ebec8ee4b9152d7a15f7f8a45b657aff51a28"
+    },
+    {
+      "recipe_id": "paik_87zznFb0-us",
+      "name": "빨간어묵",
+      "source_url": "https://www.youtube.com/watch?v=87zznFb0-us",
+      "status": "verified_added",
+      "ingredient_excerpt": "정수물 1병(500ml)\n사각어묵 10장(350g)\n대파 약1대(70g)\n양파 1/4개(60g)\n청양고추 2개(20g)\n황설탕 2큰술(24g)\n고추장 2큰술(40g)\n진간장 2큰술(20g)\n굵은고추가루 1/2큰술(4g)\n고운고추가루 1/2큰술(3g)\n후추가루 약간",
+      "servings": null,
+      "source_description_sha256": "a5a3183e21680ceef739e180278d166bb4ba8e23ec8ad5c0d2c410354277b158"
+    },
+    {
+      "recipe_id": "paik_9YlFFVisCBY",
+      "name": "통옥수수구이",
+      "source_url": "https://www.youtube.com/watch?v=9YlFFVisCBY",
+      "status": "verified_added",
+      "ingredient_excerpt": "삶은 옥수수 2개\n마요네즈 5큰술(80g)\n황설탕 2큰술(24g)\n파마산 치즈가루 적당량\n고운 고춧가루 적당량",
+      "servings": null,
+      "source_description_sha256": "d63eeaf98616c7eeeef253b891e980911afff0f81ab168030e1e58f291971edf"
+    },
+    {
+      "recipe_id": "paik_-A0iP6Uzy3A",
+      "name": "떡어묵꼬치",
+      "source_url": "https://www.youtube.com/watch?v=-A0iP6Uzy3A",
+      "status": "verified_added",
+      "ingredient_excerpt": "밀떡볶이떡 16개(약200g)\n봉어묵 4개(약100g)\n식용유 5큰술(35g)\n마요네즈 가득1큰술(30g)\n설탕 약1큰술(11g)\n식초 약1큰술(8g)\n고운고추가루 약1/2큰술(4g)\n연유 적당량",
+      "servings": null,
+      "source_description_sha256": "af273387cc306d6cce154c4a67f6060170a5ca9cf7122f5579dbaa6a991ece3e"
+    },
+    {
+      "recipe_id": "paik_OSYQHa-vbVU_sauce",
+      "name": "소떡어떡소스",
+      "source_url": "https://www.youtube.com/watch?v=OSYQHa-vbVU",
+      "status": "verified_added",
+      "ingredient_excerpt": "황설탕 3큰술(36g)\n진간장 1큰술(10g)\n케첩 2큰술(40g)\n고추장 ½큰술(10g) \n물 1/3컵(60ml)",
+      "servings": null,
+      "source_description_sha256": "ab1aa68e39201698ccd1a002f7e803a2596f24ad8fbcc85af42a6fe5d2f0fdc6"
+    },
+    {
+      "recipe_id": "paik_OSYQHa-vbVU",
+      "name": "소떡어떡",
+      "source_url": "https://www.youtube.com/watch?v=OSYQHa-vbVU",
+      "status": "verified_added",
+      "ingredient_excerpt": "떡볶이떡 적당량\n김밥햄 적당량\n비엔나소시지 적당량\n사각어묵 적당량\n이쑤시개 or 꼬지  \n\n\n식용유: 넉넉히 (조리 과정에만 기재)\n소떡어떡소스: 기호에 맞게",
+      "servings": null,
+      "source_description_sha256": "ab1aa68e39201698ccd1a002f7e803a2596f24ad8fbcc85af42a6fe5d2f0fdc6"
+    },
+    {
+      "recipe_id": "paik_-8qL_l94cJ8_sauce",
+      "name": "누룽지백숙양념장",
+      "source_url": "https://www.youtube.com/watch?v=-8qL_l94cJ8",
+      "status": "verified_added",
+      "ingredient_excerpt": "대파 1컵 (60g)\n청양고추 2개 (20g)\n다진마늘 ½큰술 (10g)\n고춧가루 1/3컵 (30g)\n액젓 ¼컵 (55g)\n식초 ¼컵 (45g)\n설탕 ¼컵 (35g)\n미림 ¼컵 (45g)\n간장 ¼컵 (50g)",
+      "servings": null,
+      "source_description_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
+    },
+    {
+      "recipe_id": "paik_-8qL_l94cJ8_pot",
+      "name": "누룽지백숙(냄비)",
+      "source_url": "https://www.youtube.com/watch?v=-8qL_l94cJ8",
+      "status": "verified_added",
+      "ingredient_excerpt": "닭 1마리 (약 750g)\n정수물 1L\n찹쌀 1컵 (160g)\n통마늘 ½컵 (55g)\n대파 ½대 (50g)\n양파 ½개 (125g)\n소금 1/3큰술 (4g)",
+      "servings": 2,
+      "source_description_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
+    },
+    {
+      "recipe_id": "paik_-8qL_l94cJ8_rice_cooker",
+      "name": "누룽지백숙(전기밥솥)",
+      "source_url": "https://www.youtube.com/watch?v=-8qL_l94cJ8",
+      "status": "verified_added",
+      "ingredient_excerpt": "닭 1마리 (약 750g)\n정수물 3컵 (540ml)\n찹쌀 1컵 (160g)\n통마늘 ½컵 (55g)\n대파 ½대 (50g)\n양파 ½개 (125g)\n소금 1/3큰술 (4g)",
+      "servings": 2,
+      "source_description_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
+    },
+    {
+      "recipe_id": "paik_0wqp-Ii5wQM_sauce",
+      "name": "부추완자전양념간장",
+      "source_url": "https://www.youtube.com/watch?v=0wqp-Ii5wQM",
+      "status": "verified_added",
+      "ingredient_excerpt": "식초 2큰술(16g)\n진간장 1큰술(10g) \n황설탕 약간\n양파 약간\n청양고추 약간",
+      "servings": null,
+      "source_description_sha256": "1e8bd1fc2f6c335b67ea178d5ae5f740d6f9686e2b7a9bfdf99158bd7b8c65a7"
+    },
+    {
+      "recipe_id": "paik_0wqp-Ii5wQM",
+      "name": "부추완자전",
+      "source_url": "https://www.youtube.com/watch?v=0wqp-Ii5wQM",
+      "status": "verified_added",
+      "ingredient_excerpt": "다진 돼지고기 2컵(300g)\n두부 1/2모(150g)\n대파 1대(100g)\n부추 약 12줄(60g)\n부침가루 약 1/3컵(40g)\n진간장 3큰술(30g)\n청양고추 2개(20g)\n간 마늘 약 2/3큰술(15g)\n달걀 2개\n식용유 적당량\n맛소금 약간\n후춧가루 약간",
+      "servings": null,
+      "source_description_sha256": "1e8bd1fc2f6c335b67ea178d5ae5f740d6f9686e2b7a9bfdf99158bd7b8c65a7"
+    },
+    {
+      "recipe_id": "paik_6AmBDFIJRE8_sauce",
+      "name": "백순대볶음소스",
+      "source_url": "https://www.youtube.com/watch?v=6AmBDFIJRE8",
+      "status": "verified_added",
+      "ingredient_excerpt": " \n\n초고추장 4큰술(40g)\n간 마늘 1큰술(10g)\n들깻가루 1과1/2큰술(15g)\n들기름 1큰술 (7g)\n물 2큰술(20g)\n된장 2/3큰술(10g)",
+      "servings": null,
+      "source_description_sha256": "4d6a4c5ce01e586eeae2e86558493a44af2ab75d94395bb7199312ef781fc201"
+    },
+    {
+      "recipe_id": "paik_6AmBDFIJRE8",
+      "name": "백순대볶음",
+      "source_url": "https://www.youtube.com/watch?v=6AmBDFIJRE8",
+      "status": "verified_added",
+      "ingredient_excerpt": "순대 400g\n양파 1/2개(100g)\n대파 1대(150g)\n새송이 1/2개(50g)\n당근 1/6개(30g)\n통마늘 10알(40g)\n양배추 1/6통(80g)\n깻잎 10장(20g) \n청양고추 3개(30g)\n들기름 1/4컵(30g)\n식용유 1/4컵(30g)\n설탕 1/2큰술(5g)\n소금 1/2큰술(5g)\n들깻가루 1과1/2큰술(15g)\n불린 당면 50g\n후춧가루 적당량\n깨소금 적당량\n물 적당량\n\n\n",
+      "servings": null,
+      "source_description_sha256": "4d6a4c5ce01e586eeae2e86558493a44af2ab75d94395bb7199312ef781fc201"
+    },
+    {
+      "recipe_id": "paik_7S9VN54ldnU_sauce",
+      "name": "만능짜장소스",
+      "source_url": "https://www.youtube.com/watch?v=7S9VN54ldnU",
+      "status": "verified_added",
+      "ingredient_excerpt": "다진 돼지고기 2컵(320g)\n대파 1대(100g)\n양파 2개(360g)\n춘장 1개(300g)\n식용유 4/5컵(120g)\n간생강 1/3큰술(3g)\n설탕 3/5컵(90g)\n굴 소스 1/2컵(100g)\n진간장 1/3컵(60g)\nMSG 1큰술(10g)",
+      "servings": null,
+      "source_description_sha256": "186a0fd5b4b0a2f42dadc94ac88b32398c982c9d6d06f1a20f33c5dab5e066dc"
+    },
+    {
+      "recipe_id": "paik_7S9VN54ldnU",
+      "name": "짜장떡볶이",
+      "source_url": "https://www.youtube.com/watch?v=7S9VN54ldnU",
+      "status": "verified_added",
+      "ingredient_excerpt": "떡볶이 떡 200g\n어묵 2장(80g)\n대파 1/2대(60g)\n물 1과1/3컵(250ml)\n만능짜장소스 1/2컵(90g)\n고추장 2/3큰술(10g)\n설탕 1큰술(10g)\n삶은 달걀",
+      "servings": null,
+      "source_description_sha256": "186a0fd5b4b0a2f42dadc94ac88b32398c982c9d6d06f1a20f33c5dab5e066dc"
+    },
+    {
+      "recipe_id": "paik_4SEy2py0W_w",
+      "name": "골뱅이파채무침",
+      "source_url": "https://www.youtube.com/watch?v=4SEy2py0W_w",
+      "status": "verified_added",
+      "ingredient_excerpt": "골뱅이 1캔(230g)\n파채 약1과1/2컵(80g)\n황태채 1컵(25g)\n황설탕 1과1/3큰술(16g)\n양조식초 약2와1/2큰술(21g)\n굵은 고춧가루 1/4큰술(2g)\n간 마늘 1큰술(20g)\n꽃소금 1g",
+      "servings": null,
+      "source_description_sha256": "05c8f4b24ad820285deb392c98a27ec84d8f2c3f2bf6aff1c9f0a898eca1d68b"
+    },
+    {
+      "recipe_id": "paik__l_cJyxNkhc_chili_oil",
+      "name": "고추기름(대파형)",
+      "source_url": "https://www.youtube.com/watch?v=_l_cJyxNkhc",
+      "status": "verified_added",
+      "ingredient_excerpt": "굵은고춧가루 3큰술(15g)\n식용유 1/3컵(60g)\n대파 1/4컵(20g)\n참기름 1큰술(7g)",
+      "servings": null,
+      "source_description_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
+    },
+    {
+      "recipe_id": "paik__l_cJyxNkhc_wasabi_mayo",
+      "name": "고추냉이마요소스",
+      "source_url": "https://www.youtube.com/watch?v=_l_cJyxNkhc",
+      "status": "verified_added",
+      "ingredient_excerpt": "마요네즈 3큰술(45g)\n식초 1큰술(10g)\n황설탕 1과1/2큰술(15g)\n꽃소금 한꼬집\n간마늘 1큰술(15g)\n고추냉이 2/3큰술(10g)\n진간장: 양 미표기 (조리 과정에만 기재)",
+      "servings": null,
+      "source_description_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
+    },
+    {
+      "recipe_id": "paik__l_cJyxNkhc",
+      "name": "닭다리살대파무침",
+      "source_url": "https://www.youtube.com/watch?v=_l_cJyxNkhc",
+      "status": "verified_added",
+      "ingredient_excerpt": "닭다리살 1개\n후춧가루(밑간용) 적당량\n맛소금(밑간용) 적당량\n양파 20g\n파채 100g",
+      "servings": null,
+      "source_description_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
+    },
+    {
+      "recipe_id": "paik_iWWQBoS3SL4_sauce",
+      "name": "고추장비빔국수양념장",
+      "source_url": "https://www.youtube.com/watch?v=iWWQBoS3SL4",
+      "status": "verified_added",
+      "ingredient_excerpt": "고추장 약1/3컵(80g)\n양조식초 약4큰술(30g)\n황설탕 3큰술(36g)\n진간장 1큰술(10g)\n고운고춧가루 1/2큰술(3g)\n간마늘 1큰술(20g)",
+      "servings": null,
+      "source_description_sha256": "511e4da0587ae5367a015564cf0d32d2900a91ccef5f3719c2258eececb86291"
+    },
+    {
+      "recipe_id": "paik_iWWQBoS3SL4",
+      "name": "고추장비빔국수",
+      "source_url": "https://www.youtube.com/watch?v=iWWQBoS3SL4",
+      "status": "verified_added",
+      "ingredient_excerpt": "소면 200g\n깨소금 6큰술(36g)\n양념장 적당량\n참기름 적당량",
+      "servings": 2,
+      "source_description_sha256": "511e4da0587ae5367a015564cf0d32d2900a91ccef5f3719c2258eececb86291"
+    },
+    {
+      "recipe_id": "paik_Om6W3JBfmFU",
+      "name": "대패삼겹살두루치기",
+      "source_url": "https://www.youtube.com/watch?v=Om6W3JBfmFU",
+      "status": "verified_added",
+      "ingredient_excerpt": "대패삼겹살 1팩(600g)\n파 채 1팩 (160g)\n양배추 1/16통(150g)\n통마늘 2/3컵(50g)\n\n*대패삼겹살 간장 소스\n \n진간장 ½컵(100g) \n정수물 약½컵(100g) \n맛술 약½컵(100g) \n황설탕 1큰술(12g)\n\n*파채무침 초고추장 소스\n\n굵은 고춧가루 5큰술(40g)\n식초 4큰술(32g)\n고추장 1과 1/2큰술(30g)\n정수물 3큰술(30g)\n황설탕 1과1/2큰술(18g)\n참기름 2큰술(14g)\n\n",
+      "servings": null,
+      "source_description_sha256": "4b7ab58102f490431e2a7135e840fb9ecb72338b916636a4bf789b6a45773d5e"
+    },
+    {
+      "recipe_id": "paik_Om6W3JBfmFU_rice",
+      "name": "대패두루치기볶음밥",
+      "source_url": "https://www.youtube.com/watch?v=Om6W3JBfmFU",
+      "status": "verified_added",
+      "ingredient_excerpt": "밥 2공기\n대패삼겹살 두루치기 적당량 \n김치 적당량\n김가루 적당량\n참기름 약간",
+      "servings": null,
+      "source_description_sha256": "4b7ab58102f490431e2a7135e840fb9ecb72338b916636a4bf789b6a45773d5e"
+    },
+    {
+      "recipe_id": "paik_oUvPWwmvoPM_sauce",
+      "name": "순대볶음양념장",
+      "source_url": "https://www.youtube.com/watch?v=oUvPWwmvoPM",
+      "status": "verified_added",
+      "ingredient_excerpt": "진간장 약 4큰술(38g)\n간 마늘 약 2큰술(38g)\n굵은 고춧가루 3과 1/2큰술(28g)\n황설탕 1과 1/3큰술(16g)\n고추장 약 2/3큰술(15g)\n물 1/2컵(90g)\n후춧가루 약간",
+      "servings": null,
+      "source_description_sha256": "b8ee31a6aea44a8c5a9fa65dfe737ff4b9de8ed4b685112937cbe25a82655d57"
+    }
+  ]
+}

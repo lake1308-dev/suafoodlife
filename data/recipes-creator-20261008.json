@@ -1,6 +1,6 @@
 {
-  "version": "1.21.1",
-  "record_count": 147,
+  "version": "1.22.0",
+  "record_count": 201,
   "recipes": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -121,7 +121,7 @@
       ],
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기",
           "새우"
@@ -200,7 +200,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두"
         ],
@@ -270,7 +270,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "쇠고기"
         ],
@@ -484,7 +484,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -908,7 +908,7 @@
       },
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "쇠고기"
         ],
@@ -980,7 +980,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "닭고기"
         ],
@@ -1050,7 +1050,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "밀",
           "알류"
@@ -1131,7 +1131,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -1204,7 +1204,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -1511,7 +1511,7 @@
       ],
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두",
           "알류"
@@ -1590,7 +1590,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두",
           "돼지고기",
@@ -1676,7 +1676,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -1744,7 +1744,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "쇠고기"
         ],
@@ -1992,7 +1992,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -2170,7 +2170,7 @@
       ],
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "오징어"
         ],
@@ -2302,7 +2302,7 @@
       ],
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두"
         ],
@@ -2550,7 +2550,7 @@
       },
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -2612,7 +2612,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -2742,7 +2742,7 @@
       ],
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두"
         ],
@@ -3033,7 +3033,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -3458,7 +3458,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -3529,7 +3529,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -3595,7 +3595,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -3659,7 +3659,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "밀"
         ],
@@ -3816,7 +3816,7 @@
       ],
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -3880,7 +3880,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두",
           "새우"
@@ -3960,7 +3960,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "닭고기"
         ],
@@ -3977,7 +3977,8 @@
           "맛술",
           "진간장",
           "만능양념장",
-          "우동사리"
+          "우동사리",
+          "떡볶이떡"
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
@@ -4036,7 +4037,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "밀",
           "알류"
@@ -4121,7 +4122,7 @@
       "portion_notice": "원본에 전체 조리 분량과 1인분 상차림이 함께 있어 자동 환산은 보류했습니다. 각 재료의 기준을 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기",
           "우유"
@@ -4204,7 +4205,7 @@
       "portion_notice": "원본에 전체 조리 분량과 1인분 상차림이 함께 있어 자동 환산은 보류했습니다. 각 재료의 기준을 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -4324,7 +4325,7 @@
       ],
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "새우",
           "알류"
@@ -4400,7 +4401,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다. 이 영상은 양세형이 소개하는 감자짜글이입니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -4767,7 +4768,7 @@
       ],
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "쇠고기",
           "알류"
@@ -4787,6 +4788,7 @@
           }
         ],
         "check_product_labels": [
+          "떡국떡",
           "국간장",
           "멸치액젓"
         ],
@@ -4846,7 +4848,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "쇠고기",
           "알류"
@@ -4873,6 +4875,7 @@
         ],
         "check_product_labels": [
           "식용유",
+          "떡국 떡",
           "멸치액젓",
           "국간장",
           "식용유 적당량"
@@ -4935,7 +4938,7 @@
       "portion_notice": "원본에 준비용 전체 분량과 한 줄·한 그릇·고명용 분량이 함께 있어 자동 환산은 보류했습니다. 각 재료의 기준을 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -5063,7 +5066,7 @@
       ],
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두"
         ],
@@ -5276,7 +5279,7 @@
       "portion_notice": "원본에 준비용 전체 분량과 한 줄·한 그릇·고명용 분량이 함께 있어 자동 환산은 보류했습니다. 각 재료의 기준을 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -5350,7 +5353,7 @@
       "portion_notice": "원본에 준비용 전체 분량과 한 줄·한 그릇·고명용 분량이 함께 있어 자동 환산은 보류했습니다. 각 재료의 기준을 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -5594,7 +5597,7 @@
       },
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [],
@@ -5650,7 +5653,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다. 원본 재료 목록에 있는 참기름·통깨의 투입 시점은 설명에 없어 공식 영상을 참고해 주세요. 원본 재료 목록에는 참기름과 통깨가 있지만 설명란의 과정에 사용 시점이 적혀 있지 않습니다. 넣는 시점은 공식 영상을 참고해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "오징어"
         ],
@@ -5899,7 +5902,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "쇠고기"
         ],
@@ -5970,7 +5973,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -6040,7 +6043,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "고등어"
         ],
@@ -6202,7 +6205,7 @@
       ],
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기",
           "새우"
@@ -6285,7 +6288,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -6351,7 +6354,7 @@
       "portion_notice": "원본은 3~4인분 기준입니다. 한 가지 인분 수로 확정하지 않아 자동 환산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두",
           "새우",
@@ -6438,7 +6441,7 @@
       "portion_notice": "원본에 준비용 전체 분량과 한 줄·한 그릇·고명용 분량이 함께 있어 자동 환산은 보류했습니다. 각 재료의 기준을 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기",
           "알류"
@@ -6517,7 +6520,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두",
           "알류"
@@ -6706,7 +6709,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -6783,7 +6786,7 @@
       "portion_notice": "원본에 준비용 전체 분량과 한 줄·한 그릇·고명용 분량이 함께 있어 자동 환산은 보류했습니다. 각 재료의 기준을 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "메밀"
         ],
@@ -6858,7 +6861,7 @@
       "portion_notice": "원본의 한 줄 또는 두 줄 기준이며 인분 수는 확정하지 않았습니다. 김밥용 밥의 밑간 준비는 같은 공식 영상을 참고해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -6931,7 +6934,7 @@
       "portion_notice": "원본의 한 줄 또는 두 줄 기준이며 인분 수는 확정하지 않았습니다. 김밥용 밥의 밑간 준비는 같은 공식 영상을 참고해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -7000,7 +7003,7 @@
       "portion_notice": "원본의 한 줄 또는 두 줄 기준이며 인분 수는 확정하지 않았습니다. 김밥용 밥의 밑간 준비는 같은 공식 영상을 참고해 주세요. 밥 밑간은 약 6줄 준비용, 유부달걀김밥 재료는 약 2줄 기준입니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -7077,7 +7080,7 @@
       "editorial_notice": "공식 영상에 함께 소개된 별도 레시피의 재료와 조리 순서를 확인해 Food Life가 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -7141,7 +7144,7 @@
       "editorial_notice": "공식 영상에 함께 소개된 별도 레시피의 재료와 조리 순서를 확인해 Food Life가 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "쇠고기",
           "알류"
@@ -7418,7 +7421,7 @@
       },
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -7482,7 +7485,7 @@
       "portion_notice": "원본의 밥 1공기 기준입니다. 잡채 사용량은 미표기되어 자동 환산과 전체 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -7565,7 +7568,7 @@
       "editorial_notice": "공식 영상에 함께 소개된 별도 조리법을 확인해 Food Life가 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다. 같은 재료를 팬에 볶는 방법과 구분해 데치는 방법을 표시했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -7989,7 +7992,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -8135,7 +8138,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다. 기본 미역냉국입니다. 원본에서 오이·새우·소면은 선택 추가 재료로 안내하며 기본 재료 목록과 구분됩니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -8198,7 +8201,7 @@
       "portion_notice": "샐러드는 토스트 2개를 만드는 준비량입니다. 토스트 완성 재료는 1개 기준이며 인분 수는 확정하지 않아 자동 환산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -8266,7 +8269,7 @@
       "portion_notice": "샐러드는 토스트 2개를 만드는 준비량입니다. 토스트 완성 재료는 1개 기준이며 인분 수는 확정하지 않아 자동 환산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "우유"
         ],
@@ -8487,7 +8490,7 @@
       },
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "새우"
         ],
@@ -8561,7 +8564,7 @@
       "portion_notice": "원본은 약 3인분 또는 4인 가족 분량으로 안내합니다. 인분 수를 하나로 확정하지 않아 자동 환산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -8630,7 +8633,7 @@
       "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "새우"
         ],
@@ -8919,7 +8922,7 @@
       "portion_notice": "전체 재료량과 인분 수가 명시되지 않아 자동 환산과 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -8984,7 +8987,7 @@
       "portion_notice": "초간장은 별도 곁들이는 양념입니다. 실제 먹는 양과 인분 수가 명시되지 않아 자동 환산과 전체 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "새우"
         ],
@@ -9062,7 +9065,7 @@
       "portion_notice": "원본은 전 2장 분량이며 2인분으로 확정하지 않습니다. 달걀 무게와 후춧가루 양도 미지정이어서 전체 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기",
           "알류"
@@ -9143,7 +9146,7 @@
       "portion_notice": "가지밥은 원본 4인분입니다. 양념장을 먹는 양과 선택 달걀의 무게가 불명확해 전체 영양 계산과 자동 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -9205,7 +9208,7 @@
       "portion_notice": "곁들이는 양념장은 별도 분량입니다. 인분 수와 실제 양념장 섭취량이 미지정이어서 전체 영양 계산과 자동 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -9277,7 +9280,7 @@
       "portion_notice": "두부 데치는 물에도 참기름을 넣는 과정이 있지만 재료 목록의 참기름을 각 단계에 나누는 양은 미지정입니다. 섭취량과 인분 수를 확인하기 전 전체 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두",
           "돼지고기"
@@ -9356,7 +9359,7 @@
       "portion_notice": "원본은 1~2인분 범위입니다. 달걀 무게와 식용유 양이 미지정이어서 인분 수를 확정하거나 전체 영양값을 계산하지 않았습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -9429,7 +9432,7 @@
       "portion_notice": "튀김용 식용유는 별도이며 흡수량이 미확인입니다. 재료 목록의 식용유 40g만으로 튀김 전체 영양값을 계산하지 않습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -9490,7 +9493,7 @@
       "portion_notice": "인분 수와 일부 재료 또는 실제 섭취량이 불명확해 자동 환산과 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -9554,7 +9557,7 @@
       "portion_notice": "인분 수와 일부 재료 또는 실제 섭취량이 불명확해 자동 환산과 영양 계산을 보류했습니다. 만능볶음요리소스는 이 사이트의 같은 이름 레시피에서 준비합니다. 소스용 간장·굴소스·전분 등의 제품 알레르기 표시도 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -9632,7 +9635,7 @@
       "portion_notice": "인분 수와 일부 재료 또는 실제 섭취량이 불명확해 자동 환산과 영양 계산을 보류했습니다. 만능볶음요리소스는 이 사이트의 같은 이름 레시피에서 준비합니다. 소스용 간장·굴소스·전분 등의 제품 알레르기 표시도 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -9710,7 +9713,7 @@
       "portion_notice": "인분 수와 일부 재료 또는 실제 섭취량이 불명확해 자동 환산과 영양 계산을 보류했습니다. 만능볶음요리소스는 이 사이트의 같은 이름 레시피에서 준비합니다. 소스용 간장·굴소스·전분 등의 제품 알레르기 표시도 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -9787,7 +9790,7 @@
       "portion_notice": "인분 수와 일부 재료 또는 실제 섭취량이 불명확해 자동 환산과 영양 계산을 보류했습니다. 만능볶음요리소스는 이 사이트의 같은 이름 레시피에서 준비합니다. 소스용 간장·굴소스·전분 등의 제품 알레르기 표시도 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -9864,7 +9867,7 @@
       "portion_notice": "인분 수와 일부 재료 또는 실제 섭취량이 불명확해 자동 환산과 영양 계산을 보류했습니다. 만능볶음요리소스는 이 사이트의 같은 이름 레시피에서 준비합니다. 소스용 간장·굴소스·전분 등의 제품 알레르기 표시도 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -9944,7 +9947,7 @@
       "portion_notice": "인분 수와 일부 재료 또는 실제 섭취량이 불명확해 자동 환산과 영양 계산을 보류했습니다. 만능볶음요리소스는 이 사이트의 같은 이름 레시피에서 준비합니다. 소스용 간장·굴소스·전분 등의 제품 알레르기 표시도 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -10005,7 +10008,7 @@
       "portion_notice": "인분 수와 일부 재료 또는 실제 섭취량이 불명확해 자동 환산과 영양 계산을 보류했습니다. 만능볶음요리소스는 이 사이트의 같은 이름 레시피에서 준비합니다. 소스용 간장·굴소스·전분 등의 제품 알레르기 표시도 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -10079,7 +10082,7 @@
       "portion_notice": "고기 삶는 물과 조림용 물은 별도입니다. 버리는 삶은 물과 남기는 양념장 성분이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "쇠고기"
         ],
@@ -10154,7 +10157,7 @@
       "portion_notice": "육수 준비량과 전골에 쓰는 양은 서로 다릅니다. 어묵 제품별 성분과 곁들이는 양념 섭취량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -10171,7 +10174,8 @@
           "진간장",
           "맛술",
           "모둠어묵",
-          "사각어묵"
+          "사각어묵",
+          "멸치육수"
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
@@ -10231,7 +10235,7 @@
       "portion_notice": "스크램블용과 파기름용 식용유는 각각 30g입니다. 달걀 무게와 소금 양이 미지정이라 전체 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류",
           "토마토"
@@ -10314,7 +10318,7 @@
       "portion_notice": "라면 제품과 고춧가루 무게가 미지정이며 삶은 물을 버리는 과정이 있어 전체 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "우유"
         ],
@@ -10386,7 +10390,7 @@
       "portion_notice": "원본은 1인분입니다. 달걀과 청양고추 무게가 미지정이라 전체 영양 계산과 자동 환산을 보류했습니다. 재료량은 원본 인분에 비례한 참고값입니다. 기호에 따른 간과 실제 조리 시간·불 세기는 직접 조절해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -10526,7 +10530,7 @@
       "portion_notice": "원본은 1인분이며 메밀면 대신 라면사리를 사용합니다. 라면 제품과 무게가 미지정이라 전체 영양 계산을 보류했습니다. 재료량은 원본 인분에 비례한 참고값입니다. 양념은 입맛에 맞게 조절하고 조리 시간과 불 세기는 비례해서 바꾸지 마세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -10641,7 +10645,7 @@
       "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "밀",
           "알류"
@@ -10717,7 +10721,7 @@
       "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "밀",
           "알류"
@@ -10795,7 +10799,7 @@
       "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "밀",
           "알류"
@@ -10871,7 +10875,7 @@
       "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "밀",
           "알류"
@@ -10947,7 +10951,7 @@
       "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "밀",
           "쇠고기",
@@ -11030,7 +11034,7 @@
       "portion_notice": "밀가루·달걀물·소금·기름은 양이 미지정입니다. 전체 영양 계산과 인분 환산을 보류했습니다. 영상의 다른 전 재료는 이 목록에 합치지 않았습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "밀",
           "새우",
@@ -11116,7 +11120,7 @@
       "portion_notice": "일부 재료량·제품 성분·실제 섭취량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "우유"
         ],
@@ -11135,6 +11139,7 @@
           }
         ],
         "check_product_labels": [
+          "통조림 옥수수",
           "튀김가루",
           "식용유",
           "파마산 치즈가루"
@@ -11196,7 +11201,7 @@
       "portion_notice": "일부 재료량·제품 성분·실제 섭취량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다. 옥수수 통조림의 표시 중량과 물기를 뺀 실제 먹는 중량이 다를 수 있습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "우유"
         ],
@@ -11275,7 +11280,7 @@
       "portion_notice": "일부 재료량·제품 성분·실제 섭취량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다. 옥수수 통조림의 표시 중량과 물기를 뺀 실제 먹는 중량이 다를 수 있습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "우유"
         ],
@@ -11432,7 +11437,7 @@
       },
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -11491,7 +11496,7 @@
       "portion_notice": "가지밥에 곁들이는 소스 준비량입니다. 진간장 120ml의 무게 환산과 실제 섭취량이 미확인이라 전체 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -11690,7 +11695,7 @@
       },
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -11753,7 +11758,7 @@
       "portion_notice": "공식 영상의 오리지널 방식으로 파마산 치즈가루를 추가하는 방식과 구분했습니다. 통조림의 물기 뺀 중량과 기름 섭취량이 미확인이라 전체 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "우유"
         ],
@@ -11766,6 +11771,7 @@
           }
         ],
         "check_product_labels": [
+          "통조림 옥수수",
           "튀김가루",
           "식용유"
         ],
@@ -11830,7 +11836,7 @@
       "portion_notice": "원본은 약 3인분입니다. 달걀 무게와 생강·후추 양이 미지정이라 전체 영양 계산과 자동 환산을 보류했습니다. 재료량은 원본 인분에 비례한 참고값입니다. 기호에 따른 간과 실제 조리 시간·불 세기는 직접 조절해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "닭고기",
           "알류"
@@ -12001,7 +12007,7 @@
       "portion_notice": "생닭과 삶은 닭은 같은 닭을 준비 단계와 완성 단계에 나눠 적은 것입니다. 밥 4공기를 4인분으로 확정하지 않았으며 뼈·육수의 섭취량이 미확인이라 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "닭고기"
         ],
@@ -12074,7 +12080,7 @@
       "portion_notice": "닭곰탕 영상의 육수 준비 단계입니다. 닭고기는 따로 건져 완성 곰탕에 사용합니다. 뼈와 건더기를 포함한 재료 합계를 육수의 영양값으로 계산하지 않았습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "닭고기"
         ],
@@ -12146,7 +12152,7 @@
       "portion_notice": "원본은 4인분입니다. 달걀 무게·국간장 밀도·불린 당면의 수분량이 미확인이라 전체 영양 계산과 자동 환산을 보류했습니다. 당면을 불리는 약 30분은 별도 준비 시간입니다. 재료량은 원본 인분에 비례한 참고값입니다. 기호에 따른 간과 실제 조리 시간·불 세기는 직접 조절해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "쇠고기",
           "알류"
@@ -12322,7 +12328,7 @@
       "portion_notice": "면 삶는 물의 소금과 실제 섭취하는 소금량은 다릅니다. 면수를 더하는 양과 제품별 성분도 미확인이라 전체 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "밀",
           "우유"
@@ -12409,7 +12415,7 @@
       "portion_notice": "만능양파볶음 45g을 미리 준비해 사용합니다. 밥 200g은 원본 조리 과정에 명시된 양을 재료 목록에 보완했습니다. 달걀 무게와 양념 제품 성분이 미확인이라 전체 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -12488,7 +12494,7 @@
       "portion_notice": "양파 15kg은 껍질 포함 무게입니다. 원본은 대용량 준비법이며 손질 후 중량과 추가 기름량이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -12552,7 +12558,7 @@
       "portion_notice": "원본은 1인분입니다. 달걀 무게와 식용유·훈연멸치가루 양이 미지정이라 전체 영양 계산을 보류했습니다. 재료량은 원본 인분에 비례한 참고값입니다. 기호에 따른 간과 실제 조리 시간·불 세기는 직접 조절해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "닭고기",
           "알류"
@@ -12699,7 +12705,7 @@
       "portion_notice": "원본은 100인분, 1인 약 200g 제공 기준입니다. 절임물과 삶는 물로 빠지는 소금·성분 및 생크림·식초의 무게 환산이 미확인이라 전체 영양 계산은 보류했습니다. 선택 응용인 소시지·달걀·옥수수는 기본 목록에 합치지 않았습니다. 재료량은 원본 인분에 비례한 참고값입니다. 기호에 따른 간과 실제 조리 시간·불 세기는 직접 조절해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "우유"
         ],
@@ -12865,7 +12871,7 @@
       "portion_notice": "미리 준비한 만능양념장 100g이 필요합니다. 이 영상 설명란에는 양념장 배합과 간 마늘의 사용 시점이 명시되지 않아 공식 영상을 함께 확인해 주세요. 양념장 제품·배합이 미확인이라 전체 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두",
           "돼지고기"
@@ -12944,7 +12950,7 @@
       "portion_notice": "원본의 1분은 면이 풀린 뒤의 추가 조리 시간입니다. 떡은 원본 재료에 없습니다. 라면 제품과 수프 사용량에 따라 영양값이 달라져 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -13007,7 +13013,7 @@
       "portion_notice": "원본은 인분 수를 명시하지 않았습니다. 마요네즈·훈연멸치가루 등의 양과 제품 성분이 미확인이라 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -13082,7 +13088,7 @@
       "portion_notice": "원본은 진라면 순한맛을 사용합니다. 김의 무게와 실제 먹는 소스 양이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -13145,7 +13151,7 @@
       "portion_notice": "원문은 콩나물을 2컵(20g)으로 적어 컵 수와 무게의 일치 여부를 추가 확인해야 합니다. 정수물 1컵(190g)은 냉국물용이며 면 삶는 물은 별도입니다. 영양 계산과 인분 환산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두"
         ],
@@ -13215,7 +13221,7 @@
       "portion_notice": "골뱅이 400g은 통조림 표기량이며 건더기 무게와 사용 국물 양은 미확인입니다. 영양 계산과 인분 환산을 보류했습니다. 골뱅이 통조림은 조개류 등 알레르기 표시를 반드시 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -13276,7 +13282,7 @@
       "portion_notice": "소금물에 담근 뒤 씻어내는 과정이 있어 절임용 소금 전량을 먹는 양으로 계산하지 않습니다. 쌀뜨물 성분과 인분 수가 미확인이라 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [],
@@ -13334,7 +13340,7 @@
       "portion_notice": "재료 250g은 불린 고사리 기준입니다. 쌀뜨물 성분과 마무리 깨소금 양이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -13394,7 +13400,7 @@
       "portion_notice": "소금 5g은 데치는 물에 사용합니다. 데친 물을 버리는 과정의 성분 손실과 인분 수가 미확인이라 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -13456,7 +13462,7 @@
       "portion_notice": "원본은 2인분입니다. 한글 재료 목록의 고춧가루 45g을 사용했습니다. 영문 목록은 30g으로 달라 공식 영상을 함께 확인해 주세요. 갈치의 뼈를 제외한 가식량과 남기는 국물 양이 미확인이라 영양 계산은 보류했습니다. 재료량은 원본 인분에 비례한 참고값입니다. 양념은 입맛에 맞게 조절하고 조리 시간과 불 세기는 비례해서 바꾸지 마세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -13600,7 +13606,7 @@
       "portion_notice": "원본은 무 4.5kg을 사용하는 대용량입니다. 절임물을 버리고 헹구는 과정의 소금·설탕 손실이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "밀",
           "새우"
@@ -13680,7 +13686,7 @@
       "portion_notice": "면 재료는 1인분, 육수 재료는 4인분 기준입니다. 육수 전량을 한 그릇에 사용하는 뜻이 아닙니다. 실제 사용하는 육수량이 미확인이라 인분 조절과 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -13745,7 +13751,7 @@
       "portion_notice": "들깻가루는 껍질 없는 것 기준입니다. 원본은 인분 수를 명시하지 않았습니다. 면 제품과 조리 중 추가 물량·남기는 국물이 미확인이라 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -13810,7 +13816,7 @@
       "portion_notice": "육수 준비는 약 4인분, 칼국수 재료는 약 2인분 기준입니다. 두 목록을 함께 비례 환산하지 않습니다. 육수 추출 성분과 면 제품·남기는 국물이 미확인이라 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -13873,7 +13879,7 @@
       "portion_notice": "원본 재료 목록에는 황설탕 30g이 있으나 설명란 조리 과정에는 사용 시점이 빠져 있습니다. 공식 영상을 함께 확인해 주세요. 실제 남는 기름과 간장 무게 환산·인분 수가 미확인이라 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -13945,7 +13951,7 @@
       "portion_notice": "도토리묵 1팩은 원본의 412g 기준이며 제품마다 다릅니다. 다시다의 제품 성분과 고춧가루 양·인분 수가 미확인이라 영양 계산은 보류했습니다. 소고기다시다라는 제품명만으로 쇠고기 알레르기를 확정하지 않습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -14010,7 +14016,7 @@
       "portion_notice": "원본은 밥 1공기를 사용하지만 인분 수는 명시하지 않았습니다. 재료 목록의 참기름·맛소금 사용 시점이 설명란에 빠져 있어 공식 영상을 함께 확인해 주세요. 달걀 무게와 추가 기름량이 미확인이라 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "쇠고기",
           "알류"
@@ -14092,7 +14098,7 @@
       "portion_notice": "미리 만든 만능양파볶음 45g이 필요합니다. 라면사리 제품·준비된 양파볶음의 구성과 무게 환산이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -14164,7 +14170,7 @@
       "portion_notice": "원본 닭 900~930g은 뼈 포함 포장 중량입니다. 먹는 살코기 무게와 남기는 기름·양념량, 인분 수가 미확인이라 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "닭고기"
         ],
@@ -14235,7 +14241,7 @@
       "portion_notice": "구운 고기에 곁들이는 시금치무침이며 기본 재료 목록에는 고기가 없습니다. 고기를 임의로 추가하거나 돼지고기 알레르기를 확정하지 않습니다. 맛소금 제품 성분과 인분 수가 미확인이라 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -14297,7 +14303,7 @@
       "portion_notice": "원본은 2인분입니다. 닭 1/3마리의 가식 중량과 실제 먹는 양념간장·국물 양이 미확인이라 영양 계산과 인분 조절은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "닭고기"
         ],
@@ -14371,7 +14377,7 @@
       "portion_notice": "원본은 약 2~3인분으로 범위를 제시해 단일 인분으로 고정하지 않았습니다. 갈아만든 배는 원본에 적힌 음료 재료입니다. 제품 성분과 남기는 양념이 미확인이라 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -14444,7 +14450,7 @@
       "portion_notice": "원본은 기기 출력에 따라 약 2~3분으로 조절합니다. 라면 제품과 수프 사용량이 미확인이라 영양 계산과 인분 환산을 보류했습니다. 마요네즈의 알레르기 표시는 제품에서 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -14507,7 +14513,7 @@
       "portion_notice": "기본형 재료만 표시하며 샌드위치형과 우유형을 합치지 않았습니다. 달걀 무게와 기름·곁들임 양이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류",
           "우유"
@@ -14592,7 +14598,7 @@
       "portion_notice": "우유형 재료만 표시하며 기본형과 합산하지 않았습니다. 달걀 무게와 기름·버터·잼 양이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류",
           "우유"
@@ -14681,7 +14687,7 @@
       "portion_notice": "튀김용 식용유 1.8L는 조리 준비량이며 모두 먹는 양이 아닙니다. 고기에 흡수되는 기름과 실제 먹는 소스 양이 미확인이라 전체 영양 계산과 인분 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "돼지고기"
         ],
@@ -14756,7 +14762,7 @@
       "portion_notice": "원본에는 설탕과 초고추장의 양이 적당량으로 표시되어 있습니다. 라면 제품과 실제 먹는 소스 양이 미확인이라 영양 계산과 인분 환산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -14817,7 +14823,7 @@
       "portion_notice": "단무지 175g은 포장 국물을 제외한 고형물 중량입니다. 실제 제품의 당·나트륨 성분과 인분 수가 미확인이라 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -14881,7 +14887,7 @@
       "portion_notice": "원본은 4인분이며 오징어 1마리 중량은 약 300~350g 범위입니다. 손질 후 먹는 무게와 남기는 국물이 미확인이라 영양 계산과 자동 인분 환산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "오징어"
         ],
@@ -14953,7 +14959,7 @@
       "portion_notice": "원본은 2인분입니다. 소스 목록은 준비용 배합이며 샌드위치에 바르는 양은 적당량입니다. 달걀 무게·버터·소스 섭취량이 미확인이라 영양 계산과 인분 조절은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류",
           "우유"
@@ -15043,7 +15049,7 @@
       "portion_notice": "원본 손두부 1모는 900g 기준입니다. 제품마다 크기가 다르며, 남기는 들기름과 실제 먹는 양념장이 미확인이라 전체 영양 계산과 인분 환산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "대두"
         ],
@@ -15115,7 +15121,7 @@
       "portion_notice": "식빵 3장은 원본 준비량이며 인분 수는 명시하지 않았습니다. 실제 사용하는 잼·달걀물·흡수되는 기름량과 제품 성분이 미확인이라 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류",
           "우유"
@@ -15204,7 +15210,7 @@
       "portion_notice": "원본은 1인분입니다. 생수제비와 조미김가루의 실제 제품 성분이 미확인이라 영양 계산은 보류했습니다. 삶는 물 약 1L는 조리 과정에 명시된 양입니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -15270,7 +15276,7 @@
       "portion_notice": "미리 조리된 탕수육을 활용하는 요리입니다. 탕수육의 육류 종류·튀김옷·기름과 달걀 무게, 인분 수가 미확인이라 영양 계산은 보류했습니다. 실제 탕수육의 알레르기 재료를 별도 확인해 주세요.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류"
         ],
@@ -15344,7 +15350,7 @@
       "portion_notice": "원본은 분말수프 약 3분의 2봉지를 사용합니다. 라면·치즈 제품과 남기는 기름량, 인분 수가 미확인이라 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "우유"
         ],
@@ -15424,7 +15430,7 @@
       "portion_notice": "기본형 재료만 표시했습니다. 식빵 1장은 준비량이며 인분 수를 임의로 정하지 않았습니다. 식빵 제품과 마가린 양이 미확인이라 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [],
         "ingredient_evidence": [],
         "check_product_labels": [
@@ -15487,7 +15493,7 @@
       "portion_notice": "치즈형 재료만 표시했으며 기본형·햄치즈형과 합산하지 않습니다. 달걀 무게와 마가린 양·제품 성분, 인분 수가 미확인이라 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류",
           "우유"
@@ -15569,7 +15575,7 @@
       "portion_notice": "햄치즈형 재료만 표시했습니다. 햄의 육류와 알레르기 성분은 실제 제품에서 확인해야 합니다. 달걀 무게·마가린 양·제품 성분과 인분 수가 미확인이라 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
-        "checked_on": "2026-10-08",
+        "checked_on": "2026-10-11",
         "known_from_ingredients": [
           "알류",
           "우유"
@@ -15597,8 +15603,3826 @@
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
       }
+    },
+    {
+      "id": "paik_lDr6lNjUZ8w",
+      "names": {
+        "ko": "콩비지찌개 · 백종원 참고",
+        "en": "콩비지찌개 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "콩비지찌개",
+        "비지찌개",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "콩비지: 2와 2/3컵(400g)\n정수물: 1과 1/2컵(270g)\n신김치: 1컵(130g)\n다진 돼지고기: 약 1/2컵(85g)\n양파: 약 1/4개(60g)\n대파: 1/2대(50g)\n새우젓: 약 1큰술(22g)\n청양고추: 2개(20g)\n식용유: 2큰술(14g)\n간 마늘: 1/2큰술(10g)\n국간장: 1큰술(10g)\n참기름: 1큰술(7g)\n굵은 고춧가루: 1/2큰술(4g)",
+      "steps": {
+        "ko": [
+          "김치와 채소를 잘게 썰어 둡니다.",
+          "냄비에 돼지고기와 두 종류 기름을 넣어 볶다가 김치·고춧가루·새우젓을 더합니다.",
+          "물과 양파·마늘을 넣고 끓여 재료를 익힙니다.",
+          "콩비지를 풀어 중불로 끓이고 대파·고추·국간장으로 마무리합니다."
+        ],
+        "en": [
+          "김치와 채소를 잘게 썰어 둡니다.",
+          "냄비에 돼지고기와 두 종류 기름을 넣어 볶다가 김치·고춧가루·새우젓을 더합니다.",
+          "물과 양파·마늘을 넣고 끓여 재료를 익힙니다.",
+          "콩비지를 풀어 중불로 끓이고 대파·고추·국간장으로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "lDr6lNjUZ8w",
+        "url": "https://www.youtube.com/watch?v=lDr6lNjUZ8w",
+        "title": "비지찌개! 이렇게 고소하면 반칙인데요?",
+        "section_name": "콩비지찌개",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "4a965fcc01ca74b67424166b8619527e9f898bb5a4b3ed54bc9be0261deedc6f"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 콩비지 수분과 돼지고기의 지방 비율·제품 염도가 달라 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "대두",
+          "돼지고기",
+          "새우"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "콩비지",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=lDr6lNjUZ8w"
+          },
+          {
+            "ingredient": "다진 돼지고기",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=lDr6lNjUZ8w"
+          },
+          {
+            "ingredient": "새우젓",
+            "allergen": "새우",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=lDr6lNjUZ8w"
+          }
+        ],
+        "check_product_labels": [
+          "신김치",
+          "새우젓",
+          "식용유",
+          "국간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_wezbeu4-C2s",
+      "names": {
+        "ko": "청국장찌개 · 백종원 참고",
+        "en": "청국장찌개 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "청국장찌개",
+        "청국장",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "물: 2컵(360ml)\n청국장: 1/2팩(125g)\n신 김치: 약¾컵(100g)\n두부: 약1/3모(90g)\n양파: 약¼컵(60g)\n대파: ½대(50g)\n된장: 1큰술(20g)\n국멸치: ½컵(15g)\n청양고추: 1개(10g)\n홍고추: 1개(10g)\n간 마늘: 1/4큰술(5g)",
+      "steps": {
+        "ko": [
+          "채소와 김치를 썰고 두부를 깍둑썰기합니다.",
+          "손질한 멸치를 마른 냄비에 볶은 뒤 물·김치·채소를 넣어 끓입니다.",
+          "마늘과 청국장을 풀고 된장으로 간을 맞춥니다.",
+          "두부를 마지막에 올려 한 번 더 끓입니다."
+        ],
+        "en": [
+          "채소와 김치를 썰고 두부를 깍둑썰기합니다.",
+          "손질한 멸치를 마른 냄비에 볶은 뒤 물·김치·채소를 넣어 끓입니다.",
+          "마늘과 청국장을 풀고 된장으로 간을 맞춥니다.",
+          "두부를 마지막에 올려 한 번 더 끓입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "wezbeu4-C2s",
+        "url": "https://www.youtube.com/watch?v=wezbeu4-C2s",
+        "title": "편견을 버리세요! 청국장이 좋아지는 레시피",
+        "section_name": "청국장찌개",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "0b7b2d154d4a50ae49abe57ec83c1ae15e06a3b2bef688c2ee81d535dab98f15"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 청국장·된장·김치의 실제 제품 성분과 멸치 손질 후 중량이 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "대두"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "청국장",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=wezbeu4-C2s"
+          },
+          {
+            "ingredient": "두부",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=wezbeu4-C2s"
+          }
+        ],
+        "check_product_labels": [
+          "청국장",
+          "신 김치",
+          "된장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_4WEhZLQ37Fk",
+      "names": {
+        "ko": "새둥지전 · 백종원 참고",
+        "en": "새둥지전 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "새둥지전",
+        "감자채전",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "감자: 2개(400g)\n소시지: 1/4컵(40g)\n달걀: 3개\n식용유: 1/3컵(40g)\n꽃소금: 2/5큰술(4g)\n후춧가루: 적당량\n파슬리가루: 적당량\n케첩: 적당량\n맛소금: 기호에 맞게 약간 (조리 과정에만 기재)",
+      "steps": {
+        "ko": [
+          "감자와 소시지를 가늘게 썰고 감자를 소금에 버무립니다.",
+          "기름 두른 팬에서 감자와 소시지를 볶고 달걀을 놓을 자리를 만듭니다.",
+          "달걀을 넣고 약불에서 뚜껑을 덮어 익힌 뒤 밑면을 바삭하게 굽습니다.",
+          "파슬리·후추와 기호에 맞는 케첩을 곁들입니다."
+        ],
+        "en": [
+          "감자와 소시지를 가늘게 썰고 감자를 소금에 버무립니다.",
+          "기름 두른 팬에서 감자와 소시지를 볶고 달걀을 놓을 자리를 만듭니다.",
+          "달걀을 넣고 약불에서 뚜껑을 덮어 익힌 뒤 밑면을 바삭하게 굽습니다.",
+          "파슬리·후추와 기호에 맞는 케첩을 곁들입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "4WEhZLQ37Fk",
+        "url": "https://www.youtube.com/watch?v=4WEhZLQ37Fk",
+        "title": "[ENG] 감자채전의 색다른 버전! '새둥지전'입니다.",
+        "section_name": "새둥지전",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "7815b0480cc0ecfb345c3cfd4b56ca0fb4ff5eda5e181acc285b15e3d9ef7322"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 달걀 3개를 3인분으로 해석하지 않았습니다. 식용유 준비량과 흡수량은 다릅니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=4WEhZLQ37Fk"
+          }
+        ],
+        "check_product_labels": [
+          "소시지",
+          "식용유",
+          "케첩",
+          "맛소금"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_IO6AeSPfJ0Y",
+      "names": {
+        "ko": "전복죽 · 백종원 참고",
+        "en": "전복죽 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "전복죽",
+        "백종원"
+      ],
+      "servings": 2,
+      "ingredients": [],
+      "ingredients_text": "전복: 2마리 (껍질 제거 후 78g)\n당근: 약간(20g)\n밥: 200g\n정수물: 600ml\n참기름: 약 2큰술(12g)\n맛소금: 약 1/4큰술(3.5g)\n달걀 흰자: 1개\n*1인분 세팅 재료\n전복죽: 적당량\n달걀 노른자: 1개\n간깨: 약간\n참기름: 약간\n후추가루: 약간",
+      "steps": {
+        "ko": [
+          "전복을 손질해 내장과 살을 분리하고 이빨을 제거한 뒤 살과 당근을 썹니다.",
+          "신선한 내장·밥·물 절반을 갈아 준비하고, 냄비에서는 전복살과 당근을 참기름에 볶습니다.",
+          "갈아 둔 재료와 남은 물을 넣어 저으며 끓이고 약불에서 밥알을 충분히 퍼뜨립니다.",
+          "맛소금으로 간하고 흰자를 저어 넣어 익힙니다. 그릇에 담아 1인분용 곁들임을 원하는 만큼 더합니다."
+        ],
+        "en": [
+          "전복을 손질해 내장과 살을 분리하고 이빨을 제거한 뒤 살과 당근을 썹니다.",
+          "신선한 내장·밥·물 절반을 갈아 준비하고, 냄비에서는 전복살과 당근을 참기름에 볶습니다.",
+          "갈아 둔 재료와 남은 물을 넣어 저으며 끓이고 약불에서 밥알을 충분히 퍼뜨립니다.",
+          "맛소금으로 간하고 흰자를 저어 넣어 익힙니다. 그릇에 담아 1인분용 곁들임을 원하는 만큼 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "IO6AeSPfJ0Y",
+        "url": "https://www.youtube.com/watch?v=IO6AeSPfJ0Y",
+        "title": "영양듬뿍 전복죽, 생각보다 쉬워요~",
+        "section_name": "전복죽",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "63f195a717d8921ae989d9f7312566d11071fe3751b483d0393dc6b4a0c79151"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "죽 본체는 2인분, 세팅 재료는 1인분 기준입니다. 두 기준을 합쳐 자동으로 인분을 조절하지 않습니다. 전복 78g은 껍질 제거 후 기준이며 내장 포함 범위와 달걀 중량·곁들임 양이 미확인이라 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "알류",
+          "조개류(전복)"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "전복",
+            "allergen": "조개류(전복)",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=IO6AeSPfJ0Y"
+          },
+          {
+            "ingredient": "달걀 흰자",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=IO6AeSPfJ0Y"
+          },
+          {
+            "ingredient": "달걀 노른자",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=IO6AeSPfJ0Y"
+          }
+        ],
+        "check_product_labels": [
+          "맛소금"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_7Ez066LV76U_sauce",
+      "names": {
+        "ko": "닭백숙양념장 · 백종원 참고",
+        "en": "닭백숙양념장 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "닭백숙양념장",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "굵은고춧가루: 1큰술(15g)\n뜨거운물(육수): 1큰술(15ml)\n다진 마늘: 1/2작은술(3g)\n다진 대파: 1/2작은술(3g)\n연겨자: 1/3작은술(2g)\n진간장: 2큰술(30ml)\n식초: 1큰술(15ml)\n설탕: 1/2작은술(3g)",
+      "steps": {
+        "ko": [
+          "고춧가루를 뜨거운 물 또는 육수와 섞어 불립니다.",
+          "불린 고춧가루 1큰술에 나머지 양념을 섞습니다."
+        ],
+        "en": [
+          "고춧가루를 뜨거운 물 또는 육수와 섞어 불립니다.",
+          "불린 고춧가루 1큰술에 나머지 양념을 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "7Ez066LV76U",
+        "url": "https://www.youtube.com/watch?v=7Ez066LV76U",
+        "title": "다가오는 초복, 닭백숙 먹고 원기회복하세요! l 백종원의 백종원 레시피",
+        "section_name": "닭백숙양념장",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "9534831d85f50ef1ebe8f99c953cc67b7171c9490cbee9e3bf0f16a83c413bfb"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "고춧가루를 불려 준비하는 양과 소스에 넣는 불린 고춧가루 1큰술은 구분해야 합니다. 소스 전체를 한 사람이 먹는 양으로 계산하지 않습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_7Ez066LV76U",
+      "names": {
+        "ko": "닭백숙 · 백종원 참고",
+        "en": "닭백숙 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "닭백숙",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "닭: 1마리\n대파: 2뿌리\n부추: 1줌\n마늘: 10개\n생강: 1톨\n양파: 2개\n물: 3L\n소금: 양 미표기\n후추: 양 미표기",
+      "steps": {
+        "ko": [
+          "손질한 닭을 물·대파·양파·마늘·생강과 함께 냄비에 넣습니다.",
+          "중간에 뒤집어 가며 약 30~45분 삶되 닭 크기와 화력에 맞춰 충분히 익힙니다.",
+          "닭을 꺼내고 육수의 채소를 걸러 부추와 대파를 데칩니다.",
+          "닭 위에 데친 채소와 육수를 얹고 소금·후추 또는 별도 양념장을 곁들입니다."
+        ],
+        "en": [
+          "손질한 닭을 물·대파·양파·마늘·생강과 함께 냄비에 넣습니다.",
+          "중간에 뒤집어 가며 약 30~45분 삶되 닭 크기와 화력에 맞춰 충분히 익힙니다.",
+          "닭을 꺼내고 육수의 채소를 걸러 부추와 대파를 데칩니다.",
+          "닭 위에 데친 채소와 육수를 얹고 소금·후추 또는 별도 양념장을 곁들입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "7Ez066LV76U",
+        "url": "https://www.youtube.com/watch?v=7Ez066LV76U",
+        "title": "다가오는 초복, 닭백숙 먹고 원기회복하세요! l 백종원의 백종원 레시피",
+        "section_name": "닭백숙",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "9534831d85f50ef1ebe8f99c953cc67b7171c9490cbee9e3bf0f16a83c413bfb"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 닭 1마리의 가식부 중량과 걸러내는 채소·먹는 육수량은 미확인입니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_7Ez066LV76U_sauce",
+          "name": "닭백숙양념장",
+          "amount_hint": "양념장은 기호에 맞게 곁들이며 전량 섭취 기준이 아닙니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "닭고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "닭",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=7Ez066LV76U"
+          }
+        ],
+        "check_product_labels": [],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_yI67M3IS4GI_pancake",
+      "names": {
+        "ko": "옥수수전(전분·부침형) · 백종원 참고",
+        "en": "옥수수전(전분·부침형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "옥수수전(전분·부침형)",
+        "옥수수전",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "통조림 옥수수: 1캔(340g)\n옥수수전분가루: 약 7큰술(69g)\n물: 1/4컵(45ml)\n꽃소금: 1/8큰술 (1.5g)\n식용유: 약 6큰술(42g)\n연유: 4큰술(52g)\n파마산 치즈: 적당량\n고춧가루: 적당량",
+      "steps": {
+        "ko": [
+          "옥수수의 통조림 국물을 빼고 전분·물과 섞습니다.",
+          "기름 두른 팬에 반죽을 작고 얇게 펼쳐 양면을 노릇하게 부칩니다.",
+          "연유를 뿌리고 치즈·고춧가루는 기호에 맞게 더합니다."
+        ],
+        "en": [
+          "옥수수의 통조림 국물을 빼고 전분·물과 섞습니다.",
+          "기름 두른 팬에 반죽을 작고 얇게 펼쳐 양면을 노릇하게 부칩니다.",
+          "연유를 뿌리고 치즈·고춧가루는 기호에 맞게 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "yI67M3IS4GI",
+        "url": "https://www.youtube.com/watch?v=yI67M3IS4GI",
+        "title": "옥수수 캔으로 만드는 최고의 간식 The Ultimate Snack Made from Canned Corn",
+        "section_name": "옥수수전(전분·부침형)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "c600f194fbfd4e4e72aeeaa0299cbda372cb297f4561ca4cf6bad3adacf41f50"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 기존 튀김가루형과 다른 옥수수전분 방식입니다. 캔 340g과 물기 제거 후 중량은 같다고 가정하지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "연유",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=yI67M3IS4GI"
+          }
+        ],
+        "check_product_labels": [
+          "통조림 옥수수",
+          "옥수수전분가루",
+          "식용유",
+          "파마산 치즈"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_yI67M3IS4GI_fried",
+      "names": {
+        "ko": "옥수수전(전분·튀김형) · 백종원 참고",
+        "en": "옥수수전(전분·튀김형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "옥수수전(전분·튀김형)",
+        "옥수수전",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "통조림 옥수수: 1캔(340g)\n옥수수전분가루: 약 7큰술(69g)\n물: 1/4컵(45ml)\n꽃소금: 1/8큰술 (1.5g)\n식용유: 약 6큰술(42g)\n연유: 4큰술(52g)\n파마산 치즈: 적당량\n고춧가루: 적당량",
+      "steps": {
+        "ko": [
+          "국물을 뺀 옥수수를 전분·물과 섞어 반죽합니다.",
+          "팬에 기름을 넉넉히 준비하고 반죽을 펼쳐 노릇하게 튀긴 뒤 건집니다.",
+          "연유를 뿌리고 치즈·고춧가루를 원하는 만큼 더합니다."
+        ],
+        "en": [
+          "국물을 뺀 옥수수를 전분·물과 섞어 반죽합니다.",
+          "팬에 기름을 넉넉히 준비하고 반죽을 펼쳐 노릇하게 튀긴 뒤 건집니다.",
+          "연유를 뿌리고 치즈·고춧가루를 원하는 만큼 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "yI67M3IS4GI",
+        "url": "https://www.youtube.com/watch?v=yI67M3IS4GI",
+        "title": "옥수수 캔으로 만드는 최고의 간식 The Ultimate Snack Made from Canned Corn",
+        "section_name": "옥수수전(전분·튀김형)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "c600f194fbfd4e4e72aeeaa0299cbda372cb297f4561ca4cf6bad3adacf41f50"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 재료 목록의 식용유는 준비량이며 튀김 단계의 넉넉한 기름량과 실제 흡수량은 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "연유",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=yI67M3IS4GI"
+          }
+        ],
+        "check_product_labels": [
+          "통조림 옥수수",
+          "옥수수전분가루",
+          "식용유",
+          "파마산 치즈"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_M_G9MGGQdbs",
+      "names": {
+        "ko": "콩나물찜 · 백종원 참고",
+        "en": "콩나물찜 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "콩나물찜",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*양념장\n고추장: 1/5컵(46g)\n황설탕: 1/5컵(28g)\n굵은 고춧가루: 1/5컵(16g)\n맛술: 1/5컵(36g)\n진간장: 1/5컵(40g)\n간 마늘: 1/5컵(34g)\n*전분물\n감자전분: 1/2큰술(5g)\n물: 1큰술(10g)\n*콩나물찜\n콩나물: 500g\n물: 1컵(180ml)\n떡국떡: 1컵(100g)\n대파: 약 1대(80g)\n양파: 약 1/4개(60g)\n사각어묵: 1장(50g)\n청양고추: 2개(20g)\n참기름: 1큰술(7g)\n후춧가루: 약간\n통깨: 약간",
+      "steps": {
+        "ko": [
+          "채소와 어묵을 썰고 떡국떡과 콩나물을 헹굽니다.",
+          "양념장을 섞고, 팬에 물·어묵·떡을 먼저 끓입니다.",
+          "콩나물과 양파를 넣어 숨이 반쯤 죽으면 양념장·대파·고추를 더합니다.",
+          "전분물을 조금씩 넣어 농도를 조절하고 참기름·후추·깨로 마무리합니다."
+        ],
+        "en": [
+          "채소와 어묵을 썰고 떡국떡과 콩나물을 헹굽니다.",
+          "양념장을 섞고, 팬에 물·어묵·떡을 먼저 끓입니다.",
+          "콩나물과 양파를 넣어 숨이 반쯤 죽으면 양념장·대파·고추를 더합니다.",
+          "전분물을 조금씩 넣어 농도를 조절하고 참기름·후추·깨로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "M_G9MGGQdbs",
+        "url": "https://www.youtube.com/watch?v=M_G9MGGQdbs",
+        "title": "이걸 배우고 나면 아귀찜, 코다리찜도 가능해요! 매콤~한 콩나물찜!",
+        "section_name": "콩나물찜",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "5d7cf798b25f81e94d8ef52cde4e299ffae83efff697c920460722d8cfc6cc6d"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 검색어에 나온 코다리·아귀를 재료에 추가하지 않았습니다. 실제 어묵·떡·양념 제품 성분은 별도 확인이 필요합니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "대두"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "콩나물",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=M_G9MGGQdbs"
+          }
+        ],
+        "check_product_labels": [
+          "고추장",
+          "맛술",
+          "진간장",
+          "떡국떡",
+          "사각어묵"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_FI6iypOkNUg_broth",
+      "names": {
+        "ko": "멸치육수 · 백종원 참고",
+        "en": "멸치육수 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "멸치육수",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "디포리: 2/3컵\n육수용멸치: 1과1/2컵\n절단다시마: 5장\n물: 3L\n양파: 1/2개\n대파: 1대(100g)\n맛술: 1/2컵(80g)\n국간장: 3큰술(30g)\n꽃소금: 적당량\nMSG: 적당량",
+      "steps": {
+        "ko": [
+          "멸치의 내장을 제거하고 양파를 준비합니다.",
+          "마른 냄비에서 멸치와 디포리를 볶아 비린내를 줄인 뒤 물·채소·다시마·맛술을 넣습니다.",
+          "끓으면 약불에서 약 1시간 우려 간장·소금·MSG로 간을 맞춥니다.",
+          "체로 건더기를 거르고 육수만 한 번 더 끓입니다."
+        ],
+        "en": [
+          "멸치의 내장을 제거하고 양파를 준비합니다.",
+          "마른 냄비에서 멸치와 디포리를 볶아 비린내를 줄인 뒤 물·채소·다시마·맛술을 넣습니다.",
+          "끓으면 약불에서 약 1시간 우려 간장·소금·MSG로 간을 맞춥니다.",
+          "체로 건더기를 거르고 육수만 한 번 더 끓입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "FI6iypOkNUg",
+        "url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+        "title": "멸치국수 육수 내셨나요? 버릴 것 하나 없는 '1타 2피' 레시피",
+        "section_name": "멸치육수",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "물 3L는 시작할 때의 양입니다. 완성 육수량과 우러나는 성분, 걸러낸 재료의 양은 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "맛술",
+          "국간장",
+          "MSG"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_FI6iypOkNUg_sauce",
+      "names": {
+        "ko": "멸치국수양념장 · 백종원 참고",
+        "en": "멸치국수양념장 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "멸치국수양념장",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "청양고추: 1개(12g)\n홍고추: 1개(15g)\n대파: 1대(50g)\n정수물: 1큰술(10g)\n간마늘: 1큰술(15g)\n굵은고춧가루: 1큰술(5g)\n황설탕: 1/3큰술(3g)\n깨소금: 3큰술(30g)\n진간장: 1/2컵(100g)\n참기름: 2큰술(15g)\nMSG: 적당량",
+      "steps": {
+        "ko": [
+          "대파와 고추를 잘게 썹니다.",
+          "채소에 준비한 양념 재료를 고루 섞습니다."
+        ],
+        "en": [
+          "대파와 고추를 잘게 썹니다.",
+          "채소에 준비한 양념 재료를 고루 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "FI6iypOkNUg",
+        "url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+        "title": "멸치국수 육수 내셨나요? 버릴 것 하나 없는 '1타 2피' 레시피",
+        "section_name": "멸치국수양념장",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "재료 목록에 있는 정수물·참기름을 포함한 준비량을 표시했습니다. 실제 국수에 넣는 양은 기호에 맞게 정하며 소스 전량을 1인분으로 계산하지 않습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "진간장",
+          "MSG"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_FI6iypOkNUg_gimhae",
+      "names": {
+        "ko": "멸치국수(부산·김해식) · 백종원 참고",
+        "en": "멸치국수(부산·김해식) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "부산·김해",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "멸치국수(부산·김해식)",
+        "잔치국수",
+        "멸치국수",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "건소면: 100g\n멸치육수: 500ml\n통단무지: 1/4개\n부추: 20g\n양념장: 적당량\n김가루: 적당량\n깨소금: 적당량\n후춧가루: 적당량",
+      "steps": {
+        "ko": [
+          "단무지를 채 썰고 부추를 데쳐 찬물에 헹군 뒤 물기를 뺍니다.",
+          "소면을 삶아 찬물에 비벼 헹군 뒤 그릇에 담습니다.",
+          "단무지·부추·기호에 맞는 양념과 고명을 올리고 육수 500ml를 붓습니다."
+        ],
+        "en": [
+          "단무지를 채 썰고 부추를 데쳐 찬물에 헹군 뒤 물기를 뺍니다.",
+          "소면을 삶아 찬물에 비벼 헹군 뒤 그릇에 담습니다.",
+          "단무지·부추·기호에 맞는 양념과 고명을 올리고 육수 500ml를 붓습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "FI6iypOkNUg",
+        "url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+        "title": "멸치국수 육수 내셨나요? 버릴 것 하나 없는 '1타 2피' 레시피",
+        "section_name": "멸치국수(부산·김해식)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 국수에 쓰는 육수는 500ml이며 육수 준비 레시피 전체 분량과 다릅니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_FI6iypOkNUg_broth",
+          "name": "멸치육수",
+          "amount_hint": "이 국수에 사용하는 육수: 500ml"
+        },
+        {
+          "recipe_id": "paik_FI6iypOkNUg_sauce",
+          "name": "멸치국수양념장",
+          "amount_hint": "기호에 맞게 사용하며 준비량 전부를 넣는 기준은 아닙니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "건소면",
+          "멸치육수",
+          "통단무지",
+          "양념장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_FI6iypOkNUg_basic",
+      "names": {
+        "ko": "멸치국수(채소고명) · 백종원 참고",
+        "en": "멸치국수(채소고명) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "멸치국수(채소고명)",
+        "잔치국수",
+        "멸치국수",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "건소면: 100g\n멸치육수: 500ml\n양파: 1/6개(30g)\n애호박: 1/6개(30g)\n표고버섯: 1/2개(10g)\n당근: 1/6개(30g)\n양념장: 적당량",
+      "steps": {
+        "ko": [
+          "채소를 썰어 마른 팬에서 각각 볶아 식힙니다.",
+          "소면을 삶고 찬물에 헹궈 물기를 뺍니다.",
+          "면 위에 채소와 원하는 만큼의 양념장을 놓고 육수 500ml를 붓습니다."
+        ],
+        "en": [
+          "채소를 썰어 마른 팬에서 각각 볶아 식힙니다.",
+          "소면을 삶고 찬물에 헹궈 물기를 뺍니다.",
+          "면 위에 채소와 원하는 만큼의 양념장을 놓고 육수 500ml를 붓습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "FI6iypOkNUg",
+        "url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+        "title": "멸치국수 육수 내셨나요? 버릴 것 하나 없는 '1타 2피' 레시피",
+        "section_name": "멸치국수(채소고명)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 국수에 쓰는 육수는 500ml이며 육수 준비 레시피 전체 분량과 다릅니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_FI6iypOkNUg_broth",
+          "name": "멸치육수",
+          "amount_hint": "이 국수에 사용하는 육수: 500ml"
+        },
+        {
+          "recipe_id": "paik_FI6iypOkNUg_sauce",
+          "name": "멸치국수양념장",
+          "amount_hint": "기호에 맞게 사용하며 준비량 전부를 넣는 기준은 아닙니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "건소면",
+          "멸치육수",
+          "양념장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_FI6iypOkNUg_egg",
+      "names": {
+        "ko": "멸치국수(달걀국물) · 백종원 참고",
+        "en": "멸치국수(달걀국물) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "멸치국수(달걀국물)",
+        "잔치국수",
+        "멸치국수",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "건소면: 100g\n멸치육수: 500ml\n양파: 1/6개(30g)\n애호박: 1/6개(30g)\n표고버섯: 1/2개(10g)\n당근: 1/6개(30g)\n달걀: 1개\n양념장: 기호에 맞게 (조리 과정에만 기재)",
+      "steps": {
+        "ko": [
+          "채소를 썰고 소면을 삶아 찬물에 헹굽니다.",
+          "육수 500ml를 끓여 채소를 넣고 반쯤 익으면 푼 달걀을 넣어 익힙니다.",
+          "그릇에 면과 달걀·채소 국물을 함께 담고 원하는 만큼 양념장을 더합니다."
+        ],
+        "en": [
+          "채소를 썰고 소면을 삶아 찬물에 헹굽니다.",
+          "육수 500ml를 끓여 채소를 넣고 반쯤 익으면 푼 달걀을 넣어 익힙니다.",
+          "그릇에 면과 달걀·채소 국물을 함께 담고 원하는 만큼 양념장을 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "FI6iypOkNUg",
+        "url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+        "title": "멸치국수 육수 내셨나요? 버릴 것 하나 없는 '1타 2피' 레시피",
+        "section_name": "멸치국수(달걀국물)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 국수에 쓰는 육수는 500ml이며 육수 준비 레시피 전체 분량과 다릅니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_FI6iypOkNUg_broth",
+          "name": "멸치육수",
+          "amount_hint": "이 국수에 사용하는 육수: 500ml"
+        },
+        {
+          "recipe_id": "paik_FI6iypOkNUg_sauce",
+          "name": "멸치국수양념장",
+          "amount_hint": "기호에 맞게 사용하며 준비량 전부를 넣는 기준은 아닙니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=FI6iypOkNUg"
+          }
+        ],
+        "check_product_labels": [
+          "건소면",
+          "멸치육수",
+          "양념장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_FI6iypOkNUg_egg_braise",
+      "names": {
+        "ko": "달걀조림(육수건더기 활용) · 백종원 참고",
+        "en": "달걀조림(육수건더기 활용) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "달걀조림(육수건더기 활용)",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "육수건더기: 양 미표기\n물: 1.5L\n황설탕: 2/3컵\n꽃소금: 1큰술\n진간장: 1과1/3컵\n간마늘: 2큰술\n달걀: 18개",
+      "steps": {
+        "ko": [
+          "육수를 내고 남은 건더기에 물·간장·설탕·마늘과 목록의 소금을 준비합니다.",
+          "국물을 끓여 달걀을 넣고 중불에서 익힙니다.",
+          "약 7분 뒤 달걀 껍데기를 두드려 금을 내고 국물이 줄어들도록 조립니다."
+        ],
+        "en": [
+          "육수를 내고 남은 건더기에 물·간장·설탕·마늘과 목록의 소금을 준비합니다.",
+          "국물을 끓여 달걀을 넣고 중불에서 익힙니다.",
+          "약 7분 뒤 달걀 껍데기를 두드려 금을 내고 국물이 줄어들도록 조립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "FI6iypOkNUg",
+        "url": "https://www.youtube.com/watch?v=FI6iypOkNUg",
+        "title": "멸치국수 육수 내셨나요? 버릴 것 하나 없는 '1타 2피' 레시피",
+        "section_name": "달걀조림(육수건더기 활용)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "달걀은 껍데기가 있는 상태로 조리는 방식입니다. 달걀 18개는 인분 수가 아니며 육수 건더기의 양과 실제 흡수하는 간장·소금량은 미확인입니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_FI6iypOkNUg_broth",
+          "name": "멸치육수",
+          "amount_hint": "이 요리에는 육수를 거른 뒤 남은 건더기를 사용합니다. 양은 원본에 미표기입니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=FI6iypOkNUg"
+          }
+        ],
+        "check_product_labels": [
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_UlsvKb-Bafs_sauce",
+      "names": {
+        "ko": "만능겉절이양념 · 백종원 참고",
+        "en": "만능겉절이양념 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "만능겉절이양념",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "멸치액젓: 약 1/3컵(50g)\n대파: 1/2대(50g)\n굵은 고춧가루: 1/3컵(26g)\n황설탕: 2큰술(24g)\n간마늘: 1큰술(20g)\n깨소금: 2큰술(12g)",
+      "steps": {
+        "ko": [
+          "대파를 잘게 썰어 나머지 양념과 섞습니다.",
+          "깨를 빻아 넣고 고루 섞습니다."
+        ],
+        "en": [
+          "대파를 잘게 썰어 나머지 양념과 섞습니다.",
+          "깨를 빻아 넣고 고루 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "UlsvKb-Bafs",
+        "url": "https://www.youtube.com/watch?v=UlsvKb-Bafs",
+        "title": "겉절이 어렵지 않아요! 만능양념장과 함께라면 봄나물 완전정복~",
+        "section_name": "만능겉절이양념",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "여러 나물에 나누어 쓰는 양념 준비량입니다. 나물 한 접시에 양념 전체를 넣는 기준이 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "멸치액젓"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_UlsvKb-Bafs_spring_cabbage",
+      "names": {
+        "ko": "봄동겉절이 · 백종원 참고",
+        "en": "봄동겉절이 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "봄동겉절이",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "봄동: 양 미표기\n만능겉절이양념: 적당량\n참기름: 약간",
+      "steps": {
+        "ko": [
+          "봄동을 손질해 먹기 좋은 폭로 자릅니다.",
+          "별도 겉절이양념을 원하는 만큼 넣어 무칩니다.",
+          "참기름을 조금 더해 가볍게 섞습니다."
+        ],
+        "en": [
+          "봄동을 손질해 먹기 좋은 폭로 자릅니다.",
+          "별도 겉절이양념을 원하는 만큼 넣어 무칩니다.",
+          "참기름을 조금 더해 가볍게 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "UlsvKb-Bafs",
+        "url": "https://www.youtube.com/watch?v=UlsvKb-Bafs",
+        "title": "겉절이 어렵지 않아요! 만능양념장과 함께라면 봄나물 완전정복~",
+        "section_name": "봄동겉절이",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 각 나물을 따로 무치는 방식입니다. 채소 무게와 한 접시의 양념 사용량이 미표기라 영양 계산은 보류했습니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_UlsvKb-Bafs_sauce",
+          "name": "만능겉절이양념",
+          "amount_hint": "나물마다 기호에 맞게 적당량 사용합니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "만능겉절이양념"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_UlsvKb-Bafs_minari",
+      "names": {
+        "ko": "미나리겉절이 · 백종원 참고",
+        "en": "미나리겉절이 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "미나리겉절이",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "미나리: 양 미표기\n만능겉절이양념: 적당량\n참기름: 약간",
+      "steps": {
+        "ko": [
+          "미나리을 손질해 약 5cm로 자릅니다.",
+          "별도 겉절이양념을 원하는 만큼 넣어 무칩니다.",
+          "참기름을 조금 더해 가볍게 섞습니다."
+        ],
+        "en": [
+          "미나리을 손질해 약 5cm로 자릅니다.",
+          "별도 겉절이양념을 원하는 만큼 넣어 무칩니다.",
+          "참기름을 조금 더해 가볍게 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "UlsvKb-Bafs",
+        "url": "https://www.youtube.com/watch?v=UlsvKb-Bafs",
+        "title": "겉절이 어렵지 않아요! 만능양념장과 함께라면 봄나물 완전정복~",
+        "section_name": "미나리겉절이",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 각 나물을 따로 무치는 방식입니다. 채소 무게와 한 접시의 양념 사용량이 미표기라 영양 계산은 보류했습니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_UlsvKb-Bafs_sauce",
+          "name": "만능겉절이양념",
+          "amount_hint": "나물마다 기호에 맞게 적당량 사용합니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "만능겉절이양념"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_UlsvKb-Bafs_chamnamul",
+      "names": {
+        "ko": "참나물겉절이 · 백종원 참고",
+        "en": "참나물겉절이 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "참나물겉절이",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "참나물: 양 미표기\n만능겉절이양념: 적당량\n참기름: 약간",
+      "steps": {
+        "ko": [
+          "참나물을 손질해 약 4cm로 자릅니다.",
+          "별도 겉절이양념을 원하는 만큼 넣어 무칩니다.",
+          "참기름을 조금 더해 가볍게 섞습니다."
+        ],
+        "en": [
+          "참나물을 손질해 약 4cm로 자릅니다.",
+          "별도 겉절이양념을 원하는 만큼 넣어 무칩니다.",
+          "참기름을 조금 더해 가볍게 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "UlsvKb-Bafs",
+        "url": "https://www.youtube.com/watch?v=UlsvKb-Bafs",
+        "title": "겉절이 어렵지 않아요! 만능양념장과 함께라면 봄나물 완전정복~",
+        "section_name": "참나물겉절이",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 각 나물을 따로 무치는 방식입니다. 채소 무게와 한 접시의 양념 사용량이 미표기라 영양 계산은 보류했습니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_UlsvKb-Bafs_sauce",
+          "name": "만능겉절이양념",
+          "amount_hint": "나물마다 기호에 맞게 적당량 사용합니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "만능겉절이양념"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_5UVURwno_jA",
+      "names": {
+        "ko": "크림새우 · 백종원 참고",
+        "en": "크림새우 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "크림새우",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*새우튀김\n식용유(튀김용): 1.8L: 양 미표기\n새우: 200g\n물: 2/3컵(120ml)\n튀김가루: 1컵(100g)\n*크림소스\n마요네즈: 4큰술(80g)\n황설탕: 2큰술(24g)\n식초: 1큰술(8g)\n레몬즙: 약간\n*세팅\n크림새우: 전량\n양상추: 약간",
+      "steps": {
+        "ko": [
+          "새우를 손질하고 튀김가루·물을 섞어 반죽을 묻힙니다.",
+          "달군 기름에 약 3분 튀겨 건진 뒤 약 30초 더 튀기고 기름을 뺍니다.",
+          "약불에서 설탕·식초를 섞어 설탕을 녹이고 불을 꺼 살짝 식힙니다.",
+          "마요네즈와 레몬즙을 섞은 소스에 새우를 버무리고 양상추를 곁들입니다."
+        ],
+        "en": [
+          "새우를 손질하고 튀김가루·물을 섞어 반죽을 묻힙니다.",
+          "달군 기름에 약 3분 튀겨 건진 뒤 약 30초 더 튀기고 기름을 뺍니다.",
+          "약불에서 설탕·식초를 섞어 설탕을 녹이고 불을 꺼 살짝 식힙니다.",
+          "마요네즈와 레몬즙을 섞은 소스에 새우를 버무리고 양상추를 곁들입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "5UVURwno_jA",
+        "url": "https://www.youtube.com/watch?v=5UVURwno_jA",
+        "title": "크림 없이 크림새우, 어떻게 만들까요? 재료 간단, 만드는 법은 더 간단!",
+        "section_name": "크림새우",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "307f7452d0727a2833626a40e44fe9c544d59259af44e302c7e6a84ff6d6a8b2"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "한국어 원본은 1접시 기준으로 인분 수는 정하지 않았습니다. 크림·우유를 임의로 추가하지 않았습니다. 튀김용 식용유 1.8L는 모두 먹는 양이 아닙니다. 마요네즈·튀김가루의 실제 알레르기 표시는 별도 확인이 필요합니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "새우"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "새우",
+            "allergen": "새우",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=5UVURwno_jA"
+          }
+        ],
+        "check_product_labels": [
+          "식용유(튀김용)",
+          "튀김가루",
+          "마요네즈"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_2HZO-YNHFPk_sauce",
+      "names": {
+        "ko": "양념치킨소스 · 백종원 참고",
+        "en": "양념치킨소스 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "양념치킨소스",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "물엿: 4/5컵(220g)\n케찹: 1/3컵(75g)\n고추장: 1/4컵(45g)\n진간장: 3.5큰술(35g)\n간마늘: 1/2컵(65g)\n고운고춧가루: 3큰술(15g)\n황설탕: 1/3컵(50g)",
+      "steps": {
+        "ko": [
+          "냄비에 소스 재료를 모두 넣어 섞습니다.",
+          "중불에서 저어가며 데우고 끓어오르면 불을 끕니다."
+        ],
+        "en": [
+          "냄비에 소스 재료를 모두 넣어 섞습니다.",
+          "중불에서 저어가며 데우고 끓어오르면 불을 끕니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "2HZO-YNHFPk",
+        "url": "https://www.youtube.com/watch?v=2HZO-YNHFPk",
+        "title": "치킨값 아까우시죠? 집에서 30분 만에 전문점 맛내는 반반 치킨 레시피",
+        "section_name": "양념치킨소스",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "완성된 소스 준비량입니다. 닭에 기호에 맞게 버무리는 양과 소스 전체 분량은 구분해야 합니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "케찹",
+          "고추장",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_2HZO-YNHFPk_fried",
+      "names": {
+        "ko": "후라이드치킨 · 백종원 참고",
+        "en": "후라이드치킨 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "후라이드치킨",
+        "프라이드치킨",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "토막닭(7호): 1마리\n우유: 1컵(190g)\n튀김가루(반죽물용): 1컵(120g)\n튀김가루: 1컵(120g)\n맛소금: 1/2큰술(5g)\n후추: 1/3큰술(1g)\n식용유: 1.8L",
+      "steps": {
+        "ko": [
+          "닭을 준비해 소금·후추로 밑간하고 우유에 약 20분 재웁니다.",
+          "튀김가루 1컵을 먼저 섞은 뒤 남은 가루로 겉을 고루 입힙니다.",
+          "식용유를 약 160~170도로 준비해 두 차례 튀기며 속까지 충분히 익히고 기름을 뺍니다."
+        ],
+        "en": [
+          "닭을 준비해 소금·후추로 밑간하고 우유에 약 20분 재웁니다.",
+          "튀김가루 1컵을 먼저 섞은 뒤 남은 가루로 겉을 고루 입힙니다.",
+          "식용유를 약 160~170도로 준비해 두 차례 튀기며 속까지 충분히 익히고 기름을 뺍니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "2HZO-YNHFPk",
+        "url": "https://www.youtube.com/watch?v=2HZO-YNHFPk",
+        "title": "치킨값 아까우시죠? 집에서 30분 만에 전문점 맛내는 반반 치킨 레시피",
+        "section_name": "후라이드치킨",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 닭의 뼈를 포함한 크기와 남는 튀김옷·우유·기름을 먹은 양으로 계산하지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "닭고기",
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "토막닭(7호)",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=2HZO-YNHFPk"
+          },
+          {
+            "ingredient": "우유",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=2HZO-YNHFPk"
+          }
+        ],
+        "check_product_labels": [
+          "튀김가루(반죽물용)",
+          "튀김가루",
+          "맛소금",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_2HZO-YNHFPk_seasoned",
+      "names": {
+        "ko": "양념치킨 · 백종원 참고",
+        "en": "양념치킨 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "양념치킨",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*치킨반죽\n토막닭(7호): 1마리\n우유: 1컵(190g)\n튀김가루(반죽물용): 1컵(120g)\n튀김가루: 1컵(120g)\n맛소금: 1/2큰술(5g)\n후추: 1/3큰술(1g)\n식용유: 1.8L\n*양념치킨소스\n물엿: 4/5컵(220g)\n케찹: 1/3컵(75g)\n고추장: 1/4컵(45g)\n진간장: 3.5큰술(35g)\n간마늘: 1/2컵(65g)\n고운고춧가루: 3큰술(15g)\n황설탕: 1/3컵(50g)",
+      "steps": {
+        "ko": [
+          "닭을 준비해 소금·후추로 밑간하고 우유에 약 20분 재웁니다.",
+          "튀김가루 1컵을 먼저 섞은 뒤 남은 가루로 겉을 고루 입힙니다.",
+          "식용유를 약 160~170도로 준비해 두 차례 튀기며 속까지 충분히 익히고 기름을 뺍니다.",
+          "만들어 둔 양념치킨소스를 기호에 맞게 버무립니다."
+        ],
+        "en": [
+          "닭을 준비해 소금·후추로 밑간하고 우유에 약 20분 재웁니다.",
+          "튀김가루 1컵을 먼저 섞은 뒤 남은 가루로 겉을 고루 입힙니다.",
+          "식용유를 약 160~170도로 준비해 두 차례 튀기며 속까지 충분히 익히고 기름을 뺍니다.",
+          "만들어 둔 양념치킨소스를 기호에 맞게 버무립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "2HZO-YNHFPk",
+        "url": "https://www.youtube.com/watch?v=2HZO-YNHFPk",
+        "title": "치킨값 아까우시죠? 집에서 30분 만에 전문점 맛내는 반반 치킨 레시피",
+        "section_name": "양념치킨",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 양념소스는 준비량이며 전량 사용 기준이 아닙니다. 식용유 1.8L는 튀김용으로 실제 섭취량이 아닙니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_2HZO-YNHFPk_sauce",
+          "name": "양념치킨소스",
+          "amount_hint": "튀긴 닭에 기호에 맞게 버무립니다. 준비량 전부를 먹는 기준은 아닙니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "닭고기",
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "토막닭(7호)",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=2HZO-YNHFPk"
+          },
+          {
+            "ingredient": "우유",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=2HZO-YNHFPk"
+          }
+        ],
+        "check_product_labels": [
+          "튀김가루(반죽물용)",
+          "튀김가루",
+          "맛소금",
+          "식용유",
+          "케찹",
+          "고추장",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_NGjk_1KQGmI_chinese",
+      "names": {
+        "ko": "중국식볶음밥 · 백종원 참고",
+        "en": "중국식볶음밥 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "중국식볶음밥",
+        "볶음밥",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "밥: 1공기(200g)\n달걀: 2개(120g)\n대파: 1/2컵(40g)\n당근: 1/4컵(20g)\n양파: 1/4개(50g)\n진간장: 1큰술(10g)\n식용유: 4큰술(40g)\n참기름: 1/3큰술(2g)\nMSG: 1/4큰술(2g)\n맛소금: 1g",
+      "steps": {
+        "ko": [
+          "채소를 잘게 썰고 기름 두른 팬에서 달걀을 부드럽게 볶습니다.",
+          "달걀을 밀어 채소를 볶은 뒤 기름이 없는 자리에 간장을 끓여 향을 냅니다.",
+          "잠시 불을 끄고 밥·맛소금을 섞은 뒤 센불에서 다시 볶습니다.",
+          "MSG와 참기름으로 마무리합니다."
+        ],
+        "en": [
+          "채소를 잘게 썰고 기름 두른 팬에서 달걀을 부드럽게 볶습니다.",
+          "달걀을 밀어 채소를 볶은 뒤 기름이 없는 자리에 간장을 끓여 향을 냅니다.",
+          "잠시 불을 끄고 밥·맛소금을 섞은 뒤 센불에서 다시 볶습니다.",
+          "MSG와 참기름으로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "NGjk_1KQGmI",
+        "url": "https://www.youtube.com/watch?v=NGjk_1KQGmI",
+        "title": "불맛 가득 볶음밥을 더 맛있게! 우리집이 볶음밥 맛집! ㅣ업그레이드 볶음밥 ㅣ 백종원의 쿠킹로그",
+        "section_name": "중국식볶음밥",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "c22f5edc22e2a04b41303691341a0a1ca7e39d8eb17fd9c72d49eafafececfd9"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 밥 1공기만으로 1인분을 정하지 않았습니다. 새우가 없는 원문에 새우를 추가하지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=NGjk_1KQGmI"
+          }
+        ],
+        "check_product_labels": [
+          "진간장",
+          "식용유",
+          "MSG",
+          "맛소금"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_NGjk_1KQGmI_pork",
+      "names": {
+        "ko": "삼겹살볶음밥 · 백종원 참고",
+        "en": "삼겹살볶음밥 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "삼겹살볶음밥",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "밥: 1공기(200g)\n삼겹살: 100g\n대파: 1/2컵(40g)\n당근: 1/4컵(20g)\n식용유: 1큰술(10g)\n진간장: 1큰술(10g)\n달걀: 1개(60g)\n맛소금: 1g",
+      "steps": {
+        "ko": [
+          "잘게 썬 삼겹살을 기름 두른 팬에서 볶고 당근·대파를 더합니다.",
+          "기름이 없는 팬 한쪽에 간장을 끓여 재료와 섞습니다.",
+          "잠시 불을 끄고 밥·맛소금을 섞은 뒤 센불에서 볶습니다.",
+          "같은 팬에서 달걀프라이를 익혀 볶음밥 위에 올립니다."
+        ],
+        "en": [
+          "잘게 썬 삼겹살을 기름 두른 팬에서 볶고 당근·대파를 더합니다.",
+          "기름이 없는 팬 한쪽에 간장을 끓여 재료와 섞습니다.",
+          "잠시 불을 끄고 밥·맛소금을 섞은 뒤 센불에서 볶습니다.",
+          "같은 팬에서 달걀프라이를 익혀 볶음밥 위에 올립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "NGjk_1KQGmI",
+        "url": "https://www.youtube.com/watch?v=NGjk_1KQGmI",
+        "title": "불맛 가득 볶음밥을 더 맛있게! 우리집이 볶음밥 맛집! ㅣ업그레이드 볶음밥 ㅣ 백종원의 쿠킹로그",
+        "section_name": "삼겹살볶음밥",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "c22f5edc22e2a04b41303691341a0a1ca7e39d8eb17fd9c72d49eafafececfd9"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 밥 1공기를 인분 근거로 사용하지 않았습니다. 달걀프라이용 기름 추가량은 미표기입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "돼지고기",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "삼겹살",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=NGjk_1KQGmI"
+          },
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=NGjk_1KQGmI"
+          }
+        ],
+        "check_product_labels": [
+          "식용유",
+          "진간장",
+          "맛소금"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_w9ML-v8OG1Y_basic",
+      "names": {
+        "ko": "파무침(기본형) · 백종원 참고",
+        "en": "파무침(기본형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "파무침(기본형)",
+        "파무침",
+        "파채무침",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "파채: 150g\n참기름: 약2큰술(12g)\n맛소금: 1/3큰술(3.5g)\n굵은고추가루: 약1/3큰술(3g)\n고운고추가루: 1/3큰술(2g)\n깨소금: 약간",
+      "steps": {
+        "ko": [
+          "파채를 먹기 좋게 준비합니다.",
+          "고춧가루를 섞고 깨소금·맛소금으로 간합니다.",
+          "참기름을 넣어 가볍게 무칩니다."
+        ],
+        "en": [
+          "파채를 먹기 좋게 준비합니다.",
+          "고춧가루를 섞고 깨소금·맛소금으로 간합니다.",
+          "참기름을 넣어 가볍게 무칩니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "w9ML-v8OG1Y",
+        "url": "https://www.youtube.com/watch?v=w9ML-v8OG1Y",
+        "title": "남들보다 삼겹살 2배로 먹는 법 알려드릴게요! 숨겨 놓고 몰래 먹는 파무침 3종!",
+        "section_name": "파무침(기본형)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 각 방식의 재료를 분리해 표시했습니다. 실제 사용 제품과 깨 등의 기호량이 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "맛소금"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_w9ML-v8OG1Y_soy",
+      "names": {
+        "ko": "파무침(간장형) · 백종원 참고",
+        "en": "파무침(간장형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "파무침(간장형)",
+        "파무침",
+        "파채무침",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "파채: 150g\n식초: 4큰술(32g)\n진간장: 2큰술(20g)\n깨소금: 약1큰술(5g)\n굵은고추가루: 약1/3큰술(3g)\n고운고추가루: 1/3큰술(2g)\n황설탕: 약간(2g)\n통깨: 약간",
+      "steps": {
+        "ko": [
+          "파채에 고운고춧가루와 간장을 섞습니다.",
+          "식초·설탕·깨를 더해 무칩니다."
+        ],
+        "en": [
+          "파채에 고운고춧가루와 간장을 섞습니다.",
+          "식초·설탕·깨를 더해 무칩니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "w9ML-v8OG1Y",
+        "url": "https://www.youtube.com/watch?v=w9ML-v8OG1Y",
+        "title": "남들보다 삼겹살 2배로 먹는 법 알려드릴게요! 숨겨 놓고 몰래 먹는 파무침 3종!",
+        "section_name": "파무침(간장형)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 각 방식의 재료를 분리해 표시했습니다. 실제 사용 제품과 깨 등의 기호량이 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_w9ML-v8OG1Y_chogochujang",
+      "names": {
+        "ko": "파무침(초고추장형) · 백종원 참고",
+        "en": "파무침(초고추장형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "파무침(초고추장형)",
+        "파무침",
+        "파채무침",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "파채: 150g\n양배추채: 150g\n고추장: 가득1큰술(50g): 양 미표기\n식초: 3큰술(24g)\n황설탕: 약1과1/2큰술(17g)\n참기름: 1과1/2큰술(10g)\n굵은고추가루: 1큰술(8g)\n진간장: 1/2큰술(5g)\n고운고추가루: 1/3큰술(2g)\n깨소금: 약간",
+      "steps": {
+        "ko": [
+          "양배추를 가늘게 채 썹니다.",
+          "고추장·간장·식초·설탕을 섞어 양배추부터 버무립니다.",
+          "파채와 고춧가루를 더하고 참기름·깨소금으로 마무리합니다."
+        ],
+        "en": [
+          "양배추를 가늘게 채 썹니다.",
+          "고추장·간장·식초·설탕을 섞어 양배추부터 버무립니다.",
+          "파채와 고춧가루를 더하고 참기름·깨소금으로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "w9ML-v8OG1Y",
+        "url": "https://www.youtube.com/watch?v=w9ML-v8OG1Y",
+        "title": "남들보다 삼겹살 2배로 먹는 법 알려드릴게요! 숨겨 놓고 몰래 먹는 파무침 3종!",
+        "section_name": "파무침(초고추장형)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 각 방식의 재료를 분리해 표시했습니다. 실제 사용 제품과 깨 등의 기호량이 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "고추장",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik__m_HiEJukX4",
+      "names": {
+        "ko": "파채무침(양배추형) · 백종원 참고",
+        "en": "파채무침(양배추형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "파채무침(양배추형)",
+        "파채무침",
+        "파무침",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "파 채: 4컵(200g)\n양배추: 약 2컵(100g)\n식초: 4와 1/2큰술(36g)\n고추장: 약 1과 2/3큰술(36g)\n굵은 고춧가루: 3큰술(24g)\n간 마늘: 1과 1/5큰술(24g)\n황설탕: 1과 2/3큰술(20g)\n참기름: 2큰술(14g)\n통깨: 약 2큰술(8g)",
+      "steps": {
+        "ko": [
+          "양배추를 가늘게 썰고 파채를 먹기 좋게 자릅니다.",
+          "고추장·식초·설탕을 먼저 풀고 마늘·고춧가루를 섞습니다.",
+          "채소에 양념을 버무리고 참기름·깨를 더합니다."
+        ],
+        "en": [
+          "양배추를 가늘게 썰고 파채를 먹기 좋게 자릅니다.",
+          "고추장·식초·설탕을 먼저 풀고 마늘·고춧가루를 섞습니다.",
+          "채소에 양념을 버무리고 참기름·깨를 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "_m_HiEJukX4",
+        "url": "https://www.youtube.com/watch?v=_m_HiEJukX4",
+        "title": "3월 3일 삼겹살데이! 뒷다리살도 삼겹살 만큼 맛있게 먹는 꿀팁!",
+        "section_name": "파채무침(양배추형)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "af654cb1715145cef372b641ef448165e1b53c1f127bc2c152f2f3c1ccdceb25"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 제목에 나온 삼겹살·뒷다리살은 이 무침의 재료에 넣지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "고추장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_M8RXmDJ3W-s",
+      "names": {
+        "ko": "돼지고기뭇국 · 백종원 참고",
+        "en": "돼지고기뭇국 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "돼지고기뭇국",
+        "돼지고기무국",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "식용유: 약3큰술(23g)\n돼지고기 후지: 200g\n진간장: 4큰술(40g)\n정수물: 10컵(1800ml)\n무: 약1/4개(575g)\n간 생강: 1/10큰술(2g)\n맛소금: 약1/3큰술(5g)\n대파: 약 1컵(60g)\n후춧가루: 약간",
+      "steps": {
+        "ko": [
+          "무·대파·돼지고기를 썹니다.",
+          "기름 두른 냄비에서 돼지고기를 볶고 간장을 넣어 조리듯 볶습니다.",
+          "물·무·생강·대파를 넣어 중불에서 약 30분 끓입니다.",
+          "맛소금으로 간을 맞추고 그릇에 담아 후추를 더합니다."
+        ],
+        "en": [
+          "무·대파·돼지고기를 썹니다.",
+          "기름 두른 냄비에서 돼지고기를 볶고 간장을 넣어 조리듯 볶습니다.",
+          "물·무·생강·대파를 넣어 중불에서 약 30분 끓입니다.",
+          "맛소금으로 간을 맞추고 그릇에 담아 후추를 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "M8RXmDJ3W-s",
+        "url": "https://www.youtube.com/watch?v=M8RXmDJ3W-s",
+        "title": "'소고기' 말고 '돼지고기'로 끓이는 '뭇국', 엄청 시원하고 개운해요",
+        "section_name": "돼지고기뭇국",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "97ff203d5c191ccf20cfa76bc86c5e4172b33eb0e85aa31bdf14c2bb1b0c7f9d"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 후지는 돼지고기 부위로 확인했습니다. 실제 기름·제품 염도와 국물 섭취량에 따른 영양 차이는 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "돼지고기 후지",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=M8RXmDJ3W-s"
+          }
+        ],
+        "check_product_labels": [
+          "식용유",
+          "진간장",
+          "맛소금"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_rLDquEv-ZJg",
+      "names": {
+        "ko": "황태미역국 · 백종원 참고",
+        "en": "황태미역국 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "황태미역국",
+        "백종원"
+      ],
+      "servings": 4,
+      "ingredients": [],
+      "ingredients_text": "정수물: 약 8과 1/2컵(1.5L)\n불린 미역: 2컵(180g)\n황태채: 2컵(50g)\n국간장: 2큰술(20g)\n멸치액젓: 약 1과 2/3큰술(14g)\n참기름: 약 1과 1/2큰술(10g)\n간 마늘: 약 2/3큰술(10g)\n꽃소금: 1/4큰술(3g)",
+      "steps": {
+        "ko": [
+          "황태채를 살짝 적셔 물기를 짜고 먹기 좋은 길이로 자릅니다.",
+          "참기름에 황태를 볶다가 불린 미역을 더해 약 1분 볶습니다.",
+          "물·마늘·간장·액젓·소금을 넣어 끓입니다.",
+          "끓어오르면 중불에서 약 20분 더 끓입니다."
+        ],
+        "en": [
+          "황태채를 살짝 적셔 물기를 짜고 먹기 좋은 길이로 자릅니다.",
+          "참기름에 황태를 볶다가 불린 미역을 더해 약 1분 볶습니다.",
+          "물·마늘·간장·액젓·소금을 넣어 끓입니다.",
+          "끓어오르면 중불에서 약 20분 더 끓입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "rLDquEv-ZJg",
+        "url": "https://www.youtube.com/watch?v=rLDquEv-ZJg",
+        "title": "소여사가 좋아하는 황태미역국! 해장용으로 딱이에요",
+        "section_name": "황태미역국",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "fe5fac3e0a9e43b9f4a3d9bae62ebec8ee4b9152d7a15f7f8a45b657aff51a28"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "불린 미역 180g 기준입니다. 이를 마른 미역 180g으로 계산하지 않습니다. 불린 미역의 수분과 황태의 손질 상태·액젓 제품이 미확인이라 영양 계산은 보류했습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "국간장",
+          "멸치액젓"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_87zznFb0-us",
+      "names": {
+        "ko": "빨간어묵 · 백종원 참고",
+        "en": "빨간어묵 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "빨간어묵",
+        "매운어묵",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "정수물: 1병(500ml)\n사각어묵: 10장(350g)\n대파: 약1대(70g)\n양파: 1/4개(60g)\n청양고추: 2개(20g)\n황설탕: 2큰술(24g)\n고추장: 2큰술(40g)\n진간장: 2큰술(20g)\n굵은고추가루: 1/2큰술(4g)\n고운고추가루: 1/2큰술(3g)\n후추가루: 약간",
+      "steps": {
+        "ko": [
+          "어묵 일부를 접어 꼬치에 꽂고 나머지는 먹기 좋게 썹니다.",
+          "채소를 썰고 냄비에서 물과 양념을 풀어 끓입니다.",
+          "채소에 이어 어묵을 넣고 국물을 끼얹어 가며 중불에서 약 6분 끓입니다."
+        ],
+        "en": [
+          "어묵 일부를 접어 꼬치에 꽂고 나머지는 먹기 좋게 썹니다.",
+          "채소를 썰고 냄비에서 물과 양념을 풀어 끓입니다.",
+          "채소에 이어 어묵을 넣고 국물을 끼얹어 가며 중불에서 약 6분 끓입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "87zznFb0-us",
+        "url": "https://www.youtube.com/watch?v=87zznFb0-us",
+        "title": "어묵탕 지겨우셨죠? 오늘 저녁, 빨간 어묵으로 끝내드릴게요!",
+        "section_name": "빨간어묵",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "a5a3183e21680ceef739e180278d166bb4ba8e23ec8ad5c0d2c410354277b158"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 약 3~4인분으로 범위를 표시했습니다. 3인분 또는 4인분으로 고정하지 않았습니다. 실제 어묵과 양념 제품 성분이 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "사각어묵",
+          "고추장",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_9YlFFVisCBY",
+      "names": {
+        "ko": "통옥수수구이 · 백종원 참고",
+        "en": "통옥수수구이 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "통옥수수구이",
+        "옥수수구이",
+        "엘로떼",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "삶은 옥수수: 2개\n마요네즈: 5큰술(80g)\n황설탕: 2큰술(24g)\n파마산 치즈가루: 적당량\n고운 고춧가루: 적당량",
+      "steps": {
+        "ko": [
+          "삶은 옥수수를 따뜻하게 데우고 먹기 좋게 나눕니다.",
+          "약불에서 마요네즈·설탕을 저어 설탕을 녹입니다.",
+          "옥수수에 소스를 고루 바르고 치즈가루·고춧가루를 기호에 맞게 더합니다."
+        ],
+        "en": [
+          "삶은 옥수수를 따뜻하게 데우고 먹기 좋게 나눕니다.",
+          "약불에서 마요네즈·설탕을 저어 설탕을 녹입니다.",
+          "옥수수에 소스를 고루 바르고 치즈가루·고춧가루를 기호에 맞게 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "9YlFFVisCBY",
+        "url": "https://www.youtube.com/watch?v=9YlFFVisCBY",
+        "title": "중독성 강한 통옥수수구이",
+        "section_name": "통옥수수구이",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "d63eeaf98616c7eeeef253b891e980911afff0f81ab168030e1e58f291971edf"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 삶은 옥수수 2개의 실제 알갱이 무게와 치즈 기호량이 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "파마산 치즈가루",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=9YlFFVisCBY"
+          }
+        ],
+        "check_product_labels": [
+          "마요네즈",
+          "파마산 치즈가루"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_-A0iP6Uzy3A",
+      "names": {
+        "ko": "떡어묵꼬치 · 백종원 참고",
+        "en": "떡어묵꼬치 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "떡어묵꼬치",
+        "떡꼬치",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "밀떡볶이떡: 16개(약200g)\n봉어묵: 4개(약100g)\n식용유: 5큰술(35g)\n마요네즈: 가득1큰술(30g): 양 미표기\n설탕: 약1큰술(11g)\n식초: 약1큰술(8g)\n고운고추가루: 약1/2큰술(4g)\n연유: 적당량",
+      "steps": {
+        "ko": [
+          "밀떡을 헹궈 물기를 제거하고 봉어묵을 길게 나눕니다.",
+          "마요네즈·설탕·식초·고춧가루를 섞어 소스를 만듭니다.",
+          "팬에서 밀떡을 먼저 굽고 반쯤 노릇해지면 어묵도 넣어 굽습니다.",
+          "기름기를 뺀 뒤 소스와 연유를 기호에 맞게 더합니다."
+        ],
+        "en": [
+          "밀떡을 헹궈 물기를 제거하고 봉어묵을 길게 나눕니다.",
+          "마요네즈·설탕·식초·고춧가루를 섞어 소스를 만듭니다.",
+          "팬에서 밀떡을 먼저 굽고 반쯤 노릇해지면 어묵도 넣어 굽습니다.",
+          "기름기를 뺀 뒤 소스와 연유를 기호에 맞게 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "-A0iP6Uzy3A",
+        "url": "https://www.youtube.com/watch?v=-A0iP6Uzy3A",
+        "title": "소떡소떡보다 맛있는 떡어묵꼬치! 어린이날 애들 간식으로 근사하죠?",
+        "section_name": "떡어묵꼬치",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "af273387cc306d6cce154c4a67f6060170a5ca9cf7122f5579dbaa6a991ece3e"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 원본은 기름에 굽는 밀떡 방식입니다. 쌀떡으로 임의 대체하지 않습니다. 연유와 소스의 실제 사용량·기름 흡수량은 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "밀",
+          "우유"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "밀떡볶이떡",
+            "allergen": "밀",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-A0iP6Uzy3A"
+          },
+          {
+            "ingredient": "연유",
+            "allergen": "우유",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-A0iP6Uzy3A"
+          }
+        ],
+        "check_product_labels": [
+          "밀떡볶이떡",
+          "봉어묵",
+          "식용유",
+          "마요네즈"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_OSYQHa-vbVU_sauce",
+      "names": {
+        "ko": "소떡어떡소스 · 백종원 참고",
+        "en": "소떡어떡소스 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "소떡어떡소스",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "황설탕: 3큰술(36g)\n진간장: 1큰술(10g)\n케첩: 2큰술(40g)\n고추장: ½큰술(10g)\n물: 1/3컵(60ml)",
+      "steps": {
+        "ko": [
+          "설탕·간장·케첩·고추장·물을 팬에 넣습니다.",
+          "약불에서 저어 설탕과 고추장이 풀리면 마무리합니다."
+        ],
+        "en": [
+          "설탕·간장·케첩·고추장·물을 팬에 넣습니다.",
+          "약불에서 저어 설탕과 고추장이 풀리면 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "OSYQHa-vbVU",
+        "url": "https://www.youtube.com/watch?v=OSYQHa-vbVU",
+        "title": "우리집이 휴게소 '소떡어떡'",
+        "section_name": "소떡어떡소스",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "ab1aa68e39201698ccd1a002f7e803a2596f24ad8fbcc85af42a6fe5d2f0fdc6"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 약 10꼬치용 소스 준비량입니다. 사람 10인분 또는 한 꼬치의 정확한 섭취량으로 환산하지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "진간장",
+          "케첩",
+          "고추장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_OSYQHa-vbVU",
+      "names": {
+        "ko": "소떡어떡 · 백종원 참고",
+        "en": "소떡어떡 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "소떡어떡",
+        "소떡소떡",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "떡볶이떡: 적당량\n김밥햄: 적당량\n비엔나소시지: 적당량\n사각어묵: 적당량\n*꼬치 도구: 이쑤시개 또는 꼬치\n식용유: 넉넉히 (조리 과정에만 기재)\n소떡어떡소스: 기호에 맞게",
+      "steps": {
+        "ko": [
+          "어묵과 햄을 떡 길이에 맞게 썰고 소시지에 칼집을 냅니다.",
+          "떡을 끓는 물에 약 2~3분 데쳐 찬물에 헹군 뒤 물기를 충분히 뺍니다.",
+          "떡·소시지·햄·어묵을 원하는 조합으로 꼬치에 끼웁니다.",
+          "기름 두른 팬에서 양면을 노릇하게 구워 기름을 빼고 소스를 바릅니다."
+        ],
+        "en": [
+          "어묵과 햄을 떡 길이에 맞게 썰고 소시지에 칼집을 냅니다.",
+          "떡을 끓는 물에 약 2~3분 데쳐 찬물에 헹군 뒤 물기를 충분히 뺍니다.",
+          "떡·소시지·햄·어묵을 원하는 조합으로 꼬치에 끼웁니다.",
+          "기름 두른 팬에서 양면을 노릇하게 구워 기름을 빼고 소스를 바릅니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "OSYQHa-vbVU",
+        "url": "https://www.youtube.com/watch?v=OSYQHa-vbVU",
+        "title": "우리집이 휴게소 '소떡어떡'",
+        "section_name": "소떡어떡",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "ab1aa68e39201698ccd1a002f7e803a2596f24ad8fbcc85af42a6fe5d2f0fdc6"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 꼬치 재료는 모두 적당량으로 안내된 원문입니다. 소스의 약 10꼬치 기준과 재료 전체 분량을 합치지 않습니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_OSYQHa-vbVU_sauce",
+          "name": "소떡어떡소스",
+          "amount_hint": "약 10꼬치용 준비량이며 실제 꼬치마다 기호에 맞게 바릅니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "떡볶이떡",
+          "김밥햄",
+          "비엔나소시지",
+          "사각어묵",
+          "식용유",
+          "소떡어떡소스"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_-8qL_l94cJ8_sauce",
+      "names": {
+        "ko": "누룽지백숙양념장 · 백종원 참고",
+        "en": "누룽지백숙양념장 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "누룽지백숙양념장",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "대파: 1컵 (60g)\n청양고추: 2개 (20g)\n다진마늘: ½큰술 (10g)\n고춧가루: 1/3컵 (30g)\n액젓: ¼컵 (55g)\n식초: ¼컵 (45g)\n설탕: ¼컵 (35g)\n미림: ¼컵 (45g)\n간장: ¼컵 (50g)",
+      "steps": {
+        "ko": [
+          "대파와 청양고추를 잘게 썹니다.",
+          "나머지 양념 재료와 고루 섞습니다."
+        ],
+        "en": [
+          "대파와 청양고추를 잘게 썹니다.",
+          "나머지 양념 재료와 고루 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "-8qL_l94cJ8",
+        "url": "https://www.youtube.com/watch?v=-8qL_l94cJ8",
+        "title": "냄비든 밥솥이든 OK! 실패 없는 누룽지백숙",
+        "section_name": "누룽지백숙양념장",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "곁들임 양념 준비량입니다. 백숙 한 그릇에 전량을 사용하는 기준이 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "액젓",
+          "미림",
+          "간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_-8qL_l94cJ8_pot",
+      "names": {
+        "ko": "누룽지백숙(냄비) · 백종원 참고",
+        "en": "누룽지백숙(냄비) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "누룽지백숙(냄비)",
+        "누룽지백숙",
+        "백종원"
+      ],
+      "servings": 2,
+      "ingredients": [],
+      "ingredients_text": "닭: 1마리 (약 750g)\n정수물: 1L\n찹쌀: 1컵 (160g)\n통마늘: ½컵 (55g)\n대파: ½대 (50g)\n양파: ½개 (125g)\n소금: 1/3큰술 (4g)",
+      "steps": {
+        "ko": [
+          "냄비 바닥에 씻은 찹쌀을 평평하게 깔고 손질한 닭·채소·물 1L를 넣습니다.",
+          "끓으면 뚜껑을 덮고 중불에서 약 30분 익힙니다.",
+          "대파와 양파를 건지고 소금을 넣어 약 5분 더 끓입니다.",
+          "국물을 따로 덜고 센불에서 약 5분 누룽지를 만든 뒤 접시에 담아 덜어 둔 국물을 더합니다."
+        ],
+        "en": [
+          "냄비 바닥에 씻은 찹쌀을 평평하게 깔고 손질한 닭·채소·물 1L를 넣습니다.",
+          "끓으면 뚜껑을 덮고 중불에서 약 30분 익힙니다.",
+          "대파와 양파를 건지고 소금을 넣어 약 5분 더 끓입니다.",
+          "국물을 따로 덜고 센불에서 약 5분 누룽지를 만든 뒤 접시에 담아 덜어 둔 국물을 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "-8qL_l94cJ8",
+        "url": "https://www.youtube.com/watch?v=-8qL_l94cJ8",
+        "title": "냄비든 밥솥이든 OK! 실패 없는 누룽지백숙",
+        "section_name": "누룽지백숙(냄비)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 각 방식 2인분 기준입니다. 냄비 물 1L와 전기밥솥 물 540ml를 서로 바꾸지 않습니다. 닭 750g은 뼈 포함 준비량이며 가식부 중량은 미확인입니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_-8qL_l94cJ8_sauce",
+          "name": "누룽지백숙양념장",
+          "amount_hint": "곁들이는 양은 기호에 맞게 조절합니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "닭고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "닭",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-8qL_l94cJ8"
+          }
+        ],
+        "check_product_labels": [],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_-8qL_l94cJ8_rice_cooker",
+      "names": {
+        "ko": "누룽지백숙(전기밥솥) · 백종원 참고",
+        "en": "누룽지백숙(전기밥솥) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "누룽지백숙(전기밥솥)",
+        "누룽지백숙",
+        "백종원"
+      ],
+      "servings": 2,
+      "ingredients": [],
+      "ingredients_text": "닭: 1마리 (약 750g)\n정수물: 3컵 (540ml)\n찹쌀: 1컵 (160g)\n통마늘: ½컵 (55g)\n대파: ½대 (50g)\n양파: ½개 (125g)\n소금: 1/3큰술 (4g)",
+      "steps": {
+        "ko": [
+          "내솥에 씻은 찹쌀을 평평하게 깔고 손질한 닭과 채소·물을 넣습니다.",
+          "누룽지 모드로 취사합니다.",
+          "대파를 건지고 소금을 넣어 누룽지 모드로 한 번 더 취사합니다."
+        ],
+        "en": [
+          "내솥에 씻은 찹쌀을 평평하게 깔고 손질한 닭과 채소·물을 넣습니다.",
+          "누룽지 모드로 취사합니다.",
+          "대파를 건지고 소금을 넣어 누룽지 모드로 한 번 더 취사합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "-8qL_l94cJ8",
+        "url": "https://www.youtube.com/watch?v=-8qL_l94cJ8",
+        "title": "냄비든 밥솥이든 OK! 실패 없는 누룽지백숙",
+        "section_name": "누룽지백숙(전기밥솥)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본은 각 방식 2인분 기준입니다. 냄비 물 1L와 전기밥솥 물 540ml를 서로 바꾸지 않습니다. 닭 750g은 뼈 포함 준비량이며 가식부 중량은 미확인입니다. 전기밥솥은 해당 모드를 지원하는 기기 기준이며 조리 시간은 임의 지정하지 않았습니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_-8qL_l94cJ8_sauce",
+          "name": "누룽지백숙양념장",
+          "amount_hint": "곁들이는 양은 기호에 맞게 조절합니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "닭고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "닭",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=-8qL_l94cJ8"
+          }
+        ],
+        "check_product_labels": [],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_0wqp-Ii5wQM_sauce",
+      "names": {
+        "ko": "부추완자전양념간장 · 백종원 참고",
+        "en": "부추완자전양념간장 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "부추완자전양념간장",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "식초: 2큰술(16g)\n진간장: 1큰술(10g)\n황설탕: 약간\n양파: 약간\n청양고추: 약간",
+      "steps": {
+        "ko": [
+          "양파와 고추를 잘게 썹니다.",
+          "간장·식초·설탕을 섞고 채소를 더합니다."
+        ],
+        "en": [
+          "양파와 고추를 잘게 썹니다.",
+          "간장·식초·설탕을 섞고 채소를 더합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "0wqp-Ii5wQM",
+        "url": "https://www.youtube.com/watch?v=0wqp-Ii5wQM",
+        "title": "전 구울 때, 튀긴듯 바삭하지만 안타고 촉촉하게 잘 굽는 법",
+        "section_name": "부추완자전양념간장",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "1e8bd1fc2f6c335b67ea178d5ae5f740d6f9686e2b7a9bfdf99158bd7b8c65a7"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "간장과 식초는 원본 1:2 비율입니다. 설탕·채소는 약간으로 안내되어 기호에 따라 조절합니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_0wqp-Ii5wQM",
+      "names": {
+        "ko": "부추완자전 · 백종원 참고",
+        "en": "부추완자전 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "부추완자전",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "다진 돼지고기: 2컵(300g)\n두부: 1/2모(150g)\n대파: 1대(100g)\n부추: 약 12줄(60g)\n부침가루: 약 1/3컵(40g)\n진간장: 3큰술(30g)\n청양고추: 2개(20g)\n간 마늘: 약 2/3큰술(15g)\n달걀: 2개\n식용유: 적당량\n맛소금: 약간\n후춧가루: 약간",
+      "steps": {
+        "ko": [
+          "달걀을 풀고 채소를 잘게 썬 뒤 두부를 으깹니다.",
+          "돼지고기·두부·달걀·채소와 양념·부침가루를 고루 섞습니다.",
+          "기름 두른 팬에 약 1cm 두께로 펼쳐 약불에서 익히고 뒤집어 양면을 굽습니다.",
+          "속까지 익힌 뒤 기름을 빼고 별도 양념간장이나 케첩을 곁들입니다."
+        ],
+        "en": [
+          "달걀을 풀고 채소를 잘게 썬 뒤 두부를 으깹니다.",
+          "돼지고기·두부·달걀·채소와 양념·부침가루를 고루 섞습니다.",
+          "기름 두른 팬에 약 1cm 두께로 펼쳐 약불에서 익히고 뒤집어 양면을 굽습니다.",
+          "속까지 익힌 뒤 기름을 빼고 별도 양념간장이나 케첩을 곁들입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "0wqp-Ii5wQM",
+        "url": "https://www.youtube.com/watch?v=0wqp-Ii5wQM",
+        "title": "전 구울 때, 튀긴듯 바삭하지만 안타고 촉촉하게 잘 굽는 법",
+        "section_name": "부추완자전",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "1e8bd1fc2f6c335b67ea178d5ae5f740d6f9686e2b7a9bfdf99158bd7b8c65a7"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 부침용 기름은 적당량이며 달걀 중량과 기름 흡수량이 미확인입니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_0wqp-Ii5wQM_sauce",
+          "name": "부추완자전양념간장",
+          "amount_hint": "완자전을 찍어 먹을 만큼 사용합니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "대두",
+          "돼지고기",
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "다진 돼지고기",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=0wqp-Ii5wQM"
+          },
+          {
+            "ingredient": "두부",
+            "allergen": "대두",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=0wqp-Ii5wQM"
+          },
+          {
+            "ingredient": "달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=0wqp-Ii5wQM"
+          }
+        ],
+        "check_product_labels": [
+          "부침가루",
+          "진간장",
+          "식용유",
+          "맛소금"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_6AmBDFIJRE8_sauce",
+      "names": {
+        "ko": "백순대볶음소스 · 백종원 참고",
+        "en": "백순대볶음소스 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "백순대볶음소스",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "초고추장: 4큰술(40g)\n간 마늘: 1큰술(10g)\n들깻가루: 1과1/2큰술(15g)\n들기름: 1큰술 (7g)\n물: 2큰술(20g)\n된장: 2/3큰술(10g)",
+      "steps": {
+        "ko": [
+          "초고추장·마늘·들깻가루·들기름·물·된장을 준비합니다.",
+          "모든 재료를 고루 섞습니다."
+        ],
+        "en": [
+          "초고추장·마늘·들깻가루·들기름·물·된장을 준비합니다.",
+          "모든 재료를 고루 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "6AmBDFIJRE8",
+        "url": "https://www.youtube.com/watch?v=6AmBDFIJRE8",
+        "title": "[ENG] 집에서 먹는 신림동st 백순대볶음!",
+        "section_name": "백순대볶음소스",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "4d6a4c5ce01e586eeae2e86558493a44af2ab75d94395bb7199312ef781fc201"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "백순대볶음에 곁들이는 소스 준비량입니다. 실제 먹는 양은 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "초고추장",
+          "된장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_6AmBDFIJRE8",
+      "names": {
+        "ko": "백순대볶음 · 백종원 참고",
+        "en": "백순대볶음 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "서울 신림동",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "백순대볶음",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "순대: 400g\n양파: 1/2개(100g)\n대파: 1대(150g)\n새송이: 1/2개(50g)\n당근: 1/6개(30g)\n통마늘: 10알(40g)\n양배추: 1/6통(80g)\n깻잎: 10장(20g)\n청양고추: 3개(30g)\n들기름: 1/4컵(30g)\n식용유: 1/4컵(30g)\n설탕: 1/2큰술(5g)\n소금: 1/2큰술(5g)\n들깻가루: 1과1/2큰술(15g)\n불린 당면: 50g\n후춧가루: 적당량\n깨소금: 적당량\n물: 적당량",
+      "steps": {
+        "ko": [
+          "당면을 불리고 채소·순대를 먹기 좋게 썹니다.",
+          "기름에 마늘을 볶은 뒤 대파·양파·순대를 더합니다.",
+          "양배추·버섯·당근을 넣고 물을 조금 더해 볶으며 소금·설탕으로 간합니다.",
+          "당면을 한쪽에서 물을 더해 익히고 고추·깻잎·들깻가루·들기름을 섞습니다.",
+          "후추·깨로 마무리하고 별도 소스를 곁들입니다."
+        ],
+        "en": [
+          "당면을 불리고 채소·순대를 먹기 좋게 썹니다.",
+          "기름에 마늘을 볶은 뒤 대파·양파·순대를 더합니다.",
+          "양배추·버섯·당근을 넣고 물을 조금 더해 볶으며 소금·설탕으로 간합니다.",
+          "당면을 한쪽에서 물을 더해 익히고 고추·깻잎·들깻가루·들기름을 섞습니다.",
+          "후추·깨로 마무리하고 별도 소스를 곁들입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "6AmBDFIJRE8",
+        "url": "https://www.youtube.com/watch?v=6AmBDFIJRE8",
+        "title": "[ENG] 집에서 먹는 신림동st 백순대볶음!",
+        "section_name": "백순대볶음",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "4d6a4c5ce01e586eeae2e86558493a44af2ab75d94395bb7199312ef781fc201"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 공식 정정문에 따라 대파 1단이 아닌 1대(150g)를 사용합니다. 불린 당면 50g을 마른 당면 50g으로 계산하지 않았습니다. 순대의 실제 육류·알레르기 성분은 제품 확인이 필요합니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_6AmBDFIJRE8_sauce",
+          "name": "백순대볶음소스",
+          "amount_hint": "먹을 때 기호에 맞게 곁들이며 전량 섭취 기준이 아닙니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "순대",
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_7S9VN54ldnU_sauce",
+      "names": {
+        "ko": "만능짜장소스 · 백종원 참고",
+        "en": "만능짜장소스 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "만능짜장소스",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "다진 돼지고기: 2컵(320g)\n대파: 1대(100g)\n양파: 2개(360g)\n춘장: 1개(300g)\n식용유: 4/5컵(120g)\n간생강: 1/3큰술(3g)\n설탕: 3/5컵(90g)\n굴 소스: 1/2컵(100g)\n진간장: 1/3컵(60g)\nMSG: 1큰술(10g)",
+      "steps": {
+        "ko": [
+          "대파와 양파를 잘게 썰어 기름에 충분히 볶습니다.",
+          "돼지고기를 넣어 뭉친 곳을 풀어 익히고 생강을 더합니다.",
+          "팬 한쪽에서 간장·굴소스를 볶은 뒤 설탕과 춘장을 섞습니다.",
+          "중불에서 눋지 않게 저어 익히고 식혀 보관합니다."
+        ],
+        "en": [
+          "대파와 양파를 잘게 썰어 기름에 충분히 볶습니다.",
+          "돼지고기를 넣어 뭉친 곳을 풀어 익히고 생강을 더합니다.",
+          "팬 한쪽에서 간장·굴소스를 볶은 뒤 설탕과 춘장을 섞습니다.",
+          "중불에서 눋지 않게 저어 익히고 식혀 보관합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "7S9VN54ldnU",
+        "url": "https://www.youtube.com/watch?v=7S9VN54ldnU",
+        "title": "[ENG] 직접 만든 짜장소스로 짜장떡볶이를 간단하게~",
+        "section_name": "만능짜장소스",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "186a0fd5b4b0a2f42dadc94ac88b32398c982c9d6d06f1a20f33c5dab5e066dc"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "여러 요리에 나누어 쓰는 소스 준비량입니다. 춘장·굴소스의 원재료는 제품마다 달라 알레르기 성분을 임의로 추정하지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "다진 돼지고기",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=7S9VN54ldnU"
+          }
+        ],
+        "check_product_labels": [
+          "춘장",
+          "식용유",
+          "굴 소스",
+          "진간장",
+          "MSG"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_7S9VN54ldnU",
+      "names": {
+        "ko": "짜장떡볶이 · 백종원 참고",
+        "en": "짜장떡볶이 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "짜장떡볶이",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "떡볶이 떡: 200g\n어묵: 2장(80g)\n대파: 1/2대(60g)\n물: 1과1/3컵(250ml)\n만능짜장소스: 1/2컵(90g)\n고추장: 2/3큰술(10g)\n설탕: 1큰술(10g)\n삶은 달걀: 양 미표기",
+      "steps": {
+        "ko": [
+          "대파와 어묵을 썹니다.",
+          "팬에 물·고추장·설탕·짜장소스 90g을 풀고 떡과 삶은 달걀을 넣어 끓입니다.",
+          "떡이 익으면 대파·어묵을 더해 끓이고 소스로 간을 조절합니다."
+        ],
+        "en": [
+          "대파와 어묵을 썹니다.",
+          "팬에 물·고추장·설탕·짜장소스 90g을 풀고 떡과 삶은 달걀을 넣어 끓입니다.",
+          "떡이 익으면 대파·어묵을 더해 끓이고 소스로 간을 조절합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "7S9VN54ldnU",
+        "url": "https://www.youtube.com/watch?v=7S9VN54ldnU",
+        "title": "[ENG] 직접 만든 짜장소스로 짜장떡볶이를 간단하게~",
+        "section_name": "짜장떡볶이",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "186a0fd5b4b0a2f42dadc94ac88b32398c982c9d6d06f1a20f33c5dab5e066dc"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 만능짜장소스 사용량은 90g이며 소스 준비 레시피 전체가 아닙니다. 삶은 달걀은 수량 미표기입니다. 떡의 종류와 제품 알레르기 성분은 확인이 필요합니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_7S9VN54ldnU_sauce",
+          "name": "만능짜장소스",
+          "amount_hint": "이 요리에 사용하는 소스: 1/2컵(90g), 추가 간은 기호에 맞게 조절합니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "알류"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "삶은 달걀",
+            "allergen": "알류",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=7S9VN54ldnU"
+          }
+        ],
+        "check_product_labels": [
+          "떡볶이 떡",
+          "어묵",
+          "만능짜장소스",
+          "고추장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_4SEy2py0W_w",
+      "names": {
+        "ko": "골뱅이파채무침 · 백종원 참고",
+        "en": "골뱅이파채무침 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "골뱅이파채무침",
+        "골뱅이무침",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "골뱅이: 1캔(230g)\n파채: 약1과1/2컵(80g)\n황태채: 1컵(25g)\n황설탕: 1과1/3큰술(16g)\n양조식초: 약2와1/2큰술(21g)\n굵은 고춧가루: 1/4큰술(2g)\n간 마늘: 1큰술(20g)\n꽃소금: 1g",
+      "steps": {
+        "ko": [
+          "통조림 국물과 골뱅이를 분리하고 큰 골뱅이를 자릅니다.",
+          "황태채를 잘라 통조림 국물에 적셔 불리고 파채도 먹기 좋게 자릅니다.",
+          "골뱅이·황태채에 설탕·식초·고춧가루·마늘·소금을 섞습니다.",
+          "파채를 마지막에 넣어 가볍게 버무립니다."
+        ],
+        "en": [
+          "통조림 국물과 골뱅이를 분리하고 큰 골뱅이를 자릅니다.",
+          "황태채를 잘라 통조림 국물에 적셔 불리고 파채도 먹기 좋게 자릅니다.",
+          "골뱅이·황태채에 설탕·식초·고춧가루·마늘·소금을 섞습니다.",
+          "파채를 마지막에 넣어 가볍게 버무립니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "4SEy2py0W_w",
+        "url": "https://www.youtube.com/watch?v=4SEy2py0W_w",
+        "title": "초고추장 없이도 새콤달콤한 골뱅이 파채무침",
+        "section_name": "골뱅이파채무침",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "05c8f4b24ad820285deb392c98a27ec84d8f2c3f2bf6aff1c9f0a898eca1d68b"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 캔 230g과 국물 제거 후 골뱅이 중량은 다르게 취급합니다. 실제 통조림 원재료와 국물 흡수량이 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "골뱅이"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik__l_cJyxNkhc_chili_oil",
+      "names": {
+        "ko": "고추기름(대파형) · 백종원 참고",
+        "en": "고추기름(대파형) · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "고추기름(대파형)",
+        "고추기름",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "굵은고춧가루: 3큰술(15g)\n식용유: 1/3컵(60g)\n대파: 1/4컵(20g)\n참기름: 1큰술(7g)",
+      "steps": {
+        "ko": [
+          "대파를 잘게 썰어 식용유·참기름과 팬에 넣습니다.",
+          "파 향을 낸 뒤 한 김 식혀 고춧가루에 저으며 부어 섞습니다."
+        ],
+        "en": [
+          "대파를 잘게 썰어 식용유·참기름과 팬에 넣습니다.",
+          "파 향을 낸 뒤 한 김 식혀 고춧가루에 저으며 부어 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "_l_cJyxNkhc",
+        "url": "https://www.youtube.com/watch?v=_l_cJyxNkhc",
+        "title": "닭다리살 대파무침! 소스를 듬뿍 찍어 드셔보세요.",
+        "section_name": "고추기름(대파형)",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "별도의 공식 닭다리살 대파무침 영상에 재료와 과정이 명시된 고추기름입니다. 준비한 기름 전체가 한 접시 섭취량은 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "식용유"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik__l_cJyxNkhc_wasabi_mayo",
+      "names": {
+        "ko": "고추냉이마요소스 · 백종원 참고",
+        "en": "고추냉이마요소스 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "고추냉이마요소스",
+        "고추냉이마요",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "마요네즈: 3큰술(45g)\n식초: 1큰술(10g)\n황설탕: 1과1/2큰술(15g)\n꽃소금: 한꼬집\n간마늘: 1큰술(15g)\n고추냉이: 2/3큰술(10g)\n진간장: 양 미표기 (조리 과정에만 기재)",
+      "steps": {
+        "ko": [
+          "볼에 소스 재료를 준비합니다.",
+          "설탕이 풀리도록 고루 저어 섞습니다."
+        ],
+        "en": [
+          "볼에 소스 재료를 준비합니다.",
+          "설탕이 풀리도록 고루 저어 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "_l_cJyxNkhc",
+        "url": "https://www.youtube.com/watch?v=_l_cJyxNkhc",
+        "title": "닭다리살 대파무침! 소스를 듬뿍 찍어 드셔보세요.",
+        "section_name": "고추냉이마요소스",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "조리 과정에는 진간장이 나오지만 재료 목록에 분량이 없습니다. 임의로 간장 양을 채우지 않았으며 원본 영상에서 원하는 간을 확인해야 합니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "마요네즈",
+          "고추냉이",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik__l_cJyxNkhc",
+      "names": {
+        "ko": "닭다리살대파무침 · 백종원 참고",
+        "en": "닭다리살대파무침 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "닭다리살대파무침",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "닭다리살: 1개\n후춧가루(밑간용): 적당량\n맛소금(밑간용): 적당량\n양파: 20g\n파채: 100g\n고추기름: 곁들임 양 미표기\n고추냉이마요소스: 곁들임 양 미표기",
+      "steps": {
+        "ko": [
+          "닭다리살을 준비해 껍질이 팬 바닥을 향하게 놓고 약불에서 속까지 충분히 굽습니다.",
+          "양파와 파채를 섞어 접시에 펼칩니다.",
+          "익힌 닭을 썰어 채소 위에 올리고 별도 고추기름·고추냉이마요소스를 곁들입니다."
+        ],
+        "en": [
+          "닭다리살을 준비해 껍질이 팬 바닥을 향하게 놓고 약불에서 속까지 충분히 굽습니다.",
+          "양파와 파채를 섞어 접시에 펼칩니다.",
+          "익힌 닭을 썰어 채소 위에 올리고 별도 고추기름·고추냉이마요소스를 곁들입니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "_l_cJyxNkhc",
+        "url": "https://www.youtube.com/watch?v=_l_cJyxNkhc",
+        "title": "닭다리살 대파무침! 소스를 듬뿍 찍어 드셔보세요.",
+        "section_name": "닭다리살대파무침",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 닭다리살 1개의 중량과 곁들이는 소스 양이 미표기입니다. 고추냉이마요소스에는 간장 분량이 미확인인 점을 별도 표시했습니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik__l_cJyxNkhc_chili_oil",
+          "name": "고추기름(대파형)",
+          "amount_hint": "곁들이는 사용량은 원본에 미표기입니다."
+        },
+        {
+          "recipe_id": "paik__l_cJyxNkhc_wasabi_mayo",
+          "name": "고추냉이마요소스",
+          "amount_hint": "소스 사용량과 진간장 분량은 원본에 미표기입니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "닭고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "닭다리살",
+            "allergen": "닭고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=_l_cJyxNkhc"
+          }
+        ],
+        "check_product_labels": [
+          "맛소금(밑간용)",
+          "고추냉이마요소스"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_iWWQBoS3SL4_sauce",
+      "names": {
+        "ko": "고추장비빔국수양념장 · 백종원 참고",
+        "en": "고추장비빔국수양념장 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "고추장비빔국수양념장",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "고추장: 약1/3컵(80g)\n양조식초: 약4큰술(30g)\n황설탕: 3큰술(36g)\n진간장: 1큰술(10g)\n고운고춧가루: 1/2큰술(3g)\n간마늘: 1큰술(20g)",
+      "steps": {
+        "ko": [
+          "고추장·식초·설탕·간장·고춧가루·마늘을 준비합니다.",
+          "설탕이 풀릴 때까지 섞습니다."
+        ],
+        "en": [
+          "고추장·식초·설탕·간장·고춧가루·마늘을 준비합니다.",
+          "설탕이 풀릴 때까지 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "iWWQBoS3SL4",
+        "url": "https://www.youtube.com/watch?v=iWWQBoS3SL4",
+        "title": "비빔국수 만들다가 신메뉴가 탄생했습니다 '○○비빔국수' !! The Season for Bibim Guksu! Check Out This New Kind of Guksu.",
+        "section_name": "고추장비빔국수양념장",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "511e4da0587ae5367a015564cf0d32d2900a91ccef5f3719c2258eececb86291"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "2인분 국수 영상의 양념 준비량입니다. 국수에는 적당량을 넣는 원문으로 소스 전량 섭취 기준은 아닙니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "고추장",
+          "진간장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_iWWQBoS3SL4",
+      "names": {
+        "ko": "고추장비빔국수 · 백종원 참고",
+        "en": "고추장비빔국수 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "고추장비빔국수",
+        "비빔국수",
+        "백종원"
+      ],
+      "servings": 2,
+      "ingredients": [],
+      "ingredients_text": "소면: 200g\n깨소금: 6큰술(36g)\n양념장: 적당량\n참기름: 적당량",
+      "steps": {
+        "ko": [
+          "소면을 삶으며 끓어오르면 찬물을 더해가며 익힙니다.",
+          "찬물에 비벼 헹군 뒤 물기를 충분히 뺍니다.",
+          "그릇에 면을 담고 별도 양념장을 기호에 맞게 올립니다.",
+          "참기름과 빻은 깨소금으로 마무리합니다."
+        ],
+        "en": [
+          "소면을 삶으며 끓어오르면 찬물을 더해가며 익힙니다.",
+          "찬물에 비벼 헹군 뒤 물기를 충분히 뺍니다.",
+          "그릇에 면을 담고 별도 양념장을 기호에 맞게 올립니다.",
+          "참기름과 빻은 깨소금으로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "iWWQBoS3SL4",
+        "url": "https://www.youtube.com/watch?v=iWWQBoS3SL4",
+        "title": "비빔국수 만들다가 신메뉴가 탄생했습니다 '○○비빔국수' !! The Season for Bibim Guksu! Check Out This New Kind of Guksu.",
+        "section_name": "고추장비빔국수",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "511e4da0587ae5367a015564cf0d32d2900a91ccef5f3719c2258eececb86291"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "국수는 원본 2인분입니다. 양념장은 적당량이고 참기름 사용량도 미표기라 영양 계산은 보류했습니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_iWWQBoS3SL4_sauce",
+          "name": "고추장비빔국수양념장",
+          "amount_hint": "국수 2인분에 기호에 맞게 적당량 사용합니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "소면",
+          "양념장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_Om6W3JBfmFU",
+      "names": {
+        "ko": "대패삼겹살두루치기 · 백종원 참고",
+        "en": "대패삼겹살두루치기 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "대패삼겹살두루치기",
+        "대패두루치기",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "대패삼겹살: 1팩(600g)\n파 채: 1팩 (160g)\n양배추: 1/16통(150g)\n통마늘: 2/3컵(50g)\n*대패삼겹살 간장 소스\n진간장: ½컵(100g)\n정수물: 약½컵(100g)\n맛술: 약½컵(100g)\n황설탕: 1큰술(12g)\n*파채무침 초고추장 소스\n굵은 고춧가루: 5큰술(40g)\n식초: 4큰술(32g)\n고추장: 1과 1/2큰술(30g)\n정수물: 3큰술(30g)\n황설탕: 1과1/2큰술(18g)\n참기름: 2큰술(14g)",
+      "steps": {
+        "ko": [
+          "간장용 소스와 파채용 초고추장 소스를 각각 섞습니다.",
+          "양배추·파채·마늘을 준비하고 파채와 양배추를 초고추장 소스에 무칩니다.",
+          "넓은 팬에 대패삼겹살·간장 소스·마늘을 넣어 고기가 충분히 익도록 조립니다.",
+          "국물이 자작할 때 채소무침을 올리고 함께 볶아 마무리합니다."
+        ],
+        "en": [
+          "간장용 소스와 파채용 초고추장 소스를 각각 섞습니다.",
+          "양배추·파채·마늘을 준비하고 파채와 양배추를 초고추장 소스에 무칩니다.",
+          "넓은 팬에 대패삼겹살·간장 소스·마늘을 넣어 고기가 충분히 익도록 조립니다.",
+          "국물이 자작할 때 채소무침을 올리고 함께 볶아 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "Om6W3JBfmFU",
+        "url": "https://www.youtube.com/watch?v=Om6W3JBfmFU",
+        "title": "대패 두루치기 '나만의 비법 소스' 알려드릴게요!",
+        "section_name": "대패삼겹살두루치기",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "4b7ab58102f490431e2a7135e840fb9ecb72338b916636a4bf789b6a45773d5e"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 돼지고기의 지방 함량과 남기는 국물·양념 양이 미확인입니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [
+          "돼지고기"
+        ],
+        "ingredient_evidence": [
+          {
+            "ingredient": "대패삼겹살",
+            "allergen": "돼지고기",
+            "basis": "explicit_ingredient_identity",
+            "recipe_source_url": "https://www.youtube.com/watch?v=Om6W3JBfmFU"
+          }
+        ],
+        "check_product_labels": [
+          "진간장",
+          "맛술",
+          "고추장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_Om6W3JBfmFU_rice",
+      "names": {
+        "ko": "대패두루치기볶음밥 · 백종원 참고",
+        "en": "대패두루치기볶음밥 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "대패두루치기볶음밥",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "밥: 2공기\n대패삼겹살 두루치기: 적당량\n김치: 적당량\n김가루: 적당량\n참기름: 약간",
+      "steps": {
+        "ko": [
+          "준비한 두루치기와 김치를 잘게 잘라 팬에서 볶습니다.",
+          "밥을 넣어 고루 섞어 볶고 참기름·김가루로 마무리합니다."
+        ],
+        "en": [
+          "준비한 두루치기와 김치를 잘게 잘라 팬에서 볶습니다.",
+          "밥을 넣어 고루 섞어 볶고 참기름·김가루로 마무리합니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "Om6W3JBfmFU",
+        "url": "https://www.youtube.com/watch?v=Om6W3JBfmFU",
+        "title": "대패 두루치기 '나만의 비법 소스' 알려드릴게요!",
+        "section_name": "대패두루치기볶음밥",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "4b7ab58102f490431e2a7135e840fb9ecb72338b916636a4bf789b6a45773d5e"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "원본에 인분 수가 명시되어 있지 않아 임의로 정하지 않았습니다. 밥 2공기를 2인분으로 정하지 않았습니다. 두루치기·김치·김가루 사용량과 남은 국물량은 미표기입니다.",
+      "preparations": [
+        {
+          "recipe_id": "paik_Om6W3JBfmFU",
+          "name": "대패삼겹살두루치기",
+          "amount_hint": "볶음밥에 쓰는 두루치기는 적당량입니다. 식사 후 남은 분량을 활용하는 원문입니다."
+        }
+      ],
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "대패삼겹살 두루치기",
+          "김치"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
+    },
+    {
+      "id": "paik_oUvPWwmvoPM_sauce",
+      "names": {
+        "ko": "순대볶음양념장 · 백종원 참고",
+        "en": "순대볶음양념장 · Paik reference"
+      },
+      "country": "Korea",
+      "region": "",
+      "category": "Korean home cooking",
+      "category_ko": "국내 기본 요리",
+      "tags": [
+        "순대볶음양념장",
+        "백종원"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "진간장: 약 4큰술(38g)\n간 마늘: 약 2큰술(38g)\n굵은 고춧가루: 3과 1/2큰술(28g)\n황설탕: 1과 1/3큰술(16g)\n고추장: 약 2/3큰술(15g)\n물: 1/2컵(90g)\n후춧가루: 약간",
+      "steps": {
+        "ko": [
+          "간장·마늘·고춧가루·설탕·고추장·물·후추를 준비합니다.",
+          "모든 재료를 고루 섞습니다."
+        ],
+        "en": [
+          "간장·마늘·고춧가루·설탕·고추장·물·후추를 준비합니다.",
+          "모든 재료를 고루 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "creator_reference",
+      "source_label": "백종원 공식 영상 참고",
+      "verified_source": true,
+      "nutrition_status": "not_calculated",
+      "source_nutrition": null,
+      "source_weight_text": "",
+      "source": {
+        "name": "백종원 PAIK JONG WON",
+        "channel_id": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "record_id": "oUvPWwmvoPM",
+        "url": "https://www.youtube.com/watch?v=oUvPWwmvoPM",
+        "title": "매콤한 순대볶음! (+안 터지게 볶는 요령 알려드릴게요!)",
+        "section_name": "순대볶음양념장",
+        "retrieved_on": "2026-10-11",
+        "description_sha256": "b8ee31a6aea44a8c5a9fa65dfe737ff4b9de8ed4b685112937cbe25a82655d57"
+      },
+      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "portion_notice": "순대볶음에 사용하는 양념 준비량입니다. 이 항목에 순대나 선택 재료인 쇠고기 다시다·치즈를 임의로 추가하지 않았습니다.",
+      "allergen_review": {
+        "status": "ingredient_identity_reviewed_product_labels_pending",
+        "checked_on": "2026-10-11",
+        "known_from_ingredients": [],
+        "ingredient_evidence": [],
+        "check_product_labels": [
+          "진간장",
+          "고추장"
+        ],
+        "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
+        "cross_contact_status": "not_verified"
+      }
     }
   ],
   "nutrition_reference_count": 18,
-  "allergen_ingredient_review_count": 147
+  "allergen_ingredient_review_count": 201
 }
