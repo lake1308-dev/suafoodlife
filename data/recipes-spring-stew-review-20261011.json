@@ -1,0 +1,244 @@
+{
+  "checked_on": "2026-10-11",
+  "search_topics": 40,
+  "reviewed_video_sources": 17,
+  "added_recipe_records": 13,
+  "previous_creator_records": 261,
+  "creator_records_after": 274,
+  "items": [
+    {
+      "recipe_id": "paik_MCYhvB4q4r4",
+      "name": "소고기칼국수",
+      "source_url": "https://www.youtube.com/watch?v=MCYhvB4q4r4",
+      "status": "verified_added",
+      "ingredient_excerpt": "칼국수면: 150g\n소고기(불고기용) 약 2/3컵(70g)\n감자 약 1/4개(40g)\n양파 약 1/6개(40g)\n표고버섯 1/2개(10g)\n애호박 1/8개(40g)\n대파 1/5대(20g)\n청양고추 1개(10g)\n참기름 2큰술(14g)\n물 약 3과 1/2컵(650ml)\n간 마늘 1/2큰술(10g)\n국간장 1큰술(10g)\n멸치액젓 1큰술(8g)\n후춧가루 약간",
+      "servings": null,
+      "source_description_sha256": "aa705f01905176b2d4488a465364626bb39e6902967859a40853550108c81bb3"
+    },
+    {
+      "recipe_id": "paik_6lcrq5D_63o",
+      "name": "냉이된장라면",
+      "source_url": "https://www.youtube.com/watch?v=6lcrq5D_63o",
+      "status": "verified_added",
+      "ingredient_excerpt": "정수물 약 3과 1/3컵(600ml)\n냉이 약 2컵(50g)\n대파 1/5대(20g)\n재래식 된장 1/2큰술(10g)\n청양고추 1개(10g)\n라면 1개",
+      "servings": null,
+      "source_description_sha256": "9dc24622a200f7e28014b6935a95f6ca4713bb948f4d7fc4e246462d47f94b90"
+    },
+    {
+      "recipe_id": "paik_3-xgRrEX-sQ",
+      "name": "소고기된장찌개",
+      "source_url": "https://www.youtube.com/watch?v=3-xgRrEX-sQ",
+      "status": "verified_added",
+      "ingredient_excerpt": "소고기(양지) 60g\n두부 약 1/2팩(80g)\n돼지 호박 약 1/2컵(30g)\n무 약 1/2컵(50g)\n양파 약 1/2컵(40g) \n대파 약 1/3대(30g)\n청양고추 2개(20g)\n홍고추 1개(10g)\n물 2컵(380ml)\n된장 3큰술(60g)\n굵은 고춧가루 1/3큰술(2g)\n간 마늘 1/2큰술(10g)",
+      "servings": 2,
+      "source_description_sha256": "f16c2e13e9edc3a8cfc0cc637da659716175e00db022ef1052a6820e97105280"
+    },
+    {
+      "recipe_id": "paik_qioLJwafP8I",
+      "name": "참치밥전",
+      "source_url": "https://www.youtube.com/watch?v=qioLJwafP8I",
+      "status": "verified_added",
+      "ingredient_excerpt": "찬 밥 1공기 (200g)\n참치캔 小1캔 (100g)\n대파 약 1/2대 (40g)\n양파 1/6개 (40g)\n당근 약간 (30g)\n부침가루 2큰술 (20g) \n청양고추 1개 (10g)\n꽃소금 1/4큰술 (3g)\n달걀 2개\n후추가루 약간\n식용유 적당히",
+      "servings": null,
+      "source_description_sha256": "de7001a0eeb11766103ee479f0566d6288a8c7d2ea058ac68d7c3bf825116478"
+    },
+    {
+      "recipe_id": "paik_RmZyxKOUbfs",
+      "name": "메추리알장조림",
+      "source_url": "https://www.youtube.com/watch?v=RmZyxKOUbfs",
+      "status": "verified_added",
+      "ingredient_excerpt": "삶은 메추리알 1kg\n정수 물 4컵(720ml)\n진간장 1컵(200g)\n꽈리고추 16개(96g)\n통마늘 10개(50g)\n황설탕 1/2컵(70g)\n청양고추 3개(30g)\n다시마 1조각(7g)",
+      "servings": null,
+      "source_description_sha256": "bc8527c97ec51309ede648248dc9f018b44bc0538417353088b60ed9108902e2"
+    },
+    {
+      "recipe_id": "paik_cTayVZxM0nw",
+      "name": "새꼬막삶기",
+      "source_url": "https://www.youtube.com/watch?v=cTayVZxM0nw",
+      "status": "verified_added",
+      "ingredient_excerpt": "새꼬막: 1kg (껍데기 포함 준비량)\n물: 꼬막이 잠길 정도 (데침용)\n*원본에서 제시한 꼬막살 준비량은 240g입니다.",
+      "servings": null,
+      "source_description_sha256": "237170b4367b8f702fc884ae8f7ef31928722a47fe9164712746c1bcda9aa8f0"
+    },
+    {
+      "recipe_id": "paik_YLd78Yqoy9I",
+      "name": "꽃게해장국",
+      "source_url": "https://www.youtube.com/watch?v=YLd78Yqoy9I",
+      "status": "verified_added",
+      "ingredient_excerpt": "정수물 약10컵(약2L)\n냉동꽃게 2마리(약800~900g)\n무 약1/10개(240g)\n재래식된장 가득3큰술(135g)\n양파 약1/2개(100g)\n애호박 약1/3개(100g)\n대파 약1대(85g)\n청양고추 3개(30g)\n간마늘 1큰술(20g)\n굵은고추가루 약1큰술(10g)",
+      "servings": null,
+      "source_description_sha256": "f47b4d18876396a7faa50bbf9d0d2bf71a842ddb415ccc26791fa7dd59d7a8c8"
+    },
+    {
+      "recipe_id": "paik_gUYeEasWU58",
+      "name": "동태찌개",
+      "source_url": "https://www.youtube.com/watch?v=gUYeEasWU58",
+      "status": "verified_added",
+      "ingredient_excerpt": "동태 1마리(700g)\n이리 1컵(150g)\n간 1/2컵(70g)\n알 1컵(180g)\n두부 2/3모(180g)\n대파 1대(100g)\n청양고추 3개(25g)\n홍고추 2개(35g)\n무우 1/3개(300g)\n물 1.6L\n쑥갓 적당량\n\n\n[양념장 재료]\n\n간마늘 2큰술(30g)\n간생강 1/3큰술(5g)\n새우젓 1.5큰술(20g)\n국간장 8큰술(80g)\n굵은고춧가루 3큰술(15g)\n고추장 2큰술(30g)\n된장 1큰술(15g)",
+      "servings": null,
+      "source_description_sha256": "a689846adcdf22aab6fbd4188628ff487357a35771257438709e7ae2ae2309e1"
+    },
+    {
+      "recipe_id": "paik_3OwIXlvjjyk",
+      "name": "꿔바로우고기튀김",
+      "source_url": "https://www.youtube.com/watch?v=3OwIXlvjjyk",
+      "status": "verified_added",
+      "ingredient_excerpt": "식용유(튀김용) 1.8L\n돈등심 500g\n감자전분 2컵(240g)\n물 1컵과2큰술(200g)\n달걀물 2큰술(20g)\n맛소금 적당량\n후춧가루 적당량",
+      "servings": null,
+      "source_description_sha256": "e548eb5585e3b1a6fdafad84967069407b5d47723ff2706a59bf3aafd2b86be0"
+    },
+    {
+      "recipe_id": "paik_uu8BqXy6lf4",
+      "name": "맑은미역국",
+      "source_url": "https://www.youtube.com/watch?v=uu8BqXy6lf4",
+      "status": "verified_added",
+      "ingredient_excerpt": "정수물 약 8과 1/3컵(1.5L)\n절단 불린 미역 2컵(180g)\n멸치액젓 2큰술(16g)\n간 마늘 약 1큰술(18g)\n국간장 1큰술(10g)\n맛소금 약 1/3큰술(5g)",
+      "servings": 4,
+      "source_description_sha256": "4e7f10801ea512aa0f84b9fb0a91a8043588672466788bd26c8133e2699e3a0b"
+    },
+    {
+      "recipe_id": "paik_SILoOGBiAyA",
+      "name": "부대볶음",
+      "source_url": "https://www.youtube.com/watch?v=SILoOGBiAyA",
+      "status": "verified_added",
+      "ingredient_excerpt": "*양념장\n정수물 약 1/5컵(30g)\n케첩 1과 1/2큰술(30g)\n물엿 1큰술(20g)\n간마늘 1큰술(20g)\n황설탕 1큰술(12g)\n굵은고추가루 약 1큰술(10g)\n진간장 1큰술(10g)\n후추가루 약간\n\n*부대볶음\n통조림햄 1/2통(100g)\n빽소시지 2개(약 85g)\n양배추 적당량(80g)\n양파 약 1/4개(60g)\n베이크드빈스 2큰술(40g)\n대파 약 1/3개(30g)\n식용유 3큰술(21g)\n체다슬라이스치즈 1장",
+      "servings": 2,
+      "source_description_sha256": "207f908ffd063bebdda3bb8b692acf3d2b15da331fb6cf5a96b54b311b951ccd"
+    },
+    {
+      "recipe_id": "paik_llZ1ii59BVs_tofu",
+      "name": "유부조림(우동곁들임)",
+      "source_url": "https://www.youtube.com/watch?v=llZ1ii59BVs",
+      "status": "verified_added",
+      "ingredient_excerpt": "냉동 유부 10개\n진간장 2큰술 (20g)\n미림 4큰술 (40g)\n설탕 2큰술 (24g)\n정수물 2컵 (360g)",
+      "servings": null,
+      "source_description_sha256": "b95c692c7608123a479299b7541ede3a5707f12bd313cf33892cac9953880113"
+    },
+    {
+      "recipe_id": "paik_llZ1ii59BVs",
+      "name": "유부우동",
+      "source_url": "https://www.youtube.com/watch?v=llZ1ii59BVs",
+      "status": "verified_added",
+      "ingredient_excerpt": "시판 우동 1인분\n유부조림 3개\n대파 2큰술 (14g)",
+      "servings": 1,
+      "source_description_sha256": "b95c692c7608123a479299b7541ede3a5707f12bd313cf33892cac9953880113"
+    }
+  ],
+  "video_reviews": [
+    {
+      "video_id": "llZ1ii59BVs",
+      "title": "유부 먹으려고 우동 끓였습니다",
+      "records_added": 2,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "bHgRN3dDKZw",
+      "title": "[님아 그 시장을 가오_상주] 요즘 세상에 이런 곳이 또 있을까요? 3천 원 한 그릇에 담긴 따뜻한 위로",
+      "records_added": 0,
+      "reason_if_not_added": "음식점 소개이며 재료·조리법이 없습니다."
+    },
+    {
+      "video_id": "SILoOGBiAyA",
+      "title": "알면서도 애써 모른 척했습니다... 끈기 있는 팀원에게 이 영상을 바칩니다!",
+      "records_added": 1,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "cTayVZxM0nw",
+      "title": "맛있는 꼬막비빔밥 만들기 ㅣ 백종원의 쿠킹로그",
+      "records_added": 1,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "-MvfUUPB5-Y",
+      "title": "더 이상의 부대찌개는 없습니다! 이걸로 끝내겠습니다",
+      "records_added": 0,
+      "reason_if_not_added": "기존 부대찌개와 핵심 재료·조리법이 겹쳐 별도 등록하지 않았습니다."
+    },
+    {
+      "video_id": "MCYhvB4q4r4",
+      "title": "한국의 깊은 맛 소고기칼국수 (+한식 세계화 이야기 조금ㅎㅎ)",
+      "records_added": 1,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "gUYeEasWU58",
+      "title": "제일 쉬운 생선찌개! 동태찌개!!! 얼큰하게 부글부글 ㅋ ㅑㅑㅑㅑ ㅣ 백종원의 백종원레시피",
+      "records_added": 1,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "YLd78Yqoy9I",
+      "title": "다음 날 먹으면 더 맛있어요! 오래 끓일수록 게🦀 맛있는 꽃게 해장국",
+      "records_added": 1,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "uu8BqXy6lf4",
+      "title": "300원으로 한 냄비 가~득 국 끓이기! 가성비 끝판왕 맑은 미역국",
+      "records_added": 1,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "3-xgRrEX-sQ",
+      "title": "할머니가 그리운 맛, 소고기된장찌개",
+      "records_added": 1,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "qioLJwafP8I",
+      "title": "밥으로 전을 왜 하지? 했지만 간단하고 맛있는 참치밥전",
+      "records_added": 1,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "_-4nakEwN0s",
+      "title": "흑백요리사 안대 심사의 한을 푼 백수저 여경래 셰프의 마파두부",
+      "records_added": 0,
+      "reason_if_not_added": "인터뷰 소개이며 재료·조리법이 없습니다."
+    },
+    {
+      "video_id": "3OwIXlvjjyk",
+      "title": "팔아도 되는 꿔바로우",
+      "records_added": 1,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "RmZyxKOUbfs",
+      "title": "🦆: 여보 여기 있던 내 알 못 봤어요?│메추리알 장조림",
+      "records_added": 1,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "6lcrq5D_63o",
+      "title": "고깃집 된장찌개 부럽지 않은 봄맞이 냉이된장라면",
+      "records_added": 1,
+      "reason_if_not_added": null
+    },
+    {
+      "video_id": "h7NFHq9QeeU",
+      "title": "훈연멸치로 만드는 가락국수!",
+      "records_added": 0,
+      "reason_if_not_added": "육수의 다시마 투입 과정이 빠져 의존 요리를 보류했습니다."
+    },
+    {
+      "video_id": "YISYMu2Txp4",
+      "title": "돼지고기 듬뿍! 불맛 짬뽕라면 ㅣ 백종원의 백종원 레시피",
+      "records_added": 0,
+      "reason_if_not_added": "기존 돼지고기짬뽕라면과 겹치며 양파 준비량 250g/사용량 200g이 불일치합니다."
+    }
+  ],
+  "held_sections": [
+    {
+      "video_id": "cTayVZxM0nw",
+      "section": "양념장 및 비빔밥",
+      "reason": "재료 목록 양파의 투입 과정 누락; 삶기만 등록."
+    },
+    {
+      "video_id": "3OwIXlvjjyk",
+      "section": "소스 및 완성 꿔바로우",
+      "reason": "재료 목록 식초의 투입 과정 누락; 튀김만 등록."
+    }
+  ],
+  "scope": "40 searched topics and their new candidates, not an exhaustive channel inventory. Preparations count separately."
+}
