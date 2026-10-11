@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs');
 const d=JSON.parse(fs.readFileSync('data/recipes-creator-20261008.json')),a=JSON.parse(fs.readFileSync('data/recipes-spring-stew-review-20261011.json'));const get=id=>d.recipes.find(r=>r.id==='paik_'+id);
 assert.equal(a.added_recipe_records,13);assert.equal(a.reviewed_video_sources,17);assert.equal(a.video_reviews.filter(v=>!v.records_added).length,5);
-for(const x of a.items){const r=d.recipes.find(r=>r.id===x.recipe_id);assert(r);assert.equal(r.nutrition_reference,undefined);assert.equal(r.source_nutrition,null);assert.equal(r.source.description_sha256,x.source_description_sha256);}
+for(const x of a.items){const r=d.recipes.find(r=>r.id===x.recipe_id);assert(r);if(r.tags[0]!=='소고기된장찌개')assert.equal(r.nutrition_reference,undefined);else assert.equal(r.nutrition_reference.status,'estimated_reference');assert.equal(r.source_nutrition,null);assert.equal(r.source.description_sha256,x.source_description_sha256);}
 assert(get('YLd78Yqoy9I').allergen_review.known_from_ingredients.includes('게'));assert.equal(get('YLd78Yqoy9I').servings,null);
 assert(get('RmZyxKOUbfs').allergen_review.known_from_ingredients.includes('알류'));assert(!get('gUYeEasWU58').allergen_review.known_from_ingredients.includes('알류'));assert(get('gUYeEasWU58').allergen_review.known_from_ingredients.includes('새우'));
 assert(get('cTayVZxM0nw').allergen_review.known_from_ingredients.includes('조개류(꼬막)'));assert(!get('cTayVZxM0nw').ingredients_text.includes('양념장'));

@@ -1,8 +1,8 @@
 {
   "reviewed_on": "2026-10-11",
   "recipe_count": 274,
-  "nutrition_reference_estimates": 18,
-  "nutrition_held": 256,
+  "nutrition_reference_estimates": 19,
+  "nutrition_held": 255,
   "nutrition_items": [
     {
       "recipe_id": "paik_DnQ09ZZCjCs",
@@ -1339,8 +1339,9 @@
     },
     {
       "recipe_id": "paik_3-xgRrEX-sQ",
-      "status": "held",
-      "reason": "Ingredient identity, edible weight or mixed component basis needs individual review; no complete total generated"
+      "status": "estimated_reference",
+      "ingredient_count": 11,
+      "kcal": 414.98
     },
     {
       "recipe_id": "paik_qioLJwafP8I",
