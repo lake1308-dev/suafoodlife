@@ -16,9 +16,9 @@
   },
   "epis": {
     "provider": "농림수산식품교육문화정보원",
-    "status": "full_exports_require_account_login_or_issued_api_key",
-    "imported_records": 0,
-    "recipe_count": "not_verified",
+    "status": "user_full_exports_joined_and_reviewed",
+    "imported_records": 532,
+    "recipe_count": 537,
     "join_key": "RECIPE_ID",
     "required_exports": [
       {
@@ -67,6 +67,8 @@
       "Compare source IDs and ingredient/method signatures against current collections",
       "Do not assign foreign origin from Korean-style cuisine labels",
       "Do not include images without separate review"
-    ]
+    ],
+    "held_records": 5,
+    "review_file": "recipes-epis-import-review-20261012.json"
   }
 }

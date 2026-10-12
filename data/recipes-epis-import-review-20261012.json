@@ -1,0 +1,459 @@
+{
+  "checked_on": "2026-10-12",
+  "basic_records": 537,
+  "ingredient_rows": 6104,
+  "process_rows": 3022,
+  "imported_records": 532,
+  "held": [
+    {
+      "id": "498",
+      "name": "송어샐러드",
+      "reasons": [
+        "missing_cooking_step"
+      ]
+    },
+    {
+      "id": "359",
+      "name": "캘리포니아롤",
+      "reasons": [
+        "missing_cooking_step"
+      ]
+    },
+    {
+      "id": "316",
+      "name": "물만두",
+      "reasons": [
+        "conflicting_step_number"
+      ]
+    },
+    {
+      "id": "275",
+      "name": "해파리해물냉채",
+      "reasons": [
+        "missing_cooking_step"
+      ]
+    },
+    {
+      "id": "176",
+      "name": "해물잡채",
+      "reasons": [
+        "conflicting_step_number",
+        "missing_cooking_step"
+      ]
+    }
+  ],
+  "ingredient_only_ids": [
+    "501",
+    "502",
+    "503",
+    "504",
+    "505",
+    "506",
+    "507",
+    "508",
+    "509",
+    "510",
+    "511",
+    "512",
+    "513",
+    "514",
+    "515",
+    "517",
+    "518",
+    "519",
+    "520",
+    "521",
+    "522",
+    "523",
+    "524",
+    "525",
+    "526",
+    "527",
+    "528",
+    "529",
+    "530",
+    "532",
+    "533",
+    "534",
+    "535",
+    "536",
+    "537",
+    "538",
+    "539",
+    "540"
+  ],
+  "process_only_ids": [
+    "501",
+    "502",
+    "503",
+    "504",
+    "505",
+    "506",
+    "507",
+    "508",
+    "509",
+    "510",
+    "511",
+    "512",
+    "513",
+    "514",
+    "515",
+    "517",
+    "518",
+    "519",
+    "520",
+    "521",
+    "522",
+    "523",
+    "524",
+    "525",
+    "526",
+    "527",
+    "528",
+    "529",
+    "530",
+    "532",
+    "533",
+    "534",
+    "535",
+    "536",
+    "537",
+    "538",
+    "539",
+    "540"
+  ],
+  "csv_comma_restorations": [
+    {
+      "recipe_id": "120419",
+      "step": 6,
+      "original_field_count": 6
+    },
+    {
+      "recipe_id": "91023",
+      "step": 2,
+      "original_field_count": 7
+    },
+    {
+      "recipe_id": "90997",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "90881",
+      "step": 3,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "90846",
+      "step": 7,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "90846",
+      "step": 4,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "497",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "496",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "474",
+      "step": 1,
+      "original_field_count": 6
+    },
+    {
+      "recipe_id": "473",
+      "step": 1,
+      "original_field_count": 9
+    },
+    {
+      "recipe_id": "472",
+      "step": 1,
+      "original_field_count": 14
+    },
+    {
+      "recipe_id": "461",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "456",
+      "step": 1,
+      "original_field_count": 11
+    },
+    {
+      "recipe_id": "443",
+      "step": 1,
+      "original_field_count": 8
+    },
+    {
+      "recipe_id": "442",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "436",
+      "step": 1,
+      "original_field_count": 9
+    },
+    {
+      "recipe_id": "431",
+      "step": 1,
+      "original_field_count": 14
+    },
+    {
+      "recipe_id": "429",
+      "step": 1,
+      "original_field_count": 14
+    },
+    {
+      "recipe_id": "428",
+      "step": 1,
+      "original_field_count": 17
+    },
+    {
+      "recipe_id": "418",
+      "step": 1,
+      "original_field_count": 6
+    },
+    {
+      "recipe_id": "416",
+      "step": 1,
+      "original_field_count": 12
+    },
+    {
+      "recipe_id": "404",
+      "step": 1,
+      "original_field_count": 16
+    },
+    {
+      "recipe_id": "384",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "376",
+      "step": 1,
+      "original_field_count": 9
+    },
+    {
+      "recipe_id": "367",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "358",
+      "step": 1,
+      "original_field_count": 6
+    },
+    {
+      "recipe_id": "348",
+      "step": 1,
+      "original_field_count": 6
+    },
+    {
+      "recipe_id": "346",
+      "step": 1,
+      "original_field_count": 7
+    },
+    {
+      "recipe_id": "278",
+      "step": 1,
+      "original_field_count": 6
+    },
+    {
+      "recipe_id": "261",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "256",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "215",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "208",
+      "step": 1,
+      "original_field_count": 14
+    },
+    {
+      "recipe_id": "195",
+      "step": 1,
+      "original_field_count": 7
+    },
+    {
+      "recipe_id": "193",
+      "step": 1,
+      "original_field_count": 6
+    },
+    {
+      "recipe_id": "186",
+      "step": 1,
+      "original_field_count": 6
+    },
+    {
+      "recipe_id": "179",
+      "step": 1,
+      "original_field_count": 8
+    },
+    {
+      "recipe_id": "149",
+      "step": 1,
+      "original_field_count": 12
+    },
+    {
+      "recipe_id": "144",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "143",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "137",
+      "step": 1,
+      "original_field_count": 8
+    },
+    {
+      "recipe_id": "132",
+      "step": 1,
+      "original_field_count": 7
+    },
+    {
+      "recipe_id": "129",
+      "step": 1,
+      "original_field_count": 11
+    },
+    {
+      "recipe_id": "127",
+      "step": 1,
+      "original_field_count": 7
+    },
+    {
+      "recipe_id": "121",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "120",
+      "step": 1,
+      "original_field_count": 7
+    },
+    {
+      "recipe_id": "117",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "100",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "98",
+      "step": 1,
+      "original_field_count": 6
+    },
+    {
+      "recipe_id": "93",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "88",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "82",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "81",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "65",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "58",
+      "step": 1,
+      "original_field_count": 6
+    },
+    {
+      "recipe_id": "56",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "41",
+      "step": 1,
+      "original_field_count": 13
+    },
+    {
+      "recipe_id": "26",
+      "step": 1,
+      "original_field_count": 11
+    },
+    {
+      "recipe_id": "24",
+      "step": 1,
+      "original_field_count": 10
+    },
+    {
+      "recipe_id": "16",
+      "step": 1,
+      "original_field_count": 5
+    },
+    {
+      "recipe_id": "14",
+      "step": 1,
+      "original_field_count": 16
+    },
+    {
+      "recipe_id": "10",
+      "step": 1,
+      "original_field_count": 9
+    }
+  ],
+  "sources": [
+    {
+      "filename": "레시피+기본정보_20261011.csv",
+      "sha256": "24474d3f3ddaf7cc16fbd31489fdb3bccd3ce50aa2fd72a2446c6febd80d524a"
+    },
+    {
+      "filename": "레시피 재료정보.xlsx",
+      "sha256": "877e9eff2e40230882b618997e9910ff869a0473e88d032211ba4ee2a2e1cb91"
+    },
+    {
+      "filename": "레시피+과정정보_20261012.csv",
+      "sha256": "aff142f6737ae86a6cf9c5dbdd385eba65ed6e47d73bd15de061d17327d22892"
+    }
+  ],
+  "policy": [
+    "Keep original ingredient quantities and source portion text; no gram conversions",
+    "Zero calorie source values treated as unavailable",
+    "Unverified calorie basis not converted to per person or per 100g",
+    "No inferred product allergens",
+    "Cuisine classification is not verified country of origin",
+    "Distinct source recipes retained even when dish names match"
+  ]
+}
