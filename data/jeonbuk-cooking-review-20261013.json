@@ -1,0 +1,866 @@
+{
+  "reviewed_on": "2026-10-13",
+  "source_catalog": "https://www.data.go.kr/data/15136205/fileData.do",
+  "catalog_license": "이용허락범위 제한 없음",
+  "catalog_format": "MP4",
+  "catalog_record_count": 53,
+  "linked_detail_count": 61,
+  "downloaded_detail_count": 61,
+  "complete_text_count": 53,
+  "accepted_recipe_count": 0,
+  "status_counts": {
+    "held_missing_recipe_text": 8,
+    "held_source_inconsistency": 24,
+    "pending_manual_consistency_review": 29
+  },
+  "rules": [
+    "Public recipe database unchanged",
+    "Never merge differing ingredient quantities from page and transcript",
+    "Missing quantities, nutrition and allergens are not invented",
+    "Text reuse scope must be verified independently of the MP4 catalogue license",
+    "Raw source pages retained only in the cache directory; repository review contains metadata only"
+  ],
+  "records": [
+    {
+      "record_id": "149",
+      "name": "갈비찜",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=149",
+      "original_sha256": "1de4d2ec7c2c0e8035391fbf5be618111f1cf6aa1da362bf33a95ad279bc92e0",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 69,
+      "method_characters": 225,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section lists beef 1.8kg; transcript lists 1kg; cooking steps use additional unlisted ingredients"
+      ]
+    },
+    {
+      "record_id": "40",
+      "name": "고추김치",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=40",
+      "original_sha256": "c449589922f0306468b33276a674ca60c92227d8668ff38a88b11944574672e4",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 102,
+      "method_characters": 209,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use radish and sesame absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "52",
+      "name": "과하주",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=52",
+      "original_sha256": "bb4d8d4edc1bdc3317394e5869edb97990618397c964ef99e157e1de848bb4e0",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 56,
+      "method_characters": 199,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section lists water 3L; cooking steps use 5L"
+      ]
+    },
+    {
+      "record_id": "7",
+      "name": "김치밥",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=7",
+      "original_sha256": "dd3567243a9af60f5b07f8a916c9c44d5c43f60eef62671a0e94d28214e6e469",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 87,
+      "method_characters": 165,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "37",
+      "name": "꽃게장",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=37",
+      "original_sha256": "26d48f6b7e6e16bd2237f5d33a115ce1d295fe87672bcb092c7bc81227747740",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 128,
+      "method_characters": 183,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "183",
+      "name": "녹두빈대떡",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=183",
+      "original_sha256": "f652683929c19fcf040136011f9c50f492a9a07eb48553043098a0f0cf608a61",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 13,
+      "method_characters": 168,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use pork and several vegetables absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "121",
+      "name": "다슬기탕",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=121",
+      "original_sha256": "169022302c59c9a5788582cd5109a161025c9bbf089dda65fa4e044ccf75ebdf",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 25,
+      "method_characters": 183,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use soybean paste absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "29",
+      "name": "달래 해물전",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=29",
+      "original_sha256": "ba3a7a07c42f6508b3f782c07a9e5955f5cc0d4e53c9a584cf9ca95ebfa30cee",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 156,
+      "method_characters": 221,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section uses non-glutinous rice flour; steps use glutinous rice flour"
+      ]
+    },
+    {
+      "record_id": "27",
+      "name": "대합구이",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=27",
+      "original_sha256": "9eadf2f44bd78cfabb7dfcc91e24a2685e12731a8cbed578efeb9d9a778b6423",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 136,
+      "method_characters": 223,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "208",
+      "name": "도토리묵",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=208",
+      "original_sha256": "e865efafc726e0ebffd33f4d504979fd0bac178f14a9fd22a31d6d1da3dec213",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 3,
+      "method_characters": 133,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "3",
+      "name": "돌솥밥",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=3",
+      "original_sha256": "3d6e5d79e284e64eaf55a75de74f01a01dbbb882f4c63987551b2c91f4ca935e",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 203,
+      "method_characters": 239,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use egg yolk and other ingredients absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "20",
+      "name": "두릅전골",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=20",
+      "original_sha256": "3cbbca45dba51355218e20272929c2c3fbccf9ddd43a8e570deaaa1d9cd61fc7",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 178,
+      "method_characters": 227,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use carrot and perilla absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "11",
+      "name": "두부떡국",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=11",
+      "original_sha256": "99971ee170ee60224529f4c00112c7c2aec1d14201a82e73e29255d289689a3c",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 80,
+      "method_characters": 221,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use bone broth, ginger and seaweed absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "32",
+      "name": "땅콩두부",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=32",
+      "original_sha256": "79b72e2d0571e399494a1c175488ee5789fe5a4e20818ec3f4bbee1f230f6255",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 9,
+      "method_characters": 135,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "1107",
+      "name": "모주(김시원)",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=1107",
+      "original_sha256": "25cba9661658288777ebccc6e43cd0480b6c39db6a05b5fe6bb484cb9aa7db9b",
+      "has_ingredients": false,
+      "has_cooking_steps": false,
+      "has_transcript": false,
+      "ingredient_characters": 0,
+      "method_characters": 0,
+      "status": "held_missing_recipe_text",
+      "review_findings": []
+    },
+    {
+      "record_id": "1110",
+      "name": "모주(송호연)",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=1110",
+      "original_sha256": "8be44e5529edb01e18ed30da5f262e170c51b64e1697403659da1985deb4ef11",
+      "has_ingredients": false,
+      "has_cooking_steps": false,
+      "has_transcript": false,
+      "ingredient_characters": 0,
+      "method_characters": 0,
+      "status": "held_missing_recipe_text",
+      "review_findings": []
+    },
+    {
+      "record_id": "1113",
+      "name": "모주(원충만)",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=1113",
+      "original_sha256": "774b8fabdb919116e2f54d5def9a0ec4936ffc174b78dc53898ca2344e992a8f",
+      "has_ingredients": false,
+      "has_cooking_steps": false,
+      "has_transcript": false,
+      "ingredient_characters": 0,
+      "method_characters": 0,
+      "status": "held_missing_recipe_text",
+      "review_findings": []
+    },
+    {
+      "record_id": "15",
+      "name": "민물고기매운탕",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=15",
+      "original_sha256": "de0e8333ac16d33fd7dda120171a46fd4fc77a4c38521db10b614bef9b197bf8",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 116,
+      "method_characters": 150,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section lists water 6 cups; cooking steps use 8 cups"
+      ]
+    },
+    {
+      "record_id": "237",
+      "name": "박나물",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=237",
+      "original_sha256": "87a93b03a94fab223b9fc9d5d03bb1d3200163450d150d14828446f30611745e",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 47,
+      "method_characters": 134,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use beef absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "322",
+      "name": "밤다식",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=322",
+      "original_sha256": "f99047ff2fccbae310978d047fb1c5fe74e023e212c53de24511546a71b0ffc8",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 20,
+      "method_characters": 88,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use cinnamon absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "33",
+      "name": "밤묵",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=33",
+      "original_sha256": "8e64c82f7920aa981cc2233d29ab03e5c3b3756c80aae926938b9c87213244e4",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 28,
+      "method_characters": 236,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "279",
+      "name": "배추김치",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=279",
+      "original_sha256": "9532e5735c75e3c489caee53f11a52913f0d05ad529ad415748e20ba2a8923fc",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 47,
+      "method_characters": 249,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "9",
+      "name": "백합죽",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=9",
+      "original_sha256": "1190fd16660b37eb7b8293c1225cd5f5cd9c5763739d7020c98ff5320fc2c28c",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 57,
+      "method_characters": 129,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section lists clams 660g; transcript lists 1kg"
+      ]
+    },
+    {
+      "record_id": "23",
+      "name": "붕어찜",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=23",
+      "original_sha256": "99858eb201d7a9a01d4a7ff89f0ee61912238c0c4bc6a005f722ce200db83f28",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 157,
+      "method_characters": 217,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Transcript narration and displayed method differ in water amount and timing"
+      ]
+    },
+    {
+      "record_id": "6",
+      "name": "산채 비빔밥",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=6",
+      "original_sha256": "c8c8b263e14c10872b49bfc36e763ee3052563ab38fe7bdd998f2f10e6d0b22b",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 99,
+      "method_characters": 228,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "356",
+      "name": "산채정식",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=356",
+      "original_sha256": "9b3e087c0fd1ecdab38097784829f9fc38bb485acd3bde4b331542ed80029907",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 31,
+      "method_characters": 62,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "340",
+      "name": "송화주",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=340",
+      "original_sha256": "fcb76a52cd26ebe4c814ebd1d1f9f17847c102043732adbea4850364d19daa66",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 17,
+      "method_characters": 203,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "19",
+      "name": "쇠고기 편육 전골",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=19",
+      "original_sha256": "3b388bd80c90d8c5c222df22ece31011588ad0224211ce68b6b6d8c6d68dcfba",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 164,
+      "method_characters": 207,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "18",
+      "name": "순두부찌개",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=18",
+      "original_sha256": "5e152f2e476a18e72398f8a79a6265125937e6ddb76a2ce8e1a0e3abae8a936e",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 129,
+      "method_characters": 126,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use a broth and several ingredients absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "1109",
+      "name": "순두부찌개(김시원)",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=1109",
+      "original_sha256": "039bc183c91851c6705f6463185e22b098e6642e30e8573da20bf311312e3905",
+      "has_ingredients": false,
+      "has_cooking_steps": false,
+      "has_transcript": false,
+      "ingredient_characters": 0,
+      "method_characters": 0,
+      "status": "held_missing_recipe_text",
+      "review_findings": []
+    },
+    {
+      "record_id": "1111",
+      "name": "순두부찌개(송호연)",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=1111",
+      "original_sha256": "f95a984882b0fdd3bc89b482441f61fd8d8f53480af80aab9d66f7e178e159fc",
+      "has_ingredients": false,
+      "has_cooking_steps": false,
+      "has_transcript": false,
+      "ingredient_characters": 0,
+      "method_characters": 0,
+      "status": "held_missing_recipe_text",
+      "review_findings": []
+    },
+    {
+      "record_id": "1114",
+      "name": "순두부찌개(원충만)",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=1114",
+      "original_sha256": "bef111ce87022a70a3af9fe4c18f8635fffc60211e932919331186fd2344df7b",
+      "has_ingredients": false,
+      "has_cooking_steps": false,
+      "has_transcript": false,
+      "ingredient_characters": 0,
+      "method_characters": 0,
+      "status": "held_missing_recipe_text",
+      "review_findings": []
+    },
+    {
+      "record_id": "21",
+      "name": "아귀찜",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=21",
+      "original_sha256": "c0a73503df6b8b28884db8ee59ac97a8eb974992ab759d7bb996f41f4beda574",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 131,
+      "method_characters": 169,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "22",
+      "name": "애저찜",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=22",
+      "original_sha256": "24d2b3fb4dfb44abc65aa42c1082f86c66646229d2154df0fc91bfc1f9fb3d41",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 40,
+      "method_characters": 178,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "326",
+      "name": "약식",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=326",
+      "original_sha256": "87ecdcd6bff6e00e7b9386b4e0cffe4a6cf4957fad7ecf30e2fd5fe4d84915d4",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 69,
+      "method_characters": 166,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "280",
+      "name": "양파김치",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=280",
+      "original_sha256": "fc54c32cdf5f9ef406f492cd43b7856b1318748a0f97803da6c29a2c3afbfd83",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 30,
+      "method_characters": 180,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "8",
+      "name": "어죽",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=8",
+      "original_sha256": "a7e2a432aa76a2fc2d6debdf86f4ca3a2849d5f1a25bb3ab34716e5ddb5d7786",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 167,
+      "method_characters": 273,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "50",
+      "name": "오미자 청",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=50",
+      "original_sha256": "b4c53f3b9f834bd14b416fea7fd13f841e38c31b2e89e75c614d8e993f16e5a2",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 15,
+      "method_characters": 93,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section ratio is 1kg fruit to 1kg sugar; transcript ratio is 300g to 200g"
+      ]
+    },
+    {
+      "record_id": "312",
+      "name": "오미자편",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=312",
+      "original_sha256": "361fb19e01ced4830f4b1acfc27e09d03f3922d38c8620e7cbd6b7feb95b8bee",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 31,
+      "method_characters": 88,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section lists rice flour 8 cups; cooking steps use 6 cups"
+      ]
+    },
+    {
+      "record_id": "13",
+      "name": "용궁탕",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=13",
+      "original_sha256": "954e7ed8fa58d5d6981132ff5263a5c27958bdc6cd7bb32b4ebf957223b8ed47",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 82,
+      "method_characters": 131,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "12",
+      "name": "우럭생선탕",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=12",
+      "original_sha256": "0ce7d077d7bbeaf0d4b7528410a91fa4f69ef7c65995ee33a7c02f46f9a9d336",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 58,
+      "method_characters": 265,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "30",
+      "name": "우어회",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=30",
+      "original_sha256": "4b04a90e2936c9d11f50feaede5c76ae6bc8eb43dcc5d08843e2e4bd2f7ffc7f",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 7,
+      "method_characters": 51,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "57",
+      "name": "육회",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=57",
+      "original_sha256": "fbf96f18695f26ca8bfdbe5502e7d413cf9ed44f455e67b877ec7596e1304ad4",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 113,
+      "method_characters": 188,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use egg absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "1108",
+      "name": "육회비빔밥(김시원)",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=1108",
+      "original_sha256": "e6bdf811311381f9d7653472f288a9a69ea3a0477b461637f5bb7b7f4e8053c9",
+      "has_ingredients": false,
+      "has_cooking_steps": false,
+      "has_transcript": false,
+      "ingredient_characters": 0,
+      "method_characters": 0,
+      "status": "held_missing_recipe_text",
+      "review_findings": []
+    },
+    {
+      "record_id": "26",
+      "name": "장어구이",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=26",
+      "original_sha256": "724fa139078c9d58aaadb3fe2fb146127e751e5c50d1d02de0bdf5e3b9b3bce4",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 121,
+      "method_characters": 278,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "58",
+      "name": "전주비빔밥",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=58",
+      "original_sha256": "c4be22d7aeecbd5b5222c211c6cc644456aa8f16ece1158e39ea0da9d61393a0",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 588,
+      "method_characters": 439,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "1112",
+      "name": "전주비빔밥(원충만)",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=1112",
+      "original_sha256": "b4496cf23a38a07fa003c9e6fa9700c44b9c2f287d4282642f6416d5129bad13",
+      "has_ingredients": false,
+      "has_cooking_steps": false,
+      "has_transcript": false,
+      "ingredient_characters": 0,
+      "method_characters": 0,
+      "status": "held_missing_recipe_text",
+      "review_findings": []
+    },
+    {
+      "record_id": "24",
+      "name": "주꾸미 볶음",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=24",
+      "original_sha256": "0f98dc46f6f67a47a90f96079c972bf2c3e6cd699ced5ad7ad51baccb2e6c11f",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 148,
+      "method_characters": 323,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section, transcript captions and narration disagree on seasoning quantities"
+      ]
+    },
+    {
+      "record_id": "42",
+      "name": "진석화젓",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=42",
+      "original_sha256": "ffaa37a27e20c46bb3c5d052b573189d43e70945856db2cf58458c0f432c761b",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 36,
+      "method_characters": 127,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "290",
+      "name": "집장",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=290",
+      "original_sha256": "e2e0ce56aa9c5936f77a1b565fd4e3e598772c29abcf1072eecff3eaa30ada6b",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 24,
+      "method_characters": 173,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use glutinous rice, malt and soy sauce absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "291",
+      "name": "찌엄장",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=291",
+      "original_sha256": "8d8f3c4e6c3f6b3838f56ada3d444f83c6b520dc321abf24c7e6cb8f292d5e07",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 27,
+      "method_characters": 163,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "59",
+      "name": "참게탕",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=59",
+      "original_sha256": "ba14e40eea8f830957b16c694850cea0a698ade14a08678ba1506f92ffa5ff0e",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 148,
+      "method_characters": 326,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "16",
+      "name": "추어탕",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=16",
+      "original_sha256": "27e9081250068a7824c34d3fa265fc508f2950324f5aefa806c952f01386e42d",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 108,
+      "method_characters": 111,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "60",
+      "name": "콩나물국밥",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=60",
+      "original_sha256": "8aa71c4dfeaba2df45e0df44998a2ddae983bb3d024201cdb52a3eb3fcf13b6a",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 89,
+      "method_characters": 120,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "228",
+      "name": "콩나물잡채",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=228",
+      "original_sha256": "817d33cda73da855ae07b20ded5cffbf05a0115dafdce3fafe0d798974fc55f1",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 116,
+      "method_characters": 267,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use beef absent from ingredient section"
+      ]
+    },
+    {
+      "record_id": "5",
+      "name": "표고버섯 덮밥",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=5",
+      "original_sha256": "890cc4276ce58425bfd2ed863b71aa4dd79db6c02d3839397b8470a249ac1021",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 124,
+      "method_characters": 254,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section uses beef; cooking steps use pork"
+      ]
+    },
+    {
+      "record_id": "4",
+      "name": "한정식",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=4",
+      "original_sha256": "15b456570edc305ca32f76ed9214ff5d05fffa3abcc1c7ca1060bfc0b8d3839f",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 128,
+      "method_characters": 1377,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Several distinct dishes are combined; not a single complete recipe"
+      ]
+    },
+    {
+      "record_id": "45",
+      "name": "호박고지떡",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=45",
+      "original_sha256": "c98db4b857cd28e9a47cc2e6ca86cd64a5f86fafc8a474e3a494401deff53efb",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 55,
+      "method_characters": 224,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "332",
+      "name": "호박식혜",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=332",
+      "original_sha256": "2273434c7fbf14612b3b59435280cede3e1859485fec8dbf36a1764f4952d03a",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 49,
+      "method_characters": 178,
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section lists honey and water 5 cups; cooking steps use sugar and water 3L"
+      ]
+    },
+    {
+      "record_id": "344",
+      "name": "홍어어시육",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=344",
+      "original_sha256": "c182999db9229c3bad205db1b02cd304e47441e6ca349e57c623df058a8e47e1",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 36,
+      "method_characters": 102,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    },
+    {
+      "record_id": "360",
+      "name": "흑염소주물럭",
+      "url": "https://jbfood.go.kr/juhtml/food/vod.html?thid=360",
+      "original_sha256": "ea29c472c99c536894d41e4aa79e72bbcfd9a39dc71724fb37630f19f53ced5b",
+      "has_ingredients": true,
+      "has_cooking_steps": true,
+      "has_transcript": true,
+      "ingredient_characters": 51,
+      "method_characters": 110,
+      "status": "pending_manual_consistency_review",
+      "review_findings": []
+    }
+  ]
+}
