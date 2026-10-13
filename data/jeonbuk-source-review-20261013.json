@@ -1,0 +1,78 @@
+{
+  "reviewed_on": "2026-10-13",
+  "accepted_recipes": 0,
+  "files": [
+    {
+      "filename": "전북특별자치도_음식만드는법_20191219..csv",
+      "sha256": "18522af0ee91444bbd38acca2b9397098b8d4f7451bed29bd2853052106fb88d",
+      "rows": 875,
+      "unique_names": 868,
+      "kind": "ingredients_and_context",
+      "nonempty_fields": {
+        "연번": 875,
+        "음식명": 875,
+        "내용": 68,
+        "재료": 871,
+        "관련이야기": 5,
+        "칼로리": 480,
+        "참고문헌": 806,
+        "재료설명": 212,
+        "팁": 281
+      },
+      "duplicate_names": {
+        "콩나물국밥": 2,
+        "닭죽": 2,
+        "꽃게찌개": 2,
+        "청국장": 2,
+        "어리굴젓": 2,
+        "밴댕이젓": 2,
+        "제육고구마볶음": 2
+      }
+    },
+    {
+      "filename": "전북특별자치도_전통음식 150선_20191220..csv",
+      "sha256": "12484978099dbe601bab3dcb85b91da9c0512081d623ed0f3f2396b128c3aa6b",
+      "rows": 148,
+      "unique_names": 132,
+      "kind": "menu_inventory",
+      "nonempty_fields": {
+        "연번": 148,
+        "음식명": 148,
+        "내용": 148
+      },
+      "duplicate_names": {
+        "구절판": 2,
+        "꽃게장": 2,
+        "녹두평야채쌈": 2,
+        "느타리버섯초무침": 2,
+        "복분자모리떡": 2,
+        "수정과": 2,
+        "아귀찜": 2,
+        "약과": 2,
+        "연근정과": 2,
+        "오색말이": 2,
+        "장아찌": 3,
+        "청포묵양갱": 3,
+        "초밥모듬": 2,
+        "충무공밥상": 2
+      }
+    }
+  ],
+  "rules": [
+    "Source website region does not establish every dish as a regional variation",
+    "Food descriptions and preparation tips are not a complete cooking method",
+    "Nutrition values without serving or weight basis are not imported",
+    "Record 30 description discusses 나복병 under 호박고지떡; retain as source mismatch candidate"
+  ],
+  "next_sources": [
+    {
+      "name": "전북 가상조리실",
+      "url": "https://www.data.go.kr/data/15136205/fileData.do",
+      "expected_content": "official catalogue describes 53 videos; not yet imported"
+    },
+    {
+      "name": "전북음식문화플라자",
+      "url": "https://jbfood.go.kr/juhtml/food/foodvod/main.html?plcode=000000020000"
+    }
+  ]
+}
