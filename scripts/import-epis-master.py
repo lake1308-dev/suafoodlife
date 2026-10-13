@@ -13,8 +13,61 @@ APPROVED={113,114,116,117,118,119,135,165,180,195,660,675,
 APPROVED.update({212,214,218,219,220,222,223,226,228,229,230,
 241,243,248,251,253,254,256,262,264,267,
 271,272,276,278,279,280,281,282,286,287,288,291,293,295,297,299,300})
-REVIEWED=set(range(120,301))
+APPROVED.update({302,310,315,318,319,324,326,331,339,344,328,340,341,346,350,
+353,358,359,365,366,367,369,370,372,373,374,376,377,378,379})
+REVIEWED=set(range(120,381))
 FINDINGS={
+301:'Broth section specifies 1.5L but method uses 10 cups',
+303:'Cooking method uses garlic and soy sauce absent from ingredients',
+304:'Apples, mayonnaise and salt missing from ingredient section',
+305:'Final step refers to itself; shrimp form unclear',
+306:'Dried squid quantity repeated; total ambiguous',
+307:'Ingredients use beef; method uses pork',
+308:'Broth quantity incomplete and garnishes absent from ingredients',
+309:'Method switches from pollock broth to unspecified anchovy broth',
+311:'Salt and pepper missing from ingredient section',
+312:'Anchovy amount lacks unit',
+313:'Pickling and kimchi broth preparation omitted',
+314:'Duplicate of approved source row index 262: same quantities and cooking method',
+316:'Repeated water, sugar and salt quantities have unclear assignment',
+317:'Squash and tangerine quantities lack units',
+320:'Ingredient flour amount differs from method grain amount',
+321:'Industrial portion size and omitted finish require review',
+322:'Ingredient section uses soy sauce 1T; method uses 2T',
+323:'Industrial salt quantity requires review',
+325:'Malformed HTML break may hide chicken preparation; doneness wording needs review',
+327:'Cooking method uses dried herring absent from ingredients',
+329:'Anchovy cooking stage omitted',
+330:'Method cross-references point at different preparation stages',
+332:'Method cross-references point at incorrect stages',
+333:'Cooking method uses oil absent from ingredients',
+334:'Cooking method uses oil absent from ingredients',
+335:'Cooking method uses garlic absent from ingredients',
+336:'Cooking method uses oil absent from ingredients',
+337:'Named oil differs from finishing sesame oil; raw seafood preparation needs review',
+338:'Cooking method uses pepper and oil absent from ingredients',
+342:'Ingredients specify anchovies but cooking method uses beef stock',
+343:'Cooking method uses lettuce, chicory and fresh cucumber not aligned with ingredients',
+345:'Cooking method uses flour absent from ingredients',
+347:'Water quantity differs; unnamed ingredient quantity appears as prepared porridge',
+348:'Cooking method uses flour absent from ingredients',
+349:'Soy sauce quantity disproportionately high; requires confirmation',
+351:'Cooking method uses additional flour, salt and oil absent from ingredients',
+352:'Cooking method uses vinegar and salt absent from ingredients',
+354:'Seasonings for several components not specified',
+355:'Two sugar quantities and seasoning application require review',
+356:'Cooking method uses onion absent from ingredients; dressing quantities differ',
+357:'Cooking method uses salt absent from ingredients',
+360:'Cooking method omits listed water when initially boiling eel',
+361:'Cooking method uses sunflower oil and flour absent from ingredients; rice missing',
+362:'Shrimp paste missing from ingredients',
+363:'Olive oil totals differ between ingredient section and method',
+364:'Initial numbered stage repeated; method uses unspecified shrimp form',
+368:'Ground beef soaking procedure requires review',
+371:'Duplicate of approved source row index 137: same quantities and cooking method',
+375:'Cooking method uses large scallion absent from ingredients',
+380:'Enoki mushroom only added when heat is turned off; cooking instructions need review',
+
 211:'Onion and carrot amounts missing before unit',
 213:'Minced garlic half-quantity lacks unit; oil absent from ingredients',
 215:'Duplicate preparation step; crab preparation and sauce mixing unclear',
@@ -111,8 +164,10 @@ for i,r in enumerate(rows):
  assert structured
  ing=clean(a[3]);method=clean(a[2])
  method=re.sub(r'(?m)^(\d{1,2}),',r'\1.',method)
- if re.match(r'^ㅁ',method):
-  pieces=re.split(r'\s*ㅁ\s*',method)
+ if re.match(r'^[ㅁ□]',method):
+  pieces=re.split(r'\s*[ㅁ□]\s*',method)
+ elif re.match(r'^[❶❷❸❹❺❻❼❽❾❿]',method):
+  pieces=re.split(r'[❶❷❸❹❺❻❼❽❾❿]',method)
  elif re.match(r'^\d{1,2}\s*[.)](?!\d)',method.lstrip('• ')):
   pieces=re.split(r'(?<!\d)\d{1,2}\s*[.)](?!\d)\s*',method)
  else:
@@ -120,7 +175,7 @@ for i,r in enumerate(rows):
  steps=[x.strip(' \n•') for x in pieces if x.strip(' \n•')]
  assert ing and 2<=len(steps)<=12
  title=r['제목'].strip();recipes.append({'id':'epis_master_'+str(i+2),'names':{'ko':title,'en':title},'country':'Korea','region':'','category':'요리','category_ko':'요리','tags':[],'servings':None,'ingredients':[],'ingredients_text':ing,'steps':{'ko':steps,'en':steps},'public_recipe':True,'source_kind':'epis_master_reference','source_label':'농정원 고수요리법','source_nutrition':{'kcal':None,'protein_g':None,'carbs_g':None,'fat_g':None,'sodium_mg':None},'nutrition_status':'not_calculated','source_weight_text':'','source':{'name':'농림수산식품교육문화정보원 고수요리법','url':'https://www.data.go.kr/data/15050910/fileData.do','record_id':str(i+2),'retrieved_on':'2026-10-14','license':'이용허락범위 제한 없음','original_sha256':hashlib.sha256(raw).hexdigest()},'source_original_credit':clean(a[4]),'source_time_text':clean(a[0]),'source_registration_date':r['등록일']})
-assert len(recipes)==len(APPROVED)==84
-(root/'data/recipes-epis-master-20261014.json.gz').write_bytes(gzip.compress(json.dumps({'version':'1.2.0','record_count':len(recipes),'recipes':recipes},ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
+assert len(recipes)==len(APPROVED)==114
+(root/'data/recipes-epis-master-20261014.json.gz').write_bytes(gzip.compress(json.dumps({'version':'1.3.0','record_count':len(recipes),'recipes':recipes},ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
 report={'reviewed_on':'2026-10-14','source_url':'https://www.data.go.kr/data/15050910/fileData.do','source_license':'이용허락범위 제한 없음','source_sha256':hashlib.sha256(raw).hexdigest(),'source_bytes':len(raw),'input_records':len(rows),'structured_records':sum(x['has_separate_ingredients_and_method'] for x in review),'accepted':len(recipes),'pending_structured':sum(x['status']=='pending_manual_review' for x in review),'held_manual_review':sum(x['status']=='held_manual_review' for x in review),'held_unstructured':sum(x['status']=='held_unstructured_text' for x in review),'rules':['Only manually approved rows enter public recipe data','Original ingredient quantities and ordered cooking steps retained','Recipe source versions retained separately; title match alone does not prove duplication','Images, descriptions and health claims excluded','No inferred nutrition, allergens or portions'],'records':review}
 (root/'data/recipes-epis-master-review-20261014.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print({k:v for k,v in report.items() if k not in ['records','rules']})
