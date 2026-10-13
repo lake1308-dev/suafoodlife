@@ -19,8 +19,64 @@ APPROVED.update({381,384,385,386,387,388,389,390,391,393,394,395,396,398,400,401
 413,416,417,418,420,421,422,424,427,428,429,431,433,434,436,437,438})
 APPROVED.update({442,444,446,447,449,450,451,452,458,459,461,462,463,465,466,467,468,469,470,
 471,474,475,476,477,478,479,480,482,484,488,489,490,491,492,499})
-REVIEWED=set(range(120,501))
+APPROVED.update({501,502,505,506,507,509,511,515,518,526,
+534,537,540,543,545,547,549,550,552,555,558,560,
+561,562,563,565,566,572,574,576,578,579,581,582,583,584,585,586})
+REVIEWED=set(range(120,591))
 FINDINGS={
+503:'Three kimchi recipes combined with repeated numbering',
+504:'Ingredient section lists cooked rice paste while method requires raw rice flour',
+508:'Chicken seasoning label names lamb; dipping sauce composition missing',
+510:'Duplicate of accepted source row index 506: same ingredients and method',
+512:'Two dishes combined with repeated numbering',
+513:'Rice dish and soup combined with repeated numbering',
+514:'Repeated ingredient block and nested numbering require review',
+516:'Title names diced kimchi but cooking method shreds radish',
+517:'Two dishes combined with repeated numbered sequences',
+519:'Seasoning composition and quantities missing',
+520:'Stuffing ingredients mostly absent from ingredient section',
+521:'Extended grain soaking requires separate preparation review',
+522:'Three kimchi recipes combined with repeated numbering',
+523:'Seasoning composition missing and bean sprout quantity corrupted',
+524:'Multiple leaf fritters combined with repeated numbering',
+525:'Cooking method uses salt absent from ingredients',
+527:'Ingredient section lists prepared crab pickle; raw crab fermentation needs review',
+528:'Stock composition and quantity absent; onion amount requires confirmation',
+529:'Unrelated carrot, cucumber and seaweed preparation appended',
+530:'Optional finishing ingredients absent from ingredient section',
+531:'Water 7 cups in ingredients but 4 cups in method',
+532:'Honey and flour absent from ingredients; fermentation process needs review',
+533:'Three preserves combined with repeated numbering',
+535:'Outdoor fish drying requires separate preparation review',
+536:'Two methods combined and multiple unlisted ingredients used',
+538:'Cooking method adds sugar absent from ingredients',
+539:'Recipe quantities and seasoning details omitted',
+541:'Two dishes combined; quantities and complete method omitted',
+542:'Detailed vegetable and meat seasonings omitted',
+544:'Three kimchi recipes combined with repeated numbering',
+546:'Several dishes combined; seasoning composition omitted',
+548:'Rice rinsing broth absent from ingredient section',
+551:'Unrelated rice serving instruction inserted into porridge steps',
+553:'Vegetable seasoning and cooking oil absent from ingredient section',
+554:'Cooking method adds honey absent from ingredients',
+556:'Cooking method adds pear absent from ingredients',
+557:'Sorghum 5 cups in ingredient section but 4 cups in method',
+559:'Cooking method uses sesame oil absent from ingredients',
+564:'Two dishes combined; seasoning composition missing',
+567:'Listed garlic and scallions never added in cooking method',
+568:'Cooking method adds jujubes absent from ingredients',
+569:'Cooking procedure stops before rice cakes are cooked',
+570:'Three cold dishes combined; quantities and complete seasoning details missing',
+571:'Main jelly and seasoning composition absent from ingredient section',
+573:'Overnight meat cooling and dipping sauce composition require review',
+575:'Three grilled dishes combined; quantities and seasoning details missing',
+577:'Recipe quantities, seasoning and cooking stage omitted',
+580:'Compound title includes skewers but method only describes braised rice cakes',
+587:'Ingredient quantities unspecified',
+588:'Ingredient quantities and complete seasoning details omitted',
+589:'Cooking method uses onion absent from ingredients; quantities unspecified',
+590:'Ingredient quantities and sauce details omitted',
+
 441:'Recipe title and ingredients are pork and octopus; method is cubed radish kimchi',
 443:'Large part of preparation and cooking method duplicated',
 445:'Bean cooking adequacy requires clarification',
@@ -226,7 +282,7 @@ for i,r in enumerate(rows):
  steps=[x.strip(' \n•') for x in pieces if x.strip(' \n•')]
  assert ing and 2<=len(steps)<=12
  title=r['제목'].strip();recipes.append({'id':'epis_master_'+str(i+2),'names':{'ko':title,'en':title},'country':'Korea','region':'','category':'요리','category_ko':'요리','tags':[],'servings':None,'ingredients':[],'ingredients_text':ing,'steps':{'ko':steps,'en':steps},'public_recipe':True,'source_kind':'epis_master_reference','source_label':'농정원 고수요리법','source_nutrition':{'kcal':None,'protein_g':None,'carbs_g':None,'fat_g':None,'sodium_mg':None},'nutrition_status':'not_calculated','source_weight_text':'','source':{'name':'농림수산식품교육문화정보원 고수요리법','url':'https://www.data.go.kr/data/15050910/fileData.do','record_id':str(i+2),'retrieved_on':'2026-10-14','license':'이용허락범위 제한 없음','original_sha256':hashlib.sha256(raw).hexdigest()},'source_original_credit':clean(a[4]),'source_time_text':clean(a[0]),'source_registration_date':r['등록일']})
-assert len(recipes)==len(APPROVED)==189
-(root/'data/recipes-epis-master-20261014.json.gz').write_bytes(gzip.compress(json.dumps({'version':'1.5.0','record_count':len(recipes),'recipes':recipes},ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
+assert len(recipes)==len(APPROVED)==227
+(root/'data/recipes-epis-master-20261014.json.gz').write_bytes(gzip.compress(json.dumps({'version':'1.6.0','record_count':len(recipes),'recipes':recipes},ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
 report={'reviewed_on':'2026-10-14','source_url':'https://www.data.go.kr/data/15050910/fileData.do','source_license':'이용허락범위 제한 없음','source_sha256':hashlib.sha256(raw).hexdigest(),'source_bytes':len(raw),'input_records':len(rows),'structured_records':sum(x['has_separate_ingredients_and_method'] for x in review),'accepted':len(recipes),'pending_structured':sum(x['status']=='pending_manual_review' for x in review),'held_manual_review':sum(x['status']=='held_manual_review' for x in review),'held_unstructured':sum(x['status']=='held_unstructured_text' for x in review),'rules':['Only manually approved rows enter public recipe data','Original ingredient quantities and ordered cooking steps retained','Recipe source versions retained separately; title match alone does not prove duplication','Images, descriptions and health claims excluded','No inferred nutrition, allergens or portions'],'records':review}
 (root/'data/recipes-epis-master-review-20261014.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print({k:v for k,v in report.items() if k not in ['records','rules']})
