@@ -6,9 +6,9 @@
   "source_bytes": 1103174,
   "input_records": 705,
   "structured_records": 595,
-  "accepted": 46,
-  "pending_structured": 497,
-  "held_manual_review": 52,
+  "accepted": 84,
+  "pending_structured": 406,
+  "held_manual_review": 105,
   "held_unstructured": 110,
   "rules": [
     "Only manually approved rows enter public recipe data",
@@ -1701,23 +1701,23 @@
     {
       "csv_row": 212,
       "title": "멍텅구리탕(곰치)",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Additional portion, quantity or completeness review needed",
       "record_sha256": "5840622d266c46aa018ab1eb5449840b20b8889b470c4cadbe7c7492f5f0e7b2"
     },
     {
       "csv_row": 213,
       "title": "꽃게채소된장국",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Onion and carrot amounts missing before unit",
       "record_sha256": "e0b76d76f3bc164d8d33cf7f9909b76161130db27acde0d504621271ffc7e71c"
     },
     {
       "csv_row": 214,
       "title": "알배기조기 고추장구이",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "0f32279893bdfa1d38c29357eae14f9e1603d18e412df730be8064d3f266868f"
@@ -1725,15 +1725,15 @@
     {
       "csv_row": 215,
       "title": "쭈꾸미마늘구이",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Minced garlic half-quantity lacks unit; oil absent from ingredients",
       "record_sha256": "60929b09335e913b316f6f63f7b28fafbcc2de90fc62c8664f0abfa9b1ca368c"
     },
     {
       "csv_row": 216,
       "title": "데친 쪽파 김나물",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "b7d1466a7cb19808ac64a4fcdf8d57372ea4059eaa19113d8e295d0e0cdf52da"
@@ -1741,31 +1741,31 @@
     {
       "csv_row": 217,
       "title": "게살 미역 초무침",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Duplicate preparation step; crab preparation and sauce mixing unclear",
       "record_sha256": "d6001b8a3967765d7f552c1888d878fd5f5e217f8cead4bf88af1c1cf5cebbbe"
     },
     {
       "csv_row": 218,
       "title": "쭈꾸미무침",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Title says mixed dish but method stir-fries; unspecified garlic count unit",
       "record_sha256": "cc34cb70b578b27bbd7204caa3ecadf41a26f6a31a3056e40d29b3ce7cbf4191"
     },
     {
       "csv_row": 219,
       "title": "봄동 우렁된장국",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Cooking steps use perilla powder absent from ingredients",
       "record_sha256": "ecf3a2f988b5f38b482711b699cec021f4f55244d6ce095553cd236be0ea921b"
     },
     {
       "csv_row": 220,
       "title": "냉이 겉절이",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "9d7ed1f23b0e39d9569ab43a8ef8aba1f0a51e6693673f625c8b68aacb0fb9bd"
@@ -1773,7 +1773,7 @@
     {
       "csv_row": 221,
       "title": "미역밥",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "fd3a14bb5e73886ac44ca19a6a33ddf9f319e1b47c22dd724ec8a47a76202c02"
@@ -1781,7 +1781,7 @@
     {
       "csv_row": 222,
       "title": "떡샐러드",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "74ad8944fc81d662a92e802c6983a1d79a653ff802ff08f87755a0d5fe281d26"
@@ -1789,15 +1789,15 @@
     {
       "csv_row": 223,
       "title": "싹난 마늘 땅콩조림",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Broth named as kelp volume; requires clarification",
       "record_sha256": "00106370afbf37c194c56a5ecbf3f8cdb5531903453873591526fcb4e7e83b71"
     },
     {
       "csv_row": 224,
       "title": "백합초무침",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "4982134802b3fcc93e3459b87be58d229fd4a543c416b2c436510a0826339ebe"
@@ -1805,7 +1805,7 @@
     {
       "csv_row": 225,
       "title": "삼색냉채",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "1c1ac762249d9b09f28ec631fda31deee39d0d48becf63d32a681f33c1845390"
@@ -1813,23 +1813,23 @@
     {
       "csv_row": 226,
       "title": "봄 쑥갓김치",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Ingredient section ends with incomplete rice quantity",
       "record_sha256": "0b754726ca21105a8d0db2e7b83556062db29628f6a7c5e43929c29dee535433"
     },
     {
       "csv_row": 227,
       "title": "곶감 찹쌀떡",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Ingredient quantities unspecified; frying oil absent from ingredient section",
       "record_sha256": "c63c3cfdc3df049e1c80b45d39e63b557c712966b5e417419e45f2e18f7f24b7"
     },
     {
       "csv_row": 228,
       "title": "묵은김치볶음",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "113a194feac67e4e9741ce0778dea67265912ce717db6b4d72ef9fd282a6762b"
@@ -1837,15 +1837,15 @@
     {
       "csv_row": 229,
       "title": "편마늘멸치볶음",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Proprietary seasoned soy sauce composition needs clarification",
       "record_sha256": "25fb0ae759c3cab382b3cd3afdd35f66bccf808431adab37c3648f503acb2be4"
     },
     {
       "csv_row": 230,
       "title": "연어 양배추 레몬무침",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "9f8a5206ea2441cb58bf33ffdf87a95c74d94fd2d92af7e71f20da8da7f9874d"
@@ -1853,7 +1853,7 @@
     {
       "csv_row": 231,
       "title": "키위소스 고구마 맛탕",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "3918e81b949d8a9f91e5ced49f93a01649bf3822bf85ac7966cd707b8406142d"
@@ -1861,7 +1861,7 @@
     {
       "csv_row": 232,
       "title": "무생채",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "0c868bb2bb8bdba90323a8c79bc99d6f2fb826e74ea95f34afd0850fba81a0cf"
@@ -1869,87 +1869,87 @@
     {
       "csv_row": 233,
       "title": "가래떡 양념구이",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Several main seasoning amounts unspecified",
       "record_sha256": "64caedc68798c980f317bc9c6660fa4fb20558fd037c2026d4a1cfb02d0d6072"
     },
     {
       "csv_row": 234,
       "title": "자장떡볶이",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Ingredient quantities unspecified",
       "record_sha256": "cd190a230f41361abc78c2f4326079b76cdcba9f422744caafa83c7ee2b219b7"
     },
     {
       "csv_row": 235,
       "title": "꽈리고추멸치볶음",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Seasoned soy sauce composition needs clarification",
       "record_sha256": "a367b4110bf22840a46f24a8460374a313163c520ffc61125c7b88ea8790bbdb"
     },
     {
       "csv_row": 236,
       "title": "팽이버섯 달래무침",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Raw enoki mushroom preparation requires separate review",
       "record_sha256": "bd0efce8b6322a7b7d4151fa611f628bb412afc8fa3cf480c43634b6cc6c7bf7"
     },
     {
       "csv_row": 237,
       "title": "닭고기 전골",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Final cooking stage missing; dumpling assembly incomplete",
       "record_sha256": "fd4e8d31c30389fef8926780f7f87a94927bd139d63a8e81ef0e5c7b93d8f86d"
     },
     {
       "csv_row": 238,
       "title": "달걀죽",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Prepared broth used but composition absent from ingredients",
       "record_sha256": "0d1701fb5594f6d2bfc1ea6df896cbba3649c0891a791c281994e1c2b872009a"
     },
     {
       "csv_row": 239,
       "title": "시래기나물",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Anchovy broth absent from ingredients; quantities unspecified",
       "record_sha256": "a387a86f6065881c441f12d500babc117d704f684f3d9ee4174f6eb4aad42c3a"
     },
     {
       "csv_row": 240,
       "title": "명태조림",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Method excludes rice syrup but ingredient section specifies corn syrup; method uses frying oil not listed",
       "record_sha256": "cfac69bfc30e8c8ba3274fe0bdbde550954b37e10ba24891924e1989e358bcd0"
     },
     {
       "csv_row": 241,
       "title": "방이잎 삼치조림",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Title-specific leaf ingredient missing; quantities and numbering need review",
       "record_sha256": "647a1cf0c43d1ff252cb781943261dfbc97cbe740fdc97f0ec2c036b2f1eda59"
     },
     {
       "csv_row": 242,
       "title": "가자미쌀가루구이",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Original wording says coat both sides rather than cook; needs clarification",
       "record_sha256": "b62c178900c34082863a4842a17a538d99abddd7a3a29844dc1781b56ef35ef5"
     },
     {
       "csv_row": 243,
       "title": "콩나물 볶음",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "0211cd5c834ba00faaee85b10ca31e822a85269d36c90a4d99a7d742d35e0334"
@@ -1957,15 +1957,15 @@
     {
       "csv_row": 244,
       "title": "감자숙채 샐러드",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Pine nut quantity repeated; total ambiguous",
       "record_sha256": "994b919593d61c56ebc424d7f581c083364399fa7f7612fc36b296f5446a1579"
     },
     {
       "csv_row": 245,
       "title": "고사리나물",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "c7f7a5206cbc6e19842323c823b353028a2646f4625234a4036abac2d7552300"
@@ -1973,39 +1973,39 @@
     {
       "csv_row": 246,
       "title": "배추나물",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Main ingredient quantities unspecified",
       "record_sha256": "77382f404cbb8d7c322a0ca4dd2911622b7222ae5c66fab4a59df794ae1115a8"
     },
     {
       "csv_row": 247,
       "title": "명태스틱",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Main fish quantity unspecified; cabbage and frying oil missing",
       "record_sha256": "e7eed6f09e2108e6feff5db59e4f86b10b396bbd8f61e815d6e5e38d6824e892"
     },
     {
       "csv_row": 248,
       "title": "우엉 유부초밥",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Burdock preparation uses additional unlisted seasonings",
       "record_sha256": "191ca01f191ce2da840586046f490255d3765536f231b5fa415e1bcac90f4fb5"
     },
     {
       "csv_row": 249,
       "title": "감귤 생크림 샐러드",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Dressing mixing stage omitted",
       "record_sha256": "a9d3559bcfc1abb3f83a601a014456a68cb98e3398ce2dbfa8418f8d809f2864"
     },
     {
       "csv_row": 250,
       "title": "깻잎삼치조림",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "f08930c58d359c5bf5a335ac4d91a01fe7f65355aed25bcd7bfdadc1915f7f61"
@@ -2013,23 +2013,23 @@
     {
       "csv_row": 251,
       "title": "된장 삼겹살 구이",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Cooking steps use red paprika absent from ingredient section",
       "record_sha256": "b93870bccd8a3447eafc424321dbc4baeb92cdabad141911f8534a9d480127d6"
     },
     {
       "csv_row": 252,
       "title": "유자향의 한우샐러드",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Yuzu dressing recipe incomplete",
       "record_sha256": "a3e94db0f73d4a2e865868a498e198107920b120231286160ecb90fb86de092c"
     },
     {
       "csv_row": 253,
       "title": "김찹쌀부각",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "c082ca72561847f89618ea0dfcedcffbf8591acff7c9a613ca706366f2f66e70"
@@ -2037,15 +2037,15 @@
     {
       "csv_row": 254,
       "title": "동태 고추장조림",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Room-temperature fish thawing instruction needs review",
       "record_sha256": "8fa22519d99193f2f0dd2ea459c46d28522ab908bf0221309a8883fb961d4101"
     },
     {
       "csv_row": 255,
       "title": "달래양념장",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "603160c9a309c472a6f317c2a5c05d1cc3a71bde03a845b83523022e14e1cc46"
@@ -2053,7 +2053,7 @@
     {
       "csv_row": 256,
       "title": "매생이국",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "c86a7e49b871c6e9ace16f00a31e7186be7b21ad32468257e79bdcadf04140c5"
@@ -2061,15 +2061,15 @@
     {
       "csv_row": 257,
       "title": "바지락국",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Ingredient quantities unspecified",
       "record_sha256": "709d536e8df1967fdfc5d04f210b98086b55469a48a5a0d3c97b587f33fc41fc"
     },
     {
       "csv_row": 258,
       "title": "봄동겉절이",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "b65e88dfe6186ce8c8546e28b437a260f847019842763385211cdc8803c257b6"
@@ -2077,47 +2077,47 @@
     {
       "csv_row": 259,
       "title": "감자어묵볶음",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Ingredient quantities unspecified",
       "record_sha256": "14ab82a04d316cec7996d1b0ccdc3618433942c4f06f2c36c60bd40a2e551b6d"
     },
     {
       "csv_row": 260,
       "title": "단호박카레밥",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Ingredient section uses prepared curry sauce but method uses curry powder",
       "record_sha256": "8c251d4a8c3460e3d74440427046507402009ab901312f59ae6b71d5a7d1021c"
     },
     {
       "csv_row": 261,
       "title": "고구마 과일 샐러드",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Sweet potato ingredients conflict with squash in method",
       "record_sha256": "3930ac76126ecfda32e7c9658be7c18ac48ec179e789b0096c0e51f5b0b44fe6"
     },
     {
       "csv_row": 262,
       "title": "단호박해물영양밥",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Listed dipping sauce preparation omitted",
       "record_sha256": "0d1b4ba52dde0e075c26de46c784573f1ddabf88949da73c45101a9ab965b771"
     },
     {
       "csv_row": 263,
       "title": "만두배추전골",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Broth recipe uses additional unlisted ingredients",
       "record_sha256": "78f09966a39c282aacd5509a796d0f71b677fc036a014808367718110288ff64"
     },
     {
       "csv_row": 264,
       "title": "고등어조림",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "2fe7606674616c4ed263cf5abd370dcc1c2db8e6f314c52d3a4b7890bbf5f72e"
@@ -2125,15 +2125,15 @@
     {
       "csv_row": 265,
       "title": "견과찰떡",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Cooking step uses sesame oil absent from ingredients",
       "record_sha256": "bb2cbf4bcdc78ca8a365d3884e819109b974d43e126498d63a6ddac10d8eb8aa"
     },
     {
       "csv_row": 266,
       "title": "전복조림",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "e2444ce80a63e6a587b2d3ee0d7154a5a360ea81b64c3ed6867581c077b04e29"
@@ -2141,23 +2141,23 @@
     {
       "csv_row": 267,
       "title": "감귤차",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Ingredient quantities unspecified",
       "record_sha256": "7963124c6954d751787bfbd91299c53132e6e228071e81322851c41d473f1ad5"
     },
     {
       "csv_row": 268,
       "title": "감귤케이크",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Sugar quantities not explicitly assigned to egg white and yolk mixtures",
       "record_sha256": "a35ccaeafaaa42229fae90feb5f89fc9f67cfa299200ff8c0ad8ad7a083e241b"
     },
     {
       "csv_row": 269,
       "title": "코다리 깐풍소스 강정",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "21535fbef574d29e9adae0d057a8390bbf11c9e698d3c7b0c8f51fba088c4b9e"
@@ -2165,31 +2165,31 @@
     {
       "csv_row": 270,
       "title": "녹두전",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Onion quantity and some seasoning delimiters incomplete",
       "record_sha256": "66a31ad1d8067566974d35cf13e7c3b21dca973dad8a5213f47cd7afe03583cd"
     },
     {
       "csv_row": 271,
       "title": "해산물가득 아침밥상",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Several dishes and repeated step numbering combined",
       "record_sha256": "bf8dafe3b503da6f85a83eefb239d9fd415c8812b6e523183924daa96f1b5137"
     },
     {
       "csv_row": 272,
       "title": "고구마샐러드",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Ham quantity has no unit; several ingredients unspecified",
       "record_sha256": "d4dcd15b131ca7c14b7972c75094adad806f2edd711d794f0179a2d42203f499"
     },
     {
       "csv_row": 273,
       "title": "나물김폭탄주먹밥",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "7771d9a7e4defe657631bacc2e5c799182716e97f720b2d4c4013fb6eaad05af"
@@ -2197,7 +2197,7 @@
     {
       "csv_row": 274,
       "title": "달래드링크",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "12d77f6b8f95d8b2fd55bd44da3df7c6021a1ca5862b8543c5d768022a765293"
@@ -2205,31 +2205,31 @@
     {
       "csv_row": 275,
       "title": "자색 고구마샐러드",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Cream and yogurt mixing sentence ambiguous",
       "record_sha256": "e366079ea859598c2b3dc576a88eb5a4aef93df964d2020a45b4490677380892"
     },
     {
       "csv_row": 276,
       "title": "가래떡 빼빼로",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Rice cake missing from ingredients",
       "record_sha256": "052838a033d5d9dedce78e954932c8046976e828255840c9ad5a5b4fa333e3d3"
     },
     {
       "csv_row": 277,
       "title": "굴떡국",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Seasoning procedure and stock quantities incomplete",
       "record_sha256": "94d7e9f57bc6ac4e00c7ed1982d6359f90b9a8ae6c542af1a14e6d40da10781f"
     },
     {
       "csv_row": 278,
       "title": "꼬막회",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "a613521c6dad222c0b3043ef433605655cd0600c710c26f98de864cfd17ddb0a"
@@ -2237,15 +2237,15 @@
     {
       "csv_row": 279,
       "title": "낙지호롱",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Sun-drying seafood preparation needs separate review",
       "record_sha256": "fa6cdc5744e7eec1158c836fec72758f0c53868f160ab749c2d55945d6ec6156"
     },
     {
       "csv_row": 280,
       "title": "요구르트드레싱 호박찜",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "6c7f0f6756981441bb0a2f41d91a84e2f5f9663fe38dc75c8722861ec04f3382"
@@ -2253,7 +2253,7 @@
     {
       "csv_row": 281,
       "title": "무 양념조림",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "ef2f76a16c69d20c8917b07ab70413225826c8fda4996b2696268808a13634e5"
@@ -2261,7 +2261,7 @@
     {
       "csv_row": 282,
       "title": "해파리 오이 쫄면 무침",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "64feeb0eea2dddb5da7849771f08755cd93b4f075380bba3d9af76b7a18867cc"
@@ -2269,7 +2269,7 @@
     {
       "csv_row": 283,
       "title": "무나박김치",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "8881a12bf4b8ff303c7c983694774b53bdf7e91098a89a73b77382eb746faad9"
@@ -2277,7 +2277,7 @@
     {
       "csv_row": 284,
       "title": "매실복숭아화채",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "879241a7230b7ac754037857cf6cf06dc43065144f9fe4c7dace620a289efb43"
@@ -2285,31 +2285,31 @@
     {
       "csv_row": 285,
       "title": "애호박 토마토소스찜",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Ingredient section contains apparent unrelated fruit punch ingredients",
       "record_sha256": "89fd3f1424a8f5c2214b461de78addaa9cc0a5af6e0fbba35e186cf1ab9ec669"
     },
     {
       "csv_row": 286,
       "title": "복숭아크레페",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Duplicated final step and wording errors need review",
       "record_sha256": "3ac6ed5efc9a1b4fd7ed7772c3c7d672f65163b4dabda289212883d60b8ef31d"
     },
     {
       "csv_row": 287,
       "title": "오이장아찌",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Method uses lemon juice absent from ingredients",
       "record_sha256": "5b5fa12ceb59321746e4cb3c06c2a05546a0cb50da35f815a2fbcc920d38fa40"
     },
     {
       "csv_row": 288,
       "title": "무체 미역국",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "778b6026855733d464c4041d52435c64915abc6036094e325adf955a7676c659"
@@ -2317,7 +2317,7 @@
     {
       "csv_row": 289,
       "title": "양배추찜과 강장비빔밥",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "8aa387afff15198c06cf2579d38e8dba439016af568800045d9c23bc72ef66cb"
@@ -2325,7 +2325,7 @@
     {
       "csv_row": 290,
       "title": "조갯살 애호박찌개",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "7aca8211db61006a15aaee1ff1dc9332f79500a12805f9d5b082f420f0fdbe79"
@@ -2333,23 +2333,23 @@
     {
       "csv_row": 291,
       "title": "당근브로콜리볶음",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Onion quantity repeated; total ambiguous",
       "record_sha256": "8a61fa659dcba5561776b7bcdd1f34e022e3c54522ef3af5aba466cc22c5d694"
     },
     {
       "csv_row": 292,
       "title": "새싹무침",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Method uses sugar and rice syrup absent from ingredients",
       "record_sha256": "0fc1e05e1572761ed720b8c96cd87dbfd86409a7cf834492c5ccd4f6784a93e5"
     },
     {
       "csv_row": 293,
       "title": "고등어살 배추조림",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "7232be179d4b330871ba2f22e55473746f03da4777d3712f4bbe315d2548da53"
@@ -2357,15 +2357,15 @@
     {
       "csv_row": 294,
       "title": "새송이버섯 돼지고기볶음",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Method uses soy sauce and chili paste absent from ingredients",
       "record_sha256": "a968753dbebff309eb44ae0b6c8d00a63373c5c237f818f42daed1292befb74e"
     },
     {
       "csv_row": 295,
       "title": "삼치살오일구이",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "94063681146f1f2907e4b8b2c6a2b4ac6f6275a93b7345ffb626380fde58aa0b"
@@ -2373,15 +2373,15 @@
     {
       "csv_row": 296,
       "title": "느타리버섯볶음",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Method uses salt absent from ingredients",
       "record_sha256": "1b83489788c9980ec79bfe2081e60b5587c6cda335eea749e595a6e8d6ee0570"
     },
     {
       "csv_row": 297,
       "title": "마른파래 아몬드볶음",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "655de4a5315ba0c923998eb249032985ac2b8b44dbdc7b3749ae1dcaa6f93735"
@@ -2389,15 +2389,15 @@
     {
       "csv_row": 298,
       "title": "영양밥",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Commercial pressure cooker instruction lacks appliance model or pressure unit",
       "record_sha256": "4ec6286e79e05a5182c1c24158f58feb492909b433bdd0a5b587c62b61ad06f2"
     },
     {
       "csv_row": 299,
       "title": "모시조개 시금치국",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "3b0d9b525aa7454b8adda6ca25bb7b9ba446c2ea23efd8ec92c17fd5b25601f1"
@@ -2405,15 +2405,15 @@
     {
       "csv_row": 300,
       "title": "꽁치 포테이토커틀렛",
-      "status": "pending_manual_review",
+      "status": "held_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "",
+      "review_note": "Additional portion, quantity or completeness review needed",
       "record_sha256": "6e12ccbda57184d7b895b6553c7b6a3267fd884305a4438004308d6b64f088ac"
     },
     {
       "csv_row": 301,
       "title": "바지락 연두부탕",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "d5745b46ef0b7bac64bcc9c4b13808f358b5ec5b1430e0fe182f506af671e6f0"
@@ -2421,7 +2421,7 @@
     {
       "csv_row": 302,
       "title": "삼치유자청구이",
-      "status": "pending_manual_review",
+      "status": "accepted_manual_review",
       "has_separate_ingredients_and_method": true,
       "review_note": "",
       "record_sha256": "9ec7c57f7a5ef91b5e10790517c9cb61ef886df476b7883d054ec829969f85e2"
