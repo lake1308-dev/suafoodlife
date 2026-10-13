@@ -8,10 +8,11 @@
   "downloaded_detail_count": 61,
   "complete_text_count": 53,
   "accepted_recipe_count": 0,
+  "manual_review_complete": true,
+  "text_reuse_scope_status": "not_confirmed_for_webpage_text",
   "status_counts": {
     "held_missing_recipe_text": 8,
-    "held_source_inconsistency": 24,
-    "pending_manual_consistency_review": 29
+    "held_source_inconsistency": 53
   },
   "rules": [
     "Public recipe database unchanged",
@@ -76,8 +77,10 @@
       "has_transcript": true,
       "ingredient_characters": 87,
       "method_characters": 165,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section lists pork 150g and kimchi 200g; transcript lists pork 100g and one head of kimchi"
+      ]
     },
     {
       "record_id": "37",
@@ -89,8 +92,10 @@
       "has_transcript": true,
       "ingredient_characters": 128,
       "method_characters": 183,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use angelica absent from ingredient section"
+      ]
     },
     {
       "record_id": "183",
@@ -147,8 +152,10 @@
       "has_transcript": true,
       "ingredient_characters": 136,
       "method_characters": 223,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Narration uses five clams and beef 100g; ingredient section uses two clams and beef 25g"
+      ]
     },
     {
       "record_id": "208",
@@ -160,8 +167,10 @@
       "has_transcript": true,
       "ingredient_characters": 3,
       "method_characters": 133,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use oil and salt absent from ingredient section; no ingredient quantities"
+      ]
     },
     {
       "record_id": "3",
@@ -218,8 +227,10 @@
       "has_transcript": true,
       "ingredient_characters": 9,
       "method_characters": 135,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section omits all quantities; coagulation depends on unspecified brine concentration"
+      ]
     },
     {
       "record_id": "1107",
@@ -315,8 +326,10 @@
       "has_transcript": true,
       "ingredient_characters": 28,
       "method_characters": 236,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use salt absent from ingredient section; no ingredient quantities"
+      ]
     },
     {
       "record_id": "279",
@@ -328,8 +341,10 @@
       "has_transcript": true,
       "ingredient_characters": 47,
       "method_characters": 249,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use shrimp paste, oysters and other ingredients absent from ingredient section"
+      ]
     },
     {
       "record_id": "9",
@@ -371,8 +386,10 @@
       "has_transcript": true,
       "ingredient_characters": 99,
       "method_characters": 228,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use additional greens and red pepper paste absent from ingredient section"
+      ]
     },
     {
       "record_id": "356",
@@ -384,8 +401,10 @@
       "has_transcript": true,
       "ingredient_characters": 31,
       "method_characters": 62,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use vinegar absent from ingredient section; no ingredient quantities"
+      ]
     },
     {
       "record_id": "340",
@@ -397,8 +416,10 @@
       "has_transcript": true,
       "ingredient_characters": 17,
       "method_characters": 203,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Transcript describes additional grains and herbs absent from ingredient section; no quantities"
+      ]
     },
     {
       "record_id": "19",
@@ -410,8 +431,10 @@
       "has_transcript": true,
       "ingredient_characters": 164,
       "method_characters": 207,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use squash and tofu absent from ingredient section"
+      ]
     },
     {
       "record_id": "18",
@@ -477,8 +500,10 @@
       "has_transcript": true,
       "ingredient_characters": 131,
       "method_characters": 169,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use dried pollock, kelp and glutinous rice flour absent from ingredient section"
+      ]
     },
     {
       "record_id": "22",
@@ -490,8 +515,10 @@
       "has_transcript": true,
       "ingredient_characters": 40,
       "method_characters": 178,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use soybean paste and other ingredients absent from ingredient section"
+      ]
     },
     {
       "record_id": "326",
@@ -503,8 +530,10 @@
       "has_transcript": true,
       "ingredient_characters": 69,
       "method_characters": 166,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section lists sugar 2 cups and cinnamon 1 teaspoon; captions use sugar 1.5 cups and cinnamon half a cup"
+      ]
     },
     {
       "record_id": "280",
@@ -516,8 +545,10 @@
       "has_transcript": true,
       "ingredient_characters": 30,
       "method_characters": 180,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use chives and garlic absent from ingredient section"
+      ]
     },
     {
       "record_id": "8",
@@ -529,8 +560,10 @@
       "has_transcript": true,
       "ingredient_characters": 167,
       "method_characters": 273,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use onion absent from ingredient section"
+      ]
     },
     {
       "record_id": "50",
@@ -572,8 +605,10 @@
       "has_transcript": true,
       "ingredient_characters": 82,
       "method_characters": 131,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use glutinous rice absent from ingredient section"
+      ]
     },
     {
       "record_id": "12",
@@ -585,8 +620,10 @@
       "has_transcript": true,
       "ingredient_characters": 58,
       "method_characters": 265,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use onion and anchovies absent from ingredient section; fish is added twice in displayed sequence"
+      ]
     },
     {
       "record_id": "30",
@@ -598,8 +635,10 @@
       "has_transcript": true,
       "ingredient_characters": 7,
       "method_characters": 51,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps require a dipping sauce absent from ingredient section; sauce composition not provided"
+      ]
     },
     {
       "record_id": "57",
@@ -639,8 +678,10 @@
       "has_transcript": true,
       "ingredient_characters": 121,
       "method_characters": 278,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps refer to nonexistent steps 4-9; displayed sequence only has eight steps"
+      ]
     },
     {
       "record_id": "58",
@@ -652,8 +693,10 @@
       "has_transcript": true,
       "ingredient_characters": 588,
       "method_characters": 439,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use spinach, walnuts and additional ingredients absent from ingredient section"
+      ]
     },
     {
       "record_id": "1112",
@@ -693,8 +736,10 @@
       "has_transcript": true,
       "ingredient_characters": 36,
       "method_characters": 127,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section lists oysters 600g; captions list 800g"
+      ]
     },
     {
       "record_id": "290",
@@ -721,8 +766,10 @@
       "has_transcript": true,
       "ingredient_characters": 27,
       "method_characters": 163,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use aged kimchi liquid absent from ingredient section"
+      ]
     },
     {
       "record_id": "59",
@@ -734,8 +781,10 @@
       "has_transcript": true,
       "ingredient_characters": 148,
       "method_characters": 326,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use freshwater snails and several other ingredients absent from ingredient section"
+      ]
     },
     {
       "record_id": "16",
@@ -747,8 +796,10 @@
       "has_transcript": true,
       "ingredient_characters": 108,
       "method_characters": 111,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use salt and red pepper powder absent from ingredient section"
+      ]
     },
     {
       "record_id": "60",
@@ -760,8 +811,10 @@
       "has_transcript": true,
       "ingredient_characters": 89,
       "method_characters": 120,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use radish, onion and hot peppers absent from ingredient section"
+      ]
     },
     {
       "record_id": "228",
@@ -818,8 +871,10 @@
       "has_transcript": true,
       "ingredient_characters": 55,
       "method_characters": 224,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Ingredient section lists red beans 4 cups and sugar half a cup; captions list red beans 3 cups and sugar 1 cup"
+      ]
     },
     {
       "record_id": "332",
@@ -846,8 +901,10 @@
       "has_transcript": true,
       "ingredient_characters": 36,
       "method_characters": 102,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use soy sauce, sesame and sesame oil absent from ingredient section"
+      ]
     },
     {
       "record_id": "360",
@@ -859,8 +916,10 @@
       "has_transcript": true,
       "ingredient_characters": 51,
       "method_characters": 110,
-      "status": "pending_manual_consistency_review",
-      "review_findings": []
+      "status": "held_source_inconsistency",
+      "review_findings": [
+        "Cooking steps use perilla oil, sugar and pepper absent from ingredient section"
+      ]
     }
   ]
 }

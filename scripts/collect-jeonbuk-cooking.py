@@ -23,6 +23,35 @@ seed=(cache/'149.html').read_bytes()
 ids=list(dict.fromkeys(x.decode() for x in re.findall(rb'vod.html\?thid=(\d+)',seed)))
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: downloaded=list(pool.map(fetch,ids))
 issues={
+ '7':['Ingredient section lists pork 150g and kimchi 200g; transcript lists pork 100g and one head of kimchi'],
+ '37':['Cooking steps use angelica absent from ingredient section'],
+ '27':['Narration uses five clams and beef 100g; ingredient section uses two clams and beef 25g'],
+ '208':['Cooking steps use oil and salt absent from ingredient section; no ingredient quantities'],
+ '32':['Ingredient section omits all quantities; coagulation depends on unspecified brine concentration'],
+ '33':['Cooking steps use salt absent from ingredient section; no ingredient quantities'],
+ '279':['Cooking steps use shrimp paste, oysters and other ingredients absent from ingredient section'],
+ '6':['Cooking steps use additional greens and red pepper paste absent from ingredient section'],
+ '356':['Cooking steps use vinegar absent from ingredient section; no ingredient quantities'],
+ '340':['Transcript describes additional grains and herbs absent from ingredient section; no quantities'],
+ '19':['Cooking steps use squash and tofu absent from ingredient section'],
+ '21':['Cooking steps use dried pollock, kelp and glutinous rice flour absent from ingredient section'],
+ '22':['Cooking steps use soybean paste and other ingredients absent from ingredient section'],
+ '326':['Ingredient section lists sugar 2 cups and cinnamon 1 teaspoon; captions use sugar 1.5 cups and cinnamon half a cup'],
+ '280':['Cooking steps use chives and garlic absent from ingredient section'],
+ '8':['Cooking steps use onion absent from ingredient section'],
+ '13':['Cooking steps use glutinous rice absent from ingredient section'],
+ '12':['Cooking steps use onion and anchovies absent from ingredient section; fish is added twice in displayed sequence'],
+ '30':['Cooking steps require a dipping sauce absent from ingredient section; sauce composition not provided'],
+ '26':['Cooking steps refer to nonexistent steps 4-9; displayed sequence only has eight steps'],
+ '58':['Cooking steps use spinach, walnuts and additional ingredients absent from ingredient section'],
+ '42':['Ingredient section lists oysters 600g; captions list 800g'],
+ '291':['Cooking steps use aged kimchi liquid absent from ingredient section'],
+ '59':['Cooking steps use freshwater snails and several other ingredients absent from ingredient section'],
+ '16':['Cooking steps use salt and red pepper powder absent from ingredient section'],
+ '60':['Cooking steps use radish, onion and hot peppers absent from ingredient section'],
+ '45':['Ingredient section lists red beans 4 cups and sugar half a cup; captions list red beans 3 cups and sugar 1 cup'],
+ '344':['Cooking steps use soy sauce, sesame and sesame oil absent from ingredient section'],
+ '360':['Cooking steps use perilla oil, sugar and pepper absent from ingredient section'],
  '149':['Ingredient section lists beef 1.8kg; transcript lists 1kg; cooking steps use additional unlisted ingredients'],
  '40':['Cooking steps use radish and sesame absent from ingredient section'],
  '52':['Ingredient section lists water 3L; cooking steps use 5L'],
@@ -58,6 +87,6 @@ for record_id,ok in zip(ids,downloaded):
  ing,method,transcript=text('material'),text('recipeBox'),text('subtitles')
  complete=bool(ing and method); problems=issues.get(record_id,[])
  records.append({'record_id':record_id,'name':doc.xpath('//h2')[0].text_content().strip(),'url':url,'original_sha256':hashlib.sha256(raw).hexdigest(),'has_ingredients':bool(ing),'has_cooking_steps':bool(method),'has_transcript':bool(transcript),'ingredient_characters':len(ing),'method_characters':len(method),'status':'held_missing_recipe_text' if not complete else 'held_source_inconsistency' if problems else 'pending_manual_consistency_review','review_findings':problems})
-review={'reviewed_on':'2026-10-13','source_catalog':'https://www.data.go.kr/data/15136205/fileData.do','catalog_license':'이용허락범위 제한 없음','catalog_format':'MP4','catalog_record_count':53,'linked_detail_count':len(ids),'downloaded_detail_count':sum(downloaded),'complete_text_count':sum(r.get('has_ingredients',False) and r.get('has_cooking_steps',False) for r in records),'accepted_recipe_count':0,'status_counts':{s:sum(r['status']==s for r in records) for s in sorted({r['status'] for r in records})},'rules':['Public recipe database unchanged','Never merge differing ingredient quantities from page and transcript','Missing quantities, nutrition and allergens are not invented','Text reuse scope must be verified independently of the MP4 catalogue license','Raw source pages retained only in the cache directory; repository review contains metadata only'],'records':records}
+review={'reviewed_on':'2026-10-13','source_catalog':'https://www.data.go.kr/data/15136205/fileData.do','catalog_license':'이용허락범위 제한 없음','catalog_format':'MP4','catalog_record_count':53,'linked_detail_count':len(ids),'downloaded_detail_count':sum(downloaded),'complete_text_count':sum(r.get('has_ingredients',False) and r.get('has_cooking_steps',False) for r in records),'accepted_recipe_count':0,'manual_review_complete':True,'text_reuse_scope_status':'not_confirmed_for_webpage_text','status_counts':{s:sum(r['status']==s for r in records) for s in sorted({r['status'] for r in records})},'rules':['Public recipe database unchanged','Never merge differing ingredient quantities from page and transcript','Missing quantities, nutrition and allergens are not invented','Text reuse scope must be verified independently of the MP4 catalogue license','Raw source pages retained only in the cache directory; repository review contains metadata only'],'records':records}
 (ROOT/'data/jeonbuk-cooking-review-20261013.json').write_text(json.dumps(review,ensure_ascii=False,indent=2)+'\n')
 print({k:v for k,v in review.items() if k not in ['records','rules']})
