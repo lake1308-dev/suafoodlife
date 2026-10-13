@@ -1,0 +1,13 @@
+{
+  "source_zip_sha256": "9cce9b866d43b44577dea77c76054e80f0ecf81840417d5a956c8aa703158c5d",
+  "source_entry": "(한식요리정보)FD_한식_활용-수정.csv",
+  "input_rows": 44,
+  "accepted": 44,
+  "held": [],
+  "rules": [
+    "Original underscore-delimited ingredients and steps preserved",
+    "No guessed servings or nutrition",
+    "Menu ingredients without cooking steps are not imported as recipes",
+    "GAP producer data excluded"
+  ]
+}
