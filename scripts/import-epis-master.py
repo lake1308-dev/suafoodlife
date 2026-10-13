@@ -17,8 +17,36 @@ APPROVED.update({302,310,315,318,319,324,326,331,339,344,328,340,341,346,350,
 353,358,359,365,366,367,369,370,372,373,374,376,377,378,379})
 APPROVED.update({381,384,385,386,387,388,389,390,391,393,394,395,396,398,400,401,402,403,404,405,407,408,410,
 413,416,417,418,420,421,422,424,427,428,429,431,433,434,436,437,438})
-REVIEWED=set(range(120,441))
+APPROVED.update({442,444,446,447,449,450,451,452,458,459,461,462,463,465,466,467,468,469,470,
+471,474,475,476,477,478,479,480,482,484,488,489,490,491,492,499})
+REVIEWED=set(range(120,501))
 FINDINGS={
+441:'Recipe title and ingredients are pork and octopus; method is cubed radish kimchi',
+443:'Large part of preparation and cooking method duplicated',
+445:'Bean cooking adequacy requires clarification',
+448:'Ingredient name corrupted as burner instead of butter',
+453:'Exact duplicate of accepted source row index 452',
+454:'Rice wine quantity repeated; total ambiguous',
+455:'Salt used for pickling absent from ingredient section',
+456:'Fruit never added to syrup in cooking method',
+457:'Button mushroom cooking and pickling process requires review',
+460:'Cooking method uses oregano absent from ingredient section',
+464:'Fish stock preparation and storage details incomplete',
+472:'Cooking method uses water parsley absent from ingredient section',
+473:'Title says blanched spinach but blanching step omitted',
+481:'Cooking method uses vinegar absent from ingredient section',
+483:'Ingredient section uses onion but method uses cabbage',
+485:'Cooking method uses red pepper absent from ingredient section',
+486:'Raw squid fermentation and storage method requires review',
+487:'Listed foxtail millet never added to rice in cooking method',
+493:'Two dishes and repeated numbered sequences combined',
+494:'Ingredient quantities unspecified; additional seasonings absent',
+495:'Exact duplicate of source row index 494 with different title',
+496:'Cooking method uses garlic absent from ingredient section',
+497:'Two distinct dishes with repeated numbering require splitting and separate review',
+498:'Two distinct porridges with repeated numbering require splitting and separate review',
+500:'Rice described as chestnuts in method; sugar absent from ingredients',
+
 382:'Onion and garlic frying sentence duplicated',
 383:'Apparent duplicate of approved source row index 281; verify version before adding',
 392:'Initial instruction slices pork but final instruction uses minced pork',
@@ -198,7 +226,7 @@ for i,r in enumerate(rows):
  steps=[x.strip(' \n•') for x in pieces if x.strip(' \n•')]
  assert ing and 2<=len(steps)<=12
  title=r['제목'].strip();recipes.append({'id':'epis_master_'+str(i+2),'names':{'ko':title,'en':title},'country':'Korea','region':'','category':'요리','category_ko':'요리','tags':[],'servings':None,'ingredients':[],'ingredients_text':ing,'steps':{'ko':steps,'en':steps},'public_recipe':True,'source_kind':'epis_master_reference','source_label':'농정원 고수요리법','source_nutrition':{'kcal':None,'protein_g':None,'carbs_g':None,'fat_g':None,'sodium_mg':None},'nutrition_status':'not_calculated','source_weight_text':'','source':{'name':'농림수산식품교육문화정보원 고수요리법','url':'https://www.data.go.kr/data/15050910/fileData.do','record_id':str(i+2),'retrieved_on':'2026-10-14','license':'이용허락범위 제한 없음','original_sha256':hashlib.sha256(raw).hexdigest()},'source_original_credit':clean(a[4]),'source_time_text':clean(a[0]),'source_registration_date':r['등록일']})
-assert len(recipes)==len(APPROVED)==154
-(root/'data/recipes-epis-master-20261014.json.gz').write_bytes(gzip.compress(json.dumps({'version':'1.4.0','record_count':len(recipes),'recipes':recipes},ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
+assert len(recipes)==len(APPROVED)==189
+(root/'data/recipes-epis-master-20261014.json.gz').write_bytes(gzip.compress(json.dumps({'version':'1.5.0','record_count':len(recipes),'recipes':recipes},ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
 report={'reviewed_on':'2026-10-14','source_url':'https://www.data.go.kr/data/15050910/fileData.do','source_license':'이용허락범위 제한 없음','source_sha256':hashlib.sha256(raw).hexdigest(),'source_bytes':len(raw),'input_records':len(rows),'structured_records':sum(x['has_separate_ingredients_and_method'] for x in review),'accepted':len(recipes),'pending_structured':sum(x['status']=='pending_manual_review' for x in review),'held_manual_review':sum(x['status']=='held_manual_review' for x in review),'held_unstructured':sum(x['status']=='held_unstructured_text' for x in review),'rules':['Only manually approved rows enter public recipe data','Original ingredient quantities and ordered cooking steps retained','Recipe source versions retained separately; title match alone does not prove duplication','Images, descriptions and health claims excluded','No inferred nutrition, allergens or portions'],'records':review}
 (root/'data/recipes-epis-master-review-20261014.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print({k:v for k,v in report.items() if k not in ['records','rules']})
