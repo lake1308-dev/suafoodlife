@@ -356,7 +356,42 @@ for i,r in enumerate(rows):
  steps=[x.strip(' \n•') for x in pieces if x.strip(' \n•')]
  assert ing and 2<=len(steps)<=12,(i,r['제목'],steps)
  title=r['제목'].strip();recipes.append({'id':'epis_master_'+str(i+2),'names':{'ko':title,'en':title},'country':'Korea','region':'','category':'요리','category_ko':'요리','tags':[],'servings':None,'ingredients':[],'ingredients_text':ing,'steps':{'ko':steps,'en':steps},'public_recipe':True,'source_kind':'epis_master_reference','source_label':'농정원 고수요리법','source_nutrition':{'kcal':None,'protein_g':None,'carbs_g':None,'fat_g':None,'sodium_mg':None},'nutrition_status':'not_calculated','source_weight_text':'','source':{'name':'농림수산식품교육문화정보원 고수요리법','url':'https://www.data.go.kr/data/15050910/fileData.do','record_id':str(i+2),'retrieved_on':'2026-10-14','license':'이용허락범위 제한 없음','original_sha256':hashlib.sha256(raw).hexdigest()},'source_original_credit':clean(a[4]),'source_time_text':clean(a[0]),'source_registration_date':r['등록일']})
-assert len(recipes)==len(APPROVED)==279
-(root/'data/recipes-epis-master-20261014.json.gz').write_bytes(gzip.compress(json.dumps({'version':'1.7.0','record_count':len(recipes),'recipes':recipes},ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
-report={'reviewed_on':'2026-10-14','source_url':'https://www.data.go.kr/data/15050910/fileData.do','source_license':'이용허락범위 제한 없음','source_sha256':hashlib.sha256(raw).hexdigest(),'source_bytes':len(raw),'input_records':len(rows),'structured_records':sum(x['has_separate_ingredients_and_method'] for x in review),'accepted':len(recipes),'pending_structured':sum(x['status']=='pending_manual_review' for x in review),'held_manual_review':sum(x['status']=='held_manual_review' for x in review),'held_unstructured':sum(x['status']=='held_unstructured_text' for x in review),'rules':['Only manually approved rows enter public recipe data','Original ingredient quantities and ordered cooking steps retained','Recipe source versions retained separately; title match alone does not prove duplication','Images, descriptions and health claims excluded','No inferred nutrition, allergens or portions'],'records':review}
+# Manually reviewed components: boundaries come from explicit source headings.
+SPLIT_PARTS=[
+ (498,'미역죽','[미역죽]','[전복죽]','[미역죽]','[전복죽]'),
+ (498,'전복죽','[전복죽]',None,'[전복죽]',None),
+ (533,'연근정과','[연근정과]','[생강정과]','[연근정과]','[생강정과]'),
+ (533,'생강정과','[생강정과]','[우엉정과]','[생강정과]','[우엉정과]'),
+ (512,'무밥','','[대구탕]','[무밥]','[대구탕]'),
+ (512,'대구탕','[대구탕]',None,'[대구탕]',None),
+ (517,'도토리묵무침','도토리묵무침 :','감자부침 :','* 도토리묵무침 :','* 감자부침 :'),
+ (524,'김부각','[김부각]','[동백잎부각]','[김부각]',None),
+ (676,'감자밥','갑자밥 :','메밀밥 :','감자밥','메밀밥'),
+ (676,'메밀밥','메밀밥 :',None,'메밀밥',None),
+]
+def section(text,start,end):
+ begin=text.index(start)+len(start) if start else 0
+ finish=text.index(end,begin) if end else len(text)
+ return text[begin:finish].strip().rstrip(',')
+import copy
+split_counts={}
+for i,title,ing_start,ing_end,method_start,method_end in SPLIT_PARTS:
+ a=rows[i]['내용'].split('||')
+ ingredients=clean(section(a[3],ing_start,ing_end))
+ method=clean(section(a[2],method_start,method_end))
+ # The source explicitly numbers later steps 2-5; first marker is corrupted as !).
+ if i==512 and title=='무밥':method=re.sub(r'^!\)', '1)',method)
+ steps=[x.strip() for x in re.split(r'(?<!\d)\d{1,2}\s*[.)](?!\d)\s*',method) if x.strip()]
+ assert ingredients and 2<=len(steps)<=12,(i,title)
+ ordinal=split_counts.get(i,0)+1;split_counts[i]=ordinal
+ r=copy.deepcopy(recipes[0]);r.update({'id':'epis_master_'+str(i+2)+'_part_'+str(ordinal),'names':{'ko':title,'en':title},'ingredients_text':ingredients,'steps':{'ko':steps,'en':steps},'source_original_credit':clean(a[4]),'source_time_text':'','source_registration_date':rows[i]['등록일']})
+ r['source'].update({'record_id':str(i+2),'part_title':title,'part_index':ordinal})
+ recipes.append(r)
+for item in review:
+ i=item['csv_row']-2
+ if i in split_counts:
+  item.update({'status':'accepted_split_manual_review' if i in {498,512,676} else 'partially_accepted_split','accepted_components':split_counts[i],'review_note':'Only independently verified components imported; original heading boundaries retained'})
+assert len(recipes)==289 and len({r['id'] for r in recipes})==289
+(root/'data/recipes-epis-master-20261014.json.gz').write_bytes(gzip.compress(json.dumps({'version':'1.8.0','record_count':len(recipes),'recipes':recipes},ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
+report={'reviewed_on':'2026-10-14','source_url':'https://www.data.go.kr/data/15050910/fileData.do','source_license':'이용허락범위 제한 없음','source_sha256':hashlib.sha256(raw).hexdigest(),'source_bytes':len(raw),'input_records':len(rows),'structured_records':sum(x['has_separate_ingredients_and_method'] for x in review),'accepted':len(recipes),'accepted_split_components':len(SPLIT_PARTS),'fully_accepted_source_rows':sum(x['status'] in ['accepted_manual_review','accepted_split_manual_review'] for x in review),'partially_accepted_source_rows':sum(x['status']=='partially_accepted_split' for x in review),'pending_structured':sum(x['status']=='pending_manual_review' for x in review),'held_manual_review':sum(x['status']=='held_manual_review' for x in review),'held_unstructured':sum(x['status']=='held_unstructured_text' for x in review),'rules':['Only manually approved rows enter public recipe data','Original ingredient quantities and ordered cooking steps retained','Recipe source versions retained separately; title match alone does not prove duplication','Images, descriptions and health claims excluded','No inferred nutrition, allergens or portions'],'records':review}
 (root/'data/recipes-epis-master-review-20261014.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print({k:v for k,v in report.items() if k not in ['records','rules']})

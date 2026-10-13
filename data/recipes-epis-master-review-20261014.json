@@ -6,9 +6,12 @@
   "source_bytes": 1103174,
   "input_records": 705,
   "structured_records": 595,
-  "accepted": 279,
+  "accepted": 289,
+  "accepted_split_components": 10,
+  "fully_accepted_source_rows": 282,
+  "partially_accepted_source_rows": 3,
   "pending_structured": 0,
-  "held_manual_review": 316,
+  "held_manual_review": 310,
   "held_unstructured": 110,
   "rules": [
     "Only manually approved rows enter public recipe data",
@@ -4005,10 +4008,11 @@
     {
       "csv_row": 500,
       "title": "미역죽&전복죽",
-      "status": "held_manual_review",
+      "status": "accepted_split_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "Two distinct porridges with repeated numbering require splitting and separate review",
-      "record_sha256": "39ba9069389f7f19128dcdc21bea60785ca0773e0bd6f679ec74c02e7606b3b0"
+      "review_note": "Only independently verified components imported; original heading boundaries retained",
+      "record_sha256": "39ba9069389f7f19128dcdc21bea60785ca0773e0bd6f679ec74c02e7606b3b0",
+      "accepted_components": 2
     },
     {
       "csv_row": 501,
@@ -4117,10 +4121,11 @@
     {
       "csv_row": 514,
       "title": "무밥 & 대구탕",
-      "status": "held_manual_review",
+      "status": "accepted_split_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "Two dishes combined with repeated numbering",
-      "record_sha256": "b1103252dd8c2bcc7e379f0487aa95a2face431b8a1f9980fa03fce989954e15"
+      "review_note": "Only independently verified components imported; original heading boundaries retained",
+      "record_sha256": "b1103252dd8c2bcc7e379f0487aa95a2face431b8a1f9980fa03fce989954e15",
+      "accepted_components": 2
     },
     {
       "csv_row": 515,
@@ -4157,10 +4162,11 @@
     {
       "csv_row": 519,
       "title": "도토리묵무침&감자부침",
-      "status": "held_manual_review",
+      "status": "partially_accepted_split",
       "has_separate_ingredients_and_method": true,
-      "review_note": "Two dishes combined with repeated numbered sequences",
-      "record_sha256": "7608dc489f60658dd846596ee205ca6a72fb1b4cda64704a45e6c8b8feea58c3"
+      "review_note": "Only independently verified components imported; original heading boundaries retained",
+      "record_sha256": "7608dc489f60658dd846596ee205ca6a72fb1b4cda64704a45e6c8b8feea58c3",
+      "accepted_components": 1
     },
     {
       "csv_row": 520,
@@ -4213,10 +4219,11 @@
     {
       "csv_row": 526,
       "title": "부각(가죽, 생강나무잎, 김, 동백, 국화잎부각)",
-      "status": "held_manual_review",
+      "status": "partially_accepted_split",
       "has_separate_ingredients_and_method": true,
-      "review_note": "Multiple leaf fritters combined with repeated numbering",
-      "record_sha256": "277453ec1c7dacdceeeedb7ac8239a0e6147ab129311fcba127bf91b55dbf6a9"
+      "review_note": "Only independently verified components imported; original heading boundaries retained",
+      "record_sha256": "277453ec1c7dacdceeeedb7ac8239a0e6147ab129311fcba127bf91b55dbf6a9",
+      "accepted_components": 1
     },
     {
       "csv_row": 527,
@@ -4285,10 +4292,11 @@
     {
       "csv_row": 535,
       "title": "정과(연근정과, 생강정과, 우엉정과)",
-      "status": "held_manual_review",
+      "status": "partially_accepted_split",
       "has_separate_ingredients_and_method": true,
-      "review_note": "Three preserves combined with repeated numbering",
-      "record_sha256": "f86d32ee321d0c02ad1baf2af2b2de571906b52736b1a3ded674b5eb43d3f9eb"
+      "review_note": "Only independently verified components imported; original heading boundaries retained",
+      "record_sha256": "f86d32ee321d0c02ad1baf2af2b2de571906b52736b1a3ded674b5eb43d3f9eb",
+      "accepted_components": 2
     },
     {
       "csv_row": 536,
@@ -5429,10 +5437,11 @@
     {
       "csv_row": 678,
       "title": "감자밥,메밀밥",
-      "status": "held_manual_review",
+      "status": "accepted_split_manual_review",
       "has_separate_ingredients_and_method": true,
-      "review_note": "Two rice dishes combined with repeated numbering",
-      "record_sha256": "e341530f9b5cd8b9cd70f4e0f86998c10bf7fa0add35f4415f7b523d594fe8b4"
+      "review_note": "Only independently verified components imported; original heading boundaries retained",
+      "record_sha256": "e341530f9b5cd8b9cd70f4e0f86998c10bf7fa0add35f4415f7b523d594fe8b4",
+      "accepted_components": 2
     },
     {
       "csv_row": 679,
