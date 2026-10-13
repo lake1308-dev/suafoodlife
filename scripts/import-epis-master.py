@@ -22,8 +22,78 @@ APPROVED.update({442,444,446,447,449,450,451,452,458,459,461,462,463,465,466,467
 APPROVED.update({501,502,505,506,507,509,511,515,518,526,
 534,537,540,543,545,547,549,550,552,555,558,560,
 561,562,563,565,566,572,574,576,578,579,581,582,583,584,585,586})
-REVIEWED=set(range(120,591))
+APPROVED.update({596,598,599,602,604,606,608,609,610,613,614,617,619,621,622,628,629,
+632,634,636,638,640,641,642,644,646,652,656,658,659,661,663,665,668,670,
+671,680,681,683,685,686,687,688,690,694,695,699,700,701,702,703})
+APPROVED.add(109)
+REVIEWED=set(range(705))
 FINDINGS={
+111:'Cooking method uses topping sugar absent from ingredients',
+112:'Cooking method uses butter and oil absent from ingredients',
+115:'Ingredient section uses grape seed oil while method uses olive oil',
+
+591:'Prepared onion and shiitake never added to cooking method',
+592:'Rice wine, salt and kelp stock absent from ingredient section',
+593:'Frying oil quantity inconsistent with commercial batch; finishing stage incomplete',
+594:'Pork sweet-and-sour ingredients attached to bamboo shoot soup method',
+595:'Listed beef never added to cooking method',
+597:'Long room-temperature pickling instruction needs separate review',
+600:'Seasoned chili paste composition and quantities absent',
+601:'Coarse historic household units and seasoning sequence need review',
+603:'Prepared beef never added to hot pot; salt absent from ingredients',
+605:'Cooking method uses oil absent from ingredients',
+607:'Seasoning quantity incomplete; method omits sauce application',
+611:'Sauce mixing text duplicated',
+612:'Vegetable preparation and dressing composition incomplete',
+615:'Seasoning separator corrupted; cooking text has wording errors',
+616:'Three side dishes combined without clear structural boundaries',
+618:'Soda unit corrupted; unsupported medical claims appended to method',
+620:'Broth seasoning listed only as one set without composition',
+623:'Rice and bean quantities have corrupted units',
+624:'Cooking method uses oil and salt absent from ingredients',
+625:'Cooking method uses frying oil absent from ingredients',
+626:'Ingredient quantities absent; final seasonings not listed',
+627:'Mushroom quantity 2g conflicts with quartering instruction; sauce quantities missing',
+630:'Repeated ingredient block; method adds pear absent from ingredients',
+631:'Repeated step number and cooking oil absent from ingredients',
+633:'Unrelated kimchi preparation inserted in fish recipe',
+635:'Curry powder 4 cups for four servings; curry cooking stage absent',
+637:'Method uses crab sticks absent from ingredients',
+639:'Unrelated jujube preparation inserted in persimmon juice recipe',
+643:'Cooking method uses oil absent from ingredients; initial marinade incomplete',
+645:'Prepared chicken never returned to final stir-fry; initial seasoning not specified',
+647:'Choux topping ingredient quantities not specified',
+648:'Cooking method uses rice wine, garlic powder, jujube and garnishes absent from ingredients',
+649:'Cooking method uses oil absent from ingredients',
+650:'Duplicate of held source row index 530; seasoning composition incomplete',
+651:'HTML-like introductory label and sauce consistency need review',
+653:'Pepper 1 tablespoon and frying oil details require confirmation',
+654:'Duplicate of accepted source row index 534: same ingredients and method',
+655:'Meatball seasoning heading has no ingredient content',
+657:'Cooking method uses salt absent from ingredients',
+662:'Cooking method ends mid-sentence; original text incomplete',
+664:'Cooking method uses frying oil absent from ingredient section',
+666:'Named flying fish roe never added in cooking method',
+667:'Rice absent from ingredient section despite rice-bowl title; duplicate numbering',
+669:'Bell pepper ingredient name corrupted',
+672:'Ingredient quantities unspecified',
+673:'Rice flour not incorporated explicitly; cream stage refers to itself',
+674:'Method requires an unavailable photograph for ingredient preparation',
+676:'Two rice dishes combined with repeated numbering',
+677:'Title corrupted; cooking method uses oil absent from ingredients',
+678:'Method uses seaweed, sesame oil, garlic, rice and shrimp paste absent from ingredients',
+679:'Ingredient text and action verbs corrupted; main vegetable names not aligned',
+682:'Onion 1.5 in ingredients but 1.25 used in method',
+684:'Cooking method uses chili powder absent from ingredients',
+689:'Final rolling sentence corrupted; sesame oil never used',
+691:'Listed tangerine and walnut never used; cream absent from ingredients',
+692:'Preparation wording repeated; requires text confirmation',
+693:'Rice seasoning and burdock seasoning compositions missing',
+696:'Tomato sauce quantity measured as one-third of an item; ambiguous unit',
+697:'Water 8 cups in ingredients but method uses 7 cups',
+698:'Unsupported therapeutic claims embedded in method',
+704:'Cooking method uses frying oil absent from ingredients; broth name corrupted',
+
 503:'Three kimchi recipes combined with repeated numbering',
 504:'Ingredient section lists cooked rice paste while method requires raw rice flour',
 508:'Chicken seasoning label names lamb; dipping sauce composition missing',
@@ -271,18 +341,22 @@ for i,r in enumerate(rows):
  assert structured
  ing=clean(a[3]);method=clean(a[2])
  method=re.sub(r'(?m)^(\d{1,2}),',r'\1.',method)
- if re.match(r'^[ㅁ□]',method):
+ if i==598:
+  pieces=re.split(r'(?<!\d)[1-4] (?=[가-힣])',method)
+ elif re.match(r'^[①②③④⑤⑥⑦⑧⑨⑩]',method):
+  pieces=re.split(r'[①②③④⑤⑥⑦⑧⑨⑩]\s+(?=[가-힣])',method)
+ elif re.match(r'^[ㅁ□]',method):
   pieces=re.split(r'\s*[ㅁ□]\s*',method)
  elif re.match(r'^[❶❷❸❹❺❻❼❽❾❿]',method):
   pieces=re.split(r'[❶❷❸❹❺❻❼❽❾❿]',method)
  elif re.match(r'^\d{1,2}\s*[.)](?!\d)',method.lstrip('• ')):
   pieces=re.split(r'(?<!\d)\d{1,2}\s*[.)](?!\d)\s*',method)
  else:
-  pieces=re.split(r'(?<=\.)\s+',method)
+  pieces=re.split(r'(?<=\.)\s*(?=[가-힣])',method)
  steps=[x.strip(' \n•') for x in pieces if x.strip(' \n•')]
- assert ing and 2<=len(steps)<=12
+ assert ing and 2<=len(steps)<=12,(i,r['제목'],steps)
  title=r['제목'].strip();recipes.append({'id':'epis_master_'+str(i+2),'names':{'ko':title,'en':title},'country':'Korea','region':'','category':'요리','category_ko':'요리','tags':[],'servings':None,'ingredients':[],'ingredients_text':ing,'steps':{'ko':steps,'en':steps},'public_recipe':True,'source_kind':'epis_master_reference','source_label':'농정원 고수요리법','source_nutrition':{'kcal':None,'protein_g':None,'carbs_g':None,'fat_g':None,'sodium_mg':None},'nutrition_status':'not_calculated','source_weight_text':'','source':{'name':'농림수산식품교육문화정보원 고수요리법','url':'https://www.data.go.kr/data/15050910/fileData.do','record_id':str(i+2),'retrieved_on':'2026-10-14','license':'이용허락범위 제한 없음','original_sha256':hashlib.sha256(raw).hexdigest()},'source_original_credit':clean(a[4]),'source_time_text':clean(a[0]),'source_registration_date':r['등록일']})
-assert len(recipes)==len(APPROVED)==227
-(root/'data/recipes-epis-master-20261014.json.gz').write_bytes(gzip.compress(json.dumps({'version':'1.6.0','record_count':len(recipes),'recipes':recipes},ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
+assert len(recipes)==len(APPROVED)==279
+(root/'data/recipes-epis-master-20261014.json.gz').write_bytes(gzip.compress(json.dumps({'version':'1.7.0','record_count':len(recipes),'recipes':recipes},ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
 report={'reviewed_on':'2026-10-14','source_url':'https://www.data.go.kr/data/15050910/fileData.do','source_license':'이용허락범위 제한 없음','source_sha256':hashlib.sha256(raw).hexdigest(),'source_bytes':len(raw),'input_records':len(rows),'structured_records':sum(x['has_separate_ingredients_and_method'] for x in review),'accepted':len(recipes),'pending_structured':sum(x['status']=='pending_manual_review' for x in review),'held_manual_review':sum(x['status']=='held_manual_review' for x in review),'held_unstructured':sum(x['status']=='held_unstructured_text' for x in review),'rules':['Only manually approved rows enter public recipe data','Original ingredient quantities and ordered cooking steps retained','Recipe source versions retained separately; title match alone does not prove duplication','Images, descriptions and health claims excluded','No inferred nutrition, allergens or portions'],'records':review}
 (root/'data/recipes-epis-master-review-20261014.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print({k:v for k,v in report.items() if k not in ['records','rules']})
