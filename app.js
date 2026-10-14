@@ -107,9 +107,9 @@ function rebuildIngredientIndex(){
 }
 async function loadRecipeDB(){
  try{
-  const res=await fetch("data/recipes.json?v=0.2.3",{cache:"no-store"});
+  const res=await fetch("data/recipes.json?v=0.2.4",{cache:"no-store"});
   const data=await res.json(); DB_RECIPES=data.recipes||[];
-  try{const creatorRes=await fetch("data/recipes-creator-20261008.json?v=1.26.0",{cache:"no-store"});if(creatorRes.ok){const creator=await creatorRes.json();DB_RECIPES.push(...(creator.recipes||[]));}}catch(err){console.warn("Creator reference recipes unavailable.",err)}
+  try{const creatorRes=await fetch("data/recipes-creator-20261008.json?v=1.27.0",{cache:"no-store"});if(creatorRes.ok){const creator=await creatorRes.json();DB_RECIPES.push(...(creator.recipes||[]));}}catch(err){console.warn("Creator reference recipes unavailable.",err)}
   try{const episRes=await fetch("data/recipes-epis-20261012.json.gz?v=1.0.0",{cache:"no-store"});if(episRes.ok){const bytes=new Uint8Array(await episRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}}catch(err){console.warn("EPIS recipes unavailable.",err)}
   try{const kfiRes=await fetch("data/recipes-kfi-rice-20261012.json.gz?v=1.0.0",{cache:"no-store"});if(kfiRes.ok){const bytes=new Uint8Array(await kfiRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}}catch(err){console.warn("KFI recipes unavailable.",err)}
   try{const rdaRes=await fetch("data/recipes-rda-cooking-20261013.json.gz?v=1.0.0",{cache:"default"});if(rdaRes.ok){const bytes=new Uint8Array(await rdaRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}}catch(err){console.warn("RDA cooking recipes unavailable.",err)}
@@ -662,6 +662,11 @@ function renderCreatorAllergenReview(r){
  const note=document.createElement("p");note.textContent="이 원본 레시피의 재료명을 기준으로 확인했습니다. 제품별 전체 성분과 제조 과정의 혼입 여부는 확인되지 않았습니다. 개인에게 반응하는 다른 재료도 확인하세요.";box.appendChild(note);
  const link=document.createElement("a");link.href=info.classification_source_url;link.target="_blank";link.rel="noopener noreferrer";link.textContent="분류 기준: 식약처 알레르기 유발 식품 안내";box.appendChild(link);
 }
+function renderCookingNotice(r,host){
+ if(!r.cooking_notice)return;
+ const p=document.createElement("p");p.textContent="조리 안내: "+r.cooking_notice;host.appendChild(p);
+ if(r.related_recipe_id){const related=DB_RECIPES.find(x=>x.id===r.related_recipe_id);if(related){const button=document.createElement("button");button.type="button";button.textContent="재료·조리 순서 보기: "+related.names.ko;button.onclick=()=>renderDBRecipe(related);host.appendChild(button)}}
+}
 function renderPublicRecipe(r,scroll=true){
  if(renderCreatorPreparations.returnTo&&renderCreatorPreparations.returnTo.targetId!==r.id)renderCreatorPreparations.returnTo=null;
  currentDish=r;$("recipe").classList.remove("hidden");
@@ -676,7 +681,7 @@ function renderPublicRecipe(r,scroll=true){
  let note=document.getElementById("recipeNutritionNotice");if(!note){note=document.createElement("div");note.id="recipeNutritionNotice";note.className="data-note";$("recipeMeta").after(note)}
  note.classList.remove("hidden");note.replaceChildren();
  const text=document.createElement("span");text.textContent=(r.source_kind==="creator_reference"?"재료는 공식 영상의 분량을 기준으로 표시합니다. ":"재료와 분량은 출처의 조리 예시를 유지했습니다. ")+"알레르기는 사용하는 재료·제품의 표시를 확인하세요. ";note.appendChild(text);
- const link=document.createElement("a");link.href=r.source.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=r.source_kind==="creator_reference"?"출처: "+r.source.name+" · 공식 영상 보기":"출처: "+(r.source.name||"식품의약품안전처")+" · 레시피 번호 "+r.source.record_id;note.appendChild(link);
+ const link=document.createElement("a");link.href=r.source.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=r.source_kind==="creator_reference"?"출처: "+r.source.name+" · 공식 영상 보기":"출처: "+(r.source.name||"식품의약품안전처")+" · 레시피 번호 "+r.source.record_id;note.appendChild(link);renderCookingNotice(r,note);
  if(r.source_kind==="creator_reference"){const editorial=document.createElement("p");editorial.textContent=r.editorial_notice+" "+(r.nutrition_reference?"대표 식품성분 자료로 계산한 영양 추정값입니다.":"영양값은 아직 계산하지 않았습니다.")+" "+(r.portion_lines?"재료 목록은 선택한 인분 기준입니다. "+(r.portion_notice||""):r.portion_notice||"원본 인분 수가 확인되지 않아 분량 환산은 제공하지 않습니다.");note.appendChild(editorial);renderCreatorPortionControls(r,note);renderCreatorNutritionReference(r,note);renderCreatorAllergenReview(r);renderCreatorPreparations(r,note);if(scroll)$("recipe").scrollIntoView({behavior:"smooth",block:"start"});return}
  if(["epis_reference","kfi_reference"].includes(r.source_kind)){const portion=document.createElement("p");portion.textContent="원본 분량: "+r.source_servings_text+" · 조리시간: "+r.source_time_text+". 지역별 조리법은 별도로 확인되지 않았습니다.";note.appendChild(portion)}
  const nutrition=document.createElement("p");const n=r.source_nutrition;const fmt=(v,u)=>Number.isFinite(v)?v+u:"미제공";
@@ -695,6 +700,7 @@ function renderDBRecipe(r,scroll=true){
  if(!note){note=document.createElement("div");note.id="recipeNutritionNotice";note.className="data-note";$("recipeMeta").after(note)}
  note.classList.remove("hidden");
  note.textContent=tr("Nutrition recalculates from the amounts below. If any ingredient lacks verified data, the result is clearly shown as a verified-ingredient subtotal, not a full-recipe total.","아래 재료 양에 따라 영양정보가 다시 계산됩니다. 검증 데이터가 없는 재료가 있으면 전체 레시피 값이 아니라 검증된 재료의 부분합계로 명확히 표시합니다.");
+ renderCookingNotice(r,note);
  let live=document.getElementById("recipeNutritionLive");if(!live){live=document.createElement("div");live.id="recipeNutritionLive";live.className="recipe-nutrition-live";$("recipeIngredients").after(live)}
  live.classList.remove("hidden");
  document.querySelectorAll(".recipe-amount").forEach(el=>el.addEventListener("input",e=>{const raw=Number(e.target.value);if(!Number.isFinite(raw)||raw<0){e.target.value=0}else if(raw>10000){e.target.value=10000}const li=e.target.closest("li"),btn=li?.querySelector(".recipe-remove");if(Number(e.target.value)>0){li?.classList.remove("removed");if(btn)btn.textContent=tr("Remove","빼기")}updateDBRecipeNutrition()}));
