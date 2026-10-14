@@ -109,7 +109,7 @@ async function loadRecipeDB(){
  try{
   const res=await fetch("data/recipes.json?v=0.2.4",{cache:"no-store"});
   const data=await res.json(); DB_RECIPES=data.recipes||[];
-  try{const creatorRes=await fetch("data/recipes-creator-20261008.json?v=1.30.0",{cache:"no-store"});if(creatorRes.ok){const creator=await creatorRes.json();DB_RECIPES.push(...(creator.recipes||[]));}}catch(err){console.warn("Creator reference recipes unavailable.",err)}
+  try{const creatorRes=await fetch("data/recipes-creator-20261008.json?v=1.31.0",{cache:"no-store"});if(creatorRes.ok){const creator=await creatorRes.json();DB_RECIPES.push(...(creator.recipes||[]));}}catch(err){console.warn("Creator reference recipes unavailable.",err)}
   try{const episRes=await fetch("data/recipes-epis-20261012.json.gz?v=1.0.0",{cache:"no-store"});if(episRes.ok){const bytes=new Uint8Array(await episRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}}catch(err){console.warn("EPIS recipes unavailable.",err)}
   try{const kfiRes=await fetch("data/recipes-kfi-rice-20261012.json.gz?v=1.0.0",{cache:"no-store"});if(kfiRes.ok){const bytes=new Uint8Array(await kfiRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}}catch(err){console.warn("KFI recipes unavailable.",err)}
   try{const rdaRes=await fetch("data/recipes-rda-cooking-20261013.json.gz?v=1.0.0",{cache:"default"});if(rdaRes.ok){const bytes=new Uint8Array(await rdaRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}}catch(err){console.warn("RDA cooking recipes unavailable.",err)}
@@ -662,7 +662,15 @@ function renderCreatorAllergenReview(r){
  const note=document.createElement("p");note.textContent="이 원본 레시피의 재료명을 기준으로 확인했습니다. 제품별 전체 성분과 제조 과정의 혼입 여부는 확인되지 않았습니다. 개인에게 반응하는 다른 재료도 확인하세요.";box.appendChild(note);
  const link=document.createElement("a");link.href=info.classification_source_url;link.target="_blank";link.rel="noopener noreferrer";link.textContent="분류 기준: 식약처 알레르기 유발 식품 안내";box.appendChild(link);
 }
+function renderCookingDetails(r,host){
+ const rows=r.source_cooking_details||[];if(!rows.length)return;
+ const details=document.createElement("details");
+ const title=document.createElement("summary");title.textContent="원본에서 확인한 크기·시간·불 조절";details.appendChild(title);
+ const note=document.createElement("p");note.textContent="아래 번호는 공식 영상 설명의 단계 번호입니다. 위에서 정리한 만드는 방법의 번호와 다를 수 있습니다. 각 기준은 해당 원본 단계에만 적용하며 전체 조리 시간이나 공통 불 세기를 뜻하지 않습니다.";details.appendChild(note);
+ const list=document.createElement("ul");rows.forEach(row=>{const li=document.createElement("li");li.textContent="원본 "+row.source_step+"단계 — "+row.facts.join(" · ");list.appendChild(li)});details.appendChild(list);host.appendChild(details);
+}
 function renderCookingNotice(r,host){
+ renderCookingDetails(r,host);
  if(!r.cooking_notice)return;
  const p=document.createElement("p");p.textContent="조리 안내: "+r.cooking_notice;host.appendChild(p);
  if(r.related_recipe_id){const related=DB_RECIPES.find(x=>x.id===r.related_recipe_id);if(related){const button=document.createElement("button");button.type="button";button.textContent="재료·조리 순서 보기: "+related.names.ko;button.onclick=()=>renderDBRecipe(related);host.appendChild(button)}}

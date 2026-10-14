@@ -1,5 +1,5 @@
 {
-  "version": "1.30.0",
+  "version": "1.31.0",
   "record_count": 274,
   "recipes": [
     {
@@ -153,6 +153,12 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "d7e21f0a51871d353148fdf1109e878667a3b19f5a58d0bc0473a2918d3e6741"
       }
     },
     {
@@ -229,6 +235,25 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "시간: 1분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "b3c7491b8630f74423dc402e70ae7599bb30a40217ff982b51aa9546de6bb667"
       }
     },
     {
@@ -447,6 +472,19 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "불: 중약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "21cf133e608682b3c1c0a2ec88157388d20cec99f65725c0cb47eb5a129d53f2"
       }
     },
     {
@@ -527,6 +565,25 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 5cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "불: 중약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "eb02b2e8920f77c47bbc5d6a6c3b1e5801c2dc4f044f360afe971aca444b8208"
       }
     },
     {
@@ -957,6 +1014,19 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 3,
+          "facts": [
+            "시간: 10분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "3daf747205b83dcc0f8d5874b8b27e8986146c5c7d355ec15c0e1f81b1a21921"
       }
     },
     {
@@ -1029,6 +1099,43 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 2cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 1.5cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 2~3cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "크기: 2~3cm"
+          ]
+        },
+        {
+          "source_step": 12,
+          "facts": [
+            "시간: 30~40분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "f16b765a192faa9b86ea68c83b3f2f847f8364fd1d01f762d20437c1176c7c4b"
       }
     },
     {
@@ -1118,6 +1225,12 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "a26e9d45820125e058f5a118adf8a2324f1879e8805c87269e0e27a9d2a7c82b"
       }
     },
     {
@@ -1199,6 +1312,19 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "24e9285cc3e3c7a2a5beaaf0e41900b4262bd1b6b341eddd10375c8b9339e83e"
       }
     },
     {
@@ -1440,6 +1566,19 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 센불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "b6a642331a13936abef7b8574a80beeffeb3467f396bf7a4cca667f18859f093"
       }
     },
     {
@@ -1593,6 +1732,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.2cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.2cm"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "시간: 3분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "8aee836cdb3fb0b0f23ba8c81ca2f94dea27d17ed328c14225acf5c390ff51d8"
       }
     },
     {
@@ -1679,6 +1843,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "824926d6111484319b52348f4fac7a50cb38d3f93d52dfe91e2a8b6b8562f46c"
       }
     },
     {
@@ -1757,6 +1927,50 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 4cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.4cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.4cm, 3cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 0.4cm, 0.5cm"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 9,
+          "facts": [
+            "시간: 3분",
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "8ad7d55c9f32f0e7c3af038765a585cd56a499fc4329acd3409c8815cd09d999"
       }
     },
     {
@@ -2013,6 +2227,44 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 4cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 3cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 2cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "시간: 7~8분",
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "37a2d02ed0c52e7cbd2864d62a2131044417c4a441f1733d6e972e163e6129f2"
       }
     },
     {
@@ -2091,6 +2343,19 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "23b5671de086f4bc2dbf3b71e3330a168f2cba29babfa061350856998268e004"
       }
     },
     {
@@ -2271,6 +2536,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "56ae962d04d8db143f2de121f18a10f94f65aa101600c57a8b0a3f964da3c8dd"
       }
     },
     {
@@ -2401,6 +2672,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "c992cc9d6a7371856f1f86ef5be11d98c7b1aa2cd7d113c5a9fa8dc8b23362ff"
       }
     },
     {
@@ -2647,6 +2924,12 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "39c3642dd5a750ba998401d5807eba5ad6c5bfd867a14ef392f2de4b3328a2b2"
       }
     },
     {
@@ -2717,6 +3000,55 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 6cm, 0.5cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 4cm, 0.2cm, 0.3cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 4cm, 0.6cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "시간: 1분"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "b16fa7ceca4be70760661edd361cb37ce20683519ead6c5f7f3883ec52f95a86"
       }
     },
     {
@@ -3074,6 +3406,12 @@
           "모든 재료와 국물을 먹는 원본 2인분 합계입니다. 국물을 남기면 특히 나트륨 섭취량이 줄어듭니다. 완성 후 100g 값은 아닙니다."
         ],
         "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "219c1fabb2a42a3baa8e215418be1f4a6438ab113055c7fae0dd2d834df54810"
       }
     },
     {
@@ -3501,6 +3839,12 @@
           "모든 정량 재료를 합한 전체 조리 분량의 추정값입니다. 삶거나 데쳐 버리는 물로 빠지는 성분과 팬에 남는 기름은 계산하지 않았습니다."
         ],
         "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "02a69bf2d88833c8979c17c1cb648165d9c31000d09c69d25636dab7ceaea14c"
       }
     },
     {
@@ -3572,6 +3916,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "e628906e76d80dd56f26f82a3647fcb5a538d4232a3ec6db8eced2e04d0bd966"
       }
     },
     {
@@ -3636,6 +3986,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "cff84f4bc4f42e70ee1835e9b26da2d02c6077cac4eec54a50eda8125cba023c"
       }
     },
     {
@@ -3700,6 +4056,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "234b70decc1e76ac2fbb8a14ad53f19956def7701960fc479422ea0c42e28180"
       }
     },
     {
@@ -3774,6 +4136,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "f859c9e1042b4486ad5a31e12b7f85aff5e222d9b5d8c9285491cf657486c430"
       }
     },
     {
@@ -3923,6 +4291,43 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 2cm, 1cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 2cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "07c64abfa006c8a96d5ad138b422de70fdcf7910db35e8e1413a206ae700c34d"
       }
     },
     {
@@ -4001,6 +4406,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 1cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "f4085279f9bc662a4ed9cd1f3d9282fa5578450fee37af448453f06e18fa5522"
       }
     },
     {
@@ -4078,6 +4502,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "e8eb7eda3c822b56cef2ce1c212648f12c39e070fcd5bd97f7e343fc9544e4f2"
       }
     },
     {
@@ -4162,6 +4592,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "3c960de098078bfcc72586cc4e2420bd2bb3442d80927b466a32f657b8937dfa"
       }
     },
     {
@@ -4245,6 +4681,44 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 1cm, 2cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 2cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 11,
+          "facts": [
+            "시간: 15분, 25~30분",
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "faffa3d5c6a705dd40abeea840013ff0d98cc34d029273ca23feed6a71df5099"
       }
     },
     {
@@ -4321,6 +4795,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "d8eead2e940560f7021f7a93a6c4e76cc2d4c7da959a4f5fdc528db9eb0fb476"
       }
     },
     {
@@ -4445,6 +4925,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "8693c88742affc38eed6e18b97ba7aca2e9e2953137489b28c8f06a1334ce9dc"
       }
     },
     {
@@ -4744,6 +5230,31 @@
           "햄을 돼지고기 함유 대표 식품으로 선택한 것은 영양 계산용 가정입니다. 실제 햄의 알레르기 정보는 제품 표시를 별도로 확인해야 합니다."
         ],
         "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "ee3c7a667dcd5fa727657809c80d12d1615794c5f935011bc07b322d5f77e474"
       }
     },
     {
@@ -4890,6 +5401,43 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 2cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 약불, 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "1d0a051dc616cbf9d7a8de74bde0f5598464ec4dc12346c1e0faf9b7bfdcad99"
       }
     },
     {
@@ -4978,6 +5526,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "34c1ce60c783002d85a7f956ba5d85704fc258b1f8cc44924b7edf3d3eccaf5f"
       }
     },
     {
@@ -5066,6 +5620,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "1c1e9bb693ff35a3123a767343d8b564b8d1e953a36cf660b7268c9116a57656"
       }
     },
     {
@@ -5319,6 +5879,32 @@
           "재료와 국물을 모두 먹는 전체 4인분의 예상 합계입니다. 국물을 남기면 특히 나트륨 섭취량이 줄어듭니다. 조리 후 100g 값은 아닙니다."
         ],
         "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "시간: 5분, 1분",
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "8a53cb939d25ed1be71610dfc8b8af7fbc38f23981782fa2b341b56f8e0ff39b"
       }
     },
     {
@@ -5394,6 +5980,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "18a819d35080f5942b34e53f46a1ef9da4de86e91f29f46fa29e3362fa01c0bc"
       }
     },
     {
@@ -5462,6 +6054,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "6be8ede8daaeceec4a413d6fc56ff474140a1e8894e9b0d6faffa6a8ddeab62a"
       }
     },
     {
@@ -5699,6 +6297,12 @@
         "check_product_labels": [],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "df89eaf486ed480d3c264a1749926e954ae2e76d3cac3f3a7e5210006b20f863"
       }
     },
     {
@@ -5946,6 +6550,12 @@
           "원본 재료 목록의 참기름과 통깨까지 전량 포함한 전체 무침 분량의 예상값입니다. 남기는 양념은 차감하지 않았으며, 인분 수는 미확인입니다."
         ],
         "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "0c9b1aa4cb93850326a7dc8602894feb34268c7529c9e7d594272c4e84eefcb5"
       }
     },
     {
@@ -6017,6 +6627,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "24a74d84d05e9aa3d201042318eba0cb59a1256c2853bb955c292729d81797fb"
       }
     },
     {
@@ -6086,6 +6702,37 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "시간: 30분"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "시간: 1분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "08e28fc471433d3384a077c02926767b33ab50bcb3a8bee44101d03cc892d6b8"
       }
     },
     {
@@ -6159,6 +6806,26 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.5cm"
+          ]
+        },
+        {
+          "source_step": 9,
+          "facts": [
+            "시간: 10분",
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "b135454f83f7d773327c03d552cbac56ca9d910b07554fa274bc184ce211c133"
       }
     },
     {
@@ -6329,6 +6996,63 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 2cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 1.5cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "크기: 0.5cm"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "불: 약불"
+          ]
+        },
+        {
+          "source_step": 11,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 12,
+          "facts": [
+            "시간: 5분",
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 13,
+          "facts": [
+            "시간: 3분",
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "8561f81a5718fac031d3b1de7a1f2583f0102c2c655171dc0619080c1dc01975"
       }
     },
     {
@@ -6396,6 +7120,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "25a0f06f36b418a803d07041cde9fd634a48cf6f05dee5461c90b6ede237fb14"
       }
     },
     {
@@ -6483,6 +7213,56 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 4cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 3cm, 1cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 0.7cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 0.5cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 중불, 강불"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "시간: 15-20분",
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "c0426ea2ef028c207be99f17252a2eeb39630629608ec8d56d7e00f3d66232a8"
       }
     },
     {
@@ -6565,6 +7345,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "a9ad27d57bc3d7672d884f6088f2f3923a657688d7bbe4cec617ec381526e9d9"
       }
     },
     {
@@ -6754,7 +7540,13 @@
           "unit": "개"
         }
       ],
-      "portion_notice": " 재료량은 원본 인분에 비례한 참고값입니다. 양념은 입맛에 맞게 조절하고 조리 시간과 불 세기는 비례해서 바꾸지 마세요."
+      "portion_notice": " 재료량은 원본 인분에 비례한 참고값입니다. 양념은 입맛에 맞게 조절하고 조리 시간과 불 세기는 비례해서 바꾸지 마세요.",
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "f33d4e5933e4d8618b9d468731cdf877bd5caf80fb5861a1b92847958485ef6f"
+      }
     },
     {
       "id": "paik_kj2ZupQ7fts",
@@ -6827,6 +7619,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "d7b5cddc127e23a77124c2304133fad8c9d66d086420ed7d3a5061f6731b5290"
       }
     },
     {
@@ -6903,6 +7701,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "c5818b40af82e6a87ea7bbe2f5fe97c7566d967f4a8b47805d00c7daeaf1d814"
       }
     },
     {
@@ -6976,6 +7780,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "1c1e9bb693ff35a3123a767343d8b564b8d1e953a36cf660b7268c9116a57656"
       }
     },
     {
@@ -7043,6 +7853,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "1c1e9bb693ff35a3123a767343d8b564b8d1e953a36cf660b7268c9116a57656"
       }
     },
     {
@@ -7123,6 +7939,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "6be8ede8daaeceec4a413d6fc56ff474140a1e8894e9b0d6faffa6a8ddeab62a"
       }
     },
     {
@@ -7185,6 +8007,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "df89eaf486ed480d3c264a1749926e954ae2e76d3cac3f3a7e5210006b20f863"
       }
     },
     {
@@ -7267,6 +8095,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "24a74d84d05e9aa3d201042318eba0cb59a1256c2853bb955c292729d81797fb"
       }
     },
     {
@@ -7533,6 +8367,12 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "39c3642dd5a750ba998401d5807eba5ad6c5bfd867a14ef392f2de4b3328a2b2"
       }
     },
     {
@@ -7613,7 +8453,13 @@
           "name": "잡채",
           "amount_hint": "미리 만든 잡채를 사용합니다. 원본은 잡채 사용량을 지정하지 않았습니다."
         }
-      ]
+      ],
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "02a69bf2d88833c8979c17c1cb648165d9c31000d09c69d25636dab7ceaea14c"
+      }
     },
     {
       "id": "paik_rrNfCVRFsvs_parboil",
@@ -8044,6 +8890,12 @@
           "볶는 조리법과 같은 원본 재료 목록을 사용합니다. 데치는 과정의 성분 손실을 반영하지 않아 재료 기준 예상 합계는 같지만, 실제 완성 음식의 값이 같다는 뜻은 아닙니다."
         ],
         "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "02a69bf2d88833c8979c17c1cb648165d9c31000d09c69d25636dab7ceaea14c"
       }
     },
     {
@@ -8186,6 +9038,12 @@
           "만든 소스 전체의 예상 합계입니다. 장아찌 채소에 흡수되는 양이나 남기는 소스는 확인되지 않아 완성 장아찌 또는 1인분 영양값으로 사용할 수 없습니다."
         ],
         "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "2c9aa8eae389bbf49f824c27282fe069bbec1d66b7fcfc5c2be57d6aca63662f"
       }
     },
     {
@@ -8250,6 +9108,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "d8eebd2f833df9bbf84d7bafd236f2646ec06442ca90a079351d338538835cc8"
       }
     },
     {
@@ -8314,6 +9191,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "40439f4ffe95e2447c335d678166e8b6d70cc75741d4c407af24b1afc662317d"
       }
     },
     {
@@ -8399,6 +9282,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "40439f4ffe95e2447c335d678166e8b6d70cc75741d4c407af24b1afc662317d"
       }
     },
     {
@@ -8611,6 +9500,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "c3f90e1747ca2b5d16e7c40de4506eb7db124cb8a5f6484d479ffe29472c7f62"
       }
     },
     {
@@ -8684,6 +9579,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "fb5cddac40b6a2b76d21621da3fa5536d14ec5688743d0dcfbaca8a57f7e3fd6"
       }
     },
     {
@@ -8970,6 +9871,12 @@
           "맛술의 조리 중 알코올 손실이나 숙성에 따른 변화를 반영하지 않았습니다. 실제 섭취량에 따라 값이 달라집니다."
         ],
         "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "fb5cddac40b6a2b76d21621da3fa5536d14ec5688743d0dcfbaca8a57f7e3fd6"
       }
     },
     {
@@ -9035,6 +9942,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ead4e117dc21cbf951ab308623da91ebaeaab5aafa7b7ca98833c8b6cf9ca93f"
       }
     },
     {
@@ -9110,6 +10023,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "efe13e4d5373cc803906f89fa97c24d15982418e894b0f8b4015406e978ec722"
       }
     },
     {
@@ -9194,6 +10113,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 9,
+          "facts": [
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "e27367fac5544fe4cd17e536bdbfebd54b66e7da42ca6a9267091308977598cb"
       }
     },
     {
@@ -9258,6 +10202,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "be890d3ae48a8d01321d906beb481b7c0f16c80c9c74fe32c8397b212a778749"
       }
     },
     {
@@ -9328,6 +10278,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "1ac2d2ea31a5c4963fe191183412a1f3dbca12921469e1d16c5b212a137e479a"
       }
     },
     {
@@ -9408,6 +10364,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "55f7447eb4cca1f808964227e946ddaec08189a7a92a27706b0e9a4c0e07ea9e"
       }
     },
     {
@@ -9480,6 +10442,43 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "92103925f767ba79c24afb34279d23793f15aad4bb75af61907aa3015e8add07"
       }
     },
     {
@@ -9544,6 +10543,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "온도: 160~180도"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "c38454a0648b46083a459a8ade39703ba7214aa2e3e2e0f63701f4785db146ce"
       }
     },
     {
@@ -9608,6 +10620,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "d302352447057d81cb1b0b5bbd0330a8247cd53c39d5567ce207f58e4679feb9"
       }
     },
     {
@@ -9686,7 +10704,13 @@
           "name": "만능볶음요리소스",
           "amount_hint": "이 요리에는 준비된 소스 30g을 사용합니다."
         }
-      ]
+      ],
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "d302352447057d81cb1b0b5bbd0330a8247cd53c39d5567ce207f58e4679feb9"
+      }
     },
     {
       "id": "paik_bMLfohWNsvQ_sprouts",
@@ -9764,7 +10788,13 @@
           "name": "만능볶음요리소스",
           "amount_hint": "이 요리에는 준비된 소스 40g을 사용합니다."
         }
-      ]
+      ],
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "d302352447057d81cb1b0b5bbd0330a8247cd53c39d5567ce207f58e4679feb9"
+      }
     },
     {
       "id": "paik_bMLfohWNsvQ_peppers",
@@ -9841,7 +10871,13 @@
           "name": "만능볶음요리소스",
           "amount_hint": "이 요리에는 준비된 소스 30g을 사용합니다."
         }
-      ]
+      ],
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "d302352447057d81cb1b0b5bbd0330a8247cd53c39d5567ce207f58e4679feb9"
+      }
     },
     {
       "id": "paik_bMLfohWNsvQ_celery",
@@ -9918,7 +10954,13 @@
           "name": "만능볶음요리소스",
           "amount_hint": "이 요리에는 준비된 소스 30g을 사용합니다."
         }
-      ]
+      ],
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "d302352447057d81cb1b0b5bbd0330a8247cd53c39d5567ce207f58e4679feb9"
+      }
     },
     {
       "id": "paik_bMLfohWNsvQ_garlicstems",
@@ -9996,7 +11038,13 @@
           "name": "만능볶음요리소스",
           "amount_hint": "이 요리에는 준비된 소스 20g을 사용합니다."
         }
-      ]
+      ],
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "d302352447057d81cb1b0b5bbd0330a8247cd53c39d5567ce207f58e4679feb9"
+      }
     },
     {
       "id": "paik_bMLfohWNsvQ_lettuce",
@@ -10059,6 +11107,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "d302352447057d81cb1b0b5bbd0330a8247cd53c39d5567ce207f58e4679feb9"
       }
     },
     {
@@ -10129,6 +11183,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "d302352447057d81cb1b0b5bbd0330a8247cd53c39d5567ce207f58e4679feb9"
       }
     },
     {
@@ -10203,6 +11263,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ac2981e5e9a80f0117be877afa82a9e3c4fd263ff8675b8de661b1f41ad625af"
       }
     },
     {
@@ -10283,6 +11349,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "aa771e44889dfc2561afc352c0159dec0b70aa02051cd2e495ae5087b110bba7"
       }
     },
     {
@@ -10366,6 +11438,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "38749cc73fb6476239c56227b82fd68bf43fd8101db2ed0ea9de379d2b3d0a46"
       }
     },
     {
@@ -10439,6 +11517,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "d7ba1bd9314988eec07081d63664f37bc936709eac75360e16ab8754e30c819f"
       }
     },
     {
@@ -10581,7 +11684,26 @@
           "amount": 21.0,
           "unit": "g"
         }
-      ]
+      ],
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "3da4eda78e1c7957e481efda840cfb6f37487c75d285778bd3eeb9c063b25006"
+      }
     },
     {
       "id": "paik_wTtHP5qFOio_perilla",
@@ -10697,7 +11819,20 @@
           "amount": 17.0,
           "unit": "g"
         }
-      ]
+      ],
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "d82331f9e33b28a508c2ae33f8dceb75da01a64e23060e5e26c88a920981cc14"
+      }
     },
     {
       "id": "paik_tHkbJgBUaiI_cabbageegg",
@@ -10773,6 +11908,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
       }
     },
     {
@@ -10849,6 +11990,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
       }
     },
     {
@@ -10927,6 +12074,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
       }
     },
     {
@@ -11003,6 +12156,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
       }
     },
     {
@@ -11086,6 +12245,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
       }
     },
     {
@@ -11169,6 +12334,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
       }
     },
     {
@@ -11250,6 +12421,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "787aadf2f3ac6be4b45ed2f07e9adf8857ed90f8b9c320d93496bc70ccb7c7f9"
       }
     },
     {
@@ -11329,6 +12506,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "466243adb0712b913b5c8444a978720768b6f36b5a5a7a72a8e0284c8ecfa507"
       }
     },
     {
@@ -11408,6 +12591,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "466243adb0712b913b5c8444a978720768b6f36b5a5a7a72a8e0284c8ecfa507"
       }
     },
     {
@@ -11549,6 +12738,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "efe13e4d5373cc803906f89fa97c24d15982418e894b0f8b4015406e978ec722"
       }
     },
     {
@@ -11608,6 +12803,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "be890d3ae48a8d01321d906beb481b7c0f16c80c9c74fe32c8397b212a778749"
       }
     },
     {
@@ -11807,6 +13008,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "28c3a4e95809beca7c865c428e80dbbc7995858eb5b08bded3e980b40d1c3030"
       }
     },
     {
@@ -11881,6 +13088,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "787aadf2f3ac6be4b45ed2f07e9adf8857ed90f8b9c320d93496bc70ccb7c7f9"
       }
     },
     {
@@ -12057,7 +13270,64 @@
           "original_line": "간 생강: 약간",
           "name": "간 생강"
         }
-      ]
+      ],
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "시간: 10분",
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 5~6cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 5cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "크기: 0.4cm"
+          ]
+        },
+        {
+          "source_step": 9,
+          "facts": [
+            "불: 약불"
+          ]
+        },
+        {
+          "source_step": 10,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 11,
+          "facts": [
+            "시간: 15~20분",
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 12,
+          "facts": [
+            "시간: 1분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "33ab8374270a2f5f0cd65f462112b4c177c41c0024420b3a41b136d83185cd7a"
+      }
     },
     {
       "id": "paik_kzYgtXDcGQ4_soup",
@@ -12132,6 +13402,12 @@
         "check_product_labels": [],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "6ab0d462bb3d7000f7fa43134ac55287057316b64fc305c9612e3e45009779a7"
       }
     },
     {
@@ -12199,6 +13475,12 @@
         "check_product_labels": [],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "6ab0d462bb3d7000f7fa43134ac55287057316b64fc305c9612e3e45009779a7"
       }
     },
     {
@@ -12375,7 +13657,44 @@
           "amount": 80.0,
           "unit": "ml"
         }
-      ]
+      ],
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "시간: 30분"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 5cm, 0.3cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 0.4cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 9,
+          "facts": [
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "83646a45fe08479eb11eef433678fff6b76d0a7dce9aa89d8b90e7b0aaf253ef"
+      }
     },
     {
       "id": "paik_0bnFoRQebq0_cream",
@@ -12474,6 +13793,12 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "50b7671e4bdfe50e343783b7772a1e70abc3eda2747dfdd16e21a4785dbab825"
       }
     },
     {
@@ -12552,7 +13877,32 @@
           "name": "만능양파볶음(대용량)",
           "amount_hint": "이 요리에는 준비된 양파볶음 45g을 사용합니다."
         }
-      ]
+      ],
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "불: 약불"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "불: 약불"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "b20b39394829f303bede7ac3d99d14310e194b939ecb60f8b8a23a788d85b56a"
+      }
     },
     {
       "id": "paik_uAShnbgCLSU",
@@ -12614,6 +13964,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "dc7c34b7c6228e22fd2ea218f050ed8ec10411c4d37449878644c28d0f5bc66b"
       }
     },
     {
@@ -12759,7 +14115,26 @@
           "original_line": "식용유: 적당량",
           "name": "식용유"
         }
-      ]
+      ],
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 2cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "5ef458e70e6f1bf76663eac1a97da95ef570df86ebaf097c0e238c9fec597a19"
+      }
     },
     {
       "id": "paik_QPjfwubAvso",
@@ -12928,7 +14303,26 @@
           "amount": 40.0,
           "unit": "g"
         }
-      ]
+      ],
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 1.5cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 1cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "98ba1474eeb569d2595572e61c045a66ce78f63e8cec19b705279309a063bf5b"
+      }
     },
     {
       "id": "paik_BqxpjY7TJ8g",
@@ -13010,6 +14404,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 1.5cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "99318cf8acebae6df645c3fc3c6b3bd75cfa5cc12f3fda63ac4ad805225cd1db"
       }
     },
     {
@@ -13071,6 +14484,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "bd27589411b8ac296ffaa170fe8875a30f0d70d897d87c7a67ffc0c591895926"
       }
     },
     {
@@ -13146,6 +14565,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "f777ccf1568a071a507d2defdb1d7124666777fdb12784f13ef0f91348f80098"
       }
     },
     {
@@ -13209,6 +14647,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "c765f8e062ab39884334a92c8f1a747976d0100c856bcbe31df61a05c61b38fa"
       }
     },
     {
@@ -13281,6 +14725,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "5abf78c8fe366ad2d02319fb1e1bfc9b36f53f77e53f7a46d6dbc7522fe1b2de"
       }
     },
     {
@@ -13342,6 +14792,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "25a328cfd2a862a570bf5537b7c2f91df51d55a3a531d2e4435f4a262d816f7e"
       }
     },
     {
@@ -13400,6 +14856,31 @@
         "check_product_labels": [],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 3,
+          "facts": [
+            "시간: 1시간"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 5~6cm"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "3ce60f28057e5069f486bd11c71ef023e859c0d343c3b70b40bd7485425ca991"
       }
     },
     {
@@ -13460,6 +14941,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 6~7cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "fb8940612241ce0973e82a75023e1be7560762a0f507683f83ca08242c05d172"
       }
     },
     {
@@ -13520,6 +15020,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 5,
+          "facts": [
+            "시간: 30초"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "be992a850342612d8a03ea5afa4bb3438c79657e7dd9759f4cbc48e12c29140b"
       }
     },
     {
@@ -13664,7 +15177,39 @@
           "amount": 2.0,
           "unit": "g"
         }
-      ]
+      ],
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.5cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.4cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "시간: 13~15분",
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "e7b16754cda6d37405b450a6ad51654dfc7a4d7c041581ad5e53aa0e0cd3b598"
+      }
     },
     {
       "id": "paik_sRQxVQ5-NNA",
@@ -13743,6 +15288,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "f6bb2f596dedc3b48e50e2e47701edf6e337ec680c51bee2b535a071d81e4e44"
       }
     },
     {
@@ -13808,6 +15359,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "시간: 3분"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "d972900def16daf41d8f603cb1889aa18347d93ed8c848dca24f0328fc7c134f"
       }
     },
     {
@@ -13872,6 +15442,37 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.5cm, 0.3cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "시간: 4분, 30초"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "79c8412c20a8d5d12d8504bab2439aff7385cbaf692f1e37f03ee8ac1306acb7"
       }
     },
     {
@@ -13937,6 +15538,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "10f7320339b9f3dca3677b1a72d78adc9a1ebd8c745f41bc44111c90d18dc4e6"
       }
     },
     {
@@ -14008,6 +15615,37 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 2cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.2cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 1.5cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 0.2cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "e2508ae5e997d8ab23619cf3afbc0f6a605d9dfc32e27554d5e2886058c4d493"
       }
     },
     {
@@ -14074,6 +15712,37 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 1.5cm, 0.7cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.2cm, 0.3cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "시간: 30초"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "daab1d1cce8328f5dd67a40882fa2feefb7062306507afa447b79ddd9d50a265"
       }
     },
     {
@@ -14158,6 +15827,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 센불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "b6b8ec4779090225b588a851d68b15630a7f33e25c1d10284cdf16d747fb46ff"
       }
     },
     {
@@ -14226,7 +15908,13 @@
           "name": "만능양파볶음(대용량)",
           "amount_hint": "이 요리에는 준비된 양파볶음 45g을 사용합니다."
         }
-      ]
+      ],
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "16f46b3bb26e277f70929b0737497861df8e5ead4a767d503d999beae2061f4e"
+      }
     },
     {
       "id": "paik_iO0xX0AyS8M",
@@ -14301,6 +15989,50 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 2cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 2.5~3cm, 0.3cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "시간: 1분",
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 11,
+          "facts": [
+            "시간: 7분"
+          ]
+        },
+        {
+          "source_step": 12,
+          "facts": [
+            "시간: 10초"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "d35afa9d05f1d3de30011be34ae2eff103c452319e7fe85d1d3aa6022ac8d25c"
       }
     },
     {
@@ -14361,6 +16093,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "f68344669a9dfcffe5b48d639eae13871e647d1f0785e5cf464da2602370855c"
       }
     },
     {
@@ -14435,6 +16173,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "013ec9f08833a47526f459db48f9afb9451472789173e515cb047a5f0089271a"
       }
     },
     {
@@ -14509,6 +16253,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "462ff577773bdd6c878f006ca092752a187bdced13f3bd7181b354d7eb83dd06"
       }
     },
     {
@@ -14572,6 +16322,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 5,
+          "facts": [
+            "시간: 2분, 20초, 3분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "ee41219751471216f8a80669393483d4a6a22d13c4f2bde0ae812c80f4d53541"
       }
     },
     {
@@ -14657,6 +16420,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "5531bd3f398a1247c6422be3bc7037d04f2c957dc1a195251321a62e77606a25"
       }
     },
     {
@@ -14742,6 +16511,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "5531bd3f398a1247c6422be3bc7037d04f2c957dc1a195251321a62e77606a25"
       }
     },
     {
@@ -14833,6 +16608,12 @@
         "checked_on": "2026-10-14",
         "basis": "official_description",
         "status": "expanded_with_source_limits"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "213c015b2f1ba8900f6ec1c2d61320012feb2a7d4ba81469e57719d0287b2130"
       }
     },
     {
@@ -14895,6 +16676,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "시간: 2분, 30초"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "44512acf9409ecd40fab52fa407721f679a113ab3987b4022725674e7510afa9"
       }
     },
     {
@@ -14955,6 +16749,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 3cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "4d26018dda6d6457ac7856f36c4c6fb71cbfbea54b1447ff6fdd1fd0e7515b2c"
       }
     },
     {
@@ -15029,6 +16842,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "6df69ee90dfc6248b1ae3c05e2175e8e3cee0b67f18e4fc4c886ba571de57f36"
       }
     },
     {
@@ -15118,6 +16937,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 3,
+          "facts": [
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "701967a1e066f9a4222de66cddc0189855a63f579f7a1545091befe9dcaf4198"
       }
     },
     {
@@ -15190,6 +17034,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "219960fbc25693fd6d54de7e7fa27b47dc522c6af5e19dd2cf9ea72ab05c26cd"
       }
     },
     {
@@ -15280,6 +17130,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 9,
+          "facts": [
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 11,
+          "facts": [
+            "불: 중약불"
+          ]
+        },
+        {
+          "source_step": 12,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "70741c7b2a4c75975c27e659583a39881f4f1b3709cfa756adccea5c8f04dc35"
       }
     },
     {
@@ -15345,6 +17220,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "98c525124ab74561d198e4b17a6c25452ea5aa85c6fc8082cbf6a12151419b89"
       }
     },
     {
@@ -15420,6 +17301,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.5cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "8f7d80859a5a9b49b7e695d6f98a7642163889c7a5b971a2e3250f715506abb1"
       }
     },
     {
@@ -15500,6 +17406,37 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "불: 약불"
+          ]
+        },
+        {
+          "source_step": 10,
+          "facts": [
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "23c542753948658349a84680db0deb1b0880ae33eb8e253cd93cc3a76fd43988"
       }
     },
     {
@@ -15563,6 +17500,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "5612472c3739ab729b9d6fcb2d42c24987c13fb723460b7372c57d44e9acf9f1"
       }
     },
     {
@@ -15643,6 +17586,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "5612472c3739ab729b9d6fcb2d42c24987c13fb723460b7372c57d44e9acf9f1"
       }
     },
     {
@@ -15726,6 +17675,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "5612472c3739ab729b9d6fcb2d42c24987c13fb723460b7372c57d44e9acf9f1"
       }
     },
     {
@@ -15815,6 +17770,37 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm, 0.5cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "4a965fcc01ca74b67424166b8619527e9f898bb5a4b3ed54bc9be0261deedc6f"
       }
     },
     {
@@ -15895,6 +17881,49 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 1.5cm"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 11,
+          "facts": [
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "0b7b2d154d4a50ae49abe57ec83c1ae15e06a3b2bef688c2ee81d535dab98f15"
       }
     },
     {
@@ -15970,6 +17999,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 약불"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "7815b0480cc0ecfb345c3cfd4b56ca0fb4ff5eda5e181acc285b15e3d9ef7322"
       }
     },
     {
@@ -16054,6 +18102,33 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 0.5cm, 0.3cm"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "시간: 1분",
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 10,
+          "facts": [
+            "시간: 8분",
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "63f195a717d8921ae989d9f7312566d11071fe3751b483d0393dc6b4a0c79151"
       }
     },
     {
@@ -16113,6 +18188,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "9534831d85f50ef1ebe8f99c953cc67b7171c9490cbee9e3bf0f16a83c413bfb"
       }
     },
     {
@@ -16189,6 +18270,12 @@
         "check_product_labels": [],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "9534831d85f50ef1ebe8f99c953cc67b7171c9490cbee9e3bf0f16a83c413bfb"
       }
     },
     {
@@ -16262,6 +18349,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "c600f194fbfd4e4e72aeeaa0299cbda372cb297f4561ca4cf6bad3adacf41f50"
       }
     },
     {
@@ -16335,6 +18428,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "c600f194fbfd4e4e72aeeaa0299cbda372cb297f4561ca4cf6bad3adacf41f50"
       }
     },
     {
@@ -16411,6 +18510,43 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 5cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.4cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 2cm"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "5d7cf798b25f81e94d8ef52cde4e299ffae83efff697c920460722d8cfc6cc6d"
       }
     },
     {
@@ -16475,6 +18611,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
       }
     },
     {
@@ -16534,6 +18676,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
       }
     },
     {
@@ -16611,6 +18759,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
       }
     },
     {
@@ -16687,6 +18841,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
       }
     },
     {
@@ -16772,6 +18932,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
       }
     },
     {
@@ -16848,6 +19014,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
       }
     },
     {
@@ -16906,6 +19078,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
       }
     },
     {
@@ -16973,6 +19151,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
       }
     },
     {
@@ -17040,6 +19224,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
       }
     },
     {
@@ -17107,6 +19297,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
       }
     },
     {
@@ -17180,6 +19376,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "307f7452d0727a2833626a40e44fe9c544d59259af44e302c7e6a84ff6d6a8b2"
       }
     },
     {
@@ -17240,6 +19442,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
       }
     },
     {
@@ -17320,6 +19528,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
       }
     },
     {
@@ -17411,6 +19625,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
       }
     },
     {
@@ -17486,6 +19706,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "c22f5edc22e2a04b41303691341a0a1ca7e39d8eb17fd9c72d49eafafececfd9"
       }
     },
     {
@@ -17566,6 +19792,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "c22f5edc22e2a04b41303691341a0a1ca7e39d8eb17fd9c72d49eafafececfd9"
       }
     },
     {
@@ -17628,6 +19860,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
       }
     },
     {
@@ -17688,6 +19926,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
       }
     },
     {
@@ -17751,6 +19995,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
       }
     },
     {
@@ -17813,6 +20063,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.3~0.5cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "af654cb1715145cef372b641ef448165e1b53c1f127bc2c152f2f3c1ccdceb25"
       }
     },
     {
@@ -17887,6 +20150,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 2.5cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "97ff203d5c191ccf20cfa76bc86c5e4172b33eb0e85aa31bdf14c2bb1b0c7f9d"
       }
     },
     {
@@ -17950,6 +20238,45 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 4~5cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 3~4cm",
+            "시간: 1분, 15분"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "시간: 20분",
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "fe5fac3e0a9e43b9f4a3d9bae62ebec8ee4b9152d7a15f7f8a45b657aff51a28"
       }
     },
     {
@@ -18013,6 +20340,44 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 3cm, 0.8cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 0.8cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "시간: 6분",
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "a5a3183e21680ceef739e180278d166bb4ba8e23ec8ad5c0d2c410354277b158"
       }
     },
     {
@@ -18085,6 +20450,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "시간: 30초, 1분"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "d63eeaf98616c7eeeef253b891e980911afff0f81ab168030e1e58f291971edf"
       }
     },
     {
@@ -18167,6 +20551,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "af273387cc306d6cce154c4a67f6060170a5ca9cf7122f5579dbaa6a991ece3e"
       }
     },
     {
@@ -18227,6 +20624,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ab1aa68e39201698ccd1a002f7e803a2596f24ad8fbcc85af42a6fe5d2f0fdc6"
       }
     },
     {
@@ -18302,6 +20705,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ab1aa68e39201698ccd1a002f7e803a2596f24ad8fbcc85af42a6fe5d2f0fdc6"
       }
     },
     {
@@ -18362,6 +20771,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
       }
     },
     {
@@ -18439,6 +20854,12 @@
         "check_product_labels": [],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
       }
     },
     {
@@ -18514,6 +20935,12 @@
         "check_product_labels": [],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
       }
     },
     {
@@ -18572,6 +20999,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "1e8bd1fc2f6c335b67ea178d5ae5f740d6f9686e2b7a9bfdf99158bd7b8c65a7"
       }
     },
     {
@@ -18667,6 +21100,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "1e8bd1fc2f6c335b67ea178d5ae5f740d6f9686e2b7a9bfdf99158bd7b8c65a7"
       }
     },
     {
@@ -18726,6 +21165,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "4d6a4c5ce01e586eeae2e86558493a44af2ab75d94395bb7199312ef781fc201"
       }
     },
     {
@@ -18798,6 +21243,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "4d6a4c5ce01e586eeae2e86558493a44af2ab75d94395bb7199312ef781fc201"
       }
     },
     {
@@ -18873,6 +21324,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "186a0fd5b4b0a2f42dadc94ac88b32398c982c9d6d06f1a20f33c5dab5e066dc"
       }
     },
     {
@@ -18959,6 +21416,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "186a0fd5b4b0a2f42dadc94ac88b32398c982c9d6d06f1a20f33c5dab5e066dc"
       }
     },
     {
@@ -19022,6 +21485,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 5cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "05c8f4b24ad820285deb392c98a27ec84d8f2c3f2bf6aff1c9f0a898eca1d68b"
       }
     },
     {
@@ -19081,6 +21557,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
       }
     },
     {
@@ -19142,6 +21624,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
       }
     },
     {
@@ -19224,6 +21712,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
       }
     },
     {
@@ -19283,6 +21777,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "511e4da0587ae5367a015564cf0d32d2900a91ccef5f3719c2258eececb86291"
       }
     },
     {
@@ -19354,6 +21854,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "511e4da0587ae5367a015564cf0d32d2900a91ccef5f3719c2258eececb86291"
       }
     },
     {
@@ -19428,6 +21934,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "4b7ab58102f490431e2a7135e840fb9ecb72338b916636a4bf789b6a45773d5e"
       }
     },
     {
@@ -19503,6 +22015,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "4b7ab58102f490431e2a7135e840fb9ecb72338b916636a4bf789b6a45773d5e"
       }
     },
     {
@@ -19562,6 +22080,55 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 6cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.5cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.5cm, 1cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 1.5cm"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 11,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "b8ee31a6aea44a8c5a9fa65dfe737ff4b9de8ed4b685112937cbe25a82655d57"
       }
     },
     {
@@ -19644,6 +22211,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "989d0663b3142ed67f200d82a4cf1acbc21e04894e69a81c5aa1cca8c345708e"
       }
     },
     {
@@ -19724,6 +22297,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.5cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "e3f9f2676987c7c1d9ab6f9ba4e843f8b2c9acab64c51379eee375c31334e429"
       }
     },
     {
@@ -19783,6 +22381,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "99f37530a9c2173cecc86df4b8e540c8851ba8062b6cb9ab6cf8f55b0f2c353a"
       }
     },
     {
@@ -19865,6 +22469,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "99f37530a9c2173cecc86df4b8e540c8851ba8062b6cb9ab6cf8f55b0f2c353a"
       }
     },
     {
@@ -19950,6 +22560,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "14b6a766ab788440949bc4fcd9b43cb8b97ec9d9dd897fdaf61255a3e6407112"
       }
     },
     {
@@ -20036,6 +22652,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "14b6a766ab788440949bc4fcd9b43cb8b97ec9d9dd897fdaf61255a3e6407112"
       }
     },
     {
@@ -20104,6 +22726,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "7cdc0dd3f8ab542da1d9d22e6a09da3039da6d2195165bf68e93b439cf0ccb6d"
       }
     },
     {
@@ -20196,6 +22824,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "7cdc0dd3f8ab542da1d9d22e6a09da3039da6d2195165bf68e93b439cf0ccb6d"
       }
     },
     {
@@ -20283,6 +22917,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "0f652d32cfbb2e3e160c8e1aaab53b9a416b77849241e4d5045fd335d32f2cff"
       }
     },
     {
@@ -20357,6 +22997,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 7,
+          "facts": [
+            "불: 센불, 중약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "36e4ef370472bc35436c4aef0fa4fbb466ea2634e468812b6ad070daae3602b7"
       }
     },
     {
@@ -20430,6 +23083,62 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "시간: 1시간"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 2.5~3cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 0.3cm, 4cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 1.5cm, 0.3cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "시간: 5분"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "시간: 25분",
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 9,
+          "facts": [
+            "시간: 10분, 5분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "e3e9be9fbb5ce70d5d62bb2fc927370415e6409447bcd2a9c712b3ffeb885177"
       }
     },
     {
@@ -20497,6 +23206,44 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 6~7cm, 1cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "시간: 30초",
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "dce1577514ce71865ba1021a4aa7a0b2eba15b7a00bb0a3f54a6525840fc7466"
       }
     },
     {
@@ -20592,6 +23339,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "1dc91398995af1596eb52e7dc7c861bd3563015b46b4367ef9c28fd274fb1d61"
       }
     },
     {
@@ -20667,6 +23420,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "692c21029e9675aff52da102bf03a6db13881f3923c596abd19d29cb5e844e7c"
       }
     },
     {
@@ -20728,6 +23487,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 2cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "ebee0026b39a08b4a6e3971ac0e06a904c9eb6a08f9d21795043436a7fe57776"
       }
     },
     {
@@ -20810,6 +23582,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 중약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "b385d271dbb439966c0bc6017288602742350684e94710292d4202d353757a0a"
       }
     },
     {
@@ -20883,6 +23668,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "821d5602efcc818431aaa99fe868c6fd0b2d10c5d7a8abb5891dca0c9f385f42"
       }
     },
     {
@@ -20961,6 +23752,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "821d5602efcc818431aaa99fe868c6fd0b2d10c5d7a8abb5891dca0c9f385f42"
       }
     },
     {
@@ -21037,6 +23834,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "0b3a26790ba0ac62ee372085313efe6a249512526f470a26355e4fa3af4e667a"
       }
     },
     {
@@ -21096,6 +23899,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ec542a758e17b82b1b8508c7b1beb24cc9627cc5dcb10f88b0fe4413cab53bc3"
       }
     },
     {
@@ -21176,6 +23985,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "ec542a758e17b82b1b8508c7b1beb24cc9627cc5dcb10f88b0fe4413cab53bc3"
       }
     },
     {
@@ -21251,6 +24066,57 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "시간: 1시간, 30분"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "시간: 7~10분"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 0.3cm, 0.5cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "크기: 0.5cm"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "시간: 5분",
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "시간: 30분"
+          ]
+        },
+        {
+          "source_step": 11,
+          "facts": [
+            "시간: 3분",
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "7e0fd7f64d803b0d25f301462eecc8ea233eb9eb29c7f9dd4383f0dfa1db8559"
       }
     },
     {
@@ -21323,6 +24189,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 4cm, 2cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "시간: 15분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "a11421ed215e370c481a8d2dff183c76e78fca26cb71515312c29680a1b3f21f"
       }
     },
     {
@@ -21396,6 +24287,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "0a888ed46b2f117c0712fddea2c0b758cf07613b60c3b2a06065c9a8a088b7eb"
       }
     },
     {
@@ -21491,6 +24388,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "0a888ed46b2f117c0712fddea2c0b758cf07613b60c3b2a06065c9a8a088b7eb"
       }
     },
     {
@@ -21580,6 +24483,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "0a888ed46b2f117c0712fddea2c0b758cf07613b60c3b2a06065c9a8a088b7eb"
       }
     },
     {
@@ -21644,6 +24553,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "4adf6c947a478cb8645e945ac7bbad46b965ead0980df122effc72c641029898"
       }
     },
     {
@@ -21715,6 +24630,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "68b73ea4f285bafae3fe7b01f247f976ba3bcdf5d55ba9d58ea116d0cb861c42"
       }
     },
     {
@@ -21773,6 +24694,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "68b73ea4f285bafae3fe7b01f247f976ba3bcdf5d55ba9d58ea116d0cb861c42"
       }
     },
     {
@@ -21863,6 +24790,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "68b73ea4f285bafae3fe7b01f247f976ba3bcdf5d55ba9d58ea116d0cb861c42"
       }
     },
     {
@@ -21938,6 +24871,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "5ed83301563a3996507b6e497aec76474fa6339159c7bc93fcb02dd81073f0b0"
       }
     },
     {
@@ -22033,6 +24972,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "5ed83301563a3996507b6e497aec76474fa6339159c7bc93fcb02dd81073f0b0"
       }
     },
     {
@@ -22103,6 +25048,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "6b61a262f04aa34470ab788dfb0459f12be871cd888e22bd6484695294f1afbf"
       }
     },
     {
@@ -22218,6 +25169,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "6b61a262f04aa34470ab788dfb0459f12be871cd888e22bd6484695294f1afbf"
       }
     },
     {
@@ -22291,6 +25248,32 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "크기: 1cm, 2~3cm"
+          ]
+        },
+        {
+          "source_step": 9,
+          "facts": [
+            "시간: 1시간",
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "c486100ef488dffd0201f4bcc7226a2f1a9267d52d0761380576955946685550"
       }
     },
     {
@@ -22364,6 +25347,63 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "시간: 5~7분"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "시간: 40분",
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "크기: 5cm"
+          ]
+        },
+        {
+          "source_step": 9,
+          "facts": [
+            "크기: 1.5cm"
+          ]
+        },
+        {
+          "source_step": 10,
+          "facts": [
+            "크기: 1.5cm"
+          ]
+        },
+        {
+          "source_step": 14,
+          "facts": [
+            "시간: 40분, 15분",
+            "불: 중불"
+          ]
+        },
+        {
+          "source_step": 15,
+          "facts": [
+            "시간: 20분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "267160b55359585653cc63267d78b93728618896017e7cc05c696fd0a7d1ed24"
       }
     },
     {
@@ -22432,6 +25472,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "9b4d7870e1f5666e04a8cf4fc444e4e51e7c39fe9cdbd2ad7caf32187f82b709"
       }
     },
     {
@@ -22520,6 +25566,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "9b4d7870e1f5666e04a8cf4fc444e4e51e7c39fe9cdbd2ad7caf32187f82b709"
       }
     },
     {
@@ -22600,6 +25652,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "130e5f6d8f0c49bf0d7cb39c773e57367b83bb4b65763a1e03fa407d9e17236e"
       }
     },
     {
@@ -22676,6 +25753,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "79b1a7dd1fb0de901b981d654d6b8c7ecd375ec31236adfa7019997ace032181"
       }
     },
     {
@@ -22768,6 +25851,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "79b1a7dd1fb0de901b981d654d6b8c7ecd375ec31236adfa7019997ace032181"
       }
     },
     {
@@ -22839,6 +25928,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "d46d84e2ee7dc893fa2959fcc9bb57002c4014527beb8f6f2f0c2fa8179f1cad"
       }
     },
     {
@@ -22911,6 +26019,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "시간: 1분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "bf993b210443082eaab31fe57cc1f5c8bf6f105c1365b42c025644a4c902141a"
       }
     },
     {
@@ -22982,6 +26109,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 약불"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "95f425a02f10fef9fee62c608c07b5dc33e959bb3f993a3e8573663ff7c0bc06"
       }
     },
     {
@@ -23056,6 +26202,37 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "시간: 3분"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "048135230d739214af7ee5af3fdb0a0b03d7d43cbe9f36880a6481954dc757f1"
       }
     },
     {
@@ -23130,6 +26307,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "41febe0694bc84a9d3865461c6b8d1d7c876625eed5c401a7bab91f84269dc00"
       }
     },
     {
@@ -23214,6 +26410,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_has_no_numeric_cooking_cues",
+        "source_sha256": "313c1fff9c55fb858b7b050eda85e5aa0e6241313fe2472632578722e9550d5d"
       }
     },
     {
@@ -23285,6 +26487,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "3ee67db29ec86ecdb02cf4851b12188146a0cd2be7c76912d00f2917c826474d"
       }
     },
     {
@@ -23344,6 +26552,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "9ac2c62c50b75a9bd55b3e9a6d4113bfc48541ac576aa95d73a376fb07610943"
       }
     },
     {
@@ -23447,6 +26661,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "9ac2c62c50b75a9bd55b3e9a6d4113bfc48541ac576aa95d73a376fb07610943"
       }
     },
     {
@@ -23509,6 +26729,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "423624a45413cc0bcff33c6dec032889b7d69ac290674eb971a2a86db66a853a"
       }
     },
     {
@@ -23582,6 +26808,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "423624a45413cc0bcff33c6dec032889b7d69ac290674eb971a2a86db66a853a"
       }
     },
     {
@@ -23661,6 +26893,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "0d9b3cb921a37abb771a7728c1cf86662460b2a67a132332cfd4e1ebfc2c4285"
       }
     },
     {
@@ -23763,6 +27001,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "0d9b3cb921a37abb771a7728c1cf86662460b2a67a132332cfd4e1ebfc2c4285"
       }
     },
     {
@@ -23824,6 +27068,12 @@
         "check_product_labels": [],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "b173545de6796f41b1eb68ed0f3946803b216f73d684061a69e60c5250f731e4"
       }
     },
     {
@@ -23903,6 +27153,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "a3edbe3abf68b6f18817fa6c12994916f321c808aa791a0555357801a057a68f"
       }
     },
     {
@@ -23996,6 +27252,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "80fd03b3a8d443eecf326af0c2421affbad8d82618c156a2b217c29e82d3dd81"
       }
     },
     {
@@ -24071,6 +27340,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.5cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "b44969ec864581631c31426ef2e0d5d04f818037137e06b89f63192e30c0015d"
       }
     },
     {
@@ -24164,6 +27458,50 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 1.5cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 2cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "크기: 1cm, 2cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 11,
+          "facts": [
+            "시간: 30분",
+            "불: 강불, 중불"
+          ]
+        },
+        {
+          "source_step": 12,
+          "facts": [
+            "불: 약불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "a604c623ff1f8e1613da702cf04c604e760a2e30699e79e83eea63d6d0c68808"
       }
     },
     {
@@ -24238,6 +27576,19 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "ab1fced8fbd92aa8675b6246c5f60c9240795cfa80ed328e9359d858eabaa5fb"
       }
     },
     {
@@ -24314,6 +27665,50 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.5cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 0.5cm, 0.3cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 8,
+          "facts": [
+            "시간: 4분, 30초",
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "aa705f01905176b2d4488a465364626bb39e6902967859a40853550108c81bb3"
       }
     },
     {
@@ -24377,6 +27772,37 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 3cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "시간: 1분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "9dc24622a200f7e28014b6935a95f6ca4713bb948f4d7fc4e246462d47f94b90"
       }
     },
     {
@@ -24691,6 +28117,44 @@
           "재료와 국물을 모두 먹는 원본 2인분 합계입니다. 국물을 남기면 특히 나트륨 섭취량이 줄어듭니다. 완성 후 100g 값이 아닙니다."
         ],
         "limitations": "레시피에 적힌 재료 무게와 대표 식품성분 자료로 계산한 추정값입니다. 실제 제품·조리 중 기름과 국물의 손실·먹는 양에 따라 달라지며, 조리 후 100g 영양값은 아닙니다."
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 2cm, 0.5cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "크기: 0.5cm"
+          ]
+        },
+        {
+          "source_step": 6,
+          "facts": [
+            "시간: 10분",
+            "불: 약불"
+          ]
+        },
+        {
+          "source_step": 7,
+          "facts": [
+            "시간: 10분, 5분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "f16c2e13e9edc3a8cfc0cc637da659716175e00db022ef1052a6820e97105280"
       }
     },
     {
@@ -24765,6 +28229,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.3cm, 0.5cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "de7001a0eeb11766103ee479f0566d6288a8c7d2ea058ac68d7c3bf825116478"
       }
     },
     {
@@ -24836,6 +28325,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 3~4cm, 0.5cm"
+          ]
+        },
+        {
+          "source_step": 4,
+          "facts": [
+            "불: 강불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "bc8527c97ec51309ede648248dc9f018b44bc0538417353088b60ed9108902e2"
       }
     },
     {
@@ -24904,6 +28418,12 @@
         "check_product_labels": [],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "237170b4367b8f702fc884ae8f7ef31928722a47fe9164712746c1bcda9aa8f0"
       }
     },
     {
@@ -24976,6 +28496,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "f47b4d18876396a7faa50bbf9d0d2bf71a842ddb415ccc26791fa7dd59d7a8c8"
       }
     },
     {
@@ -25060,6 +28586,25 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 1cm"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "a689846adcdf22aab6fbd4188628ff487357a35771257438709e7ae2ae2309e1"
       }
     },
     {
@@ -25141,6 +28686,31 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.3cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 6cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "온도: 170도"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "e548eb5585e3b1a6fdafad84967069407b5d47723ff2706a59bf3aafd2b86be0"
       }
     },
     {
@@ -25205,6 +28775,26 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "시간: 15분",
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "시간: 2~3분"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "4e7f10801ea512aa0f84b9fb0a91a8043588672466788bd26c8133e2699e3a0b"
       }
     },
     {
@@ -25282,6 +28872,43 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [
+        {
+          "source_step": 1,
+          "facts": [
+            "크기: 0.4cm, 2.5cm, 0.5cm"
+          ]
+        },
+        {
+          "source_step": 2,
+          "facts": [
+            "크기: 4cm, 2.5cm"
+          ]
+        },
+        {
+          "source_step": 3,
+          "facts": [
+            "크기: 1cm"
+          ]
+        },
+        {
+          "source_step": 5,
+          "facts": [
+            "불: 강불"
+          ]
+        },
+        {
+          "source_step": 9,
+          "facts": [
+            "불: 중불"
+          ]
+        }
+      ],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "source_measurements_extracted",
+        "source_sha256": "207f908ffd063bebdda3bb8b692acf3d2b15da331fb6cf5a96b54b311b951ccd"
       }
     },
     {
@@ -25345,6 +28972,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "b95c692c7608123a479299b7541ede3a5707f12bd313cf33892cac9953880113"
       }
     },
     {
@@ -25414,6 +29047,12 @@
         ],
         "classification_source_url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=1091412",
         "cross_contact_status": "not_verified"
+      },
+      "source_cooking_details": [],
+      "cooking_detail_audit": {
+        "checked_on": "2026-10-14",
+        "status": "section_mapping_required",
+        "source_sha256": "b95c692c7608123a479299b7541ede3a5707f12bd313cf33892cac9953880113"
       }
     }
   ],
