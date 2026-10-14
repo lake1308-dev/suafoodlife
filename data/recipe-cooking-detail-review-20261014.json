@@ -623,42 +623,42 @@
       "name": "배추전(달걀옷) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_tHkbJgBUaiI_zucchiniegg",
       "name": "애호박전(달걀옷) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_tHkbJgBUaiI_mushrooms",
       "name": "모둠버섯전 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_tHkbJgBUaiI_fish",
       "name": "동태전 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_tHkbJgBUaiI_beef",
       "name": "소고기육전 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_tHkbJgBUaiI_shrimp",
       "name": "새우전 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_uB37XeU5SwM_corn",
@@ -700,7 +700,7 @@
       "name": "전양념간장 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_uB37XeU5SwM_originalcorn",
