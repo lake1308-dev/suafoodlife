@@ -252,7 +252,7 @@
       "name": "기본김밥 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_SeUG8iRDE_g",
@@ -266,28 +266,28 @@
       "name": "비빔국수(강식당 양념) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_Z5-6wbdbgA4",
       "name": "유부김밥 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_dXN1dlsYdJI",
       "name": "무생채(소금 양념) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_xecKUiZBCtM",
       "name": "진미채볶음 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_vG07DHeNH9c",
@@ -364,28 +364,28 @@
       "name": "달걀프라이김밥 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_10fl2mebYHs_sausage",
       "name": "소시지김밥 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_Z5-6wbdbgA4_egg",
       "name": "유부달걀김밥 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_dXN1dlsYdJI_fishsauce",
       "name": "무생채(액젓 양념) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_vG07DHeNH9c_mushroom",
