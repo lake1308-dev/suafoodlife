@@ -714,21 +714,21 @@
       "name": "닭개장(닭가슴살) · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 8,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_kzYgtXDcGQ4_soup",
       "name": "닭곰탕 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_kzYgtXDcGQ4_broth",
       "name": "닭육수(통닭) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_jN_inaLf9Zo_beef",
