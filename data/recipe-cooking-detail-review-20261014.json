@@ -609,14 +609,14 @@
       "name": "매콤달걀덮밥 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_wTtHP5qFOio_perilla",
       "name": "들기름막라면 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 1,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_tHkbJgBUaiI_cabbageegg",
