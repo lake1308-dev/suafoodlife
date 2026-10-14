@@ -91,7 +91,7 @@
       "name": "부대찌개 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 6,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_3gQwydGHIG8",
@@ -112,7 +112,7 @@
       "name": "오징어볶음 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_0q0btGvIrWY",
@@ -140,35 +140,35 @@
       "name": "참치김치찌개 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_rrNfCVRFsvs",
       "name": "잡채 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik__O4tvQtZDiU",
       "name": "짜장덮밥 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_47OIcvpqxlo",
       "name": "김치전 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_N82hJpl5cMM",
       "name": "감자전 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_G2kylWhMw5s",
@@ -182,14 +182,14 @@
       "name": "어묵감자볶음 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 5,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_Eino3yP-Wk0",
       "name": "두부조림 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_HI8DlDs1gko",
@@ -259,7 +259,7 @@
       "name": "콩나물국 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_5wMxMwv1-Xs",
@@ -294,14 +294,14 @@
       "name": "소고기무국 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_3p4xH_IZhH4",
       "name": "달걀장조림 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 4,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_j9NXZh0gX3w",
@@ -322,7 +322,7 @@
       "name": "소시지케첩볶음 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_fVKaR66n9B4",
@@ -392,7 +392,7 @@
       "name": "소고기버섯국 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_EUdt9GjWj5c_gochujang",
@@ -448,7 +448,7 @@
       "name": "애호박전 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_rGAt5QS2ueU_pork",
@@ -504,42 +504,42 @@
       "name": "두부김치 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_cUQzxhmYdGs_cabbage",
       "name": "양배추전 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 5,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_aXJgN_JjYDg_sweetpotato",
       "name": "고구마빠스 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 1,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_bMLfohWNsvQ_sauce",
       "name": "만능볶음요리소스 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_bMLfohWNsvQ_mushroom",
       "name": "버섯볶음 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_bMLfohWNsvQ_sprouts",
       "name": "숙주볶음 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_bMLfohWNsvQ_peppers",
@@ -833,7 +833,7 @@
       "name": "시금치무침 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 1,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_mZ2C8gEw8Vk",
