@@ -546,35 +546,35 @@
       "name": "꽈리고추볶음 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_bMLfohWNsvQ_celery",
       "name": "셀러리볶음 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_bMLfohWNsvQ_garlicstems",
       "name": "마늘쫑볶음 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_bMLfohWNsvQ_lettuce",
       "name": "양상추데침요리 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_bMLfohWNsvQ_rice",
       "name": "볶음밥 (만능볶음소스) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_VDn_dcC88mc",
