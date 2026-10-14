@@ -686,14 +686,14 @@
       "name": "부추전초간장 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_kpeQCq4mIXs_ricesauce",
       "name": "가지밥양념장 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_tHkbJgBUaiI_dippingsauce",
@@ -707,7 +707,7 @@
       "name": "옥수수전(연유) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_FdL13qXf4MA_breast",

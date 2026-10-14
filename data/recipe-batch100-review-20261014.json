@@ -1,0 +1,1218 @@
+{
+  "checked_on": "2026-10-14",
+  "target": 100,
+  "reviewed": 100,
+  "note": "Source identity and existing instruction coverage review; does not certify beginner completeness or replace manual section comparison.",
+  "items": [
+    {
+      "id": "paik_wfm951HEpGU_vinegarsoy",
+      "name": "부추전초간장 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": true,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_kpeQCq4mIXs_ricesauce",
+      "name": "가지밥양념장 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": true,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_uB37XeU5SwM_originalcorn",
+      "name": "옥수수전(연유) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": true,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_FdL13qXf4MA_breast",
+      "name": "닭개장(닭가슴살) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 3,
+      "limits": []
+    },
+    {
+      "id": "paik_kzYgtXDcGQ4_soup",
+      "name": "닭곰탕 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 2,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_kzYgtXDcGQ4_broth",
+      "name": "닭육수(통닭) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 2,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_jN_inaLf9Zo_beef",
+      "name": "육개장(20분 방식) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다."
+      ]
+    },
+    {
+      "id": "paik_-3y_AR7zYXM",
+      "name": "만능양파덮밥 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_uAShnbgCLSU",
+      "name": "만능양파볶음(대용량) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 2,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_du9q1BldDHU",
+      "name": "닭고기덮밥 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다."
+      ]
+    },
+    {
+      "id": "paik_QPjfwubAvso",
+      "name": "감자샐러드(대용량) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_BqxpjY7TJ8g",
+      "name": "마파두부(만능양념장) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_6e-IbuuD6ZU",
+      "name": "라볶이 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_zRg4nxIv3j8",
+      "name": "볶음우동 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 3,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_NvoCWyO0Vfg",
+      "name": "김라면 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_ny9XkQbN6sI",
+      "name": "냉라면 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_Lz0tPtrMQmQ",
+      "name": "골뱅이무침 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_2vrJR3ZpRf0",
+      "name": "도라지나물 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_JmiW-dD1RqM",
+      "name": "고사리나물 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_mZ2C8gEw8Vk",
+      "name": "갈치조림 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다."
+      ]
+    },
+    {
+      "id": "paik_sRQxVQ5-NNA",
+      "name": "깍두기 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_vjWddRRR58M",
+      "name": "간장냉국수 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_RH73tQvg33g",
+      "name": "들깨칼국수 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_iij0bMkadEw",
+      "name": "다시마칼국수 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_MqdncXPR0lY",
+      "name": "꽈리고추삼겹살볶음 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_-Imo0xgUQG0",
+      "name": "도토리묵사발 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 1,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_XKohdaL45K8",
+      "name": "깍두기볶음밥 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 3,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_5uWt6U1Re5Q",
+      "name": "만능양파간장비빔면 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_iO0xX0AyS8M",
+      "name": "꽈리고추닭볶음 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 3,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_81gLJ5kRu4Y",
+      "name": "시금치무침(고기 곁들임) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_R0xWJ4c8wR4",
+      "name": "닭칼국수 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_2T7BfP1sx9g",
+      "name": "돼지불백 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_CVtdTM6gJTY",
+      "name": "라면땅(마요네즈) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 1,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_-dBPLgpC-tk_basic",
+      "name": "프렌치토스트(기본형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 5,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_-dBPLgpC-tk_milk",
+      "name": "프렌치토스트(우유형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 3,
+      "step_cue_rows": 1,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_lqCzPHUu-3E",
+      "name": "라면땅(초고추장 곁들임) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 1,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_tCe6B6U8wHw",
+      "name": "단무지무침 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_Zkxiydlmplw",
+      "name": "오징어뭇국 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 2,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다."
+      ]
+    },
+    {
+      "id": "paik_YXMxnHx7yZQ",
+      "name": "달걀샌드위치 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 3,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_JrTVWvj8uhs",
+      "name": "들기름두부구이 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_X8VEvBHHOjQ",
+      "name": "몬테크리스토샌드위치 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_coagMFr_nV8",
+      "name": "비빔수제비 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_VTnPfw9h-3k",
+      "name": "탕수육냄비전골 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_rqbhm9hpvp8",
+      "name": "치즈라면전 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_z-XcuZL80Lc_basic",
+      "name": "길거리토스트(기본형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_z-XcuZL80Lc_cheese",
+      "name": "길거리토스트(치즈형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_z-XcuZL80Lc_ham_cheese",
+      "name": "길거리토스트(햄치즈형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_lDr6lNjUZ8w",
+      "name": "콩비지찌개 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_wezbeu4-C2s",
+      "name": "청국장찌개 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_4WEhZLQ37Fk",
+      "name": "새둥지전 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 4,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_IO6AeSPfJ0Y",
+      "name": "전복죽 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 5,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다."
+      ]
+    },
+    {
+      "id": "paik_7Ez066LV76U_sauce",
+      "name": "닭백숙양념장 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_7Ez066LV76U",
+      "name": "닭백숙 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_yI67M3IS4GI_pancake",
+      "name": "옥수수전(전분·부침형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_yI67M3IS4GI_fried",
+      "name": "옥수수전(전분·튀김형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_M_G9MGGQdbs",
+      "name": "콩나물찜 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_FI6iypOkNUg_broth",
+      "name": "멸치육수 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 1,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_FI6iypOkNUg_sauce",
+      "name": "멸치국수양념장 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_FI6iypOkNUg_gimhae",
+      "name": "멸치국수(부산·김해식) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 4,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_FI6iypOkNUg_basic",
+      "name": "멸치국수(채소고명) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_FI6iypOkNUg_egg",
+      "name": "멸치국수(달걀국물) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_FI6iypOkNUg_egg_braise",
+      "name": "달걀조림(육수건더기 활용) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 2,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_UlsvKb-Bafs_sauce",
+      "name": "만능겉절이양념 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_UlsvKb-Bafs_spring_cabbage",
+      "name": "봄동겉절이 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 3,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_UlsvKb-Bafs_minari",
+      "name": "미나리겉절이 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 3,
+      "step_cue_rows": 1,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_UlsvKb-Bafs_chamnamul",
+      "name": "참나물겉절이 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 3,
+      "step_cue_rows": 1,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_5UVURwno_jA",
+      "name": "크림새우 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 4,
+      "step_cue_rows": 2,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_2HZO-YNHFPk_sauce",
+      "name": "양념치킨소스 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_2HZO-YNHFPk_fried",
+      "name": "후라이드치킨 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_2HZO-YNHFPk_seasoned",
+      "name": "양념치킨 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_NGjk_1KQGmI_chinese",
+      "name": "중국식볶음밥 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_NGjk_1KQGmI_pork",
+      "name": "삼겹살볶음밥 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_w9ML-v8OG1Y_basic",
+      "name": "파무침(기본형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_w9ML-v8OG1Y_soy",
+      "name": "파무침(간장형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_w9ML-v8OG1Y_chogochujang",
+      "name": "파무침(초고추장형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik__m_HiEJukX4",
+      "name": "파채무침(양배추형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_M8RXmDJ3W-s",
+      "name": "돼지고기뭇국 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 1,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_rLDquEv-ZJg",
+      "name": "황태미역국 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 2,
+      "limits": []
+    },
+    {
+      "id": "paik_87zznFb0-us",
+      "name": "빨간어묵 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 1,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_9YlFFVisCBY",
+      "name": "통옥수수구이 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_-A0iP6Uzy3A",
+      "name": "떡어묵꼬치 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_OSYQHa-vbVU_sauce",
+      "name": "소떡어떡소스 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_OSYQHa-vbVU",
+      "name": "소떡어떡 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 6,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_-8qL_l94cJ8_sauce",
+      "name": "누룽지백숙양념장 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_-8qL_l94cJ8_pot",
+      "name": "누룽지백숙(냄비) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 3,
+      "limits": [
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_-8qL_l94cJ8_rice_cooker",
+      "name": "누룽지백숙(전기밥솥) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_0wqp-Ii5wQM_sauce",
+      "name": "부추완자전양념간장 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 3,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_0wqp-Ii5wQM",
+      "name": "부추완자전 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 3,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_6AmBDFIJRE8_sauce",
+      "name": "백순대볶음소스 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_6AmBDFIJRE8",
+      "name": "백순대볶음 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 3,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_7S9VN54ldnU_sauce",
+      "name": "만능짜장소스 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_7S9VN54ldnU",
+      "name": "짜장떡볶이 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 1,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_4SEy2py0W_w",
+      "name": "골뱅이파채무침 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik__l_cJyxNkhc_chili_oil",
+      "name": "고추기름(대파형) · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik__l_cJyxNkhc_wasabi_mayo",
+      "name": "고추냉이마요소스 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik__l_cJyxNkhc",
+      "name": "닭다리살대파무침 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 4,
+      "step_cue_rows": 1,
+      "limits": [
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_iWWQBoS3SL4_sauce",
+      "name": "고추장비빔국수양념장 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+      ]
+    },
+    {
+      "id": "paik_iWWQBoS3SL4",
+      "name": "고추장비빔국수 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 2,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    },
+    {
+      "id": "paik_Om6W3JBfmFU",
+      "name": "대패삼겹살두루치기 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 0,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+      ]
+    },
+    {
+      "id": "paik_Om6W3JBfmFU_rice",
+      "name": "대패두루치기볶음밥 · 백종원 참고",
+      "source_identity_verified": true,
+      "manual_instruction_rewrite": false,
+      "unspecified_ingredient_lines": 4,
+      "step_cue_rows": 0,
+      "limits": [
+        "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+        "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+        "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+        "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+      ]
+    }
+  ],
+  "manual_instruction_rewrites": 3,
+  "preflight_guidance_added": 100
+}

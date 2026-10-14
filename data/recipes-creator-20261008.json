@@ -1,5 +1,5 @@
 {
-  "version": "1.48.0",
+  "version": "1.49.0",
   "record_count": 274,
   "recipes": [
     {
@@ -13033,12 +13033,12 @@
       "ingredients_text": "진간장: 1큰술(10g)\n식초: 1큰술(10g)\n황설탕: 1/2큰술(5g)",
       "steps": {
         "ko": [
-          "간장과 식초를 작은 그릇에 담습니다.",
-          "설탕이 고루 섞이도록 저어 부추전에 별도로 곁들입니다."
+          "배합 — 진간장 10g, 식초 10g, 황설탕 5g을 작은 그릇에 담습니다.",
+          "설탕이 고르게 풀리도록 섞어 부추전에 곁들입니다."
         ],
         "en": [
-          "간장과 식초를 작은 그릇에 담습니다.",
-          "설탕이 고루 섞이도록 저어 부추전에 별도로 곁들입니다."
+          "배합 — 진간장 10g, 식초 10g, 황설탕 5g을 작은 그릇에 담습니다.",
+          "설탕이 고르게 풀리도록 섞어 부추전에 곁들입니다."
         ]
       },
       "public_recipe": true,
@@ -13058,7 +13058,7 @@
         "retrieved_on": "2026-10-09",
         "description_sha256": "efe13e4d5373cc803906f89fa97c24d15982418e894b0f8b4015406e978ec722"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "editorial_notice": "공식 영상 설명의 손질·조리 순서를 확인해 Food Life가 다시 정리했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "portion_notice": "소스 전체 준비량입니다. 부추전 재료나 실제 먹는 소스 양과 구분합니다.",
       "nutrition_reference": {
         "status": "estimated_reference",
@@ -13158,6 +13158,21 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "efe13e4d5373cc803906f89fa97c24d15982418e894b0f8b4015406e978ec722"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
+      },
+      "cooking_notice": "부추전 반죽과 별도인 초간장 배합입니다. 양념 전체를 반드시 모두 먹는 양으로 계산하지 않습니다.",
+      "instruction_review": {
+        "checked_on": "2026-10-14",
+        "basis": "official_description",
+        "status": "expanded_with_source_limits"
       }
     },
     {
@@ -13180,12 +13195,12 @@
       "ingredients_text": "부추: 2/3컵(40g)\n대파: 1/3컵(20g)\n청양고추: 2개(20g)\n간 마늘: 1큰술(20g)\n진간장: 2/3컵(120ml)\n황설탕: 1/2큰술(6g)\n굵은 고춧가루: 2큰술(16g)\n깨소금: 2큰술(12g)\n참기름: 1큰술(7g)",
       "steps": {
         "ko": [
-          "부추·대파·청양고추를 잘게 썹니다.",
-          "마늘·간장·설탕·고춧가루·깨·참기름을 채소와 섞어 가지밥에 기호에 맞게 곁들입니다."
+          "손질 — 부추 40g, 대파 20g, 청양고추 20g을 잘게 썹니다.",
+          "배합 — 손질한 채소에 다진 마늘 20g, 진간장 120ml, 황설탕 6g, 굵은 고춧가루 16g, 깨소금 12g, 참기름 7g을 고루 섞습니다."
         ],
         "en": [
-          "부추·대파·청양고추를 잘게 썹니다.",
-          "마늘·간장·설탕·고춧가루·깨·참기름을 채소와 섞어 가지밥에 기호에 맞게 곁들입니다."
+          "손질 — 부추 40g, 대파 20g, 청양고추 20g을 잘게 썹니다.",
+          "배합 — 손질한 채소에 다진 마늘 20g, 진간장 120ml, 황설탕 6g, 굵은 고춧가루 16g, 깨소금 12g, 참기름 7g을 고루 섞습니다."
         ]
       },
       "public_recipe": true,
@@ -13205,7 +13220,7 @@
         "retrieved_on": "2026-10-09",
         "description_sha256": "be890d3ae48a8d01321d906beb481b7c0f16c80c9c74fe32c8397b212a778749"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "editorial_notice": "공식 영상 설명의 손질·조리 순서를 확인해 Food Life가 다시 정리했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "portion_notice": "가지밥에 곁들이는 소스 준비량입니다. 진간장 120ml의 무게 환산과 실제 섭취량이 미확인이라 전체 영양 계산을 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
@@ -13223,6 +13238,21 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "be890d3ae48a8d01321d906beb481b7c0f16c80c9c74fe32c8397b212a778749"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
+      },
+      "cooking_notice": "가지밥과 별도로 만드는 양념장입니다. 완성 양념을 기호에 맞게 덜어 쓰며 전체 양을 한 그릇에 넣지 않습니다.",
+      "instruction_review": {
+        "checked_on": "2026-10-14",
+        "basis": "official_description",
+        "status": "expanded_with_source_limits"
       }
     },
     {
@@ -13456,16 +13486,16 @@
       "ingredients_text": "통조림 옥수수: 1캔(290g)\n물: 1/3컵(50g)\n튀김가루: 1/2컵(50g)\n식용유: 1/3컵(40g)\n연유: 2큰술(25g)",
       "steps": {
         "ko": [
-          "통조림 옥수수의 물기를 뺍니다.",
-          "옥수수·튀김가루·물을 섞어 반죽합니다.",
-          "기름 두른 팬에서 반죽을 넓게 펼쳐 노릇하게 굽습니다.",
-          "접시에 옮긴 뒤 연유를 뿌립니다."
+          "준비 — 통조림 옥수수 1캔(290g)을 체에 밭쳐 물기를 뺍니다.",
+          "반죽 — 옥수수에 튀김가루 50g과 물 50g을 섞습니다.",
+          "굽기 — 팬에 식용유를 두르고 반죽을 넓게 펴 노릇하게 굽습니다. 원본 식용유 전체 준비량은 40g입니다.",
+          "마무리 — 접시에 옮겨 연유 25g을 뿌립니다."
         ],
         "en": [
-          "통조림 옥수수의 물기를 뺍니다.",
-          "옥수수·튀김가루·물을 섞어 반죽합니다.",
-          "기름 두른 팬에서 반죽을 넓게 펼쳐 노릇하게 굽습니다.",
-          "접시에 옮긴 뒤 연유를 뿌립니다."
+          "준비 — 통조림 옥수수 1캔(290g)을 체에 밭쳐 물기를 뺍니다.",
+          "반죽 — 옥수수에 튀김가루 50g과 물 50g을 섞습니다.",
+          "굽기 — 팬에 식용유를 두르고 반죽을 넓게 펴 노릇하게 굽습니다. 원본 식용유 전체 준비량은 40g입니다.",
+          "마무리 — 접시에 옮겨 연유 25g을 뿌립니다."
         ]
       },
       "public_recipe": true,
@@ -13485,7 +13515,7 @@
         "retrieved_on": "2026-10-09",
         "description_sha256": "787aadf2f3ac6be4b45ed2f07e9adf8857ed90f8b9c320d93496bc70ccb7c7f9"
       },
-      "editorial_notice": "공식 영상의 조리 정보를 확인해 Food Life가 순서를 요약했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
+      "editorial_notice": "공식 영상 설명의 손질·조리 순서를 확인해 Food Life가 다시 정리했습니다. 공식 채널과 제휴하거나 보증받은 서비스는 아닙니다.",
       "portion_notice": "공식 영상의 오리지널 방식으로 파마산 치즈가루를 추가하는 방식과 구분했습니다. 통조림의 물기 뺀 중량과 기름 섭취량이 미확인이라 전체 영양 계산은 보류했습니다.",
       "allergen_review": {
         "status": "ingredient_identity_reviewed_product_labels_pending",
@@ -13514,6 +13544,23 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "787aadf2f3ac6be4b45ed2f07e9adf8857ed90f8b9c320d93496bc70ccb7c7f9"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
+      },
+      "cooking_notice": "연유 버전입니다. 파마산치즈를 더하는 버전과 구분합니다. 원본에 불 세기·굽는 시간·반죽 두께는 없습니다.",
+      "instruction_review": {
+        "checked_on": "2026-10-14",
+        "basis": "official_description",
+        "status": "expanded_with_source_limits"
       }
     },
     {
@@ -13747,6 +13794,36 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "33ab8374270a2f5f0cd65f462112b4c177c41c0024420b3a41b136d83185cd7a"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [],
+        "unspecified_ingredients": [
+          "후추가루: 약간",
+          "간 생강: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "시간: 10분"
+            ]
+          },
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 약불"
+            ]
+          },
+          {
+            "step": 5,
+            "facts": [
+              "불 세기: 중불",
+              "시간: 15~20분, 1분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -13828,6 +13905,32 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "6ab0d462bb3d7000f7fa43134ac55287057316b64fc305c9612e3e45009779a7"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [
+          "후춧가루: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "시간: 30분"
+            ]
+          },
+          {
+            "step": 2,
+            "facts": [
+              "시간: 30분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -13901,6 +14004,29 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "6ab0d462bb3d7000f7fa43134ac55287057316b64fc305c9612e3e45009779a7"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 30분"
+            ]
+          },
+          {
+            "step": 3,
+            "facts": [
+              "시간: 30분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -14114,6 +14240,25 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "83646a45fe08479eb11eef433678fff6b76d0a7dce9aa89d8b90e7b0aaf253ef"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다."
+        ],
+        "unspecified_ingredients": [
+          "간 생강: 약간",
+          "후춧가루: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "시간: 30분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -14322,6 +14467,24 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "b20b39394829f303bede7ac3d99d14310e194b939ecb60f8b8a23a788d85b56a"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "불 세기: 약불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -14390,6 +14553,30 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "dc7c34b7c6228e22fd2ea218f050ed8ec10411c4d37449878644c28d0f5bc66b"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "불 세기: 강불",
+              "시간: 20분"
+            ]
+          },
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 중불",
+              "시간: 40분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -14554,6 +14741,19 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "5ef458e70e6f1bf76663eac1a97da95ef570df86ebaf097c0e238c9fec597a19"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다."
+        ],
+        "unspecified_ingredients": [
+          "훈연멸치가루: 적당량",
+          "식용유: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -14742,6 +14942,23 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "98ba1474eeb569d2595572e61c045a66ce78f63e8cec19b705279309a063bf5b"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 30~40분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -14843,6 +15060,17 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "99318cf8acebae6df645c3fc3c6b3bd75cfa5cc12f3fda63ac4ad805225cd1db"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -14910,6 +15138,23 @@
         "checked_on": "2026-10-14",
         "status": "source_has_no_numeric_cooking_cues",
         "source_sha256": "bd27589411b8ac296ffaa170fe8875a30f0d70d897d87c7a67ffc0c591895926"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "시간: 1분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -15004,6 +15249,28 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "f777ccf1568a071a507d2defdb1d7124666777fdb12784f13ef0f91348f80098"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [
+          "훈연멸치가루: 적당량",
+          "쪽파: 적당량",
+          "마요네즈: 적당량"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 중불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -15073,6 +15340,17 @@
         "checked_on": "2026-10-14",
         "status": "source_has_no_numeric_cooking_cues",
         "source_sha256": "c765f8e062ab39884334a92c8f1a747976d0100c856bcbe31df61a05c61b38fa"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -15151,6 +15429,19 @@
         "checked_on": "2026-10-14",
         "status": "source_has_no_numeric_cooking_cues",
         "source_sha256": "5abf78c8fe366ad2d02319fb1e1bfc9b36f53f77e53f7a46d6dbc7522fe1b2de"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "얼음: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -15218,6 +15509,15 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "25a328cfd2a862a570bf5537b7c2f91df51d55a3a531d2e4435f4a262d816f7e"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -15301,6 +15601,23 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "3ce60f28057e5069f486bd11c71ef023e859c0d343c3b70b40bd7485425ca991"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "시간: 1시간"
+            ]
+          }
+        ]
       }
     },
     {
@@ -15380,6 +15697,19 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "fb8940612241ce0973e82a75023e1be7560762a0f507683f83ca08242c05d172"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "깨소금: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -15637,6 +15967,22 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "e7b16754cda6d37405b450a6ad51654dfc7a4d7c041581ad5e53aa0e0cd3b598"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 4,
+            "facts": [
+              "시간: 13~15분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -15722,6 +16068,25 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "f6bb2f596dedc3b48e50e2e47701edf6e337ec680c51bee2b535a071d81e4e44"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "시간: 1시간",
+              "크기: 3cm"
+            ]
+          }
+        ]
       }
     },
     {
@@ -15806,6 +16171,23 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "d972900def16daf41d8f603cb1889aa18347d93ed8c848dca24f0328fc7c134f"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "시간: 3분, 30초"
+            ]
+          }
+        ]
       }
     },
     {
@@ -15901,6 +16283,25 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "79c8412c20a8d5d12d8504bab2439aff7385cbaf692f1e37f03ee8ac1306acb7"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "꽃소금: 약간(1g)"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "시간: 4분, 30초"
+            ]
+          }
+        ]
       }
     },
     {
@@ -15972,6 +16373,26 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "10f7320339b9f3dca3677b1a72d78adc9a1ebd8c745f41bc44111c90d18dc4e6"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [
+          "깨소금: 약간",
+          "후춧가루: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "시간: 5~10분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -16074,6 +16495,17 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "e2508ae5e997d8ab23619cf3afbc0f6a605d9dfc32e27554d5e2886058c4d493"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -16171,6 +16603,24 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "daab1d1cce8328f5dd67a40882fa2feefb7062306507afa447b79ddd9d50a265"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "굵은 고춧가루: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "시간: 30초"
+            ]
+          }
+        ]
       }
     },
     {
@@ -16268,6 +16718,21 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "b6b8ec4779090225b588a851d68b15630a7f33e25c1d10284cdf16d747fb46ff"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "식용유(달걀용): 적당량",
+          "맛소금: 적당량",
+          "깨소금: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -16342,6 +16807,26 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "16f46b3bb26e277f70929b0737497861df8e5ead4a767d503d999beae2061f4e"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "후추: 소량"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 2분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -16461,6 +16946,38 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "d35afa9d05f1d3de30011be34ae2eff103c452319e7fe85d1d3aa6022ac8d25c"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [
+          "후추가루: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 1분"
+            ]
+          },
+          {
+            "step": 4,
+            "facts": [
+              "시간: 7분"
+            ]
+          },
+          {
+            "step": 5,
+            "facts": [
+              "시간: 10초"
+            ]
+          }
+        ]
       }
     },
     {
@@ -16527,6 +17044,17 @@
         "checked_on": "2026-10-14",
         "status": "source_has_no_numeric_cooking_cues",
         "source_sha256": "f68344669a9dfcffe5b48d639eae13871e647d1f0785e5cf464da2602370855c"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "후춧가루: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -16607,6 +17135,19 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "013ec9f08833a47526f459db48f9afb9451472789173e515cb047a5f0089271a"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [
+          "후춧가루: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -16687,6 +17228,20 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "462ff577773bdd6c878f006ca092752a187bdced13f3bd7181b354d7eb83dd06"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "간 생강: 약간(2g)",
+          "후추가루: 약간"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -16763,6 +17318,24 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "ee41219751471216f8a80669393483d4a6a22d13c4f2bde0ae812c80f4d53541"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "라면수프: 적당량"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 2분, 20초"
+            ]
+          }
+        ]
       }
     },
     {
@@ -16854,6 +17427,29 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "5531bd3f398a1247c6422be3bc7037d04f2c957dc1a195251321a62e77606a25"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "사과잼: 적당량",
+          "식용유: 적당량",
+          "버터: 적당량",
+          "계핏가루: 적당량",
+          "연유: 적당량"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "불 세기: 중불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -16945,6 +17541,26 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "5531bd3f398a1247c6422be3bc7037d04f2c957dc1a195251321a62e77606a25"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "식용유: 적당량",
+          "버터: 적당량",
+          "사과잼: 적당량"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 약불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -17117,6 +17733,25 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "44512acf9409ecd40fab52fa407721f679a113ab3987b4022725674e7510afa9"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "초고추장: 적당량",
+          "설탕: 적당량"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 2분, 30초"
+            ]
+          }
+        ]
       }
     },
     {
@@ -17196,6 +17831,15 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "4d26018dda6d6457ac7856f36c4c6fb71cbfbea54b1447ff6fdd1fd0e7515b2c"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -17276,6 +17920,28 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "6df69ee90dfc6248b1ae3c05e2175e8e3cee0b67f18e4fc4c886ba571de57f36"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 2분"
+            ]
+          },
+          {
+            "step": 3,
+            "facts": [
+              "시간: 7분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -17390,6 +18056,21 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "701967a1e066f9a4222de66cddc0189855a63f579f7a1545091befe9dcaf4198"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [
+          "스틱버터: 적당량",
+          "마요소스: 적당량",
+          "쓰리라차마요소스: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -17468,6 +18149,18 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "219960fbc25693fd6d54de7e7fa27b47dc522c6af5e19dd2cf9ea72ab05c26cd"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -17583,6 +18276,20 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "70741c7b2a4c75975c27e659583a39881f4f1b3709cfa756adccea5c8f04dc35"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [
+          "맛소금: 약간"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -17654,6 +18361,25 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "98c525124ab74561d198e4b17a6c25452ea5aa85c6fc8082cbf6a12151419b89"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [
+          "후춧가루: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 8분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -17754,6 +18480,19 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "8f7d80859a5a9b49b7e695d6f98a7642163889c7a5b971a2e3250f715506abb1"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "간 생강: 약간"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -17865,6 +18604,18 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "23c542753948658349a84680db0deb1b0880ae33eb8e253cd93cc3a76fd43988"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "물: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -17934,6 +18685,25 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "5612472c3739ab729b9d6fcb2d42c24987c13fb723460b7372c57d44e9acf9f1"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "마가린: 적당량"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "불 세기: 중불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -18020,6 +18790,20 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "5612472c3739ab729b9d6fcb2d42c24987c13fb723460b7372c57d44e9acf9f1"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "꽃소금: 적당량",
+          "마가린: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -18109,6 +18893,20 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "5612472c3739ab729b9d6fcb2d42c24987c13fb723460b7372c57d44e9acf9f1"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "꽃소금: 적당량",
+          "마가린: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -18229,6 +19027,23 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "4a965fcc01ca74b67424166b8619527e9f898bb5a4b3ed54bc9be0261deedc6f"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 4,
+            "facts": [
+              "불 세기: 중불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -18352,6 +19167,17 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "0b7b2d154d4a50ae49abe57ec83c1ae15e06a3b2bef688c2ee81d535dab98f15"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -18446,6 +19272,28 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "7815b0480cc0ecfb345c3cfd4b56ca0fb4ff5eda5e181acc285b15e3d9ef7322"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "후춧가루: 적당량",
+          "파슬리가루: 적당량",
+          "케첩: 적당량",
+          "맛소금: 기호에 맞게 약간 (조리 과정에만 기재)"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 약불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -18557,6 +19405,28 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "63f195a717d8921ae989d9f7312566d11071fe3751b483d0393dc6b4a0c79151"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다."
+        ],
+        "unspecified_ingredients": [
+          "당근: 약간(20g)",
+          "전복죽: 적당량",
+          "간깨: 약간",
+          "참기름: 약간",
+          "후추가루: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 약불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -18622,6 +19492,15 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "9534831d85f50ef1ebe8f99c953cc67b7171c9490cbee9e3bf0f16a83c413bfb"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -18704,6 +19583,27 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "9534831d85f50ef1ebe8f99c953cc67b7171c9490cbee9e3bf0f16a83c413bfb"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "소금: 양 미표기",
+          "후추: 양 미표기"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 30~45분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -18783,6 +19683,18 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "c600f194fbfd4e4e72aeeaa0299cbda372cb297f4561ca4cf6bad3adacf41f50"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "파마산 치즈: 적당량",
+          "고춧가루: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -18862,6 +19774,20 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "c600f194fbfd4e4e72aeeaa0299cbda372cb297f4561ca4cf6bad3adacf41f50"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "파마산 치즈: 적당량",
+          "고춧가루: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -18975,6 +19901,21 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "5d7cf798b25f81e94d8ef52cde4e299ffae83efff697c920460722d8cfc6cc6d"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [
+          "후춧가루: 약간",
+          "통깨: 약간"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -19045,6 +19986,26 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "꽃소금: 적당량",
+          "MSG: 적당량"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 약불",
+              "시간: 1시간"
+            ]
+          }
+        ]
       }
     },
     {
@@ -19110,6 +20071,17 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "MSG: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -19193,6 +20165,23 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "양념장: 적당량",
+          "김가루: 적당량",
+          "깨소금: 적당량",
+          "후춧가루: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -19275,6 +20264,20 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "양념장: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -19366,6 +20369,20 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "양념장: 기호에 맞게 (조리 과정에만 기재)"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -19448,6 +20465,31 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "e089237a858b9492f6d66aebfe7bfabd742a81097b6d4d00dddc0b3f0659e29b"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "육수건더기: 양 미표기"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "불 세기: 중불"
+            ]
+          },
+          {
+            "step": 3,
+            "facts": [
+              "시간: 7분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -19512,6 +20554,15 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -19585,6 +20636,20 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "봄동: 양 미표기",
+          "만능겉절이양념: 적당량",
+          "참기름: 약간"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -19658,6 +20723,27 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "미나리: 양 미표기",
+          "만능겉절이양념: 적당량",
+          "참기름: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "크기: 5cm"
+            ]
+          }
+        ]
       }
     },
     {
@@ -19731,6 +20817,27 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "0d739842396756bc5107d4bb6c3a3da4ed0e0e06e6056610b972d52f86a3cbf4"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "참나물: 양 미표기",
+          "만능겉절이양념: 적당량",
+          "참기름: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "크기: 4cm"
+            ]
+          }
+        ]
       }
     },
     {
@@ -19810,6 +20917,34 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "307f7452d0727a2833626a40e44fe9c544d59259af44e302c7e6a84ff6d6a8b2"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [
+          "식용유(튀김용): 1.8L: 양 미표기",
+          "레몬즙: 약간",
+          "크림새우: 전량",
+          "양상추: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 3분, 30초"
+            ]
+          },
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 약불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -19876,6 +21011,23 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "불 세기: 중불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -19962,6 +21114,23 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "시간: 20분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -20059,6 +21228,25 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "b6acd877b01c5d6675b78c9352a3307523fd4f600393b82c8b5d3247f358fec9"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "시간: 20분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -20140,6 +21328,23 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "c22f5edc22e2a04b41303691341a0a1ca7e39d8eb17fd9c72d49eafafececfd9"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 센불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -20226,6 +21431,23 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "c22f5edc22e2a04b41303691341a0a1ca7e39d8eb17fd9c72d49eafafececfd9"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 센불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -20294,6 +21516,17 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "깨소금: 약간"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -20360,6 +21593,18 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "황설탕: 약간(2g)",
+          "통깨: 약간"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -20429,6 +21674,18 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "dd35c1cd929ce7ead2ccde9e5b5ea1b18a5840c688d43c9aa9c9959134cd88a1"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "고추장: 가득1큰술(50g): 양 미표기",
+          "깨소금: 약간"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -20504,6 +21761,15 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "af654cb1715145cef372b641ef448165e1b53c1f127bc2c152f2f3c1ccdceb25"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -20603,6 +21869,25 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "97ff203d5c191ccf20cfa76bc86c5e4172b33eb0e85aa31bdf14c2bb1b0c7f9d"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "후춧가루: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 중불",
+              "시간: 30분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -20705,6 +21990,27 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "fe5fac3e0a9e43b9f4a3d9bae62ebec8ee4b9152d7a15f7f8a45b657aff51a28"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 1분"
+            ]
+          },
+          {
+            "step": 4,
+            "facts": [
+              "불 세기: 중불",
+              "시간: 20분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -20806,6 +22112,25 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "a5a3183e21680ceef739e180278d166bb4ba8e23ec8ad5c0d2c410354277b158"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "후추가루: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 중불",
+              "시간: 6분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -20897,6 +22222,26 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "d63eeaf98616c7eeeef253b891e980911afff0f81ab168030e1e58f291971edf"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "파마산 치즈가루: 적당량",
+          "고운 고춧가루: 적당량"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "불 세기: 약불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -20992,6 +22337,20 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "af273387cc306d6cce154c4a67f6060170a5ca9cf7122f5579dbaa6a991ece3e"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "마요네즈: 가득1큰술(30g): 양 미표기",
+          "연유: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -21058,6 +22417,22 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "ab1aa68e39201698ccd1a002f7e803a2596f24ad8fbcc85af42a6fe5d2f0fdc6"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "불 세기: 약불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -21139,6 +22514,31 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "ab1aa68e39201698ccd1a002f7e803a2596f24ad8fbcc85af42a6fe5d2f0fdc6"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "떡볶이떡: 적당량",
+          "김밥햄: 적당량",
+          "비엔나소시지: 적당량",
+          "사각어묵: 적당량",
+          "식용유: 넉넉히 (조리 과정에만 기재)",
+          "소떡어떡소스: 기호에 맞게"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "시간: 2~3분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -21205,6 +22605,15 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -21288,6 +22697,36 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 2,
+            "facts": [
+              "불 세기: 중불",
+              "시간: 30분"
+            ]
+          },
+          {
+            "step": 3,
+            "facts": [
+              "시간: 5분"
+            ]
+          },
+          {
+            "step": 4,
+            "facts": [
+              "불 세기: 센불",
+              "시간: 5분"
+            ]
+          }
+        ]
       }
     },
     {
@@ -21369,6 +22808,15 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "ccf355d5d10fc12eef4de256b790d07b99e676fe4f1ff6e93840a809354f5406"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -21433,6 +22881,19 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "1e8bd1fc2f6c335b67ea178d5ae5f740d6f9686e2b7a9bfdf99158bd7b8c65a7"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "황설탕: 약간",
+          "양파: 약간",
+          "청양고추: 약간"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -21534,6 +22995,29 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "1e8bd1fc2f6c335b67ea178d5ae5f740d6f9686e2b7a9bfdf99158bd7b8c65a7"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "식용유: 적당량",
+          "맛소금: 약간",
+          "후춧가루: 약간"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 3,
+            "facts": [
+              "불 세기: 약불",
+              "크기: 1cm"
+            ]
+          }
+        ]
       }
     },
     {
@@ -21599,6 +23083,15 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "4d6a4c5ce01e586eeae2e86558493a44af2ab75d94395bb7199312ef781fc201"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -21677,6 +23170,22 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "4d6a4c5ce01e586eeae2e86558493a44af2ab75d94395bb7199312ef781fc201"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "후춧가루: 적당량",
+          "깨소금: 적당량",
+          "물: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -21758,6 +23267,23 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "186a0fd5b4b0a2f42dadc94ac88b32398c982c9d6d06f1a20f33c5dab5e066dc"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": [
+          {
+            "step": 4,
+            "facts": [
+              "불 세기: 중불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -21850,6 +23376,20 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "186a0fd5b4b0a2f42dadc94ac88b32398c982c9d6d06f1a20f33c5dab5e066dc"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "삶은 달걀: 양 미표기"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -21926,6 +23466,15 @@
         "checked_on": "2026-10-14",
         "status": "source_measurements_extracted",
         "source_sha256": "05c8f4b24ad820285deb392c98a27ec84d8f2c3f2bf6aff1c9f0a898eca1d68b"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -21991,6 +23540,15 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -22058,6 +23616,18 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [
+          "꽃소금: 한꼬집",
+          "진간장: 양 미표기 (조리 과정에만 기재)"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -22146,6 +23716,29 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "ef3d57c7889e6adcd9bb13498491add324065f3777c4256ac555070cf54845c4"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "후춧가루(밑간용): 적당량",
+          "맛소금(밑간용): 적당량",
+          "고추기름: 곁들임 양 미표기",
+          "고추냉이마요소스: 곁들임 양 미표기"
+        ],
+        "existing_step_cues": [
+          {
+            "step": 1,
+            "facts": [
+              "불 세기: 약불"
+            ]
+          }
+        ]
       }
     },
     {
@@ -22211,6 +23804,15 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "511e4da0587ae5367a015564cf0d32d2900a91ccef5f3719c2258eececb86291"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -22288,6 +23890,20 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "511e4da0587ae5367a015564cf0d32d2900a91ccef5f3719c2258eececb86291"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "양념장: 적당량",
+          "참기름: 적당량"
+        ],
+        "existing_step_cues": []
       }
     },
     {
@@ -22368,6 +23984,18 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "4b7ab58102f490431e2a7135e840fb9ecb72338b916636a4bf789b6a45773d5e"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "재료 목록에 여러 준비 배합이 있습니다. 전체 준비량과 한 번에 쓰는 양을 구분하세요."
+        ],
+        "unspecified_ingredients": [],
+        "existing_step_cues": []
       }
     },
     {
@@ -22449,6 +24077,23 @@
         "checked_on": "2026-10-14",
         "status": "section_mapping_required",
         "source_sha256": "4b7ab58102f490431e2a7135e840fb9ecb72338b916636a4bf789b6a45773d5e"
+      },
+      "cooking_preflight": {
+        "checked_on": "2026-10-14",
+        "review_kind": "source_identity_and_existing_instruction_scan",
+        "limits": [
+          "현재 조리 설명에는 불 세기가 없습니다. 임의의 공통 불 세기를 정하지 않았습니다.",
+          "현재 조리 설명에는 단계별 시간이 없습니다. 재료 크기·기기·익는 상태를 확인해야 합니다.",
+          "확인된 단일 인분 수가 없어 자동 분량 환산을 제공하지 않습니다.",
+          "별도로 만들어 쓰는 재료가 있습니다. 연결된 준비 레시피와 사용량을 먼저 확인하세요."
+        ],
+        "unspecified_ingredients": [
+          "대패삼겹살 두루치기: 적당량",
+          "김치: 적당량",
+          "김가루: 적당량",
+          "참기름: 약간"
+        ],
+        "existing_step_cues": []
       }
     },
     {

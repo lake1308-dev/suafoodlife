@@ -109,7 +109,7 @@ async function loadRecipeDB(){
  try{
   const res=await fetch("data/recipes.json?v=0.2.6",{cache:"no-store"});
   const data=await res.json(); DB_RECIPES=data.recipes||[];
-  try{const creatorRes=await fetch("data/recipes-creator-20261008.json?v=1.48.0",{cache:"no-store"});if(creatorRes.ok){const creator=await creatorRes.json();DB_RECIPES.push(...(creator.recipes||[]));}}catch(err){console.warn("Creator reference recipes unavailable.",err)}
+  try{const creatorRes=await fetch("data/recipes-creator-20261008.json?v=1.49.0",{cache:"no-store"});if(creatorRes.ok){const creator=await creatorRes.json();DB_RECIPES.push(...(creator.recipes||[]));}}catch(err){console.warn("Creator reference recipes unavailable.",err)}
   try{const episRes=await fetch("data/recipes-epis-20261012.json.gz?v=1.0.0",{cache:"no-store"});if(episRes.ok){const bytes=new Uint8Array(await episRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}}catch(err){console.warn("EPIS recipes unavailable.",err)}
   try{const kfiRes=await fetch("data/recipes-kfi-rice-20261012.json.gz?v=1.0.0",{cache:"no-store"});if(kfiRes.ok){const bytes=new Uint8Array(await kfiRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}}catch(err){console.warn("KFI recipes unavailable.",err)}
   try{const rdaRes=await fetch("data/recipes-rda-cooking-20261013.json.gz?v=1.0.0",{cache:"default"});if(rdaRes.ok){const bytes=new Uint8Array(await rdaRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}}catch(err){console.warn("RDA cooking recipes unavailable.",err)}
@@ -662,6 +662,15 @@ function renderCreatorAllergenReview(r){
  const note=document.createElement("p");note.textContent="이 원본 레시피의 재료명을 기준으로 확인했습니다. 제품별 전체 성분과 제조 과정의 혼입 여부는 확인되지 않았습니다. 개인에게 반응하는 다른 재료도 확인하세요.";box.appendChild(note);
  const link=document.createElement("a");link.href=info.classification_source_url;link.target="_blank";link.rel="noopener noreferrer";link.textContent="분류 기준: 식약처 알레르기 유발 식품 안내";box.appendChild(link);
 }
+function renderCookingPreflight(r,host){
+ const info=r.cooking_preflight;if(!info)return;
+ const details=document.createElement("details");const summary=document.createElement("summary");summary.textContent="요리 전 확인: 분량·불·시간";details.appendChild(summary);
+ const intro=document.createElement("p");intro.textContent="현재 재료 목록과 조리 설명에서 확인한 기준입니다. 원본의 모든 단계를 대조해 완성한 조리법이라는 뜻은 아닙니다.";details.appendChild(intro);
+ const ul=document.createElement("ul");info.limits.forEach(text=>{const li=document.createElement("li");li.textContent=text;ul.appendChild(li)});details.appendChild(ul);
+ if(info.unspecified_ingredients.length){const p=document.createElement("p");p.textContent="정확한 양이 없거나 적당량으로 표시된 재료: "+info.unspecified_ingredients.join(" · ");details.appendChild(p)}
+ if(info.existing_step_cues.length){const list=document.createElement("ul");info.existing_step_cues.forEach(row=>{const li=document.createElement("li");li.textContent="현재 설명 "+row.step+"단계 — "+row.facts.join(" · ");list.appendChild(li)});details.appendChild(list)}
+ host.appendChild(details);
+}
 function renderCookingDetails(r,host){
  const rows=r.source_cooking_details||[];if(!rows.length)return;
  const details=document.createElement("details");
@@ -670,7 +679,7 @@ function renderCookingDetails(r,host){
  const list=document.createElement("ul");rows.forEach(row=>{const li=document.createElement("li");li.textContent="원본 "+row.source_step+"단계 — "+row.facts.join(" · ");list.appendChild(li)});details.appendChild(list);host.appendChild(details);
 }
 function renderCookingNotice(r,host){
- renderCookingDetails(r,host);
+ renderCookingDetails(r,host);renderCookingPreflight(r,host);
  if(!r.cooking_notice)return;
  const p=document.createElement("p");p.textContent="조리 안내: "+r.cooking_notice;host.appendChild(p);
  if(r.related_recipe_id){const related=DB_RECIPES.find(x=>x.id===r.related_recipe_id);if(related){const button=document.createElement("button");button.type="button";button.textContent="재료·조리 순서 보기: "+related.names.ko;button.onclick=()=>renderDBRecipe(related);host.appendChild(button)}}
