@@ -343,21 +343,21 @@
       "name": "쫄면 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_kj2ZupQ7fts",
       "name": "스팸마요김치덮밥 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_2y4Jvvmj7LY",
       "name": "메밀국수(가쓰오부시 장국) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_10fl2mebYHs_egg",
