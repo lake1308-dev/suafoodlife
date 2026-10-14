@@ -308,14 +308,14 @@
       "name": "고등어김치찜(통조림) · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_B2s5seuBCn0",
       "name": "고추장찌개 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 8,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_iNh_bXmYfgw",
@@ -329,14 +329,14 @@
       "name": "사골북엇국 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 7,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_5iRPP3nqCJE",
       "name": "돼지고기덮밥 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_FbApByZGCXg",
