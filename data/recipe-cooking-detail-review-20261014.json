@@ -406,21 +406,21 @@
       "name": "잡채밥 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_rrNfCVRFsvs_parboil",
       "name": "잡채(데쳐서 만들기) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_xNUvkgONOOM_sauce",
       "name": "장아찌소스 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_xexAbSUQzSw_seaweed",
