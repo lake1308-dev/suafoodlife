@@ -427,21 +427,21 @@
       "name": "미역냉국 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_mjLPNh11_xs_salad",
       "name": "참치마요샐러드 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_mjLPNh11_xs_toast",
       "name": "튜나멜트토스트 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_fdW2duLTBLU_zucchini",
