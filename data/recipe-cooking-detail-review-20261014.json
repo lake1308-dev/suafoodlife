@@ -49,7 +49,7 @@
       "name": "닭볶음탕 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 5,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_t4Es8mwdYlE",
@@ -77,14 +77,14 @@
       "name": "비빔밥(전자레인지) · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_GP8_7D5eM6A",
       "name": "순두부찌개 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_8uwmFQH614M",
@@ -119,7 +119,7 @@
       "name": "콩나물무침(100인분) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_EUdt9GjWj5c",
@@ -175,7 +175,7 @@
       "name": "김치수제비 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_mo8ogr40m4o",
@@ -196,21 +196,21 @@
       "name": "닭갈비(만능 양념장) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_AlK2Gl6kHZI",
       "name": "오므라이스 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_LTVxirHWvh8",
       "name": "뒷다리살카레 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 5,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_Gq9S0dJ3wHg",
