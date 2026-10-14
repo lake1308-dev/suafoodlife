@@ -665,21 +665,21 @@
       "name": "옥수수전(치즈·연유) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_zS_o6psOt9g_pan",
       "name": "콘치즈(프라이팬) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_zS_o6psOt9g_air",
       "name": "콘치즈(에어프라이어) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_wfm951HEpGU_vinegarsoy",
