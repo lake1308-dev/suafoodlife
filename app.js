@@ -107,7 +107,7 @@ function rebuildIngredientIndex(){
 }
 async function loadRecipeDB(){
  try{
-  const res=await fetch("data/recipes.json?v=0.2.4",{cache:"no-store"});
+  const res=await fetch("data/recipes.json?v=0.2.5",{cache:"no-store"});
   const data=await res.json(); DB_RECIPES=data.recipes||[];
   try{const creatorRes=await fetch("data/recipes-creator-20261008.json?v=1.43.0",{cache:"no-store"});if(creatorRes.ok){const creator=await creatorRes.json();DB_RECIPES.push(...(creator.recipes||[]));}}catch(err){console.warn("Creator reference recipes unavailable.",err)}
   try{const episRes=await fetch("data/recipes-epis-20261012.json.gz?v=1.0.0",{cache:"no-store"});if(episRes.ok){const bytes=new Uint8Array(await episRes.arrayBuffer());const extra=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).json():JSON.parse(new TextDecoder().decode(bytes));DB_RECIPES.push(...(extra.recipes||[]));}}catch(err){console.warn("EPIS recipes unavailable.",err)}

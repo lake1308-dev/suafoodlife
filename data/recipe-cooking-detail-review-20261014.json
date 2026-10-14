@@ -7,7 +7,7 @@
     "source_measurements_extracted": 95,
     "source_has_no_numeric_cooking_cues": 16
   },
-  "other_recipe_count": 2060,
+  "other_recipe_count": 2061,
   "creator_items": [
     {
       "id": "paik_DnQ09ZZCjCs",
@@ -2031,6 +2031,13 @@
       "id": "egg_fried_rice_reference",
       "file": "recipes.json",
       "step_count": 4,
+      "has_measured_cooking_cues": false,
+      "status": "existing_steps_scanned_not_manual_completion"
+    },
+    {
+      "id": "disanxian_reference",
+      "file": "recipes.json",
+      "step_count": 5,
       "has_measured_cooking_cues": false,
       "status": "existing_steps_scanned_not_manual_completion"
     },

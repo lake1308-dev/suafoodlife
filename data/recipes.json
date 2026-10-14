@@ -1,5 +1,5 @@
 {
-  "version": "0.2.4",
+  "version": "0.2.5",
   "purpose": "Editable standard recipes whose nutrition can be recalculated from ingredient records.",
   "nutrition_notice": {
     "ko": "표준 레시피 기준 예상 영양정보이며 재료·제품·조리법·1인분 양에 따라 달라질 수 있습니다.",
@@ -1037,6 +1037,62 @@
       "reviewed_on": "2026-10-07",
       "nutrition_status": "incomplete_until_verified_ingredients",
       "allergen_review_note": "이 조리 예시에 한해 재료명으로 확인한 원료를 표시합니다. 김치·된장·고추장·간장 등 사용 제품의 전체 표시와 조리 중 혼입 가능성은 별도로 확인하세요."
+    },
+    {
+      "id": "disanxian_reference",
+      "names": {
+        "ko": "지삼선",
+        "en": "Di San Xian"
+      },
+      "country": "China",
+      "region": "",
+      "category": "stir-fry",
+      "category_ko": "채소 요리",
+      "tags": [
+        "지삼선",
+        "디싼셴",
+        "가지",
+        "감자",
+        "피망"
+      ],
+      "servings": null,
+      "ingredients": [],
+      "ingredients_text": "*채소\n가지 450g\n감자 300g\n피망 200g\n표고버섯 40g\n감자전분 — 원본 양 미표기\n식용유 — 원본 양 미표기\n*향신채\n다진 생강 5g\n대파 100g\n마늘 30g\n*소스\n양조간장 3숟가락\n미림 3숟가락\n굴소스 2숟가락\n설탕 1숟가락\n두반장 1숟가락",
+      "steps": {
+        "ko": [
+          "손질 — 가지 450g, 감자 300g, 피망 200g, 표고버섯 40g을 한입 크기로 자르고 감자전분을 고루 묻힙니다.",
+          "소스 — 양조간장 3숟가락, 미림 3숟가락, 굴소스 2숟가락, 설탕 1숟가락, 두반장 1숟가락을 섞습니다.",
+          "채소 익히기 — 기름을 넉넉히 두른 팬에서 전분을 묻힌 채소를 튀겨 익힙니다. 원본에는 정확한 온도와 시간이 없습니다.",
+          "향내기 — 별도 팬에 기름과 다진 생강 5g, 대파 100g, 마늘 30g을 넣어 볶습니다.",
+          "마무리 — 준비한 소스와 익힌 채소를 향신채 팬에 넣고 고루 섞습니다."
+        ],
+        "en": [
+          "손질 — 가지 450g, 감자 300g, 피망 200g, 표고버섯 40g을 한입 크기로 자르고 감자전분을 고루 묻힙니다.",
+          "소스 — 양조간장 3숟가락, 미림 3숟가락, 굴소스 2숟가락, 설탕 1숟가락, 두반장 1숟가락을 섞습니다.",
+          "채소 익히기 — 기름을 넉넉히 두른 팬에서 전분을 묻힌 채소를 튀겨 익힙니다. 원본에는 정확한 온도와 시간이 없습니다.",
+          "향내기 — 별도 팬에 기름과 다진 생강 5g, 대파 100g, 마늘 30g을 넣어 볶습니다.",
+          "마무리 — 준비한 소스와 익힌 채소를 향신채 팬에 넣고 고루 섞습니다."
+        ]
+      },
+      "public_recipe": true,
+      "source_kind": "recipe_reference",
+      "source_label": "Chef Kim 조리 참고",
+      "source_nutrition": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null,
+        "sodium_mg": null
+      },
+      "nutrition_status": "not_calculated",
+      "source_weight_text": "",
+      "source": {
+        "name": "Chef Kim의 뚝딱 레시피",
+        "record_id": "325",
+        "url": "https://chef-choice.tistory.com/325",
+        "retrieved_on": "2026-10-14"
+      },
+      "cooking_notice": "표고버섯·두반장을 더한 참고 버전입니다. 출처의 재료 배합과 조리 순서를 Food Life가 새로 정리했습니다. 숟가락의 ml·g 기준, 인분 수, 튀김 온도·시간·기름 양은 미표기입니다. 감자 속까지 익었는지 확인하세요. 간장·굴소스·두반장·미림 등은 제품별 알레르기 표시를 확인하세요. 전체 영양값과 혼입 여부는 검증하지 않았습니다."
     }
   ],
   "progress": {

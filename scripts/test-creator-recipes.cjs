@@ -19,7 +19,7 @@ assert(basic.example_recipe);assert.equal(basic.related_recipe_id,tang.id);
 ctx.DB_RECIPES=data.recipes;ctx.renderDBRecipe=r=>{ctx.selected=r.id};ctx.r=basic;nodes.get('recipeNutritionNotice').replaceChildren();vm.runInContext('renderCookingNotice(r,$("recipeNutritionNotice"))',ctx);
 const button=nodes.get('recipeNutritionNotice').children.find(x=>x.type==='button');assert(button);button.onclick();assert.equal(ctx.selected,tang.id);
 const audit=JSON.parse(fs.readFileSync('data/recipe-cooking-detail-review-20261014.json','utf8'));
-assert.equal(audit.creator_count,274);assert.equal(audit.other_recipe_count,2060);
+assert.equal(audit.creator_count,274);assert.equal(audit.other_recipe_count,2061);
 assert.equal(data.recipes.filter(r=>r.source_cooking_details.length).length,95);
 for(const r of data.recipes){
  for(const row of r.source_cooking_details){assert(row.source_step>=1);assert(row.facts.length);assert(row.facts.every(x=>/^(크기|시간|온도|불): /.test(x)));}
@@ -27,6 +27,8 @@ for(const r of data.recipes){
  ctx.r=r;vm.runInContext('renderPublicRecipe(r,false)',ctx);
  if(r.source_cooking_details.length){const box=nodes.get('recipeNutritionNotice').children.find(x=>x.children?.some(t=>t.textContent==='원본에서 확인한 크기·시간·불 조절'));assert(box);assert(box.children.some(x=>x.textContent?.includes('단계 번호')));}
 }
+const disanxian=JSON.parse(fs.readFileSync('data/recipes.json','utf8')).recipes.find(r=>r.id==='disanxian_reference');
+assert.equal(disanxian.names.ko,'지삼선');ctx.r=disanxian;vm.runInContext('renderPublicRecipe(r,false)',ctx);assert.equal(nodes.get('recipeSteps').children.length,5);assert(nodes.get('recipeNutritionNotice').children.some(x=>x.href===disanxian.source.url));assert.equal(disanxian.servings,null);
 // A failed creator request must not prevent the existing public collection loading.
 const loadSource=app.slice(app.indexOf('async function loadRecipeDB('),app.indexOf('function bulkToIngredient('));
 (async()=>{for(const fail of [false,true]){const calls=[];const c={DB_RECIPES:[],console:{warn(){}},TextDecoder,fetch:async url=>{calls.push(url);if(url.includes('creator')){if(fail)throw Error('offline');return {ok:true,json:async()=>data};}if((url.includes('recipes-epis')||url.includes('recipes-kfi')||url.includes('recipes-rda-cooking')||url.includes('recipes-epis-master')))return {ok:false};if(url.includes('.gz'))return {ok:true,arrayBuffer:async()=>new TextEncoder().encode(JSON.stringify({recipes:[{id:'public-sentinel'}]})).buffer};return {json:async()=>({recipes:[{id:'basic-sentinel'}]})};}};vm.createContext(c);vm.runInContext(loadSource,c);await c.loadRecipeDB();assert(c.DB_RECIPES.some(r=>r.id==='public-sentinel'));assert.equal(c.DB_RECIPES.length,fail?2:276);assert.equal(calls.length,7);}console.log('PASS 274 creator recipes: attribution, measured ingredients, original servings, no invented nutrition; loader handles unavailable creator data');})().catch(e=>{console.error(e);process.exitCode=1});
