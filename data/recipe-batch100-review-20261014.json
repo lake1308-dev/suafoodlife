@@ -452,7 +452,7 @@
       "id": "paik_Zkxiydlmplw",
       "name": "오징어뭇국 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 2,
       "limits": [
@@ -463,7 +463,7 @@
       "id": "paik_YXMxnHx7yZQ",
       "name": "달걀샌드위치 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 3,
       "step_cue_rows": 0,
       "limits": [
@@ -476,7 +476,7 @@
       "id": "paik_JrTVWvj8uhs",
       "name": "들기름두부구이 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -490,7 +490,7 @@
       "id": "paik_X8VEvBHHOjQ",
       "name": "몬테크리스토샌드위치 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 0,
       "limits": [
@@ -504,7 +504,7 @@
       "id": "paik_coagMFr_nV8",
       "name": "비빔수제비 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 1,
       "limits": [
@@ -516,7 +516,7 @@
       "id": "paik_VTnPfw9h-3k",
       "name": "탕수육냄비전골 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 0,
       "limits": [
@@ -529,7 +529,7 @@
       "id": "paik_rqbhm9hpvp8",
       "name": "치즈라면전 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 0,
       "limits": [
@@ -541,7 +541,7 @@
       "id": "paik_z-XcuZL80Lc_basic",
       "name": "길거리토스트(기본형) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 1,
       "limits": [
@@ -1213,6 +1213,6 @@
       ]
     }
   ],
-  "manual_instruction_rewrites": 37,
+  "manual_instruction_rewrites": 45,
   "preflight_guidance_added": 100
 }
