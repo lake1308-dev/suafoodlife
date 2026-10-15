@@ -735,7 +735,7 @@
       "name": "육개장(20분 방식) · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 5,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_0bnFoRQebq0_cream",
@@ -749,14 +749,14 @@
       "name": "만능양파덮밥 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_uAShnbgCLSU",
       "name": "만능양파볶음(대용량) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_du9q1BldDHU",
