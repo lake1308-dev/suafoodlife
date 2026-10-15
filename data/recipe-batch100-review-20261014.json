@@ -359,7 +359,7 @@
       "id": "paik_81gLJ5kRu4Y",
       "name": "시금치무침(고기 곁들임) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 0,
       "limits": [
@@ -370,7 +370,7 @@
       "id": "paik_R0xWJ4c8wR4",
       "name": "닭칼국수 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 0,
       "limits": [
@@ -383,7 +383,7 @@
       "id": "paik_2T7BfP1sx9g",
       "name": "돼지불백 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 2,
       "step_cue_rows": 0,
       "limits": [
@@ -396,7 +396,7 @@
       "id": "paik_CVtdTM6gJTY",
       "name": "라면땅(마요네즈) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 1,
       "limits": [
@@ -407,7 +407,7 @@
       "id": "paik_-dBPLgpC-tk_basic",
       "name": "프렌치토스트(기본형) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 5,
       "step_cue_rows": 1,
       "limits": [
@@ -419,7 +419,7 @@
       "id": "paik_-dBPLgpC-tk_milk",
       "name": "프렌치토스트(우유형) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 3,
       "step_cue_rows": 1,
       "limits": [
@@ -430,7 +430,7 @@
       "id": "paik_lqCzPHUu-3E",
       "name": "라면땅(초고추장 곁들임) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 2,
       "step_cue_rows": 1,
       "limits": [
@@ -441,7 +441,7 @@
       "id": "paik_tCe6B6U8wHw",
       "name": "단무지무침 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -1213,6 +1213,6 @@
       ]
     }
   ],
-  "manual_instruction_rewrites": 29,
+  "manual_instruction_rewrites": 37,
   "preflight_guidance_added": 100
 }
