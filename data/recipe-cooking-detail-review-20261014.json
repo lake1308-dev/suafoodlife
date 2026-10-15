@@ -763,42 +763,42 @@
       "name": "닭고기덮밥 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_QPjfwubAvso",
       "name": "감자샐러드(대용량) · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_BqxpjY7TJ8g",
       "name": "마파두부(만능양념장) · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_6e-IbuuD6ZU",
       "name": "라볶이 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_zRg4nxIv3j8",
       "name": "볶음우동 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_NvoCWyO0Vfg",
       "name": "김라면 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_ny9XkQbN6sI",
