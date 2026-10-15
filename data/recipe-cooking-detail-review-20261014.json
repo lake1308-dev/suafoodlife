@@ -854,56 +854,56 @@
       "name": "간장냉국수 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_RH73tQvg33g",
       "name": "들깨칼국수 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 4,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_iij0bMkadEw",
       "name": "다시마칼국수 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_MqdncXPR0lY",
       "name": "꽈리고추삼겹살볶음 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 4,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_-Imo0xgUQG0",
       "name": "도토리묵사발 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 4,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_XKohdaL45K8",
       "name": "깍두기볶음밥 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 1,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_5uWt6U1Re5Q",
       "name": "만능양파간장비빔면 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_iO0xX0AyS8M",
       "name": "꽈리고추닭볶음 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 6,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_81gLJ5kRu4Y",

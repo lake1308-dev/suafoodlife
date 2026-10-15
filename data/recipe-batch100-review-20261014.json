@@ -260,7 +260,7 @@
       "id": "paik_vjWddRRR58M",
       "name": "간장냉국수 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 1,
       "limits": [
@@ -272,7 +272,7 @@
       "id": "paik_RH73tQvg33g",
       "name": "들깨칼국수 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 1,
       "limits": [
@@ -284,7 +284,7 @@
       "id": "paik_iij0bMkadEw",
       "name": "다시마칼국수 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 2,
       "step_cue_rows": 1,
       "limits": [
@@ -296,7 +296,7 @@
       "id": "paik_MqdncXPR0lY",
       "name": "꽈리고추삼겹살볶음 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -309,7 +309,7 @@
       "id": "paik_-Imo0xgUQG0",
       "name": "도토리묵사발 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 1,
       "limits": [
@@ -320,7 +320,7 @@
       "id": "paik_XKohdaL45K8",
       "name": "깍두기볶음밥 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 3,
       "step_cue_rows": 0,
       "limits": [
@@ -333,7 +333,7 @@
       "id": "paik_5uWt6U1Re5Q",
       "name": "만능양파간장비빔면 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 1,
       "limits": [
@@ -346,7 +346,7 @@
       "id": "paik_iO0xX0AyS8M",
       "name": "꽈리고추닭볶음 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 3,
       "limits": [
@@ -1213,6 +1213,6 @@
       ]
     }
   ],
-  "manual_instruction_rewrites": 21,
+  "manual_instruction_rewrites": 29,
   "preflight_guidance_added": 100
 }
