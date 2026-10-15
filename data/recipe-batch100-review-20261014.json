@@ -187,7 +187,7 @@
       "id": "paik_ny9XkQbN6sI",
       "name": "냉라면 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 0,
       "limits": [
@@ -200,7 +200,7 @@
       "id": "paik_Lz0tPtrMQmQ",
       "name": "골뱅이무침 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -211,7 +211,7 @@
       "id": "paik_2vrJR3ZpRf0",
       "name": "도라지나물 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 1,
       "limits": [
@@ -223,7 +223,7 @@
       "id": "paik_JmiW-dD1RqM",
       "name": "고사리나물 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 0,
       "limits": [
@@ -236,7 +236,7 @@
       "id": "paik_mZ2C8gEw8Vk",
       "name": "갈치조림 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 1,
       "limits": [
@@ -247,7 +247,7 @@
       "id": "paik_sRQxVQ5-NNA",
       "name": "깍두기 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 1,
       "limits": [
@@ -1213,6 +1213,6 @@
       ]
     }
   ],
-  "manual_instruction_rewrites": 15,
+  "manual_instruction_rewrites": 21,
   "preflight_guidance_added": 100
 }

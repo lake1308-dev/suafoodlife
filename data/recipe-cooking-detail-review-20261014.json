@@ -805,28 +805,28 @@
       "name": "냉라면 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_Lz0tPtrMQmQ",
       "name": "골뱅이무침 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_2vrJR3ZpRf0",
       "name": "도라지나물 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_JmiW-dD1RqM",
       "name": "고사리나물 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_tD8ApzPsDx8",
@@ -840,14 +840,14 @@
       "name": "갈치조림 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 4,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_sRQxVQ5-NNA",
       "name": "깍두기 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_vjWddRRR58M",
