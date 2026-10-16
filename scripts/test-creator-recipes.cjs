@@ -29,8 +29,8 @@ for(const r of data.recipes){
 }
 const disanxian=JSON.parse(fs.readFileSync('data/recipes.json','utf8')).recipes.find(r=>r.id==='disanxian_reference');
 assert.equal(disanxian.names.ko,'지삼선');ctx.r=disanxian;vm.runInContext('renderPublicRecipe(r,false)',ctx);assert.equal(nodes.get('recipeSteps').children.length,5);assert(nodes.get('recipeNutritionNotice').children.some(x=>x.href===disanxian.source.url));assert.equal(disanxian.servings,null);
-const batch=JSON.parse(fs.readFileSync('data/recipe-batch100-review-20261014.json','utf8'));assert.equal(batch.reviewed,100);assert.equal(batch.manual_instruction_rewrites,53);
-assert.equal(data.recipes.filter(r=>r.cooking_preflight).length,100);assert.equal(data.recipes.filter(r=>r.instruction_review).length,153);
+const batch=JSON.parse(fs.readFileSync('data/recipe-batch100-review-20261014.json','utf8'));assert.equal(batch.reviewed,100);assert.equal(batch.manual_instruction_rewrites,61);
+assert.equal(data.recipes.filter(r=>r.cooking_preflight).length,100);assert.equal(data.recipes.filter(r=>r.instruction_review).length,161);
 for(const r of data.recipes.filter(r=>r.cooking_preflight)){ctx.r=r;vm.runInContext('renderPublicRecipe(r,false)',ctx);assert(nodes.get('recipeNutritionNotice').children.some(x=>x.children?.some(y=>y.textContent==='요리 전 확인: 분량·불·시간')));}
 // A failed creator request must not prevent the existing public collection loading.
 const loadSource=app.slice(app.indexOf('async function loadRecipeDB('),app.indexOf('function bulkToIngredient('));

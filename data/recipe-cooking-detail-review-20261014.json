@@ -1085,56 +1085,56 @@
       "name": "옥수수전(전분·부침형) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_yI67M3IS4GI_fried",
       "name": "옥수수전(전분·튀김형) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_M_G9MGGQdbs",
       "name": "콩나물찜 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 5,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_FI6iypOkNUg_broth",
       "name": "멸치육수 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_FI6iypOkNUg_sauce",
       "name": "멸치국수양념장 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_FI6iypOkNUg_gimhae",
       "name": "멸치국수(부산·김해식) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_FI6iypOkNUg_basic",
       "name": "멸치국수(채소고명) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_FI6iypOkNUg_egg",
       "name": "멸치국수(달걀국물) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_FI6iypOkNUg_egg_braise",
