@@ -553,7 +553,7 @@
       "id": "paik_z-XcuZL80Lc_cheese",
       "name": "길거리토스트(치즈형) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 2,
       "step_cue_rows": 0,
       "limits": [
@@ -566,7 +566,7 @@
       "id": "paik_z-XcuZL80Lc_ham_cheese",
       "name": "길거리토스트(햄치즈형) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 2,
       "step_cue_rows": 0,
       "limits": [
@@ -579,7 +579,7 @@
       "id": "paik_lDr6lNjUZ8w",
       "name": "콩비지찌개 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 1,
       "limits": [
@@ -591,7 +591,7 @@
       "id": "paik_wezbeu4-C2s",
       "name": "청국장찌개 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -604,7 +604,7 @@
       "id": "paik_4WEhZLQ37Fk",
       "name": "새둥지전 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 4,
       "step_cue_rows": 1,
       "limits": [
@@ -616,7 +616,7 @@
       "id": "paik_IO6AeSPfJ0Y",
       "name": "전복죽 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 5,
       "step_cue_rows": 1,
       "limits": [
@@ -627,7 +627,7 @@
       "id": "paik_7Ez066LV76U_sauce",
       "name": "닭백숙양념장 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -638,7 +638,7 @@
       "id": "paik_7Ez066LV76U",
       "name": "닭백숙 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 2,
       "step_cue_rows": 1,
       "limits": [
@@ -1213,6 +1213,6 @@
       ]
     }
   ],
-  "manual_instruction_rewrites": 45,
+  "manual_instruction_rewrites": 53,
   "preflight_guidance_added": 100
 }
