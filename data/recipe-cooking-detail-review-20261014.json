@@ -1526,56 +1526,56 @@
       "name": "감바스알아히요 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 1,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_fEYJSPSGaLI_sauce",
       "name": "중화제육소스 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_fEYJSPSGaLI",
       "name": "중화제육면 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_fpqJOFMfhmk",
       "name": "명란크림파스타 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_kfGi3rTct8c_sauce",
       "name": "찜닭소스 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_kfGi3rTct8c",
       "name": "찜닭 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_o3aLEbn2n5Y",
       "name": "치즈등갈비 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 7,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_eeiqjyYgPew",
       "name": "닭볶음탕(데침형) · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_037o6vxm0es_sauce",
