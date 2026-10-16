@@ -1694,56 +1694,56 @@
       "name": "떡갈비(두툼한 소고기형) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_wyCV_de0CDY",
       "name": "떡갈비덮밥 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_78AQ-ten9lE",
       "name": "달걀볶음라면 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_9Wvd9VL0OpM",
       "name": "카레라면 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_GlQZFTUeRoI",
       "name": "양파게티 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_LwHQ_LE4b9I",
       "name": "진비빔면팟타이 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 4,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_WGqcdDem0Vg",
       "name": "불고기짜파구리 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_XU5Jv4e7DKw",
       "name": "시금치고기덮밥 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_cNfbDK9vIFI",
