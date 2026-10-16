@@ -941,7 +941,7 @@
       "id": "paik_rLDquEv-ZJg",
       "name": "황태미역국 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 2,
       "limits": []
@@ -950,7 +950,7 @@
       "id": "paik_87zznFb0-us",
       "name": "빨간어묵 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 1,
       "limits": [
@@ -961,7 +961,7 @@
       "id": "paik_9YlFFVisCBY",
       "name": "통옥수수구이 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 2,
       "step_cue_rows": 1,
       "limits": [
@@ -973,7 +973,7 @@
       "id": "paik_-A0iP6Uzy3A",
       "name": "떡어묵꼬치 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 2,
       "step_cue_rows": 0,
       "limits": [
@@ -986,7 +986,7 @@
       "id": "paik_OSYQHa-vbVU_sauce",
       "name": "소떡어떡소스 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 1,
       "limits": [
@@ -997,7 +997,7 @@
       "id": "paik_OSYQHa-vbVU",
       "name": "소떡어떡 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 6,
       "step_cue_rows": 1,
       "limits": [
@@ -1010,7 +1010,7 @@
       "id": "paik_-8qL_l94cJ8_sauce",
       "name": "누룽지백숙양념장 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -1021,7 +1021,7 @@
       "id": "paik_-8qL_l94cJ8_pot",
       "name": "누룽지백숙(냄비) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 3,
       "limits": [
@@ -1213,6 +1213,6 @@
       ]
     }
   ],
-  "manual_instruction_rewrites": 77,
+  "manual_instruction_rewrites": 85,
   "preflight_guidance_added": 100
 }
