@@ -753,7 +753,7 @@
       "id": "paik_FI6iypOkNUg_egg_braise",
       "name": "달걀조림(육수건더기 활용) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 2,
       "limits": [
@@ -765,7 +765,7 @@
       "id": "paik_UlsvKb-Bafs_sauce",
       "name": "만능겉절이양념 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -776,7 +776,7 @@
       "id": "paik_UlsvKb-Bafs_spring_cabbage",
       "name": "봄동겉절이 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 3,
       "step_cue_rows": 0,
       "limits": [
@@ -788,7 +788,7 @@
       "id": "paik_UlsvKb-Bafs_minari",
       "name": "미나리겉절이 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 3,
       "step_cue_rows": 1,
       "limits": [
@@ -800,7 +800,7 @@
       "id": "paik_UlsvKb-Bafs_chamnamul",
       "name": "참나물겉절이 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 3,
       "step_cue_rows": 1,
       "limits": [
@@ -812,7 +812,7 @@
       "id": "paik_5UVURwno_jA",
       "name": "크림새우 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 4,
       "step_cue_rows": 2,
       "limits": [
@@ -824,7 +824,7 @@
       "id": "paik_2HZO-YNHFPk_sauce",
       "name": "양념치킨소스 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 1,
       "limits": [
@@ -836,7 +836,7 @@
       "id": "paik_2HZO-YNHFPk_fried",
       "name": "후라이드치킨 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 1,
       "limits": [
@@ -1213,6 +1213,6 @@
       ]
     }
   ],
-  "manual_instruction_rewrites": 61,
+  "manual_instruction_rewrites": 69,
   "preflight_guidance_added": 100
 }
