@@ -1638,56 +1638,56 @@
       "name": "떡갈비버거 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_GsnwEVsotdU_sauce",
       "name": "함박스테이크소스 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_GsnwEVsotdU",
       "name": "함박스테이크 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_PjMWHZ3ubsQ",
       "name": "소갈비찜(기본형) · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_v32NjYn5pSc",
       "name": "소갈비찜(데침형) · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 8,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_dxuntkET42M_batter",
       "name": "참치함박반죽 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_dxuntkET42M",
       "name": "참치함박스테이크 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_wM9hbmwCpdc",
       "name": "크림떡볶이 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_wyCV_de0CDY_patty",
