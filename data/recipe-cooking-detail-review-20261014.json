@@ -1470,56 +1470,56 @@
       "name": "버팔로윙 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_OgMi1KTPzJY",
       "name": "치킨스테이크 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_RVfSeUZ8XkY",
       "name": "돼지고기김치찜 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 1,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_WT9tCViPddU",
       "name": "돼지갈비찜 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 8,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_nQaR6cwSmQk",
       "name": "가지구이덮밥 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 5,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_UEfoOmupTG8",
       "name": "전복내장크림파스타 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_ohihzV6Z85k",
       "name": "알리오올리오(마늘듬뿍) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_qI1LRerUWXQ",
       "name": "수박오이냉국 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 1,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_jBdQ65yHB_U",
