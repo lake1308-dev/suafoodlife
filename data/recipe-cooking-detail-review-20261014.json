@@ -1582,56 +1582,56 @@
       "name": "경양식돈가스소스 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_037o6vxm0es_egg",
       "name": "경양식돈가스(달걀옷) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_037o6vxm0es_batter",
       "name": "경양식돈가스(물반죽) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_37-BCf85bHk",
       "name": "LA갈비 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_F3C8-uEMixU_pork",
       "name": "돼지마늘버거고기튀김 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_F3C8-uEMixU_sauce",
       "name": "돼지마늘버거마늘소스 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_F3C8-uEMixU",
       "name": "돼지마늘버거 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_GpEiUb20IFo_patty",
       "name": "떡갈비버거패티 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_GpEiUb20IFo",
