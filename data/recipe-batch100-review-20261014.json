@@ -1032,7 +1032,7 @@
       "id": "paik_-8qL_l94cJ8_rice_cooker",
       "name": "누룽지백숙(전기밥솥) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -1043,7 +1043,7 @@
       "id": "paik_0wqp-Ii5wQM_sauce",
       "name": "부추완자전양념간장 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 3,
       "step_cue_rows": 0,
       "limits": [
@@ -1054,7 +1054,7 @@
       "id": "paik_0wqp-Ii5wQM",
       "name": "부추완자전 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 3,
       "step_cue_rows": 1,
       "limits": [
@@ -1067,7 +1067,7 @@
       "id": "paik_6AmBDFIJRE8_sauce",
       "name": "백순대볶음소스 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -1078,7 +1078,7 @@
       "id": "paik_6AmBDFIJRE8",
       "name": "백순대볶음 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 3,
       "step_cue_rows": 0,
       "limits": [
@@ -1092,7 +1092,7 @@
       "id": "paik_7S9VN54ldnU_sauce",
       "name": "만능짜장소스 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 1,
       "limits": [
@@ -1104,7 +1104,7 @@
       "id": "paik_7S9VN54ldnU",
       "name": "짜장떡볶이 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 1,
       "step_cue_rows": 0,
       "limits": [
@@ -1118,7 +1118,7 @@
       "id": "paik_4SEy2py0W_w",
       "name": "골뱅이파채무침 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -1129,7 +1129,7 @@
       "id": "paik__l_cJyxNkhc_chili_oil",
       "name": "고추기름(대파형) · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -1140,7 +1140,7 @@
       "id": "paik__l_cJyxNkhc_wasabi_mayo",
       "name": "고추냉이마요소스 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 2,
       "step_cue_rows": 0,
       "limits": [
@@ -1151,7 +1151,7 @@
       "id": "paik__l_cJyxNkhc",
       "name": "닭다리살대파무침 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 4,
       "step_cue_rows": 1,
       "limits": [
@@ -1164,7 +1164,7 @@
       "id": "paik_iWWQBoS3SL4_sauce",
       "name": "고추장비빔국수양념장 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -1175,7 +1175,7 @@
       "id": "paik_iWWQBoS3SL4",
       "name": "고추장비빔국수 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 2,
       "step_cue_rows": 0,
       "limits": [
@@ -1188,7 +1188,7 @@
       "id": "paik_Om6W3JBfmFU",
       "name": "대패삼겹살두루치기 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 0,
       "step_cue_rows": 0,
       "limits": [
@@ -1202,7 +1202,7 @@
       "id": "paik_Om6W3JBfmFU_rice",
       "name": "대패두루치기볶음밥 · 백종원 참고",
       "source_identity_verified": true,
-      "manual_instruction_rewrite": false,
+      "manual_instruction_rewrite": true,
       "unspecified_ingredient_lines": 4,
       "step_cue_rows": 0,
       "limits": [
@@ -1213,6 +1213,6 @@
       ]
     }
   ],
-  "manual_instruction_rewrites": 85,
+  "manual_instruction_rewrites": 100,
   "preflight_guidance_added": 100
 }
