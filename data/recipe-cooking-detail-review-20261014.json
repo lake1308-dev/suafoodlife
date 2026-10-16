@@ -1414,56 +1414,56 @@
       "name": "순대볶음양념장 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 7,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_2sUjx8PE_vg",
       "name": "돼지고기짬뽕라면 · 백종원 참고",
       "status": "source_has_no_numeric_cooking_cues",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_4QwUVgVoMSE",
       "name": "알리오올리오떡볶이 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_6hLnQ5c03L8_mustard",
       "name": "감자탕겨자소스 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_6hLnQ5c03L8",
       "name": "감자탕(뒷다리살) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_7cCAlN06WPc_basic",
       "name": "찹스테이크(기본형) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_7cCAlN06WPc_sauce",
       "name": "찹스테이크(스테이크소스형) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_LojVJnvLb30_sauce",
       "name": "버팔로윙소스 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_LojVJnvLb30",
