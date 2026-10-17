@@ -1,0 +1,663 @@
+{
+  "version": "1.0.0",
+  "task_number": 3,
+  "checked_on": "2026-10-17",
+  "status": "ten_recipe_contents_prepared",
+  "title": "편의점 재료로 집에서 만드는 10가지",
+  "source_recipe_version": "1.70.0",
+  "selection_file": "data/recipe-theme-selection-20261017.json",
+  "note": "Editorial collection linked to existing recipe IDs. Not ten new recipe database records. Homepage discovery entrance is task 5. Ingredient amounts and steps follow the reviewed originals; omitted source details are disclosed rather than invented.",
+  "count": 10,
+  "new_recipe_records": 0,
+  "cards": [
+    {
+      "id": "convenience_01",
+      "recipe_id": "paik_78AQ-ten9lE",
+      "title": "달걀볶음라면",
+      "hook": "라면에 달걀을 볶아 더해 보기",
+      "discovery_tag": "라면의 새로운 모양",
+      "quantity_basis": "라면 1개·달걀 1개 기준",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=78AQ-ten9lE",
+      "source_recipe_sha256": "5a504417c09be4412a51057b2cdf78fff7ec86dd673db8fb8079896c18753c2d",
+      "shopping": {
+        "main_candidates": "라면·달걀",
+        "additional_and_pantry": "식용유",
+        "availability_note": "모든 재료의 편의점 판매를 확인한 목록이 아닙니다. 점포별 재고를 확인하고 추가 재료는 따로 준비하세요."
+      },
+      "equipment": [
+        "냄비",
+        "팬",
+        "체 또는 집게",
+        "주걱"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "라면: 1개",
+            "달걀: 1개",
+            "식용유: 3큰술(21g)",
+            "정수물: 적당량"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "면 — 냄비에 물을 끓여 라면 1개를 삶기 시작합니다. 동시에 팬을 강불에 올리고 식용유 21g을 넣습니다.",
+        "달걀 — 달걀 1개를 넣고 익기 시작하면 주걱으로 저어 줍니다. 다 익으면 잘게 나누고 건더기수프를 볶습니다.",
+        "간 — 분말수프 3분의 2봉을 넣어 고루 볶습니다.",
+        "합치기 — 삶은 면을 건져 팬에 넣고 양념이 뭉치지 않게 고루 섞어 볶습니다."
+      ],
+      "critical_points": [
+        "면 삶기와 달걀 볶기를 함께 준비합니다.",
+        "분말수프는 전량이 아니라 3분의 2봉입니다."
+      ],
+      "editorial_notes": [
+        "물양과 전체 시간은 원본에 없습니다. 사용하는 면의 조리 안내와 익는 상태를 확인하세요."
+      ],
+      "source_limits": "소개 문구의 90초는 모든 단계의 확정 총시간으로 적용하지 않았습니다. 원본에 삶는 물 양·면 삶는 시간·마지막 볶는 시간은 없습니다. 달걀 2개·수프 전량 응용은 기본형과 구분했습니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "편의점 재료 활용",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "convenience_02",
+      "recipe_id": "paik_-_q9oyOToxs",
+      "title": "우유라면",
+      "hook": "물 대신 우유로 국물 바꾸기",
+      "discovery_tag": "우유와 라면의 만남",
+      "quantity_basis": "라면 1개 기준",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=-_q9oyOToxs",
+      "source_recipe_sha256": "8855f288ba9c3136be732e10c957753a155245a135f48ae0a9b6ff32cf1b6a36",
+      "shopping": {
+        "main_candidates": "라면·우유",
+        "additional_and_pantry": "대파·고추·고춧가루",
+        "availability_note": "모든 재료의 편의점 판매를 확인한 목록이 아닙니다. 점포별 재고를 확인하고 추가 재료는 따로 준비하세요."
+      },
+      "equipment": [
+        "냄비",
+        "체",
+        "칼",
+        "도마"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "라면: 1개",
+            "우유: 2컵(360ml)",
+            "대파: ½컵(30g)",
+            "청양고추: 2개(20g)",
+            "굵은 고춧가루: ½큰술",
+            "물: 2컵(360ml)"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "준비 — 대파 30g과 청양고추 20g을 약 0.3cm로 썹니다. 대파 일부는 고명으로 남깁니다.",
+        "첫 삶기 — 물 360ml를 강불로 끓입니다. 라면 1개의 면과 건더기스프를 넣고 집게로 풀며 익힙니다. 면이 완전히 풀리면 불을 끄고 체로 건져 물기를 뺍니다.",
+        "우유 — 건진 면을 냄비에 넣고 우유 360ml와 분말스프를 섞어 중불로 끓입니다. 첫 삶기의 물을 그대로 더하는 과정이 아닙니다.",
+        "마무리 — 끓으면 굵은 고춧가루 1/2큰술, 대파·청양고추를 넣고 면이 원하는 정도로 익도록 끓입니다. 남겨 둔 대파를 올립니다."
+      ],
+      "critical_points": [
+        "첫 삶기 물을 버린 뒤 우유를 넣습니다.",
+        "물과 우유를 처음부터 합쳐 끓이는 방식이 아닙니다."
+      ],
+      "editorial_notes": [
+        "청양고추·고춧가루가 들어가므로 이름만 보고 맵지 않은 메뉴로 안내하지 않습니다."
+      ],
+      "source_limits": "첫 삶기 물과 우유는 각각 360ml입니다. 면이 풀리면 물을 빼고 우유로 다시 조리하는 버전입니다. 원본에 단계별 시간과 고명용 대파 배분은 없습니다. 라면 제품별 분말스프의 맛과 염도가 달라 확인하세요.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "편의점 재료 활용",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "convenience_03",
+      "recipe_id": "paik_rqbhm9hpvp8",
+      "title": "치즈라면전",
+      "hook": "삶은 라면을 치즈 전으로 바꾸기",
+      "discovery_tag": "치즈가 녹는 라면전",
+      "quantity_basis": "라면 1개·모차렐라 100g 기준",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=rqbhm9hpvp8",
+      "source_recipe_sha256": "fe8cfb26e08c99989505cbeb255c51371ddbd4822e793b3b87cb455f73bf3487",
+      "shopping": {
+        "main_candidates": "라면·모차렐라·체다치즈",
+        "additional_and_pantry": "대파·식용유",
+        "availability_note": "모든 재료의 편의점 판매를 확인한 목록이 아닙니다. 점포별 재고를 확인하고 추가 재료는 따로 준비하세요."
+      },
+      "equipment": [
+        "냄비",
+        "체",
+        "뚜껑 있는 팬",
+        "주걱"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "모차렐라 치즈: 1컵(100g)",
+            "대파 약: 1/3대(30g)",
+            "식용유: 2큰술(14g)",
+            "라면: 1개",
+            "슬라이스 체다치즈: 1장",
+            "물: 적당량"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "면 삶기 — 대파 30g은 약 0.3cm로 썹니다. 냄비에 물과 라면 건더기수프를 넣어 강불로 끓이고 라면 1개를 넣습니다. 면 가닥이 전체적으로 풀리면 체로 건져 냅니다.",
+        "간 — 볼에 대파를 담고 삶은 면과 분말수프 3분의 2봉을 넣어 골고루 섞습니다. 분말수프 전량을 넣는 배합이 아닙니다.",
+        "팬 — 팬에 식용유 14g과 면에 붙지 않고 남은 대파를 넣어 볶습니다. 파가 지글거리면 면을 넣고 얇게 펼칩니다. 잘 펴지지 않으면 가위로 면을 잘라 펼칩니다.",
+        "치즈 — 약불로 낮추고 모차렐라 100g과 찢은 체다치즈 1장을 올립니다. 뚜껑을 덮어 치즈를 녹입니다.",
+        "마무리 — 치즈가 녹고 밑면이 노릇해지면 접시에 옮깁니다. 치즈는 녹았는데 밑면 색이 부족하면 원본처럼 불을 높여 밑면 상태를 확인합니다."
+      ],
+      "critical_points": [
+        "모차렐라와 체다치즈를 각각 준비합니다.",
+        "약불에서 치즈를 녹이고 밑면이 노릇한지 따로 확인합니다."
+      ],
+      "editorial_notes": [
+        "뒤집는 전으로 임의 변경하지 않습니다. 원본은 뚜껑을 덮어 치즈를 녹이는 방식입니다."
+      ],
+      "source_limits": "원본에 면 삶는 물의 양, 삶는 시간, 파기름을 내는 불 세기와 뚜껑을 덮는 시간은 없습니다. 약불에서 치즈를 녹이는 단계와 밑면 색을 내는 단계를 구분했습니다. 파마산치즈는 선택 고명입니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "편의점 재료 활용",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "convenience_04",
+      "recipe_id": "paik_wM9hbmwCpdc",
+      "title": "크림떡볶이",
+      "hook": "우유와 체다치즈로 만드는 떡볶이",
+      "discovery_tag": "빨갛지 않은 떡볶이",
+      "quantity_basis": "떡 250g·우유 200ml 기준",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=wM9hbmwCpdc",
+      "source_recipe_sha256": "a219c71018f812b0ce349314df64969f34ae6b2bd552f0ce917816448bd191b8",
+      "shopping": {
+        "main_candidates": "떡·우유·베이컨·체다치즈",
+        "additional_and_pantry": "양파·식용유·후추",
+        "availability_note": "모든 재료의 편의점 판매를 확인한 목록이 아닙니다. 점포별 재고를 확인하고 추가 재료는 따로 준비하세요."
+      },
+      "equipment": [
+        "팬",
+        "칼",
+        "도마",
+        "주걱"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "떡볶이 떡: 약1과1/2컵(250g)",
+            "우유: 1팩(200ml)",
+            "베이컨: 4장(72g)",
+            "양파: 약¼개(60g)",
+            "식용유: 1큰술(7g)",
+            "슬라이스 체다치즈: 2장",
+            "후추가루: 약간"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "준비 — 떡볶이떡 250g은 씻어 물기를 뺍니다. 베이컨 72g은 약 1cm로, 양파 60g은 가로로 반 자른 뒤 약 0.3cm로 채 썹니다.",
+        "볶기 — 팬에 식용유 7g과 베이컨을 넣고 풀어 볶습니다. 베이컨이 풀어지면 양파를 넣고 노릇해지기 직전까지 볶습니다.",
+        "우유 — 우유 200ml를 넣어 바닥이 붙지 않게 섞고 떡을 넣습니다. 중불로 낮춥니다.",
+        "치즈 — 떡이 말랑해지고 우유가 걸쭉해지기 시작하면 체다치즈 2장을 찢어 넣어 녹입니다. 농도가 생기면 후추를 섞고 불을 끕니다."
+      ],
+      "critical_points": [
+        "양파와 베이컨을 볶은 뒤 우유와 떡을 넣습니다.",
+        "떡이 부드러워진 다음 치즈를 넣습니다."
+      ],
+      "editorial_notes": [
+        "떡 제품별 익는 상태를 확인하며 우유가 바닥에 붙지 않게 섞습니다."
+      ],
+      "source_limits": "우유를 넣고 떡을 익힌 뒤 치즈를 넣는 순서입니다. 처음 볶는 불 세기·단계별 시간·후추량과 최종 농도 수치는 원본에 없습니다. 파슬리는 선택 고명입니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "편의점 재료 활용",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "convenience_05",
+      "recipe_id": "paik_zS_o6psOt9g_pan",
+      "title": "콘치즈(프라이팬)",
+      "hook": "통조림 옥수수로 치즈 간식 만들기",
+      "discovery_tag": "옥수수캔의 변신",
+      "quantity_basis": "옥수수 1캔(원본 표기 340g) 기준",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=zS_o6psOt9g",
+      "source_recipe_sha256": "0fbc8b3747a47711270d3f7e4f9e8d3d1491fb5de114bfec11976320be221543",
+      "shopping": {
+        "main_candidates": "옥수수캔·모차렐라·마요네즈",
+        "additional_and_pantry": "양파·버터·설탕",
+        "availability_note": "모든 재료의 편의점 판매를 확인한 목록이 아닙니다. 점포별 재고를 확인하고 추가 재료는 따로 준비하세요."
+      },
+      "equipment": [
+        "체",
+        "칼",
+        "도마",
+        "뚜껑 있는 팬",
+        "주걱"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "옥수수통조림: 1캔(340g)",
+            "양파: 1/10개(25g)",
+            "황설탕: 1큰술(12g)",
+            "마요네즈: 4큰술(64g)",
+            "모짜렐라치즈: 1컵(100g)",
+            "스틱버터: 1큰술(12g)",
+            "파슬리가루 약간"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "준비 — 옥수수 통조림 1캔(원본 340g)을 체로 건져 물기를 뺍니다. 양파 25g을 잘게 썹니다.",
+        "볶기 — 버터 12g을 녹여 옥수수와 양파를 볶습니다. 수분이 날아가면 황설탕 12g을 넣고 양파가 노릇해질 때까지 볶습니다.",
+        "치즈 — 불을 끄고 마요네즈 64g을 섞어 펼칩니다. 모짜렐라치즈 100g을 올리고 뚜껑을 덮어 약불로 켭니다.",
+        "마무리 — 치즈가 완전히 녹으면 파슬리를 뿌립니다."
+      ],
+      "critical_points": [
+        "옥수수는 물기를 뺍니다.",
+        "마요네즈는 불을 끈 뒤 섞고 치즈를 올려 약불로 다시 가열합니다."
+      ],
+      "editorial_notes": [
+        "캔의 표시 중량과 물기를 뺀 실제 중량은 구분해야 합니다. 전자레인지 시간으로 임의 변경하지 않습니다."
+      ],
+      "source_limits": "처음 볶는 불 세기와 조리 시간은 미표기입니다. 마요네즈는 불을 끈 뒤 섞고 치즈를 녹일 때 약불로 다시 켜는 순서입니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "편의점 재료 활용",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "convenience_06",
+      "recipe_id": "paik_mjLPNh11_xs_salad",
+      "title": "참치마요샐러드",
+      "hook": "불 없이 참치와 마요네즈 섞기",
+      "discovery_tag": "불 없이 섞는 참치마요",
+      "quantity_basis": "원본 토스트 2개용 속 준비량",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=mjLPNh11_xs",
+      "source_recipe_sha256": "0926d748200a3b1c83dc554e7ee4e8b966771297b84a42a541cd3d7baef0673c",
+      "shopping": {
+        "main_candidates": "참치캔·마요네즈",
+        "additional_and_pantry": "양파·치킨무·설탕·소금·후추",
+        "availability_note": "모든 재료의 편의점 판매를 확인한 목록이 아닙니다. 점포별 재고를 확인하고 추가 재료는 따로 준비하세요."
+      },
+      "equipment": [
+        "칼",
+        "도마",
+        "체 또는 참치 기름을 뺄 도구",
+        "볼",
+        "숟가락"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "통조림참치: 1캔(100g)",
+            "양파: 약 1/6개(40g)",
+            "마요네즈: 2큰술(40g)",
+            "치킨무: 8개(30g)",
+            "황설탕: 1/3큰술(4g)",
+            "꽃소금 약간",
+            "후춧가루 약간"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "손질 — 양파 40g과 치킨무 30g을 약 0.5cm로 다집니다. 통조림 참치 100g은 기름을 빼고 함께 담습니다.",
+        "배합 — 마요네즈 40g, 황설탕 4g, 꽃소금·후추 약간을 넣어 고루 섞습니다."
+      ],
+      "critical_points": [
+        "원본의 치킨무와 생양파도 준비해야 합니다.",
+        "참치 기름을 뺀 뒤 재료를 섞습니다."
+      ],
+      "editorial_notes": [
+        "이 샐러드 전체가 한 사람 기준이라고 표기하지 않습니다. 칼을 쓰므로 무조건 어린이 혼자 만드는 메뉴로 표시하지 않습니다."
+      ],
+      "source_limits": "이 전체 샐러드는 원본 토스트 2개용 배합입니다. 토스트 1개에는 완성 샐러드의 절반을 씁니다. 참치 100g은 캔 표기이며 기름을 뺀 실제 중량은 미확인입니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": false,
+      "tags": [
+        "편의점 재료 활용",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "convenience_07",
+      "recipe_id": "paik_mjLPNh11_xs_toast",
+      "title": "튜나멜트토스트",
+      "hook": "참치마요에 치즈를 더한 팬 토스트",
+      "discovery_tag": "참치와 치즈가 만나는 토스트",
+      "quantity_basis": "토스트 1개·식빵 2장 기준",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=mjLPNh11_xs",
+      "source_recipe_sha256": "abacbd40fe90e1cf6b5a0cc917341d8b1fe1c6c3cef9971f0f95e8e60f1e3b63",
+      "shopping": {
+        "main_candidates": "식빵·참치캔·체다치즈·마요네즈",
+        "additional_and_pantry": "양파·치킨무·버터·설탕",
+        "availability_note": "모든 재료의 편의점 판매를 확인한 목록이 아닙니다. 점포별 재고를 확인하고 추가 재료는 따로 준비하세요."
+      },
+      "equipment": [
+        "칼",
+        "도마",
+        "볼",
+        "팬",
+        "뒤집개"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "샐러드 준비용 (토스트 2개 기준)",
+          "items": [
+            "통조림참치: 1캔(100g)",
+            "양파: 약 1/6개(40g)",
+            "마요네즈: 2큰술(40g)",
+            "치킨무: 8개(30g)",
+            "황설탕: 1/3큰술(4g)",
+            "꽃소금 약간",
+            "후춧가루 약간"
+          ]
+        },
+        {
+          "label": "토스트 1개 재료",
+          "items": [
+            "버터: 약 2와 1/2큰술(20g)",
+            "식빵: 2장",
+            "슬라이스체다치즈: 4장",
+            "튜나샐러드: 1/2양"
+          ]
+        }
+      ],
+      "preparations": [
+        {
+          "recipe_id": "paik_mjLPNh11_xs_salad",
+          "title": "참치마요샐러드 먼저 준비",
+          "usage": "아래 전체 샐러드를 만든 뒤 절반만 토스트 1개에 사용합니다.",
+          "ingredient_groups": [
+            {
+              "label": "재료",
+              "items": [
+                "통조림참치: 1캔(100g)",
+                "양파: 약 1/6개(40g)",
+                "마요네즈: 2큰술(40g)",
+                "치킨무: 8개(30g)",
+                "황설탕: 1/3큰술(4g)",
+                "꽃소금 약간",
+                "후춧가루 약간"
+              ]
+            }
+          ],
+          "steps": [
+            "손질 — 양파 40g과 치킨무 30g을 약 0.5cm로 다집니다. 통조림 참치 100g은 기름을 빼고 함께 담습니다.",
+            "배합 — 마요네즈 40g, 황설탕 4g, 꽃소금·후추 약간을 넣어 고루 섞습니다."
+          ],
+          "source_limit": "이 전체 샐러드는 원본 토스트 2개용 배합입니다. 토스트 1개에는 완성 샐러드의 절반을 씁니다. 참치 100g은 캔 표기이며 기름을 뺀 실제 중량은 미확인입니다."
+        }
+      ],
+      "steps": [
+        "속 준비 — 참치마요샐러드를 먼저 만듭니다. 식빵 2장에 체다치즈를 각각 2장씩 올립니다. 한 장에 샐러드 전체 배합의 절반을 펼치고 다른 빵으로 덮습니다.",
+        "첫 면 — 팬에 버터 전체 20g의 절반을 중불로 녹입니다. 샌드위치를 놓고 버터가 빵에 고루 닿게 움직이며 굽습니다. 빵에 색이 나기 시작하면 약불로 낮춥니다.",
+        "반대 면 — 샌드위치를 잠시 꺼내고 남은 버터 10g을 녹입니다. 굽지 않은 면이 아래로 가게 놓아 살짝 누르며 굽습니다.",
+        "완성 — 양면에 갈색이 나고 치즈가 녹으면 도마로 옮겨 먹기 좋게 자릅니다."
+      ],
+      "critical_points": [
+        "참치샐러드 준비량 중 절반만 넣습니다.",
+        "버터 총 20g을 10g씩 나눠 앞뒤에 사용합니다."
+      ],
+      "editorial_notes": [
+        "치즈 4장과 식빵 2장은 토스트 1개 분량입니다. 샐러드 준비량과 혼동하지 않게 분리했습니다."
+      ],
+      "source_limits": "토스트 1개에 식빵 2장과 치즈 4장, 샐러드 배합의 절반을 씁니다. 원본에 면별 굽는 시간과 식빵·치즈 제품별 무게는 없습니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "편의점 재료 활용",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "convenience_08",
+      "recipe_id": "paik_YXMxnHx7yZQ",
+      "title": "달걀샌드위치",
+      "hook": "달걀과 베이컨을 넣은 샌드위치",
+      "discovery_tag": "빵 속을 채운 달걀 한 끼",
+      "quantity_basis": "원본 2인분",
+      "servings": 2,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=YXMxnHx7yZQ",
+      "source_recipe_sha256": "c225c9e9e630dc9f0675efb690b9a9290e32054893afe8c9a553173e0b19ab88",
+      "shopping": {
+        "main_candidates": "식빵·달걀·치즈·베이컨·마요네즈",
+        "additional_and_pantry": "버터·설탕·식초·고춧가루",
+        "availability_note": "모든 재료의 편의점 판매를 확인한 목록이 아닙니다. 점포별 재고를 확인하고 추가 재료는 따로 준비하세요."
+      },
+      "equipment": [
+        "칼",
+        "도마",
+        "소스 그릇 2개",
+        "팬",
+        "주걱"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "달걀샌드위치",
+          "items": [
+            "달걀: 6개",
+            "식빵: 4장",
+            "슬라이스치즈: 2장",
+            "베이컨: 3장(48g)",
+            "스틱버터: 적당량",
+            "마요소스: 적당량",
+            "쓰리라차마요소스: 적당량"
+          ]
+        },
+        {
+          "label": "마요소스",
+          "items": [
+            "마요네즈: 1/3컵(60g)",
+            "황설탕: 1큰술(12g)"
+          ]
+        },
+        {
+          "label": "쓰리라차마요소스",
+          "items": [
+            "마요네즈: 1/3컵(60g)",
+            "황설탕: 1큰술(12g)",
+            "고운고춧가루: 1/2큰술(3g)",
+            "식초: 약2와1/2큰술(24g)"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "소스 2종 — 마요소스는 마요네즈 60g과 황설탕 12g을 섞어 설탕을 녹입니다. 별도 그릇에는 마요네즈 60g·황설탕 12g·고운 고춧가루 3g·식초 24g을 섞어 매콤한 마요소스를 만듭니다. 두 배합은 별개입니다.",
+        "빵과 베이컨 — 팬에 버터를 두르고 중불에서 식빵 4장의 한 면씩 굽습니다. 베이컨 48g도 노릇하게 구워 둡니다.",
+        "달걀 — 달걀 6개를 풀어 버터 두른 팬에 넣습니다. 익기 시작하면 중불에서 천천히 저어 줍니다. 반쯤 익으면 약불로 낮춰 빵 크기로 모양을 잡고 익힙니다.",
+        "치즈 — 달걀 위에 슬라이스치즈 총 2장을 나눠 올립니다. Food Life에서는 달걀 가운데에 흐르는 달걀물이 남지 않도록 익혀 사용합니다.",
+        "쌓기 — 식빵의 구운 면이 바깥쪽으로 향하게 놓고 안쪽 면에는 준비한 두 소스를 각각 바릅니다. 치즈를 올린 달걀을 얹고 마요소스를 더한 뒤 베이컨과 다른 빵을 덮습니다."
+      ],
+      "critical_points": [
+        "소스 2종은 각각 만드는 준비 배합입니다.",
+        "실제로 바르는 양은 원본에 없으며 전량 사용이라고 단정하지 않습니다."
+      ],
+      "editorial_notes": [
+        "달걀은 흐르는 부분이 남지 않도록 충분히 익히는 기존 보완 안내를 유지합니다. 한 개용으로 임의 환산하지 않았습니다."
+      ],
+      "source_limits": "2인분입니다. 두 소스는 준비 배합이며 샌드위치에 전량을 쓰라는 뜻은 아닙니다. 원본은 달걀 가운데 달걀물이 조금 남을 때 불을 끄지만 Food Life는 달걀을 충분히 익히는 방식으로 조정했습니다. 버터·실제 소스 사용량과 굽는 시간은 원본에 없습니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "편의점 재료 활용",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "convenience_09",
+      "recipe_id": "paik_kj2ZupQ7fts",
+      "title": "스팸마요김치덮밥",
+      "hook": "햄·달걀·김치를 올린 마요 덮밥",
+      "discovery_tag": "밥 위에 차곡차곡 쌓기",
+      "quantity_basis": "밥 200g 기준·인분 미표기",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=kj2ZupQ7fts",
+      "source_recipe_sha256": "4855596a70d8890b2fd78b0da16c115a72486bc8ea3f67db20fc1ccc9e56baf2",
+      "shopping": {
+        "main_candidates": "밥·통조림햄·김치·달걀·마요네즈",
+        "additional_and_pantry": "설탕·진간장·식용유·쪽파",
+        "availability_note": "모든 재료의 편의점 판매를 확인한 목록이 아닙니다. 점포별 재고를 확인하고 추가 재료는 따로 준비하세요."
+      },
+      "equipment": [
+        "팬",
+        "볼",
+        "가위 또는 칼",
+        "주걱"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "달걀: 2개",
+            "통조림 햄: 약 1/3캔(66g)",
+            "신 김치: 1/2컵(65g)",
+            "식용유: 3큰술(21g)",
+            "밥: 1공기(200g)",
+            "황설탕: 1/3큰술(4g)",
+            "진간장: 약 1/3큰술(3g)",
+            "쪽파 약간",
+            "마요네즈 적당량"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "손질 — 통조림햄 66g을 깍둑썰고 신김치 65g은 가위로 자릅니다. 달걀 2개를 풀고 쪽파를 송송 썹니다. 밥 200g을 그릇에 담습니다.",
+        "달걀 — 팬에 기름을 두르고 달걀을 저으며 익혀 밥 가장자리에 놓습니다.",
+        "햄 — 팬에 기름을 조금 두르고 햄을 볶아 달걀 안쪽에 올립니다.",
+        "김치 — 팬에 남은 기름에 김치, 황설탕 4g, 진간장 약 3g을 볶아 햄 위에 올립니다. 마요네즈와 쪽파로 마무리합니다."
+      ],
+      "critical_points": [
+        "식용유 21g은 달걀·햄·김치 조리에 나눠 쓰는 전체량입니다.",
+        "밥 200g을 준비하고 달걀·햄·김치를 차례로 올립니다."
+      ],
+      "editorial_notes": [
+        "즉석밥을 선택하면 포장 조리 안내대로 준비해 200g을 사용합니다. 이는 제품 적용 안내이며 원본이 특정 즉석밥을 쓴다는 뜻이 아닙니다."
+      ],
+      "source_limits": "식용유 21g은 원본 전체 준비량이며 달걀·햄·김치 단계별 배분은 없습니다. 불 세기와 볶는 시간, 마요네즈·쪽파 양도 미표기입니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "편의점 재료 활용",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "convenience_10",
+      "recipe_id": "paik_9Wvd9VL0OpM",
+      "title": "카레라면",
+      "hook": "고형카레를 라면에 더해 보기",
+      "discovery_tag": "카레가 생각나는 라면",
+      "quantity_basis": "순한맛 라면 1개·고형카레 25g 기준",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=9Wvd9VL0OpM",
+      "source_recipe_sha256": "1fc13cd8b391bcefee70488c505b0bd3535a3af1b606c6a343931790670bb7c4",
+      "shopping": {
+        "main_candidates": "라면·버터",
+        "additional_and_pantry": "고형카레·간마늘·후추",
+        "availability_note": "모든 재료의 편의점 판매를 확인한 목록이 아닙니다. 점포별 재고를 확인하고 추가 재료는 따로 준비하세요."
+      },
+      "equipment": [
+        "냄비",
+        "젓가락",
+        "숟가락"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "순한맛 라면: 1봉지",
+            "물: 약 3컵(550ml)",
+            "고형 카레: 1개(25g)",
+            "버터: 2큰술(24g)",
+            "간마늘: 1/5큰술(4g)",
+            "후춧가루: 약간"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "국물 — 물 550ml와 순한맛 라면 1개의 건더기수프를 강불로 끓입니다.",
+        "카레 — 끓으면 고형카레 25g을 녹입니다. 분말수프는 간을 보며 넣습니다.",
+        "면 — 면을 넣어 가닥이 끊어지지 않게 풉니다. 전체적으로 풀리면 간 마늘 4g·버터 24g을 넣고 약 1분 30초 더 끓입니다.",
+        "마무리 — 면이 익으면 후추를 섞고 불을 끕니다."
+      ],
+      "critical_points": [
+        "고형카레·버터·간마늘을 추가 준비합니다.",
+        "카레와 분말수프를 함께 쓰므로 수프는 간을 보며 넣습니다."
+      ],
+      "editorial_notes": [
+        "약 1분 30초는 면이 풀린 뒤 시간입니다. 전체 조리시간으로 표시하지 않습니다. 고형카레와 가루카레를 동시에 넣지 않습니다."
+      ],
+      "source_limits": "약 1분 30초는 면이 풀린 뒤 시간이며 전체 조리 시간이 아닙니다. 분말수프 사용량·후추량은 원본에 없습니다. 카레가루 대체는 별도 응용으로 고형카레와 동시에 넣지 않습니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "편의점 재료 활용",
+        "집에서 조리"
+      ]
+    }
+  ]
+}
