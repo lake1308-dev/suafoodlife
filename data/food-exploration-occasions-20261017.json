@@ -1,0 +1,384 @@
+{
+  "version": "1.0.0",
+  "checked_on": "2026-10-17",
+  "title": "일상과 초대의 밥상",
+  "source_recipe_version": "1.70.0",
+  "count": 4,
+  "new_recipe_records": 0,
+  "note": "Four existing reviewed recipes added to discovery. Occasion picks and table combinations are editorial suggestions, not nutritional meal plans or common-serving conversions.",
+  "cards": [
+    {
+      "id": "occasions_01",
+      "recipe_id": "paik_xsTFsunt6-8",
+      "title": "소고기미역국",
+      "hook": "생일상에 곁들일 따뜻한 국",
+      "discovery_tag": "일상과 초대의 밥상",
+      "quantity_basis": "마른 미역 10g·소고기 100g·물 약 1.3L 기준",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=xsTFsunt6-8",
+      "source_recipe_sha256": "a7302e97bbbd3098db6ce5894848e3e54fbab76588078ba1b6db43a8c8a5d9a4",
+      "shopping": {
+        "main_candidates": "소고기(양지): 1/2컵(100g) · 자른미역: 1/3컵(10g) · 참기름: 2큰술(14g)",
+        "additional_and_pantry": "아래 전체 재료량을 확인해 준비하세요.",
+        "availability_note": "판매처별 재고를 확인한 목록이 아닙니다."
+      },
+      "equipment": [
+        "냄비",
+        "칼",
+        "도마",
+        "볼"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "소고기(양지): 1/2컵(100g)",
+            "자른미역: 1/3컵(10g)",
+            "참기름: 2큰술(14g)",
+            "국간장: 3큰술(30g)",
+            "물: 약7컵(1.3L)",
+            "다진마늘: 2/3큰술(10g)",
+            "멸치액젓: 1과1/2큰술(15g)"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "준비 — 자른 마른 미역 10g을 물에 불립니다. 소고기 양지 100g을 준비합니다.",
+        "고기 볶기 — 냄비에 참기름 14g과 소고기를 넣고 중약불에서 볶습니다. 고기가 익으면 불린 미역을 넣어 함께 볶습니다.",
+        "국물 — 국간장 30g을 넣고 볶은 뒤 물 약 1.3L를 붓고 끓입니다.",
+        "마무리 — 물이 끓으면 다진 마늘 10g을 넣고 더 끓입니다. 마지막에 멸치액젓 15g으로 간을 맞춥니다."
+      ],
+      "critical_points": [
+        "미역은 제품 안내를 확인해 불립니다. 물 약 1.3L는 원본 배합이며 인분 수는 미표기입니다."
+      ],
+      "editorial_notes": [
+        "음식 조합은 편집 제안입니다. 각 메뉴의 원본 배합은 서로 인분 수가 다르거나 미표기여서 한 상의 공통 인분으로 환산하지 않았습니다."
+      ],
+      "source_limits": "원본 설명에 미역 불리는 시간, 고기 크기와 총 끓이는 시간은 없습니다. 미역 불리기는 제품 안내도 확인하세요. 국물의 졸아든 정도에 따라 간은 달라질 수 있습니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "밥상 메뉴",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "occasions_02",
+      "recipe_id": "paik_p3IQTouKyH0",
+      "title": "소불고기",
+      "hook": "함께 나눠 먹는 밥상의 메인",
+      "discovery_tag": "일상과 초대의 밥상",
+      "quantity_basis": "원본 4인분·쇠고기 등심 500g 기준",
+      "servings": 4,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=p3IQTouKyH0",
+      "source_recipe_sha256": "e4f0256261b385e6bceeaeea50ae429a1ec1794e3367aa4f9154d88a2d1838bc",
+      "shopping": {
+        "main_candidates": "쇠고기등심: 500g(3컵) · 양파: 120g(1컵) · 표고버섯: 30g(1/2컵)",
+        "additional_and_pantry": "아래 전체 재료량을 확인해 준비하세요.",
+        "availability_note": "판매처별 재고를 확인한 목록이 아닙니다."
+      },
+      "equipment": [
+        "팬",
+        "칼",
+        "도마",
+        "양념 볼"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "쇠고기등심: 500g(3컵)",
+            "양파: 120g(1컵)",
+            "표고버섯: 30g(1/2컵)",
+            "대파: 30g(1/3컵)",
+            "홍고추: 10g(1개)",
+            "황설탕: 30g(2.5큰술)",
+            "물엿: 30g(1큰술)",
+            "양파 간 것: 2큰술(20g)",
+            "다진마늘: 18g(1큰술)",
+            "진간장: 60g(6큰술)",
+            "후춧가루: 1g(1/2작은술)",
+            "통깨: 2g(1작은술)",
+            "참기름: 30g(3큰술)"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "채소 준비 — 대파 30g과 홍고추 10g은 어슷 썰고, 표고버섯 30g은 얇게 썹니다. 양파 120g은 굵게 채 썹니다. 양념용 간 양파 20g은 별도로 준비합니다.",
+        "먼저 재우기 — 쇠고기 등심 500g에 황설탕 30g과 물엿 30g을 섞어 약 10분 둡니다. 이때 간장 양념은 아직 넣지 않습니다.",
+        "양념 — 재운 고기에 진간장 60g, 간 양파 20g, 다진 마늘 18g, 후추 1g, 참기름 30g을 넣어 고루 섞습니다.",
+        "채소 섞기 — 채 썬 양파, 표고버섯, 홍고추와 대파를 양념한 고기에 섞습니다.",
+        "볶기 — 팬을 예열한 뒤 불고기를 넣어 볶습니다. 통깨 2g을 뿌려 마무리합니다."
+      ],
+      "critical_points": [
+        "간 양파 20g과 채 썬 양파 120g을 따로 준비합니다. 설탕·물엿으로 먼저 재운 뒤 간장 양념을 넣습니다."
+      ],
+      "editorial_notes": [
+        "음식 조합은 편집 제안입니다. 각 메뉴의 원본 배합은 서로 인분 수가 다르거나 미표기여서 한 상의 공통 인분으로 환산하지 않았습니다."
+      ],
+      "source_limits": "원본에는 고기 두께, 팬의 불 세기와 볶는 시간이 없습니다. 간 양파 20g과 채 썬 양파 120g은 서로 다른 용도입니다. 설탕·물엿으로 먼저 10분 재운 뒤 간장 양념을 넣는 순서를 확인하세요.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "밥상 메뉴",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "occasions_03",
+      "recipe_id": "paik_rrNfCVRFsvs",
+      "title": "잡채",
+      "hook": "손님상에 곁들이는 당면과 채소",
+      "discovery_tag": "일상과 초대의 밥상",
+      "quantity_basis": "마른 당면 250g 기준·인분 미표기",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=rrNfCVRFsvs",
+      "source_recipe_sha256": "c5c3c479e573c62c88d6bc2b8bf039e3f216975b0debd068793cfecd3927bdcb",
+      "shopping": {
+        "main_candidates": "당면: 250g · 시금치: 150g · 돼지고기(잡채용): 2/3컵(110g)",
+        "additional_and_pantry": "아래 전체 재료량을 확인해 준비하세요.",
+        "availability_note": "판매처별 재고를 확인한 목록이 아닙니다."
+      },
+      "equipment": [
+        "냄비",
+        "팬",
+        "체",
+        "볼",
+        "칼",
+        "도마"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "당면: 250g",
+            "시금치: 150g",
+            "돼지고기(잡채용): 2/3컵(110g)",
+            "건 목이버섯: 1/2컵(3g)",
+            "양파: 2컵(180g)",
+            "대파: 2/3컵(40g)",
+            "당근: 2/3컵(40g)",
+            "진간장: 4큰술(30g)",
+            "황설탕: 2큰술(22g)",
+            "참기름: 4큰술(25g)",
+            "간 마늘: 1큰술(15g)",
+            "식용유: 4큰술(25g)",
+            "꽃소금: 1/3큰술(2g)",
+            "통깨: 1/2큰술(4g)",
+            "MSG: 1/3큰술(2g)",
+            "후춧가루: 1g",
+            "노두유: 1큰술(6g)"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "불리기 — 당면 250g과 마른 목이버섯 3g을 각각 물에 약 30분 불립니다. 당면은 삶고 목이버섯은 먹기 좋게 나눕니다.",
+        "채소 — 시금치 150g은 뿌리를 떼고 줄기를 나눕니다. 양파 180g과 당근 40g은 채 썰고 대파 40g은 길게 어슷 썹니다.",
+        "볶기 — 팬에 식용유 약 1큰술을 두르고 잡채용 돼지고기 110g에 소금을 더해 볶습니다. 고기가 절반쯤 익으면 양파·당근·대파·목이버섯·후추를 넣고, 채소의 숨이 죽으면 시금치를 더합니다.",
+        "섞기 — 볶은 재료를 넓게 펼쳐 식힙니다. 삶은 당면에 다진 마늘 15g, 황설탕 22g, 진간장 30g과 소금으로 밑간합니다. 볶은 재료를 섞고 노두유로 색을 조절합니다.",
+        "마무리 — 참기름 25g을 더해 버무리고 통깨 4g을 뿌립니다."
+      ],
+      "critical_points": [
+        "당면과 목이버섯 불리기, 당면 삶기를 먼저 준비합니다. 당면 삶는 시간은 제품 안내도 확인하세요."
+      ],
+      "editorial_notes": [
+        "음식 조합은 편집 제안입니다. 각 메뉴의 원본 배합은 서로 인분 수가 다르거나 미표기여서 한 상의 공통 인분으로 환산하지 않았습니다."
+      ],
+      "source_limits": "볶아서 만드는 버전입니다. 원본에 당면 삶는 물의 양·시간, 전체 식용유 25g과 소금 2g의 단계별 배분, MSG 사용 시점은 없습니다. 노두유는 원본 준비량 6g에서 색을 조절합니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "밥상 메뉴",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "occasions_04",
+      "recipe_id": "paik_kR77WlHRZrs",
+      "title": "계란볶음밥",
+      "hook": "밥 한 공기로 시작하는 볶음밥",
+      "discovery_tag": "일상과 초대의 밥상",
+      "quantity_basis": "밥 200g·달걀 2개 기준·인분 미표기",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=kR77WlHRZrs",
+      "source_recipe_sha256": "43994ad3ae5dcfd6654e4ecd18489e800e38106103d86773937e6c6c4b14a677",
+      "shopping": {
+        "main_candidates": "밥: 1공기(200g) · 대파: 1/2컵(40g) · 달걀: 2개(120g)",
+        "additional_and_pantry": "아래 전체 재료량을 확인해 준비하세요.",
+        "availability_note": "판매처별 재고를 확인한 목록이 아닙니다."
+      },
+      "equipment": [
+        "팬",
+        "국자",
+        "칼",
+        "도마"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "밥: 1공기(200g)",
+            "대파: 1/2컵(40g)",
+            "달걀: 2개(120g)",
+            "식용유: 4큰술(40g)",
+            "진간장: 1/2큰술(5g)",
+            "MSG: 1/4큰술(2g)",
+            "맛소금: 1g"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "준비 — 대파 40g을 송송 썹니다. 밥 200g과 달걀 2개를 준비합니다.",
+        "파기름 — 팬에 식용유 40g과 대파를 넣어 볶습니다. 대파가 노릇해지면 팬 한쪽으로 모읍니다.",
+        "달걀 — 빈 쪽에 달걀을 넣고 저어 스크램블로 익힙니다. 다른 빈 공간에 진간장 5g을 넣어 끓인 뒤 달걀과 대파에 섞습니다.",
+        "밥 풀기 — 맛소금 1g과 밥을 넣고 불을 끕니다. 국자로 밥 덩어리를 풀어 재료를 고르게 섞습니다.",
+        "마무리 — 밥이 잘 섞이면 센불로 볶습니다. MSG 2g은 기호에 따라 넣습니다."
+      ],
+      "critical_points": [
+        "밥 덩어리를 풀어 섞을 때는 불을 끄고, 섞은 뒤 센불로 볶습니다."
+      ],
+      "editorial_notes": [
+        "음식 조합은 편집 제안입니다. 각 메뉴의 원본 배합은 서로 인분 수가 다르거나 미표기여서 한 상의 공통 인분으로 환산하지 않았습니다."
+      ],
+      "source_limits": "원본에 파기름을 내는 불 세기와 단계별 볶는 시간은 없습니다. 밥을 섞을 때는 불을 끄고, 고루 섞은 뒤 센불로 볶는 순서를 구분하세요.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "밥상 메뉴",
+        "집에서 조리"
+      ]
+    }
+  ],
+  "occasions": {
+    "solo": {
+      "title": "혼밥",
+      "description": "원본 1인분 메뉴와 밥 200g 기준 메뉴를 골랐어요. 혼밥 분류가 모든 재료를 1인분으로 환산했다는 뜻은 아니에요.",
+      "picks": [
+        {
+          "recipe_id": "paik_ohihzV6Z85k",
+          "reason": "원본 1인분인 마늘 오일 파스타예요."
+        },
+        {
+          "recipe_id": "paik_llZ1ii59BVs",
+          "reason": "우동은 원본 1인분이에요. 유부조림은 10개를 준비해 3개만 올려요."
+        },
+        {
+          "recipe_id": "paik_FbApByZGCXg",
+          "reason": "원본 1인분인 비빔면이에요. 채소와 달걀 준비도 함께 확인하세요."
+        },
+        {
+          "recipe_id": "paik_kj2ZupQ7fts",
+          "reason": "밥 200g 기준으로 만드는 덮밥이에요. 원본 인분 수는 미표기예요."
+        },
+        {
+          "recipe_id": "paik_kR77WlHRZrs",
+          "reason": "밥 200g과 달걀 2개로 시작해요. 원본 인분 수는 미표기예요."
+        }
+      ],
+      "combinations": []
+    },
+    "birthday": {
+      "title": "생일상",
+      "description": "국·메인·곁들임으로 구성해 보는 밥상 아이디어예요. 각 메뉴의 원본 분량은 달라요.",
+      "picks": [
+        {
+          "recipe_id": "paik_xsTFsunt6-8",
+          "reason": "생일상 국으로 곁들여 보는 제안이에요."
+        },
+        {
+          "recipe_id": "paik_p3IQTouKyH0",
+          "reason": "함께 나눠 먹을 메인 요리예요. 원본은 4인분이에요."
+        },
+        {
+          "recipe_id": "paik_rrNfCVRFsvs",
+          "reason": "메인 옆에 곁들일 당면·채소 요리예요."
+        },
+        {
+          "recipe_id": "paik_pTvMsM2v1tg",
+          "reason": "달걀과 토마토로 곁들임 한 접시를 더해 보세요."
+        },
+        {
+          "recipe_id": "paik_aXJgN_JjYDg_sweetpotato",
+          "reason": "식사 뒤 달콤한 간식으로 제안해요. 뜨거운 기름과 설탕 시럽을 다뤄요."
+        }
+      ],
+      "combinations": [
+        {
+          "title": "국과 메인을 갖춘 생일상",
+          "recipe_ids": [
+            "paik_xsTFsunt6-8",
+            "paik_p3IQTouKyH0",
+            "paik_rrNfCVRFsvs"
+          ],
+          "note": "밥은 별도로 준비하세요. 국·잡채는 인분 미표기이며 불고기만 원본 4인분입니다. 한 상 4인분으로 계산한 구성이 아닙니다."
+        }
+      ]
+    },
+    "hosting": {
+      "title": "집들이",
+      "description": "함께 나눠 먹을 메인과 곁들임을 골랐어요. 손님 수와 조리 도구에 맞춰 메뉴를 선택하세요.",
+      "picks": [
+        {
+          "recipe_id": "paik_p3IQTouKyH0",
+          "reason": "밥과 함께 차리는 메인으로 제안해요. 원본 4인분이에요."
+        },
+        {
+          "recipe_id": "paik_rrNfCVRFsvs",
+          "reason": "메인 옆에 나눠 담을 곁들임으로 제안해요."
+        },
+        {
+          "recipe_id": "paik_jBdQ65yHB_U",
+          "reason": "새우와 마늘 오일 요리에 빵을 곁들이는 구성이에요."
+        },
+        {
+          "recipe_id": "paik_LojVJnvLb30",
+          "reason": "닭봉과 닭날개를 나눠 먹는 메뉴예요. 에어프라이어가 필요해요."
+        },
+        {
+          "recipe_id": "paik_zS_o6psOt9g_pan",
+          "reason": "작은 곁들임으로 준비할 옥수수·치즈 메뉴예요."
+        },
+        {
+          "recipe_id": "paik_pTvMsM2v1tg",
+          "reason": "메인과 함께 놓을 달걀·채소 요리로 제안해요."
+        }
+      ],
+      "combinations": [
+        {
+          "title": "밥과 함께 차리는 손님상",
+          "recipe_ids": [
+            "paik_p3IQTouKyH0",
+            "paik_rrNfCVRFsvs",
+            "paik_pTvMsM2v1tg"
+          ],
+          "note": "밥은 별도로 준비하세요. 각 요리는 원본 배합을 표시하며 공통 인분이나 총 준비시간을 계산한 조합은 아닙니다."
+        },
+        {
+          "title": "나눠 먹는 간식 테이블",
+          "recipe_ids": [
+            "paik_jBdQ65yHB_U",
+            "paik_LojVJnvLb30",
+            "paik_zS_o6psOt9g_pan"
+          ],
+          "note": "팬과 에어프라이어를 사용하는 조합입니다. 동시에 끝나는 조리 시간표는 제공하지 않으며 각 메뉴를 충분히 익혀 준비하세요."
+        }
+      ]
+    }
+  }
+}
