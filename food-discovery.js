@@ -12,7 +12,7 @@
  };
  const cache=new Map();let selected='all',situation='all',occasion='all',request=0,lastCard=null;
  function matches(c){return situation==='all'||(situation==='noheat'?c.heat_required===false:situationRecipes[situation]?.has(c.recipe_id))}
- async function collection(id){let pack=cache.get(id);if(!pack){const res=await fetch('data/food-exploration-'+id+'-20261017.json?v=6');if(!res.ok)throw Error('HTTP '+res.status);pack=await res.json();if(!Number.isInteger(pack.count)||pack.count<1||pack.cards?.length!==pack.count)throw Error('Invalid collection');cache.set(id,pack)}return pack.cards}
+ async function collection(id){let pack=cache.get(id);if(!pack){const res=await fetch('data/food-exploration-'+id+'-20261017.json?v=7');if(!res.ok)throw Error('HTTP '+res.status);pack=await res.json();if(!Number.isInteger(pack.count)||pack.count<1||pack.cards?.length!==pack.count)throw Error('Invalid collection');cache.set(id,pack)}return pack.cards}
  function occasionConfig(){return cache.get('occasions')?.occasions?.[occasion]}
  function occasionPick(c){return occasionConfig()?.picks.find(p=>p.recipe_id===c.recipe_id)}
  function controls(){root.querySelectorAll('[data-food-theme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.foodTheme===selected)));root.querySelectorAll('[data-food-situation]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.foodSituation===situation)));root.querySelectorAll('[data-food-occasion]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.foodOccasion===occasion)))}
