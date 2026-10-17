@@ -11,7 +11,7 @@
  };
  const cache=new Map();let selected='all',situation='all',request=0,lastCard=null;
  function matches(c){return situation==='all'||(situation==='noheat'?c.heat_required===false:situationRecipes[situation]?.has(c.recipe_id))}
- async function collection(id){let pack=cache.get(id);if(!pack){const res=await fetch('data/food-exploration-'+id+'-20261017.json?v=1');if(!res.ok)throw Error('HTTP '+res.status);pack=await res.json();if(pack.count!==10||pack.cards?.length!==10)throw Error('Invalid collection');cache.set(id,pack)}return pack.cards}
+ async function collection(id){let pack=cache.get(id);if(!pack){const res=await fetch('data/food-exploration-'+id+'-20261017.json?v=2');if(!res.ok)throw Error('HTTP '+res.status);pack=await res.json();if(pack.count!==10||pack.cards?.length!==10)throw Error('Invalid collection');cache.set(id,pack)}return pack.cards}
  function node(tag,text,className){const n=document.createElement(tag);if(text!=null)n.textContent=text;if(className)n.className=className;return n}
  function groups(host,list){for(const g of list){host.append(node('h4',g.label));const ul=node('ul');for(const line of g.items)ul.append(node('li',line));host.append(ul)}}
  function steps(host,list){const ol=node('ol');for(const step of list)ol.append(node('li',step.replace(/^\d+\.\s*/,'')));host.append(ol)}
@@ -20,8 +20,11 @@
   const back=node('button','← 음식 목록으로','discovery-back');back.type='button';back.onclick=()=>{detail.hidden=true;lastCard?.focus();grid.scrollIntoView({behavior:'smooth',block:'start'})};detail.append(back);
   const title=node('h3',c.title);title.tabIndex=-1;detail.append(title,node('p',c.hook),node('p','분량 기준: '+c.quantity_basis,'discovery-basis'));
   detail.append(node('p','도구: '+c.equipment.join(' · ')),node('h3','필요한 재료'));groups(detail,c.ingredient_groups);
+  if(c.beginner_guide){const prep=node('section',null,'beginner-start');prep.append(node('h3','시작 전에 준비해요'));const list=node('ul');for(const line of c.beginner_guide.before_start)list.append(node('li',line));prep.append(list);detail.append(prep)}
   for(const p of c.preparations){const box=node('section',null,'discovery-preparation');box.append(node('h3','먼저 준비: '+p.title),node('p',p.usage));groups(box,p.ingredient_groups);steps(box,p.steps);box.append(node('p',p.source_limit,'data-note'));detail.append(box)}
-  detail.append(node('h3','만드는 순서'));steps(detail,c.steps);detail.append(node('h3','놓치기 쉬운 점'));const ul=node('ul');for(const text of [...c.critical_points,...c.editorial_notes])ul.append(node('li',text));detail.append(ul,node('p',c.source_limits,'data-note'));
+  detail.append(node('h3','만드는 순서'));
+  if(c.beginner_guide){const stages=node('ol',null,'beginner-stages');for(const stage of c.beginner_guide.stages){const item=node('li',null,'beginner-stage');item.append(node('h4',stage.title));steps(item,stage.actions);item.append(node('p','확인: '+stage.checkpoint,'beginner-checkpoint'));stages.append(item)}detail.append(stages);const original=node('details',null,'beginner-original');original.append(node('summary','기존 조리 순서도 보기'));steps(original,c.steps);detail.append(original)}else steps(detail,c.steps);
+  detail.append(node('h3','놓치기 쉬운 점'));const ul=node('ul');for(const text of [...c.critical_points,...c.editorial_notes])ul.append(node('li',text));detail.append(ul,node('p',c.source_limits,'data-note'));
   detail.append(node('p','알레르기는 사용하는 재료·제품의 표시사항을 확인하세요. 이 화면에서는 레시피 전체 영양값을 계산하지 않습니다.','data-note'));
   const source=node('a',c.source_label+' · 원본 보기');source.href=c.source_url;source.target='_blank';source.rel='noopener noreferrer';detail.append(source);
   const search=node('button','이 음식의 다른 레시피 찾기 →','discovery-search');search.type='button';search.onclick=()=>{document.getElementById('recipeSearchInput').value=c.title.split('(')[0];document.getElementById('recipeSearchForm').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));document.getElementById('homeRecipes').scrollIntoView({behavior:'smooth',block:'start'})};detail.append(search);
