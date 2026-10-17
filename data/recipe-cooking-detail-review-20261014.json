@@ -1750,182 +1750,182 @@
       "name": "강식당비빔국수양념장(대용량) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_gJDxWPoMHgo_sauce",
       "name": "팟타이소스(간장·액젓형) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_gJDxWPoMHgo",
       "name": "팟타이(국내재료형) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_guc9-PYM7ak_sauce",
       "name": "어묵비빔라면양념장 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_guc9-PYM7ak",
       "name": "어묵비빔라면 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_Sh8kjldrKf8",
       "name": "콩나물해장국 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_Sh8kjldrKf8_egg",
       "name": "수란(해장국곁들임) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_K55CPyYTUJI",
       "name": "배추절이기 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_kD9Qg139l9g",
       "name": "홍콩식굴전 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_nj-DjQFEZb0",
       "name": "순두부찌개(바지락·직접볶음형) · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 1,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_qVtqpAfJNb4",
       "name": "어묵듬뿍라면 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_u8s0XK5WXuw",
       "name": "우리집카레(대용량) · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 6,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_wk8FkdJ8hm0",
       "name": "짜장라면오믈렛 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 1,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_MCYhvB4q4r4",
       "name": "소고기칼국수 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 6,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_6lcrq5D_63o",
       "name": "냉이된장라면 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 4,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_3-xgRrEX-sQ",
       "name": "소고기된장찌개 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 5,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_qioLJwafP8I",
       "name": "참치밥전 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_RmZyxKOUbfs",
       "name": "메추리알장조림 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_cTayVZxM0nw",
       "name": "새꼬막삶기 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_YLd78Yqoy9I",
       "name": "꽃게해장국 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_gUYeEasWU58",
       "name": "동태찌개 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_3OwIXlvjjyk",
       "name": "꿔바로우고기튀김 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 3,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_uu8BqXy6lf4",
       "name": "맑은미역국 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 2,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_SILoOGBiAyA",
       "name": "부대볶음 · 백종원 참고",
       "status": "source_measurements_extracted",
       "detail_rows": 5,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_llZ1ii59BVs_tofu",
       "name": "유부조림(우동곁들임) · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     },
     {
       "id": "paik_llZ1ii59BVs",
       "name": "유부우동 · 백종원 참고",
       "status": "section_mapping_required",
       "detail_rows": 0,
-      "manually_expanded": false
+      "manually_expanded": true
     }
   ],
   "other_items": [
