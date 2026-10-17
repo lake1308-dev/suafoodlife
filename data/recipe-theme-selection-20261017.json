@@ -1,0 +1,733 @@
+{
+  "version": "1.0.0",
+  "checked_on": "2026-10-17",
+  "task_number": 2,
+  "status": "candidate_selection_completed",
+  "scope_note": "Inventory of all seven published recipe collections; ingredient and cooking review of 30 selected records. 2335 records are not 2335 unique dishes. Not a new recipe release or a homepage UI update.",
+  "inventory": [
+    {
+      "path": "data/recipes.json",
+      "records": 16,
+      "sha256": "a293de37a83cd5aa739883e7160886192cf1d9176835f72b85f74ddadf448d32"
+    },
+    {
+      "path": "data/recipes-creator-20261008.json",
+      "records": 274,
+      "sha256": "b9951784352e6122bdf83386e4c98bcf6c7ea478b9db888bab288efa82bd7a92"
+    },
+    {
+      "path": "data/recipes-public-20261008.json.gz",
+      "records": 1150,
+      "sha256": "3472bfd026f18edf5ba7614efe86b39360da049cd5f15297dc70cd4ac55555b8"
+    },
+    {
+      "path": "data/recipes-epis-20261012.json.gz",
+      "records": 532,
+      "sha256": "8c58ae7335523de0f36a001195a038805fe63b165352d370901c3a68b3bcd86f"
+    },
+    {
+      "path": "data/recipes-kfi-rice-20261012.json.gz",
+      "records": 30,
+      "sha256": "82488378998d0fbfb23ae8f7c074e4e843cfd43c1868b36e9fe0d983e6abb3da"
+    },
+    {
+      "path": "data/recipes-rda-cooking-20261013.json.gz",
+      "records": 44,
+      "sha256": "0ef072dc76b8da383c906ff1325c366d2d46d1ad2faca5e02aeb7567b24dd6c2"
+    },
+    {
+      "path": "data/recipes-epis-master-20261014.json.gz",
+      "records": 289,
+      "sha256": "2d2a6ac96528fece6af8c7e426d92438befcdf44229f7ae6b9a01f43a0857b03"
+    }
+  ],
+  "inventory_records": 2335,
+  "selected_records": 30,
+  "rules": [
+    "No new recipe copies or recipe changes in this task.",
+    "Availability in convenience stores is not verified; pantry and additional shopping are explicit.",
+    "Nostalgia and world labels are editorial themes, not evidence of age preferences, origins, traditional authenticity or broadcaster endorsement.",
+    "All selected records have instruction reviews; this does not remove disclosed source omissions or certify cooking safety.",
+    "No invented cooking times, calorie estimates or allergen-free claims."
+  ],
+  "groups": [
+    {
+      "id": "convenience",
+      "name": "편의점 재료로 집에서 만들기",
+      "description": "완제품 판매 여부나 매장 재고를 보증하는 분류가 아닌 활용 기획. 팬·냄비 등 집 조리를 전제로 한다.",
+      "count": 10,
+      "items": [
+        {
+          "rank": 1,
+          "recipe_id": "paik_78AQ-ten9lE",
+          "name": "달걀볶음라면",
+          "selection_reason": "라면과 달걀의 익숙한 조합으로 시작하기 좋음",
+          "main_ingredients": "라면·달걀",
+          "additional_ingredients": "식용유",
+          "equipment": "냄비·팬",
+          "next_step": "삶는 물양·면 시간 확인",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=78AQ-ten9lE",
+          "source_record_id": "78AQ-ten9lE",
+          "instruction_review": {
+            "checked_on": "2026-10-17",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "소개 문구의 90초는 모든 단계의 확정 총시간으로 적용하지 않았습니다. 원본에 삶는 물 양·면 삶는 시간·마지막 볶는 시간은 없습니다. 달걀 2개·수프 전량 응용은 기본형과 구분했습니다.",
+          "preparations": []
+        },
+        {
+          "rank": 2,
+          "recipe_id": "paik_-_q9oyOToxs",
+          "name": "우유라면",
+          "selection_reason": "우유로 국물을 바꾸는 호기심 요소",
+          "main_ingredients": "라면·우유",
+          "additional_ingredients": "대파·고추·고춧가루",
+          "equipment": "냄비·체",
+          "next_step": "채소와 매운 양념 별도 준비; 우유 재가열 순서 유지",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=-_q9oyOToxs",
+          "source_record_id": "-_q9oyOToxs",
+          "instruction_review": {
+            "checked_on": "2026-10-14",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "첫 삶기 물과 우유는 각각 360ml입니다. 면이 풀리면 물을 빼고 우유로 다시 조리하는 버전입니다. 원본에 단계별 시간과 고명용 대파 배분은 없습니다. 라면 제품별 분말스프의 맛과 염도가 달라 확인하세요.",
+          "preparations": []
+        },
+        {
+          "rank": 3,
+          "recipe_id": "paik_rqbhm9hpvp8",
+          "name": "치즈라면전",
+          "selection_reason": "면을 전처럼 먹는 새로운 모양",
+          "main_ingredients": "라면·모차렐라·체다치즈",
+          "additional_ingredients": "대파·식용유",
+          "equipment": "냄비·뚜껑 있는 팬",
+          "next_step": "치즈 2종·삶기와 부치기 두 과정",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=rqbhm9hpvp8",
+          "source_record_id": "rqbhm9hpvp8",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "원본에 면 삶는 물의 양, 삶는 시간, 파기름을 내는 불 세기와 뚜껑을 덮는 시간은 없습니다. 약불에서 치즈를 녹이는 단계와 밑면 색을 내는 단계를 구분했습니다. 파마산치즈는 선택 고명입니다.",
+          "preparations": []
+        },
+        {
+          "rank": 4,
+          "recipe_id": "paik_wM9hbmwCpdc",
+          "name": "크림떡볶이",
+          "selection_reason": "우유와 치즈로 만드는 덜 매운 떡 요리",
+          "main_ingredients": "떡·우유·베이컨·체다치즈",
+          "additional_ingredients": "양파·식용유·후추",
+          "equipment": "팬",
+          "next_step": "떡과 베이컨 판매 여부 및 치즈 농도 확인",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=wM9hbmwCpdc",
+          "source_record_id": "wM9hbmwCpdc",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "우유를 넣고 떡을 익힌 뒤 치즈를 넣는 순서입니다. 처음 볶는 불 세기·단계별 시간·후추량과 최종 농도 수치는 원본에 없습니다. 파슬리는 선택 고명입니다.",
+          "preparations": []
+        },
+        {
+          "rank": 5,
+          "recipe_id": "paik_zS_o6psOt9g_pan",
+          "name": "콘치즈(프라이팬)",
+          "selection_reason": "옥수수 통조림의 간식 변신",
+          "main_ingredients": "옥수수캔·모차렐라·마요네즈",
+          "additional_ingredients": "양파·버터·설탕",
+          "equipment": "뚜껑 있는 팬",
+          "next_step": "물기 제거·불 끄고 마요네즈 섞기",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=zS_o6psOt9g",
+          "source_record_id": "zS_o6psOt9g",
+          "instruction_review": {
+            "checked_on": "2026-10-14",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "처음 볶는 불 세기와 조리 시간은 미표기입니다. 마요네즈는 불을 끈 뒤 섞고 치즈를 녹일 때 약불로 다시 켜는 순서입니다.",
+          "preparations": []
+        },
+        {
+          "rank": 6,
+          "recipe_id": "paik_mjLPNh11_xs_salad",
+          "name": "참치마요샐러드",
+          "selection_reason": "불 없이 섞는 후보",
+          "main_ingredients": "참치캔·마요네즈",
+          "additional_ingredients": "양파·치킨무·설탕·소금·후추",
+          "equipment": "칼·볼",
+          "next_step": "치킨무·양파 별도 확보; 참치 기름 빼기",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=mjLPNh11_xs",
+          "source_record_id": "mjLPNh11_xs",
+          "instruction_review": {
+            "checked_on": "2026-10-14",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "이 전체 샐러드는 원본 토스트 2개용 배합입니다. 토스트 1개에는 완성 샐러드의 절반을 씁니다. 참치 100g은 캔 표기이며 기름을 뺀 실제 중량은 미확인입니다.",
+          "preparations": []
+        },
+        {
+          "rank": 7,
+          "recipe_id": "paik_mjLPNh11_xs_toast",
+          "name": "튜나멜트토스트",
+          "selection_reason": "참치·치즈·식빵의 한 끼",
+          "main_ingredients": "식빵·참치캔·체다치즈·마요네즈",
+          "additional_ingredients": "양파·치킨무·버터·설탕",
+          "equipment": "팬",
+          "next_step": "샐러드 전체 배합 중 절반 사용; 2개 준비량과 구분",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=mjLPNh11_xs",
+          "source_record_id": "mjLPNh11_xs",
+          "instruction_review": {
+            "checked_on": "2026-10-14",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "토스트 1개에 식빵 2장과 치즈 4장, 샐러드 배합의 절반을 씁니다. 원본에 면별 굽는 시간과 식빵·치즈 제품별 무게는 없습니다.",
+          "preparations": []
+        },
+        {
+          "rank": 8,
+          "recipe_id": "paik_YXMxnHx7yZQ",
+          "name": "달걀샌드위치",
+          "selection_reason": "달걀·빵 조합의 풍성한 한 끼",
+          "main_ingredients": "식빵·달걀·치즈·베이컨·마요네즈",
+          "additional_ingredients": "버터·설탕·식초·고춧가루",
+          "equipment": "팬",
+          "next_step": "2인분·소스 2종 준비량을 1개 사용량과 구분",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=YXMxnHx7yZQ",
+          "source_record_id": "YXMxnHx7yZQ",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "2인분입니다. 두 소스는 준비 배합이며 샌드위치에 전량을 쓰라는 뜻은 아닙니다. 원본은 달걀 가운데 달걀물이 조금 남을 때 불을 끄지만 Food Life는 달걀을 충분히 익히는 방식으로 조정했습니다. 버터·실제 소스 사용량과 굽는 시간은 원본에 없습니다.",
+          "preparations": []
+        },
+        {
+          "rank": 9,
+          "recipe_id": "paik_kj2ZupQ7fts",
+          "name": "스팸마요김치덮밥",
+          "selection_reason": "즉석밥을 검토할 수 있는 덮밥 후보",
+          "main_ingredients": "밥·통조림햄·김치·달걀·마요네즈",
+          "additional_ingredients": "설탕·진간장·식용유·쪽파",
+          "equipment": "팬",
+          "next_step": "원본은 밥 200g; 즉석밥 적용은 제품 중량 확인 후",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=kj2ZupQ7fts",
+          "source_record_id": "kj2ZupQ7fts",
+          "instruction_review": {
+            "checked_on": "2026-10-14",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "식용유 21g은 원본 전체 준비량이며 달걀·햄·김치 단계별 배분은 없습니다. 불 세기와 볶는 시간, 마요네즈·쪽파 양도 미표기입니다.",
+          "preparations": []
+        },
+        {
+          "rank": 10,
+          "recipe_id": "paik_9Wvd9VL0OpM",
+          "name": "카레라면",
+          "selection_reason": "카레를 라면으로 경험하는 조합",
+          "main_ingredients": "라면·버터",
+          "additional_ingredients": "고형카레·간마늘·후추",
+          "equipment": "냄비",
+          "next_step": "고형카레·마늘은 별도 장보기 가능성; 분말수프 간 확인",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=9Wvd9VL0OpM",
+          "source_record_id": "9Wvd9VL0OpM",
+          "instruction_review": {
+            "checked_on": "2026-10-17",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "약 1분 30초는 면이 풀린 뒤 시간이며 전체 조리 시간이 아닙니다. 분말수프 사용량·후추량은 원본에 없습니다. 카레가루 대체는 별도 응용으로 고형카레와 동시에 넣지 않습니다.",
+          "preparations": []
+        }
+      ]
+    },
+    {
+      "id": "nostalgia",
+      "name": "추억의 간식과 분식",
+      "description": "세대마다 기억이 다르므로 모두의 추억이라는 사실 주장 대신 회상·대화용 편집 테마로 선별.",
+      "count": 10,
+      "items": [
+        {
+          "rank": 1,
+          "recipe_id": "paik_z-XcuZL80Lc_ham_cheese",
+          "name": "길거리토스트(햄치즈형)",
+          "selection_reason": "학교 앞·길거리 간식 이야기 소재",
+          "main_ingredients": "식빵·달걀·햄·치즈",
+          "additional_ingredients": "양배추·대파·당근·설탕·마가린",
+          "equipment": "팬",
+          "next_step": "뒤집기 연습·원본 불 세기와 시간 누락",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=z-XcuZL80Lc",
+          "source_record_id": "z-XcuZL80Lc",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "햄치즈형의 채소·햄·치즈 분량을 별도로 정리했습니다. 원본에 이 변형의 불 세기·굽는 시간·마가린과 소금의 정확한 양은 없습니다. 치즈형에 없는 양배추·당근을 구분해 표시했습니다.",
+          "preparations": []
+        },
+        {
+          "rank": 2,
+          "recipe_id": "paik_t4Es8mwdYlE",
+          "name": "떡볶이",
+          "selection_reason": "분식집을 떠올리며 고를 메뉴",
+          "main_ingredients": "떡·어묵",
+          "additional_ingredients": "양배추·대파·삶은 달걀·양념",
+          "equipment": "냄비",
+          "next_step": "원본 떡 총 800g 대량; 소량 배합 검토 필요",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=t4Es8mwdYlE",
+          "source_record_id": "t4Es8mwdYlE",
+          "instruction_review": {
+            "checked_on": "2026-10-14",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "원본 분량은 쌀떡 400g과 밀가루떡 400g을 함께 쓰는 기준입니다. 원본에는 인분 수, 불 세기와 정확한 끓이는 시간이 없습니다. 떡의 제품별 조리 안내도 확인하세요.",
+          "preparations": []
+        },
+        {
+          "rank": 3,
+          "recipe_id": "paik_6e-IbuuD6ZU",
+          "name": "라볶이",
+          "selection_reason": "라면과 떡볶이 양념의 친숙한 맛",
+          "main_ingredients": "라면",
+          "additional_ingredients": "대파·설탕·고추장",
+          "equipment": "냄비",
+          "next_step": "원본에는 떡 없음; 전체 1분 요리로 표시하지 않기",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=6e-IbuuD6ZU",
+          "source_record_id": "6e-IbuuD6ZU",
+          "instruction_review": {
+            "checked_on": "2026-10-15",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "제목의 1분은 전체 조리 시간이 아닙니다. 원본에는 불 세기, 면이 풀리기까지의 시간과 최종 국물량이 없습니다. 라면 제품에 따라 간과 면 익는 상태를 확인하세요.",
+          "preparations": []
+        },
+        {
+          "rank": 4,
+          "recipe_id": "paik_CVtdTM6gJTY",
+          "name": "라면땅(마요네즈)",
+          "selection_reason": "라면을 과자로 먹는 놀이 요소",
+          "main_ingredients": "라면·마요네즈",
+          "additional_ingredients": "설탕",
+          "equipment": "전자레인지",
+          "next_step": "출력 미표기; 타는지 중간 확인·성인 도움",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=CVtdTM6gJTY",
+          "source_record_id": "CVtdTM6gJTY",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "전자레인지 출력은 원본에 명시되지 않았습니다. 약 2분 20초는 모든 기기에 같은 결과를 보장하는 시간이 아니므로 중간 상태를 확인하세요. 라면수프의 정확한 양과 식히는 시간도 없습니다.",
+          "preparations": []
+        },
+        {
+          "rank": 5,
+          "recipe_id": "paik_OSYQHa-vbVU",
+          "name": "소떡어떡",
+          "selection_reason": "휴게소·분식 꼬치 조합 소재",
+          "main_ingredients": "떡·소시지·햄·어묵",
+          "additional_ingredients": "별도 소스·식용유",
+          "equipment": "냄비·팬·꼬치",
+          "next_step": "꼬치당 재료량 미표기; 기름·꼬치 성인 도움",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=OSYQHa-vbVU",
+          "source_record_id": "OSYQHa-vbVU",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "떡·햄·소시지·어묵의 정확한 양과 굽는 시간·기름 양은 원본에 없습니다. 소스는 약 10꼬치용 배합으로 별도 메뉴에 정리했습니다. 떡을 데치는 약 2~3분은 꼬치 전체 조리 시간이 아닙니다.",
+          "preparations": [
+            {
+              "recipe_id": "paik_OSYQHa-vbVU_sauce",
+              "name": "소떡어떡소스",
+              "amount_hint": "약 10꼬치용 준비량이며 실제 꼬치마다 기호에 맞게 바릅니다."
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "recipe_id": "paik_87zznFb0-us",
+          "name": "빨간어묵",
+          "selection_reason": "분식집 어묵을 떠올리는 국물",
+          "main_ingredients": "어묵",
+          "additional_ingredients": "대파·양파·고추·양념",
+          "equipment": "냄비·선택 꼬치",
+          "next_step": "3~4인분과 1인분 구분; 꼬치 없이 썬 형태도 검토",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=87zznFb0-us",
+          "source_record_id": "87zznFb0-us",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "약 3~4인분 배합입니다. 약 6분은 국물이 끓고 어묵을 넣은 뒤의 시간입니다. 후추의 정확한 양과 꼬치 수는 원본에 없습니다. 2/2/2 큰술 표기보다 재료별 g 차이를 구분해 표시했습니다.",
+          "preparations": []
+        },
+        {
+          "rank": 7,
+          "recipe_id": "paik_FbApByZGCXg",
+          "name": "쫄면",
+          "selection_reason": "분식 메뉴를 비교하며 구경하기 좋음",
+          "main_ingredients": "쫄면·달걀",
+          "additional_ingredients": "콩나물·미역·양배추·상추·당근·양념",
+          "equipment": "냄비·체",
+          "next_step": "고명 손질·삶기 많아 간단 요리로 표시하지 않기",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=FbApByZGCXg",
+          "source_record_id": "FbApByZGCXg",
+          "instruction_review": {
+            "checked_on": "2026-10-14",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "삶은 콩나물 80g과 불린 미역 30g은 준비 완료 상태의 양입니다. 쫄면 제품에 따라 삶는 시간도 확인하세요. 원본의 달걀 15분은 찬물에서 시작하는 기준입니다.",
+          "preparations": []
+        },
+        {
+          "rank": 8,
+          "recipe_id": "paik_aXJgN_JjYDg_sweetpotato",
+          "name": "고구마빠스",
+          "selection_reason": "고구마 달콤 간식의 회상 소재",
+          "main_ingredients": "고구마",
+          "additional_ingredients": "설탕·식용유",
+          "equipment": "튀김용 팬·시럽 팬",
+          "next_step": "튀김·뜨거운 시럽 성인 조리; 초급 우선 제외",
+          "priority": "성인조리",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=aXJgN_JjYDg",
+          "source_record_id": "aXJgN_JjYDg",
+          "instruction_review": {
+            "checked_on": "2026-10-14",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "시럽용 식용유 40g과 튀김용 기름은 별도입니다. 튀김 시간·고구마 크기·튀김 기름 양은 미표기입니다. 뜨거운 설탕 시럽을 손으로 만지지 마세요.",
+          "preparations": []
+        },
+        {
+          "rank": 9,
+          "recipe_id": "paik_-dBPLgpC-tk_basic",
+          "name": "프렌치토스트(기본형)",
+          "selection_reason": "집에서 먹던 빵 간식 이야기 소재",
+          "main_ingredients": "식빵·달걀",
+          "additional_ingredients": "버터·잼·소금·선택 연유와 계피",
+          "equipment": "팬",
+          "next_step": "고명 분량 미표기·달걀 충분히 익히기",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=-dBPLgpC-tk",
+          "source_record_id": "-dBPLgpC-tk",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "기본형 한 장씩 굽는 방법만 정리했습니다. 잼을 사이에 넣는 샌드위치형의 약불 조리와 섞지 않았습니다. 원본에 빵 두께·달걀물에 담그는 시간·굽는 시간·식용유와 고명의 정확한 양은 없습니다.",
+          "preparations": []
+        },
+        {
+          "rank": 10,
+          "recipe_id": "paik_yI67M3IS4GI_pancake",
+          "name": "옥수수전(전분·부침형)",
+          "selection_reason": "통조림 옥수수로 만드는 간식",
+          "main_ingredients": "옥수수캔",
+          "additional_ingredients": "옥수수전분·연유·식용유·선택 고명",
+          "equipment": "팬",
+          "next_step": "소금 투입 시점 누락; 튀김형과 구분",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=yI67M3IS4GI",
+          "source_record_id": "yI67M3IS4GI",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "재료표의 꽃소금 1.5g은 원본 조리 설명에 넣는 시점이 없습니다. 식용유 42g 표기와 튀김형의 넉넉한 기름을 구분했으며 불 세기·굽는 시간은 원본에 없습니다. 340g을 물기 뺀 건더기 중량으로 확정하지 않았습니다.",
+          "preparations": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "여행 기분으로 만나는 세계 음식",
+      "description": "정통성·발상지 인증이 아니라 음식명과 조리 스타일을 바탕으로 한 탐색 테마. 국가 확정 표시는 이번 단계에서 하지 않는다.",
+      "count": 10,
+      "items": [
+        {
+          "rank": 1,
+          "recipe_id": "paik_jBdQ65yHB_U",
+          "name": "감바스알아히요",
+          "selection_reason": "새우와 마늘 오일 요리로 여행 기분",
+          "main_ingredients": "새우·올리브유·마늘",
+          "additional_ingredients": "양송이·토마토·고추·빵",
+          "equipment": "팬",
+          "next_step": "새우 익힘·기름 준비량과 섭취량 구분",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=jBdQ65yHB_U",
+          "source_record_id": "jBdQ65yHB_U",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "원본에 마늘·새우 가열 시간, 후추·파슬리·빵의 양은 없습니다. 올리브유 180ml는 전체 준비량이며 각자 먹는 양과 다릅니다. 기름과 재료를 가열할 때 물기가 남지 않도록 준비합니다.",
+          "preparations": []
+        },
+        {
+          "rank": 2,
+          "recipe_id": "paik_ohihzV6Z85k",
+          "name": "알리오올리오(마늘듬뿍)",
+          "selection_reason": "익숙한 마늘로 파스타 도전",
+          "main_ingredients": "파스타·올리브유·마늘",
+          "additional_ingredients": "페퍼론치노·쪽파·치즈",
+          "equipment": "냄비·팬",
+          "next_step": "한국식 마늘듬뿍 참고형; 면수 사용 순서",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=ohihzV6Z85k",
+          "source_record_id": "ohihzV6Z85k",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "1인분입니다. 이 원본은 찬물 대신 면수에 가볍게 헹구는 순서입니다. 제품·취향에 따라 면 익는 상태를 확인하세요. 마늘 볶는 시간과 마무리 소금·치즈 양은 없고 추가 조미료는 선택 응용입니다.",
+          "preparations": []
+        },
+        {
+          "rank": 3,
+          "recipe_id": "paik_gJDxWPoMHgo",
+          "name": "팟타이(국내재료형)",
+          "selection_reason": "국내 양념으로 볶음쌀국수 경험",
+          "main_ingredients": "쌀국수·새우·달걀",
+          "additional_ingredients": "숙주·부추·땅콩·향채·간장액젓소스",
+          "equipment": "팬·불림 용기",
+          "next_step": "쌀국수 불림 조건 확인·별도 소스·땅콩 등 재료 확인",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=gJDxWPoMHgo",
+          "source_record_id": "gJDxWPoMHgo",
+          "instruction_review": {
+            "checked_on": "2026-10-17",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "원본에 쌀국수 불림 온도·시간과 볶는 시간이 없습니다. 부추는 불을 끈 뒤 넣고 숙주와 함께 지나치게 숨이 죽지 않게 합니다. 새우를 고명으로 남길 경우에도 익힌 새우를 사용합니다.",
+          "preparations": [
+            {
+              "recipe_id": "paik_gJDxWPoMHgo_sauce",
+              "name": "팟타이소스(간장·액젓형)",
+              "amount_hint": "원본에 제시된 소스 준비량을 참고합니다."
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "recipe_id": "paik_pTvMsM2v1tg",
+          "name": "토마토달걀볶음",
+          "selection_reason": "간단한 재료의 다른 볶음 방식",
+          "main_ingredients": "토마토·달걀",
+          "additional_ingredients": "대파·간장·굴소스·식용유",
+          "equipment": "팬",
+          "next_step": "불 세기·시간 원본 미표기; 기름 두 단계 별도",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=pTvMsM2v1tg",
+          "source_record_id": "pTvMsM2v1tg",
+          "instruction_review": {
+            "checked_on": "2026-10-14",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "스크램블용 기름 30g과 파기름용 기름 30g은 서로 다른 단계의 양입니다. 원본에는 토마토 두께·불 세기·볶는 시간과 소금·후추의 정확한 양이 없습니다.",
+          "preparations": []
+        },
+        {
+          "rank": 5,
+          "recipe_id": "paik_0bnFoRQebq0_cream",
+          "name": "베이컨크림파스타",
+          "selection_reason": "우유로 만드는 크림파스타 경험",
+          "main_ingredients": "파스타·우유·베이컨",
+          "additional_ingredients": "양파·양송이·밀가루·버터·치즈",
+          "equipment": "냄비·팬",
+          "next_step": "원본 인분 미확정; 크림소스 농도 설명 활용",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=0bnFoRQebq0",
+          "source_record_id": "0bnFoRQebq0",
+          "instruction_review": {
+            "checked_on": "2026-10-14",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "원본 설명에 인분 수, 찬물 헹굼 여부, 볶고 졸이는 정확한 시간, 추가 면수의 양은 없습니다. 면 90g을 임의로 1인분으로 표기하지 않았습니다. 이 조리법의 면 삶기 시간은 소스에서 추가 조리하는 과정을 포함해 참고하세요.",
+          "preparations": []
+        },
+        {
+          "rank": 6,
+          "recipe_id": "paik_X8VEvBHHOjQ",
+          "name": "몬테크리스토샌드위치",
+          "selection_reason": "겹친 단면과 달콤짭짤한 조합",
+          "main_ingredients": "식빵·햄·치즈·잼",
+          "additional_ingredients": "달걀·우유·식용유",
+          "equipment": "팬",
+          "next_step": "잼 재료표와 단계 합계 불일치·두꺼운 빵 굽기",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=X8VEvBHHOjQ",
+          "source_record_id": "X8VEvBHHOjQ",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "원본 딸기잼 재료표는 총 63g이지만 설명은 바르는 네 면에 각각 약 2/3큰술을 사용합니다. 두 표기의 합계가 정확히 같다고 단정하지 않고 얇게 나눠 바르는 흐름을 정리했습니다. 빵 두께·굽는 시간·맛소금의 정확한 양은 없습니다.",
+          "preparations": []
+        },
+        {
+          "rank": 7,
+          "recipe_id": "paik_zRg4nxIv3j8",
+          "name": "볶음우동",
+          "selection_reason": "국물우동과 다른 볶음면 경험",
+          "main_ingredients": "우동면·돼지고기",
+          "additional_ingredients": "양배추·양파·당근·향채·소스",
+          "equipment": "팬",
+          "next_step": "돼지고기 크기·볶는 시간 미표기; 고명 추가 준비",
+          "priority": "보완",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=zRg4nxIv3j8",
+          "source_record_id": "zRg4nxIv3j8",
+          "instruction_review": {
+            "checked_on": "2026-10-15",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "원본에는 돼지고기 써는 크기, 처음 볶는 불 세기와 단계별 시간이 없습니다. 마요네즈·훈연멸치가루·쪽파는 정확한 분량이 없는 고명입니다.",
+          "preparations": []
+        },
+        {
+          "rank": 8,
+          "recipe_id": "paik_llZ1ii59BVs",
+          "name": "유부우동",
+          "selection_reason": "유부를 올린 따뜻한 우동 경험",
+          "main_ingredients": "시판우동·냉동유부",
+          "additional_ingredients": "진간장·미림·설탕·대파",
+          "equipment": "냄비",
+          "next_step": "유부조림 10개 준비 중 3개 사용; 우동은 제품 안내",
+          "priority": "우선",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=llZ1ii59BVs",
+          "source_record_id": "llZ1ii59BVs",
+          "instruction_review": {
+            "checked_on": "2026-10-17",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "원본은 시판 우동을 쓰므로 물양·면 조리 시간·국물 배합은 제품 안내를 확인해야 합니다. 유부조림 전체 준비량을 한 그릇에 넣지 않습니다. 단무지·고춧가루는 선택 고명입니다.",
+          "preparations": [
+            {
+              "recipe_id": "paik_llZ1ii59BVs_tofu",
+              "name": "유부조림(우동곁들임)",
+              "amount_hint": "한 그릇에 3개를 올립니다. 준비량은 10개입니다."
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "recipe_id": "paik_LojVJnvLb30",
+          "name": "버팔로윙",
+          "selection_reason": "에어프라이어 닭날개 메뉴 도전",
+          "main_ingredients": "닭봉·닭날개",
+          "additional_ingredients": "타바스코·사과식초·버터·양념",
+          "equipment": "에어프라이어·소스 팬",
+          "next_step": "소스 분리·닭 완전 익힘·기기별 조절",
+          "priority": "성인조리",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=LojVJnvLb30",
+          "source_record_id": "LojVJnvLb30",
+          "instruction_review": {
+            "checked_on": "2026-10-16",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "원본은 칼집을 내지 않을 경우 약 하루 냉장 숙성하는 선택 방식도 제시합니다. 기본 흐름은 칼집을 내어 굽는 방식입니다. 180℃·15분씩 2회는 기기마다 결과가 다를 수 있으며 원본에 식용유량은 없습니다. 손질된 닭을 사용하는 흐름으로 정리했습니다.",
+          "preparations": [
+            {
+              "recipe_id": "paik_LojVJnvLb30_sauce",
+              "name": "버팔로윙소스",
+              "amount_hint": "준비한 소스의 2/3는 재울 때, 나머지는 구운 뒤 사용합니다."
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "recipe_id": "paik_kD9Qg139l9g",
+          "name": "홍콩식굴전",
+          "selection_reason": "익숙한 굴전과 비교하는 발견",
+          "main_ingredients": "굴·달걀·튀김가루",
+          "additional_ingredients": "대파·식용유·곁들임 소스",
+          "equipment": "팬",
+          "next_step": "굴 충분히 익히기; 원본 정확한 가열시간 없음",
+          "priority": "성인조리",
+          "status": "selected_requires_theme_preparation",
+          "source_url": "https://www.youtube.com/watch?v=kD9Qg139l9g",
+          "source_record_id": "kD9Qg139l9g",
+          "instruction_review": {
+            "checked_on": "2026-10-17",
+            "basis": "official_description",
+            "status": "expanded_with_source_limits"
+          },
+          "cooking_notice": "약 5~6개 준비량입니다. 원본의 강불·짧은 조리만으로 굴 익힘을 판단하지 않도록 충분히 익히는 안내를 더했습니다. 정확한 두께·시간과 찍는 소스량은 없습니다. 일반 달걀옷 굴전과 다른 반죽입니다.",
+          "preparations": []
+        }
+      ]
+    }
+  ]
+}
