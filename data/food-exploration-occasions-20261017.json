@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "checked_on": "2026-10-17",
   "title": "일상과 초대의 밥상",
   "source_recipe_version": "1.70.0",
-  "count": 4,
+  "count": 7,
   "new_recipe_records": 0,
-  "note": "Four existing reviewed recipes added to discovery. Occasion picks and table combinations are editorial suggestions, not nutritional meal plans or common-serving conversions.",
+  "note": "Seven existing reviewed recipes connected to discovery. Occasion picks and five table combinations are editorial suggestions, not health claims, nutritional meal plans or common-serving conversions.",
   "cards": [
     {
       "id": "occasions_01",
@@ -263,6 +263,190 @@
         "밥상 메뉴",
         "집에서 조리"
       ]
+    },
+    {
+      "id": "occasions_05",
+      "recipe_id": "paik_3gQwydGHIG8",
+      "title": "감자조림",
+      "hook": "밥 옆에 곁들일 소고기 감자조림",
+      "discovery_tag": "일상과 초대의 밥상",
+      "quantity_basis": "감자 400g·소고기 60g 기준·인분 미표기",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=3gQwydGHIG8",
+      "source_recipe_sha256": "da44172d49bae87ef7681f0c0b1a31ce3d75a00f4592302dc611b2f41cb90214",
+      "shopping": {
+        "main_candidates": "물: 약 2와2/3컵(470g) · 감자: 2개(400g) · 양파: 1/2개(125g)",
+        "additional_and_pantry": "아래 전체 재료량을 확인해 준비하세요.",
+        "availability_note": "판매처별 재고를 확인한 목록이 아닙니다."
+      },
+      "equipment": [
+        "깊은 팬 또는 냄비",
+        "칼",
+        "도마"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "물: 약 2와2/3컵(470g)",
+            "감자: 2개(400g)",
+            "양파: 1/2개(125g)",
+            "진간장: 약 2/3컵(120g)",
+            "물엿: 약 1/3컵(65g)",
+            "소고기(불고기용): 2/3컵(60g)",
+            "황설탕: 약 4큰술(47g)",
+            "꽈리고추: 약 4개(22g)",
+            "간마늘: 1/2큰술(10g)"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "손질 — 감자 400g은 약 3cm 크기, 양파 125g은 약 2cm 크기로 썹니다. 불고기용 소고기 60g은 약 4cm 길이로 자르고 꽈리고추 22g은 3~4등분합니다.",
+        "먼저 끓이기 — 깊은 팬이나 냄비에 감자, 소고기, 물 470g, 황설탕 47g, 물엿 65g을 넣고 강불로 끓입니다. 고기가 뭉치지 않게 풀어 줍니다.",
+        "양파 — 끓어오르면 양파를 넣습니다. 다시 끓으면 진간장 120g과 다진 마늘 10g을 더합니다.",
+        "조리기 — 중불로 낮춰 약 7~8분 조립니다. 더 무른 감자를 원하면 물을 추가하고 조리는 시간을 늘립니다.",
+        "마무리 — 불을 끈 뒤 꽈리고추를 섞습니다."
+      ],
+      "critical_points": [
+        "약 7~8분은 중불로 낮춘 뒤 시간입니다. 꽈리고추는 불을 끈 뒤 섞습니다."
+      ],
+      "editorial_notes": [
+        "음식 조합은 편집 제안입니다. 각 메뉴의 원본 배합은 서로 인분 수가 다르거나 미표기여서 한 상의 공통 인분으로 환산하지 않았습니다."
+      ],
+      "source_limits": "원본의 약 7~8분은 중불로 낮춘 뒤 조리는 시간입니다. 감자 크기·화력에 따라 익는 정도가 달라집니다. 고기를 씻는 단계는 이 안내에 추가하지 않았습니다.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "밥상 메뉴",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "occasions_06",
+      "recipe_id": "paik_Eino3yP-Wk0",
+      "title": "두부조림",
+      "hook": "양념이 배어드는 두부 한 접시",
+      "discovery_tag": "일상과 초대의 밥상",
+      "quantity_basis": "두부 1모 290g 기준·인분 미표기",
+      "servings": null,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=Eino3yP-Wk0",
+      "source_recipe_sha256": "71caa2ee17de5b3c1f8410aefc333e1199792c4aac5c2af50347df04a7eb64b0",
+      "shopping": {
+        "main_candidates": "두부: 1모(290g) · 새우젓: 1큰술(20g) · 굵은 고춧가루: 2큰술(16g)",
+        "additional_and_pantry": "아래 전체 재료량을 확인해 준비하세요.",
+        "availability_note": "판매처별 재고를 확인한 목록이 아닙니다."
+      },
+      "equipment": [
+        "얕은 팬",
+        "칼",
+        "도마"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "두부: 1모(290g)",
+            "새우젓: 1큰술(20g)",
+            "굵은 고춧가루: 2큰술(16g)",
+            "진간장: 2큰술(20g)",
+            "황설탕: 1/3큰술(4g)",
+            "정수 물: 1컵(180ml)",
+            "간 마늘: 1/2큰술(10g)",
+            "간 생강 약간",
+            "대파: 1컵(60g)",
+            "청양고추: 1개(10g)",
+            "들기름: 1큰술(7g)"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "손질 — 대파 60g과 청양고추 10g은 약 0.3cm로 썹니다. 두부 290g은 반으로 갈라 약 1cm 두께로 썹니다.",
+        "담기 — 얕은 팬에 두부를 펼치고 물 180ml를 붓습니다. 원본은 두부가 절반쯤 잠기는 높이를 기준으로 합니다.",
+        "양념 — 새우젓 20g, 굵은 고춧가루 16g, 진간장 20g, 황설탕 4g, 다진 마늘 10g, 생강 약간과 썬 고추·대파를 넣어 졸입니다.",
+        "마무리 — 양념이 절반쯤 줄면 들기름 7g을 넣습니다. 국물이 자작하게 남을 때 불을 끕니다."
+      ],
+      "critical_points": [
+        "고춧가루와 청양고추가 들어가는 매콤한 조리법입니다. 두부 메뉴라고 맵지 않거나 저염이라고 안내하지 않습니다."
+      ],
+      "editorial_notes": [
+        "음식 조합은 편집 제안입니다. 각 메뉴의 원본 배합은 서로 인분 수가 다르거나 미표기여서 한 상의 공통 인분으로 환산하지 않았습니다."
+      ],
+      "source_limits": "원본에는 불 세기와 조리는 시간이 없습니다. 물 높이와 양념이 절반으로 줄어드는 상태를 함께 확인하세요.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "밥상 메뉴",
+        "집에서 조리"
+      ]
+    },
+    {
+      "id": "occasions_07",
+      "recipe_id": "paik__H64Kz7Mgz4",
+      "title": "뚝배기계란찜",
+      "hook": "뚝배기에 만드는 따뜻한 달걀 반찬",
+      "discovery_tag": "일상과 초대의 밥상",
+      "quantity_basis": "원본 2인분·달걀 6개 기준",
+      "servings": 2,
+      "total_minutes": null,
+      "nutrition": null,
+      "source_label": "백종원 공식 영상 참고",
+      "source_url": "https://www.youtube.com/watch?v=_H64Kz7Mgz4",
+      "source_recipe_sha256": "d4224cb13f20841e30da10d80ef68137e969f31a2d282e76279a160b0a501840",
+      "shopping": {
+        "main_candidates": "달걀: 6개 324g · 새우젓: 1큰술 (15g) · 설탕: 1작은술 (5g)",
+        "additional_and_pantry": "아래 전체 재료량을 확인해 준비하세요.",
+        "availability_note": "판매처별 재고를 확인한 목록이 아닙니다."
+      },
+      "equipment": [
+        "뚝배기",
+        "크기가 맞는 덮개용 뚝배기",
+        "볼",
+        "숟가락",
+        "칼",
+        "도마"
+      ],
+      "ingredient_groups": [
+        {
+          "label": "재료",
+          "items": [
+            "달걀: 6개 324g",
+            "새우젓: 1큰술 (15g)",
+            "설탕: 1작은술 (5g)",
+            "물: 1/3컵 (60ml)",
+            "참기름: 1큰술 (15ml)",
+            "참깨: 1작은술 (5g)",
+            "대파: 40g"
+          ]
+        }
+      ],
+      "preparations": [],
+      "steps": [
+        "배합 — 대파 40g은 송송 썰고 새우젓 15g은 다집니다. 달걀 6개(원본 324g)에 새우젓과 설탕 5g을 섞고 물 60ml를 더해 풉니다.",
+        "가열 — 뚝배기에 달걀물을 담아 중약불로 가열합니다. 숟가락으로 바닥과 가장자리를 긁으며 저어 눌어붙지 않게 합니다.",
+        "뚜껑 — 달걀이 몽글몽글해지면 대파를 섞습니다. 크기가 맞는 다른 뚝배기를 뒤집어 덮고 약불에서 익힙니다.",
+        "마무리 — 대파, 참기름 15ml와 참깨 5g을 고명으로 올립니다."
+      ],
+      "critical_points": [
+        "중약불로 저으며 가열하다 달걀이 몽글몽글해지면 덮고 약불로 익힙니다. 가열 시간은 미표기입니다."
+      ],
+      "editorial_notes": [
+        "음식 조합은 편집 제안입니다. 각 메뉴의 원본 배합은 서로 인분 수가 다르거나 미표기여서 한 상의 공통 인분으로 환산하지 않았습니다."
+      ],
+      "source_limits": "원본에 가열 시간과 대파의 조리용·고명용 배분은 없습니다. 뜨거운 뚝배기를 뚜껑으로 다룰 때 화상과 미끄러짐에 주의하세요.",
+      "completion_status": "content_prepared_with_disclosed_source_limits",
+      "heat_required": true,
+      "tags": [
+        "밥상 메뉴",
+        "집에서 조리"
+      ]
     }
   ],
   "occasions": {
@@ -377,6 +561,56 @@
             "paik_zS_o6psOt9g_pan"
           ],
           "note": "팬과 에어프라이어를 사용하는 조합입니다. 동시에 끝나는 조리 시간표는 제공하지 않으며 각 메뉴를 충분히 익혀 준비하세요."
+        }
+      ]
+    },
+    "parents": {
+      "title": "부모님 밥상",
+      "description": "부모님께 차려 드릴 국·메인·반찬을 골라 보는 아이디어예요. 건강식·저염식·질환별 식단으로 검증한 분류는 아니며 입맛과 식사 조건에 맞게 골라 주세요.",
+      "picks": [
+        {
+          "recipe_id": "paik_xsTFsunt6-8",
+          "reason": "국을 곁들인 한 상으로 제안해요. 소고기와 멸치액젓이 들어가요."
+        },
+        {
+          "recipe_id": "paik_p3IQTouKyH0",
+          "reason": "함께 나눠 먹는 메인 요리예요. 원본은 4인분이에요."
+        },
+        {
+          "recipe_id": "paik_pTvMsM2v1tg",
+          "reason": "메인 옆에 놓을 토마토·달걀 곁들임으로 제안해요."
+        },
+        {
+          "recipe_id": "paik_3gQwydGHIG8",
+          "reason": "소고기가 함께 들어가는 감자 반찬이에요. 원본은 인분 미표기예요."
+        },
+        {
+          "recipe_id": "paik_Eino3yP-Wk0",
+          "reason": "밥과 곁들이는 매콤한 두부조림이에요. 새우젓·고춧가루·청양고추를 사용해요."
+        },
+        {
+          "recipe_id": "paik__H64Kz7Mgz4",
+          "reason": "따뜻하게 곁들일 달걀 반찬이에요. 원본 2인분이며 새우젓을 사용해요."
+        }
+      ],
+      "combinations": [
+        {
+          "title": "국과 고기 메인을 차리는 밥상",
+          "recipe_ids": [
+            "paik_xsTFsunt6-8",
+            "paik_p3IQTouKyH0",
+            "paik_3gQwydGHIG8"
+          ],
+          "note": "밥은 별도로 준비하세요. 불고기만 원본 4인분이며 국과 감자조림은 인분 미표기입니다. 한 상의 영양 균형이나 공통 인분을 계산한 조합은 아닙니다."
+        },
+        {
+          "title": "국과 반찬으로 차리는 밥상",
+          "recipe_ids": [
+            "paik_xsTFsunt6-8",
+            "paik_Eino3yP-Wk0",
+            "paik__H64Kz7Mgz4"
+          ],
+          "note": "밥은 별도로 준비하세요. 두부조림은 매운 양념을 쓰며, 계란찜은 원본 2인분입니다. 저염식이나 부드러운 식사 전용으로 검증한 구성이 아닙니다."
         }
       ]
     }

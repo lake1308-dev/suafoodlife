@@ -3,15 +3,16 @@
  const root=document.getElementById('foodDiscovery');if(!root)return;
  const grid=document.getElementById('discoveryCards'),status=document.getElementById('discoveryStatus'),detail=document.getElementById('discoveryDetail');
  const themes={all:'모든 주제',convenience:'편의점 재료',nostalgia:'추억의 음식',world:'세계 음식',occasions:'밥상 메뉴'};
- const situations={all:'모든 메뉴',noheat:'불 없이 만들기',meal:'면·밥 한 끼',sweet:'달콤한 간식',snack:'짭짤한 간식'};
+ const situations={all:'모든 메뉴',noheat:'불 없이 만들기',meal:'면·밥 한 끼',sweet:'달콤한 간식',snack:'짭짤한 간식',side:'밥반찬'};
  const situationRecipes={
+ side:new Set(['paik_pTvMsM2v1tg','paik_3gQwydGHIG8','paik_Eino3yP-Wk0','paik__H64Kz7Mgz4']),
  meal:new Set(['paik_kR77WlHRZrs','paik_78AQ-ten9lE','paik_-_q9oyOToxs','paik_kj2ZupQ7fts','paik_9Wvd9VL0OpM','paik_6e-IbuuD6ZU','paik_FbApByZGCXg','paik_ohihzV6Z85k','paik_gJDxWPoMHgo','paik_0bnFoRQebq0_cream','paik_zRg4nxIv3j8','paik_llZ1ii59BVs']),
  sweet:new Set(['paik_aXJgN_JjYDg_sweetpotato','paik_-dBPLgpC-tk_basic','paik_X8VEvBHHOjQ']),
  snack:new Set(['paik_rqbhm9hpvp8','paik_zS_o6psOt9g_pan','paik_t4Es8mwdYlE','paik_CVtdTM6gJTY','paik_OSYQHa-vbVU','paik_87zznFb0-us','paik_yI67M3IS4GI_pancake','paik_LojVJnvLb30'])
  };
  const cache=new Map();let selected='all',situation='all',occasion='all',request=0,lastCard=null;
  function matches(c){return situation==='all'||(situation==='noheat'?c.heat_required===false:situationRecipes[situation]?.has(c.recipe_id))}
- async function collection(id){let pack=cache.get(id);if(!pack){const res=await fetch('data/food-exploration-'+id+'-20261017.json?v=2');if(!res.ok)throw Error('HTTP '+res.status);pack=await res.json();if(!Number.isInteger(pack.count)||pack.count<1||pack.cards?.length!==pack.count)throw Error('Invalid collection');cache.set(id,pack)}return pack.cards}
+ async function collection(id){let pack=cache.get(id);if(!pack){const res=await fetch('data/food-exploration-'+id+'-20261017.json?v=3');if(!res.ok)throw Error('HTTP '+res.status);pack=await res.json();if(!Number.isInteger(pack.count)||pack.count<1||pack.cards?.length!==pack.count)throw Error('Invalid collection');cache.set(id,pack)}return pack.cards}
  function occasionConfig(){return cache.get('occasions')?.occasions?.[occasion]}
  function occasionPick(c){return occasionConfig()?.picks.find(p=>p.recipe_id===c.recipe_id)}
  function controls(){root.querySelectorAll('[data-food-theme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.foodTheme===selected)));root.querySelectorAll('[data-food-situation]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.foodSituation===situation)));root.querySelectorAll('[data-food-occasion]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.foodOccasion===occasion)))}
