@@ -820,6 +820,7 @@ function recipesForIngredient(id){
 }
 function recipesForFood(food){
  if(!food)return [];
+ if(typeof RECIPE_INGREDIENT_TERMS!=="undefined"&&RECIPE_INGREDIENT_TERMS[canonicalIngredientId(food.id)])return [];
  const name=compactSearch(food.names.ko),source=food.sources?.[0];
  if(food.verification_status==="official_bulk"&&source?.data_type!=="음식")return [];
  return DB_RECIPES.filter(r=>[r.names.ko.split(" · ")[0],r.names.en,...(r.tags||[])].some(term=>{const q=compactSearch(term);return q&& (name===q||(source?.data_type==="음식"&&name.startsWith(q)))}));
