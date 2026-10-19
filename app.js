@@ -517,6 +517,7 @@ function renderDishCards(list,target){
 }
 function renderRecipe(d,scroll=true){
  const pilot=d.id==="dak"&&DB_RECIPES.find(x=>x.id==="dakbokkeumtang_reference");if(pilot){renderDBRecipe(pilot,scroll);return}
+ $("recipeShare")?.replaceChildren();
  currentDish=d;["recipeNutritionLive","recipeNutritionNotice","recipeAllergens"].forEach(id=>$(id)?.classList.add("hidden"));$("recipe").classList.remove("hidden");$("recipeName").textContent=tr(d.name,d.nameKo);$("recipeMeta").textContent=tr("Approx. ","약 ")+d.time;
  $("recipeIngredients").innerHTML=(lang==="ko"?d.ingKo:d.ing).map(x=>"<li>"+x+"</li>").join("");
  $("recipeSteps").innerHTML=(lang==="ko"?d.stepsKo:d.steps).map(x=>"<li>"+x+"</li>").join("");
@@ -761,7 +762,33 @@ function renderPublicRecipe(r,scroll=true){
  nutrition.textContent="출처 제공 영양값: 열량 "+fmt(n.kcal," kcal")+" · 단백질 "+fmt(n.protein_g,"g")+" · 탄수화물 "+fmt(n.carbs_g,"g")+" · 지방 "+fmt(n.fat_g,"g")+" · 나트륨 "+fmt(n.sodium_mg,"mg")+". "+(r.source_weight_text?"출처 중량 표기: "+r.source_weight_text:"기준 중량이 제공되지 않아 100g 또는 1인분 값으로 환산하지 않았습니다.")+" 재료별 재계산값이 아닙니다.";note.appendChild(nutrition);
  if(scroll)$("recipe").scrollIntoView({behavior:"smooth",block:"start"});
 }
+function recipeShareURL(id){
+ const url=new URL(location.href);url.search="";url.hash="recipe="+encodeURIComponent(id);return url.href;
+}
+function renderRecipeShare(r){
+ const host=$("recipeShare");if(!host)return;host.replaceChildren();
+ const button=document.createElement("button");button.type="button";button.className="btn secondary";button.textContent=tr("Copy recipe link","레시피 링크 복사");
+ const status=document.createElement("p");status.setAttribute("role","status");
+ const input=document.createElement("input");input.type="text";input.readOnly=true;input.className="hidden";input.setAttribute("aria-label",tr("Recipe link","레시피 공유 주소"));input.style.width="100%";
+ const note=document.createElement("small");note.textContent=tr("The link opens the original recipe. Your portion and ingredient edits are not included.","원본 레시피가 열리는 링크입니다. 변경한 인분·재료 양은 포함하지 않습니다.");
+ button.onclick=async()=>{
+  const url=recipeShareURL(r.id);
+  try{if(!navigator.clipboard?.writeText)throw new Error("clipboard unavailable");await navigator.clipboard.writeText(url);status.textContent=tr("Link copied. Paste it into your message.","링크를 복사했어요. 카카오톡이나 문자에 붙여넣어 보내세요.");}
+  catch(err){input.value=url;input.classList.remove("hidden");input.focus();input.select();status.textContent=tr("Automatic copy is unavailable. Copy the selected link below.","자동 복사가 어려워요. 아래 선택된 주소를 길게 누르거나 복사해 주세요.");}
+ };
+ host.append(button,note,input,status);
+}
+function openSharedRecipe(){
+ const status=$("sharedRecipeStatus");if(!status)return;
+ const hash=location.hash;if(!hash.startsWith("#recipe=")){status.textContent="";return;}
+ let id;try{id=decodeURIComponent(hash.slice(8));}catch(err){id=null;}
+ if(recipeLoadState==="loading"){status.textContent=tr("Loading the shared recipe…","공유받은 레시피를 불러오고 있어요…");return;}
+ const recipe=id&&DB_RECIPES.find(r=>r.id===id);
+ if(!recipe){status.textContent=tr("This recipe link could not be opened. Try searching for its name below.","이 레시피 링크를 열지 못했어요. 아래 레시피 검색에서 음식 이름을 찾아주세요.");return;}
+ status.textContent="";returnTarget="homeRecipes";lastRecipeTrigger=null;renderDBRecipe(recipe);
+}
 function renderDBRecipe(r,scroll=true){
+ renderRecipeShare(r);
  if(r.public_recipe){renderPublicRecipe(r,scroll);return}
  renderCreatorPreparations.returnTo=null;
  currentDish=r;$("recipe").classList.remove("hidden");
@@ -811,7 +838,7 @@ updateSearchReadiness();
 Promise.allSettled([
  loadIngredientDB().then(refreshPendingSearch),
  loadBulkNutritionDB().then(refreshPendingSearch),
- loadRecipeDB().then(()=>{recipeLoadState=DB_RECIPES.length?"ready":"failed";if(currentKey)renderIngredientRecipes(currentKey);if($("recipeSearchInput").value.trim())recipeSearch($("recipeSearchInput").value)})
+ loadRecipeDB().then(()=>{recipeLoadState=DB_RECIPES.length?"ready":"failed";openSharedRecipe();if(currentKey)renderIngredientRecipes(currentKey);if($("recipeSearchInput").value.trim())recipeSearch($("recipeSearchInput").value)})
 ]).then(()=>{renderCountryCards();applyLang();refreshPendingSearch();updateSearchReadiness()});
 
 // Match only reviewed basic ingredient identities and explicit ingredient lines.
@@ -887,3 +914,6 @@ renderIngredient=function(key,scroll=true,preserveAmount=false){
 
 function nutritionVerified(x){const n=x?.nutrition_per_100g||{};return Number.isFinite(n.kcal)&&Array.isArray(x?.sources)&&x.sources.length>0;}
 function nutritionStatusText(x){return nutritionVerified(x)?tr("Official nutrition data connected","공식 영양정보 연결됨"):tr("Nutrition data verification pending","영양정보 검증 중");}
+
+window.addEventListener("hashchange",openSharedRecipe);
+openSharedRecipe();
