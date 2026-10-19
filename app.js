@@ -807,7 +807,7 @@ const RECIPE_INGREDIENT_TERMS={
  "rda:D0150000009a":["두부"]
 };
 function recipesForIngredient(id){
- const canonical=canonicalIngredientId(id),food=getIngredient(id);
+ const canonical=canonicalIngredientId(id)==="rda:D0150000009a"?"tofu":canonicalIngredientId(id),food=getIngredient(id);
  const basic=food?BASIC_INGREDIENT_NAMES[food.id]:null;
  const terms=RECIPE_INGREDIENT_TERMS[canonical]||Object.values(RECIPE_INGREDIENT_TERMS).find(xs=>xs.includes(basic||food?.names?.ko))||[];
  // Packaged products do not inherit recipes from a word in their product name.
