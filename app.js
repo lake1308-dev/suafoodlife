@@ -796,17 +796,33 @@ updateSearchReadiness();
 Promise.allSettled([
  loadIngredientDB().then(refreshPendingSearch),
  loadBulkNutritionDB().then(refreshPendingSearch),
- loadRecipeDB().then(()=>{recipeLoadState=DB_RECIPES.length?"ready":"failed";if($("recipeSearchInput").value.trim())recipeSearch($("recipeSearchInput").value)})
+ loadRecipeDB().then(()=>{recipeLoadState=DB_RECIPES.length?"ready":"failed";if(currentKey)renderIngredientRecipes(currentKey);if($("recipeSearchInput").value.trim())recipeSearch($("recipeSearchInput").value)})
 ]).then(()=>{renderCountryCards();applyLang();refreshPendingSearch();updateSearchReadiness()});
 
+// Match only reviewed basic ingredient identities and explicit ingredient lines.
+const RECIPE_INGREDIENT_TERMS={
+ tofu:["두부"],milk:["우유"],egg_whole:["달걀","계란"],tomato_raw:["토마토"],
+ onion_raw:["양파"],garlic_raw:["마늘","간 마늘","다진 마늘"],
+ potato_sumi_raw:["감자"],carrot_root_raw:["당근"],green_onion_raw:["대파"],
+ "rda:D0150000009a":["두부"]
+};
 function recipesForIngredient(id){
- return DB_RECIPES.filter(r=>r.ingredients?.some(x=>canonicalIngredientId(x.ingredient_id)===canonicalIngredientId(id)));
+ const canonical=canonicalIngredientId(id),food=getIngredient(id);
+ const basic=food?BASIC_INGREDIENT_NAMES[food.id]:null;
+ const terms=RECIPE_INGREDIENT_TERMS[canonical]||Object.values(RECIPE_INGREDIENT_TERMS).find(xs=>xs.includes(basic||food?.names?.ko))||[];
+ // Packaged products do not inherit recipes from a word in their product name.
+ const allowText=food?.verification_status!=="official_bulk"||food?.sources?.[0]?.data_type!=="가공식품";
+ return DB_RECIPES.filter(r=>r.ingredients?.some(x=>canonicalIngredientId(x.ingredient_id)===canonical)||
+  (allowText&&terms.length&&String(r.ingredients_text||"").split(/\n+/).some(line=>terms.some(term=>{
+   const text=line.trim().replace(/^[-•]\s*/,"");if(!text.startsWith(term))return false;
+   const next=text.slice(term.length,term.length+1);return !next||/[\s:(（]/.test(next);
+  }))));
 }
 function recipesForFood(food){
  if(!food)return [];
  const name=compactSearch(food.names.ko),source=food.sources?.[0];
  if(food.verification_status==="official_bulk"&&source?.data_type!=="음식")return [];
- return DB_RECIPES.filter(r=>[r.names.ko,r.names.en,...(r.tags||[])].some(term=>{const q=compactSearch(term);return q&& (name===q||(source?.data_type==="음식"&&name.startsWith(q)))}));
+ return DB_RECIPES.filter(r=>[r.names.ko.split(" · ")[0],r.names.en,...(r.tags||[])].some(term=>{const q=compactSearch(term);return q&& (name===q||(source?.data_type==="음식"&&name.startsWith(q)))}));
 }
 function renderRecipeVariants(list){
  const host=$("countryCards");if(!host)return;
@@ -821,12 +837,14 @@ function renderIngredientRecipes(id){
  const host=$("ingredientRecipeResults"),hint=$("ingredientRecipeHint"),section=host?.closest(".ingredient-recipes");if(!host)return;host.innerHTML="";
  const food=getIngredient(id),dishRecipes=recipesForFood(food);
  const list=dishRecipes.length?dishRecipes:recipesForIngredient(id);
- section?.classList.toggle("hidden",!list.length);
+ section?.classList.toggle("hidden",!list.length&&recipeLoadState!=="loading");
  const heading=section?.querySelector("h2"),label=section?.querySelector(".label");
  if(heading){heading.textContent=dishRecipes.length?tr("Recipe and ingredients","레시피·재료 바로 보기"):tr("Recipes using this ingredient","이 재료로 만들 수 있는 요리");heading.dataset.en=dishRecipes.length?"Recipe and ingredients":"Recipes using this ingredient";heading.dataset.ko=dishRecipes.length?"레시피·재료 바로 보기":"이 재료로 만들 수 있는 요리";}
  if(label)label.textContent=dishRecipes.length?tr("RECIPE","레시피"):tr("COOK WITH THIS","이 재료로 요리하기");
- if(hint)hint.textContent=tr(list.length+" connected recipes. Select one to view ingredients and steps.","연결된 레시피 "+list.length+"개 · 선택하면 재료와 만드는 방법이 바로 열립니다.");
- list.slice(0,9).forEach(r=>renderDBRecipeCard(r,host));
+ if(hint)hint.textContent=!list.length&&recipeLoadState==="loading"?tr("Related recipes are loading. They will appear here automatically.","관련 레시피를 불러오고 있어요. 준비되면 여기에 자동으로 표시됩니다."):tr(list.length+" connected recipes. Select one to view ingredients and steps.","연결된 레시피 "+list.length+"개 · 선택하면 재료와 만드는 방법이 바로 열립니다.");
+ let shown=0;const more=document.createElement("button");more.type="button";more.className="btn secondary";
+ const appendBatch=()=>{more.remove();list.slice(shown,shown+9).forEach(r=>renderDBRecipeCard(r,host));shown=Math.min(shown+9,list.length);if(shown<list.length){more.textContent=tr("More recipes ("+(list.length-shown)+" remaining)","레시피 더 보기 ("+(list.length-shown)+"개 남음)");host.appendChild(more)}};
+ more.onclick=appendBatch;appendBatch();
  renderRecipeVariants(dishRecipes);
 }
 const _renderIngredient=renderIngredient;
