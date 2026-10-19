@@ -1,10 +1,21 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');const app=fs.readFileSync('app.js','utf8'),recipes=JSON.parse(fs.readFileSync('data/recipes.json')).recipes;
 const elements={},handlers={},rendered=[];function el(id){return elements[id]||(elements[id]={value:'',textContent:'',hidden:false,innerHTML:'',classList:{add(){},remove(){},toggle(){}},addEventListener(event,fn){handlers[id+':'+event]=fn},focus(){}})}
-const ctx=vm.createContext({lang:"ko",clearTimeout(){},document:{querySelector(){return null}},DB_RECIPES:recipes,compactSearch:s=>s.toLowerCase().replace(/[\s_,·()%]/g,''),$ :el,tr:(en,ko)=>ko,resetFoodView(){},closeIngredientSuggestions(){},renderIngredient:id=>rendered.push(id),searchIngredients:()=>[{id:'first'},{id:'second'}],findIngredientExact:()=> 'exact',searchTimer:null,bulkLoadState:'loaded',suggestionsRequested:false,pendingFoodSubmit:false});
+const ctx=vm.createContext({lang:"ko",clearTimeout(){},document:{querySelector(){return null}},DB_RECIPES:recipes,compactSearch:s=>s.toLowerCase().replace(/[\s_,·()%]/g,''),$ :el,tr:(en,ko)=>ko,resetFoodView(){},closeIngredientSuggestions(){},renderIngredient:id=>rendered.push(id),searchIngredients:()=>[{id:'first'},{id:'second'}],findIngredientExact:()=> 'exact',searchTimer:null,bulkLoadState:'loaded',suggestionsRequested:false,pendingFoodSubmit:false,ingredientLoadState:'ready'});
+vm.runInContext(app.slice(app.indexOf('function foodSearchLoading'),app.indexOf('function updateSearchReadiness')),ctx);
 vm.runInContext(app.slice(app.indexOf('$("searchForm").addEventListener'),app.indexOf('document.querySelectorAll(".quick button")',app.indexOf('$("searchForm").addEventListener'))),ctx);
 el('ingredientInput').value='라면';handlers['searchForm:submit']({preventDefault(){}});assert.equal(rendered.pop(),'first');
 ctx.searchIngredients=()=>[];handlers['searchForm:submit']({preventDefault(){}});assert.equal(rendered.pop(),'exact');
-ctx.findIngredientExact=()=>null;ctx.bulkLoadState='loading';handlers['searchForm:submit']({preventDefault(){}});assert(ctx.pendingFoodSubmit);
+ctx.renderIngredientSuggestions=()=>{};ctx.findIngredientExact=()=>null;ctx.bulkLoadState='loading';handlers['searchForm:submit']({preventDefault(){}});assert(ctx.pendingFoodSubmit);
+// A partial catalogue match must not win before the exact ingredient arrives.
+ctx.searchIngredients=()=>[{id:'egg_soup'}];el('ingredientInput').value='달걀';
+ctx.renderIngredientSuggestions=()=>{};
+handlers['searchForm:submit']({preventDefault(){}});assert.equal(rendered.length,0);assert(ctx.pendingFoodSubmit);
+vm.runInContext(app.slice(app.indexOf('function refreshPendingSearch'),app.indexOf('updateSearchReadiness();\nPromise.allSettled')),ctx);
+ctx.bulkLoadState='ready';ctx.ingredientLoadState='loading';ctx.refreshPendingSearch();assert.equal(rendered.length,0);
+ctx.ingredientLoadState='ready';ctx.searchIngredients=()=>[{id:'egg_whole'}];ctx.refreshPendingSearch();assert.equal(rendered.pop(),'egg_whole');
+// Editing or explicitly selecting a suggestion cancels the queued automatic choice.
+ctx.suggestionsRequested=false;ctx.refreshPendingSearch();assert.equal(rendered.length,0);
+
 vm.runInContext(app.slice(app.indexOf('function recipesForFood'),app.indexOf('function renderRecipeVariants')),ctx);
 ctx.food={names:{ko:'김치찌개'},verification_status:'official_bulk',sources:[{data_type:'음식'}]};assert.equal(vm.runInContext('recipesForFood(food)[0].id',ctx),'kimchi_jjigae');ctx.food.names.ko='김치찌개, 돼지고기';assert.equal(vm.runInContext('recipesForFood(food)[0].id',ctx),'kimchi_jjigae');ctx.food.sources[0].data_type='가공식품';assert.equal(vm.runInContext('recipesForFood(food).length',ctx),0);
 let hidden;elements.countryCards={innerHTML:'',classList:{toggle(k,v){hidden=v}},appendChild(){}};ctx.COUNTRY_META={};vm.runInContext(app.slice(app.indexOf('function renderRecipeVariants'),app.indexOf('function renderIngredientRecipes')),ctx);vm.runInContext('renderRecipeVariants(DB_RECIPES)',ctx);assert.equal(hidden,true);ctx.variants=[{regional_variant:true,country:'Korea',region:'Jeolla'},{regional_variant:true,country:'Korea',region:'Gangwon'}];ctx.document.createElement=()=>({});vm.runInContext('renderRecipeVariants(variants)',ctx);assert.equal(hidden,false);

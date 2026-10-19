@@ -7,12 +7,13 @@ const BASIC_INGREDIENT_NAMES={apple_raw:"사과",strawberry_cultivated_raw:"딸�
 function ingredientDisplayName(x){return lang==="ko"?(BASIC_INGREDIENT_NAMES[x.id]||x.names.ko):x.names.en;}
 Object.assign(BASIC_INGREDIENT_NAMES,{"milk": "우유", "egg_whole": "달걀", "walnut_raw": "호두", "pine_nut_raw": "잣", "buckwheat_grain": "메밀", "soybean_raw": "대두", "wheat_grain": "밀", "wheat_flour": "밀가루", "crab_raw": "게", "shrimp": "새우", "squid_raw": "오징어", "mackerel_raw": "고등어", "oyster_raw": "굴", "abalone_raw": "전복", "mussel_raw": "홍합"});
 let DB_RECIPES=[];
-let bulkLoadState="loading",recipeLoadState="loading";
+let bulkLoadState="loading",ingredientLoadState="loading",recipeLoadState="loading";
+function foodSearchLoading(){return bulkLoadState==="loading"||ingredientLoadState==="loading";}
 function updateSearchReadiness(){
  const el=$("searchReadiness");if(!el)return;
  const count=DB_BULK.length.toLocaleString(lang==="ko"?"ko-KR":"en-US");
- el.textContent=bulkLoadState==="loading"?tr("Preparing food search · "+count+" records ready. You can type now; pending searches update automatically.","검색 자료 준비 중 · "+count+"건 준비됨. 지금 입력해도 괜찮아요. 기다리는 검색은 준비되면 자동으로 표시됩니다."):bulkLoadState==="ready"?tr("Food search ready","음식 검색 준비 완료"):tr("Some search data could not load. Refresh to retry; available foods remain searchable.","일부 검색 자료를 불러오지 못했어요. 새로고침하면 다시 시도합니다. 준비된 음식은 검색할 수 있어요.");
- el.dataset.state=bulkLoadState;
+ el.textContent=foodSearchLoading()?tr("Preparing food search · "+count+" records ready. You can type now; pending searches update automatically.","검색 자료 준비 중 · "+count+"건 준비됨. 지금 입력해도 괜찮아요. 기다리는 검색은 준비되면 자동으로 표시됩니다."):bulkLoadState==="ready"?tr("Food search ready","음식 검색 준비 완료"):tr("Some search data could not load. Refresh to retry; available foods remain searchable.","일부 검색 자료를 불러오지 못했어요. 새로고침하면 다시 시도합니다. 준비된 음식은 검색할 수 있어요.");
+ el.dataset.state=foodSearchLoading()?"loading":bulkLoadState;
 }
 let FOOD_DETAILS={};
 let FOOD_ADVICE_BATCH={};
@@ -186,6 +187,7 @@ async function loadIngredientDB(){
   DB_INGREDIENTS=[...byId.values()];rebuildIngredientIndex();
   Object.entries(BASIC_INGREDIENT_NAMES).forEach(([id,name])=>{if(byId.has(id))DB_ALIAS.set(normalize(name),id)});
  }catch(err){console.warn("Ingredient DB unavailable; using bundled fallback.",err)}
+ ingredientLoadState="ready";updateSearchReadiness();
 }
 const SEARCH_GROUPS=[
  ["계란","달걀"],["소고기","쇠고기","우육"],["돼지고기","돈육"],["닭고기","계육"],["후라이","프라이"],["후라이드","프라이드"],
@@ -569,6 +571,12 @@ let searchTimer=null;$("ingredientInput").addEventListener("input",e=>{suggestio
 $("ingredientInput").addEventListener("keydown",e=>{const host=$("ingredientSuggestions");if(e.key==="Escape"){closeIngredientSuggestions()}else if(host.classList.contains("show")&&e.key==="ArrowDown"){e.preventDefault();moveSuggestion(1)}else if(host.classList.contains("show")&&e.key==="ArrowUp"){e.preventDefault();moveSuggestion(-1)}else if(host.classList.contains("show")&&e.key==="Enter"&&suggestionIndex>=0){e.preventDefault();chooseSuggestion()}});
 $("searchForm").addEventListener("submit",e=>{
  e.preventDefault();clearTimeout(searchTimer);resetFoodView();const raw=$("ingredientInput").value;if(!raw.trim()){closeIngredientSuggestions();const hint=$("ingredientFallback");hint.classList.remove("hidden");hint.textContent=tr("Enter a food, product or ingredient name.","음식·제품·재료 이름을 입력해 주세요.");$("ingredientInput").focus();return}const list=searchIngredients(raw,20),k=findIngredientExact(raw);
+ if(foodSearchLoading()){
+  closeIngredientSuggestions();suggestionsRequested=true;pendingFoodSubmit=true;
+  $("result").classList.add("hidden");
+  const hint=$("ingredientFallback");if(hint){hint.classList.remove("hidden");hint.textContent=tr("Preparing your search. Your first result will open automatically when food data is ready. You can also choose an available suggestion.","정확한 검색 결과를 준비하고 있어요. 준비가 끝나면 첫 번째 결과가 자동으로 열립니다. 아래 목록에서 직접 선택해도 괜찮아요.");}
+  renderIngredientSuggestions(raw);return;
+ }
  const first=list[0]?.id||k;
  if(first){closeIngredientSuggestions();$("ingredientFallback")?.classList.add("hidden");renderIngredient(first);return}
  closeIngredientSuggestions();$("result").classList.add("hidden");
@@ -777,9 +785,10 @@ applyLang();
 function refreshPendingSearch(){
  if(!suggestionsRequested)return;
  const raw=$("ingredientInput").value;if(!raw.trim())return;
- if(pendingFoodSubmit&&bulkLoadState!=="loading"){const first=searchIngredients(raw,1)[0];if(first){closeIngredientSuggestions();$("ingredientFallback")?.classList.add("hidden");renderIngredient(first.id);return}}
+ if(pendingFoodSubmit&&!foodSearchLoading()){const first=searchIngredients(raw,1)[0];if(first){closeIngredientSuggestions();$("ingredientFallback")?.classList.add("hidden");renderIngredient(first.id);return}}
  renderIngredientSuggestions(raw);
  const hint=$("ingredientFallback");
+ if(pendingFoodSubmit&&foodSearchLoading())return;
  if(searchIngredients(raw,1).length)hint?.classList.add("hidden");
  else if(bulkLoadState!=="loading"&&hint&&!hint.classList.contains("hidden"))hint.textContent=bulkLoadState==="failed"?tr("The official database could not load. Verified starter ingredients remain available.","공식 식품 자료를 불러오지 못했습니다. 검증된 기본 재료는 검색할 수 있습니다."):bulkLoadState==="partial"?tr("Some data could not load. Refresh to retry.","일부 자료를 불러오지 못했어요. 새로고침 후 다시 검색해 주세요."):tr(`No match for “${raw}”. Try a shorter food name.`,`“${raw}” 검색 결과가 없습니다. 음식 이름을 더 짧게 입력해 보세요.`);
 }
