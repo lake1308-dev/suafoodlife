@@ -15,3 +15,18 @@ function el(){return {textContent:'',dataset:{},children:[],classList:{toggle(){
 const section=el(),host=el();host.closest=()=>section;const hint=el();ctx.$=id=>id==='ingredientRecipeResults'?host:hint;ctx.document={createElement:el};ctx.lang='ko';ctx.recipeLoadState='ready';ctx.tr=(en,ko)=>ko;ctx.renderRecipeVariants=()=>{};ctx.renderDBRecipeCard=(r,h)=>h.appendChild({recipe:r.id});
 vm.runInContext(app.slice(app.indexOf('function renderIngredientRecipes'),app.indexOf('const _renderIngredient')),ctx);ctx.renderIngredientRecipes('egg_whole');while(host.children.some(x=>x.onclick)){host.children.find(x=>x.onclick).onclick()};assert.equal(host.children.length,ctx.recipesForIngredient('egg_whole').length);
 console.log(`PASS ${recipes.length} source recipes: tofu connects ${tofu.length}, egg connects ${ctx.recipesForIngredient('egg_whole').length}; starch/sauce/product false matches excluded; dish links and all pagination results verified.`);
+
+// Use real RDA source records and their curated identities for the expanded foods.
+for(const f of ['ingredients.json','allergen-ingredients.json'])for(const x of JSON.parse(fs.readFileSync('data/'+f)).ingredients||[])if(!foods[x.id])foods[x.id]=x;
+for(const r of JSON.parse(fs.readFileSync('data/nutrition-kfind.json')).records)if(!foods[r.ingredient_id])foods[r.ingredient_id]={id:r.ingredient_id,names:{ko:r.source_food_name},verification_status:'verified'};
+for(const f of fs.readdirSync('data').filter(f=>f.startsWith('rda')&&f.endsWith('.json.gz'))){
+ const d=JSON.parse(zlib.gunzipSync(fs.readFileSync('data/'+f)));
+ for(const x of d.ingredients||[]){const id=d.curated_id_by_record?.[x.id]||x.id;if(!foods[id])foods[id]={...x,id};}
+}
+vm.runInContext(app.split('\n').filter(l=>l.startsWith('const BASIC_INGREDIENT_NAMES=')||l.startsWith('Object.assign(BASIC_INGREDIENT_NAMES')).join('\n'),ctx);
+const expanded=['cabbage_raw','broccoli_raw','eggplant_raw','sweet_potato_raw','rda:F1480010000a','rda:F065002B090a','rda:F1150000000a','rda:F1820000000a','rda:F1980050000a','rda:G0230000000a','cooked_white_rice'];
+if(!foods.cooked_white_rice)foods.cooked_white_rice={id:'cooked_white_rice',names:{ko:'쌀밥'}};
+for(const id of expanded){assert(foods[id],id+' exists in connected source');assert.equal(ctx.recipesForFood(foods[id]).length,0,id+' uses ingredient links');const rs=ctx.recipesForIngredient(id);assert(rs.length>0,id+' connects recipes');console.log(foods[id].names.ko+': '+rs.length);}
+ctx.DB_RECIPES=[{id:'false',ingredients_text:'무순: 10g\n무말랭이: 10g\n고구마전분: 10g\n양배추즙: 100ml'}];
+for(const id of ['rda:F065002B090a','sweet_potato_raw','cabbage_raw'])assert.equal(ctx.recipesForIngredient(id).length,0,id+' avoids different ingredients');
+console.log('PASS 11 additional ingredient identities, real RDA records, and similar-name false matches.');

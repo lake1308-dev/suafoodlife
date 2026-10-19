@@ -31,6 +31,7 @@ async function loadFoodDetails(){
 function foodSearchIdentity(x){const s=x.sources?.[0]||{};return JSON.stringify([normalize(x.names.ko),s.basis||"100g",s.data_type||x.category,{manufacturer:s.manufacturer??FOOD_DETAILS[s.food_code]?.manufacturer,declared_weight:s.declared_weight??FOOD_DETAILS[s.food_code]?.declared_weight},x.nutrition_per_100g])}
 const SMALL_SERVING_CATEGORIES=new Set(["spice","seasoning","sweetener","oil"]);
 const VERIFIED_RECIPE_IDS={egg:"egg_whole",flour:"wheat_flour",tomato:"tomato_raw",onion:"onion_raw",garlic:"garlic_raw",minced_garlic:"garlic_raw",carrot:"carrot_root_raw",green_onion:"green_onion_raw",pork_tenderloin:"pork_tenderloin_raw",pork_shoulder:"pork_shoulder_raw",rice_cooked:"cooked_white_rice"};
+Object.assign(BASIC_INGREDIENT_NAMES,{ "rda:F1480010000a":"오이","rda:F065002B090a":"무","rda:F1150000000a":"시금치", "rda:F1820000000a":"콩나물","rda:F1980050000a":"애호박","rda:G0230000000a":"새송이버섯"});
 function canonicalIngredientId(id){return VERIFIED_RECIPE_IDS[id]||id}
 function dishUsesIngredient(d,id){return d.main.some(x=>canonicalIngredientId(x)===canonicalIngredientId(id))}
 
@@ -804,7 +805,11 @@ const RECIPE_INGREDIENT_TERMS={
  tofu:["두부"],milk:["우유"],egg_whole:["달걀","계란"],tomato_raw:["토마토"],
  onion_raw:["양파"],garlic_raw:["마늘","간 마늘","다진 마늘"],
  potato_sumi_raw:["감자"],carrot_root_raw:["당근"],green_onion_raw:["대파"],
- "rda:D0150000009a":["두부"]
+ "rda:D0150000009a":["두부"],
+ cabbage_raw:["양배추"],broccoli_raw:["브로콜리"],eggplant_raw:["가지"],sweet_potato_raw:["고구마"],
+ "rda:F1480010000a":["오이"],"rda:F065002B090a":["무"],"rda:F1150000000a":["시금치"],
+ "rda:F1820000000a":["콩나물"],"rda:F1980050000a":["애호박"],"rda:G0230000000a":["새송이버섯","큰느타리버섯"],
+ cooked_white_rice:["밥","쌀밥","흰밥"]
 };
 function recipesForIngredient(id){
  const canonical=canonicalIngredientId(id)==="rda:D0150000009a"?"tofu":canonicalIngredientId(id),food=getIngredient(id);
