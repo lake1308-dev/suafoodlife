@@ -189,7 +189,7 @@ async function loadIngredientDB(){
 }
 const SEARCH_GROUPS=[
  ["계란","달걀"],["소고기","쇠고기","우육"],["돼지고기","돈육"],["닭고기","계육"],["후라이","프라이"],["후라이드","프라이드"],
- ["아메리카노","아메리카노커피"],["커피","커피음료"],["라면","라멘"],
+ ["아메리카노","아메리카노커피"],["커피","커피음료"],["라면","라멘"],["치킨","닭튀김","프라이드치킨","후라이드치킨"],
  ["김치찌개","김치 찌개"],["된장찌개","된장 찌개"],["순두부찌개","순두부 찌개"],["볶음밥","볶음 밥"],
  ["삼겹살","돼지고기 삼겹살"],["곱창","소곱창","돼지곱창"],["막창","돼지막창","소막창"],["대창","소대창"],
  ["우유","밀크"],["요거트","요구르트"],["돈까스","돈가스"],["짜장면","자장면"],["햄버거","버거"],["카레","커리"],["초밥","스시"],["쥬스","주스"],["제육","제육볶음"],["순대국","순댓국"],["닭도리탕","닭볶음탕"],["고구마","sweet potato"],["감자","potato"]
@@ -206,6 +206,8 @@ function searchTerms(raw){
  const q=normalize(raw),terms=[q,...(SEARCH_SYNONYMS.get(q)||[]),...(SEARCH_RELATED[q]||[])];return [...new Set(terms.filter(Boolean))];
 }
 const SEARCH_FALSE_POSITIVES={"곱창":["곱창김"],"콜라":["콜라겐"],"사이다":["사이다비니거","사이다 비니거"]};
+// Exact general queries only: retain the source name, cooking state and basis.
+const GENERAL_FOOD_PREFERENCES={"밥":"cooked_white_rice","쌀밥":"cooked_white_rice","흰밥":"cooked_white_rice","두부":"rda:D0150000009a","아메리카노":"rda:O027001158Pa","아메리카노커피":"rda:O027001158Pa"};
 function prepareFoodSearch(terms){
  const primary=terms[0];return {primary,pc:compactSearch(primary),bad:(SEARCH_FALSE_POSITIVES[primary]||[]).map(normalize),plans:terms.map((q,ti)=>({q,qc:compactSearch(q),penalty:ti===0?0:(SEARCH_RELATED[primary]||[]).includes(q)?6:2})),tokens:primary.split(/\s+/).map(compactSearch).filter(Boolean)};
 }
@@ -214,6 +216,14 @@ function scoreFoodName(name,terms,cachedName,cachedCompact,prepared){
  for(const {q,qc,penalty} of query.plans){if(n===q||nc===qc)score=Math.min(score,penalty);else if(n.startsWith(q)||nc.startsWith(qc))score=Math.min(score,1+penalty);else if(n.includes(q)||nc.includes(qc))score=Math.min(score,2+penalty)}
  if(query.bad.some(x=>n.includes(x)))score+=20;
  const {primary,pc}=query;if(score<Infinity){if(n===primary||nc===pc)score-=6;else if(n.startsWith(primary+"_")||n.startsWith(primary+" ")||nc.startsWith(pc))score-=3;else if(n.includes("_"+primary)||n.includes(" "+primary))score-=1}
+ return score;
+}
+const GENERAL_DISH_PREFIX_QUERIES=new Set(["김치볶음밥","삼겹살"]);
+function foodSearchPreference(x,score,query){
+ if(!Number.isFinite(x.nutrition_per_100g?.kcal))return score;
+ if(GENERAL_FOOD_PREFERENCES[query.pc]===x.id)return Math.min(score,-35);
+ const source=x.sources?.[0]||{},maker=source.manufacturer??FOOD_DETAILS[source.food_code]?.manufacturer;
+ if(source.data_type==="음식"&&(!maker||maker==="해당없음"||maker==="없음")&&query.plans.some(p=>{const name=x._compactName||compactSearch(x.names.ko);return name===p.qc||(GENERAL_DISH_PREFIX_QUERIES.has(query.pc)&&name.startsWith(p.qc))}))return score-12;
  return score;
 }
 function searchIngredients(raw,limit=20){
@@ -225,9 +235,10 @@ function searchIngredients(raw,limit=20){
   if(vendor){const name=x._compactName||compactSearch(x.names.ko),maker=x._compactVendor||compactSearch(vendor),tokens=query.tokens;if(tokens.length&&tokens.every(t=>name.includes(t)||maker.includes(t)))score=8;}
  }
  if(query.pc!=="라면"&&query.pc.endsWith("라면")&&(x.sources?.[0]?.data_type==="음식"||/(볶음밥|김밥|주먹밥|리소토)/.test(x.names.ko)))score+=4;
+ score=foodSearchPreference(x,score,query);
  if(score<Infinity)scored.push({id:x.id,name:x.names.ko,score});
 });
- DB_INGREDIENTS.forEach(x=>{const names=[BASIC_INGREDIENT_NAMES[x.id],x.names?.ko,x.names?.en,...(x.aliases?.ko||[]),...(x.aliases?.en||[])].filter(Boolean);let score=Math.min(...names.map(n=>scoreFoodName(n,terms,undefined,undefined,query)));if(BASIC_INGREDIENT_NAMES[x.id]&&normalize(BASIC_INGREDIENT_NAMES[x.id])===terms[0])score=-50;if(score<Infinity)scored.push({id:x.id,name:ingredientDisplayName(x),score})});
+ DB_INGREDIENTS.forEach(x=>{const names=[BASIC_INGREDIENT_NAMES[x.id],x.names?.ko,x.names?.en,...(x.aliases?.ko||[]),...(x.aliases?.en||[])].filter(Boolean);let score=Math.min(...names.map(n=>scoreFoodName(n,terms,undefined,undefined,query)));if(BASIC_INGREDIENT_NAMES[x.id]&&normalize(BASIC_INGREDIENT_NAMES[x.id])===terms[0])score=-50;score=foodSearchPreference(x,score,query);if(score<Infinity)scored.push({id:x.id,name:ingredientDisplayName(x),score})});
  if(!scored.length&&compactSearch(terms[0]).length>=3){
   const q=compactSearch(terms[0]),max=q.length<=4?1:2;
   DB_BULK.forEach(x=>{const n=x._compactName||compactSearch(x.names.ko);if(n.length>=q.length-2&&n.length<=q.length+4){const head=n.slice(0,Math.min(n.length,q.length+1)),d=editDistance(q,head,max);if(d<=max)scored.push({id:x.id,name:x.names.ko,score:10+d})}});
