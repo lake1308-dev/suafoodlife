@@ -130,6 +130,22 @@ function bulkToIngredient(row,cols){
   _normalizedName:normalize(x.name),_compactName:compactSearch(x.name),_compactVendor:compactSearch(x.manufacturer||""),
   sources:[{review_status:basisReview?"basis_conflict":null,import_flag:x.import_flag,manufacturer:x.manufacturer,declared_weight:x.declared_weight,food_code:x.code,food_name:x.name,source:x.source,reference_date:x.reference_date,basis:x.basis,data_type:x.type}]};
 }
+async function fetchCatalogueChunk(chunk){
+ // Retry only this file once; never restart already-loaded catalogue files.
+ for(let attempt=0;attempt<2;attempt++){
+  try{
+   const response=await fetch(chunk.path+"?v=20261007-quality",{cache:attempt?"reload":"default"});
+   if(!response.ok)throw new Error("catalogue chunk "+response.status);
+   const bytes=new Uint8Array(await response.arrayBuffer());
+   const text=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).text():new TextDecoder().decode(bytes);
+   const data=JSON.parse(text);
+   if(data.record_count!==chunk.record_count||data.rows?.length!==chunk.record_count)throw new Error("catalogue count mismatch");
+   const items=data.rows.map(row=>bulkToIngredient(row,data.columns));
+   if(new Set(items.map(x=>x.id)).size!==items.length)throw new Error("duplicate catalogue ID in chunk");
+   return items;
+  }catch(err){if(attempt===1)throw err;}
+ }
+}
 async function loadBulkNutritionDB(){
  DB_BULK=[];DB_BULK_BY_NAME=new Map();DB_BULK_BY_ID=new Map();
  try{
@@ -141,12 +157,10 @@ async function loadBulkNutritionDB(){
    while(next<manifest.chunks.length){
     const chunk=manifest.chunks[next++];
     try{
-     const response=await fetch(chunk.path+"?v=20261007-quality",{cache:"default"});if(!response.ok)throw new Error("catalogue chunk "+response.status);
-     const buf=await response.arrayBuffer(),bytes=new Uint8Array(buf);
-     const text=bytes[0]===0x1f&&bytes[1]===0x8b?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).text():new TextDecoder().decode(bytes);
-     const data=JSON.parse(text);if(data.record_count!==chunk.record_count||data.rows?.length!==chunk.record_count)throw new Error("catalogue count mismatch");
-     const items=data.rows.map(row=>bulkToIngredient(row,data.columns));
-     for(const item of items){if(DB_BULK_BY_ID.has(item.id))throw new Error("duplicate catalogue ID");DB_BULK_BY_ID.set(item.id,item);DB_BULK_BY_NAME.set(item._normalizedName,item.id);DB_BULK.push(item)}
+     const items=await fetchCatalogueChunk(chunk);
+     // Check the complete batch before adding any of its rows.
+     if(items.some(item=>DB_BULK_BY_ID.has(item.id)))throw new Error("duplicate catalogue ID");
+     for(const item of items){DB_BULK_BY_ID.set(item.id,item);DB_BULK_BY_NAME.set(item._normalizedName,item.id);DB_BULK.push(item)}
      const count=$("coverageCount");if(count)count.textContent=DB_BULK.length.toLocaleString(lang==="ko"?"ko-KR":"en-US");
      if(typeof updateSearchReadiness==="function")updateSearchReadiness();
     }catch(err){failures.push({path:chunk.path,message:err.message})}
