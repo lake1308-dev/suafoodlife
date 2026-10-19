@@ -30,3 +30,15 @@ for(const id of expanded){assert(foods[id],id+' exists in connected source');ass
 ctx.DB_RECIPES=[{id:'false',ingredients_text:'무순: 10g\n무말랭이: 10g\n고구마전분: 10g\n양배추즙: 100ml'}];
 for(const id of ['rda:F065002B090a','sweet_potato_raw','cabbage_raw'])assert.equal(ctx.recipesForIngredient(id).length,0,id+' avoids different ingredients');
 console.log('PASS 11 additional ingredient identities, real RDA records, and similar-name false matches.');
+
+ctx.DB_RECIPES=recipes;
+const originalOrder=recipes.map(r=>r.id);
+const tofuOrdered=ctx.recipesForIngredient('rda:D0150000009a');
+assert.equal(tofuOrdered[0].id,'paik_Eino3yP-Wk0','tofu braise appears before soups using a little tofu');
+assert(tofuOrdered.findIndex(r=>r.id==='paik_Eino3yP-Wk0')<tofuOrdered.findIndex(r=>r.id==='kimchi_jjigae'));
+assert.deepEqual(recipes.map(r=>r.id),originalOrder,'global recipe order remains unchanged');
+assert(ctx.ingredientRecipeRank({names:{ko:'콩나물무침'},instruction_review:{status:'expanded_with_source_limits'}},['콩나물'])<ctx.ingredientRecipeRank({names:{ko:'해장국'}},['콩나물']));
+assert.equal(ctx.ingredientRecipeRank({names:{ko:'무침소스'}},['무']),3,'cooking word is not a radish-led dish');
+assert.equal(ctx.ingredientRecipeRank({names:{ko:'무생채'}},['무']),1);
+for(const id of ['egg_whole',...expanded]){const list=ctx.recipesForIngredient(id);assert.equal(new Set(list.map(r=>r.id)).size,list.length);}
+console.log('PASS ingredient-led recipes first, expanded instructions within each group, no unrelated radish prefix boost, stable source data and complete result sets.');

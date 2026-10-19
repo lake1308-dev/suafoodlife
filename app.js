@@ -811,6 +811,17 @@ const RECIPE_INGREDIENT_TERMS={
  "rda:F1820000000a":["콩나물"],"rda:F1980050000a":["애호박"],"rda:G0230000000a":["새송이버섯","큰느타리버섯"],
  cooked_white_rice:["밥","쌀밥","흰밥"]
 };
+function ingredientRecipeRank(recipe,terms){
+ const name=compactSearch(String(recipe.names?.ko||"").split(" · ")[0]);
+ const centered=terms.some(term=>{
+  const key=compactSearch(term);if(!name.startsWith(key))return false;
+  // A single syllable such as 무 must not match the cooking word 무침.
+  if(key==="무")return /^무(?:국|생채|조림|나물|밥|전|볶음|찜|김치|피클|$)/.test(name);
+  return key.length>1||name===key;
+ });
+ const expanded=recipe.instruction_review?.status==="expanded_with_source_limits";
+ return (centered?0:2)+(expanded?0:1);
+}
 function recipesForIngredient(id){
  const canonical=canonicalIngredientId(id)==="rda:D0150000009a"?"tofu":canonicalIngredientId(id),food=getIngredient(id);
  const basic=food?BASIC_INGREDIENT_NAMES[food.id]:null;
@@ -821,7 +832,7 @@ function recipesForIngredient(id){
   (allowText&&terms.length&&String(r.ingredients_text||"").split(/\n+/).some(line=>terms.some(term=>{
    const text=line.trim().replace(/^[-•]\s*/,"");if(!text.startsWith(term))return false;
    const next=text.slice(term.length,term.length+1);return !next||/[\s:(（]/.test(next);
-  }))));
+  })))).sort((a,b)=>ingredientRecipeRank(a,terms)-ingredientRecipeRank(b,terms));
 }
 function recipesForFood(food){
  if(!food)return [];
@@ -850,7 +861,7 @@ function renderIngredientRecipes(id){
  if(hint)hint.textContent=!list.length&&recipeLoadState==="loading"?tr("Related recipes are loading. They will appear here automatically.","관련 레시피를 불러오고 있어요. 준비되면 여기에 자동으로 표시됩니다."):tr(list.length+" connected recipes. Select one to view ingredients and steps.","연결된 레시피 "+list.length+"개 · 선택하면 재료와 만드는 방법이 바로 열립니다.");
  let shown=0;const more=document.createElement("button");more.type="button";more.className="btn secondary";
  const appendBatch=()=>{more.remove();list.slice(shown,shown+9).forEach(r=>renderDBRecipeCard(r,host));shown=Math.min(shown+9,list.length);if(shown<list.length){more.textContent=tr("More recipes ("+(list.length-shown)+" remaining)","레시피 더 보기 ("+(list.length-shown)+"개 남음)");host.appendChild(more)}};
- more.onclick=appendBatch;appendBatch();
+ more.onclick=()=>{const firstNew=shown;appendBatch();host.children[firstNew]?.focus?.({preventScroll:true})};appendBatch();
  renderRecipeVariants(dishRecipes);
 }
 const _renderIngredient=renderIngredient;
