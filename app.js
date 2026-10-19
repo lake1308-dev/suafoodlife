@@ -298,9 +298,30 @@ function applyLang(){
  if(currentDish && !$("recipe").classList.contains("hidden")){if(currentDish.names&&currentDish.ingredients){const amounts=[...document.querySelectorAll(".recipe-amount")].map(x=>({value:x.value,previous:x.dataset.previous}));renderDBRecipe(currentDish,false);document.querySelectorAll(".recipe-amount").forEach((el,i)=>{if(amounts[i]!=null){el.value=amounts[i].value;if(amounts[i].previous)el.dataset.previous=amounts[i].previous;const removed=Number(el.value)===0;el.closest("li")?.classList.toggle("removed",removed);const btn=el.closest("li")?.querySelector(".recipe-remove");if(btn)btn.textContent=removed?tr("Restore","복원"):tr("Remove","빼기")}});updateDBRecipeNutrition()}else renderRecipe(currentDish,false)}
 }
 function round1(n){return Math.round(n*10)/10}
+function verifiedPackagePortion(food){
+ if(food?.verification_status!=="product_label"||!Number.isFinite(food.nutrition_per_100g?.kcal))return null;
+ const source=food.sources?.[0];if(!source||!["100g","100ml"].includes(source.basis))return null;
+ const unit=source.basis==="100ml"?"ml":"g";let amount;
+ if(source.package_amount!=null){if(source.package_unit!==unit)return null;amount=Number(source.package_amount)}
+ else{const match=String(source.declared_weight||"").trim().match(/^(\d+(?:\.\d+)?)\s*(g|ml)$/i);if(!match||match[2].toLowerCase()!==unit)return null;amount=Number(match[1])}
+ return Number.isFinite(amount)&&amount>=1&&amount<=5000?{amount,unit}:null;
+}
+function renderPackagePortion(food){
+ const host=$("packagePortion");if(!host)return;host.replaceChildren();const portion=verifiedPackagePortion(food);if(!portion)return;
+ const button=document.createElement("button");button.type="button";button.className="package-portion-button";button.textContent=tr(`Use label weight: ${portion.amount}${portion.unit}`,`제품 표시중량 ${portion.amount}${portion.unit} 계산`);
+ button.onclick=()=>{currentAmount=portion.amount;$("amountInput").value=currentAmount;$("amountInput").removeAttribute("aria-invalid");$("amountError").textContent="";updateNutrition()};host.appendChild(button);
+ const note=document.createElement("small");note.textContent=tr("Uses the connected product label weight. Check that it matches your package.","연결된 제품의 표시중량입니다. 실제 포장의 제품명·중량과 맞는지 확인하세요.");host.appendChild(note);
+}
+function updatePortionSummary(n,basis,unit){
+ const selected=$("calorieSelectionLabel"),reference=$("calorieReference"),nutritionLabel=$("nutritionAmountLabel");
+ if(selected)selected.textContent=tr(`For the ${currentAmount}${unit} you eat`,`내가 먹는 ${currentAmount}${unit}의 칼로리`);
+ if(reference)reference.textContent=n.kcal==null?tr(`Source basis: ${basis} · calories unavailable`,`자료 기준: ${basis} · 열량 미확인`):tr(`Source reference: ${n.kcal} kcal per ${basis}`,`자료 기준: ${basis}당 ${n.kcal} kcal`);
+ if(nutritionLabel)nutritionLabel.textContent=tr(`Nutrition below is calculated for ${currentAmount}${unit}.`,`아래 영양정보는 내가 먹는 ${currentAmount}${unit} 기준입니다.`);
+}
 function updateNutrition(){
  if(!currentKey)return; const n=nutritionFor(currentKey); const factor=currentAmount/100;
  const basis=getIngredient(currentKey)?.sources?.[0]?.basis||"100g", amountUnit=basis==="100ml"?"ml":"g";
+ updatePortionSummary(n,basis,amountUnit);
  const val=(x,unit)=>x==null?"—":round1(x*factor)+unit;
  $("kcalValue").textContent=n.kcal==null?"—":Math.round(n.kcal*factor);
  $("kcalBasis").textContent="kcal / "+currentAmount+amountUnit;
@@ -452,6 +473,7 @@ function renderIngredient(key,scroll=true,preserveAmount=false){
  if(db?.sources?.[0]?.review_status==="basis_conflict")$("ingredientNote").textContent=tr("The source calculation basis differs substantially from the manufacturer retail label. Nutrition calculation is on hold while the basis is reviewed.","원본 DB의 계산 기준과 본사직영 판매처 표시값에 큰 차이가 있어 기준을 재확인 중입니다. 확인 전까지 이 기록의 영양 계산을 보류합니다.");
  renderFoodSource(key);
  $("amountInput").removeAttribute("aria-invalid");$("amountError").textContent="";
+ renderPackagePortion(db);
  $("amountInput").value=currentAmount; updateNutrition(); renderAllergy(key);
  $("result").classList.remove("hidden");
  renderCountryCards();
