@@ -20,10 +20,28 @@
  function node(tag,text,className){const n=document.createElement(tag);if(text!=null)n.textContent=text;if(className)n.className=className;return n}
  function groups(host,list){for(const g of list){host.append(node('h4',g.label));const ul=node('ul');for(const line of g.items)ul.append(node('li',line));host.append(ul)}}
  function steps(host,list){const ol=node('ol');for(const step of list)ol.append(node('li',step.replace(/^\d+\.\s*/,'')));host.append(ol)}
+ function shareControls(c){
+  const box=node('div',null,'discovery-share'),copy=node('button','이 메뉴 링크 복사'),message=node('p');copy.type='button';message.setAttribute('role','status');
+  const address=node('input');address.type='text';address.readOnly=true;address.hidden=true;address.setAttribute('aria-label','음식 구경 공유 주소');
+  copy.onclick=async()=>{const url=new URL(location.href);url.search='';url.hash='discovery='+encodeURIComponent(c.recipe_id);
+   try{if(!navigator.clipboard?.writeText)throw Error('clipboard unavailable');await navigator.clipboard.writeText(url.href);message.textContent='링크를 복사했어요. 카카오톡이나 문자에 붙여넣어 보내세요.';}
+   catch(error){address.value=url.href;address.hidden=false;address.focus();address.select();message.textContent='아래 선택된 주소를 직접 복사해 주세요.';}
+  };
+  box.append(copy,message,address);return box;
+ }
+ async function openSharedDiscovery(){
+  const hash=location.hash;if(!hash.startsWith('#discovery='))return;
+  let id;try{id=decodeURIComponent(hash.slice(11))}catch(error){id=null}
+  situation='all';occasion='all';const result=await load('all');
+  if(!result||result.ticket!==request||location.hash!==hash)return;
+  const card=result.cards.find(c=>c.recipe_id===id);
+  if(!card){status.textContent='공유받은 메뉴를 찾지 못했어요. 아래 음식 목록에서 다른 메뉴를 골라보세요.';return;}
+  show(card,grid.children[result.cards.indexOf(card)]);
+ }
  function show(c,button){
   lastCard=button;detail.replaceChildren();detail.hidden=false;
   const back=node('button','← 음식 목록으로','discovery-back');back.type='button';back.onclick=()=>{detail.hidden=true;lastCard?.focus();grid.scrollIntoView({behavior:'smooth',block:'start'})};detail.append(back);
-  const title=node('h3',c.title);title.tabIndex=-1;detail.append(title,node('p',c.hook),node('p','분량 기준: '+c.quantity_basis,'discovery-basis'));
+  const title=node('h3',c.title);title.tabIndex=-1;detail.append(title,node('p',c.hook),node('p','분량 기준: '+c.quantity_basis,'discovery-basis'),shareControls(c));
   detail.append(node('p','도구: '+c.equipment.join(' · ')),node('h3','필요한 재료'));groups(detail,c.ingredient_groups);
   if(c.beginner_guide){const prep=node('section',null,'beginner-start');prep.append(node('h3','시작 전에 준비해요'));const list=node('ul');for(const line of c.beginner_guide.before_start)list.append(node('li',line));prep.append(list);detail.append(prep)}
   for(const p of c.preparations){const box=node('section',null,'discovery-preparation');box.append(node('h3','먼저 준비: '+p.title),node('p',p.usage));groups(box,p.ingredient_groups);steps(box,p.steps);box.append(node('p',p.source_limit,'data-note'));detail.append(box)}
@@ -45,10 +63,13 @@
    for(const c of cards){const button=node('button',null,'discovery-card');button.type='button';button.append(node('span',c.discovery_tag,'discovery-tag'),node('strong',c.title),node('span',c.hook),node('span',c.quantity_basis,'discovery-quantity'),node('span','재료·조리법 보기 →','discovery-open'));if(occasionPick(c))button.append(node('span',occasionPick(c).reason,'discovery-pick-reason'));button.onclick=()=>show(c,button);grid.append(button)}
    status.textContent=themes[id]+' · '+situations[situation]+(occasionConfig()?' · '+occasionConfig().title:'')+' · '+cards.length+'가지 메뉴';renderCombinations(cards);
    if(!cards.length){const empty=node('div',null,'discovery-empty');empty.append(node('p','이 주제에는 조건에 맞는 메뉴가 아직 없어요.'));const reset=node('button','모든 주제에서 찾기');reset.type='button';reset.onclick=()=>load('all');empty.append(reset);const clear=node('button','모든 조건 지우기');clear.type='button';clear.onclick=()=>{situation='all';occasion='all';return load('all')};empty.append(clear);grid.append(empty)}
-  }catch(error){if(ticket!==request)return;status.replaceChildren(node('span','메뉴를 불러오지 못했어요. '));const retry=node('button','다시 불러오기');retry.type='button';retry.onclick=()=>load(selected);status.append(retry)}finally{if(ticket===request)grid.setAttribute('aria-busy','false')}
+   return {cards,ticket};
+  }catch(error){if(ticket!==request)return;status.replaceChildren(node('span','메뉴를 불러오지 못했어요. '));const retry=node('button','다시 불러오기');retry.type='button';retry.onclick=()=>location.hash.startsWith('#discovery=')?openSharedDiscovery():load(selected);status.append(retry)}finally{if(ticket===request)grid.setAttribute('aria-busy','false')}
  }
  root.querySelectorAll('[data-food-occasion]').forEach(b=>b.addEventListener('click',()=>{occasion=b.dataset.foodOccasion;situation='all';return load('all')}));
  root.querySelectorAll('[data-food-situation]').forEach(b=>b.addEventListener('click',()=>{situation=b.dataset.foodSituation;root.querySelectorAll('[data-food-situation]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));load(selected)}));
  root.querySelectorAll('[data-food-theme]').forEach(b=>b.addEventListener('click',()=>load(b.dataset.foodTheme)));
- if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){observer.disconnect();if(!request)load(selected)}},{rootMargin:'200px'});observer.observe(root)}else load(selected);
+ window.addEventListener('hashchange',openSharedDiscovery);
+ if(location.hash.startsWith('#discovery='))openSharedDiscovery();
+ else if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){observer.disconnect();if(!request)load(selected)}},{rootMargin:'200px'});observer.observe(root)}else load(selected);
 })();
