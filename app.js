@@ -808,7 +808,9 @@ function renderDBRecipe(r,scroll=true){
  updateDBRecipeNutrition();if(scroll)$("recipe").scrollIntoView({behavior:"smooth",block:"start"});
 }
 function recipeMatchScore(raw,fields){
- raw=compactSearch(raw);const vals=fields.filter(Boolean).map(x=>compactSearch(normalize(String(x))));let best=Infinity;
+ // Search aliases affect matching only; recipe titles, ingredients and nutrition stay original.
+ const term=value=>compactSearch(normalize(String(value))).replace(/계란/g,"달걀").replace(/돈까스/g,"돈가스").replace(/찌게/g,"찌개").replace(/떡복이/g,"떡볶이").replace(/자장/g,"짜장").replace(/쇠고기/g,"소고기");
+ raw=term(raw);const vals=fields.filter(Boolean).map(term);let best=Infinity;
  vals.forEach(v=>{if(v===raw)best=Math.min(best,0);else if(v.startsWith(raw))best=Math.min(best,1);else if(v.includes(raw))best=Math.min(best,2)});
  return best
 }

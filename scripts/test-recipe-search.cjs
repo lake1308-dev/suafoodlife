@@ -13,3 +13,12 @@ ctx.recipeSearch('두부');const button=host.children.find(x=>x.onclick);button.
 ctx.recipeSearch('zzzz-no-recipe');assert.equal(ids().length,0);assert(host.innerHTML.includes('일치하는 레시피'));
 ctx.recipeSearch('');assert(input.focused);ctx.recipeLoadState='loading';ctx.recipeSearch('두부');assert(host.children[0].textContent.includes('추가 자료 준비 중'));
 console.log('PASS '+recipes.length+' source recipes: tofu search '+tofuTotal+' results remain accessible beyond 18, no duplicates, exact titles before tags, spaced Korean query, next-page focus, fresh-search reset, empty/loading states.');
+
+ctx.recipeLoadState='ready';
+const pairs=[['계란찜','달걀찜'],['계란말이','달걀말이'],['계란볶음밥','달걀 볶음밥'],['돈까스','돈가스'],['된장찌게','된장찌개'],['김치찌게','김치찌개'],['떡복이','떡볶이'],['자장덮밥','짜장덮밥'],['자장소스','짜장소스'],['쇠고기미역국','소고기미역국']];
+function allResults(query){ctx.recipeSearch(query);while(host.children.some(x=>x.onclick))host.children.find(x=>x.onclick).onclick();return ids();}
+const sourceNames=recipes.map(r=>r.names.ko);
+for(const [a,b] of pairs){const left=allResults(a),right=allResults(b);assert(left.length,a+' returns a real stored recipe');assert.deepEqual(left,right,a+' and '+b+' share the same full ranked results');console.log(a+' / '+b+': '+left.length);}
+assert.deepEqual(recipes.map(r=>r.names.ko),sourceNames,'search aliases do not rewrite recipe names');
+assert(ctx.recipeSearchScore({names:{ko:'고구마전분'}},'감자')===Infinity,'unrelated ingredients stay unrelated');
+console.log('PASS ten synonym/typo pairs across six alias groups; full result order identical and source titles unchanged.');
