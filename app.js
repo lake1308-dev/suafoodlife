@@ -345,6 +345,15 @@ function updateNutrition(){
  if(!currentKey)return; const n=nutritionFor(currentKey); const factor=currentAmount/100;
  const basis=getIngredient(currentKey)?.sources?.[0]?.basis||"100g", amountUnit=basis==="100ml"?"ml":"g";
  updatePortionSummary(n,basis,amountUnit);
+ if($("amountInput").getAttribute?.("aria-invalid")==="true"){
+  // Never leave a previous amount's figures beside an invalid or empty input.
+  ["kcalValue","protein","carbs","fat","nutritionCalories","satfat","sugars","sodium","cholesterol"].forEach(id=>{$(id).textContent="—"});
+  $("kcalBasis").textContent="kcal";
+  $("calorieSelectionLabel").textContent=tr("Enter a valid amount to calculate calories","섭취량을 올바르게 입력하면 칼로리를 계산해요");
+  $("nutritionAmountLabel").textContent=tr("Nutrition calculation is waiting for a valid amount.","섭취량 입력을 확인해 주세요. 영양정보 계산을 잠시 멈췄어요.");
+  if($("nutritionAvailability"))$("nutritionAvailability").textContent=tr("Enter an amount between 1 and 5,000, or choose an amount button.","1~5,000 사이의 양을 입력하거나 섭취량 버튼을 선택해 주세요.");
+  document.querySelectorAll(".amount-presets button").forEach(b=>b.classList.remove("active"));return;
+ }
  const val=(x,unit)=>x==null?"—":round1(x*factor)+unit;
  $("kcalValue").textContent=n.kcal==null?"—":Math.round(n.kcal*factor);
  $("kcalBasis").textContent="kcal / "+currentAmount+amountUnit;
@@ -606,7 +615,7 @@ $("searchForm").addEventListener("submit",e=>{
  const fallback=$("ingredientFallback");if(fallback){fallback.classList.remove("hidden");fallback.textContent=bulkLoadState==="loading"?tr("Official food data is still loading. Matching results will appear when loading finishes.","공식 식품 데이터를 불러오는 중입니다. 준비가 끝나면 일치하는 검색 목록이 자동으로 표시됩니다."):bulkLoadState==="failed"?tr("The official food database could not be loaded. Verified starter ingredients are still available.","공식 식품 데이터베이스를 불러오지 못했습니다. 검증된 기본 재료 검색은 사용할 수 있습니다."):bulkLoadState==="partial"?tr("Search data is incomplete. Refresh to retry this food search.","검색 자료가 일부만 준비됐어요. 새로고침 후 다시 검색해 주세요."):tr(`No match for “${raw}”. Try a shorter name or another common spelling.`,`“${raw}” 검색 결과가 없습니다. 더 짧은 이름이나 다른 흔한 표기로 검색해 보세요.`)}
 });
 document.querySelectorAll(".quick button").forEach(b=>b.onclick=()=>{const q=b.dataset.query;$("ingredientInput").value=lang==="ko"?b.textContent:q;$("searchForm").dispatchEvent(new Event("submit",{bubbles:true,cancelable:true}))});
-$("amountInput").addEventListener("input",e=>{const raw=Number(e.target.value);if(!Number.isFinite(raw)||raw<=0){e.target.setAttribute("aria-invalid","true");$("amountError").textContent=tr("Enter an amount between 1 and 5,000.","섭취량을 1~5,000 사이로 입력해 주세요.");return}e.target.removeAttribute("aria-invalid");$("amountError").textContent="";const v=Math.max(1,Math.min(5000,raw));currentAmount=v;if(v!==raw)e.target.value=v;updateNutrition()});
+$("amountInput").addEventListener("input",e=>{const raw=Number(e.target.value);if(!Number.isFinite(raw)||raw<1||raw>5000){e.target.setAttribute("aria-invalid","true");$("amountError").textContent=tr("Enter an amount between 1 and 5,000.","섭취량을 1~5,000 사이로 입력해 주세요.");updateNutrition();return}e.target.removeAttribute("aria-invalid");$("amountError").textContent="";const v=Math.max(1,Math.min(5000,raw));currentAmount=v;if(v!==raw)e.target.value=v;updateNutrition()});
 document.querySelectorAll(".amount-presets button").forEach(b=>b.onclick=()=>{const v=Number(b.dataset.grams);if(!Number.isFinite(v)||v<=0)return;currentAmount=v;$("amountInput").value=currentAmount;$("amountInput").removeAttribute("aria-invalid");$("amountError").textContent="";updateNutrition()});
 $("langBtn").onclick=()=>{lang=lang==="ko"?"en":"ko";applyLang()};
 $("exploreBtn").onclick=()=>{currentKey=null;resetFoodView();closeIngredientSuggestions();country="Korea";region="All";type="All";$("explorer").classList.remove("hidden");renderCountryCards();renderExplorerFilters();$("explorer").scrollIntoView({behavior:"smooth",block:"start"})};
