@@ -9,10 +9,16 @@ Object.assign(BASIC_INGREDIENT_NAMES,{"milk": "우유", "egg_whole": "달걀", "
 let DB_RECIPES=[];
 let bulkLoadState="loading",ingredientLoadState="loading",recipeLoadState="loading";
 function foodSearchLoading(){return bulkLoadState==="loading"||ingredientLoadState==="loading";}
+function readyBasicSearch(raw,id){
+ if(ingredientLoadState!=="ready"||!id)return false;
+ const food=getIngredient(id),name=food&&BASIC_INGREDIENT_NAMES[food.id];
+ // Exact names have the fixed -50 preference, so later catalogue rows cannot outrank them.
+ return !!name&&normalize(raw)===normalize(name)&&food.verification_status!=="product_label"&&Number.isFinite(food.nutrition_per_100g?.kcal);
+}
 function updateSearchReadiness(){
  const el=$("searchReadiness");if(!el)return;
  const count=DB_BULK.length.toLocaleString(lang==="ko"?"ko-KR":"en-US");
- el.textContent=foodSearchLoading()?tr("Preparing food search · "+count+" records ready. You can type now; pending searches update automatically.","검색 자료 준비 중 · "+count+"건 준비됨. 지금 입력해도 괜찮아요. 기다리는 검색은 준비되면 자동으로 표시됩니다."):bulkLoadState==="ready"?tr("Food search ready","음식 검색 준비 완료"):tr("Some search data could not load. Refresh to retry; available foods remain searchable.","일부 검색 자료를 불러오지 못했어요. 새로고침하면 다시 시도합니다. 준비된 음식은 검색할 수 있어요.");
+ el.textContent=foodSearchLoading()&&ingredientLoadState==="ready"?tr("Basic ingredients are ready · product data still loading ("+count+" records).", "기본 재료 검색 가능 · 제품 자료 준비 중 ("+count+"건)"):foodSearchLoading()?tr("Preparing food search · "+count+" records ready. You can type now; pending searches update automatically.","검색 자료 준비 중 · "+count+"건 준비됨. 지금 입력해도 괜찮아요. 기다리는 검색은 준비되면 자동으로 표시됩니다."):bulkLoadState==="ready"?tr("Food search ready","음식 검색 준비 완료"):tr("Some search data could not load. Refresh to retry; available foods remain searchable.","일부 검색 자료를 불러오지 못했어요. 새로고침하면 다시 시도합니다. 준비된 음식은 검색할 수 있어요.");
  el.dataset.state=foodSearchLoading()?"loading":bulkLoadState;
 }
 let FOOD_DETAILS={};
@@ -587,13 +593,13 @@ let searchTimer=null;$("ingredientInput").addEventListener("input",e=>{suggestio
 $("ingredientInput").addEventListener("keydown",e=>{const host=$("ingredientSuggestions");if(e.key==="Escape"){closeIngredientSuggestions()}else if(host.classList.contains("show")&&e.key==="ArrowDown"){e.preventDefault();moveSuggestion(1)}else if(host.classList.contains("show")&&e.key==="ArrowUp"){e.preventDefault();moveSuggestion(-1)}else if(host.classList.contains("show")&&e.key==="Enter"&&suggestionIndex>=0){e.preventDefault();chooseSuggestion()}});
 $("searchForm").addEventListener("submit",e=>{
  e.preventDefault();clearTimeout(searchTimer);resetFoodView();const raw=$("ingredientInput").value;if(!raw.trim()){closeIngredientSuggestions();const hint=$("ingredientFallback");hint.classList.remove("hidden");hint.textContent=tr("Enter a food, product or ingredient name.","음식·제품·재료 이름을 입력해 주세요.");$("ingredientInput").focus();return}const list=searchIngredients(raw,20),k=findIngredientExact(raw);
- if(foodSearchLoading()){
+ const first=list[0]?.id||k;
+ if(foodSearchLoading()&&!readyBasicSearch(raw,first)){
   closeIngredientSuggestions();suggestionsRequested=true;pendingFoodSubmit=true;
   $("result").classList.add("hidden");
   const hint=$("ingredientFallback");if(hint){hint.classList.remove("hidden");hint.textContent=tr("Preparing your search. Your first result will open automatically when food data is ready. You can also choose an available suggestion.","정확한 검색 결과를 준비하고 있어요. 준비가 끝나면 첫 번째 결과가 자동으로 열립니다. 아래 목록에서 직접 선택해도 괜찮아요.");}
   renderIngredientSuggestions(raw);return;
  }
- const first=list[0]?.id||k;
  if(first){closeIngredientSuggestions();$("ingredientFallback")?.classList.add("hidden");renderIngredient(first);return}
  closeIngredientSuggestions();$("result").classList.add("hidden");
  if(bulkLoadState==="loading"){suggestionsRequested=true;pendingFoodSubmit=true;}
@@ -844,7 +850,7 @@ applyLang();
 function refreshPendingSearch(){
  if(!suggestionsRequested)return;
  const raw=$("ingredientInput").value;if(!raw.trim())return;
- if(pendingFoodSubmit&&!foodSearchLoading()){const first=searchIngredients(raw,1)[0];if(first){closeIngredientSuggestions();$("ingredientFallback")?.classList.add("hidden");renderIngredient(first.id);return}}
+ if(pendingFoodSubmit){const first=searchIngredients(raw,1)[0];if(first&&(!foodSearchLoading()||readyBasicSearch(raw,first.id))){closeIngredientSuggestions();$("ingredientFallback")?.classList.add("hidden");renderIngredient(first.id);return}}
  renderIngredientSuggestions(raw);
  const hint=$("ingredientFallback");
  if(pendingFoodSubmit&&foodSearchLoading())return;
