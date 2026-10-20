@@ -808,14 +808,29 @@ function renderDBRecipe(r,scroll=true){
  updateDBRecipeNutrition();if(scroll)$("recipe").scrollIntoView({behavior:"smooth",block:"start"});
 }
 function recipeMatchScore(raw,fields){
- const vals=fields.filter(Boolean).map(x=>normalize(String(x)));let best=Infinity;
+ raw=compactSearch(raw);const vals=fields.filter(Boolean).map(x=>compactSearch(normalize(String(x))));let best=Infinity;
  vals.forEach(v=>{if(v===raw)best=Math.min(best,0);else if(v.startsWith(raw))best=Math.min(best,1);else if(v.includes(raw))best=Math.min(best,2)});
  return best
 }
+function recipeSearchScore(recipe,raw){
+ const names=[recipe.names.ko,recipe.names.en].filter(Boolean).map(name=>name.split(" · ")[0]);
+ const titleScore=recipeMatchScore(raw,names);
+ const otherScore=recipeMatchScore(raw,[recipe.country,recipe.region,recipe.category,recipe.category_ko,...(recipe.tags||[]),...(recipe.tags_ko||[])]);
+ return Math.min(titleScore,otherScore+3);
+}
+function renderRecipeSearchPages(list,host){
+ let shown=0;const summary=document.createElement("p");summary.setAttribute("role","status");summary.className="data-note";host.appendChild(summary);
+ const more=document.createElement("button");more.type="button";more.className="btn secondary";
+ const appendPage=()=>{more.remove();const firstNew=host.children.length;list.slice(shown,shown+18).forEach(x=>renderDBRecipeCard(x.r,host));shown=Math.min(shown+18,list.length);
+  summary.textContent=tr(shown+" of "+list.length+" recipes shown"+(recipeLoadState==="loading"?" · more data loading":""),"검색 결과 "+list.length+"개 중 "+shown+"개 표시"+(recipeLoadState==="loading"?" · 추가 자료 준비 중":""));
+  if(shown<list.length){more.textContent=tr("More recipes ("+(list.length-shown)+" remaining)","검색 결과 더 보기 ("+(list.length-shown)+"개 남음)");host.appendChild(more)}return firstNew;
+ };
+ more.onclick=()=>{const index=appendPage();host.children[index]?.focus?.({preventScroll:true})};appendPage();
+}
 function recipeSearch(q){
  const raw=normalize(q),host=$("recipeSearchResults");host.innerHTML="";if(!raw){host.innerHTML='<div class="recipe-no-result">'+tr("Enter a dish name, country, or cooking style.","요리 이름, 나라 또는 요리방식을 입력해 주세요.")+"</div>";$("recipeSearchInput").focus();return}
- const db=DB_RECIPES.map(r=>({r,score:recipeMatchScore(raw,[r.names.en,r.names.ko,r.country,r.region,r.category,r.category_ko,...(r.tags||[]),...(r.tags_ko||[])])})).filter(x=>x.score<Infinity).sort((a,b)=>a.score-b.score||Number(!!b.r.verified_source)-Number(!!a.r.verified_source)||(lang==="ko"?a.r.names.ko:a.r.names.en).localeCompare(lang==="ko"?b.r.names.ko:b.r.names.en,"ko")).slice(0,18);
- if(db.length){db.forEach(x=>renderDBRecipeCard(x.r,host));return}
+ const db=DB_RECIPES.map(r=>({r,score:recipeSearchScore(r,raw)})).filter(x=>x.score<Infinity).sort((a,b)=>a.score-b.score||Number(b.r.instruction_review?.status==="expanded_with_source_limits")-Number(a.r.instruction_review?.status==="expanded_with_source_limits")||Number(!!b.r.verified_source)-Number(!!a.r.verified_source)||(lang==="ko"?a.r.names.ko:a.r.names.en).localeCompare(lang==="ko"?b.r.names.ko:b.r.names.en,"ko"));
+ if(db.length){renderRecipeSearchPages(db,host);return}
  const matches=DISHES.map(d=>({d,score:recipeMatchScore(raw,[d.name,d.nameKo,d.country,d.countryKo,d.region,d.regionKo,d.type,d.typeKo,d.desc,d.descKo])})).filter(x=>x.score<Infinity).sort((a,b)=>a.score-b.score||tr(a.d.name,a.d.nameKo).localeCompare(tr(b.d.name,b.d.nameKo),"ko")).slice(0,12).map(x=>x.d);
  if(!matches.length&&recipeLoadState==="loading"){host.innerHTML='<div class="recipe-no-result">'+tr("Recipes are loading. This search will update automatically.","레시피 자료를 불러오고 있어요. 준비되면 검색 결과가 자동으로 표시됩니다.")+"</div>";return}
  if(!matches.length){host.innerHTML='<div class="recipe-no-result">'+tr("No matching recipe yet. Try a shorter dish name, country, region, or cooking style.","일치하는 레시피가 없습니다. 요리 이름을 짧게 쓰거나 나라·지역·요리방식으로 검색해 보세요.")+'</div>';return}
