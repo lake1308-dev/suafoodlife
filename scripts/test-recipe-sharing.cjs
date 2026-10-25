@@ -1,7 +1,7 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');const app=fs.readFileSync('app.js','utf8');
 const nodes={};function el(){return {children:[],style:{},textContent:'',value:'',classList:{remove(){},add(){}},setAttribute(){},replaceChildren(){this.children=[]},append(...xs){this.children.push(...xs)},focus(){this.focused=true},select(){this.selected=true}}}
 const recipe={id:'paik_Eino3yP-Wk0',names:{ko:'두부조림'}};const opened=[];let copied;
-const ctx=vm.createContext({URL,location:{href:'https://suafoodlife.com/?v=test&private=value#homeRecipes',hash:''},navigator:{clipboard:{writeText:async s=>{copied=s}}},document:{createElement:el},$:id=>nodes[id]||(nodes[id]=el()),tr:(en,ko)=>ko,recipeLoadState:'loading',DB_RECIPES:[recipe],renderDBRecipe:r=>opened.push(r.id),returnTarget:null,lastRecipeTrigger:null});
+const ctx=vm.createContext({lang:"ko",dbIngredientName:id=>id,creatorPortionIngredientLines:(r,n)=>r.portion_lines.map(x=>x.name+": "+x.amount*n/r.servings+x.unit),URL,location:{href:'https://suafoodlife.com/?v=test&private=value#homeRecipes',hash:''},navigator:{clipboard:{writeText:async s=>{copied=s}}},document:{createElement:el,querySelector:()=>null},$:id=>nodes[id]||(nodes[id]=el()),tr:(en,ko)=>ko,recipeLoadState:'loading',DB_RECIPES:[recipe],renderDBRecipe:r=>opened.push(r.id),returnTarget:null,lastRecipeTrigger:null});
 vm.runInContext(app.slice(app.indexOf('function recipeShareURL'),app.indexOf('function renderDBRecipe(r,')),ctx);
 (async()=>{
  const url=ctx.recipeShareURL(recipe.id);assert.equal(url,'https://suafoodlife.com/#recipe=paik_Eino3yP-Wk0');assert(!url.includes('private'));
@@ -15,6 +15,15 @@ vm.runInContext(app.slice(app.indexOf('function recipeShareURL'),app.indexOf('fu
  ctx.navigator.clipboard.writeText=async()=>{throw Error('permission denied')};await nodes.recipeShare.children[0].onclick();const input=nodes.recipeShare.children[2];assert.equal(input.value,url);assert(input.readOnly&&input.focused&&input.selected);
  ctx.navigator.clipboard=null;await nodes.recipeShare.children[0].onclick();assert.equal(input.value,url);
  const count=nodes.recipeShare.children.length;ctx.renderRecipeShare({...recipe,id:'kimchi_jjigae'});assert.equal(nodes.recipeShare.children.length,count);ctx.navigator.clipboard={writeText:async s=>{copied=s}};await nodes.recipeShare.children[0].onclick();assert(copied.endsWith('#recipe=kimchi_jjigae'));
+ const shoppingRecipe={id:'test',names:{ko:'시험 요리'},servings:2,ingredients:[{ingredient_id:'두부',amount:200,unit:'g'},{ingredient_id:'양파',amount:50,unit:'g'}]};
+ ctx.document.querySelector=selector=>selector.includes('="0"')?{value:'300'}:{value:'0'};
+ ctx.renderRecipeShare(shoppingRecipe);ctx.navigator.clipboard={writeText:async text=>{copied=text}};
+ await nodes.recipeShare.children.find(x=>x.textContent==='재료 목록 복사').onclick();assert(copied.includes('두부: 300g'));assert(!copied.includes('양파'));assert(copied.includes('2인분'));
+ ctx.navigator.clipboard=null;await nodes.recipeShare.children.find(x=>x.textContent==='재료 목록 복사').onclick();const fallback=nodes.recipeShare.children.find(x=>x.rows===8);assert(fallback.selected&&fallback.value.includes('두부: 300g'));
+ const creator={id:'creator',names:{ko:'환산 요리'},public_recipe:true,source_kind:'creator_reference',servings:2,selected_servings:4,portion_lines:[{name:'두부',amount:200,unit:'g'}]};assert(ctx.recipeShoppingText(creator).includes('두부: 400g'));assert(ctx.recipeShoppingText(creator).includes('4인분'));
+ const official={id:'official',names:{ko:'공식 요리'},public_recipe:true,ingredients_text:'소금 적당량\n두부 200g'};assert(ctx.recipeShoppingText(official).includes('소금 적당량'));assert(!ctx.recipeShoppingText(official).includes('인분'));
+ ctx.document.querySelector=()=>null;
+ console.log('PASS shopping list reflects edited amounts, excludes removed ingredients, scales creator servings, preserves unspecified source amounts and supports manual copy.');
  const base=JSON.parse(fs.readFileSync('data/recipes.json')).recipes[0],originalIngredients=JSON.stringify(base.ingredients);base.selected_servings=8;
  ctx.renderRecipeShare(base);const reset=nodes.recipeShare.children.find(x=>x.textContent==='원본 분량으로 되돌리기');assert(reset);reset.onclick();assert.equal(base.selected_servings,undefined);assert.equal(opened.pop(),base.id);assert.equal(JSON.stringify(base.ingredients),originalIngredients);
  assert.equal(ctx.recipeHasEditableAmounts({public_recipe:true,source_kind:'mfds'}),false);assert.equal(ctx.recipeHasEditableAmounts({public_recipe:true,source_kind:'creator_reference',servings:null,portion_lines:[]}),false);

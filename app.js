@@ -780,6 +780,16 @@ function renderPublicRecipe(r,scroll=true){
 function recipeShareURL(id){
  const url=new URL(location.href);url.search="";url.hash="recipe="+encodeURIComponent(id);return url.href;
 }
+function recipeShoppingText(r){
+ const title=lang==="en"?(r.names.en||r.names.ko):r.names.ko;
+ const servings=r.public_recipe&&r.source_kind==="creator_reference"?(r.selected_servings||r.servings):r.servings;
+ const lines=r.public_recipe?(r.source_kind==="creator_reference"?creatorPortionIngredientLines(r,servings):r.ingredients_text.split(/\n+/)):r.ingredients.flatMap((x,i)=>{
+  const input=document.querySelector('.recipe-amount[data-i="'+i+'"]');
+  const raw=input?input.value:String(x.amount),amount=Number(raw);
+  return raw.trim()!==""&&Number.isFinite(amount)&&amount>0?[dbIngredientName(x.ingredient_id)+": "+amount+x.unit]:[];
+ });
+ return [title,...(Number.isFinite(servings)&&servings>0?[servings+tr(" servings","인분")]:[]),...lines.filter(x=>x.trim()),"",recipeShareURL(r.id)].join("\n");
+}
 function recipeHasEditableAmounts(r){
  return !r.public_recipe||(r.source_kind==="creator_reference"&&Number.isFinite(r.servings)&&r.servings>0&&Array.isArray(r.portion_lines));
 }
@@ -802,6 +812,14 @@ function renderRecipeShare(r){
   catch(err){input.value=url;input.classList.remove("hidden");input.focus();input.select();status.textContent=tr("Automatic copy is unavailable. Copy the selected link below.","자동 복사가 어려워요. 아래 선택된 주소를 길게 누르거나 복사해 주세요.");}
  };
  host.append(button,note,input,status);
+ const shopping=document.createElement("button");shopping.type="button";shopping.className="btn secondary";shopping.textContent=tr("Copy ingredient list","재료 목록 복사");
+ const list=document.createElement("textarea");list.readOnly=true;list.className="hidden";list.rows=8;list.style.width="100%";list.setAttribute("aria-label",tr("Ingredient list","복사할 재료 목록"));
+ shopping.onclick=async()=>{
+  const text=recipeShoppingText(r);
+  try{if(!navigator.clipboard?.writeText)throw new Error("clipboard unavailable");await navigator.clipboard.writeText(text);list.classList.add("hidden");status.textContent=tr("Ingredient list copied with the current amounts.","현재 분량의 재료 목록을 복사했어요. 메모나 카카오톡에 붙여넣으세요.");}
+  catch(err){list.value=text;list.classList.remove("hidden");list.focus();list.select();status.textContent=tr("Copy the selected ingredient list below.","아래 선택된 재료 목록을 길게 누르거나 복사해 주세요.");}
+ };
+ host.append(shopping,list);
  if(recipeHasEditableAmounts(r)){
   const reset=document.createElement("button");reset.type="button";reset.className="btn secondary";reset.setAttribute("data-recipe-reset","");reset.textContent=tr("Restore original portions","원본 분량으로 되돌리기");reset.onclick=()=>resetRecipeAmounts(r);host.append(reset);
  }
