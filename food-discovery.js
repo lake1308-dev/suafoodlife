@@ -27,7 +27,20 @@
    try{if(!navigator.clipboard?.writeText)throw Error('clipboard unavailable');await navigator.clipboard.writeText(url.href);message.textContent='링크를 복사했어요. 카카오톡이나 문자에 붙여넣어 보내세요.';}
    catch(error){address.value=url.href;address.hidden=false;address.focus();address.select();message.textContent='아래 선택된 주소를 직접 복사해 주세요.';}
   };
-  box.append(copy,message,address);return box;
+  const shopping=node('button','재료 목록 복사');shopping.type='button';
+  const list=node('textarea');list.readOnly=true;list.hidden=true;list.rows=8;list.setAttribute('aria-label','복사할 재료 목록');
+  shopping.onclick=async()=>{
+   const url=new URL(location.href);url.search='';url.hash='discovery='+encodeURIComponent(c.recipe_id);
+   const lines=[c.title,'분량 기준: '+c.quantity_basis];
+   const addGroups=groups=>{for(const group of groups)lines.push('['+group.label+']',...group.items)};
+   addGroups(c.ingredient_groups);
+   for(const preparation of c.preparations){lines.push('','[먼저 준비: '+preparation.title+']',preparation.usage);addGroups(preparation.ingredient_groups);lines.push(preparation.source_limit)}
+   lines.push('','분량은 위 기준 그대로입니다. 먼저 준비하는 양념의 전체 배합과 실제 사용량을 구분해 주세요.',url.href);
+   const text=lines.join('\n');
+   try{if(!navigator.clipboard?.writeText)throw Error('clipboard unavailable');await navigator.clipboard.writeText(text);list.hidden=true;message.textContent='재료 목록을 복사했어요. 메모나 카카오톡에 붙여넣으세요.';}
+   catch(error){list.value=text;list.hidden=false;list.focus();list.select();message.textContent='아래 선택된 재료 목록을 직접 복사해 주세요.';}
+  };
+  box.append(copy,message,address,shopping,list);return box;
  }
  async function openSharedDiscovery(){
   const hash=location.hash;if(!hash.startsWith('#discovery='))return;

@@ -17,6 +17,21 @@ await filters[1].onclick();await settle();assert.equal(nodes.discoveryCards.chil
 console.log('PASS: occasion counts 12/9/11/7, nine combinations open and return, impossible intersection can clear all filters.');
 context.location.hash='#discovery=paik_Eino3yP-Wk0';await hashHandlers.at(-1)();assert(!nodes.discoveryDetail.hidden);assert(all(nodes.discoveryDetail).some(x=>x.textContent==='두부조림'));assert(all(nodes.discoveryDetail).some(x=>x.className==='beginner-stages'));
 const share=all(nodes.discoveryDetail).find(x=>x.className==='discovery-share');await share.children[0].onclick();assert.equal(copied,'https://suafoodlife.com/#discovery=paik_Eino3yP-Wk0');context.navigator.clipboard=null;await share.children[0].onclick();assert(!share.children[2].hidden&&share.children[2].selected);
+context.navigator.clipboard={writeText:async text=>{copied=text}};
+let shoppingChecked=0,preparationsChecked=0;
+for(const theme of ['convenience','nostalgia','world','occasions']){
+ const pack=JSON.parse(fs.readFileSync('data/food-exploration-'+theme+'-20261017.json'));
+ for(const card of pack.cards){
+  context.location.hash='#discovery='+card.recipe_id;await hashHandlers.at(-1)();
+  const control=all(nodes.discoveryDetail).find(x=>x.className==='discovery-share');await control.children.find(x=>x.textContent==='재료 목록 복사').onclick();
+  assert(copied.startsWith(card.title+'\n분량'));assert(copied.includes(card.quantity_basis));
+  for(const group of card.ingredient_groups)for(const item of group.items)assert(copied.includes(item));
+  for(const prep of card.preparations){preparationsChecked++;assert(copied.includes('[먼저 준비: '+prep.title+']'));assert(copied.includes(prep.usage));for(const group of prep.ingredient_groups)for(const item of group.items)assert(copied.includes(item));}
+  assert(copied.endsWith('#discovery='+encodeURIComponent(card.recipe_id)));assert(!copied.includes('?v='));shoppingChecked++;
+ }
+}
+context.navigator.clipboard=null;const controls=all(nodes.discoveryDetail).find(x=>x.className==='discovery-share');await controls.children[3].onclick();assert(!controls.children[4].hidden&&controls.children[4].selected);assert(controls.children[4].value.includes('분량 기준:'));
+console.log('PASS: '+shoppingChecked+' shopping lists preserve all ingredient groups, '+preparationsChecked+' preparation links include usage and separate batches, plus manual-copy fallback.');
 context.location.hash='#discovery=missing';await hashHandlers.at(-1)();assert(nodes.discoveryStatus.textContent.includes('찾지 못했어요'));
 context.location.hash='#discovery=%E0%A4%A';await hashHandlers.at(-1)();assert(nodes.discoveryStatus.textContent.includes('찾지 못했어요'));
 context.location.hash='';console.log('PASS: shared discovery opens the beginner guide, clean copied URL, clipboard fallback, unknown and malformed IDs.');
