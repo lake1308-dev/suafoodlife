@@ -530,12 +530,32 @@ function renderDishCards(list,target){
   target.appendChild(c);
  });
 }
+const RECIPE_COOKING_CHECKS=new Map();
+function renderRecipeCookingSteps(key,steps){
+ const host=$("recipeSteps");host.replaceChildren();
+ let progress=$("recipeCookingProgress");
+ if(!progress){progress=document.createElement("section");progress.id="recipeCookingProgress";progress.className="discovery-progress";host.before(progress)}
+ progress.replaceChildren();progress.hidden=!steps.length;if(!steps.length)return;
+ const checked=RECIPE_COOKING_CHECKS.get(key)||new Set();RECIPE_COOKING_CHECKS.set(key,checked);
+ const heading=document.createElement("h3"),count=document.createElement("p"),reset=document.createElement("button"),note=document.createElement("p"),items=[];
+ heading.textContent=tr("Check as you cook","만들면서 체크해요");count.setAttribute("role","status");reset.type="button";reset.textContent=tr("Reset cooking checks","조리 체크 초기화");note.className="data-note";note.textContent=tr("Checks are kept for each recipe in this tab until you refresh the page.","체크는 이 탭에서 레시피별로 유지되며, 새로고침하면 초기화돼요.");
+ const update=()=>{const done=items.filter(x=>x.input.checked).length;count.textContent=tr("Cooking steps checked: "+done+" / "+items.length,"조리 과정 "+done+" / "+items.length+" 체크");reset.disabled=done===0};
+ reset.onclick=()=>{checked.clear();items.forEach(x=>{x.input.checked=false;x.label.className="discovery-step-check"});update()};
+ progress.append(heading,count,reset,note);
+ steps.forEach((step,index)=>{
+  const li=document.createElement("li"),label=document.createElement("label"),input=document.createElement("input"),text=document.createElement("span");
+  input.type="checkbox";input.checked=checked.has(index);text.textContent=step.replace(/^\d+\.\s*/,"");
+  const paint=()=>label.className="discovery-step-check"+(input.checked?" is-checked":"");paint();
+  input.onchange=()=>{if(input.checked)checked.add(index);else checked.delete(index);paint();update()};
+  label.append(input,text);li.append(label);host.appendChild(li);items.push({input,label});
+ });update();
+}
 function renderRecipe(d,scroll=true){
  const pilot=d.id==="dak"&&DB_RECIPES.find(x=>x.id==="dakbokkeumtang_reference");if(pilot){renderDBRecipe(pilot,scroll);return}
  $("recipeShare")?.replaceChildren();
  currentDish=d;["recipeNutritionLive","recipeNutritionNotice","recipeAllergens"].forEach(id=>$(id)?.classList.add("hidden"));$("recipe").classList.remove("hidden");$("recipeName").textContent=tr(d.name,d.nameKo);$("recipeMeta").textContent=tr("Approx. ","약 ")+d.time;
  $("recipeIngredients").innerHTML=(lang==="ko"?d.ingKo:d.ing).map(x=>"<li>"+x+"</li>").join("");
- $("recipeSteps").innerHTML=(lang==="ko"?d.stepsKo:d.steps).map(x=>"<li>"+x+"</li>").join("");
+ renderRecipeCookingSteps("legacy:"+d.id,lang==="ko"?d.stepsKo:d.steps);
  if(scroll)$("recipe").scrollIntoView({behavior:"smooth",block:"start"});
 }
 let country="Korea",region="All",type="All";
@@ -764,8 +784,7 @@ function renderPublicRecipe(r,scroll=true){
  $("recipeIngredients").replaceChildren();
  const ingredientLines=r.source_kind==="creator_reference"?creatorPortionIngredientLines(r,r.selected_servings||r.servings):r.ingredients_text.split(/\n+/);
  ingredientLines.forEach(line=>{const li=document.createElement("li");li.textContent=line;$("recipeIngredients").appendChild(li)});
- $("recipeSteps").replaceChildren();
- r.steps.ko.forEach(step=>{const li=document.createElement("li");li.textContent=step.replace(/^\d+\.\s*/,"");$("recipeSteps").appendChild(li)});
+ renderRecipeCookingSteps("db:"+r.id,r.steps.ko);
  ["recipeAllergens","recipeNutritionLive"].forEach(id=>document.getElementById(id)?.classList.add("hidden"));
  let note=document.getElementById("recipeNutritionNotice");if(!note){note=document.createElement("div");note.id="recipeNutritionNotice";note.className="data-note";$("recipeMeta").after(note)}
  note.classList.remove("hidden");note.replaceChildren();
@@ -841,7 +860,7 @@ function renderDBRecipe(r,scroll=true){
  $("recipeName").textContent=lang==="ko"?r.names.ko:r.names.en;
  $("recipeMeta").textContent=tr(r.country+" · "+r.region+" · "+r.servings+" servings",r.country+" · "+r.region+" · "+r.servings+"인분 · "+(r.example_recipe?"참고용 기본 예시":"표준 레시피 기준"));
  $("recipeIngredients").innerHTML=r.ingredients.map((x,i)=>'<li data-ri="'+i+'"><span>'+dbIngredientName(x.ingredient_id)+'</span> <input class="recipe-amount" data-i="'+i+'" aria-label="'+dbIngredientName(x.ingredient_id)+' '+tr("amount (","섭취량 (")+x.unit+")"+'" type="number" min="0" max="10000" step="1" inputmode="decimal" value="'+x.amount+'" style="width:78px"> '+x.unit+' <button type="button" class="recipe-remove" data-i="'+i+'">'+tr("Remove","빼기")+'</button></li>').join("");
- $("recipeSteps").innerHTML=(lang==="ko"?r.steps.ko:r.steps.en).map(x=>"<li>"+x+"</li>").join("");
+ renderRecipeCookingSteps("db:"+r.id,lang==="ko"?r.steps.ko:r.steps.en);
  let note=document.getElementById("recipeNutritionNotice");
  if(!note){note=document.createElement("div");note.id="recipeNutritionNotice";note.className="data-note";$("recipeMeta").after(note)}
  note.classList.remove("hidden");
