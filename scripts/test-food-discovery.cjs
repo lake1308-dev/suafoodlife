@@ -28,8 +28,23 @@ for(const theme of ['convenience','nostalgia','world','occasions']){
   for(const group of card.ingredient_groups)for(const item of group.items)assert(copied.includes(item));
   for(const prep of card.preparations){preparationsChecked++;assert(copied.includes('[먼저 준비: '+prep.title+']'));assert(copied.includes(prep.usage));for(const group of prep.ingredient_groups)for(const item of group.items)assert(copied.includes(item));}
   assert(copied.endsWith('#discovery='+encodeURIComponent(card.recipe_id)));assert(!copied.includes('?v='));shoppingChecked++;
+  const checks=all(nodes.discoveryDetail).filter(x=>x.tag==='input'&&x.type==='checkbox');
+  const expected=card.preparations.flatMap(p=>p.steps).length+(card.beginner_guide?card.beginner_guide.stages.flatMap(s=>s.actions).length:card.steps.length);
+  assert.equal(checks.length,expected,'only actual preparation and cooking actions get checks');
+  const progress=all(nodes.discoveryDetail).find(x=>x.className==='discovery-progress'),counter=progress.children.find(x=>x.attributes.role==='status'),reset=progress.children.find(x=>x.tag==='button');
+  assert(reset.disabled);assert(counter.textContent.includes('0 / '+expected));
+  checks.forEach(input=>{input.checked=true;input.onchange()});assert(counter.textContent.includes(expected+' / '+expected));assert(!reset.disabled);
+  checks[0].checked=false;checks[0].onchange();assert(counter.textContent.includes((expected-1)+' / '+expected));
+  reset.onclick();assert(checks.every(x=>!x.checked));assert(reset.disabled);
+
  }
 }
+const reopen=async id=>{context.location.hash='#discovery='+id;await hashHandlers.at(-1)()};
+await reopen('paik_Eino3yP-Wk0');let inputs=all(nodes.discoveryDetail).filter(x=>x.tag==='input'&&x.type==='checkbox');inputs[0].checked=true;inputs[0].onchange();
+await reopen('paik_78AQ-ten9lE');assert(all(nodes.discoveryDetail).filter(x=>x.type==='checkbox').every(x=>!x.checked),'another recipe has separate progress');
+await reopen('paik_Eino3yP-Wk0');inputs=all(nodes.discoveryDetail).filter(x=>x.type==='checkbox');assert(inputs[0].checked,'returning to a menu retains this tab progress');
+all(nodes.discoveryDetail).find(x=>x.textContent==='조리 체크 초기화').onclick();await reopen('paik_Eino3yP-Wk0');assert(all(nodes.discoveryDetail).filter(x=>x.type==='checkbox').every(x=>!x.checked));
+console.log('PASS: 50 cooking checklists count preparation and beginner actions, support checking/unchecking/reset, retain menu-specific progress and isolate different menus.');
 context.navigator.clipboard=null;const controls=all(nodes.discoveryDetail).find(x=>x.className==='discovery-share');await controls.children[3].onclick();assert(!controls.children[4].hidden&&controls.children[4].selected);assert(controls.children[4].value.includes('분량 기준:'));
 console.log('PASS: '+shoppingChecked+' shopping lists preserve all ingredient groups, '+preparationsChecked+' preparation links include usage and separate batches, plus manual-copy fallback.');
 context.location.hash='#discovery=missing';await hashHandlers.at(-1)();assert(nodes.discoveryStatus.textContent.includes('찾지 못했어요'));
