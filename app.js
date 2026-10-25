@@ -780,6 +780,16 @@ function renderPublicRecipe(r,scroll=true){
 function recipeShareURL(id){
  const url=new URL(location.href);url.search="";url.hash="recipe="+encodeURIComponent(id);return url.href;
 }
+function recipeHasEditableAmounts(r){
+ return !r.public_recipe||(r.source_kind==="creator_reference"&&Number.isFinite(r.servings)&&r.servings>0&&Array.isArray(r.portion_lines));
+}
+function resetRecipeAmounts(r){
+ delete r.selected_servings;
+ renderDBRecipe(r,false);
+ const host=$("recipeShare"),status=host?.querySelector?.('[role="status"]');
+ if(status)status.textContent=tr("Original portions and ingredients restored.","원본 인분과 재료 양으로 되돌렸어요.");
+ host?.querySelector?.('[data-recipe-reset]')?.focus({preventScroll:true});
+}
 function renderRecipeShare(r){
  const host=$("recipeShare");if(!host)return;host.replaceChildren();
  const button=document.createElement("button");button.type="button";button.className="btn secondary";button.textContent=tr("Copy recipe link","레시피 링크 복사");
@@ -792,6 +802,9 @@ function renderRecipeShare(r){
   catch(err){input.value=url;input.classList.remove("hidden");input.focus();input.select();status.textContent=tr("Automatic copy is unavailable. Copy the selected link below.","자동 복사가 어려워요. 아래 선택된 주소를 길게 누르거나 복사해 주세요.");}
  };
  host.append(button,note,input,status);
+ if(recipeHasEditableAmounts(r)){
+  const reset=document.createElement("button");reset.type="button";reset.className="btn secondary";reset.setAttribute("data-recipe-reset","");reset.textContent=tr("Restore original portions","원본 분량으로 되돌리기");reset.onclick=()=>resetRecipeAmounts(r);host.append(reset);
+ }
 }
 function openSharedRecipe(){
  const status=$("sharedRecipeStatus");if(!status)return;
@@ -800,7 +813,7 @@ function openSharedRecipe(){
  if(recipeLoadState==="loading"){status.textContent=tr("Loading the shared recipe…","공유받은 레시피를 불러오고 있어요…");return;}
  const recipe=id&&DB_RECIPES.find(r=>r.id===id);
  if(!recipe){status.textContent=tr("This recipe link could not be opened. Try searching for its name below.","이 레시피 링크를 열지 못했어요. 아래 레시피 검색에서 음식 이름을 찾아주세요.");return;}
- status.textContent="";returnTarget="homeRecipes";lastRecipeTrigger=null;renderDBRecipe(recipe);
+ status.textContent="";returnTarget="homeRecipes";lastRecipeTrigger=null;delete recipe.selected_servings;renderDBRecipe(recipe);
 }
 function renderDBRecipe(r,scroll=true){
  renderRecipeShare(r);
