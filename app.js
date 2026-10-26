@@ -526,6 +526,7 @@ function renderAllergy(key){
 
 function renderIngredient(key,scroll=true,preserveAmount=false){
  if(scroll){$("ingredientFallback").classList.add("hidden");$("recipe").classList.add("hidden");$("explorer").classList.add("hidden");currentDish=null;lastRecipeTrigger=null}
+ const amountInput=$("amountInput"),invalidAmount=preserveAmount&&amountInput.getAttribute("aria-invalid")==="true",invalidValue=invalidAmount?amountInput.value:null;
  currentKey=key; const d=I[key], db=getIngredient(key);
  const presets=servingPresets(key); if(!preserveAmount)currentAmount=presets.includes(100)?100:(presets.includes(5)?5:presets[0]);
  document.querySelectorAll(".amount-presets button").forEach((b,i)=>{if(presets[i]!=null){b.style.display="";b.dataset.grams=presets[i];b.textContent=presets[i]+(db?.sources?.[0]?.basis==="100ml"?"ml":"g");b.classList.toggle("active",presets[i]===currentAmount)}else b.style.display="none"});
@@ -543,9 +544,9 @@ function renderIngredient(key,scroll=true,preserveAmount=false){
  if(db?.sources?.[0]?.review_status==="basis_conflict")$("ingredientNote").textContent=tr("The source calculation basis differs substantially from the manufacturer retail label. Nutrition calculation is on hold while the basis is reviewed.","원본 DB의 계산 기준과 본사직영 판매처 표시값에 큰 차이가 있어 기준을 재확인 중입니다. 확인 전까지 이 기록의 영양 계산을 보류합니다.");
  const beverageNote=referenceBeverageNote(db);if(beverageNote)$("ingredientNote").textContent=beverageNote;
  renderFoodSource(key);
- $("amountInput").removeAttribute("aria-invalid");$("amountError").textContent="";
+ if(invalidAmount){amountInput.value=invalidValue;amountInput.setAttribute("aria-invalid","true");$("amountError").textContent=tr("Enter an amount between 1 and 5,000.","섭취량을 1~5,000 사이로 입력해 주세요.")}else{amountInput.removeAttribute("aria-invalid");$("amountError").textContent="";amountInput.value=currentAmount}
  renderPackagePortion(db);renderFoodPreparationChoices(db);
- $("amountInput").value=currentAmount; updateNutrition(); renderAllergy(key);
+ updateNutrition(); renderAllergy(key);
  $("result").classList.remove("hidden");
  renderCountryCards();
  if(scroll) $("result").scrollIntoView({behavior:"smooth",block:"start"});
