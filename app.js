@@ -6,6 +6,7 @@ let DB_INGREDIENTS=[],DB_ALIAS=new Map(),DB_BULK=[],DB_BULK_BY_NAME=new Map(),DB
 const BASIC_INGREDIENT_NAMES={apple_raw:"사과",strawberry_cultivated_raw:"딸기",peanut_dried:"땅콩",garlic_raw:"마늘",tomato_raw:"토마토",onion_raw:"양파",carrot_root_raw:"당근",banana_raw:"바나나",potato_sumi_raw:"감자",cabbage_raw:"양배추",peach_white_raw:"복숭아",korean_melon_seed_removed_raw:"참외",pineapple_raw:"파인애플",sweet_potato_raw:"고구마",green_onion_raw:"대파",kabocha_squash_raw:"단호박",chestnut_raw:"밤",pomegranate_raw:"석류",eggplant_raw:"가지",broccoli_raw:"브로콜리",asparagus_raw:"아스파라거스",lettuce_butterhead_green_raw:"상추"};
 Object.assign(BASIC_INGREDIENT_NAMES,{"rda:H0610030000a":"수박","rda:H0980070000a":"포도","rda:H0100020000a":"귤","rda:K1370000000a":"연어","chicken_breast_raw":"닭가슴살","rda:I008000D029b":"삶은 닭가슴살","rda:I008000D029g":"구운 닭가슴살","rda:J0030000009b":"삶은 달걀","rda:J0040000009m":"달걀프라이"});
 Object.assign(BASIC_INGREDIENT_NAMES,{"rda:B0010140009b":"삶은 감자","rda:B0010140009e":"찐 감자","rda:B0010140009f":"구운 감자","rda:B0060000009e":"찐 고구마","rda:B0060000009f":"군고구마","rda:F0920000009c":"데친 브로콜리","rda:F0920000009e":"찐 브로콜리","rda:F1150000009c":"데친 시금치"});
+Object.assign(BASIC_INGREDIENT_NAMES,{"rda:F041000B099c":"데친 당근","rda:F041000B099e":"찐 당근","rda:F1290000009c":"데친 양배추","rda:F1290000009e":"찐 양배추","rda:F1290000009b":"삶은 양배추","rda:F1820000009b":"삶은 콩나물","rda:F1980050009c":"데친 애호박","rda:F0030000009c":"데친 가지","rda:F1320000009c":"데친 양파","rda:F1320000009e":"찐 양파"});
 function ingredientDisplayName(x){return lang==="ko"?(BASIC_INGREDIENT_NAMES[x.id]||x.names.ko):x.names.en;}
 Object.assign(BASIC_INGREDIENT_NAMES,{"milk": "우유", "egg_whole": "달걀", "walnut_raw": "호두", "pine_nut_raw": "잣", "buckwheat_grain": "메밀", "soybean_raw": "대두", "wheat_grain": "밀", "wheat_flour": "밀가루", "crab_raw": "게", "shrimp": "새우", "squid_raw": "오징어", "mackerel_raw": "고등어", "oyster_raw": "굴", "abalone_raw": "전복", "mussel_raw": "홍합"});
 let DB_RECIPES=[];
@@ -235,6 +236,7 @@ const SEARCH_FALSE_POSITIVES={"곱창":["곱창김"],"콜라":["콜라겐"],"사
 const GENERAL_FOOD_PREFERENCES={"밥":"cooked_white_rice","쌀밥":"cooked_white_rice","흰밥":"cooked_white_rice","두부":"rda:D0150000009a","아메리카노":"rda:O027001158Pa","아메리카노커피":"rda:O027001158Pa"};
 Object.assign(GENERAL_FOOD_PREFERENCES,{"닭고기":"rda:I008000D150a","계육":"rda:I008000D150a","닭가슴살":"chicken_breast_raw","삶은닭가슴살":"rda:I008000D029b","닭가슴살삶은것":"rda:I008000D029b","구운닭가슴살":"rda:I008000D029g","닭가슴살구운것":"rda:I008000D029g","삶은계란":"rda:J0030000009b","삶은달걀":"rda:J0030000009b","계란삶은것":"rda:J0030000009b","달걀삶은것":"rda:J0030000009b","계란후라이":"rda:J0040000009m","계란프라이":"rda:J0040000009m","달걀후라이":"rda:J0040000009m","달걀프라이":"rda:J0040000009m"});
 Object.assign(GENERAL_FOOD_PREFERENCES,{"삶은감자":"rda:B0010140009b","감자삶은것":"rda:B0010140009b","찐감자":"rda:B0010140009e","감자찐것":"rda:B0010140009e","구운감자":"rda:B0010140009f","감자구운것":"rda:B0010140009f","찐고구마":"rda:B0060000009e","고구마찐것":"rda:B0060000009e","군고구마":"rda:B0060000009f","구운고구마":"rda:B0060000009f","고구마구운것":"rda:B0060000009f","데친브로콜리":"rda:F0920000009c","브로콜리데친것":"rda:F0920000009c","찐브로콜리":"rda:F0920000009e","브로콜리찐것":"rda:F0920000009e","데친시금치":"rda:F1150000009c","시금치데친것":"rda:F1150000009c"});
+Object.assign(GENERAL_FOOD_PREFERENCES,{"데친당근":"rda:F041000B099c","당근데친것":"rda:F041000B099c","찐당근":"rda:F041000B099e","당근찐것":"rda:F041000B099e","데친양배추":"rda:F1290000009c","양배추데친것":"rda:F1290000009c","찐양배추":"rda:F1290000009e","양배추찐것":"rda:F1290000009e","삶은양배추":"rda:F1290000009b","양배추삶은것":"rda:F1290000009b","삶은콩나물":"rda:F1820000009b","콩나물삶은것":"rda:F1820000009b","데친애호박":"rda:F1980050009c","애호박데친것":"rda:F1980050009c","데친가지":"rda:F0030000009c","가지데친것":"rda:F0030000009c","데친양파":"rda:F1320000009c","양파데친것":"rda:F1320000009c","찐양파":"rda:F1320000009e","양파찐것":"rda:F1320000009e"});
 function prepareFoodSearch(terms){
  const primary=terms[0];return {primary,pc:compactSearch(primary),bad:(SEARCH_FALSE_POSITIVES[primary]||[]).map(normalize),plans:terms.map((q,ti)=>({q,qc:compactSearch(q),penalty:ti===0?0:(SEARCH_RELATED[primary]||[]).includes(q)?6:2})),tokens:primary.split(/\s+/).map(compactSearch).filter(Boolean)};
 }
@@ -298,7 +300,13 @@ const FOOD_PREPARATION_GROUPS=[
  [{id:"potato_sumi_raw",ko:"생감자",en:"Raw potato"},{id:"rda:B0010140009b",ko:"삶은 감자",en:"Boiled potato"},{id:"rda:B0010140009e",ko:"찐 감자",en:"Steamed potato"},{id:"rda:B0010140009f",ko:"구운 감자",en:"Baked potato"}],
  [{id:"sweet_potato_raw",ko:"생고구마",en:"Raw sweet potato"},{id:"rda:B0060000009e",ko:"찐 고구마",en:"Steamed sweet potato"},{id:"rda:B0060000009f",ko:"군고구마",en:"Baked sweet potato"}],
  [{id:"broccoli_raw",ko:"생브로콜리",en:"Raw broccoli"},{id:"rda:F0920000009c",ko:"데친 브로콜리",en:"Blanched broccoli"},{id:"rda:F0920000009e",ko:"찐 브로콜리",en:"Steamed broccoli"}],
- [{id:"rda:F1150000000a",ko:"생시금치",en:"Raw spinach"},{id:"rda:F1150000009c",ko:"데친 시금치",en:"Blanched spinach"}]
+ [{id:"rda:F1150000000a",ko:"생시금치",en:"Raw spinach"},{id:"rda:F1150000009c",ko:"데친 시금치",en:"Blanched spinach"}],
+ [{"id":"carrot_root_raw","ko":"생당근","en":"Raw carrot"},{"id":"rda:F041000B099c","ko":"데친 당근","en":"Blanched carrot"},{"id":"rda:F041000B099e","ko":"찐 당근","en":"Steamed carrot"}],
+ [{"id":"cabbage_raw","ko":"생양배추","en":"Raw cabbage"},{"id":"rda:F1290000009c","ko":"데친 양배추","en":"Blanched cabbage"},{"id":"rda:F1290000009e","ko":"찐 양배추","en":"Steamed cabbage"},{"id":"rda:F1290000009b","ko":"삶은 양배추","en":"Boiled cabbage"}],
+ [{"id":"rda:F1820000000a","ko":"생콩나물","en":"Raw soybean sprouts"},{"id":"rda:F1820000009b","ko":"삶은 콩나물","en":"Boiled soybean sprouts"}],
+ [{"id":"rda:F1980050000a","ko":"생애호박","en":"Raw Korean zucchini"},{"id":"rda:F1980050009c","ko":"데친 애호박","en":"Blanched Korean zucchini"}],
+ [{"id":"eggplant_raw","ko":"생가지","en":"Raw eggplant"},{"id":"rda:F0030000009c","ko":"데친 가지","en":"Blanched eggplant"}],
+ [{"id":"onion_raw","ko":"생양파","en":"Raw onion"},{"id":"rda:F1320000009c","ko":"데친 양파","en":"Blanched onion"},{"id":"rda:F1320000009e","ko":"찐 양파","en":"Steamed onion"}]
 ];
 function renderFoodPreparationChoices(food){
  const host=$("foodPreparationChoices");if(!host)return;host.replaceChildren();
