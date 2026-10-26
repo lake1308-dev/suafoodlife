@@ -728,6 +728,7 @@ function updateDBRecipeNutrition(){
  const out=calculateDBRecipeNutrition(r), servings=Math.max(1,Number(r.servings)||1), t=out.totals;
  const box=document.getElementById("recipeNutritionLive");if(!box)return;
  if(out.invalid.length){box.textContent=tr("Nutrition is paused until all ingredient amounts are valid.","재료 양을 확인하면 영양정보를 다시 계산해요.");return}
+ if(ingredientLoadState==="loading"){box.textContent=tr("Loading ingredient nutrition. This recipe will update automatically.","재료 영양정보를 불러오고 있어요. 준비되면 자동으로 다시 계산해요.");return}
  const fmt=(v,u)=>v==null?"—":Math.round(v*10)/10+u, partial=out.verified&&!out.complete;
  const prefix=partial?tr("Verified ingredients subtotal","검증된 재료 부분합계"):tr("Calculated nutrition","계산된 영양정보");
  box.innerHTML='<strong>'+prefix+'</strong>'+
@@ -964,6 +965,10 @@ function recipeSearch(q){
 $("recipeSearchForm").addEventListener("submit",e=>{e.preventDefault();recipeSearch($("recipeSearchInput").value)});
 $("recipeBack").onclick=()=>{$("recipe").classList.add("hidden");const target=$(returnTarget)||$("recipeSearchForm")||$("result");target?.scrollIntoView({behavior:"smooth",block:"start"});if(lastRecipeTrigger?.isConnected)lastRecipeTrigger.focus({preventScroll:true});else{target?.setAttribute("tabindex","-1");target?.focus({preventScroll:true})}};
 applyLang();
+function refreshOpenRecipeNutrition(){
+ if(ingredientLoadState==="loading"||!currentDish||currentDish.public_recipe||!Array.isArray(currentDish.ingredients)||$("recipe").classList.contains("hidden"))return;
+ updateDBRecipeNutrition();
+}
 function refreshPendingSearch(){
  if(!suggestionsRequested)return;
  const raw=$("ingredientInput").value;if(!raw.trim())return;
@@ -976,7 +981,7 @@ function refreshPendingSearch(){
 }
 updateSearchReadiness();
 Promise.allSettled([
- loadIngredientDB().then(refreshPendingSearch),
+ loadIngredientDB().then(()=>{refreshPendingSearch();refreshOpenRecipeNutrition()}),
  loadBulkNutritionDB().then(refreshPendingSearch),
  loadRecipeDB().then(()=>{recipeLoadState=DB_RECIPES.length?"ready":"failed";openSharedRecipe();if(currentKey)renderIngredientRecipes(currentKey);if($("recipeSearchInput").value.trim())recipeSearch($("recipeSearchInput").value)})
 ]).then(()=>{renderCountryCards();applyLang();refreshPendingSearch();updateSearchReadiness()});
