@@ -816,6 +816,7 @@ function renderCookingNotice(r,host){
  if(r.related_recipe_id){const related=DB_RECIPES.find(x=>x.id===r.related_recipe_id);if(related){const button=document.createElement("button");button.type="button";button.textContent="재료·조리 순서 보기: "+related.names.ko;button.onclick=()=>renderDBRecipe(related);host.appendChild(button)}}
 }
 function renderPublicRecipe(r,scroll=true){
+ renderRecipeShare(r);
  if(renderCreatorPreparations.returnTo&&renderCreatorPreparations.returnTo.targetId!==r.id)renderCreatorPreparations.returnTo=null;
  currentDish=r;$("recipe").classList.remove("hidden");
  $("recipeName").textContent=r.names.ko;
@@ -892,8 +893,8 @@ function openSharedRecipe(){
  status.textContent="";returnTarget="homeRecipes";lastRecipeTrigger=null;delete recipe.selected_servings;renderDBRecipe(recipe);
 }
 function renderDBRecipe(r,scroll=true){
- renderRecipeShare(r);
  if(r.public_recipe){renderPublicRecipe(r,scroll);return}
+ renderRecipeShare(r);
  renderCreatorPreparations.returnTo=null;
  currentDish=r;$("recipe").classList.remove("hidden");
  $("recipeName").textContent=lang==="ko"?r.names.ko:r.names.en;
