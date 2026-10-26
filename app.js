@@ -311,7 +311,7 @@ const FOOD_PREPARATION_GROUPS=[
 function renderFoodPreparationChoices(food){
  const host=$("foodPreparationChoices");if(!host)return;host.replaceChildren();
  const group=FOOD_PREPARATION_GROUPS.find(rows=>rows.some(row=>row.id===food?.id));
- const rows=(group||[]).filter(row=>{const candidate=getIngredient(row.id);return candidate?.verification_status==="verified"&&candidate.sources?.[0]?.basis==="100g"&&Number.isFinite(candidate.nutrition_per_100g?.kcal)});
+ const rows=(group||[]).filter(row=>{const candidate=getIngredient(row.id);return candidate?.verification_status==="verified"&&(candidate.sources?.[0]?.basis==="100g"||(!candidate.sources?.[0]?.basis&&candidate.sources?.[0]?.basis_g===100))&&Number.isFinite(candidate.nutrition_per_100g?.kcal)});
  host.hidden=rows.length<2;if(host.hidden)return;
  const title=document.createElement("strong"),buttons=document.createElement("div"),note=document.createElement("p");title.textContent=tr("Choose preparation","조리 상태 선택");buttons.className="food-preparation-buttons";buttons.setAttribute("role","group");buttons.setAttribute("aria-label",title.textContent);
  rows.forEach(row=>{const button=document.createElement("button");button.type="button";button.textContent=tr(row.en,row.ko);button.dataset.foodId=row.id;button.setAttribute("aria-pressed",String(row.id===food.id));if(row.id===food.id)button.className="active";

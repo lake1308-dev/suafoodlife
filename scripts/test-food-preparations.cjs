@@ -1,8 +1,8 @@
 const fs=require('fs'),vm=require('vm'),zlib=require('zlib'),assert=require('assert');const app=fs.readFileSync('app.js','utf8');
 class El{constructor(tag){this.tag=tag;this.children=[];this.dataset={};this.attributes={}}replaceChildren(){this.children=[]}append(...xs){this.children.push(...xs)}appendChild(x){this.children.push(x)}setAttribute(k,v){this.attributes[k]=v}querySelectorAll(){return this.children.flatMap(x=>x.tag==='button'?[x]:x.querySelectorAll('button'))}focus(){this.focused=true}}
-const host=new El('div'),foods=new Map();
-for(const f of fs.readdirSync('data').filter(x=>/^rda-.*\.json\.gz$/.test(x))){const d=JSON.parse(zlib.gunzipSync(fs.readFileSync('data/'+f)));for(const food of d.ingredients||[])foods.set(d.curated_id_by_record?.[food.id]||food.id,food)}
-for(const r of JSON.parse(fs.readFileSync('data/nutrition-kfind.json')).records)foods.set(r.ingredient_id,{id:r.ingredient_id,verification_status:'verified',sources:[{basis:'100g'}],nutrition_per_100g:r.nutrition_per_100g});
+const host=new El('div'),foods=new Map(JSON.parse(fs.readFileSync('data/ingredients.json')).ingredients.filter(x=>x.status!=='placeholder_pending_curation').map(x=>[x.id,x]));
+for(const r of JSON.parse(fs.readFileSync('data/nutrition-kfind.json')).records){const existing=foods.get(r.ingredient_id);foods.set(r.ingredient_id,existing?{...existing,nutrition_per_100g:r.nutrition_per_100g,verification_status:'verified'}:{id:r.ingredient_id,verification_status:'verified',sources:[{basis:'100g'}],nutrition_per_100g:r.nutrition_per_100g})}
+for(const f of fs.readdirSync('data').filter(x=>/^rda-.*\.json\.gz$/.test(x))){const d=JSON.parse(zlib.gunzipSync(fs.readFileSync('data/'+f)));for(const food of d.ingredients||[]){const id=d.curated_id_by_record?.[food.id]||food.id,existing=foods.get(id);foods.set(id,existing?{...food,...existing,nutrition_per_100g:food.nutrition_per_100g,sources:food.sources}:{...food,id})}}
 let current,selection;const ctx=vm.createContext({document:{createElement:tag=>new El(tag)},$:()=>host,getIngredient:id=>{const x=foods.get(id);return x&&{...x,id}},tr:(en,ko)=>ko,renderIngredient:(id,scroll,preserve)=>{selection={id,scroll,preserve};current=id;ctx.renderFoodPreparationChoices(ctx.getIngredient(id))}});
 vm.runInContext(app.slice(app.indexOf('const FOOD_PREPARATION_GROUPS='),app.indexOf('function servingPresets(')),ctx);
 const groups=vm.runInContext('FOOD_PREPARATION_GROUPS',ctx);assert.equal(groups.length,12);assert.equal(groups.flat().length,34);
@@ -12,5 +12,7 @@ for(const rows of groups){const ids=rows.map(x=>x.id);
  }
 }
 for(const food of [null,{id:'other'},{id:'bulk:chicken'},{id:'branded_egg'}]){ctx.renderFoodPreparationChoices(food);assert(host.hidden);assert.equal(host.children.length,0)}
+const eggplant=foods.get('eggplant_raw');assert.equal(eggplant.sources[0].basis_g,100);assert.equal(eggplant.sources[0].basis,undefined);ctx.renderFoodPreparationChoices(ctx.getIngredient('eggplant_raw'));assert.equal(host.querySelectorAll().length,2,'actual numeric 100g basis is supported');
+for(const source of [{basis:'100ml',basis_g:100},{basis_g:50},{}]){foods.set('eggplant_raw',{...eggplant,sources:[source]});ctx.renderFoodPreparationChoices(ctx.getIngredient('rda:F0030000009c'));assert(host.hidden,'ambiguous or incompatible units remain excluded')}foods.set('eggplant_raw',eggplant);
 const backup=foods.get('rda:J0040000009m');foods.delete('rda:J0040000009m');ctx.renderFoodPreparationChoices(ctx.getIngredient('egg_whole'));assert.equal(host.querySelectorAll().length,2);foods.delete('rda:J0030000009b');ctx.renderFoodPreparationChoices(ctx.getIngredient('egg_whole'));assert(host.hidden);foods.set('rda:J0040000009m',backup);
 console.log('PASS 12 official ingredient groups with 34 preparation choices, current selection, focus after switching, weight-preserving render request, no product/unknown leakage, missing-data fallback and separate amount controls.');
