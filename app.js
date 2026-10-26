@@ -232,7 +232,7 @@ function searchTerms(raw){
 const SEARCH_FALSE_POSITIVES={"곱창":["곱창김"],"콜라":["콜라겐"],"사이다":["사이다비니거","사이다 비니거"]};
 // Exact general queries only: retain the source name, cooking state and basis.
 const GENERAL_FOOD_PREFERENCES={"밥":"cooked_white_rice","쌀밥":"cooked_white_rice","흰밥":"cooked_white_rice","두부":"rda:D0150000009a","아메리카노":"rda:O027001158Pa","아메리카노커피":"rda:O027001158Pa"};
-Object.assign(GENERAL_FOOD_PREFERENCES,{"닭가슴살":"chicken_breast_raw","삶은닭가슴살":"rda:I008000D029b","닭가슴살삶은것":"rda:I008000D029b","구운닭가슴살":"rda:I008000D029g","닭가슴살구운것":"rda:I008000D029g","삶은계란":"rda:J0030000009b","삶은달걀":"rda:J0030000009b","계란삶은것":"rda:J0030000009b","달걀삶은것":"rda:J0030000009b","계란후라이":"rda:J0040000009m","계란프라이":"rda:J0040000009m","달걀후라이":"rda:J0040000009m","달걀프라이":"rda:J0040000009m"});
+Object.assign(GENERAL_FOOD_PREFERENCES,{"닭고기":"rda:I008000D150a","계육":"rda:I008000D150a","닭가슴살":"chicken_breast_raw","삶은닭가슴살":"rda:I008000D029b","닭가슴살삶은것":"rda:I008000D029b","구운닭가슴살":"rda:I008000D029g","닭가슴살구운것":"rda:I008000D029g","삶은계란":"rda:J0030000009b","삶은달걀":"rda:J0030000009b","계란삶은것":"rda:J0030000009b","달걀삶은것":"rda:J0030000009b","계란후라이":"rda:J0040000009m","계란프라이":"rda:J0040000009m","달걀후라이":"rda:J0040000009m","달걀프라이":"rda:J0040000009m"});
 function prepareFoodSearch(terms){
  const primary=terms[0];return {primary,pc:compactSearch(primary),bad:(SEARCH_FALSE_POSITIVES[primary]||[]).map(normalize),plans:terms.map((q,ti)=>({q,qc:compactSearch(q),penalty:ti===0?0:(SEARCH_RELATED[primary]||[]).includes(q)?6:2})),tokens:primary.split(/\s+/).map(compactSearch).filter(Boolean)};
 }
@@ -290,6 +290,20 @@ function renderIngredientSuggestions(raw){
 function moveSuggestion(delta){const host=$("ingredientSuggestions"),items=[...host.querySelectorAll(".ingredient-suggestion")];if(!items.length)return;suggestionIndex=suggestionIndex<0?(delta<0?items.length-1:0):(suggestionIndex+delta+items.length)%items.length;items.forEach((x,i)=>{const active=i===suggestionIndex;x.classList.toggle("active",active);x.setAttribute("aria-selected",active?"true":"false")});$("ingredientInput").setAttribute("aria-activedescendant",items[suggestionIndex].id);items[suggestionIndex].scrollIntoView({block:"nearest"})}
 function chooseSuggestion(){const items=[...$("ingredientSuggestions").querySelectorAll(".ingredient-suggestion")];if(suggestionIndex>=0&&items[suggestionIndex]){items[suggestionIndex].click();return true}return false}
 function getIngredient(id){const canonical=canonicalIngredientId(id);return DB_INGREDIENTS.find(x=>x.id===canonical)||DB_BULK_BY_ID.get(id)||null}
+const FOOD_PREPARATION_GROUPS=[
+ [{id:"egg_whole",ko:"생달걀",en:"Raw egg"},{id:"rda:J0030000009b",ko:"삶은 달걀",en:"Boiled egg"},{id:"rda:J0040000009m",ko:"달걀프라이",en:"Fried egg"}],
+ [{id:"chicken_breast_raw",ko:"생 닭가슴살",en:"Raw chicken breast"},{id:"rda:I008000D029b",ko:"삶은 닭가슴살",en:"Boiled chicken breast"},{id:"rda:I008000D029g",ko:"구운 닭가슴살",en:"Pan-grilled chicken breast"}]
+];
+function renderFoodPreparationChoices(food){
+ const host=$("foodPreparationChoices");if(!host)return;host.replaceChildren();
+ const group=FOOD_PREPARATION_GROUPS.find(rows=>rows.some(row=>row.id===food?.id));
+ const rows=(group||[]).filter(row=>{const candidate=getIngredient(row.id);return candidate?.verification_status==="verified"&&candidate.sources?.[0]?.basis==="100g"&&Number.isFinite(candidate.nutrition_per_100g?.kcal)});
+ host.hidden=rows.length<2;if(host.hidden)return;
+ const title=document.createElement("strong"),buttons=document.createElement("div"),note=document.createElement("p");title.textContent=tr("Choose preparation","조리 상태 선택");buttons.className="food-preparation-buttons";buttons.setAttribute("role","group");buttons.setAttribute("aria-label",title.textContent);
+ rows.forEach(row=>{const button=document.createElement("button");button.type="button";button.textContent=tr(row.en,row.ko);button.dataset.foodId=row.id;button.setAttribute("aria-pressed",String(row.id===food.id));if(row.id===food.id)button.className="active";
+  button.onclick=()=>{renderIngredient(row.id,false,true);const selected=[...$("foodPreparationChoices").querySelectorAll("button")].find(x=>x.dataset.foodId===row.id);selected?.focus({preventScroll:true})};buttons.appendChild(button)});
+ note.className="data-note";note.textContent=tr("The entered weight stays the same. Use the actual edible weight in the selected state; this does not convert raw weight to cooked weight.","입력한 무게는 유지돼요. 선택한 조리 상태에서 실제 먹는 무게를 입력하세요. 조리 전후 무게를 환산하는 기능은 아닙니다.");host.append(title,buttons,note);
+}
 function servingPresets(id){
  const x=getIngredient(id);
  if(x?.category==="nut")return [10,20,30,100];
@@ -507,7 +521,7 @@ function renderIngredient(key,scroll=true,preserveAmount=false){
  if(db?.sources?.[0]?.review_status==="basis_conflict")$("ingredientNote").textContent=tr("The source calculation basis differs substantially from the manufacturer retail label. Nutrition calculation is on hold while the basis is reviewed.","원본 DB의 계산 기준과 본사직영 판매처 표시값에 큰 차이가 있어 기준을 재확인 중입니다. 확인 전까지 이 기록의 영양 계산을 보류합니다.");
  renderFoodSource(key);
  $("amountInput").removeAttribute("aria-invalid");$("amountError").textContent="";
- renderPackagePortion(db);
+ renderPackagePortion(db);renderFoodPreparationChoices(db);
  $("amountInput").value=currentAmount; updateNutrition(); renderAllergy(key);
  $("result").classList.remove("hidden");
  renderCountryCards();
