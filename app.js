@@ -237,6 +237,7 @@ const GENERAL_FOOD_PREFERENCES={"밥":"cooked_white_rice","쌀밥":"cooked_white
 Object.assign(GENERAL_FOOD_PREFERENCES,{"닭고기":"rda:I008000D150a","계육":"rda:I008000D150a","닭가슴살":"chicken_breast_raw","삶은닭가슴살":"rda:I008000D029b","닭가슴살삶은것":"rda:I008000D029b","구운닭가슴살":"rda:I008000D029g","닭가슴살구운것":"rda:I008000D029g","삶은계란":"rda:J0030000009b","삶은달걀":"rda:J0030000009b","계란삶은것":"rda:J0030000009b","달걀삶은것":"rda:J0030000009b","계란후라이":"rda:J0040000009m","계란프라이":"rda:J0040000009m","달걀후라이":"rda:J0040000009m","달걀프라이":"rda:J0040000009m"});
 Object.assign(GENERAL_FOOD_PREFERENCES,{"삶은감자":"rda:B0010140009b","감자삶은것":"rda:B0010140009b","찐감자":"rda:B0010140009e","감자찐것":"rda:B0010140009e","구운감자":"rda:B0010140009f","감자구운것":"rda:B0010140009f","찐고구마":"rda:B0060000009e","고구마찐것":"rda:B0060000009e","군고구마":"rda:B0060000009f","구운고구마":"rda:B0060000009f","고구마구운것":"rda:B0060000009f","데친브로콜리":"rda:F0920000009c","브로콜리데친것":"rda:F0920000009c","찐브로콜리":"rda:F0920000009e","브로콜리찐것":"rda:F0920000009e","데친시금치":"rda:F1150000009c","시금치데친것":"rda:F1150000009c"});
 Object.assign(GENERAL_FOOD_PREFERENCES,{"데친당근":"rda:F041000B099c","당근데친것":"rda:F041000B099c","찐당근":"rda:F041000B099e","당근찐것":"rda:F041000B099e","데친양배추":"rda:F1290000009c","양배추데친것":"rda:F1290000009c","찐양배추":"rda:F1290000009e","양배추찐것":"rda:F1290000009e","삶은양배추":"rda:F1290000009b","양배추삶은것":"rda:F1290000009b","삶은콩나물":"rda:F1820000009b","콩나물삶은것":"rda:F1820000009b","데친애호박":"rda:F1980050009c","애호박데친것":"rda:F1980050009c","데친가지":"rda:F0030000009c","가지데친것":"rda:F0030000009c","데친양파":"rda:F1320000009c","양파데친것":"rda:F1320000009c","찐양파":"rda:F1320000009e","양파찐것":"rda:F1320000009e"});
+Object.assign(GENERAL_FOOD_PREFERENCES,{"소주":"rda:Q0100002389a","맥주":"rda:Q0060001629a","막걸리":"rda:Q0040001689a","녹차":"rda:O007000000Na","홍차":"rda:O032000000Na","보리차":"rda:O014000000Na","생수":"rda:P0130000009a"});
 function prepareFoodSearch(terms){
  const primary=terms[0];return {primary,pc:compactSearch(primary),bad:(SEARCH_FALSE_POSITIVES[primary]||[]).map(normalize),plans:terms.map((q,ti)=>({q,qc:compactSearch(q),penalty:ti===0?0:(SEARCH_RELATED[primary]||[]).includes(q)?6:2})),tokens:primary.split(/\s+/).map(compactSearch).filter(Boolean)};
 }
@@ -294,6 +295,13 @@ function renderIngredientSuggestions(raw){
 function moveSuggestion(delta){const host=$("ingredientSuggestions"),items=[...host.querySelectorAll(".ingredient-suggestion")];if(!items.length)return;suggestionIndex=suggestionIndex<0?(delta<0?items.length-1:0):(suggestionIndex+delta+items.length)%items.length;items.forEach((x,i)=>{const active=i===suggestionIndex;x.classList.toggle("active",active);x.setAttribute("aria-selected",active?"true":"false")});$("ingredientInput").setAttribute("aria-activedescendant",items[suggestionIndex].id);items[suggestionIndex].scrollIntoView({block:"nearest"})}
 function chooseSuggestion(){const items=[...$("ingredientSuggestions").querySelectorAll(".ingredient-suggestion")];if(suggestionIndex>=0&&items[suggestionIndex]){items[suggestionIndex].click();return true}return false}
 function getIngredient(id){const canonical=canonicalIngredientId(id);return DB_INGREDIENTS.find(x=>x.id===canonical)||DB_BULK_BY_ID.get(id)||null}
+const REFERENCE_BEVERAGE_IDS=new Set(["rda:Q0100002389a","rda:Q0060001629a","rda:Q0040001689a","rda:O007000000Na","rda:O032000000Na","rda:O014000000Na","rda:P0130000009a","rda:O027001158Pa"]);
+function referenceBeverageNote(food){
+ if(!REFERENCE_BEVERAGE_IDS.has(food?.id))return "";
+ const source=food.sources?.[0]||{},basis=source.basis||"100g",name=source.source_food_name||food.names.ko;
+ const alcohol=/알코올|alcohol/i.test(name);
+ return tr("Official beverage reference per "+basis+". Source: "+name+". Check the actual product's formulation and "+(alcohol?"alcohol content":"added sugars")+". Grams and milliliters are not converted.","공식 음료 자료의 "+basis+" 기준입니다. 원본 식품명: "+name+". 실제 제품의 "+(alcohol?"배합·알코올 도수":"배합·당류 첨가 여부")+"를 확인하세요. g와 ml는 서로 환산하지 않습니다.");
+}
 const FOOD_PREPARATION_GROUPS=[
  [{id:"egg_whole",ko:"생달걀",en:"Raw egg"},{id:"rda:J0030000009b",ko:"삶은 달걀",en:"Boiled egg"},{id:"rda:J0040000009m",ko:"달걀프라이",en:"Fried egg"}],
  [{id:"chicken_breast_raw",ko:"생 닭가슴살",en:"Raw chicken breast"},{id:"rda:I008000D029b",ko:"삶은 닭가슴살",en:"Boiled chicken breast"},{id:"rda:I008000D029g",ko:"구운 닭가슴살",en:"Pan-grilled chicken breast"}],
@@ -533,6 +541,7 @@ function renderIngredient(key,scroll=true,preserveAmount=false){
  if(key==="peanut_dried")$("ingredientNote").textContent=tr("Dried peanuts, edible portion per 100g. Roasted, salted and coated products have different values.","말린 땅콩의 먹는 부분 100g 기준입니다. 볶음·소금첨가·코팅 제품은 영양값이 다릅니다.");
  if(db?.sources?.[0]?.workbook_sheet)$("ingredientNote").textContent=tr("Edible portion per 100g. Source preparation/variety: ","껍질·뼈 등 먹지 않는 부분을 제외한 100g 기준입니다. 원본 조리 상태·품종: ")+db.sources[0].source_food_name;
  if(db?.sources?.[0]?.review_status==="basis_conflict")$("ingredientNote").textContent=tr("The source calculation basis differs substantially from the manufacturer retail label. Nutrition calculation is on hold while the basis is reviewed.","원본 DB의 계산 기준과 본사직영 판매처 표시값에 큰 차이가 있어 기준을 재확인 중입니다. 확인 전까지 이 기록의 영양 계산을 보류합니다.");
+ const beverageNote=referenceBeverageNote(db);if(beverageNote)$("ingredientNote").textContent=beverageNote;
  renderFoodSource(key);
  $("amountInput").removeAttribute("aria-invalid");$("amountError").textContent="";
  renderPackagePortion(db);renderFoodPreparationChoices(db);

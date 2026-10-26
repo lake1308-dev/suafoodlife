@@ -1,0 +1,7 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');const app=fs.readFileSync('app.js','utf8');let lang='ko';const ctx=vm.createContext({Set,tr:(en,ko)=>lang==='ko'?ko:en});vm.runInContext(app.slice(app.indexOf('const REFERENCE_BEVERAGE_IDS='),app.indexOf('const FOOD_PREPARATION_GROUPS=')),ctx);
+const soju={id:'rda:Q0100002389a',names:{ko:'소주'},sources:[{source_food_name:'증류주, 소주, 희석식, 알코올 17.8%',basis:'100g'}]};let note=ctx.referenceBeverageNote(soju);assert(note.includes('100g'));assert(note.includes('17.8%'));assert(note.includes('g와 ml는 서로 환산하지 않습니다'));assert(!note.includes('껍질'));assert(!note.includes('100ml'));
+assert.equal(ctx.referenceBeverageNote(null),'');assert.equal(ctx.referenceBeverageNote({id:'branded_soju'}),'');assert.equal(ctx.referenceBeverageNote({id:'egg_whole'}),'');
+const tea=ctx.referenceBeverageNote({id:'rda:O007000000Na',names:{ko:'녹차'},sources:[{basis:'100g',source_food_name:'녹차'}]});assert(tea.includes('당류 첨가 여부'));assert(!tea.includes('알코올 도수'));
+lang='en';assert(ctx.referenceBeverageNote(soju).includes('per 100g'));assert(ctx.referenceBeverageNote(soju).includes('not converted'));
+assert(app.includes('const beverageNote=referenceBeverageNote(db);'),'food result renderer uses drink-specific basis note');
+console.log('PASS beverage reference keeps alcohol content and 100g source basis, avoids edible-part advice and volume conversion, leaves other foods/products alone and supports English.');
