@@ -13,7 +13,7 @@ let DB_RECIPES=[];
 let bulkLoadState="loading",ingredientLoadState="loading",recipeLoadState="loading";
 function foodSearchLoading(){return bulkLoadState==="loading"||ingredientLoadState==="loading";}
 function readyBasicSearch(raw,id){
- if(ingredientLoadState!=="ready"||!id)return false;
+ if(ingredientLoadState==="loading"||!id)return false;
  const food=getIngredient(id),name=food&&BASIC_INGREDIENT_NAMES[food.id];
  // Exact names have the fixed -50 preference, so later catalogue rows cannot outrank them.
  return !!name&&normalize(raw)===normalize(name)&&food.verification_status!=="product_label"&&Number.isFinite(food.nutrition_per_100g?.kcal);
@@ -21,8 +21,8 @@ function readyBasicSearch(raw,id){
 function updateSearchReadiness(){
  const el=$("searchReadiness");if(!el)return;
  const count=DB_BULK.length.toLocaleString(lang==="ko"?"ko-KR":"en-US");
- el.textContent=foodSearchLoading()&&ingredientLoadState==="ready"?tr("Basic ingredients are ready · product data still loading ("+count+" records).", "기본 재료 검색 가능 · 제품 자료 준비 중 ("+count+"건)"):foodSearchLoading()?tr("Preparing food search · "+count+" records ready. You can type now; pending searches update automatically.","검색 자료 준비 중 · "+count+"건 준비됨. 지금 입력해도 괜찮아요. 기다리는 검색은 준비되면 자동으로 표시됩니다."):bulkLoadState==="ready"?tr("Food search ready","음식 검색 준비 완료"):tr("Some search data could not load. Refresh to retry; available foods remain searchable.","일부 검색 자료를 불러오지 못했어요. 새로고침하면 다시 시도합니다. 준비된 음식은 검색할 수 있어요.");
- el.dataset.state=foodSearchLoading()?"loading":bulkLoadState;
+ el.textContent=foodSearchLoading()&&ingredientLoadState==="partial"?tr("Some ingredient data could not load; product data is still loading.","일부 재료 자료를 불러오지 못했어요. 제품 자료는 계속 준비 중입니다."):foodSearchLoading()&&ingredientLoadState!=="loading"?tr("Basic ingredients are ready · product data still loading ("+count+" records).", "기본 재료 검색 가능 · 제품 자료 준비 중 ("+count+"건)"):foodSearchLoading()?tr("Preparing food search · "+count+" records ready. You can type now; pending searches update automatically.","검색 자료 준비 중 · "+count+"건 준비됨. 지금 입력해도 괜찮아요. 기다리는 검색은 준비되면 자동으로 표시됩니다."):bulkLoadState==="ready"&&ingredientLoadState==="ready"?tr("Food search ready","음식 검색 준비 완료"):tr("Some search data could not load. Refresh to retry; available foods remain searchable.","일부 검색 자료를 불러오지 못했어요. 새로고침하면 다시 시도합니다. 준비된 음식은 검색할 수 있어요.");
+ el.dataset.state=foodSearchLoading()?"loading":(ingredientLoadState!=="ready"?"partial":bulkLoadState);
 }
 let FOOD_DETAILS={};
 let FOOD_ADVICE_BATCH={};
@@ -183,23 +183,24 @@ async function loadBulkNutritionDB(){
  if(typeof updateSearchReadiness==="function")updateSearchReadiness();
 }
 async function loadIngredientDB(){
+ let incomplete=false;
  try{
-  const [baseRes,kfindRes]=await Promise.all([fetch("data/ingredients.json?v=1.2.1",{cache:"no-store"}),fetch("data/nutrition-kfind.json?v=0.1.16",{cache:"no-store"})]);
+  const [baseRes,kfindRes]=await Promise.all([fetch("data/ingredients.json?v=1.2.1",{cache:"no-store"}),fetch("data/nutrition-kfind.json?v=0.1.16",{cache:"no-store"}).catch(()=>({ok:false,status:"network"}))]);
   if(!baseRes.ok)throw new Error("ingredient DB "+baseRes.status);
   const data=await baseRes.json(),base=(data.ingredients||[]).filter(x=>x.status!=="placeholder_pending_curation"),byId=new Map(base.map(x=>[x.id,x]));
-  if(kfindRes.ok){
+  if(kfindRes.ok){try{
    const kfind=await kfindRes.json();
    (kfind.records||[]).forEach(r=>{
     const id=r.ingredient_id,existing=byId.get(id);
     if(existing){existing.nutrition_per_100g=r.nutrition_per_100g;existing.verification_status="verified";existing.sources=existing.sources||[];return}
     byId.set(id,{id,names:{ko:r.source_food_name,en:r.source_food_name},aliases:{ko:[],en:[]},category:"verified_food",nutrition_per_100g:r.nutrition_per_100g,verification_status:"verified",sources:[{source_key:"K-FIND",source_record_id:r.source_food_code,source_food_name:r.source_food_name,basis:"100g",source:r.source_url}]})
    })
-  }else console.warn("K-FIND nutrition DB unavailable; keeping base ingredient DB.",kfindRes.status);
+  }catch(err){incomplete=true;console.warn("K-FIND nutrition DB invalid",err)}}else{incomplete=true;console.warn("K-FIND nutrition DB unavailable; keeping base ingredient DB.",kfindRes.status)}
   DB_INGREDIENTS=[...byId.values()];rebuildIngredientIndex();refreshPendingSearch();
-  try{const pr=await fetch("data/products-curated.json?v=0.1.3",{cache:"no-store"});if(pr.ok){const pd=await pr.json();(pd.products||[]).forEach(x=>byId.set(x.id,x));}}catch(err){console.warn("Curated products unavailable",err)}
-  try{const res=await fetch("data/products-allergen-50-20261008.json?v=0.1.3",{cache:"no-store"});if(res.ok){const data=await res.json();(data.products||[]).forEach(x=>byId.set(x.id,x))}}catch(err){console.warn("Product allergen review batch unavailable",err)}
-  try{const res=await fetch("data/products-official-labels-20261008.json?v=0.1.3",{cache:"no-store"});if(res.ok){const data=await res.json();(data.products||[]).forEach(x=>byId.set(x.id,x))}}catch(err){console.warn("Official product labels unavailable",err)}
-  try{const res=await fetch("data/allergen-ingredients.json?v=0.2.0",{cache:"no-store"});if(res.ok){const data=await res.json();(data.ingredients||[]).forEach(x=>{const existing=byId.get(x.id);byId.set(x.id,{...existing,...x})})}}catch(err){console.warn("Basic allergen ingredients unavailable",err)}
+  try{const pr=await fetch("data/products-curated.json?v=0.1.3",{cache:"no-store"});if(pr.ok){const pd=await pr.json();(pd.products||[]).forEach(x=>byId.set(x.id,x));}else incomplete=true}catch(err){incomplete=true;console.warn("Curated products unavailable",err)}
+  try{const res=await fetch("data/products-allergen-50-20261008.json?v=0.1.3",{cache:"no-store"});if(res.ok){const data=await res.json();(data.products||[]).forEach(x=>byId.set(x.id,x))}else incomplete=true}catch(err){incomplete=true;console.warn("Product allergen review batch unavailable",err)}
+  try{const res=await fetch("data/products-official-labels-20261008.json?v=0.1.3",{cache:"no-store"});if(res.ok){const data=await res.json();(data.products||[]).forEach(x=>byId.set(x.id,x))}else incomplete=true}catch(err){incomplete=true;console.warn("Official product labels unavailable",err)}
+  try{const res=await fetch("data/allergen-ingredients.json?v=0.2.0",{cache:"no-store"});if(res.ok){const data=await res.json();(data.ingredients||[]).forEach(x=>{const existing=byId.get(x.id);byId.set(x.id,{...existing,...x})})}else incomplete=true}catch(err){incomplete=true;console.warn("Basic allergen ingredients unavailable",err)}
   const rdaBatches=[{url:"data/rda-basic-1000.json.gz?v=20261006",count:1000},{url:"data/rda-foods-1001-2000.json.gz?v=20261006",count:1000},...Array.from({length:10},(_,i)=>({url:`data/rda-foods-2001-2500-p${i+1}.json.gz?v=20261007`,count:50})),{url:"data/rda-foods-remaining-811.json.gz?v=20261007-quality",count:811}];
   for(const {url,count} of rdaBatches){try{
    const res=await fetch(url,{cache:"default"});if(!res.ok)throw new Error("RDA DB "+res.status);
@@ -207,11 +208,11 @@ async function loadIngredientDB(){
    const text=buf[0]===0x1f&&buf[1]===0x8b?await new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"))).text():new TextDecoder().decode(buf);
    const data=JSON.parse(text);if(data.record_count!==count||data.ingredients?.length!==count)throw new Error("Incomplete RDA ingredient batch");
    data.ingredients.forEach(x=>{const id=data.curated_id_by_record?.[x.id]||x.id,existing=byId.get(id);byId.set(id,existing?{...x,...existing,nutrition_per_100g:x.nutrition_per_100g,sources:x.sources,allergen_info:x.allergen_info}:{...x,id})});
-  }catch(err){console.warn("RDA batch unavailable; keeping other connected records.",url,err)}}
+  }catch(err){incomplete=true;console.warn("RDA batch unavailable; keeping other connected records.",url,err)}}
   DB_INGREDIENTS=[...byId.values()];rebuildIngredientIndex();
   Object.entries(BASIC_INGREDIENT_NAMES).forEach(([id,name])=>{if(byId.has(id))DB_ALIAS.set(normalize(name),id)});
- }catch(err){console.warn("Ingredient DB unavailable; using bundled fallback.",err)}
- ingredientLoadState="ready";updateSearchReadiness();
+ }catch(err){incomplete=true;console.warn("Ingredient DB unavailable; using bundled fallback.",err)}
+ ingredientLoadState=incomplete?"partial":"ready";updateSearchReadiness();
 }
 const SEARCH_GROUPS=[
  ["계란","달걀"],["소고기","쇠고기","우육"],["돼지고기","돈육"],["닭고기","계육"],["후라이","프라이"],["후라이드","프라이드"],
@@ -988,7 +989,7 @@ function refreshPendingSearch(){
  const hint=$("ingredientFallback");
  if(pendingFoodSubmit&&foodSearchLoading())return;
  if(searchIngredients(raw,1).length)hint?.classList.add("hidden");
- else if(bulkLoadState!=="loading"&&hint&&!hint.classList.contains("hidden"))hint.textContent=bulkLoadState==="failed"?tr("The official database could not load. Verified starter ingredients remain available.","공식 식품 자료를 불러오지 못했습니다. 검증된 기본 재료는 검색할 수 있습니다."):bulkLoadState==="partial"?tr("Some data could not load. Refresh to retry.","일부 자료를 불러오지 못했어요. 새로고침 후 다시 검색해 주세요."):tr(`No match for “${raw}”. Try a shorter food name.`,`“${raw}” 검색 결과가 없습니다. 음식 이름을 더 짧게 입력해 보세요.`);
+ else if(bulkLoadState!=="loading"&&hint&&!hint.classList.contains("hidden"))hint.textContent=bulkLoadState==="failed"?tr("The official database could not load. Verified starter ingredients remain available.","공식 식품 자료를 불러오지 못했습니다. 검증된 기본 재료는 검색할 수 있습니다."):(bulkLoadState==="partial"||ingredientLoadState==="partial")?tr("Some data could not load. Refresh to retry.","일부 자료를 불러오지 못했어요. 새로고침 후 다시 검색해 주세요."):tr(`No match for “${raw}”. Try a shorter food name.`,`“${raw}” 검색 결과가 없습니다. 음식 이름을 더 짧게 입력해 보세요.`);
 }
 updateSearchReadiness();
 Promise.allSettled([
