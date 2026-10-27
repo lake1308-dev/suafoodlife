@@ -706,21 +706,25 @@ function renderDBRecipeCard(r,host){
  c.onclick=()=>{lastRecipeTrigger=c;returnTarget=host.id==="ingredientRecipeResults"?"result":host.id==="exploreGrid"?"explorer":"recipeSearchResults";renderDBRecipe(r)};host.appendChild(c);
 }
 function calculateDBRecipeNutrition(r){
+ // Reference records are recipe-only estimates; these do not rename search results or assert product composition.
+ const referenceIds={tofu:"rda:D0150000009a",chili_powder_kr:"rda:R0070000005a",white_sugar:"rda:C0110020009a",sesame_oil:"rda:N0200000009a",canola_oil:"rda:N0180000009a",soy_sauce_kr:"rda:R0010010009a",gochujang:"rda:R0050010009a",doenjang:"rda:R0120020009a"};
  const totals={kcal:0,protein_g:0,carbs_g:0,fat_g:0,sat_fat_g:0,sugars_g:0,sodium_mg:0,cholesterol_mg:0};
- let verified=0,missing=[],invalid=[],missingNutrients=new Set();
+ let verified=0,missing=[],invalid=[],references=[],missingNutrients=new Set();
  r.ingredients.forEach((line,i)=>{
   const input=document.querySelector('.recipe-amount[data-i="'+i+'"]');
   const amount=recipeAmountValue(input?input.value:line.amount);
   if(amount===null){invalid.push(dbIngredientName(line.ingredient_id));return}
   if(amount===0)return;
-  const ing=getIngredient(line.ingredient_id), n=ing?.nutrition_per_100g;
-  if(line.unit!=="g" || !ing || ing.verification_status!=="verified" || !n || !Number.isFinite(n.kcal)){missing.push(dbIngredientName(line.ingredient_id));return}
+  const direct=getIngredient(line.ingredient_id),refId=referenceIds[line.ingredient_id],ing=direct||(!direct&&refId?getIngredient(refId):null),n=ing?.nutrition_per_100g,source=ing?.sources?.[0];
+  const usedReference=!direct&&!!refId&&!!ing,validReference=!usedReference||source?.basis==="100g"||(!source?.basis&&source?.basis_g===100);
+  if(line.unit!=="g" || !ing || ing.verification_status!=="verified" || !n || !Number.isFinite(n.kcal)||!validReference){missing.push(dbIngredientName(line.ingredient_id));return}
+  if(usedReference)references.push({ingredient:dbIngredientName(line.ingredient_id),sourceName:source.source_food_name||ing.names.ko,url:source.source_url||source.source||""});
   verified++; const f=amount/100;
   Object.keys(totals).forEach(k=>{if(Number.isFinite(n[k]))totals[k]+=n[k]*f;else missingNutrients.add(k)});
  });
  if(!verified)Object.keys(totals).forEach(k=>missingNutrients.add(k));
  missingNutrients.forEach(k=>totals[k]=null);
- return {totals,verified,missing,invalid,complete:missing.length===0&&invalid.length===0};
+ return {totals,verified,missing,invalid,references,complete:missing.length===0&&invalid.length===0};
 }
 function updateDBRecipeNutrition(){
  const r=currentDish;if(!r||!r.ingredients||r.public_recipe)return;
@@ -730,12 +734,17 @@ function updateDBRecipeNutrition(){
  if(out.invalid.length){box.textContent=tr("Nutrition is paused until all ingredient amounts are valid.","재료 양을 확인하면 영양정보를 다시 계산해요.");return}
  if(ingredientLoadState==="loading"){box.textContent=tr("Loading ingredient nutrition. This recipe will update automatically.","재료 영양정보를 불러오고 있어요. 준비되면 자동으로 다시 계산해요.");return}
  const fmt=(v,u)=>v==null?"—":Math.round(v*10)/10+u, partial=out.verified&&!out.complete;
- const prefix=partial?tr("Verified ingredients subtotal","검증된 재료 부분합계"):tr("Calculated nutrition","계산된 영양정보");
+ const prefix=partial?tr("Available-ingredient estimate","연결된 재료의 참고 부분합계"):out.references.length?tr("Estimated nutrition from ingredient references","대표 재료 자료를 이용한 영양 추정"):tr("Calculated nutrition","계산된 영양정보");
  box.innerHTML='<strong>'+prefix+'</strong>'+
  '<div>'+tr(partial?"Verified subtotal":"Whole recipe",partial?"검증분 합계":"전체 레시피")+': '+(out.verified?Math.round(t.kcal)+" kcal":"—")+'</div>'+
  '<div>'+tr(partial?"Verified subtotal per serving":"Per serving",partial?"검증분 1인분":"1인분")+': '+(out.verified?Math.round(t.kcal/servings)+" kcal":"—")+'</div>'+
  '<div>'+tr("Protein","단백질")+': '+(out.verified?fmt(t.protein_g==null?null:t.protein_g/servings,"g"):"—")+' · '+tr("Carbs","탄수화물")+': '+(out.verified?fmt(t.carbs_g==null?null:t.carbs_g/servings,"g"):"—")+' · '+tr("Fat","지방")+': '+(out.verified?fmt(t.fat_g==null?null:t.fat_g/servings,"g"):"—")+'</div>'+
- (out.complete?'<small>'+tr("All included ingredients use verified nutrition data.","포함된 모든 재료가 검증된 영양정보를 사용합니다.")+'</small>':'<small>'+tr("Not a full-recipe total. Missing verified data: ","전체 레시피 영양값이 아닙니다. 미포함 재료: ")+out.missing.join(", ")+'</small>');
+ (out.complete?'<small>'+tr("Ingredient-based estimate; cooking and products may change the result.","재료 자료를 합산한 참고 추정값입니다. 실제 제품과 조리 과정에 따라 달라질 수 있습니다.")+'</small>':'<small>'+tr("Not a full-recipe total. Missing verified data: ","전체 레시피 영양값이 아닙니다. 미포함 재료: ")+out.missing.join(", ")+'</small>');
+ if(out.references.length){
+  const section=document.createElement("div"),intro=document.createElement("p"),list=document.createElement("ul");
+  intro.textContent=tr("Representative references used (per 100g). Actual products may differ; cooking absorption and losses are not measured.","사용한 대표 재료 자료(100g 기준)입니다. 실제 제품마다 다를 수 있으며 조리 중 흡수·손실은 반영하지 않았습니다.");section.appendChild(intro);
+  out.references.forEach(ref=>{const item=document.createElement("li");item.textContent=ref.ingredient+" → "+ref.sourceName+" · 100g";if(/^https?:\/\//i.test(ref.url)){const link=document.createElement("a");link.href=ref.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=tr(" · Source ↗"," · 출처 ↗");item.appendChild(link)}list.appendChild(item)});section.appendChild(list);box.appendChild(section);
+ }
 }
 function creatorPortionIngredientLines(r,servings){
  if(!Number.isFinite(r.servings)||r.servings<=0||!Number.isFinite(servings)||servings<=0||!Array.isArray(r.portion_lines))return r.ingredients_text.split(/\n+/);
