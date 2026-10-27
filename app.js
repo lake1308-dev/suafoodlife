@@ -691,7 +691,7 @@ function countrySearch(q){
  matches.forEach(([en,m])=>{const d=document.createElement("div");d.className="country-result";d.tabIndex=0;d.setAttribute("role","button");d.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();d.click()}});d.innerHTML='<span>'+m[0]+'</span><b>'+tr(en,m[1])+'</b><small>'+tr("Open →","보기 →")+'</small>';d.onclick=()=>openCountry(en,"All");host.appendChild(d)})
 }
 $("countrySearchForm").addEventListener("submit",e=>{e.preventDefault();countrySearch($("countrySearchInput").value)});
-const RECIPE_LABELS_KO={tofu:"두부",chicken:"닭고기",egg_whole:"달걀",bacon:"베이컨",basil:"바질",beef_ground:"다진 소고기",beef_rib:"소갈비",bell_pepper:"피망",black_pepper:"후추",bread_white:"식빵",butter:"버터",canola_oil:"카놀라유",chili_powder_kr:"고춧가루",cumin:"커민",doenjang:"된장",fish_cake:"어묵",garaetteok:"가래떡",ginger:"생강",gochujang:"고추장",green_chili:"풋고추",heavy_cream:"생크림",kimchi:"김치",lime:"라임",olive_oil:"올리브유",parmesan:"파르메산 치즈",pasta_dry:"건조 파스타",pork_loin:"돼지 등심",radish:"무",rice_vinegar:"쌀식초",sesame_oil:"참기름",soy_sauce_kr:"간장",soybean_sprout:"콩나물",spinach:"시금치",tapioca:"타피오카",tortilla_wheat:"밀 토르티야",udon:"우동면",wheat_flour:"밀가루",white_sugar:"설탕",zucchini:"주키니"};
+const RECIPE_LABELS_KO={kimchi:"김치",tofu:"두부",chicken:"닭고기",egg_whole:"달걀",bacon:"베이컨",basil:"바질",beef_ground:"다진 소고기",beef_rib:"소갈비",bell_pepper:"피망",black_pepper:"후추",bread_white:"식빵",butter:"버터",canola_oil:"카놀라유",chili_powder_kr:"고춧가루",cumin:"커민",doenjang:"된장",fish_cake:"어묵",garaetteok:"가래떡",ginger:"생강",gochujang:"고추장",green_chili:"풋고추",heavy_cream:"생크림",kimchi:"김치",lime:"라임",olive_oil:"올리브유",parmesan:"파르메산 치즈",pasta_dry:"건조 파스타",pork_loin:"돼지 등심",radish:"무",rice_vinegar:"쌀식초",sesame_oil:"참기름",soy_sauce_kr:"간장",soybean_sprout:"콩나물",spinach:"시금치",tapioca:"타피오카",tortilla_wheat:"밀 토르티야",udon:"우동면",wheat_flour:"밀가루",white_sugar:"설탕",zucchini:"주키니"};
 function dbIngredientName(id){
  const x=getIngredient(id); if(x)return ingredientDisplayName(x);
  return lang==="ko"?(RECIPE_LABELS_KO[id]||id.replaceAll("_"," ")):id.replaceAll("_"," ");
@@ -707,8 +707,8 @@ function renderDBRecipeCard(r,host){
 }
 function calculateDBRecipeNutrition(r){
  // Reference records are recipe-only estimates; these do not rename search results or assert product composition.
- const referenceIds={tofu:"rda:D0150000009a",chili_powder_kr:"rda:R0070000005a",white_sugar:"rda:C0110020009a",sesame_oil:"rda:N0200000009a",canola_oil:"rda:N0180000009a",soy_sauce_kr:"rda:R0010010009a",gochujang:"rda:R0050010009a",doenjang:"rda:R0120020009a",garaetteok:"rda:A0110010009a",fish_cake:"rda:K8000000009j",pork_loin:"rda:I014000D110a",pasta_dry:"rda:A0240020001a",rice_vinegar:"rda:R0220040009a",black_pepper:"rda:R0410010005a",olive_oil:"rda:N0170000009a",heavy_cream:"rda:M0130070009a",radish:"rda:F065002B090a",butter:"rda:N0080002339a",parmesan:"rda:M0100070009a",bacon:"rda:I0210000009a",basil:"rda:F080000B140a"};
- const recipeSpecificRefs={bibimbap:{spinach:"rda:F1150000009c",soybean_sprout:"rda:F1820000009b"}};
+ const referenceIds={tofu:"rda:D0150000009a",chili_powder_kr:"rda:R0070000005a",white_sugar:"rda:C0110020009a",sesame_oil:"rda:N0200000009a",canola_oil:"rda:N0180000009a",soy_sauce_kr:"rda:R0010010009a",gochujang:"rda:R0050010009a",doenjang:"rda:R0120020009a",garaetteok:"rda:A0110010009a",fish_cake:"rda:K8000000009j",pork_loin:"rda:I014000D110a",pasta_dry:"rda:A0240020001a",rice_vinegar:"rda:R0220040009a",black_pepper:"rda:R0410010005a",olive_oil:"rda:N0170000009a",heavy_cream:"rda:M0130070009a",radish:"rda:F065002B090a",butter:"rda:N0080002339a",parmesan:"rda:M0100070009a",bacon:"rda:I0210000009a",basil:"rda:F080000B140a",ginger:"rda:F102000B100a",green_chili:"rda:F0180000620a",lime:"rda:H0220000000a",bell_pepper:"rda:F196000C050a"};
+ const recipeSpecificRefs={bibimbap:{spinach:"rda:F1150000009c",soybean_sprout:"rda:F1820000009b"},kimchi_jjigae:{kimchi:"rda:F2050070009a"}};
  const totals={kcal:0,protein_g:0,carbs_g:0,fat_g:0,sat_fat_g:0,sugars_g:0,sodium_mg:0,cholesterol_mg:0};
  let verified=0,missing=[],invalid=[],references=[],missingNutrients=new Set();
  r.ingredients.forEach((line,i)=>{
@@ -825,6 +825,7 @@ function renderCookingDetails(r,host){
 }
 function renderCookingNotice(r,host){
  renderCookingDetails(r,host);renderCookingPreflight(r,host);
+ if(r.id==="donkatsu"){const warning=document.createElement("p");warning.textContent=tr("Ingredient check: the list says white bread, while the cooking steps say breadcrumbs. This ingredient is excluded from the nutrition estimate until its type is confirmed.","재료 확인: 목록에는 식빵, 조리 순서에는 빵가루로 표시되어 있습니다. 종류를 확인하기 전까지 이 재료의 영양값은 계산에서 제외합니다.");host.appendChild(warning)}
  if(!r.cooking_notice)return;
  const p=document.createElement("p");p.textContent="조리 안내: "+r.cooking_notice;host.appendChild(p);
  if(r.related_recipe_id){const related=DB_RECIPES.find(x=>x.id===r.related_recipe_id);if(related){const button=document.createElement("button");button.type="button";button.textContent="재료·조리 순서 보기: "+related.names.ko;button.onclick=()=>renderDBRecipe(related);host.appendChild(button)}}
