@@ -707,7 +707,8 @@ function renderDBRecipeCard(r,host){
 }
 function calculateDBRecipeNutrition(r){
  // Reference records are recipe-only estimates; these do not rename search results or assert product composition.
- const referenceIds={tofu:"rda:D0150000009a",chili_powder_kr:"rda:R0070000005a",white_sugar:"rda:C0110020009a",sesame_oil:"rda:N0200000009a",canola_oil:"rda:N0180000009a",soy_sauce_kr:"rda:R0010010009a",gochujang:"rda:R0050010009a",doenjang:"rda:R0120020009a"};
+ const referenceIds={tofu:"rda:D0150000009a",chili_powder_kr:"rda:R0070000005a",white_sugar:"rda:C0110020009a",sesame_oil:"rda:N0200000009a",canola_oil:"rda:N0180000009a",soy_sauce_kr:"rda:R0010010009a",gochujang:"rda:R0050010009a",doenjang:"rda:R0120020009a",garaetteok:"rda:A0110010009a",fish_cake:"rda:K8000000009j",pork_loin:"rda:I014000D110a",pasta_dry:"rda:A0240020001a",rice_vinegar:"rda:R0220040009a",black_pepper:"rda:R0410010005a",olive_oil:"rda:N0170000009a",heavy_cream:"rda:M0130070009a",radish:"rda:F065002B090a",butter:"rda:N0080002339a",parmesan:"rda:M0100070009a",bacon:"rda:I0210000009a",basil:"rda:F080000B140a"};
+ const recipeSpecificRefs={bibimbap:{spinach:"rda:F1150000009c",soybean_sprout:"rda:F1820000009b"}};
  const totals={kcal:0,protein_g:0,carbs_g:0,fat_g:0,sat_fat_g:0,sugars_g:0,sodium_mg:0,cholesterol_mg:0};
  let verified=0,missing=[],invalid=[],references=[],missingNutrients=new Set();
  r.ingredients.forEach((line,i)=>{
@@ -715,7 +716,7 @@ function calculateDBRecipeNutrition(r){
   const amount=recipeAmountValue(input?input.value:line.amount);
   if(amount===null){invalid.push(dbIngredientName(line.ingredient_id));return}
   if(amount===0)return;
-  const direct=getIngredient(line.ingredient_id),refId=referenceIds[line.ingredient_id],ing=direct||(!direct&&refId?getIngredient(refId):null),n=ing?.nutrition_per_100g,source=ing?.sources?.[0];
+  const direct=getIngredient(line.ingredient_id),refId=recipeSpecificRefs[r.id]?.[line.ingredient_id]||referenceIds[line.ingredient_id],ing=direct||(!direct&&refId?getIngredient(refId):null),n=ing?.nutrition_per_100g,source=ing?.sources?.[0];
   const usedReference=!direct&&!!refId&&!!ing,validReference=!usedReference||source?.basis==="100g"||(!source?.basis&&source?.basis_g===100);
   if(line.unit!=="g" || !ing || ing.verification_status!=="verified" || !n || !Number.isFinite(n.kcal)||!validReference){missing.push(dbIngredientName(line.ingredient_id));return}
   if(usedReference)references.push({ingredient:dbIngredientName(line.ingredient_id),sourceName:source.source_food_name||ing.names.ko,url:source.source_url||source.source||""});
