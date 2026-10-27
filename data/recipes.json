@@ -283,14 +283,18 @@
       ],
       "steps": {
         "ko": [
-          "국물을 끓여 간을 맞춥니다.",
-          "우동면을 넣어 데웁니다.",
-          "어묵과 대파를 올려 마무리합니다."
+          "대파를 사용할 경우 씻어서 얇게 썰고, 어묵을 사용할 경우 먹기 좋은 크기로 썹니다.",
+          "기본 2인분에는 냄비에 물 약 600mL를 붓고 끓입니다. 인분이나 면의 양을 바꾸었다면 물도 조절하세요. 간장을 넣고 섞어 간을 확인합니다. 이 예시는 물과 간장으로 만드는 간단한 국물입니다.",
+          "어묵을 사용할 경우 국물에 넣어 제품에 적힌 조리 방법에 맞게 익힙니다.",
+          "우동면은 생면·냉동면·건면에 따라 조리 방법과 시간이 다르므로 포장지의 안내를 따릅니다. 별도로 삶아야 하는 면은 삶은 뒤 국물에 넣고, 바로 넣는 면은 국물에서 충분히 익힙니다.",
+          "면과 국물을 그릇에 담고 대파를 사용할 경우 마지막에 올립니다. 국물이 진하면 물을 조금 더 넣어 조절하세요."
         ],
         "en": [
-          "Bring the broth to a simmer and season it.",
-          "Heat the udon noodles in the broth.",
-          "Finish with fish cake and green onion."
+          "If using green onion, wash and thinly slice it. If using fish cake, cut it into bite-size pieces.",
+          "For the original two servings, bring about 600 mL water to a boil. Adjust the water if changing the servings or amount of noodles. Stir in the soy sauce and taste. This example uses a simple water and soy sauce broth.",
+          "If using fish cake, add it to the broth and cook according to its package instructions.",
+          "Cooking directions and times differ for fresh, frozen and dried udon, so follow the package. Cook noodles separately first if instructed; otherwise cook them thoroughly in the broth.",
+          "Serve the noodles and broth in bowls and top with green onion if using. Add a little water if the broth is too strong."
         ]
       },
       "tags": [
@@ -637,15 +641,20 @@
       ],
       "steps": {
         "ko": [
-          "밥을 그릇에 담습니다.",
-          "준비한 나물과 달걀을 올립니다.",
-          "고추장과 참기름을 넣고 비벼 먹습니다.",
+          "시금치와 콩나물은 깨끗이 씻고, 당근은 씻어 껍질을 벗긴 뒤 가늘게 채 썹니다. 이 예시의 시금치와 콩나물 양은 각각 데친 시금치와 삶은 콩나물을 기준으로 한 참고량입니다.",
+          "끓는 물에 시금치를 넣어 숨이 죽을 때까지 데친 뒤 건져 물기를 짭니다. 콩나물은 따로 물에 삶아 충분히 익힌 뒤 물기를 빼고 한 김 식힙니다.",
+          "당근은 끓는 물에 살짝 데쳐 원하는 부드러기가 되면 건져 물기를 뺍니다. 조리 전후 무게와 영양값은 달라질 수 있습니다.",
+          "달걀은 취향에 맞게 익힙니다. 완전히 익혀 먹으려면 흰자와 노른자가 모두 단단해질 때까지 익혀 주세요. 조리에 기름을 추가하면 표시된 영양 추정과 달라질 수 있습니다.",
+          "그릇에 밥을 담고 시금치, 콩나물, 당근과 익힌 달걀을 올립니다. 고추장과 참기름을 넣고 골고루 비벼 먹습니다.",
           "참고 조리법입니다. 실제 제품의 원재료와 알레르기 표시를 확인하세요."
         ],
         "en": [
-          "Place rice in a bowl.",
-          "Arrange vegetables and egg on top.",
-          "Add gochujang and sesame oil and mix."
+          "Wash the spinach and soybean sprouts. Wash and peel the carrot, then cut it into thin strips. The example amounts for spinach and sprouts refer to blanched spinach and boiled sprouts respectively.",
+          "Blanch the spinach in boiling water until wilted, then drain and gently squeeze out the water. Boil the soybean sprouts separately until thoroughly cooked, drain and let cool slightly.",
+          "Blanch the carrot strips until as tender as desired, then drain. Weight and nutrients may change during cooking.",
+          "Cook the egg to your preference. To cook it fully, heat until both white and yolk are firm. Additional cooking oil changes the nutrition estimate.",
+          "Put the rice in a bowl and arrange the spinach, sprouts, carrot and cooked egg on top. Add gochujang and sesame oil and mix.",
+          "This is a reference recipe. Check the ingredient and allergen labels of the actual products used."
         ]
       },
       "tags": [
