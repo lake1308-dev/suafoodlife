@@ -556,15 +556,20 @@
       ],
       "steps": {
         "ko": [
-          "김치와 돼지고기를 볶습니다.",
-          "물을 넣고 충분히 끓입니다.",
-          "두부와 양념을 넣고 마무리합니다.",
+          "김치와 돼지고기는 먹기 좋은 크기로 썹니다. 두부도 한입 크기로 썰고 대파는 어슷하게, 마늘은 잘게 다집니다. 생고기를 손질한 칼과 도마는 다른 재료에 사용하기 전 씻어 주세요.",
+          "냄비에 돼지고기와 김치를 넣고 중불에서 저으며 볶습니다. 바닥에 달라붙으면 물을 조금 넣어 주세요.",
+          "기본 2인분 기준 물 약 400mL를 붓고 고춧가루와 마늘을 넣습니다. 인분이나 재료 양을 바꾸었다면 물도 그에 맞춰 조절합니다.",
+          "끓기 시작하면 중약불로 줄여 김치가 부드러워지고 돼지고기가 속까지 충분히 익을 때까지 끓입니다. 고기 크기에 따라 익는 시간이 다르므로 가장 두꺼운 조각을 잘라 확인하세요.",
+          "두부를 넣고 부서지지 않게 살살 끓여 속까지 따뜻하게 데웁니다. 대파를 넣고 한소끔 끓인 뒤 간을 확인합니다. 국물이 너무 진하면 물을 조금 더하세요.",
           "참고 조리법입니다. 실제 제품의 원재료와 알레르기 표시를 확인하세요."
         ],
         "en": [
-          "Cook kimchi with pork.",
-          "Add water and simmer well.",
-          "Add tofu and seasonings to finish."
+          "Cut the kimchi, pork and tofu into bite-size pieces. Slice the green onion and mince the garlic. Wash knives and boards used for raw meat before using them for other ingredients.",
+          "Cook the pork and kimchi in a pot over medium heat, stirring. Add a little water if they stick.",
+          "For the original two servings, add about 400 mL water, the chili powder and garlic. Adjust the water when changing the number of servings or ingredient amounts.",
+          "When boiling, reduce to medium-low and simmer until the kimchi is tender and the pork is cooked through. Cooking time varies with thickness; cut into the thickest piece to check.",
+          "Add the tofu and gently simmer until heated through. Add the green onion, bring briefly back to a simmer, and taste. Add a little water if the broth is too strong.",
+          "This is a reference recipe. Check the ingredient and allergen labels of the actual products used."
         ]
       },
       "tags": [
@@ -1032,15 +1037,18 @@
       ],
       "steps": {
         "ko": [
-          "대파와 당근을 잘게 썰어 준비합니다.",
-          "팬에 기름을 두르고 채소와 달걀을 익힙니다.",
-          "밥과 간장을 넣고 골고루 볶습니다.",
-          "참고 조리법입니다. 실제 제품의 원재료와 알레르기 표시를 확인하세요."
+          "대파와 당근을 씻고 잘게 썹니다. 달걀은 작은 그릇에 깨서 풀고, 밥은 뭉친 부분을 주걱으로 가볍게 풀어 둡니다.",
+          "팬에 재료 목록의 기름을 두르고 중불로 데웁니다. 대파와 당근을 넣고 저어 가며 당근이 부드러워질 때까지 볶습니다. 팬이 너무 뜨거워 대파가 타면 불을 줄이세요.",
+          "채소를 팬 한쪽으로 밀고 빈 곳에 달걀을 붓습니다. 주걱으로 저어 달걀이 흐르는 부분 없이 충분히 익을 때까지 익힌 뒤 채소와 섞습니다.",
+          "밥을 넣고 주걱으로 뭉친 부분을 풀면서 골고루 볶습니다. 간장을 조금씩 넣어 섞고 밥이 속까지 뜨거워질 때까지 볶습니다.",
+          "불을 끄고 간을 확인해 그릇에 담습니다. 참고 조리법이므로 실제 사용한 간장 등 제품의 원재료와 알레르기 표시를 확인하세요."
         ],
         "en": [
-          "Chop green onion and carrot.",
-          "Heat oil and cook vegetables and egg.",
-          "Add rice and soy sauce and stir-fry."
+          "Wash and finely chop the green onion and carrot. Beat the egg in a small bowl and gently loosen any clumps of rice.",
+          "Warm the listed oil in a pan over medium heat. Add the green onion and carrot and stir-fry until the carrot is tender. Lower the heat if the green onion begins to burn.",
+          "Push the vegetables to one side and pour the egg into the empty space. Stir until fully cooked with no runny egg remaining, then mix with the vegetables.",
+          "Add the rice, breaking up clumps as you stir-fry. Add the soy sauce a little at a time and mix until the rice is hot throughout.",
+          "Turn off the heat, taste and serve. This is a reference recipe; check the ingredients and allergen labels of the soy sauce and other products actually used."
         ]
       },
       "tags": [
