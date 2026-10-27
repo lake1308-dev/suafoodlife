@@ -340,14 +340,20 @@
       ],
       "steps": {
         "ko": [
-          "파스타를 삶습니다.",
-          "올리브유에 마늘과 양파를 익히고 토마토를 넣어 소스를 만듭니다.",
-          "파스타와 소스를 섞고 바질로 마무리합니다."
+          "토마토는 씻어 꼭지를 떼고 잘게 썹니다. 양파와 마늘을 사용할 경우 껍질을 벗겨 잘게 다지고, 바질은 씻어 준비합니다.",
+          "냄비에 면이 넉넉히 잠길 물을 끓입니다. 물이 끓으면 마른 면을 넣어 포장지에 적힌 시간에 맞춰 삶고, 가끔 저어 면이 달라붙지 않게 합니다.",
+          "면을 건지기 전에 삶은 물을 작은 컵에 조금 남겨 둡니다. 면은 체에 밭쳐 물기를 빼고 찬물에 헹구지 않습니다. 소스와 함께 익힐 때 너무 불지 않도록 면의 상태를 확인하세요.",
+          "팬에 올리브유를 두르고 마늘을 사용할 경우 약불에서 천천히 볶습니다. 양파를 넣는 경우 함께 넣고 투명해질 때까지 볶으세요. 마늘을 넣었다면 갈색으로 진해지지 않도록 불을 조절합니다.",
+          "토마토를 넣고 중약불에서 저으며 익힙니다. 토마토가 부드러워지고 국물이 자작해지면 소스가 준비된 것입니다. 너무 되직하면 남겨 둔 면수를 조금씩 더합니다.",
+          "삶은 면을 팬에 넣고 중약불에서 소스와 골고루 섞습니다. 퍽퍽하면 면수를 조금 더 넣고, 바질을 사용할 경우 마지막에 넣어 마무리합니다."
         ],
         "en": [
-          "Cook the pasta.",
-          "Cook garlic and onion in olive oil, then add tomato to make the sauce.",
-          "Toss with pasta and finish with basil."
+          "Wash and finely chop the tomatoes. If using onion and garlic, peel and finely chop them. Wash the basil if using.",
+          "Bring enough water to cover the pasta to a boil. Add the dry pasta and cook according to the package, stirring occasionally.",
+          "Before draining, reserve a little pasta water in a small cup. Drain the pasta without rinsing it in cold water. Check its texture so it does not become too soft when combined with the sauce.",
+          "Warm the olive oil in a pan over low heat and gently cook the garlic if using. If using onion, add it and cook until translucent. If using garlic, adjust the heat to keep it from darkening.",
+          "Add the tomatoes and cook over medium-low heat, stirring, until soft and saucy. If the sauce gets too thick, add a little reserved pasta water at a time.",
+          "Add the drained pasta and toss with the sauce over medium-low heat. Add a little more pasta water if needed, then finish with basil if using."
         ]
       },
       "tags": [
