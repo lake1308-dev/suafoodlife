@@ -5,6 +5,9 @@ vm.runInContext(app.slice(app.indexOf('function foodSearchLoading'),app.indexOf(
 vm.runInContext(app.slice(app.indexOf('$("searchForm").addEventListener'),app.indexOf('document.querySelectorAll(".quick button")',app.indexOf('$("searchForm").addEventListener'))),ctx);
 el('ingredientInput').value='라면';handlers['searchForm:submit']({preventDefault(){}});assert.equal(rendered.pop(),'first');
 ctx.searchIngredients=()=>[];handlers['searchForm:submit']({preventDefault(){}});assert.equal(rendered.pop(),'exact');
+// Missing ingredient batches must not be mistaken for a genuinely absent food.
+ctx.findIngredientExact=()=>null;ctx.bulkLoadState='ready';ctx.ingredientLoadState='partial';handlers['searchForm:submit']({preventDefault(){}});assert(el('ingredientFallback').textContent.includes('새로고침'));
+ctx.ingredientLoadState='ready';handlers['searchForm:submit']({preventDefault(){}});assert(el('ingredientFallback').textContent.includes('검색 결과가 없습니다'));
 ctx.renderIngredientSuggestions=()=>{};ctx.findIngredientExact=()=>null;ctx.bulkLoadState='loading';handlers['searchForm:submit']({preventDefault(){}});assert(ctx.pendingFoodSubmit);
 // A partial catalogue match must not win before the exact ingredient arrives.
 ctx.searchIngredients=()=>[{id:'egg_soup'}];el('ingredientInput').value='달걀';
