@@ -727,21 +727,37 @@
       ],
       "steps": {
         "ko": [
-          "파스타를 삶습니다.",
-          "베이컨을 익히고 달걀과 치즈를 섞습니다.",
-          "불을 조절하며 파스타와 소스를 섞습니다."
+          "베이컨은 먹기 좋은 크기로 썰고 파르메산 치즈는 곱게 갈아 둡니다. 달걀은 그릇에 풀어 치즈와 후추를 섞습니다. 달걀을 만진 손과 도구는 다른 음식에 사용하기 전 씻으세요.",
+          "냄비에 면이 넉넉히 잠길 물을 끓이고 마른 파스타를 넣습니다. 포장지의 삶는 시간을 기준으로 익히면서 가끔 저어 면이 붙지 않게 합니다.",
+          "면을 건지기 전에 삶은 물을 작은 컵에 조금 남겨 둡니다. 면은 물기를 빼고 찬물에 헹구지 않습니다.",
+          "면이 삶아지는 동안 팬에 베이컨을 넣고 중약불에서 뒤집어 가며 익힙니다. 베이컨 제품의 가열 안내를 따르고, 팬이 너무 뜨거워 타기 시작하면 불을 줄입니다. 이 예시에는 별도 볶음용 기름을 넣지 않습니다.",
+          "익힌 면을 베이컨 팬에 넣어 섞은 뒤 불을 끕니다. 남겨 둔 면수를 조금씩 넣어 면을 촉촉하게 풀고 달걀·치즈 혼합물을 넣어 빠르게 섞습니다. 달걀을 넣을 때 팬을 강불에 두면 소스가 덩어리질 수 있습니다.",
+          "약불에서 계속 저으며 소스를 익힙니다. 너무 되직하면 면수를 조금씩 더하고, 식품용 온도계로 달걀이 섞인 소스가 72°C 이상인지 확인한 뒤 바로 담습니다. 소스가 걸쭉해지거나 면이 뜨겁다는 이유만으로 익힘을 판단하지 마세요.",
+          "잔열만으로 달걀을 덜 익혀 마무리하려면 일반 생달걀 대신 살균 표시가 있는 달걀 또는 살균 난제품을 사용하세요. 이 예시는 베이컨·전란·파르메산을 사용하는 가정식 구성으로, 생크림을 넣는 별도 레시피와 재료·영양값이 다릅니다."
         ],
         "en": [
-          "Cook the pasta.",
-          "Cook the bacon and combine egg with cheese.",
-          "Toss pasta with the mixture off direct heat."
+          "Cut the bacon into bite-size pieces and finely grate the Parmesan. Beat the eggs in a bowl and mix with the cheese and pepper. Wash hands and utensils used for raw eggs before using them for other foods.",
+          "Bring enough water to cover the pasta to a boil. Add the dry pasta and cook according to the package, stirring occasionally to prevent sticking.",
+          "Before draining, reserve a little pasta water in a small cup. Drain the pasta without rinsing it in cold water.",
+          "While the pasta cooks, cook the bacon over medium-low heat, turning it and following the product cooking instructions. Lower the heat if it starts to burn. This example uses no additional cooking oil.",
+          "Add the drained pasta to the bacon pan, toss and turn off the heat. Add a little reserved pasta water to loosen the noodles, then add the egg-cheese mixture and stir quickly. High heat can make the sauce clump.",
+          "Return to low heat and stir continuously to cook the sauce. Add a little pasta water if it becomes too thick. Use a food thermometer to check that the egg-containing sauce reaches at least 72°C before serving immediately. Thickness or hot pasta alone does not establish doneness.",
+          "If finishing with residual heat and leaving the eggs undercooked, use eggs or egg products labeled pasteurized instead of ordinary raw eggs. This home-style example uses bacon, whole eggs and Parmesan; its ingredients and nutrition differ from a cream-based recipe."
         ]
       },
       "tags": [
         "pasta",
         "creamy"
       ],
-      "nutrition_status": "incomplete_until_verified_ingredients"
+      "nutrition_status": "incomplete_until_verified_ingredients",
+      "cooking_notice": "달걀과 치즈로 소스를 만드는 가정식 예시입니다. 잔열만으로 일반 생달걀의 충분한 가열을 보장하지 않습니다. 달걀 요리의 가열 안내는 FDA 기준(160°F, 약 71.1°C)을 참고했으며, 이 조리 예시에서는 온도계로 72°C 이상을 확인하도록 안내합니다. 기름·소금·생크림 등 별도 재료를 추가하면 표시된 영양 추정과 달라집니다.",
+      "cooking_safety_sources": [
+        {
+          "name": "FDA — What You Need to Know About Egg Safety",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "checked_on": "2026-10-28"
+        }
+      ]
     },
     {
       "id": "butter_chicken_db",
