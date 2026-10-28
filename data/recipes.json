@@ -776,21 +776,35 @@
       ],
       "steps": {
         "ko": [
-          "닭을 양념해 익힙니다.",
-          "버터에 마늘과 생강을 볶고 토마토를 넣습니다.",
-          "닭과 생크림을 넣고 부드럽게 끓입니다."
+          "토마토는 씻어 꼭지를 떼고 잘게 썹니다. 마늘과 생강은 껍질을 벗겨 잘게 다집니다. 닭가슴살은 두께가 비슷한 한입 크기로 썰고, 생닭을 만진 손과 도구는 다른 재료를 만지기 전에 씻습니다.",
+          "팬에 재료 목록의 버터를 넣고 약불에서 녹입니다. 마늘과 생강을 넣어 저으며 향이 날 때까지 익힙니다. 버터나 마늘이 타지 않도록 불을 조절합니다.",
+          "닭가슴살을 넣고 중약불에서 뒤집어 가며 익힙니다. 표면이 익어도 속까지 익은 것은 아니므로 이후 소스에서도 계속 익혀 주세요.",
+          "토마토를 넣고 저어 가며 끓입니다. 바닥에 붙을 정도로 되직해지면 물을 조금씩 더하고, 토마토가 부드럽게 풀어질 때까지 끓입니다.",
+          "닭고기는 식품용 온도계를 사용해 가장 두꺼운 조각의 중심이 74°C 이상인지 확인합니다. 겉의 색이나 정해진 시간만으로 익힘을 판단하지 마세요.",
+          "약불로 줄인 뒤 생크림을 넣고 저으며 전체가 따뜻해지도록 부드럽게 끓입니다. 너무 되직하면 물을 조금 더해 농도를 조절합니다. 이 예시는 향신료를 생략한 토마토·크림 닭요리로, 일반적인 버터치킨의 향신료 배합을 모두 담고 있지는 않습니다."
         ],
         "en": [
-          "Season and cook the chicken.",
-          "Cook garlic and ginger in butter, then add tomato.",
-          "Add chicken and cream and simmer gently."
+          "Wash and finely chop the tomatoes. Peel and mince the garlic and ginger. Cut the chicken breast into bite-size pieces of similar thickness. Wash hands and utensils used for raw chicken before handling other ingredients.",
+          "Melt the listed butter over low heat. Add the garlic and ginger and stir until fragrant, adjusting the heat to prevent burning.",
+          "Add the chicken and cook over medium-low heat, turning the pieces. A cooked-looking surface does not mean the center is done; continue cooking in the sauce.",
+          "Add the tomatoes and simmer, stirring, until they soften into a sauce. Add a little water at a time if the mixture becomes thick enough to stick.",
+          "Use a food thermometer to check that the center of the thickest chicken pieces reaches at least 74°C (165°F). Do not rely only on color or a fixed cooking time.",
+          "Reduce to low heat, stir in the cream and gently simmer until hot throughout. Add a little water if needed. This example is a simplified tomato-cream chicken dish without the full spice mixture of typical butter chicken."
         ]
       },
       "tags": [
         "curry",
         "chicken"
       ],
-      "nutrition_status": "incomplete_until_verified_ingredients"
+      "nutrition_status": "incomplete_until_verified_ingredients",
+      "cooking_notice": "현재 재료로 만드는 간단한 토마토·크림 닭요리 예시입니다. 향신료·소금 등 별도 양념은 재료량과 영양 추정에 포함되어 있지 않습니다. 추가한 재료와 실제 제품에 따라 맛과 영양값이 달라집니다.",
+      "cooking_safety_sources": [
+        {
+          "name": "USDA FSIS — Safe internal temperature for poultry",
+          "url": "https://ask.fsis.usda.gov/article/What-is-a-safe-internal-temperature-for-cooking-meat-and-poultry",
+          "checked_on": "2026-10-28"
+        }
+      ]
     },
     {
       "id": "mapo_tofu_db",
@@ -902,21 +916,35 @@
       ],
       "steps": {
         "ko": [
-          "닭과 채소를 길게 썹니다.",
-          "닭을 향신료와 함께 익힙니다.",
-          "채소를 볶아 토르티야와 함께 냅니다."
+          "피망은 씻어 꼭지와 씨를 제거하고 양파는 껍질을 벗긴 뒤 길쭉하게 썹니다. 라임은 씻어 반으로 자릅니다. 닭가슴살도 비슷한 두께로 길게 썰고, 생닭을 만진 손과 도구는 다른 재료에 사용하기 전 씻습니다.",
+          "눌어붙지 않는 팬을 중약불로 데우고 닭과 쿠민을 넣습니다. 팬이 마르거나 재료가 붙으면 물을 조금씩 더하며 뒤집어 익힙니다. 이 예시의 재료 목록에는 별도 볶음용 기름이 없습니다.",
+          "피망과 양파를 넣고 중약불에서 저으며 익힙니다. 채소가 원하는 부드러기가 될 때까지 조리하고, 바닥이 마르면 물을 조금 더합니다.",
+          "닭고기는 식품용 온도계를 사용해 가장 두꺼운 조각의 중심이 74°C 이상인지 확인합니다. 채소가 익었거나 닭의 겉색이 변한 것만으로 완성으로 판단하지 마세요.",
+          "토르티야는 제품 포장에 적힌 가열 방법에 맞춰 별도로 데웁니다. 익히지 않은 제품은 단순히 따뜻하게 데우는 것으로 끝내지 말고 제품 안내대로 조리합니다.",
+          "토르티야에 익힌 닭과 채소를 올립니다. 라임즙은 조금씩 짜 넣어 신맛을 확인한 뒤 접어 먹습니다. 별도 소스나 기름을 추가하면 표시된 영양 추정과 달라질 수 있습니다."
         ],
         "en": [
-          "Slice chicken and vegetables.",
-          "Cook chicken with spices.",
-          "Sauté vegetables and serve with tortillas."
+          "Wash and deseed the pepper, peel the onion and cut both into strips. Wash and halve the lime. Cut the chicken into strips of similar thickness. Wash hands and utensils used for raw chicken before handling other ingredients.",
+          "Warm a nonstick pan over medium-low heat and add the chicken and cumin. Turn the pieces as they cook, adding a little water if the pan dries out or food sticks. This ingredient list has no additional cooking oil.",
+          "Add the pepper and onion and stir over medium-low heat until as tender as desired. Add a little water if the pan dries out.",
+          "Use a food thermometer to check that the center of the thickest chicken pieces reaches at least 74°C (165°F). Cooked vegetables or a change in the chicken surface color are not sufficient checks.",
+          "Heat the tortillas separately according to their package instructions. Uncooked tortillas need the full cooking process specified, not just warming.",
+          "Fill the tortillas with the cooked chicken and vegetables. Add lime juice a little at a time to taste and fold. Extra sauces or oil change the nutrition estimate."
         ]
       },
       "tags": [
         "chicken",
         "tex_mex"
       ],
-      "nutrition_status": "incomplete_until_verified_ingredients"
+      "nutrition_status": "incomplete_until_verified_ingredients",
+      "cooking_notice": "현재 재료 목록을 기준으로 한 간단한 조리 예시입니다. 별도 소스·소금·볶음용 기름은 포함하지 않았습니다. 기름이나 소스를 추가하면 영양값도 달라지며, 토르티야와 쿠민의 영양값은 아직 추정에 포함되지 않습니다.",
+      "cooking_safety_sources": [
+        {
+          "name": "USDA FSIS — Safe internal temperature for poultry",
+          "url": "https://ask.fsis.usda.gov/article/What-is-a-safe-internal-temperature-for-cooking-meat-and-poultry",
+          "checked_on": "2026-10-28"
+        }
+      ]
     },
     {
       "id": "dakbokkeumtang_reference",
