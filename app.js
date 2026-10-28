@@ -825,8 +825,17 @@ function renderCookingDetails(r,host){
  const note=document.createElement("p");note.textContent="아래 번호는 공식 영상 설명의 단계 번호입니다. 위에서 정리한 만드는 방법의 번호와 다를 수 있습니다. 각 기준은 해당 원본 단계에만 적용하며 전체 조리 시간이나 공통 불 세기를 뜻하지 않습니다.";details.appendChild(note);
  const list=document.createElement("ul");rows.forEach(row=>{const li=document.createElement("li");li.textContent="원본 "+row.source_step+"단계 — "+row.facts.join(" · ");list.appendChild(li)});details.appendChild(list);host.appendChild(details);
 }
+function renderCookingSafetySources(r,host){
+ const sources=Array.isArray(r.cooking_safety_sources)?r.cooking_safety_sources:[],seen=new Set(),valid=[];
+ sources.forEach(source=>{try{const url=new URL(source.url);if(url.protocol!=="https:"||seen.has(url.href))return;seen.add(url.href);valid.push({...source,url:url.href,name:source.name||url.hostname})}catch{}});
+ if(!valid.length)return;
+ const details=document.createElement("details"),summary=document.createElement("summary"),note=document.createElement("p"),list=document.createElement("ul");
+ summary.textContent=tr("Cooking safety sources","조리 안전 안내 출처");note.textContent=tr("References checked for cooking temperatures, thawing and other safety guidance.","익힘 온도·해동 등 조리 안전 기준을 확인한 자료입니다.");details.append(summary,note);
+ valid.forEach(source=>{const item=document.createElement("li"),link=document.createElement("a");link.href=source.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=source.name+" ↗";item.appendChild(link);if(/^\d{4}-\d{2}-\d{2}$/.test(source.checked_on||"")){const date=document.createElement("small");date.textContent=tr(" · Checked: "," · 자료 확인: ")+source.checked_on;item.appendChild(date)}list.appendChild(item)});
+ details.appendChild(list);host.appendChild(details);
+}
 function renderCookingNotice(r,host){
- renderCookingDetails(r,host);renderCookingPreflight(r,host);
+ renderCookingDetails(r,host);renderCookingPreflight(r,host);renderCookingSafetySources(r,host);
  if(r.id==="donkatsu"){const warning=document.createElement("p");warning.textContent=tr("Ingredient check: the list says white bread, while the cooking steps say breadcrumbs. This ingredient is excluded from the nutrition estimate until its type is confirmed.","재료 확인: 목록에는 식빵, 조리 순서에는 빵가루로 표시되어 있습니다. 종류를 확인하기 전까지 이 재료의 영양값은 계산에서 제외합니다.");host.appendChild(warning)}
  if(!r.cooking_notice)return;
  const p=document.createElement("p");p.textContent="조리 안내: "+r.cooking_notice;host.appendChild(p);
