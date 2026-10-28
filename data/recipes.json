@@ -229,21 +229,24 @@
       ],
       "steps": {
         "ko": [
-          "돼지고기를 얇게 펴고 밑간합니다.",
-          "밀가루·달걀·빵가루 순으로 입힙니다.",
-          "기름에 바삭하게 익힙니다."
+          "이 항목의 재료량은 영양 계산용 예시이며 완성된 돈까스 조리법이 아닙니다.",
+          "식빵과 빵가루 표기가 서로 달라 튀김옷을 확정할 수 없습니다. 표시된 기름량을 실제 튀김용 기름 준비량으로 사용하지 마세요.",
+          "아래 조리 안내의 경양식돈가스(달걀옷) 연결 버튼에서 재료, 튀김옷 순서와 원본 조리 조건을 확인하세요. 연결된 레시피는 별도 기준입니다."
         ],
         "en": [
-          "Flatten and season the pork.",
-          "Coat with flour, egg and breadcrumbs.",
-          "Fry until crisp and cooked through."
+          "These ingredient amounts are a nutrition-calculation example, not a complete pork cutlet recipe.",
+          "The bread and breadcrumb descriptions do not agree, so the coating is not confirmed. Do not use the listed oil amount as the amount required to fill a frying pan.",
+          "Use the related egg-coated pork cutlet recipe button in the cooking notice to view its ingredients, coating order and source cooking conditions. It is a separate recipe with a different basis."
         ]
       },
       "tags": [
         "fried",
         "cutlet"
       ],
-      "nutrition_status": "incomplete_until_verified_ingredients"
+      "nutrition_status": "incomplete_until_verified_ingredients",
+      "example_recipe": true,
+      "related_recipe_id": "paik_037o6vxm0es_egg",
+      "cooking_notice": "이 항목은 영양 계산용 기본 예시입니다. 재료에는 식빵, 조리 설명에는 빵가루로 적혀 있어 같은 재료로 확정하지 않았습니다. 기름 30g도 실제 튀김용 준비량을 뜻하지 않으며, 밑간과 소스 배합이 없어 그대로 따라 만들기에는 부족합니다. 아래 경양식돈가스(달걀옷) 레시피에서 별도의 재료·조리 순서를 확인하세요. 두 레시피의 재료와 영양값을 서로 합쳐 계산하지 않습니다."
     },
     {
       "id": "udon_basic",
@@ -864,21 +867,24 @@
       ],
       "steps": {
         "ko": [
-          "다진 고기와 향신채를 볶습니다.",
-          "양념과 두부를 넣습니다.",
-          "두부가 부서지지 않게 끓여 마무리합니다."
+          "이 항목은 두부와 다진 소고기 등을 이용한 영양 계산용 기본 예시입니다.",
+          "현재 목록에는 마파두부 소스와 전분물의 전체 배합이 없습니다. 이 목록만으로 완성 조리법이 갖춰진 것은 아닙니다.",
+          "아래 조리 안내의 마파두부덮밥 연결 버튼에서 별도 재료와 만드는 순서를 확인하세요. 연결 레시피는 돼지고기를 사용하므로 기본 예시의 재료·영양·알레르기 정보와 구분해 주세요."
         ],
         "en": [
-          "Cook ground meat with aromatics.",
-          "Add seasoning and tofu.",
-          "Simmer gently to finish."
+          "This is a basic nutrition-calculation example using tofu and ground beef.",
+          "The list does not contain a complete mapo sauce or starch slurry formula, so it is not a complete cooking recipe.",
+          "Use the related mapo tofu rice bowl button in the cooking notice for a separate ingredient list and method. That recipe uses pork, so its ingredients, nutrition and allergen information differ from this example."
         ]
       },
       "tags": [
         "spicy",
         "tofu"
       ],
-      "nutrition_status": "incomplete_until_verified_ingredients"
+      "nutrition_status": "incomplete_until_verified_ingredients",
+      "example_recipe": true,
+      "related_recipe_id": "epis_383",
+      "cooking_notice": "이 항목은 영양 계산용 기본 예시이며, 소스와 전분물 배합이 없어 완성 조리법으로 사용하기에는 부족합니다. 아래 농정원 마파두부덮밥 레시피에서 두반장 등 별도 양념과 조리 순서를 확인하세요. 연결된 원본도 육수의 종류와 전분물의 물·전분 비율은 적혀 있지 않습니다. 기본 예시는 다진 소고기, 연결 레시피는 돼지고기를 사용하므로 재료·영양값·알레르기 정보를 서로 같은 기준으로 보지 마세요."
     },
     {
       "id": "chicken_fajitas_db",
