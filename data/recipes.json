@@ -419,21 +419,35 @@
       ],
       "steps": {
         "ko": [
-          "갈비의 핏물을 빼고 데칩니다.",
-          "갈비를 충분히 끓여 육수를 냅니다.",
-          "무와 양념을 넣고 익힌 뒤 대파로 마무리합니다."
+          "국거리용으로 절단된 갈비를 준비합니다. 냉동 갈비는 냉장고에서 해동하고 제품의 손질 안내를 확인하세요. 무는 씻어 껍질을 정리한 뒤 두툼한 한입 크기로 썰고, 대파는 씻어 썰고 마늘은 다집니다.",
+          "냄비에 갈비가 잠길 물을 끓인 뒤 갈비를 넣고 한 번 끓어오르면 건져 첫 물은 버립니다. 뜨거운 물과 증기에 주의하고 깨끗한 냄비에 옮깁니다.",
+          "기본 2인분 기준 새 물 약 1.2L와 갈비를 넣고 중불에서 끓입니다. 이 양은 시작량의 예시이며 갈비가 잠길 정도로 맞추고, 인분과 냄비 크기에 따라 조절합니다.",
+          "끓기 시작하면 떠오르는 거품을 걷고 중약불로 줄여 은근하게 끓입니다. 보통 1시간 이상 걸리며 갈비의 크기에 따라 더 걸릴 수 있습니다. 국물이 너무 줄면 물을 더하고, 고기가 충분히 익어 부드러워질 때까지 조리합니다.",
+          "무와 마늘을 넣어 무에 젓가락이 부드럽게 들어갈 때까지 끓입니다. 간장은 조금씩 넣어 간을 확인하고, 고기와 무가 모두 부드러워졌는지 확인하세요.",
+          "대파를 넣고 한소끔 더 끓여 마무리합니다. 이 예시는 별도 소금이나 다른 양념을 포함하지 않았으며, 추가 재료와 실제 제품에 따라 맛과 영양값이 달라질 수 있습니다."
         ],
         "en": [
-          "Soak and blanch the ribs.",
-          "Simmer the ribs until the broth is rich.",
-          "Add radish and seasoning, then finish with green onion."
+          "Use ribs sold already cut for soup. Thaw frozen ribs in the refrigerator and follow the product preparation instructions. Wash, trim and cut the radish into thick bite-size pieces. Wash and slice the green onion and mince the garlic.",
+          "Bring enough water to cover the ribs to a boil, add the ribs and let it return to a boil. Lift out the ribs, discard the first water and transfer to a clean pot, taking care with hot water and steam.",
+          "For the original two servings, add about 1.2 L fresh water and the ribs. This is an example starting amount: keep the ribs covered and adjust for servings and pot size.",
+          "Bring to a boil over medium heat, skim the foam, then reduce to medium-low. Simmer gently until the meat is cooked and tender, often an hour or longer depending on rib size. Add water if the liquid reduces too far.",
+          "Add the radish and garlic and simmer until a chopstick slides easily into the radish. Add the soy sauce a little at a time to taste and check that both meat and radish are tender.",
+          "Add the green onion and simmer briefly to finish. This example does not include extra salt or other seasonings; additional ingredients and actual products change taste and nutrition."
         ]
       },
       "tags": [
         "soup",
         "beef"
       ],
-      "nutrition_status": "incomplete_until_verified_ingredients"
+      "nutrition_status": "incomplete_until_verified_ingredients",
+      "cooking_notice": "갈비 크기와 뼈 비중에 따라 조리 시간과 먹을 수 있는 양이 달라집니다. 표시된 영양 추정은 전체 갈비탕 영양값이 아니며, 갈비 영양값은 아직 포함되지 않습니다. 물의 양과 시간은 조리 시작을 돕는 예시입니다.",
+      "cooking_safety_sources": [
+        {
+          "name": "USDA FSIS — Safe thawing",
+          "url": "https://ask.fsis.usda.gov/article/How-do-you-thaw-food-safely",
+          "checked_on": "2026-10-28"
+        }
+      ]
     },
     {
       "id": "tangsuyuk",
@@ -1003,16 +1017,20 @@
       ],
       "steps": {
         "ko": [
-          "닭고기와 감자·양파·당근을 준비합니다.",
-          "고추장·간장·마늘을 물에 풀고 닭고기를 넣어 끓입니다.",
-          "채소를 넣고 닭고기와 감자가 충분히 익도록 조리합니다.",
-          "참고 조리법입니다. 실제 제품의 원재료와 알레르기 표시를 확인하세요."
+          "감자와 당근은 씻어 껍질을 벗기고 비슷한 크기의 큼직한 조각으로 썹니다. 양파는 굵게 썰고 마늘은 다집니다. 닭은 토막 난 조리용 제품을 준비하고, 냉동 제품은 냉장고에서 해동합니다. 생닭을 만진 손과 도구는 다른 재료에 사용하기 전 씻습니다.",
+          "기본 2인분 기준 물 약 500mL에 고추장·간장·마늘을 풀어 냄비에 넣습니다. 물의 양은 조리 시작량의 예시이므로 인분과 냄비 크기에 맞춰 조절하세요.",
+          "닭을 넣고 중불에서 끓입니다. 끓어오르면 중약불로 줄이고, 바닥이 눌어붙지 않도록 가끔 저어 줍니다.",
+          "감자와 당근을 넣어 함께 익히고, 단단한 채소가 어느 정도 익으면 양파를 넣습니다. 국물이 너무 줄면 물을 조금씩 더합니다.",
+          "감자를 젓가락으로 찔러 부드럽게 들어가는지 확인합니다. 닭은 별도로 식품용 온도계를 이용해 뼈를 피한 가장 두꺼운 살의 중심이 74°C 이상인지 확인하세요. 감자가 익었거나 닭 겉색이 변한 것만으로 완성으로 판단하지 않습니다.",
+          "닭과 채소가 충분히 익으면 국물 농도를 확인합니다. 너무 진하면 물을 조금 더하고, 묽으면 뚜껑을 열고 잠시 더 끓입니다. 참고 조리법이므로 실제 제품의 원재료와 알레르기 표시를 확인하세요."
         ],
         "en": [
-          "Prepare chicken, potato, onion and carrot.",
-          "Mix gochujang, soy sauce and garlic with water; add chicken and simmer.",
-          "Add vegetables and cook until the chicken and potatoes are fully cooked.",
-          "This is a reference example. Adjust quantities and check the ingredient labels of the products used."
+          "Wash and peel the potato and carrot, then cut into similar large pieces. Roughly chop the onion and mince the garlic. Use chicken sold in cooking-size pieces; thaw frozen chicken in the refrigerator. Wash hands and utensils used for raw chicken before handling other ingredients.",
+          "For the original two servings, mix about 500 mL water with the gochujang, soy sauce and garlic in a pot. This is an example starting amount; adjust for servings and pot size.",
+          "Add the chicken and bring to a boil over medium heat. Reduce to medium-low and stir occasionally to prevent sticking.",
+          "Add the potato and carrot. When they have begun to soften, add the onion. Add a little water if the liquid reduces too far.",
+          "Check that a chopstick slides easily into a potato piece. Separately, use a food thermometer to confirm at least 74°C (165°F) in the thickest chicken meat, avoiding bones. Tender potatoes or chicken surface color alone do not establish doneness.",
+          "Once the chicken and vegetables are cooked, adjust the sauce thickness with a little water or by simmering uncovered. This is a reference recipe; check the ingredients and allergen labels of actual products."
         ]
       },
       "tags": [
@@ -1022,7 +1040,20 @@
       ],
       "nutrition_status": "incomplete_until_verified_ingredients",
       "reviewed_on": "2026-10-07",
-      "allergen_review_note": "이 조리 예시에 한해 재료명으로 확인한 원료를 표시합니다. 김치·된장·고추장·간장 등 사용 제품의 전체 표시와 조리 중 혼입 가능성은 별도로 확인하세요."
+      "allergen_review_note": "이 조리 예시에 한해 재료명으로 확인한 원료를 표시합니다. 김치·된장·고추장·간장 등 사용 제품의 전체 표시와 조리 중 혼입 가능성은 별도로 확인하세요.",
+      "cooking_notice": "물의 양은 기본 2인분의 조리 시작량 예시입니다. 냄비와 재료 크기에 따라 익는 속도와 수분 증발량이 다릅니다. 양념을 추가하면 영양 추정과 알레르기 확인 내용도 달라질 수 있습니다.",
+      "cooking_safety_sources": [
+        {
+          "name": "USDA FSIS — Chicken cooking temperature",
+          "url": "https://ask.fsis.usda.gov/article/What-are-cooking-times-for-chicken",
+          "checked_on": "2026-10-28"
+        },
+        {
+          "name": "USDA FSIS — Food thermometer placement",
+          "url": "https://ask.fsis.usda.gov/article/How-to-use-a-food-thermometer",
+          "checked_on": "2026-10-28"
+        }
+      ]
     },
     {
       "id": "egg_fried_rice_reference",
