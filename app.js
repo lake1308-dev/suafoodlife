@@ -573,7 +573,7 @@ function renderDishCards(list,target){
 }
 const RECIPE_COOKING_CHECKS=new Map();
 function renderRecipeCookingSteps(key,steps){
- const host=$("recipeSteps");host.replaceChildren();
+ const host=$("recipeSteps");host.replaceChildren();const adjustment=$("recipeCookingAdjustment");if(adjustment){adjustment.textContent="";adjustment.hidden=true}
  let progress=$("recipeCookingProgress");
  if(!progress){progress=document.createElement("section");progress.id="recipeCookingProgress";progress.className="discovery-progress";host.before(progress)}
  progress.replaceChildren();progress.hidden=!steps.length;if(!steps.length)return;
@@ -869,6 +869,15 @@ function recipeAmountValue(raw){
  const text=String(raw??"").trim();if(!text)return null;
  const value=Number(text);return Number.isFinite(value)&&value>=0&&value<=10000?value:null;
 }
+function updateRecipeCookingAdjustment(r){
+ const note=$("recipeCookingAdjustment");if(!note)return;note.textContent="";note.hidden=true;
+ if(!r||r.public_recipe||!Array.isArray(r.ingredients))return;
+ const removed=[],changed=[];let invalid=false;
+ r.ingredients.forEach((line,i)=>{const input=document.querySelector('.recipe-amount[data-i="'+i+'"]'),amount=recipeAmountValue(input?input.value:line.amount);if(amount===null){invalid=true;return}if(amount===0&&line.amount!==0)removed.push(dbIngredientName(line.ingredient_id));else if(amount!==Number(line.amount))changed.push(dbIngredientName(line.ingredient_id))});
+ if(invalid||(!removed.length&&!changed.length))return;
+ const parts=[];if(removed.length)parts.push(tr("Ingredients removed: ","뺀 재료: ")+removed.join(", ")+".");if(changed.length)parts.push(tr("Amounts changed: ","양을 바꾼 재료: ")+changed.join(", ")+".");
+ parts.push(tr("The cooking instructions still describe the original recipe. Adjust steps for removed ingredients; water, heat and cooking times do not change automatically.","만드는 방법은 원본 기준입니다. 뺀 재료를 넣는 단계는 조절해 주세요. 조리법의 분량·물의 양·불 세기·시간은 자동으로 바뀌지 않습니다."));note.textContent=parts.join(" ");note.hidden=false;
+}
 function syncRecipeAmountInputs(){
  const inputs=[...document.querySelectorAll(".recipe-amount")];let invalid=false;
  inputs.forEach(input=>{const amount=recipeAmountValue(input.value),li=input.closest("li"),button=li?.querySelector(".recipe-remove");
@@ -876,6 +885,7 @@ function syncRecipeAmountInputs(){
   const removed=amount===0;li?.classList.toggle("removed",removed);if(button)button.textContent=removed?tr("Restore","복원"):tr("Remove","빼기");
  });
  const error=$("recipeAmountError");if(error)error.textContent=invalid?tr("Enter an amount from 0 to 10,000 for each ingredient. Use 0 or Remove to leave one out.","각 재료 양에 0~10,000 사이의 숫자를 입력해 주세요. 재료를 제외하려면 0을 입력하거나 ‘빼기’를 눌러 주세요."):"";
+ updateRecipeCookingAdjustment(currentDish);
  return !invalid;
 }
 function recipeShoppingText(r){
