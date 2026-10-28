@@ -578,17 +578,18 @@ function renderRecipeCookingSteps(key,steps){
  if(!progress){progress=document.createElement("section");progress.id="recipeCookingProgress";progress.className="discovery-progress";host.before(progress)}
  progress.replaceChildren();progress.hidden=!steps.length;if(!steps.length)return;
  const checked=RECIPE_COOKING_CHECKS.get(key)||new Set();RECIPE_COOKING_CHECKS.set(key,checked);
- const heading=document.createElement("h3"),count=document.createElement("p"),reset=document.createElement("button"),note=document.createElement("p"),items=[];
- heading.textContent=tr("Check as you cook","만들면서 체크해요");count.setAttribute("role","status");reset.type="button";reset.textContent=tr("Reset cooking checks","조리 체크 초기화");note.className="data-note";note.textContent=tr("Checks are kept for each recipe in this tab until you refresh the page.","체크는 이 탭에서 레시피별로 유지되며, 새로고침하면 초기화돼요.");
- const update=()=>{const done=items.filter(x=>x.input.checked).length;count.textContent=tr("Cooking steps checked: "+done+" / "+items.length,"조리 과정 "+done+" / "+items.length+" 체크");reset.disabled=done===0};
+ const heading=document.createElement("h3"),count=document.createElement("p"),reset=document.createElement("button"),next=document.createElement("button"),note=document.createElement("p"),items=[];
+ heading.textContent=tr("Check as you cook","만들면서 체크해요");count.setAttribute("role","status");reset.type="button";reset.textContent=tr("Reset cooking checks","조리 체크 초기화");next.type="button";next.textContent=tr("Go to next unchecked step","다음 조리 단계 보기");note.className="data-note";note.textContent=tr("Checks are kept for each recipe in this tab until you refresh the page.","체크는 이 탭에서 레시피별로 유지되며, 새로고침하면 초기화돼요.");
+ const update=()=>{const done=items.filter(x=>x.input.checked).length;count.textContent=tr("Cooking steps checked: "+done+" / "+items.length,"조리 과정 "+done+" / "+items.length+" 체크");reset.disabled=done===0;const first=items.find(x=>!x.input.checked);next.disabled=!first;items.forEach(x=>{x.li.className=x===first?"recipe-step-next":"";if(x===first)x.li.setAttribute("aria-current","step");else x.li.removeAttribute("aria-current")})};
  reset.onclick=()=>{checked.clear();items.forEach(x=>{x.input.checked=false;x.label.className="discovery-step-check"});update()};
- progress.append(heading,count,reset,note);
+ next.onclick=()=>{const first=items.find(x=>!x.input.checked);if(first){first.li.scrollIntoView({behavior:"smooth",block:"center"});first.li.focus({preventScroll:true})}};
+ progress.append(heading,count,reset,next,note);
  steps.forEach((step,index)=>{
   const li=document.createElement("li"),label=document.createElement("label"),input=document.createElement("input"),text=document.createElement("span");
   input.type="checkbox";input.checked=checked.has(index);text.textContent=step.replace(/^\d+\.\s*/,"");
   const paint=()=>label.className="discovery-step-check"+(input.checked?" is-checked":"");paint();
   input.onchange=()=>{if(input.checked)checked.add(index);else checked.delete(index);paint();update()};
-  label.append(input,text);li.append(label);host.appendChild(li);items.push({input,label});
+  li.setAttribute("tabindex","-1");label.append(input,text);li.append(label);host.appendChild(li);items.push({input,label,li});
  });update();
 }
 function renderRecipe(d,scroll=true){
